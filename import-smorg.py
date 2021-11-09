@@ -1,4 +1,5 @@
 #!/usr/bin/env python
+import random
 import copy
 import yaml
 import sys
@@ -18,7 +19,7 @@ def listify(d):
 def getkey(v, mat):
     if mat['link'].startswith('topics/'):
         s = mat['link'].split('/')
-        return s[1] + '/' + s[2] + '/' + mat['type']
+        return s[1] + '/' + s[3] + '/' + mat['type']
     else:
         return v['name'] + mat['type']
 
@@ -39,10 +40,10 @@ def process(v):
         elif material['type'] == 'Tutorial':
             fixmats.append(material)
         else:
-            print(f"Dunno what to do with {material['type']}")
+            fixmats.append(material)
 
     n = {
-        'description': v['description'],
+        'description': v['video'].get('description', v['description']),
         'support_channel': v.get('support_channel', None),
         'support_link': v.get('support_link', None),
         'faq': v.get('faq', None),
@@ -53,13 +54,24 @@ def process(v):
         # 'material': materials,
         # 'supported_servers': [],
     }
-    for mat in fixmats:
-        n['materials'] = [mat]
-        k = getkey(v, mat)
-        videos[k] = copy.deepcopy(n)
+    # for mat in fixmats:
+        # n['materials'] = [mat]
+        # if k in videos:
+            # k += str(random.random())
+        # videos[k] = copy.deepcopy(n)
 
     if len(fixmats) == 0:
-        videos[v['name']] = copy.deepcopy(n)
+        k = v['name']
+        if k in videos:
+            k += str(random.random())
+        videos[k] = copy.deepcopy(n)
+    else:
+        k = getkey(v, fixmats[0])
+        # k = v['name']
+        if k in videos:
+            k += str(random.random())
+        n['materials'] = fixmats
+        videos[k] = copy.deepcopy(n)
 
 
 for k, v in data.items():
@@ -69,7 +81,7 @@ for k, v in data.items():
             if 'videos' in vv:
                 for video in vv['videos']:
                     vv['video'] = video
-                process(vv)
+                    process(vv)
 
 
 with open('videos.yaml', 'a') as handle:
