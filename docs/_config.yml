@@ -5,7 +5,7 @@
 #
 
 title: GTN Video Library
-base_url: "video-library"
+base_url: "/video-library"
 code_of_conduct: "https://galaxyproject.org/community/coc/"
 license:
 
