@@ -1,0 +1,34 @@
+# transcriptomics/scrna-intro/slides:
+#   description: |
+#       it possible to draw new conclusions that are not otherwise possible
+#       bulk RNA-seq. *Slides created by Mehmet Tekman*
+#
+#   support_channel: "#transcriptomics_single-cell-rnaseq-ES"
+#   support_link: "https://gtnsmrgsbord.slack.com/archives/C01M17R4YA1"
+#   faq: "https://docs.google.com/document/d/e/2PACX-1vSVFOV1C6hqMPGIpZ1qeOo
+#
+#   type: Lecture
+#   tags: [transcriptomics, single-cell]
+#   # language: es # Optional
+#   versions:
+#     - link: D3qvYWZMFa0
+#       length: 20M # Automate this?
+#       speakers:
+#         - awspolly
+#       captions:
+#         - mtekman
+#       date: 2021-02-15
+#       galaxy_version: 21.01
+#
+#   material:
+#     link: topics/transcriptomics/tutorials/scrna-intro/slides_ES.html
+#     title: Introducción al análisis de datos de scRNA-seq
+#     type: Slides
+#
+#   supported_servers: [] # Automatically calculated!
+
+
+
+
+
+
