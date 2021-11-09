@@ -1,3 +1,23 @@
+# Event information
+
+title: My awesome course
+description: Blablabla
+contacts:
+  - name:
+    email:
+cost:
+registration_link:
+feedback_form:
+code_of_conduct:
+
+#analytics_link
+support:
+  - channel:
+    url:
+#slack_override_all # use the event channel for all questions rather than defaults?
+
+
+program:
 - link: some-dev-topic-with-multiple-videos
   videos:
   - 12381238
