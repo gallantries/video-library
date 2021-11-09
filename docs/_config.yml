@@ -1,0 +1,30 @@
+# Galaxy Video Library & Course Builder
+#
+# Create your own Galaxy Training Events
+#
+#
+
+title: GTN Video Library
+base_url: "video-library"
+code_of_conduct: "https://galaxyproject.org/community/coc/"
+license:
+
+# Support defaults, can be overridden in event definition
+support:
+  platform: Slack
+  link: "https://gtnsmrgsbord.slack.com/"
+  join_link: "https://join.slack.com/t/gtnsmrgsbord/shared_invite/zt-x7vinbs1-BA~Kht6N86JBhDq0uTIVdQ"
+  icebreaker_link: "https://gtnsmrgsbord.slack.com/archives/C01EDBVMHBQ"
+  icebreaker_channel: "#social"
+  feedback_link: "https://gtnsmrgsbord.slack.com/archives/C01NDF5SFH6"
+  feedback_channel: "#feedback"
+
+# Video defaults
+video:
+  platform: YouTube
+  url_prefix: "https://youtu.be/" # this will be prepended to the video ids you put in the schedule
+
+
+
+# Build settings
+markdown: kramdown

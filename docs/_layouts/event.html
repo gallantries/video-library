@@ -1,0 +1,28 @@
+---
+layout: default
+---
+
+{% assign event = page %}
+
+<h1> {{ event.title }} </h1>
+
+{{ event.description }}
+
+{{ content }}
+
+<h2> Practical Information </h2>
+
+<h2> Program </h2>
+
+{% for m in event.program %}
+  {% assign module = m[1] %}
+  {% assign module_id = m[0] %}
+  <h3> {{module.title}}</h3>
+  {{module.description}}
+  <div class="accordion" id="accordion{{m[0]}}">
+  {% for session in module.sessions %}
+     {% assign s = site.data.sessions[session.link] | default: site.data.video[session.link] %}
+     {% include session.html session=s module=module_id %}
+  {% endfor %}
+  </div>
+{% endfor %}
