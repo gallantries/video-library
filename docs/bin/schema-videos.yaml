@@ -4,6 +4,9 @@ mapping:
     "=":
         type: map
         mapping:
+            name:
+                type: str
+                required: false
             description:
                 type: str
                 required: false

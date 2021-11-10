@@ -113,6 +113,7 @@ climate/fates/slides:
     speakers:
     - awspolly
 community/welcome:
+  name: Meet & Join the Galaxy Community!
   description: This short video gives an overview of the worldwide Galaxy community,
     and different ways you can get involved! <strong>Video created by Beatriz Serrano-Solano</strong>.
   faq: null
@@ -1863,6 +1864,7 @@ visualisation/jbrowse/tutorial:
   type: Tutorial
   versions: []
 webinar/admins:
+  name: Galaxy Resources for.. Admins
   materials:
   - external: true
     link: https://galaxyproject.org/events/webinars/
@@ -1882,6 +1884,7 @@ webinar/admins:
     - gmauro
     - lldelisle
 webinar/educators:
+  name: Galaxy Resources for.. Educators
   materials:
   - external: true
     link: https://galaxyproject.org/events/webinars/
@@ -1905,6 +1908,7 @@ webinar/educators:
     - subinamehta
     - bebatut
 webinar/researchers:
+  name: Galaxy Resources for.. Researchers
   description: Wondering how to get started, or how to do a particular type of analysis,
     or how to scale to thousands of datasets? This webinar will highlight how to find
     the resources and help you need for each of these questions and more.
@@ -1926,6 +1930,7 @@ webinar/researchers:
     speakers:
     - tnabtaf
 webinar/tooldevs:
+  name: Galaxy Resources for.. Tool Developers
   materials:
   - external: true
     link: https://galaxyproject.org/events/webinars/
