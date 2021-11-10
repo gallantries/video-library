@@ -1,0 +1,68 @@
+{
+  "url": "/video-library/api/tags/variant-analysis.json",
+  "videos": {
+    "variant-analysis/tb-variant-analysis/slides": {
+      "description": "Tuberculosis (TB) is an infectious disease caused by the bacterium Mycobacterium tuberculosis. According to the WHO, in 2018 there were 10.0 million new cases of TB worldwide and 1.4 million deaths due to the disease, making TB the world’s most deadly infectious disease.",
+      "faq": "https://docs.google.com/document/d/e/2PACX-1vTr2X-W-2-gronZbeEqj8OGTLyLqaUW2_7mCsHHgVMAVsOQt2faSNk5IaizQlYE_0vWU26v79Oqhyy3/pub",
+      "materials": [
+        {
+          "external": true,
+          "link": "https://docs.google.com/presentation/d/16XTMh2fRrl73WVaezNAFWET0IIMXBv0MCI2engFtdQs/edit#slide=id.g6231f48ea2_0_34",
+          "type": "Slides"
+        }
+      ],
+      "support_channel": "#microbial_tuberculosis-variant-analysis",
+      "support_link": "https://gtnsmrgsbord.slack.com/archives/C01FD2WJU01",
+      "tags": [
+        "variant-analysis"
+      ],
+      "type": "Lecture",
+      "versions": [
+        {
+          "captions": [
+            "shiltemann"
+          ],
+          "date": "2021-02-15",
+          "galaxy_version": "21.01",
+          "length": "20M",
+          "link": "yCC9EmLuyJg",
+          "speakers": [
+            "pvanheus"
+          ]
+        }
+      ]
+    },
+    "variant-analysis/tb-variant-analysis/tutorial": {
+      "description": "Variation in the genome of M. tuberculosis (Mtb) is associated with changes in phenotype, for example drug resistance and virulence. It is also useful for outbreak investigation as the single nucleotide polymorphisms (SNPs) in a sample can be used to build a phylogeny.",
+      "faq": "https://docs.google.com/document/d/e/2PACX-1vTr2X-W-2-gronZbeEqj8OGTLyLqaUW2_7mCsHHgVMAVsOQt2faSNk5IaizQlYE_0vWU26v79Oqhyy3/pub",
+      "materials": [
+        {
+          "link": "topics/variant-analysis/tutorials/tb-variant-analysis/tutorial.html",
+          "type": "Tutorial"
+        }
+      ],
+      "support_channel": "#microbial_tuberculosis-variant-analysis",
+      "support_link": "https://gtnsmrgsbord.slack.com/archives/C01FD2WJU01",
+      "tags": [
+        "variant-analysis"
+      ],
+      "type": "Tutorial",
+      "versions": [
+        {
+          "captions": [
+            "pvanheus",
+            "nagoue",
+            "hexylena"
+          ],
+          "date": "2021-02-15",
+          "galaxy_version": "21.01",
+          "length": "40M",
+          "link": "G1DmquX6Wh8",
+          "speakers": [
+            "pvanheus"
+          ]
+        }
+      ]
+    }
+  }
+}

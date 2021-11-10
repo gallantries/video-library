@@ -1,0 +1,25 @@
+{
+  "url": "/video-library/api/tags/ecology.json",
+  "videos": {
+    "ecology/PAMPA-toolsuite-tutorial/tutorial": {
+      "description": "This tutorial aims to present the PAMPA Galaxy workflow, how to use it to compute common biodiversity metrics from species abundance data and analyse it through generalized linear (mixed) models (GLM and GLMM). This workflow made up of 5 tools will allow you to process temporal series data that include at least year, location and species sampled along with abundance value and, finally, generate article-ready data products.",
+      "faq": "https://docs.google.com/document/d/e/2PACX-1vT-Qmqw2zxaaFZXqbNaxMkcgl-0HjU6LvU0K0O51cCyCv_HjJdGk_2VPvMRghCW0sUKF-58_SuDQ1fn/pub",
+      "materials": [
+        {
+          "link": "topics/ecology/tutorials/PAMPA-toolsuite-tutorial/tutorial.html",
+          "title": "Compute and analyze biodiversity metrics with PAMPA toolsuite",
+          "type": "Tutorial"
+        }
+      ],
+      "support_channel": "#ecology_pampa-toolsuite",
+      "support_link": "https://gtnsmrgsbord.slack.com/archives/C01FG38RR7Y",
+      "tags": [
+        "ecology"
+      ],
+      "type": "Tutorial",
+      "versions": [
+
+      ]
+    }
+  }
+}

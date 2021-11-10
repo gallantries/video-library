@@ -1,0 +1,36 @@
+{
+  "url": "/video-library/api/tags/proteogenomics.json",
+  "videos": {
+    "proteogenomics/introduction/slides": {
+      "description": "In this opening presentation, the basic components of proteogenomics are described, including the main steps in the bioinformatics analysis workflow that make up this approach and will be detailed in the following tutorials. Some examples of research questions that benefit from a proteogenomics approach are also highlighted.",
+      "faq": "https://docs.google.com/document/d/e/2PACX-1vTjQFq5wdkZeEFiQq-E8DkOTlLI9PChgWrwekHjPYBqndlb6kuAoXDiuiJaX5N09r63dWTyLPnnL8BK/pub",
+      "materials": [
+        {
+          "external": true,
+          "link": "https://drive.google.com/file/d/1rqzf6Mrk9cMuQ2531tM6RpltPLrDCrgh/view?usp=sharing",
+          "type": "Slides"
+        }
+      ],
+      "support_channel": "#proteomics_protegenomics",
+      "support_link": "https://gtnsmrgsbord.slack.com/archives/C01ETNTP6HL",
+      "tags": [
+        "proteogenomics"
+      ],
+      "type": "Lecture",
+      "versions": [
+        {
+          "captions": [
+            "emmaleith"
+          ],
+          "date": "2021-02-15",
+          "galaxy_version": "21.01",
+          "length": "20M",
+          "link": "WpH101OPrG0",
+          "speakers": [
+            "timothygriffin"
+          ]
+        }
+      ]
+    }
+  }
+}

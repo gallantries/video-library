@@ -1,0 +1,132 @@
+{
+  "url": "/video-library/api/tags/sequence-analysis.json",
+  "videos": {
+    "sequence-analysis/mapping/slides": {
+      "description": "This lecture covers the basic concepts involved in mapping sequencing reads to a reference genome.",
+      "faq": "https://docs.google.com/document/d/e/2PACX-1vReZf8DGTSf6DlgBzg_g4_PhiH7glzRNTXGxK2_xM3aAFL5A3x0FdawNCrna3NkZ_vj986u7nhWh3Bb/pub",
+      "materials": [
+        {
+          "link": "topics/sequence-analysis/tutorials/mapping/slides.html",
+          "title": "Mapping",
+          "type": "Slides"
+        }
+      ],
+      "support_channel": "#ngs_mapping",
+      "support_link": "https://gtnsmrgsbord.slack.com/archives/C01F6JHCFT6",
+      "tags": [
+        "sequence-analysis"
+      ],
+      "type": "Lecture & Tutorial",
+      "versions": [
+        {
+          "captions": [
+            "blankenberg"
+          ],
+          "date": "2021-02-15",
+          "galaxy_version": "21.01",
+          "length": "10M",
+          "link": "7FhHb8EV3EU",
+          "speakers": [
+            "pvanheus"
+          ]
+        }
+      ]
+    },
+    "sequence-analysis/mapping/tutorial": {
+      "description": "In this tutorial you will map sequencing data to a reference genome, and explore the mapped reads in a genome browser.",
+      "faq": "https://docs.google.com/document/d/e/2PACX-1vReZf8DGTSf6DlgBzg_g4_PhiH7glzRNTXGxK2_xM3aAFL5A3x0FdawNCrna3NkZ_vj986u7nhWh3Bb/pub",
+      "materials": [
+        {
+          "link": "topics/sequence-analysis/tutorials/mapping/tutorial.html",
+          "title": "Mapping",
+          "type": "Tutorial"
+        }
+      ],
+      "support_channel": "#ngs_mapping",
+      "support_link": "https://gtnsmrgsbord.slack.com/archives/C01F6JHCFT6",
+      "tags": [
+        "sequence-analysis"
+      ],
+      "type": "Lecture & Tutorial",
+      "versions": [
+        {
+          "captions": [
+            "shiltemann"
+          ],
+          "date": "2021-02-15",
+          "galaxy_version": "21.01",
+          "length": "20M",
+          "link": "1wm-62E2NkY",
+          "speakers": [
+            "pvanheus"
+          ]
+        }
+      ]
+    },
+    "sequence-analysis/quality-control/slides": {
+      "description": "This lecture goes over the concepts involved in assessing the quality of your sequencing data.",
+      "faq": "https://docs.google.com/document/d/e/2PACX-1vRXhvMQNVRc41Xsg7NLeCLSefaWMEhKgkENmqQqAJUfZAk782616svDQPBQhMKeOqMhiKSZDbmFqsfO/pub",
+      "materials": [
+        {
+          "link": "topics/sequence-analysis/tutorials/quality-control/slides.html",
+          "title": "Introduction to Quality Control",
+          "type": "Slides"
+        }
+      ],
+      "support_channel": "#ngs_quality-control",
+      "support_link": "https://gtnsmrgsbord.slack.com/archives/C01FQ92MB7A",
+      "tags": [
+        "sequence-analysis"
+      ],
+      "type": "Lecture & Tutorial",
+      "versions": [
+        {
+          "captions": [
+            "ennovytje",
+            "nagoue",
+            "hexylena"
+          ],
+          "date": "2021-02-15",
+          "galaxy_version": "21.01",
+          "length": "40M",
+          "link": "BWonTPS4zB8",
+          "speakers": [
+            "heylf"
+          ]
+        }
+      ]
+    },
+    "sequence-analysis/quality-control/tutorial": {
+      "description": "In this tutorial you will get some hand-on experience performing a quality assessment on sequencing data.",
+      "faq": "https://docs.google.com/document/d/e/2PACX-1vRXhvMQNVRc41Xsg7NLeCLSefaWMEhKgkENmqQqAJUfZAk782616svDQPBQhMKeOqMhiKSZDbmFqsfO/pub",
+      "materials": [
+        {
+          "link": "topics/sequence-analysis/tutorials/quality-control/tutorial.html",
+          "type": "Tutorial"
+        }
+      ],
+      "support_channel": "#ngs_quality-control",
+      "support_link": "https://gtnsmrgsbord.slack.com/archives/C01FQ92MB7A",
+      "tags": [
+        "sequence-analysis"
+      ],
+      "type": "Lecture & Tutorial",
+      "versions": [
+        {
+          "captions": [
+            "bebatut",
+            "nagoue",
+            "shiltemann"
+          ],
+          "date": "2021-02-15",
+          "galaxy_version": "21.01",
+          "length": "1H10M",
+          "link": "QJRlX2hWDKM",
+          "speakers": [
+            "heylf"
+          ]
+        }
+      ]
+    }
+  }
+}

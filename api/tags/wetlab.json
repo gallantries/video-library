@@ -1,0 +1,31 @@
+{
+  "url": "/video-library/api/tags/wetlab.json",
+  "videos": {
+    "wetlab/miseq/demo": {
+      "description": "This video will show you the full process of sequencing a bacterial genome using the Oxford Nanopore MinION sequencer.",
+      "faq": "https://docs.google.com/document/d/e/2PACX-1vQlG_Onq011MQqyIu4D_erDqiLKAMLnduhHr5cDWwbXVqlU9VZhmm4OT_zphKqb8TEZprAFo8rdPXjO/pub",
+      "materials": [
+
+      ],
+      "support_channel": "#microbiome_antibiotic-resistance-detection-nanopore",
+      "support_link": "https://gtnsmrgsbord.slack.com/archives/C01F1GJ7JJX",
+      "tags": [
+        "wetlab"
+      ],
+      "type": "Demo",
+      "versions": [
+        {
+          "captions": [
+            "shiltemann"
+          ],
+          "date": "2021-02-15",
+          "length": "20M",
+          "link": "bZfEyd87xCE",
+          "speakers": [
+            "miaomiaozhou88"
+          ]
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,125 @@
+{
+  "url": "/video-library/api/tags/webinar.json",
+  "videos": {
+    "webinar/admins": {
+      "materials": [
+        {
+          "external": true,
+          "link": "https://galaxyproject.org/events/webinars/",
+          "title": "View past & upcoming webinars",
+          "type": "Galaxy Webinar Page"
+        }
+      ],
+      "support_channel": "#event-gcc2021",
+      "support_link": "https://gtnsmrgsbord.slack.com/archives/C0253H46ABV",
+      "tags": [
+        "webinar"
+      ],
+      "type": "Webinar",
+      "versions": [
+        {
+          "captions": [
+
+          ],
+          "date": "2021-05-12",
+          "length": null,
+          "link": "MdQyltMAocg",
+          "speakers": [
+            "gmauro",
+            "lldelisle"
+          ]
+        }
+      ]
+    },
+    "webinar/educators": {
+      "materials": [
+        {
+          "external": true,
+          "link": "https://galaxyproject.org/events/webinars/",
+          "title": "View past & upcoming webinars",
+          "type": "Galaxy Webinar Page"
+        }
+      ],
+      "support_channel": "#event-gcc2021",
+      "support_link": "https://gtnsmrgsbord.slack.com/archives/C0253H46ABV",
+      "tags": [
+        "webinar"
+      ],
+      "type": "Webinar",
+      "versions": [
+        {
+          "captions": [
+            "shiltemann"
+          ],
+          "date": "2021-04-28",
+          "length": "1H10M",
+          "link": "AXynJtPXgRQ",
+          "speakers": [
+            "shiltemann",
+            "miaomiaozhou88",
+            "christinecucinotta",
+            "subinamehta",
+            "bebatut"
+          ]
+        }
+      ]
+    },
+    "webinar/researchers": {
+      "description": "Wondering how to get started, or how to do a particular type of analysis, or how to scale to thousands of datasets? This webinar will highlight how to find the resources and help you need for each of these questions and more.",
+      "materials": [
+        {
+          "external": true,
+          "link": "https://galaxyproject.org/events/webinars/",
+          "title": "View past & upcoming webinars",
+          "type": "Galaxy Webinar Page"
+        }
+      ],
+      "support_channel": "#event-gcc2021",
+      "support_link": "https://gtnsmrgsbord.slack.com/archives/C0253H46ABV",
+      "tags": [
+        "webinar"
+      ],
+      "type": "Webinar",
+      "versions": [
+        {
+          "captions": null,
+          "date": "2021-04-21",
+          "length": "1H10M",
+          "link": "cFN_WPGz9qk",
+          "speakers": [
+            "tnabtaf"
+          ]
+        }
+      ]
+    },
+    "webinar/tooldevs": {
+      "materials": [
+        {
+          "external": true,
+          "link": "https://galaxyproject.org/events/webinars/",
+          "title": "View past & upcoming webinars",
+          "type": "Galaxy Webinar Page"
+        }
+      ],
+      "support_channel": "#event-gcc2021",
+      "support_link": "https://gtnsmrgsbord.slack.com/archives/C0253H46ABV",
+      "tags": [
+        "webinar"
+      ],
+      "type": "Webinar",
+      "versions": [
+        {
+          "captions": null,
+          "date": "2021-05-26",
+          "length": null,
+          "link": "vx2icgaU_h0",
+          "speakers": [
+            "blankenberg",
+            "abretaud",
+            "petrnovak"
+          ]
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,50 @@
+openapi: 3.0.1
+info:
+  title: Gallantries / Galaxy / GTN Video Library
+  description: A library of GTN Tutorial Recordings by the GTN Community
+  license:
+    name: AGPL-3.0
+    url: https://github.com/gallantries/video-library/blob/main/LICENSE.txt
+  version: 1.0.0
+servers:
+- url: https://gallantries.github.io/video-library/api/
+- url: http://localhost:4000/video-library/api/
+
+paths:
+  /videos.json:
+    get:
+      summary: List all videos
+      responses:
+        200:
+          description: successful operation
+          content:
+            application/json:
+              schema:
+                type: object
+  /tags.json:
+    get:
+      summary: Get tags
+      responses:
+        200:
+          description: successful operation
+          content:
+            application/json:
+              schema:
+                type: object
+  /tags/{tagId}.json:
+    get:
+      parameters:
+      - name: tagId
+        in: path
+        description: ID of the tag
+        required: true
+        schema:
+          type: string
+      summary: Get information about a specific tag
+      responses:
+        200:
+          description: successful operation
+          content:
+            application/json:
+              schema:
+                type: object

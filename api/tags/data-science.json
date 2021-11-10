@@ -1,0 +1,70 @@
+{
+  "url": "/video-library/api/tags/data-science.json",
+  "videos": {
+    "data-science/r-advanced/tutorial": {
+      "description": "An advanced tutorial covering downstream analysis of RNA-seq data using R.",
+      "faq": "https://docs.google.com/document/d/e/2PACX-1vQuOJPPP2nosMG1gh1TuAFu479F4u2kGCCsICHuKvQE7lJGZCreVbXMQrhEORu3O1fV2hX_DZDE_Isk/pub",
+      "materials": [
+        {
+          "link": "topics/introduction/tutorials/r-advanced/tutorial.html",
+          "title": "Advanced R in Galaxy",
+          "type": "Tutorial"
+        }
+      ],
+      "support_channel": "#transcriptomics_advanced_r",
+      "support_link": "https://gtnsmrgsbord.slack.com/archives/C01LKGNPE5V",
+      "tags": [
+        "data-science"
+      ],
+      "type": "Tutorial",
+      "versions": [
+        {
+          "captions": [
+            "ksuderman",
+            "nagoue"
+          ],
+          "date": "2021-02-15",
+          "galaxy_version": "21.01",
+          "length": "1H",
+          "link": "_hWBGdlICqg",
+          "speakers": [
+            "fpsom"
+          ]
+        }
+      ]
+    },
+    "data-science/r-basics/tutorial": {
+      "description": "This tutorial will provide an introduction to using R with Rstudio in Galaxy.",
+      "faq": "https://docs.google.com/document/d/e/2PACX-1vQuOJPPP2nosMG1gh1TuAFu479F4u2kGCCsICHuKvQE7lJGZCreVbXMQrhEORu3O1fV2hX_DZDE_Isk/pub",
+      "materials": [
+        {
+          "link": "topics/introduction/tutorials/r-basics/tutorial.html",
+          "title": "R basics in Galaxy",
+          "type": "Tutorial"
+        }
+      ],
+      "support_channel": "#transcriptomics_intro-to-r",
+      "support_link": "https://gtnsmrgsbord.slack.com/archives/C01F6JXPZM2",
+      "tags": [
+        "data-science"
+      ],
+      "type": "Tutorial",
+      "versions": [
+        {
+          "captions": [
+            "s3by01",
+            "annefou",
+            "kxk302"
+          ],
+          "date": "2021-02-15",
+          "galaxy_version": "21.01",
+          "length": "50M",
+          "link": "MKkQDh5Nguc",
+          "speakers": [
+            "fpsom"
+          ]
+        }
+      ]
+    }
+  }
+}
