@@ -1,266 +1,266 @@
-/topics/visualisation/tutorials/introduction: Visualisations in Galaxy
-/topics/visualisation/tutorials/jbrowse: Genomic Data Visualisation with JBrowse
-/topics/visualisation/tutorials/circos: Visualisation with Circos
-/topics/introduction/tutorials/introduction: Introduction to Galaxy
-/topics/introduction/tutorials/galaxy-intro-short: A short introduction to Galaxy
-/topics/introduction/tutorials/galaxy-intro-peaks2genes: From peaks to genes
-/topics/introduction/tutorials/galaxy-intro-101: Galaxy 101
-/topics/introduction/tutorials/galaxy-intro-101-everyone: Galaxy 101 for everyone
-/topics/introduction/tutorials/galaxy-reproduce: How to reproduce published Galaxy analyses
-/topics/introduction/tutorials/igv-introduction: IGV Introduction
-/topics/introduction/tutorials/galaxy-intro-strands: Introduction to Genomics and Galaxy
-/topics/introduction/tutorials/galaxy-intro-ngs-data-managment: NGS data logistics
-/topics/introduction/tutorials/options-for-using-galaxy: Options for using Galaxy
-/topics/proteomics/tutorials/introduction: Introduction to proteomics, protein identification, quantification and statistical modelling
-/topics/proteomics/tutorials/proteome_annotation: Annotating a protein list identified by LC-MS/MS experiments
-/topics/proteomics/tutorials/biomarker_selection: Biomarker candidate identification
-/topics/proteomics/tutorials/ntails: Detection and quantitation of N-termini (degradomics) via N-TAILS
-/topics/proteomics/tutorials/DIA_Analysis_OSW: DIA Analysis using OpenSwathWorkflow
-/topics/proteomics/tutorials/encyclopedia: EncyclopeDIA
-/topics/proteomics/tutorials/maxquant-label-free: Label-free data analysis using MaxQuant
-/topics/proteomics/tutorials/labelfree-vs-labelled: Label-free versus Labelled - How to Choose Your Quantitation Method
-/topics/proteomics/tutorials/DIA_lib_OSW: Library Generation for DIA Analysis
-/topics/proteomics/tutorials/ml-modeling-of-anti-cancer-peptides: Machine Learning Modeling of Anticancer Peptides
-/topics/proteomics/tutorials/mass-spectrometry-imaging-loading-exploring-data: Mass spectrometry imaging: Loading and exploring MSI data
-/topics/proteomics/tutorials/maxquant-msstats-dda-lfq: MaxQuant and MSstats for the analysis of label-free data
-/topics/proteomics/tutorials/metaproteomics: Metaproteomics tutorial
-/topics/proteomics/tutorials/metaquantome-data-creation: metaQuantome 1: Data creation
-/topics/proteomics/tutorials/metaquantome-function: metaQuantome 2: Function
-/topics/proteomics/tutorials/metaquantome-taxonomy: metaQuantome 3: Taxonomy
-/topics/proteomics/tutorials/protein-id-oms: Peptide and Protein ID using OpenMS tools
-/topics/proteomics/tutorials/protein-id-sg-ps: Peptide and Protein ID using SearchGUI and PeptideShaker
-/topics/proteomics/tutorials/protein-quant-sil: Peptide and Protein Quantification via Stable Isotope Labelling (SIL)
-/topics/proteomics/tutorials/peptide-library-data-analysis: Peptide Library Data Analysis
-/topics/proteomics/tutorials/database-handling: Protein FASTA Database Handling
-/topics/proteomics/tutorials/proteogenomics-dbcreation: Proteogenomics 1: Database Creation
-/topics/proteomics/tutorials/proteogenomics-dbsearch: Proteogenomics 2: Database Search
-/topics/proteomics/tutorials/proteogenomics-novel-peptide-analysis: Proteogenomics 3: Novel peptide analysis
-/topics/proteomics/tutorials/secretome-prediction: Secretome Prediction
-/topics/proteomics/tutorials/DIA_Analysis_MSstats: Statistical analysis of DIA data
-/topics/instructors/tutorials/galaxy-admin-training: Galaxy Admin Training
-/topics/instructors/tutorials/organize-workshop: Organizing a workshop
-/topics/instructors/tutorials/running-workshop: Running a workshop as instructor
-/topics/instructors/tutorials/setup-galaxy-for-training: Set up a Galaxy for Training
-/topics/instructors/tutorials/setup-tiaas-for-training: UseGalaxy.eu's Training Infrastructure as a Service
-/topics/instructors/tutorials/workshop-intro: Workshop Kickoff
-/topics/epigenetics/tutorials/introduction-chip-seq: Introduction to ChIP-Seq data analysis
-/topics/epigenetics/tutorials/introduction-dna-methylation: Introduction to DNA Methylation data analysis
-/topics/epigenetics/tutorials/atac-seq: ATAC-Seq data analysis
-/topics/epigenetics/tutorials/methylation-seq: DNA Methylation data analysis
-/topics/epigenetics/tutorials/formation_of_super-structures_on_xi: Formation of the Super-Structures on the Inactive X
-/topics/epigenetics/tutorials/hicexplorer: Hi-C analysis of Drosophila melanogaster cells using HiCExplorer
-/topics/epigenetics/tutorials/tal1-binding-site-identification: Identification of the binding sites of the T-cell acute lymphocytic leukemia protein 1 (TAL1)
-/topics/epigenetics/tutorials/ewas-suite: Infinium Human Methylation BeadChip
-/topics/statistics/tutorials/age-prediction-with-ml: Age prediction using machine learning
-/topics/statistics/tutorials/machinelearning: Basics of machine learning
-/topics/statistics/tutorials/classification_machinelearning: Classification in Machine Learning
-/topics/statistics/tutorials/clustering_machinelearning: Clustering in Machine Learning
-/topics/statistics/tutorials/FNN: Deep Learning (Part 1) - Feedforward neural networks (FNN)
-/topics/statistics/tutorials/RNN: Deep Learning (Part 2) - Recurrent neural networks (RNN)
-/topics/statistics/tutorials/CNN: Deep Learning (Part 3) - Convolutional neural networks (CNN)
-/topics/statistics/tutorials/iwtomics: Interval-Wise Testing for omics data
-/topics/statistics/tutorials/intro_deep_learning: Introduction to deep learning
-/topics/statistics/tutorials/intro-to-ml-with-r: Introduction to Machine Learning using R
-/topics/statistics/tutorials/classification_regression: Machine learning: classification and regression
-/topics/statistics/tutorials/aberrant_pi3k_pathway_analysis: PAPAA PI3K_OG: PanCancer Aberrant Pathway Activity Analysis
-/topics/statistics/tutorials/regression_machinelearning: Regression in Machine Learning
-/topics/statistics/tutorials/text-mining_simtext: Text-mining with the SimText toolset
-/topics/climate/tutorials/introduction: Introduction to climate data
-/topics/climate/tutorials/fates: Functionally Assembled Terrestrial Ecosystem Simulator (FATES)
-/topics/climate/tutorials/fates-jupyterlab: Functionally Assembled Terrestrial Ecosystem Simulator (FATES) with Galaxy Climate JupyterLab
-/topics/climate/tutorials/climate-101: Getting your hands-on climate data
-/topics/climate/tutorials/panoply: Visualize Climate data with Panoply netCDF viewer
-/topics/imaging/tutorials/hela-screen-analysis: Analyse HeLa fluorescence siRNA screen
-/topics/imaging/tutorials/imaging-introduction: Introduction to image analysis using Galaxy
-/topics/imaging/tutorials/tutorial-CP: Nucleoli segmentation and feature extraction using CellProfiler
-/topics/imaging/tutorials/object-tracking-using-cell-profiler: Object tracking using CellProfiler
-/topics/metagenomics/tutorials/introduction: Introduction to metagenomics
-/topics/metagenomics/tutorials/mothur-miseq-sop: 16S Microbial Analysis with mothur (extended)
-/topics/metagenomics/tutorials/mothur-miseq-sop-short: 16S Microbial Analysis with mothur (short)
-/topics/metagenomics/tutorials/nanopore-16S-metagenomics: 16S Microbial analysis with Nanopore data
-/topics/metagenomics/tutorials/general-tutorial: Analyses of metagenomics data - The global picture
-/topics/metagenomics/tutorials/plasmid-metagenomics-nanopore: Antibiotic resistance detection
-/topics/metagenomics/tutorials/metatranscriptomics: Metatranscriptomics analysis using microbiome RNA-seq data
-/topics/metagenomics/tutorials/metatranscriptomics-short: Metatranscriptomics analysis using microbiome RNA-seq data (short)
-/topics/ecology/tutorials/PAMPA-toolsuite-tutorial: Compute and analyze biodiversity metrics with PAMPA toolsuite
-/topics/ecology/tutorials/de-novo-rad-seq: RAD-Seq de-novo data analysis
-/topics/ecology/tutorials/ref-based-rad-seq: RAD-Seq Reference-based data analysis
-/topics/ecology/tutorials/genetic-map-rad-seq: RAD-Seq to construct genetic maps
-/topics/ecology/tutorials/regionalGAM: Regional GAM
-/topics/ecology/tutorials/species-distribution-modeling: Species distribution modeling
-/topics/sequence-analysis/tutorials/mapping: Mapping
-/topics/sequence-analysis/tutorials/quality-control: Quality Control
-/topics/sequence-analysis/tutorials/human-reads-removal: Removal of human reads from SARS-CoV-2 sequencing data
-/topics/genome-annotation/tutorials/introduction: Introduction to Genome Annotation
-/topics/genome-annotation/tutorials/tnseq: Essential genes detection with Transposon insertion sequencing
-/topics/genome-annotation/tutorials/hpc-for-lsgc: From small to large-scale genome comparison
-/topics/genome-annotation/tutorials/annotation-with-maker: Genome annotation with Maker
-/topics/genome-annotation/tutorials/annotation-with-maker-short: Genome annotation with Maker (short)
-/topics/genome-annotation/tutorials/annotation-with-prokka: Genome annotation with Prokka
-/topics/genome-annotation/tutorials/apollo: Refining Genome Annotations with Apollo
-/topics/dev/tutorials/introduction: Galaxy from a developer point of view
-/topics/dev/tutorials/core-contributing: Contributing a New Feature to Galaxy Core
-/topics/dev/tutorials/bioblend-dev: Contributing to BioBlend as a developer
-/topics/dev/tutorials/tool-from-scratch: Creating Galaxy tools from Conda Through Deployment
-/topics/dev/tutorials/data-source-integration: Data source integration
-/topics/dev/tutorials/debugging: Debugging Galaxy
-/topics/dev/tutorials/architecture: Galaxy Code Architecture
-/topics/dev/tutorials/interactive-tours: Galaxy Interactive Tours
-/topics/dev/tutorials/webhooks: Galaxy Webhooks
-/topics/dev/tutorials/visualization-generic: Generic plugins
-/topics/dev/tutorials/visualization-charts: JavaScript plugins
-/topics/dev/tutorials/conda_sys: Prerequisites for building software/conda packages
-/topics/dev/tutorials/bioblend-api: Scripting Galaxy using the API and BioBlend
-/topics/dev/tutorials/conda: Tool Dependencies and Conda
-/topics/dev/tutorials/containers: Tool Dependencies and Containers
-/topics/dev/tutorials/tool-integration: Tool development and integration into Galaxy
-/topics/dev/tutorials/toolshed: Tool Shed: sharing Galaxy tools
-/topics/dev/tutorials/tool-generators-advanced: ToolFactory: Generating Tools From More Complex Scripts
-/topics/dev/tutorials/tool-generators: ToolFactory: Generating Tools From Simple Scripts
-/topics/contributing/tutorials/introduction: Overview of the Galaxy Training Material
-/topics/contributing/tutorials/slides-with-video: Adding auto-generated video to your slides
-/topics/contributing/tutorials/github-command-line-contribution: Contributing with GitHub via command-line
-/topics/contributing/tutorials/github-interface-contribution: Contributing with GitHub via its interface
-/topics/contributing/tutorials/create-new-tutorial: Creating a new tutorial
-/topics/contributing/tutorials/create-new-tutorial-content: Creating content in Markdown
-/topics/contributing/tutorials/create-new-tutorial-tours: Creating Interactive Galaxy Tours
-/topics/contributing/tutorials/create-new-tutorial-slides: Creating Slides
-/topics/contributing/tutorials/generating-pdf: Generating PDF artefacts of the website
-/topics/contributing/tutorials/create-new-topic: Including a new topic
-/topics/contributing/tutorials/running-jekyll: Running the GTN website locally
-/topics/contributing/tutorials/gitpod: Running the GTN website online using GitPod
-/topics/contributing/tutorials/create-new-tutorial-technical: Tools, Data, and Workflows for tutorials
-/topics/contributing/tutorials/admin-knitting: Updating diffs in admin training
-/topics/data-science/tutorials/cli-advanced: Advanced CLI in Galaxy
-/topics/data-science/tutorials/python-advanced-np-pd: Advanced Python
-/topics/data-science/tutorials/r-advanced: Advanced R in Galaxy
-/topics/data-science/tutorials/sql-advanced: Advanced SQL
-/topics/data-science/tutorials/cli-basics: CLI basics in Galaxy
-/topics/data-science/tutorials/cli-bashcrawl: CLI Educational Game - Bashcrawl
-/topics/data-science/tutorials/python-basics: Introduction to Python
-/topics/data-science/tutorials/sql-basic: Introduction to SQL
-/topics/data-science/tutorials/python-plotting: Plotting in Python
-/topics/data-science/tutorials/r-basics: R basics in Galaxy
-/topics/data-science/tutorials/sql-game: SQL Educational Game - Murder Mystery
-/topics/data-science/tutorials/sql-python: SQL with Python
-/topics/data-science/tutorials/sql-r: SQL with R
-/topics/data-management/tutorials/data-steward: What is a Data Steward?
-/topics/computational-chemistry/tutorials/analysis-md-simulations: Analysis of molecular dynamics simulations
-/topics/computational-chemistry/tutorials/htmd-analysis: High Throughput Molecular Dynamics and Analysis
-/topics/computational-chemistry/tutorials/cheminformatics: Protein-ligand docking
-/topics/computational-chemistry/tutorials/md-simulation-gromacs: Running molecular dynamics simulations using GROMACS
-/topics/computational-chemistry/tutorials/setting-up-molecular-systems: Setting up molecular systems
-/topics/computational-chemistry/tutorials/covid19-docking: Virtual screening of the SARS-CoV-2 main protease with rxDock and pose scoring
-/topics/assembly/tutorials/general-introduction: An Introduction to Genome Assembly
-/topics/assembly/tutorials/chloroplast-assembly: Chloroplast genome assembly
-/topics/assembly/tutorials/debruijn-graph-assembly: De Bruijn Graph Assembly
-/topics/assembly/tutorials/algorithms-introduction: Deeper look into Genome Assembly algorithms
-/topics/assembly/tutorials/mrsa-illumina: Genome Assembly of MRSA using Illumina MiSeq Data
-/topics/assembly/tutorials/mrsa-nanopore: Genome Assembly of MRSA using Oxford Nanopore MinION Data
-/topics/assembly/tutorials/ecoli_comparison: Making sense of a newly assembled genome
-/topics/assembly/tutorials/unicycler-assembly: Unicycler Assembly
-/topics/assembly/tutorials/assembly-with-preprocessing: Unicycler assembly of SARS-CoV-2 genome with preprocessing to remove human genome reads
-/topics/transcriptomics/tutorials/introduction: Introduction to Transcriptomics
-/topics/transcriptomics/tutorials/rna-seq-reads-to-counts: 1: RNA-Seq reads to counts
-/topics/transcriptomics/tutorials/rna-seq-counts-to-genes: 2: RNA-seq counts to genes
-/topics/transcriptomics/tutorials/rna-seq-genes-to-pathways: 3: RNA-seq genes to pathways
-/topics/transcriptomics/tutorials/scrna-intro: An introduction to scRNA-seq data analysis
-/topics/transcriptomics/tutorials/scrna-plant: Analysis of plant scRNA-Seq Data with Scanpy
-/topics/transcriptomics/tutorials/clipseq: CLIP-Seq data analysis from pre-processing to motif detection
-/topics/transcriptomics/tutorials/scrna-scanpy-pbmc3k: Clustering 3K PBMCs with Scanpy
-/topics/transcriptomics/tutorials/de-novo: De novo transcriptome reconstruction with RNA-Seq
-/topics/transcriptomics/tutorials/srna: Differential abundance testing of small RNAs
-/topics/transcriptomics/tutorials/scrna-raceid: Downstream Single-cell RNA analysis with RaceID
-/topics/transcriptomics/tutorials/scrna-seq-basic-pipeline: Filter, Plot and Explore Single-cell RNA-seq Data
-/topics/transcriptomics/tutorials/droplet-quantification-preprocessing: Generating a single cell matrix using Alevin
-/topics/transcriptomics/tutorials/goenrichment: GO Enrichment Analysis
-/topics/transcriptomics/tutorials/network-analysis-with-heinz: Network analysis with Heinz
-/topics/transcriptomics/tutorials/scrna-plates-batches-barcodes: Plates, Batches, and Barcodes
-/topics/transcriptomics/tutorials/scrna-preprocessing-tenx: Pre-processing of 10X Single-Cell RNA Datasets
-/topics/transcriptomics/tutorials/scrna-preprocessing: Pre-processing of Single-Cell RNA Data
-/topics/transcriptomics/tutorials/ref-based: Reference-based RNA-Seq data analysis
-/topics/transcriptomics/tutorials/rna-seq-counts-to-viz-in-r: RNA Seq Counts to Viz in R
-/topics/transcriptomics/tutorials/rna-interactome: RNA-RNA interactome data analysis
-/topics/transcriptomics/tutorials/rna-seq-analysis-with-askomics-it: RNA-Seq analysis with AskOmics Interactive Tool
-/topics/transcriptomics/tutorials/scrna-scater-qc: Single-cell quality control with scater
-/topics/transcriptomics/tutorials/small_ncrna_clustering: Small Non-coding RNA Clustering using BlockClust
-/topics/transcriptomics/tutorials/scrna-JUPYTER-trajectories: Trajectory Analysis using Python (Jupyter Notebook) in Galaxy
-/topics/transcriptomics/tutorials/scrna-umis: Understanding Barcodes
-/topics/transcriptomics/tutorials/rna-seq-viz-with-cummerbund: Visualization of RNA-Seq results with CummeRbund
-/topics/transcriptomics/tutorials/rna-seq-viz-with-heatmap2: Visualization of RNA-Seq results with heatmap2
-/topics/transcriptomics/tutorials/rna-seq-viz-with-volcanoplot: Visualization of RNA-Seq results with Volcano Plot
-/topics/transcriptomics/tutorials/rna-seq-viz-with-volcanoplot-r: Visualization of RNA-Seq results with Volcano Plot in R
-/topics/transcriptomics/tutorials/mirna-target-finder: Whole transcriptome analysis of Arabidopsis thaliana
-/topics/variant-analysis/tutorials/introduction: Introduction to Variant analysis
-/topics/variant-analysis/tutorials/dip: Calling variants in diploid systems
-/topics/variant-analysis/tutorials/non-dip: Calling variants in non-diploid systems
-/topics/variant-analysis/tutorials/exome-seq: Exome sequencing data analysis for diagnosing a genetic disease
-/topics/variant-analysis/tutorials/sars-cov-2: From NCBI's Sequence Read Archive (SRA) to Galaxy: SARS-CoV-2 variant analysis
-/topics/variant-analysis/tutorials/somatic-variants: Identification of somatic and germline variants from tumor and normal sample pairs
-/topics/variant-analysis/tutorials/tb-variant-analysis: M. tuberculosis Variant Analysis
-/topics/variant-analysis/tutorials/mapping-by-sequencing: Mapping and molecular identification of phenotype-causing mutations
-/topics/variant-analysis/tutorials/microbial-variants: Microbial Variant Calling
-/topics/variant-analysis/tutorials/sars-cov-2-variant-discovery: Mutation calling, viral genome reconstruction and lineage/clade assignment from SARS-CoV-2 sequencing data
-/topics/metabolomics/tutorials/introduction: Introduction to Metabolomics
-/topics/metabolomics/tutorials/msi-analyte-distribution: Mass spectrometry imaging: Examining the spatial distribution of analytes
-/topics/metabolomics/tutorials/msi-finding-nglycans: Mass spectrometry imaging: Finding differential analytes
-/topics/metabolomics/tutorials/lcms: Mass spectrometry: LC-MS analysis
-/topics/metabolomics/tutorials/lcms-preprocessing: Mass spectrometry: LC-MS preprocessing with XCMS
-/topics/galaxy-interface/tutorials/workflow-automation: Automating Galaxy workflows using the command line
-/topics/galaxy-interface/tutorials/workflow-editor: Creating, Editing and Importing Galaxy Workflows
-/topics/galaxy-interface/tutorials/download-delete-data: Downloading and Deleting Data in Galaxy
-/topics/galaxy-interface/tutorials/history-to-workflow: Extracting Workflows from Histories
-/topics/galaxy-interface/tutorials/get-data: Getting data into Galaxy
-/topics/galaxy-interface/tutorials/group-tags: Group tags for complex experimental designs
-/topics/galaxy-interface/tutorials/intermine: InterMine integration with Galaxy
-/topics/galaxy-interface/tutorials/jupyterlab: JupyterLab in Galaxy
-/topics/galaxy-interface/tutorials/processing-many-samples-at-once: Multisample Analysis
-/topics/galaxy-interface/tutorials/name-tags: Name tags for following complex histories
-/topics/galaxy-interface/tutorials/rstudio: RStudio in Galaxy
-/topics/galaxy-interface/tutorials/upload-rules: Rule Based Uploader
-/topics/galaxy-interface/tutorials/upload-rules-advanced: Rule Based Uploader: Advanced
-/topics/galaxy-interface/tutorials/search: Searching Your History
-/topics/galaxy-interface/tutorials/ncbi-sarf: SRA Aligned Read Format to Speed Up SARS-CoV-2 data Analysis
-/topics/galaxy-interface/tutorials/upload-data-to-ena: Submitting raw sequencing reads to ENA
-/topics/galaxy-interface/tutorials/history: Understanding Galaxy history system
-/topics/galaxy-interface/tutorials/galaxy-intro-jupyter: Use Jupyter notebooks in Galaxy
-/topics/galaxy-interface/tutorials/collections: Using dataset collections
-/topics/galaxy-interface/tutorials/workflow-parameters: Using Workflow Parameters
-/topics/admin/tutorials/introduction: Galaxy from an administrator's point of view
-/topics/admin/tutorials/advanced-galaxy-customisation: Advanced customisation of a Galaxy instance
-/topics/admin/tutorials/ansible: Ansible
-/topics/admin/tutorials/jenkins: Automation with Jenkins
-/topics/admin/tutorials/connect-to-compute-cluster: Connecting Galaxy to a compute cluster
-/topics/admin/tutorials/systemd-supervisor: Controlling Galaxy with systemd or Supervisor
-/topics/admin/tutorials/data-library: Data Libraries
-/topics/admin/tutorials/terraform: Deploying a compute cluster in OpenStack via Terraform
-/topics/admin/tutorials/object-store: Distributed Object Storage
-/topics/admin/tutorials/galaxy-docker: Docker and Galaxy
-/topics/admin/tutorials/empathy: Empathy
-/topics/admin/tutorials/ftp: Enable upload via FTP
-/topics/admin/tutorials/external-auth: External Authentication
-/topics/admin/tutorials/database: Galactic Database
-/topics/admin/tutorials/database-schema: Galaxy Database schema
-/topics/admin/tutorials/k8s-deploying-galaxy: Galaxy Installation on Kubernetes
-/topics/admin/tutorials/ansible-galaxy: Galaxy Installation with Ansible
-/topics/admin/tutorials/interactive-tools: Galaxy Interactive Tools
-/topics/admin/tutorials/general-monitoring: Galaxy Monitoring
-/topics/admin/tutorials/gxadmin: Galaxy Monitoring with gxadmin
-/topics/admin/tutorials/reports: Galaxy Monitoring with Reports
-/topics/admin/tutorials/monitoring: Galaxy Monitoring with Telegraf and Grafana
-/topics/admin/tutorials/cloudbursting: Galaxy on the Cloud
-/topics/admin/tutorials/tool-management: Galaxy Tool Management with Ephemeris
-/topics/admin/tutorials/troubleshooting: Galaxy Troubleshooting
-/topics/admin/tutorials/production: Gearing towards production
-/topics/admin/tutorials/k8s-managing-galaxy: Managing Galaxy on Kubernetes
-/topics/admin/tutorials/job-destinations: Mapping Jobs to Destinations
-/topics/admin/tutorials/cvmfs: Reference Data with CVMFS
-/topics/admin/tutorials/cvmfs-manual: Reference Data with CVMFS without Ansible
-/topics/admin/tutorials/reference-genomes: Reference Genomes in Galaxy
-/topics/admin/tutorials/pulsar: Running Jobs on Remote Resources with Pulsar
-/topics/admin/tutorials/maintenance: Server Maintenance and Backups
-/topics/admin/tutorials/tiaas: Training Infrastructure as a Service (TIaaS)
-/topics/admin/tutorials/upgrading: Upgrading Galaxy
-/topics/admin/tutorials/singularity: Use Singularity containers for running Galaxy jobs
-/topics/admin/tutorials/users-groups-quotas: User, Group and Quota managment
-/topics/admin/tutorials/uwsgi: uWSGI
+/topics/visualisation/tutorials/introduction: "Visualisations in Galaxy"
+/topics/visualisation/tutorials/jbrowse: "Genomic Data Visualisation with JBrowse"
+/topics/visualisation/tutorials/circos: "Visualisation with Circos"
+/topics/introduction/tutorials/introduction: "Introduction to Galaxy"
+/topics/introduction/tutorials/galaxy-intro-short: "A short introduction to Galaxy"
+/topics/introduction/tutorials/galaxy-intro-peaks2genes: "From peaks to genes"
+/topics/introduction/tutorials/galaxy-intro-101: "Galaxy 101"
+/topics/introduction/tutorials/galaxy-intro-101-everyone: "Galaxy 101 for everyone"
+/topics/introduction/tutorials/galaxy-reproduce: "How to reproduce published Galaxy analyses"
+/topics/introduction/tutorials/igv-introduction: "IGV Introduction"
+/topics/introduction/tutorials/galaxy-intro-strands: "Introduction to Genomics and Galaxy"
+/topics/introduction/tutorials/galaxy-intro-ngs-data-managment: "NGS data logistics"
+/topics/introduction/tutorials/options-for-using-galaxy: "Options for using Galaxy"
+/topics/proteomics/tutorials/introduction: "Introduction to proteomics, protein identification, quantification and statistical modelling"
+/topics/proteomics/tutorials/proteome_annotation: "Annotating a protein list identified by LC-MS/MS experiments"
+/topics/proteomics/tutorials/biomarker_selection: "Biomarker candidate identification"
+/topics/proteomics/tutorials/ntails: "Detection and quantitation of N-termini (degradomics) via N-TAILS"
+/topics/proteomics/tutorials/DIA_Analysis_OSW: "DIA Analysis using OpenSwathWorkflow"
+/topics/proteomics/tutorials/encyclopedia: "EncyclopeDIA"
+/topics/proteomics/tutorials/maxquant-label-free: "Label-free data analysis using MaxQuant"
+/topics/proteomics/tutorials/labelfree-vs-labelled: "Label-free versus Labelled - How to Choose Your Quantitation Method"
+/topics/proteomics/tutorials/DIA_lib_OSW: "Library Generation for DIA Analysis"
+/topics/proteomics/tutorials/ml-modeling-of-anti-cancer-peptides: "Machine Learning Modeling of Anticancer Peptides"
+/topics/proteomics/tutorials/mass-spectrometry-imaging-loading-exploring-data: "Mass spectrometry imaging: Loading and exploring MSI data"
+/topics/proteomics/tutorials/maxquant-msstats-dda-lfq: "MaxQuant and MSstats for the analysis of label-free data"
+/topics/proteomics/tutorials/metaproteomics: "Metaproteomics tutorial"
+/topics/proteomics/tutorials/metaquantome-data-creation: "metaQuantome 1: Data creation"
+/topics/proteomics/tutorials/metaquantome-function: "metaQuantome 2: Function"
+/topics/proteomics/tutorials/metaquantome-taxonomy: "metaQuantome 3: Taxonomy"
+/topics/proteomics/tutorials/protein-id-oms: "Peptide and Protein ID using OpenMS tools"
+/topics/proteomics/tutorials/protein-id-sg-ps: "Peptide and Protein ID using SearchGUI and PeptideShaker"
+/topics/proteomics/tutorials/protein-quant-sil: "Peptide and Protein Quantification via Stable Isotope Labelling (SIL)"
+/topics/proteomics/tutorials/peptide-library-data-analysis: "Peptide Library Data Analysis"
+/topics/proteomics/tutorials/database-handling: "Protein FASTA Database Handling"
+/topics/proteomics/tutorials/proteogenomics-dbcreation: "Proteogenomics 1: Database Creation"
+/topics/proteomics/tutorials/proteogenomics-dbsearch: "Proteogenomics 2: Database Search"
+/topics/proteomics/tutorials/proteogenomics-novel-peptide-analysis: "Proteogenomics 3: Novel peptide analysis"
+/topics/proteomics/tutorials/secretome-prediction: "Secretome Prediction"
+/topics/proteomics/tutorials/DIA_Analysis_MSstats: "Statistical analysis of DIA data"
+/topics/instructors/tutorials/galaxy-admin-training: "Galaxy Admin Training"
+/topics/instructors/tutorials/organize-workshop: "Organizing a workshop"
+/topics/instructors/tutorials/running-workshop: "Running a workshop as instructor"
+/topics/instructors/tutorials/setup-galaxy-for-training: "Set up a Galaxy for Training"
+/topics/instructors/tutorials/setup-tiaas-for-training: "UseGalaxy.eu's Training Infrastructure as a Service"
+/topics/instructors/tutorials/workshop-intro: "Workshop Kickoff"
+/topics/epigenetics/tutorials/introduction-chip-seq: "Introduction to ChIP-Seq data analysis"
+/topics/epigenetics/tutorials/introduction-dna-methylation: "Introduction to DNA Methylation data analysis"
+/topics/epigenetics/tutorials/atac-seq: "ATAC-Seq data analysis"
+/topics/epigenetics/tutorials/methylation-seq: "DNA Methylation data analysis"
+/topics/epigenetics/tutorials/formation_of_super-structures_on_xi: "Formation of the Super-Structures on the Inactive X"
+/topics/epigenetics/tutorials/hicexplorer: "Hi-C analysis of Drosophila melanogaster cells using HiCExplorer"
+/topics/epigenetics/tutorials/tal1-binding-site-identification: "Identification of the binding sites of the T-cell acute lymphocytic leukemia protein 1 (TAL1)"
+/topics/epigenetics/tutorials/ewas-suite: "Infinium Human Methylation BeadChip"
+/topics/statistics/tutorials/age-prediction-with-ml: "Age prediction using machine learning"
+/topics/statistics/tutorials/machinelearning: "Basics of machine learning"
+/topics/statistics/tutorials/classification_machinelearning: "Classification in Machine Learning"
+/topics/statistics/tutorials/clustering_machinelearning: "Clustering in Machine Learning"
+/topics/statistics/tutorials/FNN: "Deep Learning (Part 1) - Feedforward neural networks (FNN)"
+/topics/statistics/tutorials/RNN: "Deep Learning (Part 2) - Recurrent neural networks (RNN)"
+/topics/statistics/tutorials/CNN: "Deep Learning (Part 3) - Convolutional neural networks (CNN)"
+/topics/statistics/tutorials/iwtomics: "Interval-Wise Testing for omics data"
+/topics/statistics/tutorials/intro_deep_learning: "Introduction to deep learning"
+/topics/statistics/tutorials/intro-to-ml-with-r: "Introduction to Machine Learning using R"
+/topics/statistics/tutorials/classification_regression: "Machine learning: classification and regression"
+/topics/statistics/tutorials/aberrant_pi3k_pathway_analysis: "PAPAA PI3K_OG: PanCancer Aberrant Pathway Activity Analysis"
+/topics/statistics/tutorials/regression_machinelearning: "Regression in Machine Learning"
+/topics/statistics/tutorials/text-mining_simtext: "Text-mining with the SimText toolset"
+/topics/climate/tutorials/introduction: "Introduction to climate data"
+/topics/climate/tutorials/fates: "Functionally Assembled Terrestrial Ecosystem Simulator (FATES)"
+/topics/climate/tutorials/fates-jupyterlab: "Functionally Assembled Terrestrial Ecosystem Simulator (FATES) with Galaxy Climate JupyterLab"
+/topics/climate/tutorials/climate-101: "Getting your hands-on climate data"
+/topics/climate/tutorials/panoply: "Visualize Climate data with Panoply netCDF viewer"
+/topics/imaging/tutorials/hela-screen-analysis: "Analyse HeLa fluorescence siRNA screen"
+/topics/imaging/tutorials/imaging-introduction: "Introduction to image analysis using Galaxy"
+/topics/imaging/tutorials/tutorial-CP: "Nucleoli segmentation and feature extraction using CellProfiler"
+/topics/imaging/tutorials/object-tracking-using-cell-profiler: "Object tracking using CellProfiler"
+/topics/metagenomics/tutorials/introduction: "Introduction to metagenomics"
+/topics/metagenomics/tutorials/mothur-miseq-sop: "16S Microbial Analysis with mothur (extended)"
+/topics/metagenomics/tutorials/mothur-miseq-sop-short: "16S Microbial Analysis with mothur (short)"
+/topics/metagenomics/tutorials/nanopore-16S-metagenomics: "16S Microbial analysis with Nanopore data"
+/topics/metagenomics/tutorials/general-tutorial: "Analyses of metagenomics data - The global picture"
+/topics/metagenomics/tutorials/plasmid-metagenomics-nanopore: "Antibiotic resistance detection"
+/topics/metagenomics/tutorials/metatranscriptomics: "Metatranscriptomics analysis using microbiome RNA-seq data"
+/topics/metagenomics/tutorials/metatranscriptomics-short: "Metatranscriptomics analysis using microbiome RNA-seq data (short)"
+/topics/ecology/tutorials/PAMPA-toolsuite-tutorial: "Compute and analyze biodiversity metrics with PAMPA toolsuite"
+/topics/ecology/tutorials/de-novo-rad-seq: "RAD-Seq de-novo data analysis"
+/topics/ecology/tutorials/ref-based-rad-seq: "RAD-Seq Reference-based data analysis"
+/topics/ecology/tutorials/genetic-map-rad-seq: "RAD-Seq to construct genetic maps"
+/topics/ecology/tutorials/regionalGAM: "Regional GAM"
+/topics/ecology/tutorials/species-distribution-modeling: "Species distribution modeling"
+/topics/sequence-analysis/tutorials/mapping: "Mapping"
+/topics/sequence-analysis/tutorials/quality-control: "Quality Control"
+/topics/sequence-analysis/tutorials/human-reads-removal: "Removal of human reads from SARS-CoV-2 sequencing data"
+/topics/genome-annotation/tutorials/introduction: "Introduction to Genome Annotation"
+/topics/genome-annotation/tutorials/tnseq: "Essential genes detection with Transposon insertion sequencing"
+/topics/genome-annotation/tutorials/hpc-for-lsgc: "From small to large-scale genome comparison"
+/topics/genome-annotation/tutorials/annotation-with-maker: "Genome annotation with Maker"
+/topics/genome-annotation/tutorials/annotation-with-maker-short: "Genome annotation with Maker (short)"
+/topics/genome-annotation/tutorials/annotation-with-prokka: "Genome annotation with Prokka"
+/topics/genome-annotation/tutorials/apollo: "Refining Genome Annotations with Apollo"
+/topics/dev/tutorials/introduction: "Galaxy from a developer point of view"
+/topics/dev/tutorials/core-contributing: "Contributing a New Feature to Galaxy Core"
+/topics/dev/tutorials/bioblend-dev: "Contributing to BioBlend as a developer"
+/topics/dev/tutorials/tool-from-scratch: "Creating Galaxy tools from Conda Through Deployment"
+/topics/dev/tutorials/data-source-integration: "Data source integration"
+/topics/dev/tutorials/debugging: "Debugging Galaxy"
+/topics/dev/tutorials/architecture: "Galaxy Code Architecture"
+/topics/dev/tutorials/interactive-tours: "Galaxy Interactive Tours"
+/topics/dev/tutorials/webhooks: "Galaxy Webhooks"
+/topics/dev/tutorials/visualization-generic: "Generic plugins"
+/topics/dev/tutorials/visualization-charts: "JavaScript plugins"
+/topics/dev/tutorials/conda_sys: "Prerequisites for building software/conda packages"
+/topics/dev/tutorials/bioblend-api: "Scripting Galaxy using the API and BioBlend"
+/topics/dev/tutorials/conda: "Tool Dependencies and Conda"
+/topics/dev/tutorials/containers: "Tool Dependencies and Containers"
+/topics/dev/tutorials/tool-integration: "Tool development and integration into Galaxy"
+/topics/dev/tutorials/toolshed: "Tool Shed: sharing Galaxy tools"
+/topics/dev/tutorials/tool-generators-advanced: "ToolFactory: Generating Tools From More Complex Scripts"
+/topics/dev/tutorials/tool-generators: "ToolFactory: Generating Tools From Simple Scripts"
+/topics/contributing/tutorials/introduction: "Overview of the Galaxy Training Material"
+/topics/contributing/tutorials/slides-with-video: "Adding auto-generated video to your slides"
+/topics/contributing/tutorials/github-command-line-contribution: "Contributing with GitHub via command-line"
+/topics/contributing/tutorials/github-interface-contribution: "Contributing with GitHub via its interface"
+/topics/contributing/tutorials/create-new-tutorial: "Creating a new tutorial"
+/topics/contributing/tutorials/create-new-tutorial-content: "Creating content in Markdown"
+/topics/contributing/tutorials/create-new-tutorial-tours: "Creating Interactive Galaxy Tours"
+/topics/contributing/tutorials/create-new-tutorial-slides: "Creating Slides"
+/topics/contributing/tutorials/generating-pdf: "Generating PDF artefacts of the website"
+/topics/contributing/tutorials/create-new-topic: "Including a new topic"
+/topics/contributing/tutorials/running-jekyll: "Running the GTN website locally"
+/topics/contributing/tutorials/gitpod: "Running the GTN website online using GitPod"
+/topics/contributing/tutorials/create-new-tutorial-technical: "Tools, Data, and Workflows for tutorials"
+/topics/contributing/tutorials/admin-knitting: "Updating diffs in admin training"
+/topics/data-science/tutorials/cli-advanced: "Advanced CLI in Galaxy"
+/topics/data-science/tutorials/python-advanced-np-pd: "Advanced Python"
+/topics/data-science/tutorials/r-advanced: "Advanced R in Galaxy"
+/topics/data-science/tutorials/sql-advanced: "Advanced SQL"
+/topics/data-science/tutorials/cli-basics: "CLI basics in Galaxy"
+/topics/data-science/tutorials/cli-bashcrawl: "CLI Educational Game - Bashcrawl"
+/topics/data-science/tutorials/python-basics: "Introduction to Python"
+/topics/data-science/tutorials/sql-basic: "Introduction to SQL"
+/topics/data-science/tutorials/python-plotting: "Plotting in Python"
+/topics/data-science/tutorials/r-basics: "R basics in Galaxy"
+/topics/data-science/tutorials/sql-game: "SQL Educational Game - Murder Mystery"
+/topics/data-science/tutorials/sql-python: "SQL with Python"
+/topics/data-science/tutorials/sql-r: "SQL with R"
+/topics/data-management/tutorials/data-steward: "What is a Data Steward?"
+/topics/computational-chemistry/tutorials/analysis-md-simulations: "Analysis of molecular dynamics simulations"
+/topics/computational-chemistry/tutorials/htmd-analysis: "High Throughput Molecular Dynamics and Analysis"
+/topics/computational-chemistry/tutorials/cheminformatics: "Protein-ligand docking"
+/topics/computational-chemistry/tutorials/md-simulation-gromacs: "Running molecular dynamics simulations using GROMACS"
+/topics/computational-chemistry/tutorials/setting-up-molecular-systems: "Setting up molecular systems"
+/topics/computational-chemistry/tutorials/covid19-docking: "Virtual screening of the SARS-CoV-2 main protease with rxDock and pose scoring"
+/topics/assembly/tutorials/general-introduction: "An Introduction to Genome Assembly"
+/topics/assembly/tutorials/chloroplast-assembly: "Chloroplast genome assembly"
+/topics/assembly/tutorials/debruijn-graph-assembly: "De Bruijn Graph Assembly"
+/topics/assembly/tutorials/algorithms-introduction: "Deeper look into Genome Assembly algorithms"
+/topics/assembly/tutorials/mrsa-illumina: "Genome Assembly of MRSA using Illumina MiSeq Data"
+/topics/assembly/tutorials/mrsa-nanopore: "Genome Assembly of MRSA using Oxford Nanopore MinION Data"
+/topics/assembly/tutorials/ecoli_comparison: "Making sense of a newly assembled genome"
+/topics/assembly/tutorials/unicycler-assembly: "Unicycler Assembly"
+/topics/assembly/tutorials/assembly-with-preprocessing: "Unicycler assembly of SARS-CoV-2 genome with preprocessing to remove human genome reads"
+/topics/transcriptomics/tutorials/introduction: "Introduction to Transcriptomics"
+/topics/transcriptomics/tutorials/rna-seq-reads-to-counts: "1: RNA-Seq reads to counts"
+/topics/transcriptomics/tutorials/rna-seq-counts-to-genes: "2: RNA-seq counts to genes"
+/topics/transcriptomics/tutorials/rna-seq-genes-to-pathways: "3: RNA-seq genes to pathways"
+/topics/transcriptomics/tutorials/scrna-intro: "An introduction to scRNA-seq data analysis"
+/topics/transcriptomics/tutorials/scrna-plant: "Analysis of plant scRNA-Seq Data with Scanpy"
+/topics/transcriptomics/tutorials/clipseq: "CLIP-Seq data analysis from pre-processing to motif detection"
+/topics/transcriptomics/tutorials/scrna-scanpy-pbmc3k: "Clustering 3K PBMCs with Scanpy"
+/topics/transcriptomics/tutorials/de-novo: "De novo transcriptome reconstruction with RNA-Seq"
+/topics/transcriptomics/tutorials/srna: "Differential abundance testing of small RNAs"
+/topics/transcriptomics/tutorials/scrna-raceid: "Downstream Single-cell RNA analysis with RaceID"
+/topics/transcriptomics/tutorials/scrna-seq-basic-pipeline: "Filter, Plot and Explore Single-cell RNA-seq Data"
+/topics/transcriptomics/tutorials/droplet-quantification-preprocessing: "Generating a single cell matrix using Alevin"
+/topics/transcriptomics/tutorials/goenrichment: "GO Enrichment Analysis"
+/topics/transcriptomics/tutorials/network-analysis-with-heinz: "Network analysis with Heinz"
+/topics/transcriptomics/tutorials/scrna-plates-batches-barcodes: "Plates, Batches, and Barcodes"
+/topics/transcriptomics/tutorials/scrna-preprocessing-tenx: "Pre-processing of 10X Single-Cell RNA Datasets"
+/topics/transcriptomics/tutorials/scrna-preprocessing: "Pre-processing of Single-Cell RNA Data"
+/topics/transcriptomics/tutorials/ref-based: "Reference-based RNA-Seq data analysis"
+/topics/transcriptomics/tutorials/rna-seq-counts-to-viz-in-r: "RNA Seq Counts to Viz in R"
+/topics/transcriptomics/tutorials/rna-interactome: "RNA-RNA interactome data analysis"
+/topics/transcriptomics/tutorials/rna-seq-analysis-with-askomics-it: "RNA-Seq analysis with AskOmics Interactive Tool"
+/topics/transcriptomics/tutorials/scrna-scater-qc: "Single-cell quality control with scater"
+/topics/transcriptomics/tutorials/small_ncrna_clustering: "Small Non-coding RNA Clustering using BlockClust"
+/topics/transcriptomics/tutorials/scrna-JUPYTER-trajectories: "Trajectory Analysis using Python (Jupyter Notebook) in Galaxy"
+/topics/transcriptomics/tutorials/scrna-umis: "Understanding Barcodes"
+/topics/transcriptomics/tutorials/rna-seq-viz-with-cummerbund: "Visualization of RNA-Seq results with CummeRbund"
+/topics/transcriptomics/tutorials/rna-seq-viz-with-heatmap2: "Visualization of RNA-Seq results with heatmap2"
+/topics/transcriptomics/tutorials/rna-seq-viz-with-volcanoplot: "Visualization of RNA-Seq results with Volcano Plot"
+/topics/transcriptomics/tutorials/rna-seq-viz-with-volcanoplot-r: "Visualization of RNA-Seq results with Volcano Plot in R"
+/topics/transcriptomics/tutorials/mirna-target-finder: "Whole transcriptome analysis of Arabidopsis thaliana"
+/topics/variant-analysis/tutorials/introduction: "Introduction to Variant analysis"
+/topics/variant-analysis/tutorials/dip: "Calling variants in diploid systems"
+/topics/variant-analysis/tutorials/non-dip: "Calling variants in non-diploid systems"
+/topics/variant-analysis/tutorials/exome-seq: "Exome sequencing data analysis for diagnosing a genetic disease"
+/topics/variant-analysis/tutorials/sars-cov-2: "From NCBI's Sequence Read Archive (SRA) to Galaxy: SARS-CoV-2 variant analysis"
+/topics/variant-analysis/tutorials/somatic-variants: "Identification of somatic and germline variants from tumor and normal sample pairs"
+/topics/variant-analysis/tutorials/tb-variant-analysis: "M. tuberculosis Variant Analysis"
+/topics/variant-analysis/tutorials/mapping-by-sequencing: "Mapping and molecular identification of phenotype-causing mutations"
+/topics/variant-analysis/tutorials/microbial-variants: "Microbial Variant Calling"
+/topics/variant-analysis/tutorials/sars-cov-2-variant-discovery: "Mutation calling, viral genome reconstruction and lineage/clade assignment from SARS-CoV-2 sequencing data"
+/topics/metabolomics/tutorials/introduction: "Introduction to Metabolomics"
+/topics/metabolomics/tutorials/msi-analyte-distribution: "Mass spectrometry imaging: Examining the spatial distribution of analytes"
+/topics/metabolomics/tutorials/msi-finding-nglycans: "Mass spectrometry imaging: Finding differential analytes"
+/topics/metabolomics/tutorials/lcms: "Mass spectrometry: LC-MS analysis"
+/topics/metabolomics/tutorials/lcms-preprocessing: "Mass spectrometry: LC-MS preprocessing with XCMS"
+/topics/galaxy-interface/tutorials/workflow-automation: "Automating Galaxy workflows using the command line"
+/topics/galaxy-interface/tutorials/workflow-editor: "Creating, Editing and Importing Galaxy Workflows"
+/topics/galaxy-interface/tutorials/download-delete-data: "Downloading and Deleting Data in Galaxy"
+/topics/galaxy-interface/tutorials/history-to-workflow: "Extracting Workflows from Histories"
+/topics/galaxy-interface/tutorials/get-data: "Getting data into Galaxy"
+/topics/galaxy-interface/tutorials/group-tags: "Group tags for complex experimental designs"
+/topics/galaxy-interface/tutorials/intermine: "InterMine integration with Galaxy"
+/topics/galaxy-interface/tutorials/jupyterlab: "JupyterLab in Galaxy"
+/topics/galaxy-interface/tutorials/processing-many-samples-at-once: "Multisample Analysis"
+/topics/galaxy-interface/tutorials/name-tags: "Name tags for following complex histories"
+/topics/galaxy-interface/tutorials/rstudio: "RStudio in Galaxy"
+/topics/galaxy-interface/tutorials/upload-rules: "Rule Based Uploader"
+/topics/galaxy-interface/tutorials/upload-rules-advanced: "Rule Based Uploader: Advanced"
+/topics/galaxy-interface/tutorials/search: "Searching Your History"
+/topics/galaxy-interface/tutorials/ncbi-sarf: "SRA Aligned Read Format to Speed Up SARS-CoV-2 data Analysis"
+/topics/galaxy-interface/tutorials/upload-data-to-ena: "Submitting raw sequencing reads to ENA"
+/topics/galaxy-interface/tutorials/history: "Understanding Galaxy history system"
+/topics/galaxy-interface/tutorials/galaxy-intro-jupyter: "Use Jupyter notebooks in Galaxy"
+/topics/galaxy-interface/tutorials/collections: "Using dataset collections"
+/topics/galaxy-interface/tutorials/workflow-parameters: "Using Workflow Parameters"
+/topics/admin/tutorials/introduction: "Galaxy from an administrator's point of view"
+/topics/admin/tutorials/advanced-galaxy-customisation: "Advanced customisation of a Galaxy instance"
+/topics/admin/tutorials/ansible: "Ansible"
+/topics/admin/tutorials/jenkins: "Automation with Jenkins"
+/topics/admin/tutorials/connect-to-compute-cluster: "Connecting Galaxy to a compute cluster"
+/topics/admin/tutorials/systemd-supervisor: "Controlling Galaxy with systemd or Supervisor"
+/topics/admin/tutorials/data-library: "Data Libraries"
+/topics/admin/tutorials/terraform: "Deploying a compute cluster in OpenStack via Terraform"
+/topics/admin/tutorials/object-store: "Distributed Object Storage"
+/topics/admin/tutorials/galaxy-docker: "Docker and Galaxy"
+/topics/admin/tutorials/empathy: "Empathy"
+/topics/admin/tutorials/ftp: "Enable upload via FTP"
+/topics/admin/tutorials/external-auth: "External Authentication"
+/topics/admin/tutorials/database: "Galactic Database"
+/topics/admin/tutorials/database-schema: "Galaxy Database schema"
+/topics/admin/tutorials/k8s-deploying-galaxy: "Galaxy Installation on Kubernetes"
+/topics/admin/tutorials/ansible-galaxy: "Galaxy Installation with Ansible"
+/topics/admin/tutorials/interactive-tools: "Galaxy Interactive Tools"
+/topics/admin/tutorials/general-monitoring: "Galaxy Monitoring"
+/topics/admin/tutorials/gxadmin: "Galaxy Monitoring with gxadmin"
+/topics/admin/tutorials/reports: "Galaxy Monitoring with Reports"
+/topics/admin/tutorials/monitoring: "Galaxy Monitoring with Telegraf and Grafana"
+/topics/admin/tutorials/cloudbursting: "Galaxy on the Cloud"
+/topics/admin/tutorials/tool-management: "Galaxy Tool Management with Ephemeris"
+/topics/admin/tutorials/troubleshooting: "Galaxy Troubleshooting"
+/topics/admin/tutorials/production: "Gearing towards production"
+/topics/admin/tutorials/k8s-managing-galaxy: "Managing Galaxy on Kubernetes"
+/topics/admin/tutorials/job-destinations: "Mapping Jobs to Destinations"
+/topics/admin/tutorials/cvmfs: "Reference Data with CVMFS"
+/topics/admin/tutorials/cvmfs-manual: "Reference Data with CVMFS without Ansible"
+/topics/admin/tutorials/reference-genomes: "Reference Genomes in Galaxy"
+/topics/admin/tutorials/pulsar: "Running Jobs on Remote Resources with Pulsar"
+/topics/admin/tutorials/maintenance: "Server Maintenance and Backups"
+/topics/admin/tutorials/tiaas: "Training Infrastructure as a Service (TIaaS)"
+/topics/admin/tutorials/upgrading: "Upgrading Galaxy"
+/topics/admin/tutorials/singularity: "Use Singularity containers for running Galaxy jobs"
+/topics/admin/tutorials/users-groups-quotas: "User, Group and Quota managment"
+/topics/admin/tutorials/uwsgi: "uWSGI"
