@@ -1,0 +1,66 @@
+---
+type: map
+mapping:
+    "=":
+        type: map
+        mapping:
+            description:
+                type: str
+                required: false
+            faq:
+                type: str
+                pattern: /https:\/\/docs.google.com\/.*/
+            materials:
+                type: seq
+                sequence:
+                    - type: map
+                      mapping:
+                          link:
+                              type: str
+                              required: true
+                          type:
+                              type: str
+                          title:
+                              type: str
+                          external:
+                              type: bool
+                              required: false
+            support_channel:
+                type: str
+                pattern: /^#[a-z0-9_-]*$/
+            support_link:
+                type: str
+                pattern: /^https.*/
+            type:
+                type: str
+                pattern: /^(Webinar|Demo|Lecture|Lecture & Demo|Tutorial|Lecture & Tutorial)$/
+            tags:
+                type: seq
+                sequence:
+                    - type: str
+            versions:
+                type: seq
+                sequence:
+                    - type: map
+                      mapping:
+                          captions:
+                              type: seq
+                              sequence:
+                                  - type: str
+                          speakers:
+                              type: seq
+                              sequence:
+                                  - type: str
+                          date:
+                              type: str
+                              required: true
+                              pattern: /[0-9]{4}-[0-9]{2}-[0-9]{2}/
+                          galaxy_version:
+                              type: str
+                              pattern: /[0-9]{2}\.[0-9]{2}/
+                          length:
+                              type: str
+                              pattern: /^(?:([0-9]*)[Hh])*(?:([0-9]*)[Mm])*(?:([0-9.]*)[Ss])*$/
+                          link:
+                              type: str
+                              pattern: /[A-Za-z0-9_-]{9,13}/
