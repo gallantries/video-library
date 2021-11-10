@@ -1,11 +1,17 @@
-{% assign session = include.session[1] %}
+{% assign session = include.session %}
+{% assign id = include.id %}
+{% assign type = include.type %}
 {% assign module_id = include.module | default: "m1" %}
+
+{% assign id2 = id | split: '/'%}
+{% capture id %}{{id2[0]}}/{{id2[1]}}{% endcapture%}
+{% assign subtutorial = id2[2] %}
 
 <div class="accordion-item">
   {% capture accordion_id %}heading{{module_id}}{{forloop.index0}}{% endcapture %}
   <h2 class="accordion-header" id="{{ accordion_id }}">
    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse{{module_id}}{{forloop.index0}}" aria-expanded="true" aria-controls="collapse{{module_id}}{{forloop.index0}}">
-        {{session.name}}
+        {{ site.data.gtn[id] | default: include.session.name | default: id }}
    </button>
   </h2>
 
@@ -13,8 +19,28 @@
 
     <div class="accordion-body">
 
-      <!-- speaker and video -->
-      <h3 class="session-section"> {{session.type | default: "Tutorial" }} </h3>
+      <!-- videos -->
+      <h3 class="session-section"> {{session.type | default: "Video Tutorial" }} </h3>
+
+      {{include.session}}
+      <br>---<br>
+      {{session}}
+
+
+      <!--
+        get videos, check date/version specified
+      -->
+      <br>
+      {% if type == 'session' %}
+      session
+      {% elsif type == 'video' %}
+      video
+      {% elsif type == 'self-study' %}
+      self-study
+        <!-- TODO -->
+      {% else %}
+        unknown session type, please check
+      {% endif %}
 
      </div><!-- end accordion body -->
   </div><!-- end collapse -->

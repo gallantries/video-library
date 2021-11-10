@@ -7,14 +7,15 @@ program:
   day1:
     title: Day 1
     description: your first intro
-    sessions:
-      - link: webinars
-      - link: sequence-analysis/quality-control
+    trainings:
+      - session: webinars
+      - video: community/welcome
+      - session: sequence-analysis/quality-control
   module2:
     title: Day 2
     description: deeper dive
-    sessions:
-      - link: webinars
-      - link: sequence-analysis/quality-control
+    trainings:
+      - session: webinars
+      - session: sequence-analysis/quality-control
 
 ---
