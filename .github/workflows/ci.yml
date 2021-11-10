@@ -1,0 +1,36 @@
+name: Deploy Website
+
+on: [pull_request]
+
+jobs:
+  deploy:
+    runs-on: ubuntu-18.04
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          fetch-depth: 0
+
+      # BEGIN Dependencies
+      - uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: "2.5"
+      - uses: actions/cache@v2
+        with:
+          path: |
+            vendor/bundle
+          key: ${{ runner.os }}-gems-${{ hashFiles('**/Gemfile.lock') }}
+          restore-keys: |
+            ${{ runner.os }}-gems-${{ hashFiles('**/Gemfile.lock') }}
+      - name: Install dependencies
+        run: |
+          cd docs/
+          gem install bundler
+          bundle config path vendor/bundle
+          bundle install --jobs 4 --retry 3
+      # END Dependencies
+
+      - name: Run Tests
+        run: |
+            cd docs/
+            ruby bin/validate-frontmatter.rb
+
