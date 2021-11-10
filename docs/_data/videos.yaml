@@ -113,7 +113,6 @@ climate/fates/slides:
     speakers:
     - awspolly
 community/welcome:
-  name: Meet & Join the Galaxy Community!
   description: This short video gives an overview of the worldwide Galaxy community,
     and different ways you can get involved! <strong>Video created by Beatriz Serrano-Solano</strong>.
   faq: null
@@ -182,6 +181,7 @@ community/welcome:
     link: https://twitter.com/gxytraining
     title: follow the GTN @gxytraining
     type: Twitter
+  name: Meet & Join the Galaxy Community!
   support_channel: null
   support_link: null
   tags:
@@ -390,6 +390,25 @@ epigenetics/atac-seq/tutorial:
     link: Zc-bl6ZfcX4
     speakers:
     - helyf
+galaxy-interface/collections/tutorial:
+  description: null
+  faq: null
+  materials:
+  - link: topics/galaxy-interface/tutorials/collections/tutorial.html
+    title: Using dataset collections
+    type: Tutorial
+  support_channel: null
+  support_link: null
+  tags:
+  - galaxy-interface
+  type: Tutorial
+  versions:
+  - captions: null
+    date: null
+    length: 11M
+    link: uZUt9XIHUQo
+    speakers:
+    - nekrut
 galaxy-interface/ncbi-sarf/slides:
   description: This lecture will introduce the SRA Aligned Read format available in
     the cloud from SRA, as well as some accompanying metadata that can help you search
@@ -464,6 +483,24 @@ galaxy-interface/upload-rules:
     link: 1MWHVRWXpyA
     speakers:
     - assuntad23
+galaxy-interface/upload-to-ena:
+  description: "So you\u2019ve used Galaxy workflows to analyze your SARS-CoV-2 samples?\
+    \ Learn in this tutorial how to export results to your favorite datastore."
+  faq: null
+  materials: null
+  support_channel: null
+  support_link: null
+  tags:
+  - sars-cov2
+  - galaxy-interface
+  type: Slides & Tutorial
+  versions:
+  - captions: null
+    date: null
+    length: 10M
+    link: -5U0sINjoig
+    speakers:
+    - wm75
 galaxy-interface/workflow-automation:
   description: This is a more technical tutorial which will teach you how to run workflows
     from the command line and scale your analyses. If you are on Windows, you will
@@ -658,6 +695,26 @@ genome-annotation/apollo/tutorial:
     link: ywK1fhM-QFU
     speakers:
     - abretaud
+introduction/galaxy-intro-101/tutorial:
+  description: This tutorial will introduce you to Galaxy. You will familiarize yourself
+    with tools, workflows and histories. Those skills will be needed the next days
+  faq: null
+  materials:
+  - https://training.galaxyproject.org/training-material/topics/introduction/tutorials/galaxy-intro-101/tutorial.html
+  - https://usegalaxy.eu/u/wolfgang-maier/h/galaxy-101
+  support_channel: null
+  support_link: null
+  tags:
+  - wetlab
+  - introduction
+  type: Tutorial
+  versions:
+  - captions: null
+    date: null
+    length: 13M
+    link: D5HgJWdfOWw
+    speakers:
+    - nekrut
 introduction/galaxy-intro-ngs-data-managment:
   description: In this demo video, we will show how to perform an NGS data analysis,
     using a SARS-CoV-2 example dataset. If you would like to run the full tutorial
@@ -1124,6 +1181,58 @@ rstudio-cloud:
     link: vN14K74nFZc
     speakers:
     - fpsom
+sars-cov2/usegalaxy-star-bot:
+  description: "See in this demo how, on usegalaxy.*, we\u2019ve used Planemo and\
+    \ Bioblend to build and operate an automated SARS-CoV-2 genome surveillance system\
+    \ based on the Galaxy workflows for variant calling, consensus building and reporting."
+  faq: null
+  materials: []
+  support_channel: null
+  support_link: null
+  tags:
+  - sars-cov2
+  type: Demo
+  versions:
+  - captions: null
+    date: null
+    length: 40M
+    link: IRxja8bZ-MU
+    speakers:
+    - wm75
+sars-cov2/using-galaxy:
+  description: 'Get an overview of the workshop: production-ready Galaxy workflows
+    for SARS-CoV-2 sequencing data, tools you should know to automate workflow execution,
+    and how you combine all of it to turn Galaxy into a platform for genome-surveillance'
+  faq: null
+  materials: []
+  support_channel: null
+  support_link: null
+  tags:
+  - sars-cov2
+  type: Tutorial
+  versions:
+  - captions: null
+    date: null
+    length: 13M
+    link: luxFraFJTc4
+    speakers:
+    - wm75
+sequence-analysis/human-reads-removal/tutorial:
+  description: null
+  faq: null
+  materials:
+  - link: topics/sequence-analysis/tutorials/human-reads-removal/tutorial.html
+    title: Removal of human reads from SARS-CoV-2 sequencing data
+    type: Tutorial
+  - external: true
+    link: https://usegalaxy.eu/u/wolfgang-maier/h/removal-of-human-reads-from-sars-cov-2-sequencing-data
+    title: Example History
+    type: Example History
+  support_channel: null
+  support_link: null
+  tags:
+  - sequence-analysis
+  type: Tutorial
 sequence-analysis/mapping/slides:
   description: This lecture covers the basic concepts involved in mapping sequencing
     reads to a reference genome.
@@ -1864,12 +1973,12 @@ visualisation/jbrowse/tutorial:
   type: Tutorial
   versions: []
 webinar/admins:
-  name: Galaxy Resources for.. Admins
   materials:
   - external: true
     link: https://galaxyproject.org/events/webinars/
     title: View past & upcoming webinars
     type: Galaxy Webinar Page
+  name: Galaxy Resources for.. Admins
   support_channel: '#event-gcc2021'
   support_link: https://gtnsmrgsbord.slack.com/archives/C0253H46ABV
   tags:
@@ -1877,19 +1986,19 @@ webinar/admins:
   type: Webinar
   versions:
   - captions: []
-    date: "2021-05-12"
-    length: null
+    date: '2021-05-12'
+    length: 1H5M
     link: MdQyltMAocg
     speakers:
     - gmauro
     - lldelisle
 webinar/educators:
-  name: Galaxy Resources for.. Educators
   materials:
   - external: true
     link: https://galaxyproject.org/events/webinars/
     title: View past & upcoming webinars
     type: Galaxy Webinar Page
+  name: Galaxy Resources for.. Educators
   support_channel: '#event-gcc2021'
   support_link: https://gtnsmrgsbord.slack.com/archives/C0253H46ABV
   tags:
@@ -1898,7 +2007,7 @@ webinar/educators:
   versions:
   - captions:
     - shiltemann
-    date: "2021-04-28"
+    date: '2021-04-28'
     length: 1H10M
     link: AXynJtPXgRQ
     speakers:
@@ -1908,7 +2017,6 @@ webinar/educators:
     - subinamehta
     - bebatut
 webinar/researchers:
-  name: Galaxy Resources for.. Researchers
   description: Wondering how to get started, or how to do a particular type of analysis,
     or how to scale to thousands of datasets? This webinar will highlight how to find
     the resources and help you need for each of these questions and more.
@@ -1917,6 +2025,7 @@ webinar/researchers:
     link: https://galaxyproject.org/events/webinars/
     title: View past & upcoming webinars
     type: Galaxy Webinar Page
+  name: Galaxy Resources for.. Researchers
   support_channel: '#event-gcc2021'
   support_link: https://gtnsmrgsbord.slack.com/archives/C0253H46ABV
   tags:
@@ -1924,18 +2033,18 @@ webinar/researchers:
   type: Webinar
   versions:
   - captions: null
-    date: "2021-04-21"
+    date: '2021-04-21'
     length: 1H10M
     link: cFN_WPGz9qk
     speakers:
     - tnabtaf
 webinar/tooldevs:
-  name: Galaxy Resources for.. Tool Developers
   materials:
   - external: true
     link: https://galaxyproject.org/events/webinars/
     title: View past & upcoming webinars
     type: Galaxy Webinar Page
+  name: Galaxy Resources for.. Tool Developers
   support_channel: '#event-gcc2021'
   support_link: https://gtnsmrgsbord.slack.com/archives/C0253H46ABV
   tags:
@@ -1943,8 +2052,8 @@ webinar/tooldevs:
   type: Webinar
   versions:
   - captions: null
-    date: "2021-05-26"
-    length: null
+    date: '2021-05-26'
+    length: 59M
     link: vx2icgaU_h0
     speakers:
     - blankenberg
@@ -1968,144 +2077,3 @@ wetlab/miseq/demo:
     link: bZfEyd87xCE
     speakers:
     - miaomiaozhou88
-
-introduction/galaxy-intro-101/tutorial:
-  description: |
-      This tutorial will introduce you to Galaxy. You will familiarize yourself
-      with tools, workflows and histories. Those skills will be needed the next
-      days
-  faq:
-  materials:
-      - https://training.galaxyproject.org/training-material/topics/introduction/tutorials/galaxy-intro-101/tutorial.html
-      - https://usegalaxy.eu/u/wolfgang-maier/h/galaxy-101
-  support_channel:
-  support_link:
-  tags:
-  - wetlab
-  type: Tutorial
-  versions:
-  - captions: null
-    date:
-    length:
-    link: D5HgJWdfOWw
-    speakers:
-    - nekrut
-
-galaxy-interface/collections/tutorial:
-  description:
-  faq:
-  materials:
-      - link: topics/galaxy-interface/tutorials/collections/tutorial.html
-        title: Using dataset collections
-        type: Tutorial
-  support_channel:
-  support_link:
-  tags:
-  - galaxy-interface
-  type: Tutorial
-  versions:
-  - captions: null
-    date:
-    length:
-    link: uZUt9XIHUQo
-    speakers:
-    - nekrut
-
-sequence-analysis/human-reads-removal/tutorial:
-  description:
-  faq:
-  materials:
-  - link: topics/sequence-analysis/tutorials/human-reads-removal/tutorial.html
-    title: Removal of human reads from SARS-CoV-2 sequencing data
-    type: Tutorial
-  - link: "https://usegalaxy.eu/u/wolfgang-maier/h/removal-of-human-reads-from-sars-cov-2-sequencing-data"
-    title: Example History
-    type: Example History
-    external: true
-  support_channel:
-  support_link:
-  tags:
-  - sequence-analysis
-  type: Tutorial
-
-
-sars-cov2/using-galaxy:
-  description: |
-      Get an overview of the workshop: production-ready Galaxy workflows for
-      SARS-CoV-2 sequencing data, tools you should know to automate workflow
-      execution, and how you combine all of it to turn Galaxy into a platform
-      for genome-surveillance
-  faq:
-  materials: []
-  support_channel:
-  support_link:
-  tags:
-  - sars-cov2
-  type: Tutorial
-  versions:
-  - captions: null
-    date:
-    length:
-    link: luxFraFJTc4
-    speakers:
-    - wm75
-
-sars-cov2/usegalaxy-star-bot:
-  description: |
-      See in this demo how, on usegalaxy.*, we’ve used Planemo and Bioblend to build and operate an automated SARS-CoV-2 genome surveillance system based on the Galaxy workflows for variant calling, consensus building and reporting.
-  faq:
-  materials: []
-  support_channel:
-  support_link:
-  tags:
-  - sars-cov2
-  type: Demo
-  versions:
-  - captions: null
-    date:
-    length:
-    link: IRxja8bZ-MU
-    speakers:
-    - wm75
-
-galaxy-interface/upload-to-ena:
-  description:
-  faq:
-  materials:
-      - link: topics/galaxy-interface/tutorials/upload-data-to-ena/slides.html
-        title: Submitting raw sequencing reads to ENA
-        type: Slides
-      - link: topics/galaxy-interface/tutorials/upload-data-to-ena/tutorial.html
-        title: Submitting raw sequencing reads to ENA
-        type: Tutorial
-  support_channel:
-  support_link:
-  tags:
-  - sars-cov2
-  type: Slides & Tutorial
-  versions:
-  - captions: null
-    date:
-    length:
-    link: sEjhWAtmAn4
-    speakers:
-    - roncoronimiguel
-
-galaxy-interface/upload-to-ena:
-  description: |
-      So you’ve used Galaxy workflows to analyze your SARS-CoV-2 samples? Learn
-      in this tutorial how to export results to your favorite datastore.
-  faq:
-  materials:
-  support_channel:
-  support_link:
-  tags:
-  - sars-cov2
-  type: Slides & Tutorial
-  versions:
-  - captions: null
-    date:
-    length:
-    link: -5U0sINjoig
-    speakers:
-    - wm75
