@@ -10,6 +10,7 @@
           "type": "Galaxy Webinar Page"
         }
       ],
+      "name": "Galaxy Resources for.. Admins",
       "support_channel": "#event-gcc2021",
       "support_link": "https://gtnsmrgsbord.slack.com/archives/C0253H46ABV",
       "tags": [
@@ -22,7 +23,7 @@
 
           ],
           "date": "2021-05-12",
-          "length": null,
+          "length": "1H5M",
           "link": "MdQyltMAocg",
           "speakers": [
             "gmauro",
@@ -40,6 +41,7 @@
           "type": "Galaxy Webinar Page"
         }
       ],
+      "name": "Galaxy Resources for.. Educators",
       "support_channel": "#event-gcc2021",
       "support_link": "https://gtnsmrgsbord.slack.com/archives/C0253H46ABV",
       "tags": [
@@ -74,6 +76,7 @@
           "type": "Galaxy Webinar Page"
         }
       ],
+      "name": "Galaxy Resources for.. Researchers",
       "support_channel": "#event-gcc2021",
       "support_link": "https://gtnsmrgsbord.slack.com/archives/C0253H46ABV",
       "tags": [
@@ -101,6 +104,7 @@
           "type": "Galaxy Webinar Page"
         }
       ],
+      "name": "Galaxy Resources for.. Tool Developers",
       "support_channel": "#event-gcc2021",
       "support_link": "https://gtnsmrgsbord.slack.com/archives/C0253H46ABV",
       "tags": [
@@ -111,7 +115,7 @@
         {
           "captions": null,
           "date": "2021-05-26",
-          "length": null,
+          "length": "59M",
           "link": "vx2icgaU_h0",
           "speakers": [
             "blankenberg",

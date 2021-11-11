@@ -1,6 +1,32 @@
 {
   "url": "/video-library/api/tags/wetlab.json",
   "videos": {
+    "introduction/galaxy-intro-101/tutorial": {
+      "description": "This tutorial will introduce you to Galaxy. You will familiarize yourself with tools, workflows and histories. Those skills will be needed the next days",
+      "faq": null,
+      "materials": [
+        "https://training.galaxyproject.org/training-material/topics/introduction/tutorials/galaxy-intro-101/tutorial.html",
+        "https://usegalaxy.eu/u/wolfgang-maier/h/galaxy-101"
+      ],
+      "support_channel": null,
+      "support_link": null,
+      "tags": [
+        "wetlab",
+        "introduction"
+      ],
+      "type": "Tutorial",
+      "versions": [
+        {
+          "captions": null,
+          "date": null,
+          "length": "13M",
+          "link": "D5HgJWdfOWw",
+          "speakers": [
+            "nekrut"
+          ]
+        }
+      ]
+    },
     "wetlab/miseq/demo": {
       "description": "This video will show you the full process of sequencing a bacterial genome using the Oxford Nanopore MinION sequencer.",
       "faq": "https://docs.google.com/document/d/e/2PACX-1vQlG_Onq011MQqyIu4D_erDqiLKAMLnduhHr5cDWwbXVqlU9VZhmm4OT_zphKqb8TEZprAFo8rdPXjO/pub",

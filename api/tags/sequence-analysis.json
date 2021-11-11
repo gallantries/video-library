@@ -1,6 +1,29 @@
 {
   "url": "/video-library/api/tags/sequence-analysis.json",
   "videos": {
+    "sequence-analysis/human-reads-removal/tutorial": {
+      "description": null,
+      "faq": null,
+      "materials": [
+        {
+          "link": "topics/sequence-analysis/tutorials/human-reads-removal/tutorial.html",
+          "title": "Removal of human reads from SARS-CoV-2 sequencing data",
+          "type": "Tutorial"
+        },
+        {
+          "external": true,
+          "link": "https://usegalaxy.eu/u/wolfgang-maier/h/removal-of-human-reads-from-sars-cov-2-sequencing-data",
+          "title": "Example History",
+          "type": "Example History"
+        }
+      ],
+      "support_channel": null,
+      "support_link": null,
+      "tags": [
+        "sequence-analysis"
+      ],
+      "type": "Tutorial"
+    },
     "sequence-analysis/mapping/slides": {
       "description": "This lecture covers the basic concepts involved in mapping sequencing reads to a reference genome.",
       "faq": "https://docs.google.com/document/d/e/2PACX-1vReZf8DGTSf6DlgBzg_g4_PhiH7glzRNTXGxK2_xM3aAFL5A3x0FdawNCrna3NkZ_vj986u7nhWh3Bb/pub",

@@ -1,0 +1,76 @@
+{
+  "url": "/video-library/api/tags/sars-cov2.json",
+  "videos": {
+    "galaxy-interface/upload-to-ena": {
+      "description": "So you’ve used Galaxy workflows to analyze your SARS-CoV-2 samples? Learn in this tutorial how to export results to your favorite datastore.",
+      "faq": null,
+      "materials": null,
+      "support_channel": null,
+      "support_link": null,
+      "tags": [
+        "sars-cov2",
+        "galaxy-interface"
+      ],
+      "type": "Slides & Tutorial",
+      "versions": [
+        {
+          "captions": null,
+          "date": null,
+          "length": "10M",
+          "link": "-5U0sINjoig",
+          "speakers": [
+            "wm75"
+          ]
+        }
+      ]
+    },
+    "sars-cov2/usegalaxy-star-bot": {
+      "description": "See in this demo how, on usegalaxy.*, we’ve used Planemo and Bioblend to build and operate an automated SARS-CoV-2 genome surveillance system based on the Galaxy workflows for variant calling, consensus building and reporting.",
+      "faq": null,
+      "materials": [
+
+      ],
+      "support_channel": null,
+      "support_link": null,
+      "tags": [
+        "sars-cov2"
+      ],
+      "type": "Demo",
+      "versions": [
+        {
+          "captions": null,
+          "date": null,
+          "length": "40M",
+          "link": "IRxja8bZ-MU",
+          "speakers": [
+            "wm75"
+          ]
+        }
+      ]
+    },
+    "sars-cov2/using-galaxy": {
+      "description": "Get an overview of the workshop: production-ready Galaxy workflows for SARS-CoV-2 sequencing data, tools you should know to automate workflow execution, and how you combine all of it to turn Galaxy into a platform for genome-surveillance",
+      "faq": null,
+      "materials": [
+
+      ],
+      "support_channel": null,
+      "support_link": null,
+      "tags": [
+        "sars-cov2"
+      ],
+      "type": "Tutorial",
+      "versions": [
+        {
+          "captions": null,
+          "date": null,
+          "length": "13M",
+          "link": "luxFraFJTc4",
+          "speakers": [
+            "wm75"
+          ]
+        }
+      ]
+    }
+  }
+}

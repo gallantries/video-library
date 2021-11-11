@@ -1,6 +1,32 @@
 {
   "url": "/video-library/api/tags/introduction.json",
   "videos": {
+    "introduction/galaxy-intro-101/tutorial": {
+      "description": "This tutorial will introduce you to Galaxy. You will familiarize yourself with tools, workflows and histories. Those skills will be needed the next days",
+      "faq": null,
+      "materials": [
+        "https://training.galaxyproject.org/training-material/topics/introduction/tutorials/galaxy-intro-101/tutorial.html",
+        "https://usegalaxy.eu/u/wolfgang-maier/h/galaxy-101"
+      ],
+      "support_channel": null,
+      "support_link": null,
+      "tags": [
+        "wetlab",
+        "introduction"
+      ],
+      "type": "Tutorial",
+      "versions": [
+        {
+          "captions": null,
+          "date": null,
+          "length": "13M",
+          "link": "D5HgJWdfOWw",
+          "speakers": [
+            "nekrut"
+          ]
+        }
+      ]
+    },
     "introduction/galaxy-intro-ngs-data-managment": {
       "description": "In this demo video, we will show how to perform an NGS data analysis, using a SARS-CoV-2 example dataset. If you would like to run the full tutorial yourself, please find the link below (duration 1h-1.5h).",
       "faq": "https://docs.google.com/document/u/2/d/12w_KCVN7z9DKLSxX6aCRfr8__nfANoIxfLJeYM4UGQA/pub",

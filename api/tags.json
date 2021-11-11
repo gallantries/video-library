@@ -272,6 +272,7 @@
             "type": "Twitter"
           }
         ],
+        "name": "Meet & Join the Galaxy Community!",
         "support_channel": null,
         "support_link": null,
         "tags": [
@@ -575,6 +576,34 @@
   "galaxy-interface": {
     "url": "/video-library/api/tags/galaxy-interface.json",
     "videos": {
+      "galaxy-interface/collections/tutorial": {
+        "description": null,
+        "faq": null,
+        "materials": [
+          {
+            "link": "topics/galaxy-interface/tutorials/collections/tutorial.html",
+            "title": "Using dataset collections",
+            "type": "Tutorial"
+          }
+        ],
+        "support_channel": null,
+        "support_link": null,
+        "tags": [
+          "galaxy-interface"
+        ],
+        "type": "Tutorial",
+        "versions": [
+          {
+            "captions": null,
+            "date": null,
+            "length": "11M",
+            "link": "uZUt9XIHUQo",
+            "speakers": [
+              "nekrut"
+            ]
+          }
+        ]
+      },
       "galaxy-interface/ncbi-sarf/slides": {
         "description": "This lecture will introduce the SRA Aligned Read format available in the cloud from SRA, as well as some accompanying metadata that can help you search and filter the data. This sessions is aimed specifically at SARS-CoV-2 runs in SRA.",
         "faq": "https://docs.google.com/document/u/2/d/e/2PACX-1vRxJV3rSohuzd3qjTCeuue4GkuCJM1qeX29SMOo56ZQcJWc1ht1PaiNWIlgeD4npAVBXS1b_OXIyHIr/pub",
@@ -676,6 +705,29 @@
           }
         ]
       },
+      "galaxy-interface/upload-to-ena": {
+        "description": "So you’ve used Galaxy workflows to analyze your SARS-CoV-2 samples? Learn in this tutorial how to export results to your favorite datastore.",
+        "faq": null,
+        "materials": null,
+        "support_channel": null,
+        "support_link": null,
+        "tags": [
+          "sars-cov2",
+          "galaxy-interface"
+        ],
+        "type": "Slides & Tutorial",
+        "versions": [
+          {
+            "captions": null,
+            "date": null,
+            "length": "10M",
+            "link": "-5U0sINjoig",
+            "speakers": [
+              "wm75"
+            ]
+          }
+        ]
+      },
       "galaxy-interface/workflow-automation": {
         "description": "This is a more technical tutorial which will teach you how to run workflows from the command line and scale your analyses. If you are on Windows, you will need WSL/WSL2 setup before this session.",
         "faq": "https://docs.google.com/document/d/17FUV3YzInIMhDaTntZL3lb74AjhgKlPAXMOhJdX9DIE/pub",
@@ -707,6 +759,82 @@
             "link": "o39QjVnLG68",
             "speakers": [
               "simonbray"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "sars-cov2": {
+    "url": "/video-library/api/tags/sars-cov2.json",
+    "videos": {
+      "galaxy-interface/upload-to-ena": {
+        "description": "So you’ve used Galaxy workflows to analyze your SARS-CoV-2 samples? Learn in this tutorial how to export results to your favorite datastore.",
+        "faq": null,
+        "materials": null,
+        "support_channel": null,
+        "support_link": null,
+        "tags": [
+          "sars-cov2",
+          "galaxy-interface"
+        ],
+        "type": "Slides & Tutorial",
+        "versions": [
+          {
+            "captions": null,
+            "date": null,
+            "length": "10M",
+            "link": "-5U0sINjoig",
+            "speakers": [
+              "wm75"
+            ]
+          }
+        ]
+      },
+      "sars-cov2/usegalaxy-star-bot": {
+        "description": "See in this demo how, on usegalaxy.*, we’ve used Planemo and Bioblend to build and operate an automated SARS-CoV-2 genome surveillance system based on the Galaxy workflows for variant calling, consensus building and reporting.",
+        "faq": null,
+        "materials": [
+
+        ],
+        "support_channel": null,
+        "support_link": null,
+        "tags": [
+          "sars-cov2"
+        ],
+        "type": "Demo",
+        "versions": [
+          {
+            "captions": null,
+            "date": null,
+            "length": "40M",
+            "link": "IRxja8bZ-MU",
+            "speakers": [
+              "wm75"
+            ]
+          }
+        ]
+      },
+      "sars-cov2/using-galaxy": {
+        "description": "Get an overview of the workshop: production-ready Galaxy workflows for SARS-CoV-2 sequencing data, tools you should know to automate workflow execution, and how you combine all of it to turn Galaxy into a platform for genome-surveillance",
+        "faq": null,
+        "materials": [
+
+        ],
+        "support_channel": null,
+        "support_link": null,
+        "tags": [
+          "sars-cov2"
+        ],
+        "type": "Tutorial",
+        "versions": [
+          {
+            "captions": null,
+            "date": null,
+            "length": "13M",
+            "link": "luxFraFJTc4",
+            "speakers": [
+              "wm75"
             ]
           }
         ]
@@ -1035,9 +1163,92 @@
       }
     }
   },
+  "wetlab": {
+    "url": "/video-library/api/tags/wetlab.json",
+    "videos": {
+      "introduction/galaxy-intro-101/tutorial": {
+        "description": "This tutorial will introduce you to Galaxy. You will familiarize yourself with tools, workflows and histories. Those skills will be needed the next days",
+        "faq": null,
+        "materials": [
+          "https://training.galaxyproject.org/training-material/topics/introduction/tutorials/galaxy-intro-101/tutorial.html",
+          "https://usegalaxy.eu/u/wolfgang-maier/h/galaxy-101"
+        ],
+        "support_channel": null,
+        "support_link": null,
+        "tags": [
+          "wetlab",
+          "introduction"
+        ],
+        "type": "Tutorial",
+        "versions": [
+          {
+            "captions": null,
+            "date": null,
+            "length": "13M",
+            "link": "D5HgJWdfOWw",
+            "speakers": [
+              "nekrut"
+            ]
+          }
+        ]
+      },
+      "wetlab/miseq/demo": {
+        "description": "This video will show you the full process of sequencing a bacterial genome using the Oxford Nanopore MinION sequencer.",
+        "faq": "https://docs.google.com/document/d/e/2PACX-1vQlG_Onq011MQqyIu4D_erDqiLKAMLnduhHr5cDWwbXVqlU9VZhmm4OT_zphKqb8TEZprAFo8rdPXjO/pub",
+        "materials": [
+
+        ],
+        "support_channel": "#microbiome_antibiotic-resistance-detection-nanopore",
+        "support_link": "https://gtnsmrgsbord.slack.com/archives/C01F1GJ7JJX",
+        "tags": [
+          "wetlab"
+        ],
+        "type": "Demo",
+        "versions": [
+          {
+            "captions": [
+              "shiltemann"
+            ],
+            "date": "2021-02-15",
+            "length": "20M",
+            "link": "bZfEyd87xCE",
+            "speakers": [
+              "miaomiaozhou88"
+            ]
+          }
+        ]
+      }
+    }
+  },
   "introduction": {
     "url": "/video-library/api/tags/introduction.json",
     "videos": {
+      "introduction/galaxy-intro-101/tutorial": {
+        "description": "This tutorial will introduce you to Galaxy. You will familiarize yourself with tools, workflows and histories. Those skills will be needed the next days",
+        "faq": null,
+        "materials": [
+          "https://training.galaxyproject.org/training-material/topics/introduction/tutorials/galaxy-intro-101/tutorial.html",
+          "https://usegalaxy.eu/u/wolfgang-maier/h/galaxy-101"
+        ],
+        "support_channel": null,
+        "support_link": null,
+        "tags": [
+          "wetlab",
+          "introduction"
+        ],
+        "type": "Tutorial",
+        "versions": [
+          {
+            "captions": null,
+            "date": null,
+            "length": "13M",
+            "link": "D5HgJWdfOWw",
+            "speakers": [
+              "nekrut"
+            ]
+          }
+        ]
+      },
       "introduction/galaxy-intro-ngs-data-managment": {
         "description": "In this demo video, we will show how to perform an NGS data analysis, using a SARS-CoV-2 example dataset. If you would like to run the full tutorial yourself, please find the link below (duration 1h-1.5h).",
         "faq": "https://docs.google.com/document/u/2/d/12w_KCVN7z9DKLSxX6aCRfr8__nfANoIxfLJeYM4UGQA/pub",
@@ -1673,6 +1884,29 @@
   "sequence-analysis": {
     "url": "/video-library/api/tags/sequence-analysis.json",
     "videos": {
+      "sequence-analysis/human-reads-removal/tutorial": {
+        "description": null,
+        "faq": null,
+        "materials": [
+          {
+            "link": "topics/sequence-analysis/tutorials/human-reads-removal/tutorial.html",
+            "title": "Removal of human reads from SARS-CoV-2 sequencing data",
+            "type": "Tutorial"
+          },
+          {
+            "external": true,
+            "link": "https://usegalaxy.eu/u/wolfgang-maier/h/removal-of-human-reads-from-sars-cov-2-sequencing-data",
+            "title": "Example History",
+            "type": "Example History"
+          }
+        ],
+        "support_channel": null,
+        "support_link": null,
+        "tags": [
+          "sequence-analysis"
+        ],
+        "type": "Tutorial"
+      },
       "sequence-analysis/mapping/slides": {
         "description": "This lecture covers the basic concepts involved in mapping sequencing reads to a reference genome.",
         "faq": "https://docs.google.com/document/d/e/2PACX-1vReZf8DGTSf6DlgBzg_g4_PhiH7glzRNTXGxK2_xM3aAFL5A3x0FdawNCrna3NkZ_vj986u7nhWh3Bb/pub",
@@ -2663,6 +2897,7 @@
             "type": "Galaxy Webinar Page"
           }
         ],
+        "name": "Galaxy Resources for.. Admins",
         "support_channel": "#event-gcc2021",
         "support_link": "https://gtnsmrgsbord.slack.com/archives/C0253H46ABV",
         "tags": [
@@ -2675,7 +2910,7 @@
 
             ],
             "date": "2021-05-12",
-            "length": null,
+            "length": "1H5M",
             "link": "MdQyltMAocg",
             "speakers": [
               "gmauro",
@@ -2693,6 +2928,7 @@
             "type": "Galaxy Webinar Page"
           }
         ],
+        "name": "Galaxy Resources for.. Educators",
         "support_channel": "#event-gcc2021",
         "support_link": "https://gtnsmrgsbord.slack.com/archives/C0253H46ABV",
         "tags": [
@@ -2727,6 +2963,7 @@
             "type": "Galaxy Webinar Page"
           }
         ],
+        "name": "Galaxy Resources for.. Researchers",
         "support_channel": "#event-gcc2021",
         "support_link": "https://gtnsmrgsbord.slack.com/archives/C0253H46ABV",
         "tags": [
@@ -2754,6 +2991,7 @@
             "type": "Galaxy Webinar Page"
           }
         ],
+        "name": "Galaxy Resources for.. Tool Developers",
         "support_channel": "#event-gcc2021",
         "support_link": "https://gtnsmrgsbord.slack.com/archives/C0253H46ABV",
         "tags": [
@@ -2764,43 +3002,12 @@
           {
             "captions": null,
             "date": "2021-05-26",
-            "length": null,
+            "length": "59M",
             "link": "vx2icgaU_h0",
             "speakers": [
               "blankenberg",
               "abretaud",
               "petrnovak"
-            ]
-          }
-        ]
-      }
-    }
-  },
-  "wetlab": {
-    "url": "/video-library/api/tags/wetlab.json",
-    "videos": {
-      "wetlab/miseq/demo": {
-        "description": "This video will show you the full process of sequencing a bacterial genome using the Oxford Nanopore MinION sequencer.",
-        "faq": "https://docs.google.com/document/d/e/2PACX-1vQlG_Onq011MQqyIu4D_erDqiLKAMLnduhHr5cDWwbXVqlU9VZhmm4OT_zphKqb8TEZprAFo8rdPXjO/pub",
-        "materials": [
-
-        ],
-        "support_channel": "#microbiome_antibiotic-resistance-detection-nanopore",
-        "support_link": "https://gtnsmrgsbord.slack.com/archives/C01F1GJ7JJX",
-        "tags": [
-          "wetlab"
-        ],
-        "type": "Demo",
-        "versions": [
-          {
-            "captions": [
-              "shiltemann"
-            ],
-            "date": "2021-02-15",
-            "length": "20M",
-            "link": "bZfEyd87xCE",
-            "speakers": [
-              "miaomiaozhou88"
             ]
           }
         ]
