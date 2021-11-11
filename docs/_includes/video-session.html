@@ -1,0 +1,39 @@
+<!-- session: {{ include.session }}<br><br> video: {{include.video}} -->
+
+
+{% assign session-type = include.session.type | default: include.vsession.type | default: include.video.type | default: "Unknown" %}
+{% assign description = include.session.description | default: include.vsession.description %}
+
+<h3 class="session-section">{{session-type}}</h3>
+<div class="flex-row" style="margin-top:1em;">
+ <div class="col-md-8">
+  <div style="position:relative;padding-top:56.25%;">
+   <iframe style="position:absolute;top:0;left:0;width:100%;height:100%;"
+    {% if include.video[0].link contains 'http' %}
+    src="{{video.link}}"
+    {% else %}
+    src="https://www.youtube.com/embed/{{include.video[0].link}}"
+    {% endif %}
+     class="lazyload" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+   </iframe>
+  </div>
+  <div style="margin-top:1em;">
+   <strong>Length:</strong> {{ include.video[0].length | downcase }} <br/>
+   {% assign captions = include.video[0].captions | size %}
+   <strong>Subtitles By:</strong> {% for name in include.video[0].captions %}{% unless forloop.first %}, {% endunless %} {{ site.data.instructors[name].name}}{% endfor %}
+{% if captions == 0 %} We apologize for the lack of captions on this video. If you are reliant on captions, please check back later.{% endif %}<br/>
+   <strong>Description:</strong> {{description }}
+  </div>
+ </div>
+
+ <!-- speaker(s) -->
+ {% assign s = include.video[0].speakers %}
+ {% assign numspeakers = include.video[0].speakers.size %}
+
+ <div class="col-md-3">
+  <center><h3 class="session-section">Speaker{%if numspeakers>1%}s{%endif%}</h3></center>
+  {% include speakers.html speakers=s border="yes"%}
+ </div>
+
+</div><!-- end video session -->
+

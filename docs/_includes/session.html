@@ -7,6 +7,9 @@
 {% capture id %}{{id2[0]}}/{{id2[1]}}{% endcapture%}
 {% assign subtutorial = id2[2] %}
 
+{% assign description = include.session.description | default: site.session[id].description %}
+
+
 <div class="accordion-item">
   {% capture accordion_id %}heading{{module_id}}{{forloop.index0}}{% endcapture %}
   <h2 class="accordion-header" id="{{ accordion_id }}">
@@ -18,31 +21,52 @@
   <div id="collapse{{module_id}}{{forloop.index0}}" class="accordion-collapse collapse {% if session.show  %}show{% endif %}" aria-labelledby="{{ accordion_id }}" data-bs-parent="#accordion{{module_id}}">
 
     <div class="accordion-body">
-
-      <!-- videos -->
-      <h3 class="session-section"> {{session.type | default: "Video Tutorial" }} </h3>
-
+      {{description}}
+      {{id}}|{{site.sessions[id]}}|
       {{include.session}}
-      <br>---<br>
-      {{session}}
-
-
-      <!--
-        get videos, check date/version specified
-      -->
       <br>
+
       {% if type == 'session' %}
-      session
+        {% for vid in include.session.videos %}
+          {% assign v = site.data.videos[vid].versions %}
+          {% assign vs = site.data.videos[vid] %}
+          {% include video-session.html video=v vsession=vs session=include.session %}
+        {% endfor %}
+
       {% elsif type == 'video' %}
-      video
-      {% elsif type == 'self-study' %}
-      self-study
-        <!-- TODO -->
+        {% if include.session.versions.size >= 1  %}
+           {% assign v = include.session.versions %}
+           {% include video-session.html video=v session=include.session %}
+        {% else %} <!-- Self-study tutorial -->
+            selfstudy tutorial
+            {% include self-study.html %}
+        {% endif %}
+
       {% else %}
         unknown session type, please check
       {% endif %}
 
-     </div><!-- end accordion body -->
+
+      <!-- Instructors -->
+      {% if include.instructors %}
+        {% assign instructors = include.instructors %}
+        {% assign numspeakers = include.instructors.size %}
+        <h3 class="session-section">Instructor{%if numspeakers>1%}s{%endif%}</h3>
+        The following people are available for questions and support during for this tutorial.
+
+
+        <div class="flex-row" style="margin-top:1em;">
+          <div>{% include speakers.html speakers=instructors border="yes" %}</div>
+        </div>
+      {% endif%}
+
+      <!-- Supporting Servers -->
+
+      <!-- Resources -->
+
+
+
+    </div><!-- end accordion body -->
   </div><!-- end collapse -->
 </div><!-- end accordion item (training session) -->
 

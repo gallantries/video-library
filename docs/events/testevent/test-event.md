@@ -2,7 +2,7 @@
 layout: event
 title: "My Awesome Event"
 description: "Best training since sliced bread lessons"
-
+instructors: [hexylena, shiltemann, hexylena, hexylena, hexylena]
 program:
   day1:
     title: Day 1
@@ -16,6 +16,7 @@ program:
     description: deeper dive
     trainings:
       - session: webinars
+        instructors: [hexylena, bebatut]
       - session: sequence-analysis/quality-control
 
 ---

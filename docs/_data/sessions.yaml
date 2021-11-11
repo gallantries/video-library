@@ -1,0 +1,29 @@
+# Sessions specifiy small modules of multiple videos on the same topic, often taught as a unit
+# For example, a lecture video and a hands-on video of the same GTN tutorial
+#
+
+webinars:
+  name: "Webinar Series: Galaxy Resources For.."
+  description: In this webinar series, we cover resources for different types of Galaxy users and audiences.
+  videos:
+    - webinar/researchers
+    - webinar/educators
+    - webinar/tooldevs
+    - webinar/admins
+
+sequence-analysis/quality-control:
+  name: Quality Control
+  description: In this sesssion, we will walk you through the basics of quality checking your sequencing data. This session consists of a lecture followed by a hands-on tutorial.
+  videos:
+    - sequence-analysis/quality-control/slides
+    - sequence-analysis/quality-control/tutorial
+
+
+transcriptomics/scrna-intro:
+  name: Introducción al análisis de datos de scRNA-seq
+  description: |
+       Single-cell RNA-seq analysis is a rapidly evolving field at the forefront
+       of transcriptomic research, used in high-throughput developmental studies
+  videos:
+    - transcriptomics/scrna-intro/slides
+    - transcriptomics/scrna-intro/tutorial

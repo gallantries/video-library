@@ -1,0 +1,25 @@
+<!-- This will generate the course handbook; the collapsible sections with videos and all others resources for the training -->
+
+{% assign program = include.program %}
+
+{% for m in program %}
+  {% assign module = m[1] %}
+  {% assign module_id = m[0] %}
+  <h3> {{module.title}} </h3>
+  {{module.description}}
+  <div class="accordion" id="accordion{{m[0]}}">
+  {% for session in module.trainings %}
+     {% assign instructors = session.instructors | default: include.instructors %}
+
+     {% if session.session %}
+     {% assign s = site.data.sessions[session.session]  %}
+     {% include session.html session=s type='session' id=session.session instructors=instructors module=module_id %}
+
+     {% elsif session.video %}
+     {% assign s = site.data.videos[session.video] %}
+     {% include session.html session=s type='video' id=session.video instructors=instructors module=module_id %}
+
+     {% endif %}
+       {% endfor %}
+  </div>
+{% endfor %}

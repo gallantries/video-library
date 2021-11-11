@@ -1,0 +1,40 @@
+{% assign speaker = site.data.instructors[include.who].name %}
+{% assign photo = site.data.instructors[include.who].photo %}
+{% assign aff = site.data.instructors[include.who].affiliation %}
+{% assign affiliation = site.data.affiliations[aff].name %}
+{% assign affiliation-url = site.data.affiliations[aff].link %}
+{% assign affiliation-logo = site.data.affiliations[aff].logo %}
+{% assign affiliation-mouseover = site.data.affiliations[aff].mouseover %}
+
+<div class="hall-of-fame">
+    {% for username in include.speakers %}
+    {% assign instructor = site.data.instructors[username] %}
+    {% assign photo = site.data.instructors[username].photo %}
+		<div class="hall-of-fame-hero" id="{{ username }}">
+            {% if photo %}
+            <img src="{{site.baseurl}}/{{site.image_dir}}/instructors/{{photo}}" alt="{{ username }}">
+            {% else %}
+			<img src="https://avatars.githubusercontent.com/{{ username }}" alt="{{ username }}">
+            {% endif %}
+			<div class="name">
+				{{ instructor.name | default: username }}
+			</div>
+			<div class="affil">
+			{% assign affil = instructor.affiliation %}
+				<a href="{{ site.data.affiliations[affil].link }}">
+					{{ site.data.affiliations[affil].name }}
+				</a>
+			</div>
+		</div>
+	{% endfor %}
+    {% if include.gtn %}
+        <div class="hall-of-fame-hero" id="gtn-community">
+            <img src="{{site.baseurl}}/{{site.image_dir}}/instructors/gtn.png" alt="GTN Community">
+			<div class="name">
+				The Global GTN Community			</div>
+            <div class="affil">
+				<a href=" https://training.galaxyproject.org/training-material/hall-of-fame">Hall of Fame</a>
+			</div>
+		</div>
+    {% endif %}
+</div>
