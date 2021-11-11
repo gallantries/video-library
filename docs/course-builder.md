@@ -51,7 +51,10 @@ wide: true
 		<div class="col-md-9">
 			<ul class="nav nav-tabs" id="myTab" role="tablist" style="margin-left: 0px;">
 				<li class="nav-item" role="presentation">
-					<button class="nav-link active" id="ordering-tab" data-bs-toggle="tab" data-bs-target="#ordering" type="button" role="tab" aria-controls="ordering" aria-selected="true">Reorder Content</button>
+					<button class="nav-link active" id="welcome-tab" data-bs-toggle="tab" data-bs-target="#welcome" type="button" role="tab" aria-controls="welcome" aria-selected="true">Welcome!</button>
+				</li>
+				<li class="nav-item" role="presentation">
+					<button class="nav-link" id="ordering-tab" data-bs-toggle="tab" data-bs-target="#ordering" type="button" role="tab" aria-controls="ordering" aria-selected="true">Reorder Content</button>
 				</li>
 				<li class="nav-item" role="presentation">
 					<button class="nav-link" id="home-tab" data-bs-toggle="tab" data-bs-target="#home" type="button" role="tab" aria-controls="home" aria-selected="true">Schedule</button>
@@ -64,15 +67,26 @@ wide: true
 				</li>
 			</ul>
 			<div class="tab-content" id="myTabContent">
-				<div class="tab-pane fade show active" id="ordering" role="tabpanel" aria-labelledby="ordering-tab">
+				<div class="tab-pane fade show active" id="welcome" role="tabpanel" aria-labelledby="welcome-tab">
+					<h2>Welcome to the Course Builder!</h2>
+					<p>
+						Here you can design your own course from the GTN and Gallantries' Library of Video Content. Follow the steps below to build your course
+					</p>
+					<ol>
+						<li>Start by selecting some modules from the left.</li>
+						<li>Then re-order your content until you're happy on the next tab.</li>
+						<li>Configure the event settings like the title, start and end time, etc.</li>
+						<li>Preview the daily schedule.</li>
+						<li>And receive a Markdown file that can be contributed back to this repository to host your event.</li>
+					</ol>
+
+				</div>
+				<div class="tab-pane fade" id="ordering" role="tabpanel" aria-labelledby="ordering-tab">
 					<div id="schedule-ordering">
 						<p>Here you can control the ordering of the content in your schedule</p>
 						<ul id="sortable">
 						</ul>
 					</div>
-				</div>
-				<div class="tab-pane fade" id="home" role="tabpanel" aria-labelledby="home-tab">
-					<div id="schedule"></div>
 				</div>
 				<div class="tab-pane fade" id="metadata" role="tabpanel" aria-labelledby="metadata-tab">
 					<div id="settings" class="row">
@@ -159,6 +173,9 @@ wide: true
 							</div>
 						</div>
 					</div>
+				</div>
+				<div class="tab-pane fade" id="home" role="tabpanel" aria-labelledby="home-tab">
+					<div id="schedule"></div>
 				</div>
 				<div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
 					<div>Please open a Pull Request against this repository with the following content:</div>
