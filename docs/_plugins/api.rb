@@ -49,8 +49,10 @@ module Jekyll
         page2.data["layout"] = nil
         site.pages << page2
       }
-
-      puts "#{by_material}"
+      page2 = PageWithoutAFile.new(site, "", "api/", "by-material.json")
+      page2.content = JSON.pretty_generate(by_material)
+      page2.data["layout"] = nil
+      site.pages << page2
 
       page2 = PageWithoutAFile.new(site, "", "api/", "tags.json")
       page2.content = JSON.pretty_generate(by_tags)
