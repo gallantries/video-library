@@ -25,64 +25,6 @@ wide: true
 </style>
 
 <div id="app" class="row">
-	<div id="settings" class="row">
-		<div>
-			<!--
-			<div class="row g-3 align-items-center">
-				<div class="col-md-2 text-end">
-					<label for="i-schedule" class="col-form-label">Daily Schedule</label>
-				</div>
-				<div class="col-md-3">
-					<input type="checkbox" id="i-schedule" class="form-check-input" aria-describedby="i-schedule-help" checked>
-				</div>
-				<div class="col-md-6">
-					<span id="i-schedule-help" class="form-text">
-						If selected a daily schedule will be generated
-					</span>
-				</div>
-			</div>
-			-->
-			<div class="row g-3 align-items-center">
-				<div class="col-md-2 text-end">
-					<label for="i-start-time" class="col-form-label">Daily Start Time</label>
-				</div>
-				<div class="col-md-3">
-					<input type="time" id="i-start-time" class="form-control" aria-describedby="i-start-time-help" value="10:00" onchange="rerenderSchedule()">
-				</div>
-				<div class="col-md-6">
-					<span id="i-start-time-help" class="form-text">
-						When does the course start each day
-					</span>
-				</div>
-			</div>
-			<div class="row g-3 align-items-center">
-				<div class="col-md-2 text-end">
-					<label for="i-lunch-time" class="col-form-label">When is lunch?</label>
-				</div>
-				<div class="col-md-3">
-					<input type="time" id="i-lunch-time" class="form-control" aria-describedby="i-lunch-time-help" value="13:00" onchange="rerenderSchedule()">
-				</div>
-				<div class="col-md-6">
-					<span id="i-lunch-time-help" class="form-text">
-						Daily lunch time
-					</span>
-				</div>
-			</div>
-			<div class="row g-3 align-items-center">
-				<div class="col-md-2 text-end">
-					<label for="i-end-time" class="col-form-label">Daily End Time</label>
-				</div>
-				<div class="col-md-3">
-					<input type="time" id="i-end-time" class="form-control" aria-describedby="i-end-time-help" value="16:00" onchange="rerenderSchedule()">
-				</div>
-				<div class="col-md-6">
-					<span id="i-end-time-help" class="form-text">
-						When does the course end each day
-					</span>
-				</div>
-			</div>
-		</div>
-	</div>
 	<div class="row mt-5">
 		<div id="library" class="col-md-3">
 			<h3>Library</h3>
@@ -112,6 +54,9 @@ wide: true
 					<button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home" type="button" role="tab" aria-controls="home" aria-selected="true">Schedule</button>
 				</li>
 				<li class="nav-item" role="presentation">
+					<button class="nav-link" id="metadata-tab" data-bs-toggle="tab" data-bs-target="#metadata" type="button" role="tab" aria-controls="metadata" aria-selected="false">Configure Event</button>
+				</li>
+				<li class="nav-item" role="presentation">
 					<button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile" type="button" role="tab" aria-controls="profile" aria-selected="false">Gallantries Workshop Markdown</button>
 				</li>
 			</ul>
@@ -119,7 +64,94 @@ wide: true
 				<div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
 					<div id="schedule"></div>
 				</div>
+				<div class="tab-pane fade" id="metadata" role="tabpanel" aria-labelledby="metadata-tab">
+					<div id="settings" class="row">
+						<div>
+							<div class="row g-3 align-items-center">
+								<div class="col-md-2 text-end">
+									<label for="i-title" class="col-form-label">Title</label>
+								</div>
+								<div class="col-md-3">
+									<input type="text" id="i-title" class="form-control" aria-describedby="i-title-help" value="My Awesome Event" onchange="rerenderSchedule()">
+								</div>
+								<div class="col-md-6">
+									<span id="i-title-help" class="form-text">
+									</span>
+								</div>
+							</div>
+							<div class="row g-3 align-items-center">
+								<div class="col-md-2 text-end">
+									<label for="i-description" class="col-form-label">Description</label>
+								</div>
+								<div class="col-md-3">
+									<input type="text" id="i-description" class="form-control" aria-describedby="i-description-help" value="Best training since bread slicing lessons" onchange="rerenderSchedule()">
+								</div>
+								<div class="col-md-6">
+									<span id="i-description-help" class="form-text">
+									</span>
+								</div>
+							</div>
+							<div class="row g-3 align-items-center">
+								<div class="col-md-2 text-end">
+									<label for="i-start-time" class="col-form-label">Daily Start Time</label>
+								</div>
+								<div class="col-md-3">
+									<input type="time" id="i-start-time" class="form-control" aria-describedby="i-start-time-help" value="10:00" onchange="rerenderSchedule()">
+								</div>
+								<div class="col-md-6">
+									<span id="i-start-time-help" class="form-text">
+										When does the course start each day
+									</span>
+								</div>
+							</div>
+							<div class="row g-3 align-items-center">
+								<div class="col-md-2 text-end">
+									<label for="i-lunch-time" class="col-form-label">When is lunch?</label>
+								</div>
+								<div class="col-md-3">
+									<input type="time" id="i-lunch-time" class="form-control" aria-describedby="i-lunch-time-help" value="13:00" onchange="rerenderSchedule()">
+								</div>
+								<div class="col-md-6">
+									<span id="i-lunch-time-help" class="form-text">
+										Daily lunch time
+									</span>
+								</div>
+							</div>
+							<div class="row g-3 align-items-center">
+								<div class="col-md-2 text-end">
+									<label for="i-end-time" class="col-form-label">Daily End Time</label>
+								</div>
+								<div class="col-md-3">
+									<input type="time" id="i-end-time" class="form-control" aria-describedby="i-end-time-help" value="16:00" onchange="rerenderSchedule()">
+								</div>
+								<div class="col-md-6">
+									<span id="i-end-time-help" class="form-text">
+										When does the course end each day
+									</span>
+								</div>
+							</div>
+							<div class="row g-3 align-items-center">
+								<div class="col-md-2 text-end">
+									<label for="i-instructors" class="col-form-label">Event Instructors</label>
+								</div>
+								<div class="col-md-3">
+									<select id="i-instructors" class="form-select" multiple aria-label="Instructor select box" style="height: 300px" onchange="rerenderSchedule()">
+										{% for instructor in site.data['instructors'] %}
+											<option value="{{ instructor[0] }}">{{ instructor[0] }} ({{ instructor[1].name }})</option>
+										{% endfor %}
+									</select>
+								</div>
+								<div class="col-md-6">
+									<span id="i-instructors-help" class="form-text">
+										Who all is involved in teaching this event?
+									</span>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
 				<div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+					<div>Please open a Pull Request against this repository with the following content:</div>
 					<div id="schedule-markdown"></div>
 				</div>
 			</div>
@@ -319,13 +351,17 @@ function rerenderSchedule(){
 	})
 	$("#schedule").html(updated)
 
+	var instructors = $("#i-instructors").val().join("\n - ")
 	var markdown = `---
 layout: event
-title: "My Awesome Event"
-description: "Best training since sliced bread lessons"
+title: "${$("#i-title").val()}"
+description: "${$("#i-description").val()}"
+instructors:
+ - ${instructors}
 
 program:
 `;
+	console.log(markdown)
 
 	Object.keys(days).forEach(day => {
 		markdown += `  day${parseInt(day) + 1}\n`;
@@ -343,4 +379,6 @@ program:
 	markdown += `---\n\nYou can write a bit more about your course here!\n`;
 	$("#schedule-markdown").html("<pre>" + markdown + "</pre>")
 }
+
+rerenderSchedule();
 </script>
