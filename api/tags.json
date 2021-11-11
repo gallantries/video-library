@@ -957,7 +957,7 @@
           }
         ]
       },
-      "introduction/galaxy-intro-101-for-everyone/tutorial": {
+      "introduction/galaxy-intro-101-everyone/tutorial": {
         "description": "This video tutorial will provide a non-genomics based first look at the Galaxy platform, how to use it, and discusses how you can get support for your data analysis.",
         "faq": "https://docs.google.com/document/d/e/2PACX-1vToYVCisDQ8qDSKKmDvdlZ3e87HzfnO6KQkOReDd0LtHTNKDUDj2vpqWj73bj_2UelNStLZpoSpNlGj/pub",
         "materials": [
