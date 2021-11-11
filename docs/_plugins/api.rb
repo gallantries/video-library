@@ -21,6 +21,7 @@ module Jekyll
         }
       }
 
+      site.data['by_tags'] = by_tags
       by_tags.each{ |tag, data|
         page2 = PageWithoutAFile.new(site, "", "api/", "tags/#{tag}.json")
         page2.content = JSON.pretty_generate(data)

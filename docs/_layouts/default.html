@@ -8,7 +8,7 @@
     {%- include header.html -%}
 
     <main class="page-content" aria-label="Content">
-      <div class="wrapper" >
+      <div class="wrapper" {% if page.wide %}style="max-width: 1700px"{% endif %}>
         {{ content }}
       </div>
     </main>
