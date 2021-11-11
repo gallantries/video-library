@@ -49,9 +49,12 @@ wide: true
 			</div>
 		</div>
 		<div class="col-md-9">
-			<ul class="nav nav-tabs" id="myTab" role="tablist">
+			<ul class="nav nav-tabs" id="myTab" role="tablist" style="margin-left: 0px;">
 				<li class="nav-item" role="presentation">
-					<button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home" type="button" role="tab" aria-controls="home" aria-selected="true">Schedule</button>
+					<button class="nav-link active" id="ordering-tab" data-bs-toggle="tab" data-bs-target="#ordering" type="button" role="tab" aria-controls="ordering" aria-selected="true">Reorder Content</button>
+				</li>
+				<li class="nav-item" role="presentation">
+					<button class="nav-link" id="home-tab" data-bs-toggle="tab" data-bs-target="#home" type="button" role="tab" aria-controls="home" aria-selected="true">Schedule</button>
 				</li>
 				<li class="nav-item" role="presentation">
 					<button class="nav-link" id="metadata-tab" data-bs-toggle="tab" data-bs-target="#metadata" type="button" role="tab" aria-controls="metadata" aria-selected="false">Configure Event</button>
@@ -61,7 +64,14 @@ wide: true
 				</li>
 			</ul>
 			<div class="tab-content" id="myTabContent">
-				<div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+				<div class="tab-pane fade show active" id="ordering" role="tabpanel" aria-labelledby="ordering-tab">
+					<div id="schedule-ordering">
+						<p>Here you can control the ordering of the content in your schedule</p>
+						<ul id="sortable">
+						</ul>
+					</div>
+				</div>
+				<div class="tab-pane fade" id="home" role="tabpanel" aria-labelledby="home-tab">
 					<div id="schedule"></div>
 				</div>
 				<div class="tab-pane fade" id="metadata" role="tabpanel" aria-labelledby="metadata-tab">
@@ -160,6 +170,7 @@ wide: true
 </div>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://code.jquery.com/ui/1.13.0/jquery-ui.js"></script>
 
 <script type="text/javascript">
 var data = {{ site.data['videos'] | jsonify }};
@@ -174,6 +185,11 @@ function updateBasket(id){
 		basket = basket.filter(x => { return id !== x})
 		$(`.library_${id.replaceAll("/", "_")} li`).removeClass("active")
 	}
+
+	$("#sortable").empty();
+	basket.forEach(item => {
+		$("#sortable").append(`<li class="list-group-item">${item}</li>`);
+	})
 
 	rerenderSchedule();
 }
@@ -215,7 +231,21 @@ function minutesToHuman(minutes){
     return `${h}:${String(m).padStart(2, '0')}`
 }
 
+
+$( function() {
+	$( "#sortable" ).sortable({
+	  placeholder: "list-group-item active",
+	  revert: true,
+	  stop: function(){
+		basket = [...$("#sortable li").map((_, x) => {return x.textContent})];
+		rerenderSchedule();
+	  },
+	});
+	$( "#sortable ul, li" ).disableSelection();
+} );
+
 function rerenderSchedule(){
+
 
 	var dayStartMinutes = humanToMinutes($("#i-start-time").val()),
 		dayEndMinutes = humanToMinutes($("#i-end-time").val()),
@@ -371,7 +401,7 @@ program:
 
 		days[day].schedule.forEach(item => {
 			if(item.code){
-				markdown += `      - session: ${item.code}\n`;
+				markdown += `      - video: ${item.code}\n`;
 			}
 		})
 	})
