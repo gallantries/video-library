@@ -1,8 +1,8 @@
 <!-- session: {{ include.session }}<br><br> video: {{include.video}} -->
 
-
 {% assign session-type = include.session.type | default: include.vsession.type | default: include.video.type | default: "Unknown" %}
-{% assign description = include.session.description | default: include.vsession.description %}
+{% assign description = include.session.description | default: include.vsession.description | default: include.video.description %}
+
 
 <h3 class="session-section">{{session-type}}</h3>
 <div class="flex-row" style="margin-top:1em;">
