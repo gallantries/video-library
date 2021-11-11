@@ -70,7 +70,7 @@ assembly/general-introduction/slides:
     link: -EX_G1griZE
     speakers:
     - slugger70
-climate/fate/tutorial:
+climate/fates/tutorial:
   description: This tutorial will walk you through a Galaxy analysis step by step
   faq: https://docs.google.com/document/d/e/1PACX-1vS5ucF3H8v1V43JPtw35V-pgGfhTbrHtjjN6X0BddzWispwuRElPYw7sWN1e8R360mdHyC1NcOSqxiy/pub
   materials:
