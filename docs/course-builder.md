@@ -411,7 +411,7 @@ program:
 	console.log(markdown)
 
 	Object.keys(days).forEach(day => {
-		markdown += `  day${parseInt(day) + 1}\n`;
+		markdown += `  day${parseInt(day) + 1}:\n`;
 		markdown += `    title: "Day ${parseInt(day) + 1}"\n`;
 		markdown += `    description: "Some description about today's content"\n`;
 		markdown += `    trainings:\n`;

@@ -21,9 +21,11 @@
   <div id="collapse{{module_id}}{{forloop.index0}}" class="accordion-collapse collapse {% if session.show  %}show{% endif %}" aria-labelledby="{{ accordion_id }}" data-bs-parent="#accordion{{module_id}}">
 
     <div class="accordion-body">
+		<!--
       {{description}}
       {{id}}|{{site.sessions[id]}}|
       {{include.session}}
+-->
       <br>
 
       {% if type == 'session' %}
