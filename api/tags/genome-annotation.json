@@ -100,7 +100,6 @@
           "type": "Tutorial"
         },
         {
-          "external": true,
           "link": "https://genomearchitect.readthedocs.io/en/latest/UsersGuide.html",
           "type": "Apollo User's Guide"
         }

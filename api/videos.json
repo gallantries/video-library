@@ -927,7 +927,6 @@
         "type": "Tutorial"
       },
       {
-        "external": true,
         "link": "https://genomearchitect.readthedocs.io/en/latest/UsersGuide.html",
         "type": "Apollo User's Guide"
       }
@@ -957,8 +956,14 @@
     "description": "This tutorial will introduce you to Galaxy. You will familiarize yourself with tools, workflows and histories. Those skills will be needed the next days",
     "faq": null,
     "materials": [
-      "https://training.galaxyproject.org/training-material/topics/introduction/tutorials/galaxy-intro-101/tutorial.html",
-      "https://usegalaxy.eu/u/wolfgang-maier/h/galaxy-101"
+      {
+        "link": "topics/introduction/tutorials/galaxy-intro-101/tutorial.html",
+        "type": "Tutorial"
+      },
+      {
+        "link": "https://usegalaxy.eu/u/wolfgang-maier/h/galaxy-101",
+        "type": "History on GalaxyEU"
+      }
     ],
     "support_channel": null,
     "support_link": null,
@@ -970,7 +975,7 @@
     "versions": [
       {
         "captions": null,
-        "date": null,
+        "date": "21-07-2021",
         "length": "13M",
         "link": "D5HgJWdfOWw",
         "speakers": [
