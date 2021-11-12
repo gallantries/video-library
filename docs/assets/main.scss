@@ -74,6 +74,9 @@
 }
 
 .video-metadata {
+	table tr td {
+		padding: 0.3em;
+	}
 	table tr td:first-child {
 		text-align: right;
 	}

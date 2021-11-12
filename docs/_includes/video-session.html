@@ -2,6 +2,7 @@
 
 {% assign session-type = include.session.type | default: include.vsession.type | default: include.video.type | default: "Unknown" %}
 {% assign description = include.session.description | default: include.vsession.description | default: include.video.description %}
+{% assign materials = include.session.materials | default: include.vsession.materials | default: include.video.materials %}
 
 <!-- determine the next archived version of tutorial -->
 {% assign archivemonth = include.video[0].date | date: "%m" | plus: 1 | modulo: 12 | prepend: '00' | slice: -2, 2 %}
@@ -37,7 +38,7 @@
               <td><strong>Captions:</strong></td>
               <td><strong>Warning! Uncaptioned English audio.</strong> The speaker refused to correct automatic captions for their video. Please contact the speaker.</td>
    {% else %}
-              <td><strong>Captions by:</strong></td>
+              <td><strong>Captions:</strong></td>
               <td>{% for name in include.video[0].captions %}{% unless forloop.first %}, {% endunless %} {{ site.data.instructors[name].name}}{% endfor %}</td>
    {% endif %}
           </tr>
@@ -45,10 +46,10 @@
               <td><strong>Created:</strong></td>
               <td>{{include.video[0].date | date: "%-d %B %Y" }}</td>
           </tr>
-          {% if include.vsession.materials %}
+          {% if materials %}
           <tr>
-              <td><strong>Supporting Material:</strong></td>
-              <td>{% for m in include.vsession.materials %} <a href="{% unless m.link contains 'http' %}{{site.gtn}}/archive/{{archiveyear}}-{{archivemonth}}-01/{% endunless %}{{m.link}}">{{m.type}}</a>{% unless forloop.last %}, {% endunless %}{% endfor %}</td>
+              <td><strong>Materials:</strong></td>
+              <td>{% for m in materials %} <a href="{% unless m.link contains 'http' %}{{site.gtn}}/archive/{{archiveyear}}-{{archivemonth}}-01/{% endunless %}{{m.link}}">{{m.type}}</a>{% unless forloop.last %}, {% endunless %}{% endfor %}</td>
           </tr>
           {% endif %}
       </table>
