@@ -296,6 +296,8 @@ table td { border: 1px solid #e8e8e8; }
 
 .module-start { margin-top: 1em; }
 
+.video-metadata table tr td { padding: 0.3em; }
+
 .video-metadata table tr td:first-child { text-align: right; }
 
 /*# sourceMappingURL=main.css.map */
