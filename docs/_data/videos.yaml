@@ -2078,3 +2078,574 @@ wetlab/miseq/demo:
     link: bZfEyd87xCE
     speakers:
     - miaomiaozhou88
+
+
+course/welcome-admin:
+  description: null
+  faq: null
+  support_channel: '#general'
+  support_link: https://galaxyadmintraining.slack.com/archives/general
+  tags: []
+  type: Tutorial
+  versions:
+  - captions:
+    - hexylena
+    date: '2021-02-15'
+    galaxy_version: '21.01'
+    length: 9M
+    link: 1aWBg1aK-OQ
+    speakers:
+    - hexylena
+
+course/welcome-gcc2021:
+  description: Start here; we will go over all the important things to know to get
+    the most out of this workshop
+  faq: null
+  materials:
+  - external: true
+    link: https://docs.google.com/presentation/d/11iR7mjnyhl2OX9KDmeE6TrArYeEUwVnnV3cFMFWMBwI/edit?usp=sharing
+    type: Slides
+  support_channel: '#general'
+  support_link: https://galaxyadmintraining.slack.com/archives/general
+  tags: []
+  type: Lecture
+  versions:
+  - captions:
+    - shiltemann
+    - hexylena
+    date: '2021-02-15'
+    galaxy_version: '21.01'
+    length: 15M
+    link: 5kjIn1ci4qw
+    speakers:
+    - hexylena
+    - shiltemann
+
+admin/ansible-galaxy/week-overview-slides:
+  description: null
+  faq: null
+  materials:
+  - link: topics/admin/tutorials/ansible-galaxy/slides.html
+    type: Week Overview Slides
+  support_channel: '#02-ansible-galaxy'
+  support_link: https://galaxyadmintraining.slack.com/archives/02-ansible-galaxy
+  tags: []
+  type: Tutorial
+  versions:
+  - captions:
+    - shiltemann
+    date: '2021-02-15'
+    galaxy_version: '21.01'
+    length: 4M
+    link: JN-C5UbHthY
+    speakers:
+    - hexylena
+admin/ansible-galaxy/tutorial
+  description: null
+  faq: null
+  materials:
+  - link: topics/admin/tutorials/ansible-galaxy/tutorial.html
+    type: Tutorial (All Parts)
+  - link: topics/admin/tutorials/database/slides.html
+    type: Database Slides
+  - link: topics/admin/tutorials/systemd-supervisor/slides.html
+    type: systemd Slides
+  - link: topics/admin/tutorials/production/slides.html
+    type: Moving Towards Production Slides
+  support_channel: '#02-ansible-galaxy'
+  support_link: https://galaxyadmintraining.slack.com/archives/02-ansible-galaxy
+  tags: []
+  type: Tutorial
+  versions:
+  - captions:
+    - natefoo
+    - hexylena
+    date: '2021-06-28'
+    galaxy_version: '21.05'
+    length: 2H47M
+    link: zT70luZqPOU
+    speakers:
+    - natefoo
+  - captions:
+    - shiltemann
+    - hexylena
+    date: '2021-02-15'
+    galaxy_version: '21.01'
+    length: 53M
+    link: il83uApg7Hc
+    speakers:
+    - hexylena
+admin/ansible/tutorial:
+  description: null
+  faq: null
+  materials:
+  - link: topics/admin/tutorials/ansible/tutorial.html
+    type: Tutorial
+  support_channel: '#01-ansible'
+  support_link: https://galaxyadmintraining.slack.com/archives/01-ansible
+  tags: []
+  type: null
+  versions:
+  - captions:
+    - martenson
+    date: '2021-02-15'
+    galaxy_version: '21.01'
+    length: 61M
+    link: 2KdT0sYKUeE
+    speakers:
+    - martenson
+admin/ansible/slides:
+  description: null
+  faq: null
+  materials:
+  - link: topics/admin/tutorials/ansible/slides.html
+    type: Slides
+  support_channel: '#01-ansible'
+  support_link: https://galaxyadmintraining.slack.com/archives/01-ansible
+  tags: []
+  type: null
+  versions:
+  - captions:
+    - martenson
+    date: '2021-02-15'
+    galaxy_version: '21.01'
+    length: 5M
+    link: KFpbfmN0OTE
+    speakers:
+    - ic4f
+admin/connect-to-compute-cluster/combined:
+  description: null
+  faq: null
+  materials:
+  - link: topics/admin/tutorials/connect-to-compute-cluster/slides.html
+    type: Slides
+  - link: topics/admin/tutorials/connect-to-compute-cluster/tutorial.html
+    type: Tutorial
+  support_channel: '#07-compute-cluster'
+  support_link: https://galaxyadmintraining.slack.com/archives/07-compute-cluster
+  tags: []
+  type: Tutorial
+  versions:
+  - captions:
+    - cat-bro
+    - shiltemann
+    date: '2021-02-15'
+    galaxy_version: '21.01'
+    length: 31M
+    link: R0NbHscL3jA
+    speakers:
+    - hexylena
+admin/cvmfs/slides:
+  description: null
+  faq: null
+  materials:
+  - link: topics/admin/tutorials/cvmfs/slides.html
+    type: Slides
+  support_channel: '#04-cvmfs'
+  support_link: https://galaxyadmintraining.slack.com/archives/04-cvmfs
+  tags: []
+  type: Tutorial
+  versions:
+  - captions:
+    - galaxycommunity
+    date: '2021-02-15'
+    galaxy_version: '21.01'
+    length: 3M
+    link: g_cavAO-fBM
+    speakers:
+    - awspolly
+admin/cvmfs/tutorial:
+  description: null
+  faq: null
+  materials:
+  - link: topics/admin/tutorials/cvmfs/tutorial.html
+    type: Tutorial
+  support_channel: '#04-cvmfs'
+  support_link: https://galaxyadmintraining.slack.com/archives/04-cvmfs
+  tags: []
+  type: Tutorial
+  versions:
+  - captions:
+    - slugger70
+    date: '2021-02-15'
+    galaxy_version: '21.01'
+    length: 23M
+    link: X3iFMZP_fQ8
+    speakers:
+    - slugger70
+admin/data-library/tutorial:
+  description: null
+  faq: null
+  materials:
+  - link: topics/admin/tutorials/data-library/tutorial.html
+    type: Tutorial
+  support_channel: '#05-data-libraries'
+  support_link: https://galaxyadmintraining.slack.com/archives/05-data-libraries
+  tags: []
+  type: Tutorial
+  versions:
+  - captions:
+    - hexylena
+    - shiltemann
+    date: '2021-02-15'
+    galaxy_version: '21.01'
+    length: 22M
+    link: 6BWu29Oiihw
+    speakers:
+    - shiltemann
+admin/gxadmin/slides:
+  description: null
+  faq: null
+  materials:
+  - link: topics/admin/tutorials/gxadmin/slides.html
+    type: Slides
+  - link: topics/admin/tutorials/gxadmin/tutorial.html
+    type: Exercise
+  support_channel: '#09-storage'
+  support_link: https://galaxyadmintraining.slack.com/archives/09-storage
+  tags: []
+  type: Tutorial
+  versions:
+  - captions:
+    - galaxycommunity
+    date: '2021-02-15'
+    galaxy_version: '21.01'
+    length: 2M
+    link: QFwOgDyFSSA
+    speakers:
+    - awspolly
+admin/heterogeneous-compute/slides:
+  description: null
+  faq: null
+  materials:
+  - link: topics/admin/tutorials/heterogeneous-compute/slides.html
+    type: Slides
+  support_channel: '#08-pulsar'
+  support_link: https://galaxyadmintraining.slack.com/archives/08-pulsar
+  tags: []
+  type: Slides
+  versions:
+  - captions:
+    - shiltemann
+    date: '2021-02-15'
+    galaxy_version: '21.01'
+    length: 14M
+    link: M1-Z_2tuQPI
+    speakers:
+    - slugger70
+admin/heterogeneous-compute/tutorial:
+  description: null
+  faq: null
+  materials:
+  - link: topics/admin/tutorials/heterogeneous-compute/tutorial.html
+    type: Tutorial
+  support_channel: '#08-pulsar'
+  support_link: https://galaxyadmintraining.slack.com/archives/08-pulsar
+  tags: []
+  type: Tutorial
+  versions:
+  - captions:
+    - hexylena
+    date: '2021-06-28'
+    galaxy_version: '21.05'
+    length: 1H28M
+    link: f0QdF8NDhsM
+    speakers:
+    - slugger70
+  - captions:
+    - simonbray
+    - slugger70
+    date: '2021-02-15'
+    galaxy_version: '21.01'
+    length: 57M
+    link: a7fKJT4Fs9k
+    speakers:
+    - slugger70
+admin/interactive-tools/slides:
+  description: null
+  faq: null
+  materials:
+  - link: topics/admin/tutorials/interactive-tools/slides.html
+    type: Slides
+  - link: topics/admin/tutorials/interactive-tools/tutorial.html
+    type: Tutorial
+  support_channel: '#11-cyoa'
+  support_link: https://galaxyadmintraining.slack.com/archives/11-cyoa
+  tags: []
+  type: Tutorial
+  versions:
+  - captions:
+    - abretaud
+    - hexylena
+    date: '2021-02-15'
+    galaxy_version: '21.01'
+    length: 44M
+    link: lACsIhnbTbE
+    speakers:
+    - abretaud
+admin/job-destinations/tutorial:
+  description: null
+  faq: null
+  materials:
+  - link: topics/admin/tutorials/job-destinations/tutorial.html
+    type: Tutorial
+  support_channel: '#07-compute-cluster'
+  support_link: https://galaxyadmintraining.slack.com/archives/07-compute-cluster
+  tags: []
+  type: Tutorial
+  versions:
+  - captions:
+    - shiltemann
+    date: '2021-02-15'
+    galaxy_version: '21.01'
+    length: 31M
+    link: qX8GjTJwnAk
+    speakers:
+    - hexylena
+
+admin/job-metrics/tutorial:
+  description: null
+  faq: null
+  materials:
+  - link: topics/admin/tutorials/connect-to-compute-cluster/tutorial.html
+    type: Tutorial
+  support_channel: '#07-compute-cluster'
+  support_link: https://galaxyadmintraining.slack.com/archives/07-compute-cluster
+  tags: []
+  type: Tutorial
+  versions:
+  - captions:
+    - beatrizserrano
+    date: '2021-02-15'
+    galaxy_version: '21.01'
+    length: 6M
+    link: 7CYI5yw9MN8
+    speakers:
+    - hexylena
+
+admin/maintenance/slides:
+  description: null
+  faq: null
+  materials:
+  - link: topics/admin/tutorials/maintenance/slides.html
+    type: Slides
+  support_channel: '#10-monitoring'
+  support_link: https://galaxyadmintraining.slack.com/archives/10-monitoring
+  tags: []
+  type: Slides
+  versions:
+  - captions:
+    - galaxycommunity
+    date: '2021-02-15'
+    galaxy_version: '21.01'
+    length: 2M
+    link: 41_3WHXZA-o
+    speakers:
+    - awspolly
+admin/monitoring/slides:
+  description: null
+  faq: null
+  materials:
+  - link: topics/admin/tutorials/monitoring/slides.html
+    type: Slides
+  support_channel: '#10-monitoring'
+  support_link: https://galaxyadmintraining.slack.com/archives/10-monitoring
+  tags: []
+  type: Slides
+  versions:
+  - captions:
+    - galaxycommunity
+    date: '2021-02-15'
+    galaxy_version: '21.01'
+    length: 2M
+    link: qcp9lEUxCGI
+    speakers: []
+admin/monitoring/tutorial:
+  description: null
+  faq: null
+  materials:
+  - link: topics/admin/tutorials/monitoring/tutorial.html
+    type: Tutorial
+  support_channel: '#10-monitoring'
+  support_link: https://galaxyadmintraining.slack.com/archives/10-monitoring
+  tags: []
+  type: Tutorial
+  versions:
+  - captions:
+    - shiltemann
+    - hexylena
+    date: '2021-02-15'
+    galaxy_version: '21.01'
+    length: 73M
+    link: drUaYQtMBLY
+    speakers: []
+admin/object-store/exercise:
+  description: null
+  faq: null
+  materials:
+  - link: topics/admin/tutorials/object-store/tutorial.html
+    type: Exercise
+  support_channel: '#09-storage'
+  support_link: https://galaxyadmintraining.slack.com/archives/09-storage
+  tags: []
+  type: Tutorial
+  versions:
+  - captions:
+    - cat-bro
+    date: '2021-02-15'
+    galaxy_version: '21.01'
+    length: 18M
+    link: Hv2bvjk5sjE
+    speakers:
+    - gmauro
+admin/singularity/tutorial:
+  description: null
+  faq: null
+  materials:
+  - link: topics/admin/tutorials/singularity/tutorial.html
+    type: Tutorial
+  support_channel: '#03-singularity'
+  support_link: https://galaxyadmintraining.slack.com/archives/03-singularity
+  tags: []
+  type: Tutorial
+  versions:
+  - captions:
+    - gallardoalba
+    - slugger70
+    date: '2021-06-28'
+    galaxy_version: '21.05'
+    length: 43M
+    link: q6Dt7j713tI
+    speakers:
+    - slugger70
+  - captions:
+    - hexylena
+    - cat-bro
+    date: '2021-02-15'
+    galaxy_version: '21.01'
+    length: 16M
+    link: airzg4-ETEs
+    speakers:
+    - hexylena
+admin/tiaas/tutorial:
+  description: null
+  faq: null
+  materials:
+  - link: topics/admin/tutorials/tiaas/tutorial.html
+    type: Tutorial
+  support_channel: '#12-tiaas'
+  support_link: https://galaxyadmintraining.slack.com/archives/12-tiaas
+  tags: []
+  type: Tutorial
+  versions:
+  - captions:
+    - hexylena
+    - shiltemann
+    date: '2021-02-15'
+    galaxy_version: '21.01'
+    length: 24M
+    link: tz0ZbK_8Vcc
+    speakers:
+    - hexylena
+admin/tool-management/slides:
+  description: null
+  faq: null
+  materials:
+  - link: topics/admin/tutorials/tool-management/slides.html
+    type: Slides
+  - link: topics/admin/tutorials/tool-management/tutorial.html
+    type: Tutorial
+  support_channel: '#03-ephemeris'
+  support_link: https://galaxyadmintraining.slack.com/archives/03-ephemeris
+  tags: []
+  type: Tutorial
+  versions:
+  - captions:
+    - cat-bro
+    date: '2021-06-28'
+    galaxy_version: '21.05'
+    length: 17M
+    link: 8Rdho_eUeKc
+    speakers:
+    - cat-bro
+admin/tool-management/tutorials:
+  description: null
+  faq: null
+  materials:
+  - link: topics/admin/tutorials/tool-management/slides.html
+    type: Slides
+  - link: topics/admin/tutorials/tool-management/tutorial.html
+    type: Tutorial
+  support_channel: '#03-ephemeris'
+  support_link: https://galaxyadmintraining.slack.com/archives/03-ephemeris
+  tags: []
+  type: Tutorial
+  versions:
+  - captions:
+    - cat-bro
+    date: '2021-06-28'
+    galaxy_version: '21.05'
+    length: 27M
+    link: pda0v9b3vO4
+    speakers:
+    - cat-bro
+admin/tool-management/combined:
+  description: null
+  faq: null
+  materials:
+  - link: topics/admin/tutorials/tool-management/slides.html
+    type: Slides
+  - link: topics/admin/tutorials/tool-management/tutorial.html
+    type: Tutorial
+  support_channel: '#03-ephemeris'
+  support_link: https://galaxyadmintraining.slack.com/archives/03-ephemeris
+  tags: []
+  type: Tutorial
+  versions:
+  - captions:
+    - eancelet
+    date: '2021-02-15'
+    galaxy_version: '21.01'
+    length: 47M
+    link: 7Qqwrzn--YI
+    speakers:
+    - cat-bro
+admin/upgrading/tutorial:
+  description: null
+  faq: null
+  materials:
+  - link: topics/admin/tutorials/upgrading/tutorial.html
+    type: tutorial
+  support_channel: '#11-cyoa'
+  support_link: https://galaxyadmintraining.slack.com/archives/11-cyoa
+  tags: []
+  type: Tutorial
+  versions:
+  - captions:
+    - slugger70
+    - hexylena
+    date: '2021-02-15'
+    galaxy_version: '21.01'
+    length: 36M
+    link: OnL47MvXjoo
+    speakers:
+    - slugger70
+admin/users-groups-quotas/slides:
+  description: null
+  faq: null
+  materials:
+  - link: topics/admin/tutorials/users-groups-quotas/slides.html
+    type: Slides
+  support_channel: '#general'
+  support_link: https://galaxyadmintraining.slack.com/archives/general
+  tags: []
+  type: Slides
+  versions:
+  - captions:
+    - galaxycommunity
+    date: '2021-02-15'
+    galaxy_version: '21.01'
+    length: 4M
+    link: crywu31L8qg
+    speakers:
+    - awspolly
