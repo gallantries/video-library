@@ -24,28 +24,34 @@
   </div>
   <div style="margin-top:1em;" class="video-metadata">
       <table>
+          {% if description %}
           <tr>
               <td><strong>Description:</strong></td>
               <td>{{ description }}</td>
           </tr>
+          {% endif %}
           <tr>
               <td><strong>Length:</strong></td>
               <td>{{ include.video[0].length | downcase }}</td>
           </tr>
    {% assign captions = include.video[0].captions | size %}
-          <tr>
    {% if captions == 0 %}
+          <tr>
               <td><strong>Captions:</strong></td>
               <td><strong>Warning! Uncaptioned English audio.</strong> The speaker refused to correct automatic captions for their video. Please contact the speaker.</td>
+          </tr>
    {% else %}
+          <tr>
               <td><strong>Captions:</strong></td>
               <td>{% for name in include.video[0].captions %}{% unless forloop.first %}, {% endunless %} {{ site.data.instructors[name].name}}{% endfor %}</td>
-   {% endif %}
           </tr>
+   {% endif %}
+          {% if include.video[0].date %}
           <tr>
               <td><strong>Created:</strong></td>
               <td>{{include.video[0].date | date: "%-d %B %Y" }}</td>
           </tr>
+          {% endif %}
           {% if materials %}
           <tr>
               <td><strong>Materials:</strong></td>
