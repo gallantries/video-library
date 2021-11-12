@@ -79,6 +79,69 @@
           }
         }
       }
+    },
+    "/by-material/topics/{topicId}/tutorials/{tutorialId}/{material}.html.json": {
+      "get": {
+        "parameters": [
+          {
+            "name": "topicId",
+            "in": "path",
+            "description": "ID of the topic",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "tutorialId",
+            "in": "path",
+            "description": "ID of the tutorial",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "material",
+            "in": "path",
+            "description": "slides or tutorial, whichever material type it is.",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "summary": "Get videos that cover a specific training material (and possibly more)",
+        "responses": {
+          "200": {
+            "description": "successful operation",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/by-material.json": {
+      "get": {
+        "summary": "Get the entire video database by-material",
+        "responses": {
+          "200": {
+            "description": "successful operation",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
     }
   }
 }

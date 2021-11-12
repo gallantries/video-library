@@ -2140,7 +2140,7 @@ admin/ansible-galaxy/week-overview-slides:
     link: JN-C5UbHthY
     speakers:
     - hexylena
-admin/ansible-galaxy/tutorial
+admin/ansible-galaxy/tutorial:
   description: null
   faq: null
   materials:
@@ -2323,7 +2323,7 @@ admin/heterogeneous-compute/slides:
   support_channel: '#08-pulsar'
   support_link: https://galaxyadmintraining.slack.com/archives/08-pulsar
   tags: []
-  type: Slides
+  type: Lecture
   versions:
   - captions:
     - shiltemann
@@ -2432,7 +2432,7 @@ admin/maintenance/slides:
   support_channel: '#10-monitoring'
   support_link: https://galaxyadmintraining.slack.com/archives/10-monitoring
   tags: []
-  type: Slides
+  type: Lecture
   versions:
   - captions:
     - galaxycommunity
@@ -2451,7 +2451,7 @@ admin/monitoring/slides:
   support_channel: '#10-monitoring'
   support_link: https://galaxyadmintraining.slack.com/archives/10-monitoring
   tags: []
-  type: Slides
+  type: Lecture
   versions:
   - captions:
     - galaxycommunity
@@ -2639,7 +2639,7 @@ admin/users-groups-quotas/slides:
   support_channel: '#general'
   support_link: https://galaxyadmintraining.slack.com/archives/general
   tags: []
-  type: Slides
+  type: Lecture
   versions:
   - captions:
     - galaxycommunity
