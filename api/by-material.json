@@ -1031,5 +1031,562 @@
         "hexylena"
       ]
     }
+  ],
+  "topics/admin/tutorials/ansible-galaxy/slides.html": [
+    {
+      "captions": [
+        "shiltemann"
+      ],
+      "date": "2021-02-15",
+      "galaxy_version": "21.01",
+      "length": "4M",
+      "link": "JN-C5UbHthY",
+      "speakers": [
+        "hexylena"
+      ]
+    }
+  ],
+  "topics/admin/tutorials/ansible-galaxy/tutorial.html": [
+    {
+      "captions": [
+        "natefoo",
+        "hexylena"
+      ],
+      "date": "2021-06-28",
+      "galaxy_version": "21.05",
+      "length": "2H47M",
+      "link": "zT70luZqPOU",
+      "speakers": [
+        "natefoo"
+      ]
+    },
+    {
+      "captions": [
+        "shiltemann",
+        "hexylena"
+      ],
+      "date": "2021-02-15",
+      "galaxy_version": "21.01",
+      "length": "53M",
+      "link": "il83uApg7Hc",
+      "speakers": [
+        "hexylena"
+      ]
+    }
+  ],
+  "topics/admin/tutorials/database/slides.html": [
+    {
+      "captions": [
+        "natefoo",
+        "hexylena"
+      ],
+      "date": "2021-06-28",
+      "galaxy_version": "21.05",
+      "length": "2H47M",
+      "link": "zT70luZqPOU",
+      "speakers": [
+        "natefoo"
+      ]
+    },
+    {
+      "captions": [
+        "shiltemann",
+        "hexylena"
+      ],
+      "date": "2021-02-15",
+      "galaxy_version": "21.01",
+      "length": "53M",
+      "link": "il83uApg7Hc",
+      "speakers": [
+        "hexylena"
+      ]
+    }
+  ],
+  "topics/admin/tutorials/systemd-supervisor/slides.html": [
+    {
+      "captions": [
+        "natefoo",
+        "hexylena"
+      ],
+      "date": "2021-06-28",
+      "galaxy_version": "21.05",
+      "length": "2H47M",
+      "link": "zT70luZqPOU",
+      "speakers": [
+        "natefoo"
+      ]
+    },
+    {
+      "captions": [
+        "shiltemann",
+        "hexylena"
+      ],
+      "date": "2021-02-15",
+      "galaxy_version": "21.01",
+      "length": "53M",
+      "link": "il83uApg7Hc",
+      "speakers": [
+        "hexylena"
+      ]
+    }
+  ],
+  "topics/admin/tutorials/production/slides.html": [
+    {
+      "captions": [
+        "natefoo",
+        "hexylena"
+      ],
+      "date": "2021-06-28",
+      "galaxy_version": "21.05",
+      "length": "2H47M",
+      "link": "zT70luZqPOU",
+      "speakers": [
+        "natefoo"
+      ]
+    },
+    {
+      "captions": [
+        "shiltemann",
+        "hexylena"
+      ],
+      "date": "2021-02-15",
+      "galaxy_version": "21.01",
+      "length": "53M",
+      "link": "il83uApg7Hc",
+      "speakers": [
+        "hexylena"
+      ]
+    }
+  ],
+  "topics/admin/tutorials/ansible/tutorial.html": [
+    {
+      "captions": [
+        "martenson"
+      ],
+      "date": "2021-02-15",
+      "galaxy_version": "21.01",
+      "length": "61M",
+      "link": "2KdT0sYKUeE",
+      "speakers": [
+        "martenson"
+      ]
+    }
+  ],
+  "topics/admin/tutorials/ansible/slides.html": [
+    {
+      "captions": [
+        "martenson"
+      ],
+      "date": "2021-02-15",
+      "galaxy_version": "21.01",
+      "length": "5M",
+      "link": "KFpbfmN0OTE",
+      "speakers": [
+        "ic4f"
+      ]
+    }
+  ],
+  "topics/admin/tutorials/connect-to-compute-cluster/slides.html": [
+    {
+      "captions": [
+        "cat-bro",
+        "shiltemann"
+      ],
+      "date": "2021-02-15",
+      "galaxy_version": "21.01",
+      "length": "31M",
+      "link": "R0NbHscL3jA",
+      "speakers": [
+        "hexylena"
+      ]
+    }
+  ],
+  "topics/admin/tutorials/connect-to-compute-cluster/tutorial.html": [
+    {
+      "captions": [
+        "cat-bro",
+        "shiltemann"
+      ],
+      "date": "2021-02-15",
+      "galaxy_version": "21.01",
+      "length": "31M",
+      "link": "R0NbHscL3jA",
+      "speakers": [
+        "hexylena"
+      ]
+    },
+    {
+      "captions": [
+        "beatrizserrano"
+      ],
+      "date": "2021-02-15",
+      "galaxy_version": "21.01",
+      "length": "6M",
+      "link": "7CYI5yw9MN8",
+      "speakers": [
+        "hexylena"
+      ]
+    }
+  ],
+  "topics/admin/tutorials/cvmfs/slides.html": [
+    {
+      "captions": [
+        "galaxycommunity"
+      ],
+      "date": "2021-02-15",
+      "galaxy_version": "21.01",
+      "length": "3M",
+      "link": "g_cavAO-fBM",
+      "speakers": [
+        "awspolly"
+      ]
+    }
+  ],
+  "topics/admin/tutorials/cvmfs/tutorial.html": [
+    {
+      "captions": [
+        "slugger70"
+      ],
+      "date": "2021-02-15",
+      "galaxy_version": "21.01",
+      "length": "23M",
+      "link": "X3iFMZP_fQ8",
+      "speakers": [
+        "slugger70"
+      ]
+    }
+  ],
+  "topics/admin/tutorials/data-library/tutorial.html": [
+    {
+      "captions": [
+        "hexylena",
+        "shiltemann"
+      ],
+      "date": "2021-02-15",
+      "galaxy_version": "21.01",
+      "length": "22M",
+      "link": "6BWu29Oiihw",
+      "speakers": [
+        "shiltemann"
+      ]
+    }
+  ],
+  "topics/admin/tutorials/gxadmin/slides.html": [
+    {
+      "captions": [
+        "galaxycommunity"
+      ],
+      "date": "2021-02-15",
+      "galaxy_version": "21.01",
+      "length": "2M",
+      "link": "QFwOgDyFSSA",
+      "speakers": [
+        "awspolly"
+      ]
+    }
+  ],
+  "topics/admin/tutorials/gxadmin/tutorial.html": [
+    {
+      "captions": [
+        "galaxycommunity"
+      ],
+      "date": "2021-02-15",
+      "galaxy_version": "21.01",
+      "length": "2M",
+      "link": "QFwOgDyFSSA",
+      "speakers": [
+        "awspolly"
+      ]
+    }
+  ],
+  "topics/admin/tutorials/heterogeneous-compute/slides.html": [
+    {
+      "captions": [
+        "shiltemann"
+      ],
+      "date": "2021-02-15",
+      "galaxy_version": "21.01",
+      "length": "14M",
+      "link": "M1-Z_2tuQPI",
+      "speakers": [
+        "slugger70"
+      ]
+    }
+  ],
+  "topics/admin/tutorials/heterogeneous-compute/tutorial.html": [
+    {
+      "captions": [
+        "hexylena"
+      ],
+      "date": "2021-06-28",
+      "galaxy_version": "21.05",
+      "length": "1H28M",
+      "link": "f0QdF8NDhsM",
+      "speakers": [
+        "slugger70"
+      ]
+    },
+    {
+      "captions": [
+        "simonbray",
+        "slugger70"
+      ],
+      "date": "2021-02-15",
+      "galaxy_version": "21.01",
+      "length": "57M",
+      "link": "a7fKJT4Fs9k",
+      "speakers": [
+        "slugger70"
+      ]
+    }
+  ],
+  "topics/admin/tutorials/interactive-tools/slides.html": [
+    {
+      "captions": [
+        "abretaud",
+        "hexylena"
+      ],
+      "date": "2021-02-15",
+      "galaxy_version": "21.01",
+      "length": "44M",
+      "link": "lACsIhnbTbE",
+      "speakers": [
+        "abretaud"
+      ]
+    }
+  ],
+  "topics/admin/tutorials/interactive-tools/tutorial.html": [
+    {
+      "captions": [
+        "abretaud",
+        "hexylena"
+      ],
+      "date": "2021-02-15",
+      "galaxy_version": "21.01",
+      "length": "44M",
+      "link": "lACsIhnbTbE",
+      "speakers": [
+        "abretaud"
+      ]
+    }
+  ],
+  "topics/admin/tutorials/job-destinations/tutorial.html": [
+    {
+      "captions": [
+        "shiltemann"
+      ],
+      "date": "2021-02-15",
+      "galaxy_version": "21.01",
+      "length": "31M",
+      "link": "qX8GjTJwnAk",
+      "speakers": [
+        "hexylena"
+      ]
+    }
+  ],
+  "topics/admin/tutorials/maintenance/slides.html": [
+    {
+      "captions": [
+        "galaxycommunity"
+      ],
+      "date": "2021-02-15",
+      "galaxy_version": "21.01",
+      "length": "2M",
+      "link": "41_3WHXZA-o",
+      "speakers": [
+        "awspolly"
+      ]
+    }
+  ],
+  "topics/admin/tutorials/monitoring/slides.html": [
+    {
+      "captions": [
+        "galaxycommunity"
+      ],
+      "date": "2021-02-15",
+      "galaxy_version": "21.01",
+      "length": "2M",
+      "link": "qcp9lEUxCGI",
+      "speakers": [
+
+      ]
+    }
+  ],
+  "topics/admin/tutorials/monitoring/tutorial.html": [
+    {
+      "captions": [
+        "shiltemann",
+        "hexylena"
+      ],
+      "date": "2021-02-15",
+      "galaxy_version": "21.01",
+      "length": "73M",
+      "link": "drUaYQtMBLY",
+      "speakers": [
+
+      ]
+    }
+  ],
+  "topics/admin/tutorials/object-store/tutorial.html": [
+    {
+      "captions": [
+        "cat-bro"
+      ],
+      "date": "2021-02-15",
+      "galaxy_version": "21.01",
+      "length": "18M",
+      "link": "Hv2bvjk5sjE",
+      "speakers": [
+        "gmauro"
+      ]
+    }
+  ],
+  "topics/admin/tutorials/singularity/tutorial.html": [
+    {
+      "captions": [
+        "gallardoalba",
+        "slugger70"
+      ],
+      "date": "2021-06-28",
+      "galaxy_version": "21.05",
+      "length": "43M",
+      "link": "q6Dt7j713tI",
+      "speakers": [
+        "slugger70"
+      ]
+    },
+    {
+      "captions": [
+        "hexylena",
+        "cat-bro"
+      ],
+      "date": "2021-02-15",
+      "galaxy_version": "21.01",
+      "length": "16M",
+      "link": "airzg4-ETEs",
+      "speakers": [
+        "hexylena"
+      ]
+    }
+  ],
+  "topics/admin/tutorials/tiaas/tutorial.html": [
+    {
+      "captions": [
+        "hexylena",
+        "shiltemann"
+      ],
+      "date": "2021-02-15",
+      "galaxy_version": "21.01",
+      "length": "24M",
+      "link": "tz0ZbK_8Vcc",
+      "speakers": [
+        "hexylena"
+      ]
+    }
+  ],
+  "topics/admin/tutorials/tool-management/slides.html": [
+    {
+      "captions": [
+        "cat-bro"
+      ],
+      "date": "2021-06-28",
+      "galaxy_version": "21.05",
+      "length": "17M",
+      "link": "8Rdho_eUeKc",
+      "speakers": [
+        "cat-bro"
+      ]
+    },
+    {
+      "captions": [
+        "cat-bro"
+      ],
+      "date": "2021-06-28",
+      "galaxy_version": "21.05",
+      "length": "27M",
+      "link": "pda0v9b3vO4",
+      "speakers": [
+        "cat-bro"
+      ]
+    },
+    {
+      "captions": [
+        "eancelet"
+      ],
+      "date": "2021-02-15",
+      "galaxy_version": "21.01",
+      "length": "47M",
+      "link": "7Qqwrzn--YI",
+      "speakers": [
+        "cat-bro"
+      ]
+    }
+  ],
+  "topics/admin/tutorials/tool-management/tutorial.html": [
+    {
+      "captions": [
+        "cat-bro"
+      ],
+      "date": "2021-06-28",
+      "galaxy_version": "21.05",
+      "length": "17M",
+      "link": "8Rdho_eUeKc",
+      "speakers": [
+        "cat-bro"
+      ]
+    },
+    {
+      "captions": [
+        "cat-bro"
+      ],
+      "date": "2021-06-28",
+      "galaxy_version": "21.05",
+      "length": "27M",
+      "link": "pda0v9b3vO4",
+      "speakers": [
+        "cat-bro"
+      ]
+    },
+    {
+      "captions": [
+        "eancelet"
+      ],
+      "date": "2021-02-15",
+      "galaxy_version": "21.01",
+      "length": "47M",
+      "link": "7Qqwrzn--YI",
+      "speakers": [
+        "cat-bro"
+      ]
+    }
+  ],
+  "topics/admin/tutorials/upgrading/tutorial.html": [
+    {
+      "captions": [
+        "slugger70",
+        "hexylena"
+      ],
+      "date": "2021-02-15",
+      "galaxy_version": "21.01",
+      "length": "36M",
+      "link": "OnL47MvXjoo",
+      "speakers": [
+        "slugger70"
+      ]
+    }
+  ],
+  "topics/admin/tutorials/users-groups-quotas/slides.html": [
+    {
+      "captions": [
+        "galaxycommunity"
+      ],
+      "date": "2021-02-15",
+      "galaxy_version": "21.01",
+      "length": "4M",
+      "link": "crywu31L8qg",
+      "speakers": [
+        "awspolly"
+      ]
+    }
   ]
 }

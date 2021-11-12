@@ -19,7 +19,7 @@ def listify(d):
 def getkey(v, mat):
     if mat['link'].startswith('topics/'):
         s = mat['link'].split('/')
-        return s[1] + '/' + s[3] + '/' + mat['type']
+        return s[1] + '/' + s[3] + '/' + mat['type'].lower()
     else:
         return v['name'] + mat['type']
 
@@ -43,7 +43,7 @@ def process(v):
             fixmats.append(material)
 
     n = {
-        'description': v['video'].get('description', v['description']),
+        'description': v['video'].get('description', v.get('description', None)),
         'support_channel': v.get('support_channel', None),
         'support_link': v.get('support_link', None),
         'faq': v.get('faq', None),
