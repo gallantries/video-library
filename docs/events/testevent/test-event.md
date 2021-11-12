@@ -3,6 +3,18 @@ layout: event
 title: "My Awesome Event"
 description: "Best training since sliced bread lessons"
 instructors: [hexylena, shiltemann, hexylena, hexylena, hexylena]
+date:
+  start: 15-11-2021
+  end: 18-11-2021
+registration: "registrastion.example.com"
+cost: free
+contacts:
+  - name: Saskia Hiltemann
+    email: saskiahiltemann@gmail.com
+  - name: Helena Rasche
+    email: helenarasche@gmail.com
+
+
 program:
   day1:
     title: Day 1

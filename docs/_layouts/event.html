@@ -6,13 +6,29 @@ layout: default
 
 <h1> {{ event.title }} </h1>
 
+# test
+
 {{ event.description }}
 
 {{ content }}
 
 <h2> Practical Information </h2>
 
+<ul>
+  <li> <strong>When: </strong> {{ page.date.start | date: "%-d %B %Y" }} - {{ page.date.end | date: "%-d %B %Y" }}</li>
+
+  {% if page.registration %}<li><strong>Registration: </strong><a href="{{page.registration}}">link</a></li> {% endif %}
+
+  {% if page.cost %}<li><strong>Cost: </strong>{{ page.cost }}</li>{% endif %}
+
+  <li> <strong>Contact: </strong> {% for c in page.contacts %}<a href="mailto:{{c.email}}">{{c.name}}</a>{% unless forloop.last %}, {% endunless %}{% endfor %} </li>
+
+</ul>
+
+
 <h2> Program </h2>
+
+Below you will find all the tutorials for this course, everything you need to follow this course is listed here.
 
 {% include course-handbook.html program=event.program instructors=event.instructors %}
 
