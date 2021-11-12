@@ -8,6 +8,7 @@ title: GTN Video Library
 baseurl: "/video-library"
 code_of_conduct: "https://galaxyproject.org/community/coc/"
 license:
+gtn: "https://training.galaxyproject.org"
 
 # Support defaults, can be overridden in event definition
 support:
