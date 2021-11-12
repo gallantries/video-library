@@ -21,15 +21,38 @@
      class="lazyload" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
    </iframe>
   </div>
-  <div style="margin-top:1em;">
-   <strong>Description:</strong> {{description }} <br/>
-   <strong>Length:</strong> {{ include.video[0].length | downcase }} <br/>
+  <div style="margin-top:1em;" class="video-metadata">
+      <table>
+          <tr>
+              <td><strong>Description:</strong></td>
+              <td>{{ description }}</td>
+          </tr>
+          <tr>
+              <td><strong>Length:</strong></td>
+              <td>{{ include.video[0].length | downcase }}</td>
+          </tr>
    {% assign captions = include.video[0].captions | size %}
+          <tr>
+   {% if captions == 0 %}
+              <td><strong>Captions:</strong></td>
+              <td><strong>Warning! Uncaptioned English audio.</strong> The speaker refused to correct automatic captions for their video. Please contact the speaker.</td>
+   {% else %}
+              <td><strong>Captions by:</strong></td>
+              <td>{% for name in include.video[0].captions %}{% unless forloop.first %}, {% endunless %} {{ site.data.instructors[name].name}}{% endfor %}</td>
+   {% endif %}
+          </tr>
+          <tr>
+              <td><strong>Created:</strong></td>
+              <td>{{include.video[0].date | date: "%-d %B %Y" }}</td>
+          </tr>
+          {% if include.vsession.materials %}
+          <tr>
+              <td><strong>Supporting Material:</strong></td>
+              <td>{% for m in include.vsession.materials %} <a href="{% unless m.link contains 'http' %}{{site.gtn}}/archive/{{archiveyear}}-{{archivemonth}}-01/{% endunless %}{{m.link}}">{{m.type}}</a>{% unless forloop.last %}, {% endunless %}{% endfor %}</td>
+          </tr>
+          {% endif %}
+      </table>
 
-   <strong>Captions by:</strong> {% for name in include.video[0].captions %}{% unless forloop.first %}, {% endunless %} {{ site.data.instructors[name].name}}{% endfor %}
-{% if captions == 0 %} We apologize for the lack of captions on this video. If you are reliant on captions, please check back later.{% endif %}<br/>
-   <strong>Created:</strong> {{include.video[0].date | date: "%-d %B %Y" }} <br/>
-   {% if include.vsession.materials %}<strong>Supporting Material: </strong> {% for m in include.vsession.materials %} <a href="{% unless m.link contains 'http' %}{{site.gtn}}/archive/{{archiveyear}}-{{archivemonth}}-01/{% endunless %}{{m.link}}">{{m.type}}</a>{% unless forloop.last %}, {% endunless %}{% endfor %}<br/>{% endif %}
   </div>
  </div>
  <!-- speaker(s) -->
