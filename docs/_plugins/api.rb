@@ -12,13 +12,15 @@ module Jekyll
 
       by_tags = Hash.new { |hash, key| hash[key] = Hash.new }
       site.data['videos'].each{|k, v|
-        v['tags'].each{|tag|
-          by_tags[tag]['url'] = site.config['baseurl'] + "/api/tags/#{tag}.json"
-          if by_tags[tag]['videos'].nil?
-            by_tags[tag]['videos'] = Hash.new
-          end
-          by_tags[tag]['videos'][k] = v
-        }
+        if ! v.nil?
+          v.fetch('tags', []).each{|tag|
+            by_tags[tag]['url'] = site.config['baseurl'] + "/api/tags/#{tag}.json"
+            if by_tags[tag]['videos'].nil?
+              by_tags[tag]['videos'] = Hash.new
+            end
+            by_tags[tag]['videos'][k] = v
+          }
+        end
       }
 
       site.data['by_tags'] = by_tags
@@ -31,7 +33,7 @@ module Jekyll
 
       by_material = Hash.new { |hash, key| hash[key] = Array.new }
       site.data['videos'].each{|k, v|
-        if v['materials']
+        if v && v['materials']
           v.fetch('materials', []).each{|material|
             if material['link'] && material['link'].start_with?('topics/')
               if v['versions']

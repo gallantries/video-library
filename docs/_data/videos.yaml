@@ -2086,7 +2086,7 @@ course/welcome-admin:
   faq: null
   support_channel: '#general'
   support_link: https://galaxyadmintraining.slack.com/archives/general
-  tags: []
+  tags: [course]
   type: Tutorial
   versions:
   - captions:
@@ -2108,7 +2108,7 @@ course/welcome-gcc2021:
     type: Slides
   support_channel: '#general'
   support_link: https://galaxyadmintraining.slack.com/archives/general
-  tags: []
+  tags: [course]
   type: Lecture
   versions:
   - captions:
@@ -2130,7 +2130,7 @@ admin/ansible-galaxy/week-overview-slides:
     type: Week Overview Slides
   support_channel: '#02-ansible-galaxy'
   support_link: https://galaxyadmintraining.slack.com/archives/02-ansible-galaxy
-  tags: []
+  tags: [admin]
   type: Tutorial
   versions:
   - captions:
@@ -2155,7 +2155,7 @@ admin/ansible-galaxy/tutorial:
     type: Moving Towards Production Slides
   support_channel: '#02-ansible-galaxy'
   support_link: https://galaxyadmintraining.slack.com/archives/02-ansible-galaxy
-  tags: []
+  tags: [admin]
   type: Tutorial
   versions:
   - captions:
@@ -2184,7 +2184,7 @@ admin/ansible/tutorial:
     type: Tutorial
   support_channel: '#01-ansible'
   support_link: https://galaxyadmintraining.slack.com/archives/01-ansible
-  tags: []
+  tags: [admin]
   type: null
   versions:
   - captions:
@@ -2203,7 +2203,7 @@ admin/ansible/slides:
     type: Slides
   support_channel: '#01-ansible'
   support_link: https://galaxyadmintraining.slack.com/archives/01-ansible
-  tags: []
+  tags: [admin]
   type: null
   versions:
   - captions:
@@ -2224,7 +2224,7 @@ admin/connect-to-compute-cluster/combined:
     type: Tutorial
   support_channel: '#07-compute-cluster'
   support_link: https://galaxyadmintraining.slack.com/archives/07-compute-cluster
-  tags: []
+  tags: [admin]
   type: Tutorial
   versions:
   - captions:
@@ -2244,7 +2244,7 @@ admin/cvmfs/slides:
     type: Slides
   support_channel: '#04-cvmfs'
   support_link: https://galaxyadmintraining.slack.com/archives/04-cvmfs
-  tags: []
+  tags: [admin]
   type: Tutorial
   versions:
   - captions:
@@ -2263,7 +2263,7 @@ admin/cvmfs/tutorial:
     type: Tutorial
   support_channel: '#04-cvmfs'
   support_link: https://galaxyadmintraining.slack.com/archives/04-cvmfs
-  tags: []
+  tags: [admin]
   type: Tutorial
   versions:
   - captions:
@@ -2282,7 +2282,7 @@ admin/data-library/tutorial:
     type: Tutorial
   support_channel: '#05-data-libraries'
   support_link: https://galaxyadmintraining.slack.com/archives/05-data-libraries
-  tags: []
+  tags: [admin]
   type: Tutorial
   versions:
   - captions:
@@ -2304,7 +2304,7 @@ admin/gxadmin/slides:
     type: Exercise
   support_channel: '#09-storage'
   support_link: https://galaxyadmintraining.slack.com/archives/09-storage
-  tags: []
+  tags: [admin]
   type: Tutorial
   versions:
   - captions:
@@ -2323,7 +2323,7 @@ admin/heterogeneous-compute/slides:
     type: Slides
   support_channel: '#08-pulsar'
   support_link: https://galaxyadmintraining.slack.com/archives/08-pulsar
-  tags: []
+  tags: [admin]
   type: Lecture
   versions:
   - captions:
@@ -2342,7 +2342,7 @@ admin/heterogeneous-compute/tutorial:
     type: Tutorial
   support_channel: '#08-pulsar'
   support_link: https://galaxyadmintraining.slack.com/archives/08-pulsar
-  tags: []
+  tags: [admin]
   type: Tutorial
   versions:
   - captions:
@@ -2372,7 +2372,7 @@ admin/interactive-tools/slides:
     type: Tutorial
   support_channel: '#11-cyoa'
   support_link: https://galaxyadmintraining.slack.com/archives/11-cyoa
-  tags: []
+  tags: [admin]
   type: Tutorial
   versions:
   - captions:
@@ -2392,7 +2392,7 @@ admin/job-destinations/tutorial:
     type: Tutorial
   support_channel: '#07-compute-cluster'
   support_link: https://galaxyadmintraining.slack.com/archives/07-compute-cluster
-  tags: []
+  tags: [admin]
   type: Tutorial
   versions:
   - captions:
@@ -2412,7 +2412,7 @@ admin/job-metrics/tutorial:
     type: Tutorial
   support_channel: '#07-compute-cluster'
   support_link: https://galaxyadmintraining.slack.com/archives/07-compute-cluster
-  tags: []
+  tags: [admin]
   type: Tutorial
   versions:
   - captions:
@@ -2432,7 +2432,7 @@ admin/maintenance/slides:
     type: Slides
   support_channel: '#10-monitoring'
   support_link: https://galaxyadmintraining.slack.com/archives/10-monitoring
-  tags: []
+  tags: [admin]
   type: Lecture
   versions:
   - captions:
@@ -2451,7 +2451,7 @@ admin/monitoring/slides:
     type: Slides
   support_channel: '#10-monitoring'
   support_link: https://galaxyadmintraining.slack.com/archives/10-monitoring
-  tags: []
+  tags: [admin]
   type: Lecture
   versions:
   - captions:
@@ -2469,7 +2469,7 @@ admin/monitoring/tutorial:
     type: Tutorial
   support_channel: '#10-monitoring'
   support_link: https://galaxyadmintraining.slack.com/archives/10-monitoring
-  tags: []
+  tags: [admin]
   type: Tutorial
   versions:
   - captions:
@@ -2488,7 +2488,7 @@ admin/object-store/exercise:
     type: Exercise
   support_channel: '#09-storage'
   support_link: https://galaxyadmintraining.slack.com/archives/09-storage
-  tags: []
+  tags: [admin]
   type: Tutorial
   versions:
   - captions:
@@ -2507,7 +2507,7 @@ admin/singularity/tutorial:
     type: Tutorial
   support_channel: '#03-singularity'
   support_link: https://galaxyadmintraining.slack.com/archives/03-singularity
-  tags: []
+  tags: [admin]
   type: Tutorial
   versions:
   - captions:
@@ -2536,7 +2536,7 @@ admin/tiaas/tutorial:
     type: Tutorial
   support_channel: '#12-tiaas'
   support_link: https://galaxyadmintraining.slack.com/archives/12-tiaas
-  tags: []
+  tags: [admin]
   type: Tutorial
   versions:
   - captions:
@@ -2558,7 +2558,7 @@ admin/tool-management/slides:
     type: Tutorial
   support_channel: '#03-ephemeris'
   support_link: https://galaxyadmintraining.slack.com/archives/03-ephemeris
-  tags: []
+  tags: [admin]
   type: Tutorial
   versions:
   - captions:
@@ -2579,7 +2579,7 @@ admin/tool-management/tutorials:
     type: Tutorial
   support_channel: '#03-ephemeris'
   support_link: https://galaxyadmintraining.slack.com/archives/03-ephemeris
-  tags: []
+  tags: [admin]
   type: Tutorial
   versions:
   - captions:
@@ -2600,7 +2600,7 @@ admin/tool-management/combined:
     type: Tutorial
   support_channel: '#03-ephemeris'
   support_link: https://galaxyadmintraining.slack.com/archives/03-ephemeris
-  tags: []
+  tags: [admin]
   type: Tutorial
   versions:
   - captions:
@@ -2619,7 +2619,7 @@ admin/upgrading/tutorial:
     type: tutorial
   support_channel: '#11-cyoa'
   support_link: https://galaxyadmintraining.slack.com/archives/11-cyoa
-  tags: []
+  tags: [admin]
   type: Tutorial
   versions:
   - captions:
@@ -2639,7 +2639,7 @@ admin/users-groups-quotas/slides:
     type: Slides
   support_channel: '#general'
   support_link: https://galaxyadmintraining.slack.com/archives/general
-  tags: []
+  tags: [admin]
   type: Lecture
   versions:
   - captions:
@@ -2661,7 +2661,7 @@ contributing/gitpod/tutorial:
     type: Tutorial
   support_channel: '#contributing-gtn'
   support_link: https://gtnsmrgsbord.slack.com/archives/contributing-gtn
-  tags: []
+  tags: [contributing]
   type: Tutorial
   versions:
   - captions:
@@ -2690,7 +2690,7 @@ The GTN & Training Material DevelopmentTutorial 10.44493956306656757:
     type: Slides
   support_channel: '#contributing-gtn'
   support_link: https://gtnsmrgsbord.slack.com/archives/contributing-gtn
-  tags: []
+  tags: [contributing]
   type: Lecture
   versions:
   - captions:
@@ -2715,7 +2715,7 @@ contributing/create-new-tutorial/tutorial:
     type: Related tutorial
   support_channel: '#contributing-gtn'
   support_link: https://gtnsmrgsbord.slack.com/archives/contributing-gtn
-  tags: []
+  tags: [contributing]
   type: Tutorial
   versions:
   - captions:
@@ -2742,7 +2742,7 @@ dev/architecture/slides-ecosystem:
     type: Youtube Playlist
   support_channel: '#dev-galaxy-core'
   support_link: https://gtnsmrgsbord.slack.com/archives/C025X3XLZ4Y
-  tags: []
+  tags: [dev]
   type: Lecture
   versions:
   - captions:
@@ -2769,7 +2769,7 @@ dev/architecture/slides-models-managers:
     type: Youtube Playlist
   support_channel: '#dev-galaxy-core'
   support_link: https://gtnsmrgsbord.slack.com/archives/C025X3XLZ4Y
-  tags: []
+  tags: [dev]
   type: Lecture
   versions:
   - captions:
@@ -2796,7 +2796,7 @@ dev/architecture/slides-app-di:
     type: Youtube Playlist
   support_channel: '#dev-galaxy-core'
   support_link: https://gtnsmrgsbord.slack.com/archives/C025X3XLZ4Y
-  tags: []
+  tags: [dev]
   type: Lecture
   versions:
   - captions:
@@ -2823,7 +2823,7 @@ dev/architecture/slides-project-management:
     type: Youtube Playlist
   support_channel: '#dev-galaxy-core'
   support_link: https://gtnsmrgsbord.slack.com/archives/C025X3XLZ4Y
-  tags: []
+  tags: [dev]
   type: Lecture
   versions:
   - captions:
@@ -2850,7 +2850,7 @@ dev/architecture/slides-web-client:
     type: Youtube Playlist
   support_channel: '#dev-galaxy-core'
   support_link: https://gtnsmrgsbord.slack.com/archives/C025X3XLZ4Y
-  tags: []
+  tags: [dev]
   type: Lecture
   versions:
   - captions:
@@ -2877,7 +2877,7 @@ dev/architecture/slides-pluggable-components:
     type: Youtube Playlist
   support_channel: '#dev-galaxy-core'
   support_link: https://gtnsmrgsbord.slack.com/archives/C025X3XLZ4Y
-  tags: []
+  tags: [dev]
   type: Lecture
   versions:
   - captions:
@@ -2904,7 +2904,7 @@ dev/architecture/slides-principles:
     type: Youtube Playlist
   support_channel: '#dev-galaxy-core'
   support_link: https://gtnsmrgsbord.slack.com/archives/C025X3XLZ4Y
-  tags: []
+  tags: [dev]
   type: Lecture
   versions:
   - captions:
@@ -2930,7 +2930,7 @@ dev/architecture/slides-web-requests:
     type: Youtube Playlist
   support_channel: '#dev-galaxy-core'
   support_link: https://gtnsmrgsbord.slack.com/archives/C025X3XLZ4Y
-  tags: []
+  tags: [dev]
   type: Lecture
   versions:
   - captions:
@@ -2956,7 +2956,7 @@ dev/architecture/slides-files-directories:
     type: Youtube Playlist
   support_channel: '#dev-galaxy-core'
   support_link: https://gtnsmrgsbord.slack.com/archives/C025X3XLZ4Y
-  tags: []
+  tags: [dev]
   type: Lecture Series & Self-study Tutorial
   versions:
   - captions:
@@ -2976,7 +2976,7 @@ dev/debugging/tutorial/intro:
     type: Tutorial
   support_channel: '#dev-debugging-galaxy'
   support_link: https://gtnsmrgsbord.slack.com/archives/C025DL2S03W
-  tags: []
+  tags: [dev]
   type: Tutorial
   versions:
   - captions:
@@ -2995,7 +2995,7 @@ dev/debugging/tutorial/client-unit-test:
     type: Tutorial
   support_channel: '#dev-debugging-galaxy'
   support_link: https://gtnsmrgsbord.slack.com/archives/C025DL2S03W
-  tags: []
+  tags: [dev]
   type: Tutorial
   versions:
   - captions:
@@ -3014,7 +3014,7 @@ dev/debugging/tutorial/summary:
     type: Tutorial
   support_channel: '#dev-debugging-galaxy'
   support_link: https://gtnsmrgsbord.slack.com/archives/C025DL2S03W
-  tags: []
+  tags: [dev]
   type: Lecture
   versions:
   - captions:
@@ -3033,7 +3033,7 @@ dev/debugging/tutorial/api-test-failure:
     type: Tutorial
   support_channel: '#dev-debugging-galaxy'
   support_link: https://gtnsmrgsbord.slack.com/archives/C025DL2S03W
-  tags: []
+  tags: [dev]
   type: Tutorial
   versions:
   - captions:
@@ -3053,7 +3053,7 @@ dev/debugging/tutorial/client-linter:
     type: Tutorial
   support_channel: '#dev-debugging-galaxy'
   support_link: https://gtnsmrgsbord.slack.com/archives/C025DL2S03W
-  tags: []
+  tags: [dev]
   type: Tutorial
   versions:
   - captions:
@@ -3072,7 +3072,7 @@ dev/debugging/tutorial/runtime-error:
     type: Tutorial
   support_channel: '#dev-debugging-galaxy'
   support_link: https://gtnsmrgsbord.slack.com/archives/C025DL2S03W
-  tags: []
+  tags: [dev]
   type: Tutorial
   versions:
   - captions:
@@ -3092,7 +3092,7 @@ dev/debugging/tutorial/selenium:
     type: Tutorial
   support_channel: '#dev-debugging-galaxy'
   support_link: https://gtnsmrgsbord.slack.com/archives/C025DL2S03W
-  tags: []
+  tags: [dev]
   type: Tutorial
   versions:
   - captions:
@@ -3115,7 +3115,7 @@ dev/debugging/tutorial/unit-test-failure:
     type: Tutorial
   support_channel: '#dev-debugging-galaxy'
   support_link: https://gtnsmrgsbord.slack.com/archives/C025DL2S03W
-  tags: []
+  tags: [dev]
   type: Tutorial
   versions:
   - captions:
@@ -3135,7 +3135,7 @@ dev/tool-from-scratch/tutorial/conda:
     type: Tutorial
   support_channel: '#dev-tools-conda'
   support_link: https://gtnsmrgsbord.slack.com/archives/dev-tools-conda
-  tags: []
+  tags: [dev]
   type: null
   versions:
   - captions:
@@ -3154,7 +3154,7 @@ dev/tool-from-scratch/tutorial/publish:
     type: Tutorial
   support_channel: '#dev-tools-conda'
   support_link: https://gtnsmrgsbord.slack.com/archives/dev-tools-conda
-  tags: []
+  tags: [dev]
   type: null
   versions:
   - captions:
@@ -3174,7 +3174,7 @@ dev/tool-from-scratch/tutorial/testing:
     type: Tutorial
   support_channel: '#dev-tools-conda'
   support_link: https://gtnsmrgsbord.slack.com/archives/dev-tools-conda
-  tags: []
+  tags: [dev]
   type: null
   versions:
   - captions:
@@ -3195,7 +3195,7 @@ dev/tool-from-scratch/tutorial/tool-wrapper:
     type: Tutorial
   support_channel: '#dev-tools-conda'
   support_link: https://gtnsmrgsbord.slack.com/archives/dev-tools-conda
-  tags: []
+  tags: [dev]
   type: null
   versions:
   - captions:
@@ -3218,7 +3218,7 @@ dev/tool-from-scratch/tutorial/planemo-init:
     type: Tutorial
   support_channel: '#dev-tools-conda'
   support_link: https://gtnsmrgsbord.slack.com/archives/dev-tools-conda
-  tags: []
+  tags: [dev]
   type: null
   versions:
   - captions:
@@ -3238,7 +3238,7 @@ dev/tool-from-scratch/tutorial/shed-yml:
     type: Tutorial
   support_channel: '#dev-tools-conda'
   support_link: https://gtnsmrgsbord.slack.com/archives/dev-tools-conda
-  tags: []
+  tags: [dev]
   type: null
   versions:
   - captions:
@@ -3262,7 +3262,7 @@ dev/tool-generators/tutorial:
     type: Tutorial
   support_channel: '#dev-toolfactory'
   support_link: https://gtnsmrgsbord.slack.com/archives/dev-toolfactory
-  tags: []
+  tags: [dev]
   type: null
   versions:
   - captions:
@@ -3291,7 +3291,7 @@ dev/tool-generators/tutorial:
     type: Tutorial
   support_channel: '#dev-toolfactory'
   support_link: https://gtnsmrgsbord.slack.com/archives/dev-toolfactory
-  tags: []
+  tags: [dev]
   type: null
   versions:
   - captions:
@@ -3312,7 +3312,7 @@ dev/tool-generators-advanced/tutorial:
     type: Tutorial
   support_channel: '#dev-toolfactory'
   support_link: https://gtnsmrgsbord.slack.com/archives/dev-toolfactory
-  tags: []
+  tags: [dev]
   type: null
   versions:
   - captions:
