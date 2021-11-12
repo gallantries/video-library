@@ -294,4 +294,6 @@ table td { border: 1px solid #e8e8e8; }
 
 .hall-of-fame-hero img:hover, .hall-of-fame-hero img:focus, .hall-of-fame-hero img:active { border-color: blue; }
 
+.module-start { margin-top: 1em; }
+
 /*# sourceMappingURL=main.css.map */
