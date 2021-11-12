@@ -3,7 +3,10 @@
 {% assign session-type = include.session.type | default: include.vsession.type | default: include.video.type | default: "Unknown" %}
 {% assign description = include.session.description | default: include.vsession.description | default: include.video.description %}
 
-
+<!-- determine the next archived version of tutorial -->
+{% assign archivemonth = include.video[0].date | date: "%m" | plus: 1 | modulo: 12 | prepend: '00' | slice: -2, 2 %}
+{% assign archiveyear = include.video[0].date | date: "%Y" %}
+{% if archivemonth == '01' %}{% assign archiveyear = archiveyear | plus: 1 %}{% endif %}
 
 <div class="flex-row" style="margin-top:1em;">
  <div class="col-md-8">
@@ -26,6 +29,7 @@
    <strong>Captions by:</strong> {% for name in include.video[0].captions %}{% unless forloop.first %}, {% endunless %} {{ site.data.instructors[name].name}}{% endfor %}
 {% if captions == 0 %} We apologize for the lack of captions on this video. If you are reliant on captions, please check back later.{% endif %}<br/>
    <strong>Created:</strong> {{include.video[0].date | date: "%-d %B %Y" }} <br/>
+   {% if include.vsession.materials %}<strong>GTN Material: </strong> {% for m in include.vsession.materials %} <a href="{{site.gtn}}/archive/{{archiveyear}}-{{archivemonth}}-01/{{m.link}}">{{m.type}}</a>{% unless forloop.last %}, {% endunless %}{% endfor %}<br/>{% endif %}
   </div>
  </div>
  <!-- speaker(s) -->
@@ -38,4 +42,6 @@
  </div>
 
 </div><!-- end video session -->
+
+
 
