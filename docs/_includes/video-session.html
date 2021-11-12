@@ -29,7 +29,7 @@
    <strong>Captions by:</strong> {% for name in include.video[0].captions %}{% unless forloop.first %}, {% endunless %} {{ site.data.instructors[name].name}}{% endfor %}
 {% if captions == 0 %} We apologize for the lack of captions on this video. If you are reliant on captions, please check back later.{% endif %}<br/>
    <strong>Created:</strong> {{include.video[0].date | date: "%-d %B %Y" }} <br/>
-   {% if include.vsession.materials %}<strong>GTN Material: </strong> {% for m in include.vsession.materials %} <a href="{{site.gtn}}/archive/{{archiveyear}}-{{archivemonth}}-01/{{m.link}}">{{m.type}}</a>{% unless forloop.last %}, {% endunless %}{% endfor %}<br/>{% endif %}
+   {% if include.vsession.materials %}<strong>Supporting Material: </strong> {% for m in include.vsession.materials %} <a href="{% unless m.link contains 'http' %}{{site.gtn}}/archive/{{archiveyear}}-{{archivemonth}}-01/{% endunless %}{{m.link}}">{{m.type}}</a>{% unless forloop.last %}, {% endunless %}{% endfor %}<br/>{% endif %}
   </div>
  </div>
  <!-- speaker(s) -->
