@@ -2674,7 +2674,6 @@ contributing/gitpod/tutorial:
     - shiltemann
 
 contributing/create-new-tutorial-slides/slides:
-The GTN & Training Material DevelopmentTutorial 10.44493956306656757:
   description: 'This lecture goes through the process of how to create a slide deck,
     common things you should bear in mind while you''re writing them, and how to enable
     the amazing slides-to-video features for your slide decks! This video itself was
