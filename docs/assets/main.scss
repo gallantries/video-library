@@ -4,6 +4,13 @@
 
 @import "minima";
 
+body {
+	font-family: 'Fira Sans', sans-serif;
+}
+h1 {
+	font-weight: 600;
+}
+
 
 
 .flex-row {
@@ -81,3 +88,4 @@
 		text-align: right;
 	}
 }
+
