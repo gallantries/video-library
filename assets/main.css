@@ -274,6 +274,10 @@ table td { border: 1px solid #e8e8e8; }
 
 .highlight .il { color: #099; }
 
+body { font-family: 'Fira Sans', sans-serif; }
+
+h1 { font-weight: 600; }
+
 .flex-row { display: flex; flex-wrap: wrap; flex-direction: row; justify-content: space-around; }
 
 .logo { display: inline-block; width: 120px; min-height: 120px; max-height: auto; margin: 3px; padding: 3px; }

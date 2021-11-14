@@ -3682,8 +3682,7 @@
       }
     ]
   },
-  "contributing/create-new-tutorial-slides/slides": null,
-  "The GTN & Training Material DevelopmentTutorial 10.44493956306656757": {
+  "contributing/create-new-tutorial-slides/slides": {
     "description": "This lecture goes through the process of how to create a slide deck, common things you should bear in mind while you're writing them, and how to enable the amazing slides-to-video features for your slide decks! This video itself was produced automatically from the GTN's slide decks, anyone making edits to these slides will cause them to be rebuilt, making organising videos for events easier than ever.\n",
     "faq": "https://docs.google.com/document/d/1-B5DvLcaylpJKfW-1F6tRhbCbpLlRbu2c3kTMuBFNk4/pub",
     "materials": [
