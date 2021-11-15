@@ -24,7 +24,7 @@ Here is the full list of all individual training videos
 
 <div class="accordion" id="accordionvideos">
 {% for tag in site.data['by_tags'] %}
-	<h3 id="{{ tag[0] | slugify }}">{{ tag[0] }}</h3>
+	<h3 id="{{ tag[0] | slugify }}">{{ tag[0] | capitalize }}</h3>
 	{% for video in tag[1]['videos'] %}
 		{% assign id=video[0] %}
 		{% assign s=video[1] %}
