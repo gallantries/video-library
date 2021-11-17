@@ -1,0 +1,70 @@
+---
+type: map
+mapping:
+    layout:
+        type: str
+        required: false
+        enum:
+            - event
+    title:
+        type: str
+        required: true
+    description:
+        type: str
+        required: true
+    instructors:
+        type: seq
+        required: true
+        sequence:
+            - type: str
+              enum: CONTRIBUTORS
+    date:
+        type: map
+        mapping:
+            start:
+                type: date
+                pattern: /^[0-9]{4}-[0-9]{2}-[0-9]{2}$/
+            end:
+                type: date
+                pattern: /^[0-9]{4}-[0-9]{2}-[0-9]{2}$/
+    cost:
+        type: str
+    registration:
+        type: str
+    contacts:
+        type: seq
+        sequence:
+            - type: map
+              mapping:
+                  name:
+                      type: str
+                  email:
+                      type: str
+    program:
+        type: map
+        mapping:
+            "=":
+                type: map
+                mapping:
+                    title:
+                        type: str
+                        required: true
+                    description:
+                        type: str
+                        required: true
+                    trainings:
+                        type: seq
+                        sequence:
+                            - type: map
+                              mapping:
+                                  video:
+                                      type: str
+                                      enum: VIDEOS
+                                  session:
+                                      type: str
+                                      enum: SESSIONS
+                                  instructors:
+                                      type: seq
+                                      sequence:
+                                          - type: str
+                                            enum: CONTRIBUTORS
