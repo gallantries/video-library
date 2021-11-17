@@ -187,6 +187,37 @@
           ]
         }
       ]
+    },
+    "rstudio-cloud": {
+      "description": "This tutorial will show you how you can start Rstudio from within Galaxy. This option is only available on Galaxy EU for the time being. If you are working on a different Galaxy server, you can use <strong>Rstudio Cloud (https://rstudio.cloud/)</strong>",
+      "faq": "https://docs.google.com/document/d/e/2PACX-1vQuOJPPP2nosMG1gh1TuAFu479F4u2kGCCsICHuKvQE7lJGZCreVbXMQrhEORu3O1fV2hX_DZDE_Isk/pub",
+      "materials": [
+        {
+          "link": "https://rstudio.cloud/",
+          "title": "Try Rstudio Cloud instead",
+          "type": "Rstudio in Galaxy not available?"
+        }
+      ],
+      "support_channel": "#transcriptomics_intro-to-r",
+      "support_link": "https://gtnsmrgsbord.slack.com/archives/C01F6JXPZM2",
+      "tags": [
+        "galaxy-interface"
+      ],
+      "type": "Demo",
+      "versions": [
+        {
+          "captions": [
+            "shiltemann"
+          ],
+          "date": "2021-02-15",
+          "galaxy_version": "21.01",
+          "length": "20M",
+          "link": "vN14K74nFZc",
+          "speakers": [
+            "fpsom"
+          ]
+        }
+      ]
     }
   }
 }

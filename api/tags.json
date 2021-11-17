@@ -820,6 +820,37 @@
             ]
           }
         ]
+      },
+      "rstudio-cloud": {
+        "description": "This tutorial will show you how you can start Rstudio from within Galaxy. This option is only available on Galaxy EU for the time being. If you are working on a different Galaxy server, you can use <strong>Rstudio Cloud (https://rstudio.cloud/)</strong>",
+        "faq": "https://docs.google.com/document/d/e/2PACX-1vQuOJPPP2nosMG1gh1TuAFu479F4u2kGCCsICHuKvQE7lJGZCreVbXMQrhEORu3O1fV2hX_DZDE_Isk/pub",
+        "materials": [
+          {
+            "link": "https://rstudio.cloud/",
+            "title": "Try Rstudio Cloud instead",
+            "type": "Rstudio in Galaxy not available?"
+          }
+        ],
+        "support_channel": "#transcriptomics_intro-to-r",
+        "support_link": "https://gtnsmrgsbord.slack.com/archives/C01F6JXPZM2",
+        "tags": [
+          "galaxy-interface"
+        ],
+        "type": "Demo",
+        "versions": [
+          {
+            "captions": [
+              "shiltemann"
+            ],
+            "date": "2021-02-15",
+            "galaxy_version": "21.01",
+            "length": "20M",
+            "link": "vN14K74nFZc",
+            "speakers": [
+              "fpsom"
+            ]
+          }
+        ]
       }
     }
   },
@@ -1524,10 +1555,10 @@
       }
     }
   },
-  "proetomics": {
-    "url": "/video-library/api/tags/proetomics.json",
+  "proteomics": {
+    "url": "/video-library/api/tags/proteomics.json",
     "videos": {
-      "proetomics/pandemic/external": {
+      "proteomics/pandemic/external": {
         "description": "The Coronavirus Disease 2019 (COVID-19) global pandemic has had a profound, lasting impact on the world's population. Accurate and timely diagnosis of COVID-19 infection is an important step for providing care and containing its further spread. In this tutorial, attendees will be introduced to two workflows – a) database search workflow and b) peptide validation workflow. Attendees of the workshop will get an in-depth knowledge of the Galaxy workflows that detect SARS-CoV-2 peptides ([10.1186/s12014-021-09321-1)](https://doi.org/10.1186/s12014-021-09321-1)) and co-infecting pathogen peptides ([10.1021/acs.jproteome.0c00822](https://doi.org/10.1021/acs.jproteome.0c00822)).",
         "faq": "https://docs.google.com/document/d/e/2PACX-1vRQ-GVpA-btUnHv3PBDkD2vM5OYg_iPPOFPTH7VVxz-0pLFdi8ZN82zXEBGpk1rrRuOrRKiX8sy3_Yr/pub",
         "materials": [
@@ -1545,7 +1576,7 @@
         "support_channel": "#proteomics_pandemics_research_ms",
         "support_link": "https://gtnsmrgsbord.slack.com/archives/C025E2S35PE",
         "tags": [
-          "proetomics"
+          "proteomics"
         ],
         "type": "Lecture & Demo",
         "versions": [
@@ -1565,48 +1596,7 @@
             ]
           }
         ]
-      }
-    }
-  },
-  "proteogenomics": {
-    "url": "/video-library/api/tags/proteogenomics.json",
-    "videos": {
-      "proteogenomics/introduction/slides": {
-        "description": "In this opening presentation, the basic components of proteogenomics are described, including the main steps in the bioinformatics analysis workflow that make up this approach and will be detailed in the following tutorials. Some examples of research questions that benefit from a proteogenomics approach are also highlighted.",
-        "faq": "https://docs.google.com/document/d/e/2PACX-1vTjQFq5wdkZeEFiQq-E8DkOTlLI9PChgWrwekHjPYBqndlb6kuAoXDiuiJaX5N09r63dWTyLPnnL8BK/pub",
-        "materials": [
-          {
-            "external": true,
-            "link": "https://drive.google.com/file/d/1rqzf6Mrk9cMuQ2531tM6RpltPLrDCrgh/view?usp=sharing",
-            "type": "Slides"
-          }
-        ],
-        "support_channel": "#proteomics_protegenomics",
-        "support_link": "https://gtnsmrgsbord.slack.com/archives/C01ETNTP6HL",
-        "tags": [
-          "proteogenomics"
-        ],
-        "type": "Lecture",
-        "versions": [
-          {
-            "captions": [
-              "emmaleith"
-            ],
-            "date": "2021-02-15",
-            "galaxy_version": "21.01",
-            "length": "20M",
-            "link": "WpH101OPrG0",
-            "speakers": [
-              "timothygriffin"
-            ]
-          }
-        ]
-      }
-    }
-  },
-  "proteomics": {
-    "url": "/video-library/api/tags/proteomics.json",
-    "videos": {
+      },
       "proteomics/biomarker_selection/tutorial": {
         "description": "A biomarker is a measurable biological component that can be routinely detected in clinical practice and reflects a disease state, response to therapeutic treatment, or other relevant biological state. In this tutorial we introduce successively the tools of this pipeline, and guide you to execute them in order to complete the entire pipeline on a concrete example.",
         "faq": "https://docs.google.com/document/d/e/2PACX-1vQVj92upQT2Z4B6ZF6kmhrbnHesbkS--e5ge14iRbxDsxRHuOb52XJE8DI584asA0t2GJIjS_qliPZu/pub",
@@ -1914,36 +1904,36 @@
       }
     }
   },
-  "rstudio-cloud": {
-    "url": "/video-library/api/tags/rstudio-cloud.json",
+  "proteogenomics": {
+    "url": "/video-library/api/tags/proteogenomics.json",
     "videos": {
-      "rstudio-cloud": {
-        "description": "This tutorial will show you how you can start Rstudio from within Galaxy. This option is only available on Galaxy EU for the time being. If you are working on a different Galaxy server, you can use <strong>Rstudio Cloud (https://rstudio.cloud/)</strong>",
-        "faq": "https://docs.google.com/document/d/e/2PACX-1vQuOJPPP2nosMG1gh1TuAFu479F4u2kGCCsICHuKvQE7lJGZCreVbXMQrhEORu3O1fV2hX_DZDE_Isk/pub",
+      "proteogenomics/introduction/slides": {
+        "description": "In this opening presentation, the basic components of proteogenomics are described, including the main steps in the bioinformatics analysis workflow that make up this approach and will be detailed in the following tutorials. Some examples of research questions that benefit from a proteogenomics approach are also highlighted.",
+        "faq": "https://docs.google.com/document/d/e/2PACX-1vTjQFq5wdkZeEFiQq-E8DkOTlLI9PChgWrwekHjPYBqndlb6kuAoXDiuiJaX5N09r63dWTyLPnnL8BK/pub",
         "materials": [
           {
-            "link": "https://rstudio.cloud/",
-            "title": "Try Rstudio Cloud instead",
-            "type": "Rstudio in Galaxy not available?"
+            "external": true,
+            "link": "https://drive.google.com/file/d/1rqzf6Mrk9cMuQ2531tM6RpltPLrDCrgh/view?usp=sharing",
+            "type": "Slides"
           }
         ],
-        "support_channel": "#transcriptomics_intro-to-r",
-        "support_link": "https://gtnsmrgsbord.slack.com/archives/C01F6JXPZM2",
+        "support_channel": "#proteomics_protegenomics",
+        "support_link": "https://gtnsmrgsbord.slack.com/archives/C01ETNTP6HL",
         "tags": [
-          "rstudio-cloud"
+          "proteogenomics"
         ],
-        "type": "Demo",
+        "type": "Lecture",
         "versions": [
           {
             "captions": [
-              "shiltemann"
+              "emmaleith"
             ],
             "date": "2021-02-15",
             "galaxy_version": "21.01",
             "length": "20M",
-            "link": "vN14K74nFZc",
+            "link": "WpH101OPrG0",
             "speakers": [
-              "fpsom"
+              "timothygriffin"
             ]
           }
         ]
@@ -2105,10 +2095,10 @@
       }
     }
   },
-  "statistcs": {
-    "url": "/video-library/api/tags/statistcs.json",
+  "statistics": {
+    "url": "/video-library/api/tags/statistics.json",
     "videos": {
-      "statistcs/machine-learning/intro": {
+      "statistics/machine-learning/intro": {
         "description": "The lecture explains introductory concepts in machine learning such as supervised and unsupervised learning, classification and regression, hyperparameter optimisation, cross-validation, train, test and validation sets.",
         "faq": "https://docs.google.com/document/d/e/2PACX-1vQUIonilhLMvaTlPaYvi5BeOwFsWsmd30tlo1PXYCpOXNUTXiYkm4fxZ23MoOSh_PqVSqmF0lSXeE1C/pub",
         "materials": [
@@ -2122,7 +2112,7 @@
         "support_channel": "#machine_learning_introduction",
         "support_link": "https://gtnsmrgsbord.slack.com/archives/C025EUF0R0U",
         "tags": [
-          "statistcs"
+          "statistics"
         ],
         "type": "Lecture",
         "versions": [
@@ -2139,12 +2129,7 @@
             ]
           }
         ]
-      }
-    }
-  },
-  "statistics": {
-    "url": "/video-library/api/tags/statistics.json",
-    "videos": {
+      },
       "statistics/CNN": {
         "description": "This hands-on tutorial covers Convolutional Neural Networks (CNN)",
         "faq": "https://docs.google.com/document/d/e/2PACX-1vTYyxANwg5BJXe6b9BwRnwBATU1GAYfOjLM-4SNBoPf5WQOucX9Hx-b2JiINpnAI4tRLAY_v8iXgnOy/pub",
