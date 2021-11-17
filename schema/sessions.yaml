@@ -1,8 +1,0 @@
-# transcriptomics/scrna-intro:
-#     name: Introducción al análisis de datos de scRNA-seq
-#     description:
-#       Single-cell RNA-seq analysis is a rapidly evolving field at the forefront
-#       of transcriptomic research, used in high-throughput developmental studies
-#     videos:
-#     - transcriptomics/scrna-intro/slides
-#     - transcriptomics/scrna-intro/tutorial

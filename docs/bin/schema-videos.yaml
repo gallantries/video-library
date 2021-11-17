@@ -40,7 +40,35 @@ mapping:
             tags:
                 type: seq
                 sequence:
-                    - type: str
+                  - type: str
+                    enum:
+                        - admin
+                        - assembly
+                        - climate
+                        - community
+                        - computational-chemistry
+                        - contributing
+                        - course
+                        - data-science
+                        - dev
+                        - ecology
+                        - epigenetics
+                        - galaxy
+                        - galaxy-interface
+                        - galaxy-intro
+                        - genome-annotation
+                        - introduction
+                        - metagenomics
+                        - proteomics
+                        - proteogenomics
+                        - sars-cov2
+                        - sequence-analysis
+                        - statistics
+                        - transcriptomics
+                        - variant-analysis
+                        - visualisation
+                        - webinar
+                        - wetlab
             versions:
                 type: seq
                 sequence:

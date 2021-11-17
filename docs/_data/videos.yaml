@@ -865,7 +865,7 @@ metagenomics/plasmid-metagenomics-nanopore/tutorial:
     link: ECIl8ZU1Wko
     speakers:
     - willemdek11
-proetomics/pandemic/external:
+proteomics/pandemic/external:
   description: "The Coronavirus Disease 2019 (COVID-19) global pandemic has had a\
     \ profound, lasting impact on the world's population. Accurate and timely diagnosis\
     \ of COVID-19 infection is an important step for providing care and containing\
@@ -885,7 +885,7 @@ proetomics/pandemic/external:
   support_channel: '#proteomics_pandemics_research_ms'
   support_link: https://gtnsmrgsbord.slack.com/archives/C025E2S35PE
   tags:
-  - proetomics
+  - proteomics
   type: Lecture & Demo
   versions:
   - captions:
@@ -1172,7 +1172,7 @@ rstudio-cloud:
   support_channel: '#transcriptomics_intro-to-r'
   support_link: https://gtnsmrgsbord.slack.com/archives/C01F6JXPZM2
   tags:
-  - rstudio-cloud
+  - galaxy-interface
   type: Demo
   versions:
   - captions:
@@ -1326,7 +1326,7 @@ sequence-analysis/quality-control/tutorial:
     link: QJRlX2hWDKM
     speakers:
     - heylf
-statistcs/machine-learning/intro:
+statistics/machine-learning/intro:
   description: The lecture explains introductory concepts in machine learning such
     as supervised and unsupervised learning, classification and regression, hyperparameter
     optimisation, cross-validation, train, test and validation sets.
@@ -1339,7 +1339,7 @@ statistcs/machine-learning/intro:
   support_channel: '#machine_learning_introduction'
   support_link: https://gtnsmrgsbord.slack.com/archives/C025EUF0R0U
   tags:
-  - statistcs
+  - statistics
   type: Lecture
   versions:
   - captions:
