@@ -33,4 +33,4 @@ jobs:
         run: |
             cd docs/
             ruby bin/validate-frontmatter.rb
-
+            ruby bin/validate-video-schema.rb
