@@ -4,8 +4,8 @@ title: "My Awesome Event"
 description: "Best training since sliced bread lessons"
 instructors: [hexylena, shiltemann, hexylena, hexylena, hexylena]
 date:
-  start: 15-11-2021
-  end: 18-11-2021
+  start: 2021-11-15
+  end: 2021-11-18
 registration: "registrastion.example.com"
 cost: free
 contacts:
