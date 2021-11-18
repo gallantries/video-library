@@ -1,6 +1,6 @@
 <!-- session: {{ include.session }}<br><br> video: {{include.video}} -->
 
-{% assign session-type = include.session.type | default: include.vsession.type | default: include.video.type | default: "Unknown" %}
+{% assign session-type = include.session.type | default: include.vsession.type | default: include.video.type %}
 {% assign description = include.session.description | default: include.vsession.description | default: include.video.description %}
 {% assign materials = include.session.materials | default: include.vsession.materials | default: include.video.materials %}
 
@@ -11,7 +11,7 @@
 
 <div class="flex-row" style="margin-top:1em;">
  <div class="col-md-8">
-  <h3 class="session-section">{{session-type}}</h3>
+  <h3 class="session-section">{{session-type}} Video</h3>
   <div style="position:relative;padding-top:56.25%;">
    <iframe style="position:absolute;top:0;left:0;width:100%;height:100%;"
     {% if include.video.link contains 'http' %}
@@ -42,7 +42,7 @@
    {% if captions == 0 %}
           <tr>
               <td><strong>Captions:</strong></td>
-              <td><strong>Warning! Uncaptioned English audio.</strong> The speaker refused to correct automatic captions for their video. Please contact the speaker.</td>
+              <td><strong>No captions available for this video.</strong> We aim to have captions for all our videos, however sometimes videos get added without captions. Please contact us to indicate your desire to have captions added and we will ask the speakers to provide captions.</td>
           </tr>
    {% else %}
           <tr>
@@ -65,6 +65,9 @@
       </table>
 
   </div>
+  {% unless page.layout == 'video' %}
+  Go to the <a href="{{site.baseurl}}/videos/{{include.id}}">video page</a> to see all versions.
+  {% endunless %}
  </div>
  <!-- speaker(s) -->
  {% assign s = include.video.speakers %}
@@ -74,6 +77,7 @@
   <center><h3 class="session-section">Speaker{%if numspeakers>1%}s{%endif%}</h3></center>
   {% include speakers.html speakers=s border="yes"%}
  </div>
+
 
 </div><!-- end video session -->
 
