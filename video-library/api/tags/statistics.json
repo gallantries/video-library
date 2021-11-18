@@ -2,6 +2,7 @@
   "url": "/video-library/api/tags/statistics.json",
   "videos": {
     "statistics/machine-learning/intro": {
+      "name": "Introduction to Machine Learning",
       "description": "The lecture explains introductory concepts in machine learning such as supervised and unsupervised learning, classification and regression, hyperparameter optimisation, cross-validation, train, test and validation sets.",
       "faq": "https://docs.google.com/document/d/e/2PACX-1vQUIonilhLMvaTlPaYvi5BeOwFsWsmd30tlo1PXYCpOXNUTXiYkm4fxZ23MoOSh_PqVSqmF0lSXeE1C/pub",
       "materials": [

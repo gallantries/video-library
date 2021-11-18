@@ -2,6 +2,7 @@
   "url": "/video-library/api/tags/dev.json",
   "videos": {
     "dev/architecture/slides-ecosystem": {
+      "name": "Galaxy Code Architecture: Galaxy Ecosystem",
       "description": "TODO",
       "faq": "https://docs.google.com/document/d/e/2PACX-1vQc9v1cfpXZFTha3EnP-9hWw_FH9T9QkGaBxnr2YJ_KEckHhNp8uiHNUR5aeM74Zgrb9mXeIZYIlMmP/pub",
       "materials": [
@@ -43,6 +44,7 @@
       ]
     },
     "dev/architecture/slides-models-managers": {
+      "name": "Galaxy Code Architecture: Models and Managers",
       "description": "TODO",
       "faq": "https://docs.google.com/document/d/e/2PACX-1vQc9v1cfpXZFTha3EnP-9hWw_FH9T9QkGaBxnr2YJ_KEckHhNp8uiHNUR5aeM74Zgrb9mXeIZYIlMmP/pub",
       "materials": [
@@ -84,6 +86,7 @@
       ]
     },
     "dev/architecture/slides-app-di": {
+      "name": "Galaxy Code Architecture: app and Dependency Injection",
       "description": "TODO",
       "faq": "https://docs.google.com/document/d/e/2PACX-1vQc9v1cfpXZFTha3EnP-9hWw_FH9T9QkGaBxnr2YJ_KEckHhNp8uiHNUR5aeM74Zgrb9mXeIZYIlMmP/pub",
       "materials": [
@@ -125,6 +128,7 @@
       ]
     },
     "dev/architecture/slides-project-management": {
+      "name": "Galaxy Code Architecture: Project Management",
       "description": "TODO",
       "faq": "https://docs.google.com/document/d/e/2PACX-1vQc9v1cfpXZFTha3EnP-9hWw_FH9T9QkGaBxnr2YJ_KEckHhNp8uiHNUR5aeM74Zgrb9mXeIZYIlMmP/pub",
       "materials": [
@@ -166,6 +170,7 @@
       ]
     },
     "dev/architecture/slides-web-client": {
+      "name": "Galaxy Code Architecture: Web Client",
       "description": "TODO",
       "faq": "https://docs.google.com/document/d/e/2PACX-1vQc9v1cfpXZFTha3EnP-9hWw_FH9T9QkGaBxnr2YJ_KEckHhNp8uiHNUR5aeM74Zgrb9mXeIZYIlMmP/pub",
       "materials": [
@@ -207,6 +212,7 @@
       ]
     },
     "dev/architecture/slides-pluggable-components": {
+      "name": "Galaxy Code Architecture: Pluggable Components",
       "description": "TODO",
       "faq": "https://docs.google.com/document/d/e/2PACX-1vQc9v1cfpXZFTha3EnP-9hWw_FH9T9QkGaBxnr2YJ_KEckHhNp8uiHNUR5aeM74Zgrb9mXeIZYIlMmP/pub",
       "materials": [
@@ -248,6 +254,7 @@
       ]
     },
     "dev/architecture/slides-principles": {
+      "name": "Galaxy Code Architecture: Principles",
       "description": "TODO",
       "faq": "https://docs.google.com/document/d/e/2PACX-1vQc9v1cfpXZFTha3EnP-9hWw_FH9T9QkGaBxnr2YJ_KEckHhNp8uiHNUR5aeM74Zgrb9mXeIZYIlMmP/pub",
       "materials": [
@@ -289,6 +296,7 @@
       ]
     },
     "dev/architecture/slides-web-requests": {
+      "name": "Galaxy Code Architecture: Web Requests",
       "description": "TODO",
       "faq": "https://docs.google.com/document/d/e/2PACX-1vQc9v1cfpXZFTha3EnP-9hWw_FH9T9QkGaBxnr2YJ_KEckHhNp8uiHNUR5aeM74Zgrb9mXeIZYIlMmP/pub",
       "materials": [
@@ -330,6 +338,7 @@
       ]
     },
     "dev/architecture/slides-files-directories": {
+      "name": "Galaxy Code Architecture: Files and Directories",
       "description": "TODO",
       "faq": "https://docs.google.com/document/d/e/2PACX-1vQc9v1cfpXZFTha3EnP-9hWw_FH9T9QkGaBxnr2YJ_KEckHhNp8uiHNUR5aeM74Zgrb9mXeIZYIlMmP/pub",
       "materials": [
@@ -354,7 +363,7 @@
       "tags": [
         "dev"
       ],
-      "type": "Lecture Series & Self-study Tutorial",
+      "type": "Lecture Series",
       "versions": [
         {
           "captions": [

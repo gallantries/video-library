@@ -1,47 +1,14 @@
 {
-  "url": "/video-library/api/tags/course.json",
+  "url": "/video-library/api/tags/event.json",
   "videos": {
-    "course/welcome": {
-      "name": "Welcome & Course Logistics",
-      "description": "Start here; we will go over all the important things to know to get the most out of this workshop",
-      "faq": "https://docs.google.com/document/d/e/2PACX-1vTfNT2qS2Yb7qTAcnOFrMWwE_aPPUuYJJ0hdjw5gqV_JtMUWQ3NSkr6qAdrmF2EUGBBzTL8wFiILz8B/pub",
-      "materials": [
-        {
-          "external": true,
-          "link": "https://docs.google.com/presentation/d/11iR7mjnyhl2OX9KDmeE6TrArYeEUwVnnV3cFMFWMBwI/edit?usp=sharing",
-          "type": "Slides"
-        }
-      ],
-      "support_channel": "#event-gcc2021",
-      "support_link": "https://gtnsmrgsbord.slack.com/archives/C0253H46ABV",
-      "tags": [
-        "course"
-      ],
-      "type": "Lecture",
-      "versions": [
-        {
-          "captions": [
-            "shiltemann",
-            "hexylena"
-          ],
-          "date": "2021-02-15",
-          "galaxy_version": "21.01",
-          "length": "15M",
-          "link": "5kjIn1ci4qw",
-          "speakers": [
-            "hexylena",
-            "shiltemann"
-          ]
-        }
-      ]
-    },
     "course/welcome-admin": {
+      "name": "Admin Training 2021: Welcome & Course Logistics",
       "description": null,
       "faq": null,
       "support_channel": "#general",
       "support_link": "https://galaxyadmintraining.slack.com/archives/general",
       "tags": [
-        "course"
+        "event"
       ],
       "type": "Tutorial",
       "versions": [
@@ -60,6 +27,7 @@
       ]
     },
     "course/welcome-gcc2021": {
+      "name": "GCC2021 Training: Welcome & Course Logistics",
       "description": "Start here; we will go over all the important things to know to get the most out of this workshop",
       "faq": null,
       "materials": [
@@ -72,7 +40,7 @@
       "support_channel": "#general",
       "support_link": "https://galaxyadmintraining.slack.com/archives/general",
       "tags": [
-        "course"
+        "event"
       ],
       "type": "Lecture",
       "versions": [

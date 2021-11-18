@@ -131,6 +131,7 @@
       ]
     },
     "galaxy-interface/upload-to-ena": {
+      "name": "Uploading data to ENA",
       "description": "So you’ve used Galaxy workflows to analyze your SARS-CoV-2 samples? Learn in this tutorial how to export results to your favorite datastore.",
       "faq": null,
       "materials": null,
@@ -189,6 +190,7 @@
       ]
     },
     "rstudio-cloud": {
+      "name": "Running RStudio-cloud",
       "description": "This tutorial will show you how you can start Rstudio from within Galaxy. This option is only available on Galaxy EU for the time being. If you are working on a different Galaxy server, you can use <strong>Rstudio Cloud (https://rstudio.cloud/)</strong>",
       "faq": "https://docs.google.com/document/d/e/2PACX-1vQuOJPPP2nosMG1gh1TuAFu479F4u2kGCCsICHuKvQE7lJGZCreVbXMQrhEORu3O1fV2hX_DZDE_Isk/pub",
       "materials": [

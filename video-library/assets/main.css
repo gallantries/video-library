@@ -306,4 +306,8 @@ h1 { font-weight: 600; }
 
 .accordion { margin-bottom: 2em; }
 
+.accordion h3 { margin-top: 1em; }
+
+.accordion-body p { margin: 1em; }
+
 /*# sourceMappingURL=main.css.map */
