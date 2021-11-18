@@ -1230,7 +1230,7 @@ sequence-analysis/mapping/slides:
   support_link: https://gtnsmrgsbord.slack.com/archives/C01F6JHCFT6
   tags:
   - sequence-analysis
-  type: Lecture & Tutorial
+  type: Lecture
   versions:
   - captions:
     - blankenberg
@@ -1252,7 +1252,7 @@ sequence-analysis/mapping/tutorial:
   support_link: https://gtnsmrgsbord.slack.com/archives/C01F6JHCFT6
   tags:
   - sequence-analysis
-  type: Lecture & Tutorial
+  type: Tutorial
   versions:
   - captions:
     - shiltemann
