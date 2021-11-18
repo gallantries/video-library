@@ -4,7 +4,7 @@ layout: default
 
 # Gallantries & GTN Training Video Library
 
-![GTN logo]({{site.baseurl}}/assets/images/logos/gtn.png){: style="float: right" width="300px"}
+![GTN logo]({{site.baseurl}}/{{site.image_dir}}/logos/gtn.png){: style="float: right" width="300px"}
 
 Welcome to the Galaxy Training Network (GTN) Video Library!
 
