@@ -250,13 +250,13 @@
         "external": true,
         "link": "https://twitter.com/galaxyproject",
         "title": "follow @galaxyproject",
-        "type": "Twitter"
+        "type": "GalaxyProject Twitter"
       },
       {
         "external": true,
         "link": "https://twitter.com/gxytraining",
         "title": "follow the GTN @gxytraining",
-        "type": "Twitter"
+        "type": "GTN Twitter"
       }
     ],
     "name": "Meet & Join the Galaxy Community!",
