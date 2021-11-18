@@ -6,7 +6,7 @@ instructors: [hexylena, shiltemann, hexylena, hexylena, hexylena]
 date:
   start: 2021-11-15
   end: 2021-11-18
-registration: "registrastion.example.com"
+registration: "https://example.com/registration"
 cost: free
 contacts:
   - name: Saskia Hiltemann
