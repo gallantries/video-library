@@ -81,7 +81,7 @@ climate/fates/tutorial:
   support_link: https://gtnsmrgsbord.slack.com/archives/C01M63SFH34
   tags:
   - climate
-  type: Lecture & Tutorial
+  type: Tutorial
   versions:
   - captions:
     - s3by01
@@ -102,7 +102,7 @@ climate/fates/slides:
   support_link: https://gtnsmrgsbord.slack.com/archives/C01M63SFH34
   tags:
   - climate
-  type: Lecture & Tutorial
+  type: Lecture
   versions:
   - captions:
     - annefou
@@ -259,31 +259,6 @@ computational-chemistry/md-simulation-gromacs/tutorial:
   - computational-chemistry
   type: Tutorial
   versions: []
-course/welcome:
-  name: "Welcome & Course Logistics"
-  description: Start here; we will go over all the important things to know to get
-    the most out of this workshop
-  faq: https://docs.google.com/document/d/e/2PACX-1vTfNT2qS2Yb7qTAcnOFrMWwE_aPPUuYJJ0hdjw5gqV_JtMUWQ3NSkr6qAdrmF2EUGBBzTL8wFiILz8B/pub
-  materials:
-  - external: true
-    link: https://docs.google.com/presentation/d/11iR7mjnyhl2OX9KDmeE6TrArYeEUwVnnV3cFMFWMBwI/edit?usp=sharing
-    type: Slides
-  support_channel: '#event-gcc2021'
-  support_link: https://gtnsmrgsbord.slack.com/archives/C0253H46ABV
-  tags:
-  - course
-  type: Lecture
-  versions:
-  - captions:
-    - shiltemann
-    - hexylena
-    date: '2021-02-15'
-    galaxy_version: '21.01'
-    length: 15M
-    link: 5kjIn1ci4qw
-    speakers:
-    - hexylena
-    - shiltemann
 data-science/r-advanced/tutorial:
   description: An advanced tutorial covering downstream analysis of RNA-seq data using
     R.
@@ -390,7 +365,7 @@ epigenetics/atac-seq/tutorial:
     length: 1H50M
     link: Zc-bl6ZfcX4
     speakers:
-    - helyf
+    - heylf
 galaxy-interface/collections/tutorial:
   description: null
   faq: null
@@ -485,6 +460,7 @@ galaxy-interface/upload-rules:
     speakers:
     - assuntad23
 galaxy-interface/upload-to-ena:
+  name: Uploading data to ENA
   description: "So you\u2019ve used Galaxy workflows to analyze your SARS-CoV-2 samples?\
     \ Learn in this tutorial how to export results to your favorite datastore."
   faq: null
@@ -528,13 +504,14 @@ galaxy-interface/workflow-automation:
     speakers:
     - simonbray
 galaxy/intro:
+  name: A Very Short Introduction to Galaxy
   description: This video will introduce the Galaxy data analysis platform, and give
     a short demo on how to use it.
   faq: https://docs.google.com/document/d/e/2PACX-1vQ1SZCsxEcRXp39J2BcFAjXyC3B20sWzI7IVgBgwe2pcC9b0cza417jzBPYJVqCRNbU0dD4rv_y6u6P/pub
   materials:
   - link: topics/introduction/tutorials/galaxy-intro-short/slides
     title: A Short Introduction to Galaxy
-    type: Slides
+    type: Related Slides
   support_channel: '#galaxy_first_analysis'
   support_link: https://gtnsmrgsbord.slack.com/archives/C01ES914GCU
   tags:
@@ -575,6 +552,7 @@ introduction/galaxy-intro-101-everyone/tutorial:
     - annefou
     - rwinand
 galaxy/intro2:
+  name: Your First Galaxy Analysis
   description: In this tutorial, we will walk you through your first (toy) analysis
     in Galaxy. This tutorial is aimed at familiarizing you with the Galaxy platform,
     and some basic NGS concepts.
@@ -707,7 +685,6 @@ introduction/galaxy-intro-101/tutorial:
   support_channel: null
   support_link: null
   tags:
-  - wetlab
   - introduction
   type: Tutorial
   versions:
@@ -741,6 +718,7 @@ introduction/galaxy-intro-ngs-data-managment:
     speakers:
     - nekrut
 metagenomics/clinical-applications:
+  name: Nanopore Whole Bacterial Genome Sequencing in a Clinical Setting
   description: Nanopore Sequencing has many applications in a clinical setting. In
     this lecture, Astrid Heikema discusses how her group at the Erasmus Medical Center
     uses Nanopore for sequencing of bacterial Genomes.
@@ -866,6 +844,7 @@ metagenomics/plasmid-metagenomics-nanopore/tutorial:
     speakers:
     - willemdek11
 proteomics/pandemic/external:
+  name: Pandemics Research using Mass Spectrometry
   description: "The Coronavirus Disease 2019 (COVID-19) global pandemic has had a\
     \ profound, lasting impact on the world's population. Accurate and timely diagnosis\
     \ of COVID-19 infection is an important step for providing care and containing\
@@ -900,6 +879,7 @@ proteomics/pandemic/external:
     - andrewr
     - pratikdjagtap
 proteogenomics/introduction/slides:
+  name: Introduction to Proteogenomics
   description: In this opening presentation, the basic components of proteogenomics
     are described, including the main steps in the bioinformatics analysis workflow
     that make up this approach and will be detailed in the following tutorials. Some
@@ -1128,7 +1108,7 @@ proteomics/proteome_annotation/tutorial:
     link: qG7GZc6BeGY
     speakers:
     - yvesvdb
-proteomics/tutorials/Tutorial:
+proteomics/maxquant-msstats-dda-lfq/tutorial:
   description: "Modern mass spectrometry-based proteomics enables the identification\
     \ and quantification of thousands of proteins. Therefore, quantitative mass spectrometry\
     \ represents an indispensable technology for biological and clinical research.\
@@ -1161,6 +1141,7 @@ proteomics/tutorials/Tutorial:
     speakers:
     - foellmelanie
 rstudio-cloud:
+  name: Running RStudio-cloud
   description: This tutorial will show you how you can start Rstudio from within Galaxy.
     This option is only available on Galaxy EU for the time being. If you are working
     on a different Galaxy server, you can use <strong>Rstudio Cloud (https://rstudio.cloud/)</strong>
@@ -1184,6 +1165,7 @@ rstudio-cloud:
     speakers:
     - fpsom
 sars-cov2/usegalaxy-star-bot:
+  name: The usegalaxy.* SARS-CoV-2 Bot in Action
   description: "See in this demo how, on usegalaxy.*, we\u2019ve used Planemo and\
     \ Bioblend to build and operate an automated SARS-CoV-2 genome surveillance system\
     \ based on the Galaxy workflows for variant calling, consensus building and reporting."
@@ -1202,6 +1184,7 @@ sars-cov2/usegalaxy-star-bot:
     speakers:
     - wm75
 sars-cov2/using-galaxy:
+  name: SARS-CoV-2 Monitoring and Analysis with Galaxy
   description: 'Get an overview of the workshop: production-ready Galaxy workflows
     for SARS-CoV-2 sequencing data, tools you should know to automate workflow execution,
     and how you combine all of it to turn Galaxy into a platform for genome-surveillance'
@@ -1327,6 +1310,7 @@ sequence-analysis/quality-control/tutorial:
     speakers:
     - heylf
 statistics/machine-learning/intro:
+  name: Introduction to Machine Learning
   description: The lecture explains introductory concepts in machine learning such
     as supervised and unsupervised learning, classification and regression, hyperparameter
     optimisation, cross-validation, train, test and validation sets.
@@ -2062,6 +2046,7 @@ webinar/tooldevs:
     - abretaud
     - petrnovak
 wetlab/miseq/demo:
+  name: MinION Wetlab demo
   description: This video will show you the full process of sequencing a bacterial
     genome using the Oxford Nanopore MinION sequencer.
   faq: https://docs.google.com/document/d/e/2PACX-1vQlG_Onq011MQqyIu4D_erDqiLKAMLnduhHr5cDWwbXVqlU9VZhmm4OT_zphKqb8TEZprAFo8rdPXjO/pub
@@ -2082,11 +2067,12 @@ wetlab/miseq/demo:
 
 
 course/welcome-admin:
+  name: "Admin Training 2021: Welcome & Course Logistics"
   description: null
   faq: null
   support_channel: '#general'
   support_link: https://galaxyadmintraining.slack.com/archives/general
-  tags: [course]
+  tags: [event]
   type: Tutorial
   versions:
   - captions:
@@ -2099,6 +2085,7 @@ course/welcome-admin:
     - hexylena
 
 course/welcome-gcc2021:
+  name: "GCC2021 Training: Welcome & Course Logistics"
   description: Start here; we will go over all the important things to know to get
     the most out of this workshop
   faq: null
@@ -2108,7 +2095,7 @@ course/welcome-gcc2021:
     type: Slides
   support_channel: '#general'
   support_link: https://galaxyadmintraining.slack.com/archives/general
-  tags: [course]
+  tags: [event]
   type: Lecture
   versions:
   - captions:
@@ -2727,6 +2714,7 @@ contributing/create-new-tutorial/tutorial:
     - bebatut
 
 dev/architecture/slides-ecosystem:
+  name: "Galaxy Code Architecture: Galaxy Ecosystem"
   description: TODO
   faq: https://docs.google.com/document/d/e/2PACX-1vQc9v1cfpXZFTha3EnP-9hWw_FH9T9QkGaBxnr2YJ_KEckHhNp8uiHNUR5aeM74Zgrb9mXeIZYIlMmP/pub
   materials:
@@ -2754,6 +2742,7 @@ dev/architecture/slides-ecosystem:
     - jmchilton
 
 dev/architecture/slides-models-managers:
+  name: "Galaxy Code Architecture: Models and Managers"
   description: TODO
   faq: https://docs.google.com/document/d/e/2PACX-1vQc9v1cfpXZFTha3EnP-9hWw_FH9T9QkGaBxnr2YJ_KEckHhNp8uiHNUR5aeM74Zgrb9mXeIZYIlMmP/pub
   materials:
@@ -2781,6 +2770,7 @@ dev/architecture/slides-models-managers:
     - jmchilton
 
 dev/architecture/slides-app-di:
+  name: "Galaxy Code Architecture: app and Dependency Injection"
   description: TODO
   faq: https://docs.google.com/document/d/e/2PACX-1vQc9v1cfpXZFTha3EnP-9hWw_FH9T9QkGaBxnr2YJ_KEckHhNp8uiHNUR5aeM74Zgrb9mXeIZYIlMmP/pub
   materials:
@@ -2808,6 +2798,7 @@ dev/architecture/slides-app-di:
     - jmchilton
 
 dev/architecture/slides-project-management:
+  name: "Galaxy Code Architecture: Project Management"
   description: TODO
   faq: https://docs.google.com/document/d/e/2PACX-1vQc9v1cfpXZFTha3EnP-9hWw_FH9T9QkGaBxnr2YJ_KEckHhNp8uiHNUR5aeM74Zgrb9mXeIZYIlMmP/pub
   materials:
@@ -2835,6 +2826,7 @@ dev/architecture/slides-project-management:
     - jmchilton
 
 dev/architecture/slides-web-client:
+  name: "Galaxy Code Architecture: Web Client"
   description: TODO
   faq: https://docs.google.com/document/d/e/2PACX-1vQc9v1cfpXZFTha3EnP-9hWw_FH9T9QkGaBxnr2YJ_KEckHhNp8uiHNUR5aeM74Zgrb9mXeIZYIlMmP/pub
   materials:
@@ -2862,6 +2854,7 @@ dev/architecture/slides-web-client:
     - jmchilton
 
 dev/architecture/slides-pluggable-components:
+  name: "Galaxy Code Architecture: Pluggable Components"
   description: TODO
   faq: https://docs.google.com/document/d/e/2PACX-1vQc9v1cfpXZFTha3EnP-9hWw_FH9T9QkGaBxnr2YJ_KEckHhNp8uiHNUR5aeM74Zgrb9mXeIZYIlMmP/pub
   materials:
@@ -2889,6 +2882,7 @@ dev/architecture/slides-pluggable-components:
     - jmchilton
 
 dev/architecture/slides-principles:
+  name: "Galaxy Code Architecture: Principles"
   description: TODO
   faq: https://docs.google.com/document/d/e/2PACX-1vQc9v1cfpXZFTha3EnP-9hWw_FH9T9QkGaBxnr2YJ_KEckHhNp8uiHNUR5aeM74Zgrb9mXeIZYIlMmP/pub
   materials:
@@ -2915,6 +2909,7 @@ dev/architecture/slides-principles:
     speakers:
     - jmchilton
 dev/architecture/slides-web-requests:
+  name: "Galaxy Code Architecture: Web Requests"
   description: TODO
   faq: https://docs.google.com/document/d/e/2PACX-1vQc9v1cfpXZFTha3EnP-9hWw_FH9T9QkGaBxnr2YJ_KEckHhNp8uiHNUR5aeM74Zgrb9mXeIZYIlMmP/pub
   materials:
@@ -2941,6 +2936,7 @@ dev/architecture/slides-web-requests:
     speakers:
     - jmchilton
 dev/architecture/slides-files-directories:
+  name: "Galaxy Code Architecture: Files and Directories"
   description: TODO
   faq: https://docs.google.com/document/d/e/2PACX-1vQc9v1cfpXZFTha3EnP-9hWw_FH9T9QkGaBxnr2YJ_KEckHhNp8uiHNUR5aeM74Zgrb9mXeIZYIlMmP/pub
   materials:
@@ -2956,7 +2952,7 @@ dev/architecture/slides-files-directories:
   support_channel: '#dev-galaxy-core'
   support_link: https://gtnsmrgsbord.slack.com/archives/C025X3XLZ4Y
   tags: [dev]
-  type: Lecture Series & Self-study Tutorial
+  type: Lecture Series
   versions:
   - captions:
     - null
