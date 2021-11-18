@@ -12,7 +12,7 @@ climate/fates:
 
 dev/architecture:
   name: Galaxy Code Architecture Lecture Series
-  description: In this 8-part Lecture series, John Chilton will walk you through the Galaxy Code Architecture.
+  description: In this 9-part Lecture series, John Chilton will walk you through the Galaxy Code Architecture.
   videos:
     - dev/architecture/slides-ecosystem
     - dev/architecture/slides-models-managers
@@ -22,6 +22,7 @@ dev/architecture:
     - dev/architecture/slides-pluggable-components
     - dev/architecture/slides-principles
     - dev/architecture/slides-web-requests
+    - dev/architecture/slides-files-directories
 
 epigenetics/atac-seq:
   name: "Epigenetics: ATAC-Seq"
@@ -40,13 +41,13 @@ sequence-analysis/quality-control:
 
 
 transcriptomics/scrna-intro:
-  name: Introducción al análisis de datos de scRNA-seq
+  name: Introduction to Single-Cell RNA-seq Data Analysis
   description: |
        Single-cell RNA-seq analysis is a rapidly evolving field at the forefront
        of transcriptomic research, used in high-throughput developmental studies
   videos:
     - transcriptomics/scrna-intro/slides
-    - transcriptomics/scrna-intro/tutorial
+    - transcriptomics/scrna-seq-basic-pipeline/tutorial
 
 webinars:
   name: "Webinar Series: Galaxy Resources For.."
