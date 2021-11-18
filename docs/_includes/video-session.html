@@ -59,7 +59,7 @@
           {% if materials %}
           <tr>
               <td><strong>Materials:</strong></td>
-              <td>{% for m in materials %} <a href="{% unless m.link contains 'http' %}{{site.gtn}}/archive/{{archiveyear}}-{{archivemonth}}-01/{% endunless %}{{m.link}}">{{m.type}}</a>{% unless forloop.last %}, {% endunless %}{% endfor %}</td>
+              <td>{% for m in materials %} <a href="{% unless m.link contains 'http' %}{{site.gtn}}/archive/{{archiveyear}}-{{archivemonth}}-01/{% endunless %}{{m.link}}">{{m.type}}</a><br/>{% endfor %}</td>
           </tr>
           {% endif %}
       </table>
