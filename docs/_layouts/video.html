@@ -13,4 +13,23 @@ Below are video versions of the GTN materials, created for various events.
 <strong>Note:</strong> Please be aware that these videos may use an outdated version of the tutorial. Please use the links to the archived versions of the GTN materials (below the video), to view the tutorials as they were at the time of recording.
 <br>
 
-{% include video-session.html vsession=v video=v.versions %}
+{% assign latestvideo = v.versions[0] %}
+{% include video-session.html vsession=v video=latestvideo %}
+
+{% assign numversions = v.versions | size %}
+
+
+<!-- list older versions of the video tutorial -->
+{% if numversions > 1 %}
+
+<h3> Older versions </h3>
+
+{% for version in v.versions %}
+{% unless forloop.first %}
+
+{% include video-session.html vsession=v video=version %}
+
+{% endunless %}
+{% endfor %}
+
+{% endif %}

@@ -5,8 +5,8 @@
 {% assign materials = include.session.materials | default: include.vsession.materials | default: include.video.materials %}
 
 <!-- determine the next archived version of tutorial -->
-{% assign archivemonth = include.video[0].date | date: "%m" | plus: 1 | modulo: 12 | prepend: '00' | slice: -2, 2 %}
-{% assign archiveyear = include.video[0].date | date: "%Y" %}
+{% assign archivemonth = include.video.date | date: "%m" | plus: 1 | modulo: 12 | prepend: '00' | slice: -2, 2 %}
+{% assign archiveyear = include.video.date | date: "%Y" %}
 {% if archivemonth == '01' %}{% assign archiveyear = archiveyear | plus: 1 %}{% endif %}
 
 <div class="flex-row" style="margin-top:1em;">
@@ -14,10 +14,10 @@
   <h3 class="session-section">{{session-type}}</h3>
   <div style="position:relative;padding-top:56.25%;">
    <iframe style="position:absolute;top:0;left:0;width:100%;height:100%;"
-    {% if include.video[0].link contains 'http' %}
+    {% if include.video.link contains 'http' %}
     data-src="{{video.link}}"
     {% else %}
-    data-src="https://www.youtube.com/embed/{{include.video[0].link}}"
+    data-src="https://www.youtube.com/embed/{{include.video.link}}"
     {% endif %}
      class="lazyload"
      loading="lazy"
@@ -36,9 +36,9 @@
           {% endif %}
           <tr>
               <td><strong>Length:</strong></td>
-              <td>{{ include.video[0].length | downcase }}</td>
+              <td>{{ include.video.length | downcase }}</td>
           </tr>
-   {% assign captions = include.video[0].captions | size %}
+   {% assign captions = include.video.captions | size %}
    {% if captions == 0 %}
           <tr>
               <td><strong>Captions:</strong></td>
@@ -47,13 +47,13 @@
    {% else %}
           <tr>
               <td><strong>Captions:</strong></td>
-              <td>{% for name in include.video[0].captions %}{% unless forloop.first %}, {% endunless %} {{ site.data.instructors[name].name}}{% endfor %}</td>
+              <td>{% for name in include.video.captions %}{% unless forloop.first %}, {% endunless %} {{ site.data.instructors[name].name}}{% endfor %}</td>
           </tr>
    {% endif %}
-          {% if include.video[0].date %}
+          {% if include.video.date %}
           <tr>
               <td><strong>Created:</strong></td>
-              <td>{{include.video[0].date | date: "%-d %B %Y" }}</td>
+              <td>{{include.video.date | date: "%-d %B %Y" }}</td>
           </tr>
           {% endif %}
           {% if materials %}
@@ -67,8 +67,8 @@
   </div>
  </div>
  <!-- speaker(s) -->
- {% assign s = include.video[0].speakers %}
- {% assign numspeakers = include.video[0].speakers.size %}
+ {% assign s = include.video.speakers %}
+ {% assign numspeakers = include.video.speakers.size %}
 
  <div class="col-md-3">
   <center><h3 class="session-section">Speaker{%if numspeakers>1%}s{%endif%}</h3></center>

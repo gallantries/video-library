@@ -25,14 +25,14 @@
       <!-- Video -->
       {% if type == 'session' %}
         {% for vid in include.session.videos %}
-          {% assign v = site.data.videos[vid].versions %}
+          {% assign v = site.data.videos[vid].versions[0] %}
           {% assign vs = site.data.videos[vid] %}
           {% include video-session.html video=v vsession=vs session=include.session %}
         {% endfor %}
 
       {% elsif type == 'video' %}
         {% if include.session.versions.size >= 1  %}
-           {% assign v = include.session.versions %}
+           {% assign v = include.session.versions[0] %}
            {% include video-session.html video=v session=include.session %}
         {% else %} <!-- Self-study tutorial -->
             selfstudy tutorial
