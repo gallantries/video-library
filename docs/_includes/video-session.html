@@ -1,7 +1,7 @@
 <!-- session: {{ include.session }}<br><br> video: {{include.video}} -->
 
 {% assign session-type = include.session.type | default: include.vsession.type | default: include.video.type %}
-{% assign description = include.session.description | default: include.vsession.description | default: include.video.description %}
+{% assign description = include.vsession.description | default: include.session.description | default: include.video.description %}
 {% assign materials = include.session.materials | default: include.vsession.materials | default: include.video.materials %}
 
 <!-- determine the next archived version of tutorial -->
