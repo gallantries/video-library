@@ -2,14 +2,34 @@
 # For example, a lecture video and a hands-on video of the same GTN tutorial
 #
 
-webinars:
-  name: "Webinar Series: Galaxy Resources For.."
-  description: In this webinar series, we cover resources for different types of Galaxy users and audiences.
+
+climate/fates:
+  name: Functionally Assembled Terrestrial Ecosystem Simulator (FATES)
+  description: This session will provide a brief overview of FATES, and guide you through a Galaxy analysis step by step.
   videos:
-    - webinar/researchers
-    - webinar/educators
-    - webinar/tooldevs
-    - webinar/admins
+    - climate/fates/slides
+    - climate/fates/tutorial
+
+dev/architecture:
+  name: Galaxy Code Architecture Lecture Series
+  description: In this 8-part Lecture series, John Chilton will walk you through the Galaxy Code Architecture.
+  videos:
+    - dev/architecture/slides-ecosystem
+    - dev/architecture/slides-models-managers
+    - dev/architecture/slides-app-di
+    - dev/architecture/slides-project-management
+    - dev/architecture/slides-web-client
+    - dev/architecture/slides-pluggable-components
+    - dev/architecture/slides-principles
+    - dev/architecture/slides-web-requests
+
+epigenetics/atac-seq:
+  name: "Epigenetics: ATAC-Seq"
+  description: |
+    ATAC-seq (Assay for Transposase-Accessible Chromatin using sequencing) is a technique used in molecular biology to assess genome-wide chromatin accessibility. This session will introduce ATAC-Seq and walk you through an analysis step by step.
+  videos:
+    - epigenetics/atac-seq/slides
+    - epigenetics/atac-seq/tutorial
 
 sequence-analysis/quality-control:
   name: Quality Control
@@ -27,3 +47,14 @@ transcriptomics/scrna-intro:
   videos:
     - transcriptomics/scrna-intro/slides
     - transcriptomics/scrna-intro/tutorial
+
+webinars:
+  name: "Webinar Series: Galaxy Resources For.."
+  description: In this webinar series, we cover resources for different types of Galaxy users and audiences.
+  videos:
+    - webinar/researchers
+    - webinar/educators
+    - webinar/tooldevs
+    - webinar/admins
+
+
