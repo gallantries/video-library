@@ -88,8 +88,11 @@ proteomics/protegenomics:
     - proteomics/proteogenomics-novel-peptide-analysis/tutorial
 
 statistics/deeplearning:
-  name: This 3-part session will introduce you to the world of deep learning and cover Feedforward Neural Networks (FNN), Recurrent Neural Networks (FNN), and Convolutional Neural Networks (CNN).
-  description:
+  name: Deep Learning
+  description: |
+    This 3-part session will introduce you to the world of deep learning and cover Feedforward
+    Neural Networks (FNN), Recurrent Neural Networks (FNN), and Convolutional Neural Networks
+    (CNN).
   videos:
     - statistics/FNN
     - statistics/RNN
