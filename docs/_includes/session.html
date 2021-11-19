@@ -14,7 +14,7 @@
   {% capture accordion_id %}heading{{module_id}}{{forloop.index0}}{% endcapture %}
   <h2 class="accordion-header" id="{{ accordion_id }}">
    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse{{module_id}}{{forloop.index0}}" aria-expanded="true" aria-controls="collapse{{module_id}}{{forloop.index0}}">
-        {{ include.session.name | default: site.data.gtn[id]  | default: id }}
+        {{ include.session.name | default: site.data.gtn[id] | default: id }}
         {% if session.type %} ({{session.type}}) {% endif %}
    </button>
   </h2>
@@ -27,9 +27,10 @@
       {% if type == 'session' %}
         <p>{{include.session.description}}</p>
         {% for vid in include.session.videos %}
+          {% assign title = site.data.videos[vid].name %}
           {% assign v = site.data.videos[vid].versions[0] %}
           {% assign vs = site.data.videos[vid] %}
-          {% include video-session.html video=v vsession=vs session=include.session id=vid %}
+          {% include video-session.html video=v vsession=vs session=include.session id=vid title=title %}
         {% endfor %}
 
       {% elsif type == 'video' %}
