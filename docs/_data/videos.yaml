@@ -197,24 +197,6 @@ community/welcome:
     link: -1MPdxmRs8U
     speakers:
     - galaxycommunity
-computational-chemistry/cheminformatics/tutorial:
-  description: 'Cheminformatics is the use of computational techniques and information
-    about molecules to solve problems in chemistry. This involves a number of steps:
-    retrieving data on chemical compounds, sorting data for properties which are of
-    interest, and extracting new information. This tutorial will provide a brief overview
-    of all of these, centered around protein-ligand docking, a molecular modelling
-    technique.'
-  faq: https://docs.google.com/document/d/e/2PACX-1vTqwxMLs0LfAJY77y9M2DFv9VixyFdtwU65AYpQoPn_0YmMEhOOp3jxhJ1tALWz3Vc2qp9Acctz2Lp3/pub
-  materials:
-  - link: topics/computational-chemistry/tutorials/cheminformatics/tutorial.html
-    title: Protein-ligand docking
-    type: Tutorial
-  support_channel: '#cheminformatics'
-  support_link: https://gtnsmrgsbord.slack.com/archives/C01MC9SK344
-  tags:
-  - computational-chemistry
-  type: Tutorial
-  versions: []
 computational-chemistry/htmd-analysis/tutorial:
   description: "Molecular dynamics (MD) is a method to simulate molecular motion by\
     \ iterative application of Newton\u2019s laws of motion. This tutorial provides\
@@ -241,24 +223,7 @@ computational-chemistry/htmd-analysis/tutorial:
     speakers:
     - simonbray
     - chrisbarnettster
-computational-chemistry/md-simulation-gromacs/tutorial:
-  description: "Molecular dynamics (MD) is a method to simulate molecular motion by\
-    \ iterative application of Newton\u2019s laws of motion. It is often applied to\
-    \ large biomolecules such as proteins or nucleic acids. This is a introductory\
-    \ guide to using GROMACS (Abraham et al. 2015) in Galaxy to prepare and perform\
-    \ molecular dynamics on a small protein. For the tutorial, we will perform our\
-    \ simulations on hen egg white lysozyme."
-  faq: https://docs.google.com/document/d/e/2PACX-1vTqwxMLs0LfAJY77y9M2DFv9VixyFdtwU65AYpQoPn_0YmMEhOOp3jxhJ1tALWz3Vc2qp9Acctz2Lp3/pub
-  materials:
-  - link: topics/computational-chemistry/tutorials/md-simulation-gromacs/tutorial.html
-    title: Running molecular dynamics simulations using GROMACS
-    type: Tutorial
-  support_channel: '#cheminformatics'
-  support_link: https://gtnsmrgsbord.slack.com/archives/C01MC9SK344
-  tags:
-  - computational-chemistry
-  type: Tutorial
-  versions: []
+
 data-science/r-advanced/tutorial:
   description: An advanced tutorial covering downstream analysis of RNA-seq data using
     R.
@@ -306,24 +271,7 @@ data-science/r-basics/tutorial:
     link: MKkQDh5Nguc
     speakers:
     - fpsom
-ecology/PAMPA-toolsuite-tutorial/tutorial:
-  description: This tutorial aims to present the PAMPA Galaxy workflow, how to use
-    it to compute common biodiversity metrics from species abundance data and analyse
-    it through generalized linear (mixed) models (GLM and GLMM). This workflow made
-    up of 5 tools will allow you to process temporal series data that include at least
-    year, location and species sampled along with abundance value and, finally, generate
-    article-ready data products.
-  faq: https://docs.google.com/document/d/e/2PACX-1vT-Qmqw2zxaaFZXqbNaxMkcgl-0HjU6LvU0K0O51cCyCv_HjJdGk_2VPvMRghCW0sUKF-58_SuDQ1fn/pub
-  materials:
-  - link: topics/ecology/tutorials/PAMPA-toolsuite-tutorial/tutorial.html
-    title: Compute and analyze biodiversity metrics with PAMPA toolsuite
-    type: Tutorial
-  support_channel: '#ecology_pampa-toolsuite'
-  support_link: https://gtnsmrgsbord.slack.com/archives/C01FG38RR7Y
-  tags:
-  - ecology
-  type: Tutorial
-  versions: []
+
 epigenetics/atac-seq/slides:
   description: This lecture will introduce the basic concepts involved in ATAC-Seq
     analysis.
@@ -904,23 +852,7 @@ proteogenomics/introduction/slides:
     link: WpH101OPrG0
     speakers:
     - timothygriffin
-proteomics/biomarker_selection/tutorial:
-  description: A biomarker is a measurable biological component that can be routinely
-    detected in clinical practice and reflects a disease state, response to therapeutic
-    treatment, or other relevant biological state. In this tutorial we introduce successively
-    the tools of this pipeline, and guide you to execute them in order to complete
-    the entire pipeline on a concrete example.
-  faq: https://docs.google.com/document/d/e/2PACX-1vQVj92upQT2Z4B6ZF6kmhrbnHesbkS--e5ge14iRbxDsxRHuOb52XJE8DI584asA0t2GJIjS_qliPZu/pub
-  materials:
-  - link: topics/proteomics/tutorials/biomarker_selection/tutorial.html
-    title: Biomarker candidate identification
-    type: Tutorial
-  support_channel: '#proteomics_proteore-biomarkers-discovery'
-  support_link: https://gtnsmrgsbord.slack.com/archives/C01FP2AHUV9
-  tags:
-  - proteomics
-  type: Tutorial
-  versions: []
+
 proteomics/encyclopedia/slides:
   description: This lecture will introduce EncyclopeDIA.
   faq: https://docs.google.com/document/d/e/2PACX-1vTgfPPgjsGSaYjcKaeJZPsav6Ck-EPWMDscR6KGUFX2X9gdmQcO93T7DFxgfj5hxWEfN3qnSoEpzORB/pub
@@ -1335,6 +1267,7 @@ statistics/machine-learning/intro:
     speakers:
     - anuprulez
 statistics/CNN:
+  name: Convolutional Neural Networks (CNN)
   description: This hands-on tutorial covers Convolutional Neural Networks (CNN)
   faq: https://docs.google.com/document/d/e/2PACX-1vTYyxANwg5BJXe6b9BwRnwBATU1GAYfOjLM-4SNBoPf5WQOucX9Hx-b2JiINpnAI4tRLAY_v8iXgnOy/pub
   materials:
@@ -1359,6 +1292,7 @@ statistics/CNN:
     speakers:
     - kxk302
 statistics/FNN:
+  name: Feedforward Neural Networks (FNN)
   description: This hands-on tutorial covers Feedforward Neural Networks (FNN)
   faq: https://docs.google.com/document/d/e/2PACX-1vTYyxANwg5BJXe6b9BwRnwBATU1GAYfOjLM-4SNBoPf5WQOucX9Hx-b2JiINpnAI4tRLAY_v8iXgnOy/pub
   materials:
@@ -1383,6 +1317,7 @@ statistics/FNN:
     speakers:
     - kxk302
 statistics/RNN:
+  name: Recurrent Neural Networks (RNN)
   description: This hands-on tutorial covers Recurrenct Neural Networks (RNN)
   faq: https://docs.google.com/document/d/e/2PACX-1vTYyxANwg5BJXe6b9BwRnwBATU1GAYfOjLM-4SNBoPf5WQOucX9Hx-b2JiINpnAI4tRLAY_v8iXgnOy/pub
   materials:
@@ -1929,35 +1864,6 @@ visualisation/circos/tutorial:
     link: tbqeUP67w-Y
     speakers:
     - hexylena
-visualisation/jbrowse/slides:
-  description: JBrowse is a popular Genome Browser. It can be used directly within
-    Galaxy. You may have seen it in our Mapping tutorial on Day 1. This tutorial will
-    go into more depth about JBrowse and how to use it to explore your genome.
-  faq: https://docs.google.com/document/d/e/2PACX-1vRm1swqoqbrCWXKc2ncvDahm_RvbRCAn0oCPuJmQxorUgk38nI4Y_qtAGiECk53q5xr5wx-vNE5xJje/pub
-  materials:
-  - link: topics/visualisation/tutorials/jbrowse/slides.html
-    title: JBrowse
-    type: Slides
-  support_channel: '#visualisation_jbrowse'
-  support_link: https://gtnsmrgsbord.slack.com/archives/C01FP1QR49H
-  tags:
-  - visualisation
-  type: Lecture
-  versions: []
-visualisation/jbrowse/tutorial:
-  description: JBrowse is a popular Genome Browser. It can be used directly within
-    Galaxy. You may have seen it in our Mapping tutorial on Day 1. This tutorial will
-    go into more depth about JBrowse and how to use it to explore your genome.
-  faq: https://docs.google.com/document/d/e/2PACX-1vRm1swqoqbrCWXKc2ncvDahm_RvbRCAn0oCPuJmQxorUgk38nI4Y_qtAGiECk53q5xr5wx-vNE5xJje/pub
-  materials:
-  - link: topics/visualisation/tutorials/jbrowse/tutorial.html
-    type: Tutorial
-  support_channel: '#visualisation_jbrowse'
-  support_link: https://gtnsmrgsbord.slack.com/archives/C01FP1QR49H
-  tags:
-  - visualisation
-  type: Tutorial
-  versions: []
 webinar/admins:
   materials:
   - external: true
@@ -2109,7 +2015,8 @@ course/welcome-gcc2021:
     - hexylena
     - shiltemann
 
-admin/ansible-galaxy/week-overview-slides:
+admin/week-overview-slides:
+  name: Admin Training Week Overview
   description: null
   faq: null
   materials:
@@ -2173,7 +2080,7 @@ admin/ansible/tutorial:
   support_channel: '#01-ansible'
   support_link: https://galaxyadmintraining.slack.com/archives/01-ansible
   tags: [admin]
-  type: null
+  type: Lecture
   versions:
   - captions:
     - martenson
@@ -2192,7 +2099,7 @@ admin/ansible/slides:
   support_channel: '#01-ansible'
   support_link: https://galaxyadmintraining.slack.com/archives/01-ansible
   tags: [admin]
-  type: null
+  type: Tutorial
   versions:
   - captions:
     - martenson
@@ -2303,7 +2210,7 @@ admin/gxadmin/slides:
     link: QFwOgDyFSSA
     speakers:
     - awspolly
-admin/heterogeneous-compute/slides:
+admin/pulsar/slides:
   description: null
   faq: null
   materials:
@@ -2322,7 +2229,7 @@ admin/heterogeneous-compute/slides:
     link: M1-Z_2tuQPI
     speakers:
     - slugger70
-admin/heterogeneous-compute/tutorial:
+admin/pulsar/tutorial:
   description: null
   faq: null
   materials:
@@ -2393,10 +2300,11 @@ admin/job-destinations/tutorial:
     - hexylena
 
 admin/job-metrics/tutorial:
+  name: Recording Job Metrics
   description: null
   faq: null
   materials:
-  - link: topics/admin/tutorials/connect-to-compute-cluster/tutorial.html
+  - link: topics/admin/tutorials/job-metrics/tutorial.html
     type: Tutorial
   support_channel: '#07-compute-cluster'
   support_link: https://galaxyadmintraining.slack.com/archives/07-compute-cluster
@@ -2547,7 +2455,7 @@ admin/tool-management/slides:
   support_channel: '#03-ephemeris'
   support_link: https://galaxyadmintraining.slack.com/archives/03-ephemeris
   tags: [admin]
-  type: Tutorial
+  type: Lecture
   versions:
   - captions:
     - cat-bro
@@ -2557,7 +2465,7 @@ admin/tool-management/slides:
     link: 8Rdho_eUeKc
     speakers:
     - cat-bro
-admin/tool-management/tutorials:
+admin/tool-management/tutorial:
   description: null
   faq: null
   materials:
@@ -2578,7 +2486,7 @@ admin/tool-management/tutorials:
     link: pda0v9b3vO4
     speakers:
     - cat-bro
-admin/tool-management/combined:
+admin/tool-management:
   description: null
   faq: null
   materials:
@@ -2589,7 +2497,7 @@ admin/tool-management/combined:
   support_channel: '#03-ephemeris'
   support_link: https://galaxyadmintraining.slack.com/archives/03-ephemeris
   tags: [admin]
-  type: Tutorial
+  type: Lecture & Tutorial
   versions:
   - captions:
     - eancelet
