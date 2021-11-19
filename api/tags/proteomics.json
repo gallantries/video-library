@@ -41,26 +41,6 @@
         }
       ]
     },
-    "proteomics/biomarker_selection/tutorial": {
-      "description": "A biomarker is a measurable biological component that can be routinely detected in clinical practice and reflects a disease state, response to therapeutic treatment, or other relevant biological state. In this tutorial we introduce successively the tools of this pipeline, and guide you to execute them in order to complete the entire pipeline on a concrete example.",
-      "faq": "https://docs.google.com/document/d/e/2PACX-1vQVj92upQT2Z4B6ZF6kmhrbnHesbkS--e5ge14iRbxDsxRHuOb52XJE8DI584asA0t2GJIjS_qliPZu/pub",
-      "materials": [
-        {
-          "link": "topics/proteomics/tutorials/biomarker_selection/tutorial.html",
-          "title": "Biomarker candidate identification",
-          "type": "Tutorial"
-        }
-      ],
-      "support_channel": "#proteomics_proteore-biomarkers-discovery",
-      "support_link": "https://gtnsmrgsbord.slack.com/archives/C01FP2AHUV9",
-      "tags": [
-        "proteomics"
-      ],
-      "type": "Tutorial",
-      "versions": [
-
-      ]
-    },
     "proteomics/encyclopedia/slides": {
       "description": "This lecture will introduce EncyclopeDIA.",
       "faq": "https://docs.google.com/document/d/e/2PACX-1vTgfPPgjsGSaYjcKaeJZPsav6Ck-EPWMDscR6KGUFX2X9gdmQcO93T7DFxgfj5hxWEfN3qnSoEpzORB/pub",
@@ -75,7 +55,7 @@
       "tags": [
         "proteomics"
       ],
-      "type": "Lecture & Tutorial",
+      "type": "Lecture",
       "versions": [
         {
           "captions": [
@@ -106,7 +86,7 @@
       "tags": [
         "proteomics"
       ],
-      "type": "Lecture & Tutorial",
+      "type": "Tutorial",
       "versions": [
         {
           "captions": [

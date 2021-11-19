@@ -69,45 +69,6 @@
           ]
         }
       ]
-    },
-    "visualisation/jbrowse/slides": {
-      "description": "JBrowse is a popular Genome Browser. It can be used directly within Galaxy. You may have seen it in our Mapping tutorial on Day 1. This tutorial will go into more depth about JBrowse and how to use it to explore your genome.",
-      "faq": "https://docs.google.com/document/d/e/2PACX-1vRm1swqoqbrCWXKc2ncvDahm_RvbRCAn0oCPuJmQxorUgk38nI4Y_qtAGiECk53q5xr5wx-vNE5xJje/pub",
-      "materials": [
-        {
-          "link": "topics/visualisation/tutorials/jbrowse/slides.html",
-          "title": "JBrowse",
-          "type": "Slides"
-        }
-      ],
-      "support_channel": "#visualisation_jbrowse",
-      "support_link": "https://gtnsmrgsbord.slack.com/archives/C01FP1QR49H",
-      "tags": [
-        "visualisation"
-      ],
-      "type": "Lecture",
-      "versions": [
-
-      ]
-    },
-    "visualisation/jbrowse/tutorial": {
-      "description": "JBrowse is a popular Genome Browser. It can be used directly within Galaxy. You may have seen it in our Mapping tutorial on Day 1. This tutorial will go into more depth about JBrowse and how to use it to explore your genome.",
-      "faq": "https://docs.google.com/document/d/e/2PACX-1vRm1swqoqbrCWXKc2ncvDahm_RvbRCAn0oCPuJmQxorUgk38nI4Y_qtAGiECk53q5xr5wx-vNE5xJje/pub",
-      "materials": [
-        {
-          "link": "topics/visualisation/tutorials/jbrowse/tutorial.html",
-          "type": "Tutorial"
-        }
-      ],
-      "support_channel": "#visualisation_jbrowse",
-      "support_link": "https://gtnsmrgsbord.slack.com/archives/C01FP1QR49H",
-      "tags": [
-        "visualisation"
-      ],
-      "type": "Tutorial",
-      "versions": [
-
-      ]
     }
   }
 }

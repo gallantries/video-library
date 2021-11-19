@@ -1225,18 +1225,6 @@
       "speakers": [
         "hexylena"
       ]
-    },
-    {
-      "captions": [
-        "beatrizserrano"
-      ],
-      "date": "2021-02-15",
-      "galaxy_version": "21.01",
-      "length": "6M",
-      "link": "7CYI5yw9MN8",
-      "speakers": [
-        "hexylena"
-      ]
     }
   ],
   "topics/admin/tutorials/cvmfs/slides.html": [
@@ -1390,6 +1378,20 @@
       "galaxy_version": "21.01",
       "length": "31M",
       "link": "qX8GjTJwnAk",
+      "speakers": [
+        "hexylena"
+      ]
+    }
+  ],
+  "topics/admin/tutorials/job-metrics/tutorial.html": [
+    {
+      "captions": [
+        "beatrizserrano"
+      ],
+      "date": "2021-02-15",
+      "galaxy_version": "21.01",
+      "length": "6M",
+      "link": "7CYI5yw9MN8",
       "speakers": [
         "hexylena"
       ]

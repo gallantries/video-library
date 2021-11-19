@@ -1,7 +1,8 @@
 {
   "url": "/video-library/api/tags/admin.json",
   "videos": {
-    "admin/ansible-galaxy/week-overview-slides": {
+    "admin/week-overview-slides": {
+      "name": "Admin Training Week Overview",
       "description": null,
       "faq": null,
       "materials": [
@@ -101,7 +102,7 @@
       "tags": [
         "admin"
       ],
-      "type": null,
+      "type": "Lecture",
       "versions": [
         {
           "captions": [
@@ -131,7 +132,7 @@
       "tags": [
         "admin"
       ],
-      "type": null,
+      "type": "Tutorial",
       "versions": [
         {
           "captions": [
@@ -307,7 +308,7 @@
         }
       ]
     },
-    "admin/heterogeneous-compute/slides": {
+    "admin/pulsar/slides": {
       "description": null,
       "faq": null,
       "materials": [
@@ -337,7 +338,7 @@
         }
       ]
     },
-    "admin/heterogeneous-compute/tutorial": {
+    "admin/pulsar/tutorial": {
       "description": null,
       "faq": null,
       "materials": [
@@ -446,11 +447,12 @@
       ]
     },
     "admin/job-metrics/tutorial": {
+      "name": "Recording Job Metrics",
       "description": null,
       "faq": null,
       "materials": [
         {
-          "link": "topics/admin/tutorials/connect-to-compute-cluster/tutorial.html",
+          "link": "topics/admin/tutorials/job-metrics/tutorial.html",
           "type": "Tutorial"
         }
       ],
@@ -689,7 +691,7 @@
       "tags": [
         "admin"
       ],
-      "type": "Tutorial",
+      "type": "Lecture",
       "versions": [
         {
           "captions": [
@@ -705,7 +707,7 @@
         }
       ]
     },
-    "admin/tool-management/tutorials": {
+    "admin/tool-management/tutorial": {
       "description": null,
       "faq": null,
       "materials": [
@@ -739,7 +741,7 @@
         }
       ]
     },
-    "admin/tool-management/combined": {
+    "admin/tool-management": {
       "description": null,
       "faq": null,
       "materials": [
@@ -757,7 +759,7 @@
       "tags": [
         "admin"
       ],
-      "type": "Tutorial",
+      "type": "Lecture & Tutorial",
       "versions": [
         {
           "captions": [

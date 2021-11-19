@@ -1,26 +1,6 @@
 {
   "url": "/video-library/api/tags/computational-chemistry.json",
   "videos": {
-    "computational-chemistry/cheminformatics/tutorial": {
-      "description": "Cheminformatics is the use of computational techniques and information about molecules to solve problems in chemistry. This involves a number of steps: retrieving data on chemical compounds, sorting data for properties which are of interest, and extracting new information. This tutorial will provide a brief overview of all of these, centered around protein-ligand docking, a molecular modelling technique.",
-      "faq": "https://docs.google.com/document/d/e/2PACX-1vTqwxMLs0LfAJY77y9M2DFv9VixyFdtwU65AYpQoPn_0YmMEhOOp3jxhJ1tALWz3Vc2qp9Acctz2Lp3/pub",
-      "materials": [
-        {
-          "link": "topics/computational-chemistry/tutorials/cheminformatics/tutorial.html",
-          "title": "Protein-ligand docking",
-          "type": "Tutorial"
-        }
-      ],
-      "support_channel": "#cheminformatics",
-      "support_link": "https://gtnsmrgsbord.slack.com/archives/C01MC9SK344",
-      "tags": [
-        "computational-chemistry"
-      ],
-      "type": "Tutorial",
-      "versions": [
-
-      ]
-    },
     "computational-chemistry/htmd-analysis/tutorial": {
       "description": "Molecular dynamics (MD) is a method to simulate molecular motion by iterative application of Newton’s laws of motion. This tutorial provides an introduction to using high-throughput molecular dynamics to study protein-ligand interaction, as applied to the N-terminal domain of Hsp90 (heat shock protein 90).",
       "faq": "https://docs.google.com/document/d/e/2PACX-1vTqwxMLs0LfAJY77y9M2DFv9VixyFdtwU65AYpQoPn_0YmMEhOOp3jxhJ1tALWz3Vc2qp9Acctz2Lp3/pub",
@@ -51,26 +31,6 @@
             "chrisbarnettster"
           ]
         }
-      ]
-    },
-    "computational-chemistry/md-simulation-gromacs/tutorial": {
-      "description": "Molecular dynamics (MD) is a method to simulate molecular motion by iterative application of Newton’s laws of motion. It is often applied to large biomolecules such as proteins or nucleic acids. This is a introductory guide to using GROMACS (Abraham et al. 2015) in Galaxy to prepare and perform molecular dynamics on a small protein. For the tutorial, we will perform our simulations on hen egg white lysozyme.",
-      "faq": "https://docs.google.com/document/d/e/2PACX-1vTqwxMLs0LfAJY77y9M2DFv9VixyFdtwU65AYpQoPn_0YmMEhOOp3jxhJ1tALWz3Vc2qp9Acctz2Lp3/pub",
-      "materials": [
-        {
-          "link": "topics/computational-chemistry/tutorials/md-simulation-gromacs/tutorial.html",
-          "title": "Running molecular dynamics simulations using GROMACS",
-          "type": "Tutorial"
-        }
-      ],
-      "support_channel": "#cheminformatics",
-      "support_link": "https://gtnsmrgsbord.slack.com/archives/C01MC9SK344",
-      "tags": [
-        "computational-chemistry"
-      ],
-      "type": "Tutorial",
-      "versions": [
-
       ]
     }
   }

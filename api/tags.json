@@ -300,26 +300,6 @@
   "computational-chemistry": {
     "url": "/video-library/api/tags/computational-chemistry.json",
     "videos": {
-      "computational-chemistry/cheminformatics/tutorial": {
-        "description": "Cheminformatics is the use of computational techniques and information about molecules to solve problems in chemistry. This involves a number of steps: retrieving data on chemical compounds, sorting data for properties which are of interest, and extracting new information. This tutorial will provide a brief overview of all of these, centered around protein-ligand docking, a molecular modelling technique.",
-        "faq": "https://docs.google.com/document/d/e/2PACX-1vTqwxMLs0LfAJY77y9M2DFv9VixyFdtwU65AYpQoPn_0YmMEhOOp3jxhJ1tALWz3Vc2qp9Acctz2Lp3/pub",
-        "materials": [
-          {
-            "link": "topics/computational-chemistry/tutorials/cheminformatics/tutorial.html",
-            "title": "Protein-ligand docking",
-            "type": "Tutorial"
-          }
-        ],
-        "support_channel": "#cheminformatics",
-        "support_link": "https://gtnsmrgsbord.slack.com/archives/C01MC9SK344",
-        "tags": [
-          "computational-chemistry"
-        ],
-        "type": "Tutorial",
-        "versions": [
-
-        ]
-      },
       "computational-chemistry/htmd-analysis/tutorial": {
         "description": "Molecular dynamics (MD) is a method to simulate molecular motion by iterative application of Newton’s laws of motion. This tutorial provides an introduction to using high-throughput molecular dynamics to study protein-ligand interaction, as applied to the N-terminal domain of Hsp90 (heat shock protein 90).",
         "faq": "https://docs.google.com/document/d/e/2PACX-1vTqwxMLs0LfAJY77y9M2DFv9VixyFdtwU65AYpQoPn_0YmMEhOOp3jxhJ1tALWz3Vc2qp9Acctz2Lp3/pub",
@@ -350,26 +330,6 @@
               "chrisbarnettster"
             ]
           }
-        ]
-      },
-      "computational-chemistry/md-simulation-gromacs/tutorial": {
-        "description": "Molecular dynamics (MD) is a method to simulate molecular motion by iterative application of Newton’s laws of motion. It is often applied to large biomolecules such as proteins or nucleic acids. This is a introductory guide to using GROMACS (Abraham et al. 2015) in Galaxy to prepare and perform molecular dynamics on a small protein. For the tutorial, we will perform our simulations on hen egg white lysozyme.",
-        "faq": "https://docs.google.com/document/d/e/2PACX-1vTqwxMLs0LfAJY77y9M2DFv9VixyFdtwU65AYpQoPn_0YmMEhOOp3jxhJ1tALWz3Vc2qp9Acctz2Lp3/pub",
-        "materials": [
-          {
-            "link": "topics/computational-chemistry/tutorials/md-simulation-gromacs/tutorial.html",
-            "title": "Running molecular dynamics simulations using GROMACS",
-            "type": "Tutorial"
-          }
-        ],
-        "support_channel": "#cheminformatics",
-        "support_link": "https://gtnsmrgsbord.slack.com/archives/C01MC9SK344",
-        "tags": [
-          "computational-chemistry"
-        ],
-        "type": "Tutorial",
-        "versions": [
-
         ]
       }
     }
@@ -440,31 +400,6 @@
               "fpsom"
             ]
           }
-        ]
-      }
-    }
-  },
-  "ecology": {
-    "url": "/video-library/api/tags/ecology.json",
-    "videos": {
-      "ecology/PAMPA-toolsuite-tutorial/tutorial": {
-        "description": "This tutorial aims to present the PAMPA Galaxy workflow, how to use it to compute common biodiversity metrics from species abundance data and analyse it through generalized linear (mixed) models (GLM and GLMM). This workflow made up of 5 tools will allow you to process temporal series data that include at least year, location and species sampled along with abundance value and, finally, generate article-ready data products.",
-        "faq": "https://docs.google.com/document/d/e/2PACX-1vT-Qmqw2zxaaFZXqbNaxMkcgl-0HjU6LvU0K0O51cCyCv_HjJdGk_2VPvMRghCW0sUKF-58_SuDQ1fn/pub",
-        "materials": [
-          {
-            "link": "topics/ecology/tutorials/PAMPA-toolsuite-tutorial/tutorial.html",
-            "title": "Compute and analyze biodiversity metrics with PAMPA toolsuite",
-            "type": "Tutorial"
-          }
-        ],
-        "support_channel": "#ecology_pampa-toolsuite",
-        "support_link": "https://gtnsmrgsbord.slack.com/archives/C01FG38RR7Y",
-        "tags": [
-          "ecology"
-        ],
-        "type": "Tutorial",
-        "versions": [
-
         ]
       }
     }
@@ -598,7 +533,7 @@
         ]
       },
       "galaxy-interface/ncbi-sarf/tutorial": {
-        "description": "This tutorials will walk you through accessing and using SRA Aligned read format in Galaxy.",
+        "description": "This tutorial will walk you through accessing and using SRA Aligned read format in Galaxy.",
         "faq": "https://docs.google.com/document/u/2/d/e/2PACX-1vRxJV3rSohuzd3qjTCeuue4GkuCJM1qeX29SMOo56ZQcJWc1ht1PaiNWIlgeD4npAVBXS1b_OXIyHIr/pub",
         "materials": [
           {
@@ -1448,26 +1383,6 @@
           }
         ]
       },
-      "proteomics/biomarker_selection/tutorial": {
-        "description": "A biomarker is a measurable biological component that can be routinely detected in clinical practice and reflects a disease state, response to therapeutic treatment, or other relevant biological state. In this tutorial we introduce successively the tools of this pipeline, and guide you to execute them in order to complete the entire pipeline on a concrete example.",
-        "faq": "https://docs.google.com/document/d/e/2PACX-1vQVj92upQT2Z4B6ZF6kmhrbnHesbkS--e5ge14iRbxDsxRHuOb52XJE8DI584asA0t2GJIjS_qliPZu/pub",
-        "materials": [
-          {
-            "link": "topics/proteomics/tutorials/biomarker_selection/tutorial.html",
-            "title": "Biomarker candidate identification",
-            "type": "Tutorial"
-          }
-        ],
-        "support_channel": "#proteomics_proteore-biomarkers-discovery",
-        "support_link": "https://gtnsmrgsbord.slack.com/archives/C01FP2AHUV9",
-        "tags": [
-          "proteomics"
-        ],
-        "type": "Tutorial",
-        "versions": [
-
-        ]
-      },
       "proteomics/encyclopedia/slides": {
         "description": "This lecture will introduce EncyclopeDIA.",
         "faq": "https://docs.google.com/document/d/e/2PACX-1vTgfPPgjsGSaYjcKaeJZPsav6Ck-EPWMDscR6KGUFX2X9gdmQcO93T7DFxgfj5hxWEfN3qnSoEpzORB/pub",
@@ -1482,7 +1397,7 @@
         "tags": [
           "proteomics"
         ],
-        "type": "Lecture & Tutorial",
+        "type": "Lecture",
         "versions": [
           {
             "captions": [
@@ -1513,7 +1428,7 @@
         "tags": [
           "proteomics"
         ],
-        "type": "Lecture & Tutorial",
+        "type": "Tutorial",
         "versions": [
           {
             "captions": [
@@ -1984,6 +1899,7 @@
         ]
       },
       "statistics/CNN": {
+        "name": "Convolutional Neural Networks (CNN)",
         "description": "This hands-on tutorial covers Convolutional Neural Networks (CNN)",
         "faq": "https://docs.google.com/document/d/e/2PACX-1vTYyxANwg5BJXe6b9BwRnwBATU1GAYfOjLM-4SNBoPf5WQOucX9Hx-b2JiINpnAI4tRLAY_v8iXgnOy/pub",
         "materials": [
@@ -2020,6 +1936,7 @@
         ]
       },
       "statistics/FNN": {
+        "name": "Feedforward Neural Networks (FNN)",
         "description": "This hands-on tutorial covers Feedforward Neural Networks (FNN)",
         "faq": "https://docs.google.com/document/d/e/2PACX-1vTYyxANwg5BJXe6b9BwRnwBATU1GAYfOjLM-4SNBoPf5WQOucX9Hx-b2JiINpnAI4tRLAY_v8iXgnOy/pub",
         "materials": [
@@ -2056,6 +1973,7 @@
         ]
       },
       "statistics/RNN": {
+        "name": "Recurrent Neural Networks (RNN)",
         "description": "This hands-on tutorial covers Recurrenct Neural Networks (RNN)",
         "faq": "https://docs.google.com/document/d/e/2PACX-1vTYyxANwg5BJXe6b9BwRnwBATU1GAYfOjLM-4SNBoPf5WQOucX9Hx-b2JiINpnAI4tRLAY_v8iXgnOy/pub",
         "materials": [
@@ -2750,45 +2668,6 @@
             ]
           }
         ]
-      },
-      "visualisation/jbrowse/slides": {
-        "description": "JBrowse is a popular Genome Browser. It can be used directly within Galaxy. You may have seen it in our Mapping tutorial on Day 1. This tutorial will go into more depth about JBrowse and how to use it to explore your genome.",
-        "faq": "https://docs.google.com/document/d/e/2PACX-1vRm1swqoqbrCWXKc2ncvDahm_RvbRCAn0oCPuJmQxorUgk38nI4Y_qtAGiECk53q5xr5wx-vNE5xJje/pub",
-        "materials": [
-          {
-            "link": "topics/visualisation/tutorials/jbrowse/slides.html",
-            "title": "JBrowse",
-            "type": "Slides"
-          }
-        ],
-        "support_channel": "#visualisation_jbrowse",
-        "support_link": "https://gtnsmrgsbord.slack.com/archives/C01FP1QR49H",
-        "tags": [
-          "visualisation"
-        ],
-        "type": "Lecture",
-        "versions": [
-
-        ]
-      },
-      "visualisation/jbrowse/tutorial": {
-        "description": "JBrowse is a popular Genome Browser. It can be used directly within Galaxy. You may have seen it in our Mapping tutorial on Day 1. This tutorial will go into more depth about JBrowse and how to use it to explore your genome.",
-        "faq": "https://docs.google.com/document/d/e/2PACX-1vRm1swqoqbrCWXKc2ncvDahm_RvbRCAn0oCPuJmQxorUgk38nI4Y_qtAGiECk53q5xr5wx-vNE5xJje/pub",
-        "materials": [
-          {
-            "link": "topics/visualisation/tutorials/jbrowse/tutorial.html",
-            "type": "Tutorial"
-          }
-        ],
-        "support_channel": "#visualisation_jbrowse",
-        "support_link": "https://gtnsmrgsbord.slack.com/archives/C01FP1QR49H",
-        "tags": [
-          "visualisation"
-        ],
-        "type": "Tutorial",
-        "versions": [
-
-        ]
       }
     }
   },
@@ -3020,7 +2899,8 @@
   "admin": {
     "url": "/video-library/api/tags/admin.json",
     "videos": {
-      "admin/ansible-galaxy/week-overview-slides": {
+      "admin/week-overview-slides": {
+        "name": "Admin Training Week Overview",
         "description": null,
         "faq": null,
         "materials": [
@@ -3120,7 +3000,7 @@
         "tags": [
           "admin"
         ],
-        "type": null,
+        "type": "Lecture",
         "versions": [
           {
             "captions": [
@@ -3150,7 +3030,7 @@
         "tags": [
           "admin"
         ],
-        "type": null,
+        "type": "Tutorial",
         "versions": [
           {
             "captions": [
@@ -3326,7 +3206,7 @@
           }
         ]
       },
-      "admin/heterogeneous-compute/slides": {
+      "admin/pulsar/slides": {
         "description": null,
         "faq": null,
         "materials": [
@@ -3356,7 +3236,7 @@
           }
         ]
       },
-      "admin/heterogeneous-compute/tutorial": {
+      "admin/pulsar/tutorial": {
         "description": null,
         "faq": null,
         "materials": [
@@ -3465,11 +3345,12 @@
         ]
       },
       "admin/job-metrics/tutorial": {
+        "name": "Recording Job Metrics",
         "description": null,
         "faq": null,
         "materials": [
           {
-            "link": "topics/admin/tutorials/connect-to-compute-cluster/tutorial.html",
+            "link": "topics/admin/tutorials/job-metrics/tutorial.html",
             "type": "Tutorial"
           }
         ],
@@ -3708,7 +3589,7 @@
         "tags": [
           "admin"
         ],
-        "type": "Tutorial",
+        "type": "Lecture",
         "versions": [
           {
             "captions": [
@@ -3724,7 +3605,7 @@
           }
         ]
       },
-      "admin/tool-management/tutorials": {
+      "admin/tool-management/tutorial": {
         "description": null,
         "faq": null,
         "materials": [
@@ -3758,7 +3639,7 @@
           }
         ]
       },
-      "admin/tool-management/combined": {
+      "admin/tool-management": {
         "description": null,
         "faq": null,
         "materials": [
@@ -3776,7 +3657,7 @@
         "tags": [
           "admin"
         ],
-        "type": "Tutorial",
+        "type": "Lecture & Tutorial",
         "versions": [
           {
             "captions": [
