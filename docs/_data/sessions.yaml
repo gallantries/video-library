@@ -52,6 +52,56 @@ climate/fates:
     - climate/fates/slides
     - climate/fates/tutorial
 
+genome-annotation/prokka:
+  name: Genome Annotation with Prokka
+  description: This tutorial will introduce genome annotation process and give you hands-on experience with annotating a prokaryotic genome using Prokka.
+  videos:
+    - genome-annotation/annotation-with-prokka/slides
+    - genome-annotation/annotation-with-prokka/tutorial
+
+genome-annotation/apollo:
+  name: Genome Annotation with Apollo
+  description: This session will introduce the Apollo genome annotation platform, and provide you hands-on experience with using Apollo in Galaxy.
+  videos:
+    - genome-annotation/apollo/slides
+    - genome-annotation/apollo/tutorial
+
+proteomics/encyclopedia:
+  name: EncyclopeDIA
+  description: |
+    Data independent acquisition (DIA) mass spectrometry is a powerful technique that is improving the
+    reproducibility and throughput of proteomics studies. EncyclopeDIA is library search engine comprised of
+    several algorithms for DIA data analysis and can search for peptides using either DDA-based spectrum libraries
+    or DIA-based chromatogram libraries.
+  videos:
+    - proteomics/encyclopedia/slides
+    - proteomics/encyclopedia/tutorial
+
+proteomics/protegenomics:
+  name: ProteoGenomics
+  description: |
+    Proteogenomics is a field of biological research that utilizes a combination of proteomics, genomics, and
+    transcriptomics to aid in the discovery and identification of peptides
+  videos:
+    - proteomics/proteogenomics-dbcreation/tutorial
+    - proteomics/proteogenomics-dbsearch/tutorial
+    - proteomics/proteogenomics-novel-peptide-analysis/tutorial
+
+statistics/deeplearning:
+  name: This 3-part session will introduce you to the world of deep learning and cover Feedforward Neural Networks (FNN), Recurrent Neural Networks (FNN), and Convolutional Neural Networks (CNN).
+  description:
+  videos:
+    - statistics/FNN
+    - statistics/RNN
+    - statistics/CNN
+
+galaxy-interface/ncbi-sarf:
+  name: SRA Aligned read format in Galaxy
+  description: This session will introduce the SRA Aligned Read format, and show you how to use this in Galaxy to analyze a SARS-CoV-2 dataset.
+  videos:
+    - galaxy-interface/ncbi-sarf/slides
+    - galaxy-interface/ncbi-sarf/tutorial
+
 dev/architecture:
   name: Galaxy Code Architecture Lecture Series
   description: In this 9-part Lecture series, John Chilton will walk you through the Galaxy Code Architecture.
