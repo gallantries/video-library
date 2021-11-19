@@ -15,8 +15,10 @@ Below are video tutorials for this GTN material, created for various (past) even
 <strong>Warning:</strong> Please be aware that these videos are a snapshot, and as such <strong>may use an outdated version</strong> of the tutorial and/or Galaxy. Please use the links to the archived versions of the GTN materials (below the video), to view the tutorials as they appeared at the time of recording.
 <br>
 
-
-{% assign latestvideo = v.versions[0] %}
+{% assign allversions = "" | split: ',' %}
+{% for vid in v.versions %}{% assign allversions = allversions | push: vid %}{% endfor %}
+{% assign sortedversions = allversions | sort: 'date' | reverse %}
+{% assign latestvideo = sortedversions[0] %}
 {% include video-session.html vsession=v video=latestvideo %}
 
 {% assign numversions = v.versions | size %}
@@ -27,7 +29,7 @@ Below are video tutorials for this GTN material, created for various (past) even
 
 <h3> Older versions </h3>
 
-{% for version in v.versions %}
+{% for version in sortedversions %}
 {% unless forloop.first %}
 
 {% include video-session.html vsession=v video=version %}
