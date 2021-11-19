@@ -410,7 +410,7 @@ galaxy-interface/ncbi-sarf/slides:
     speakers:
     - prodromus
 galaxy-interface/ncbi-sarf/tutorial:
-  description: This tutorials will walk you through accessing and using SRA Aligned
+  description: This tutorial will walk you through accessing and using SRA Aligned
     read format in Galaxy.
   faq: https://docs.google.com/document/u/2/d/e/2PACX-1vRxJV3rSohuzd3qjTCeuue4GkuCJM1qeX29SMOo56ZQcJWc1ht1PaiNWIlgeD4npAVBXS1b_OXIyHIr/pub
   materials:
@@ -931,7 +931,7 @@ proteomics/encyclopedia/slides:
   support_link: https://gtnsmrgsbord.slack.com/archives/C0257QKT998
   tags:
   - proteomics
-  type: Lecture & Tutorial
+  type: Lecture
   versions:
   - captions:
     - emmaleith
@@ -953,7 +953,7 @@ proteomics/encyclopedia/tutorial:
   support_link: https://gtnsmrgsbord.slack.com/archives/C0257QKT998
   tags:
   - proteomics
-  type: Lecture & Tutorial
+  type: Tutorial
   versions:
   - captions:
     - mtekman
@@ -2163,6 +2163,7 @@ admin/ansible-galaxy/tutorial:
     link: il83uApg7Hc
     speakers:
     - hexylena
+
 admin/ansible/tutorial:
   description: null
   faq: null
