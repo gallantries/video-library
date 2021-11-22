@@ -3,6 +3,10 @@ require 'json'
 module Jekyll
   class APIGenerator < Generator
 
+    def findDuration(duration)
+      eval(duration.gsub(/H/, ' * 3600 + ').gsub(/M/, ' * 60 + ').gsub(/S/, ' + ') + " 0")
+    end
+
     def generate(site)
       puts "[VideoLibrary/API] Videos"
       page2 = PageWithoutAFile.new(site, "", "api/", "videos.json")
@@ -62,6 +66,34 @@ module Jekyll
       page2.data["layout"] = nil
       site.pages << page2
 
+      # Stats
+      durations = Hash.new { 0 }
+      durations['bytag'] = Hash.new { 0 }
+      durations['byspeaker'] = Hash.new { 0 }
+      durations['bycaptioner'] = Hash.new { 0 }
+
+      site.data['videos'].each{|k, v|
+        if ! v.nil?
+          v.fetch('tags', []).each{|tag|
+            v.fetch('versions', []).each{|version|
+              durations['bytag'][tag] += findDuration(version['length']) / 3600.0
+              durations['_total_'] += findDuration(version['length']) / 3600.0
+              version['speakers'].each{|speaker|
+                durations['byspeaker'][speaker] += findDuration(version['length']) / 3600.0
+              }
+              if version['captions']
+                version['captions'].each{|speaker|
+                  durations['bycaptioner'][speaker] += findDuration(version['length']) / 3600.0
+                }
+              end
+            }
+          }
+        end
+      }
+      site.data['stats'] = durations
+      durations['bytag'] = durations['bytag'].map{|k, v| [k, v]}.sort_by{|a| -a[1]}
+      durations['byspeaker'] = durations['byspeaker'].map{|k, v| [k, v]}.sort_by{|a| -a[1]}
+      durations['bycaptioner'] = durations['bycaptioner'].map{|k, v| [k, v]}.sort_by{|a| -a[1]}
     end
   end
 end
