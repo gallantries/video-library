@@ -35,7 +35,7 @@ title: "Statistics!"
 	<thead>
 		<tr>
 			<th>Speaker</th>
-			<th>Duration</th>
+			<th>Duration (hours)</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -53,8 +53,8 @@ title: "Statistics!"
 <table>
 	<thead>
 		<tr>
+			<th>Contributor</th>
 			<th>Hours of Captions Reviewed</th>
-			<th>Duration</th>
 		</tr>
 	</thead>
 	<tbody>

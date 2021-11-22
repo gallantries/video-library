@@ -79,11 +79,11 @@ module Jekyll
               durations['bytag'][tag] += findDuration(version['length']) / 3600.0
               durations['_total_'] += findDuration(version['length']) / 3600.0
               version['speakers'].each{|speaker|
-                durations['byspeaker'][speaker] += findDuration(version['length']) / 3600.0
+                durations['byspeaker'][speaker] += findDuration(version['length']) / 3600.0 / version['speakers'].length
               }
               if version['captions']
                 version['captions'].each{|speaker|
-                  durations['bycaptioner'][speaker] += findDuration(version['length']) / 3600.0
+                  durations['bycaptioner'][speaker] += findDuration(version['length']) / 3600.0 / version['captions'].length
                 }
               end
             }
