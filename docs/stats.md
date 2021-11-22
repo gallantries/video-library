@@ -4,12 +4,21 @@ title: "Statistics!"
 ---
 <h1>Video Data</h1>
 <div class="row">
-	<div class="col-md-12">
+	<div class="col-md-6">
 	<div class="card bg-primary text-white">
 		<div class="card-body">
 			<h2 class="card-title" style="font-weight: 900; font-size: 300%">{{ site.data.stats._total_ | round:1 }}</h2>
 			<p class="card-subtitle mb-2">hours</p>
-			<p class="card-text">Of video content in the GTN & Gallantries' Video Library</p>
+			<p class="card-text">Of content in the GTN & Gallantries' Video Library</p>
+		</div>
+	</div>
+	</div>
+	<div class="col-md-6">
+	<div class="card bg-primary text-white">
+		<div class="card-body">
+			<h2 class="card-title" style="font-weight: 900; font-size: 300%">{{ site.data.stats._total_count_ }}</h2>
+			<p class="card-subtitle mb-2">Videos</p>
+			<p class="card-text">from our amazing community</p>
 		</div>
 	</div>
 	</div>
@@ -22,7 +31,7 @@ title: "Statistics!"
 		<div class="card-body">
 			<h2 class="card-title">{{ tag[1] | round:1 }}</h2>
 			<p class="card-subtitle mb-2 text-muted">hours</p>
-			<p class="card-text">of {{ tag[0] }} videos</p>
+			<p class="card-text">{{ tag[0] | replace: '-',' ' | capitalize }}</p>
 		</div>
 		</div>
 	</div>

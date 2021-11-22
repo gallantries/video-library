@@ -78,6 +78,7 @@ module Jekyll
             v.fetch('versions', []).each{|version|
               durations['bytag'][tag] += findDuration(version['length']) / 3600.0
               durations['_total_'] += findDuration(version['length']) / 3600.0
+              durations['_total_count_'] += 1
               version['speakers'].each{|speaker|
                 durations['byspeaker'][speaker] += findDuration(version['length']) / 3600.0 / version['speakers'].length
               }
