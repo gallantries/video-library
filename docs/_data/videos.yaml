@@ -1628,6 +1628,7 @@ transcriptomics/rna-seq-viz-with-volcanoplot-r/tutorial:
   support_link: https://gtnsmrgsbord.slack.com/archives/C0253LVPLFM
   tags:
   - transcriptomics
+  - visualisation
   type: Tutorial
   versions:
   - captions:
@@ -1650,6 +1651,7 @@ transcriptomics/rna-seq-viz-with-volcanoplot/tutorial:
   support_link: https://gtnsmrgsbord.slack.com/archives/C0253LVPLFM
   tags:
   - transcriptomics
+  - visualisation
   type: Tutorial
   versions:
   - captions:

@@ -27,7 +27,8 @@
       {% if type == 'session' %}
         <p>{{include.session.description}}</p>
         {% for vid in include.session.videos %}
-          {% assign title = site.data.videos[vid].name %}
+          {% assign vid2 = vid | split: '/'%}{% capture vid2 %}{{vid2[0]}}/{{vid2[1]}}{% endcapture%}
+          {% assign title = site.data.videos[vid].name | default: site.data.gtn[vid2] %}
           {% assign v = site.data.videos[vid].versions[0] %}
           {% assign vs = site.data.videos[vid] %}
           {% include video-session.html video=v vsession=vs session=include.session id=vid title=title %}
