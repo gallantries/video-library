@@ -1,5 +1,5 @@
 {
-  "url": "/video-library/api/tags/event.json",
+  "url": "/video-library/api/tags/course.json",
   "videos": {
     "course/welcome-admin": {
       "description": null,

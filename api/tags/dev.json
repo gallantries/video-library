@@ -1,92 +1,7 @@
 {
   "url": "/video-library/api/tags/dev.json",
   "videos": {
-    "dev/architecture/slides-ecosystem": {
-      "name": "Galaxy Code Architecture: Galaxy Ecosystem",
-      "description": "TODO",
-      "faq": "https://docs.google.com/document/d/e/2PACX-1vQc9v1cfpXZFTha3EnP-9hWw_FH9T9QkGaBxnr2YJ_KEckHhNp8uiHNUR5aeM74Zgrb9mXeIZYIlMmP/pub",
-      "materials": [
-        {
-          "link": "topics/dev/tutorials/architecture/slides.html",
-          "type": "Slides"
-        },
-        {
-          "link": "topics/dev/tutorials/core-contributing/tutorial.html",
-          "title": "Contributing to Galaxy Core",
-          "type": "Self-study tutorial"
-        },
-        {
-          "external": true,
-          "link": "https://bit.ly/gx-arch-vids",
-          "title": "Always contains the latest version of these lectures.",
-          "type": "Youtube Playlist"
-        }
-      ],
-      "support_channel": "#dev-galaxy-core",
-      "support_link": "https://gtnsmrgsbord.slack.com/archives/C025X3XLZ4Y",
-      "tags": [
-        "dev"
-      ],
-      "type": "Lecture",
-      "versions": [
-        {
-          "captions": [
-            null
-          ],
-          "date": "2021-02-15",
-          "galaxy_version": "21.01",
-          "length": "25M",
-          "link": "WbC2NorVKr0",
-          "speakers": [
-            "jmchilton"
-          ]
-        }
-      ]
-    },
-    "dev/architecture/slides-models-managers": {
-      "name": "Galaxy Code Architecture: Models and Managers",
-      "description": "TODO",
-      "faq": "https://docs.google.com/document/d/e/2PACX-1vQc9v1cfpXZFTha3EnP-9hWw_FH9T9QkGaBxnr2YJ_KEckHhNp8uiHNUR5aeM74Zgrb9mXeIZYIlMmP/pub",
-      "materials": [
-        {
-          "link": "topics/dev/tutorials/architecture/slides.html",
-          "type": "Slides"
-        },
-        {
-          "link": "topics/dev/tutorials/core-contributing/tutorial.html",
-          "title": "Contributing to Galaxy Core",
-          "type": "Self-study tutorial"
-        },
-        {
-          "external": true,
-          "link": "https://bit.ly/gx-arch-vids",
-          "title": "Always contains the latest version of these lectures.",
-          "type": "Youtube Playlist"
-        }
-      ],
-      "support_channel": "#dev-galaxy-core",
-      "support_link": "https://gtnsmrgsbord.slack.com/archives/C025X3XLZ4Y",
-      "tags": [
-        "dev"
-      ],
-      "type": "Lecture",
-      "versions": [
-        {
-          "captions": [
-            null
-          ],
-          "date": "2021-02-15",
-          "galaxy_version": "21.01",
-          "length": "15M",
-          "link": "joiiHN9LlVo",
-          "speakers": [
-            "jmchilton"
-          ]
-        }
-      ]
-    },
     "dev/architecture/slides-app-di": {
-      "name": "Galaxy Code Architecture: app and Dependency Injection",
       "description": "TODO",
       "faq": "https://docs.google.com/document/d/e/2PACX-1vQc9v1cfpXZFTha3EnP-9hWw_FH9T9QkGaBxnr2YJ_KEckHhNp8uiHNUR5aeM74Zgrb9mXeIZYIlMmP/pub",
       "materials": [
@@ -106,6 +21,7 @@
           "type": "Youtube Playlist"
         }
       ],
+      "name": "Galaxy Code Architecture: app and Dependency Injection",
       "support_channel": "#dev-galaxy-core",
       "support_link": "https://gtnsmrgsbord.slack.com/archives/C025X3XLZ4Y",
       "tags": [
@@ -127,8 +43,7 @@
         }
       ]
     },
-    "dev/architecture/slides-project-management": {
-      "name": "Galaxy Code Architecture: Project Management",
+    "dev/architecture/slides-ecosystem": {
       "description": "TODO",
       "faq": "https://docs.google.com/document/d/e/2PACX-1vQc9v1cfpXZFTha3EnP-9hWw_FH9T9QkGaBxnr2YJ_KEckHhNp8uiHNUR5aeM74Zgrb9mXeIZYIlMmP/pub",
       "materials": [
@@ -148,6 +63,7 @@
           "type": "Youtube Playlist"
         }
       ],
+      "name": "Galaxy Code Architecture: Galaxy Ecosystem",
       "support_channel": "#dev-galaxy-core",
       "support_link": "https://gtnsmrgsbord.slack.com/archives/C025X3XLZ4Y",
       "tags": [
@@ -157,20 +73,19 @@
       "versions": [
         {
           "captions": [
-            "malloryfreeberg"
+            null
           ],
           "date": "2021-02-15",
           "galaxy_version": "21.01",
           "length": "25M",
-          "link": "ElOys4F7bzY",
+          "link": "WbC2NorVKr0",
           "speakers": [
             "jmchilton"
           ]
         }
       ]
     },
-    "dev/architecture/slides-web-client": {
-      "name": "Galaxy Code Architecture: Web Client",
+    "dev/architecture/slides-files-directories": {
       "description": "TODO",
       "faq": "https://docs.google.com/document/d/e/2PACX-1vQc9v1cfpXZFTha3EnP-9hWw_FH9T9QkGaBxnr2YJ_KEckHhNp8uiHNUR5aeM74Zgrb9mXeIZYIlMmP/pub",
       "materials": [
@@ -190,6 +105,49 @@
           "type": "Youtube Playlist"
         }
       ],
+      "name": "Galaxy Code Architecture: Files and Directories",
+      "support_channel": "#dev-galaxy-core",
+      "support_link": "https://gtnsmrgsbord.slack.com/archives/C025X3XLZ4Y",
+      "tags": [
+        "dev"
+      ],
+      "type": "Lecture Series",
+      "versions": [
+        {
+          "captions": [
+            null
+          ],
+          "date": "2021-02-15",
+          "galaxy_version": "21.01",
+          "length": "17M",
+          "link": "Nrk0o4EIeUU",
+          "speakers": [
+            "jmchilton"
+          ]
+        }
+      ]
+    },
+    "dev/architecture/slides-models-managers": {
+      "description": "TODO",
+      "faq": "https://docs.google.com/document/d/e/2PACX-1vQc9v1cfpXZFTha3EnP-9hWw_FH9T9QkGaBxnr2YJ_KEckHhNp8uiHNUR5aeM74Zgrb9mXeIZYIlMmP/pub",
+      "materials": [
+        {
+          "link": "topics/dev/tutorials/architecture/slides.html",
+          "type": "Slides"
+        },
+        {
+          "link": "topics/dev/tutorials/core-contributing/tutorial.html",
+          "title": "Contributing to Galaxy Core",
+          "type": "Self-study tutorial"
+        },
+        {
+          "external": true,
+          "link": "https://bit.ly/gx-arch-vids",
+          "title": "Always contains the latest version of these lectures.",
+          "type": "Youtube Playlist"
+        }
+      ],
+      "name": "Galaxy Code Architecture: Models and Managers",
       "support_channel": "#dev-galaxy-core",
       "support_link": "https://gtnsmrgsbord.slack.com/archives/C025X3XLZ4Y",
       "tags": [
@@ -204,7 +162,7 @@
           "date": "2021-02-15",
           "galaxy_version": "21.01",
           "length": "15M",
-          "link": "9auQWM3tS8I",
+          "link": "joiiHN9LlVo",
           "speakers": [
             "jmchilton"
           ]
@@ -212,7 +170,6 @@
       ]
     },
     "dev/architecture/slides-pluggable-components": {
-      "name": "Galaxy Code Architecture: Pluggable Components",
       "description": "TODO",
       "faq": "https://docs.google.com/document/d/e/2PACX-1vQc9v1cfpXZFTha3EnP-9hWw_FH9T9QkGaBxnr2YJ_KEckHhNp8uiHNUR5aeM74Zgrb9mXeIZYIlMmP/pub",
       "materials": [
@@ -232,6 +189,7 @@
           "type": "Youtube Playlist"
         }
       ],
+      "name": "Galaxy Code Architecture: Pluggable Components",
       "support_channel": "#dev-galaxy-core",
       "support_link": "https://gtnsmrgsbord.slack.com/archives/C025X3XLZ4Y",
       "tags": [
@@ -254,7 +212,6 @@
       ]
     },
     "dev/architecture/slides-principles": {
-      "name": "Galaxy Code Architecture: Principles",
       "description": "TODO",
       "faq": "https://docs.google.com/document/d/e/2PACX-1vQc9v1cfpXZFTha3EnP-9hWw_FH9T9QkGaBxnr2YJ_KEckHhNp8uiHNUR5aeM74Zgrb9mXeIZYIlMmP/pub",
       "materials": [
@@ -274,6 +231,7 @@
           "type": "Youtube Playlist"
         }
       ],
+      "name": "Galaxy Code Architecture: Principles",
       "support_channel": "#dev-galaxy-core",
       "support_link": "https://gtnsmrgsbord.slack.com/archives/C025X3XLZ4Y",
       "tags": [
@@ -295,8 +253,7 @@
         }
       ]
     },
-    "dev/architecture/slides-web-requests": {
-      "name": "Galaxy Code Architecture: Web Requests",
+    "dev/architecture/slides-project-management": {
       "description": "TODO",
       "faq": "https://docs.google.com/document/d/e/2PACX-1vQc9v1cfpXZFTha3EnP-9hWw_FH9T9QkGaBxnr2YJ_KEckHhNp8uiHNUR5aeM74Zgrb9mXeIZYIlMmP/pub",
       "materials": [
@@ -316,6 +273,91 @@
           "type": "Youtube Playlist"
         }
       ],
+      "name": "Galaxy Code Architecture: Project Management",
+      "support_channel": "#dev-galaxy-core",
+      "support_link": "https://gtnsmrgsbord.slack.com/archives/C025X3XLZ4Y",
+      "tags": [
+        "dev"
+      ],
+      "type": "Lecture",
+      "versions": [
+        {
+          "captions": [
+            "malloryfreeberg"
+          ],
+          "date": "2021-02-15",
+          "galaxy_version": "21.01",
+          "length": "25M",
+          "link": "ElOys4F7bzY",
+          "speakers": [
+            "jmchilton"
+          ]
+        }
+      ]
+    },
+    "dev/architecture/slides-web-client": {
+      "description": "TODO",
+      "faq": "https://docs.google.com/document/d/e/2PACX-1vQc9v1cfpXZFTha3EnP-9hWw_FH9T9QkGaBxnr2YJ_KEckHhNp8uiHNUR5aeM74Zgrb9mXeIZYIlMmP/pub",
+      "materials": [
+        {
+          "link": "topics/dev/tutorials/architecture/slides.html",
+          "type": "Slides"
+        },
+        {
+          "link": "topics/dev/tutorials/core-contributing/tutorial.html",
+          "title": "Contributing to Galaxy Core",
+          "type": "Self-study tutorial"
+        },
+        {
+          "external": true,
+          "link": "https://bit.ly/gx-arch-vids",
+          "title": "Always contains the latest version of these lectures.",
+          "type": "Youtube Playlist"
+        }
+      ],
+      "name": "Galaxy Code Architecture: Web Client",
+      "support_channel": "#dev-galaxy-core",
+      "support_link": "https://gtnsmrgsbord.slack.com/archives/C025X3XLZ4Y",
+      "tags": [
+        "dev"
+      ],
+      "type": "Lecture",
+      "versions": [
+        {
+          "captions": [
+            null
+          ],
+          "date": "2021-02-15",
+          "galaxy_version": "21.01",
+          "length": "15M",
+          "link": "9auQWM3tS8I",
+          "speakers": [
+            "jmchilton"
+          ]
+        }
+      ]
+    },
+    "dev/architecture/slides-web-requests": {
+      "description": "TODO",
+      "faq": "https://docs.google.com/document/d/e/2PACX-1vQc9v1cfpXZFTha3EnP-9hWw_FH9T9QkGaBxnr2YJ_KEckHhNp8uiHNUR5aeM74Zgrb9mXeIZYIlMmP/pub",
+      "materials": [
+        {
+          "link": "topics/dev/tutorials/architecture/slides.html",
+          "type": "Slides"
+        },
+        {
+          "link": "topics/dev/tutorials/core-contributing/tutorial.html",
+          "title": "Contributing to Galaxy Core",
+          "type": "Self-study tutorial"
+        },
+        {
+          "external": true,
+          "link": "https://bit.ly/gx-arch-vids",
+          "title": "Always contains the latest version of these lectures.",
+          "type": "Youtube Playlist"
+        }
+      ],
+      "name": "Galaxy Code Architecture: Web Requests",
       "support_channel": "#dev-galaxy-core",
       "support_link": "https://gtnsmrgsbord.slack.com/archives/C025X3XLZ4Y",
       "tags": [
@@ -333,141 +375,6 @@
           "link": "vwsxkDMiA10",
           "speakers": [
             "jmchilton"
-          ]
-        }
-      ]
-    },
-    "dev/architecture/slides-files-directories": {
-      "name": "Galaxy Code Architecture: Files and Directories",
-      "description": "TODO",
-      "faq": "https://docs.google.com/document/d/e/2PACX-1vQc9v1cfpXZFTha3EnP-9hWw_FH9T9QkGaBxnr2YJ_KEckHhNp8uiHNUR5aeM74Zgrb9mXeIZYIlMmP/pub",
-      "materials": [
-        {
-          "link": "topics/dev/tutorials/architecture/slides.html",
-          "type": "Slides"
-        },
-        {
-          "link": "topics/dev/tutorials/core-contributing/tutorial.html",
-          "title": "Contributing to Galaxy Core",
-          "type": "Self-study tutorial"
-        },
-        {
-          "external": true,
-          "link": "https://bit.ly/gx-arch-vids",
-          "title": "Always contains the latest version of these lectures.",
-          "type": "Youtube Playlist"
-        }
-      ],
-      "support_channel": "#dev-galaxy-core",
-      "support_link": "https://gtnsmrgsbord.slack.com/archives/C025X3XLZ4Y",
-      "tags": [
-        "dev"
-      ],
-      "type": "Lecture Series",
-      "versions": [
-        {
-          "captions": [
-            null
-          ],
-          "date": "2021-02-15",
-          "galaxy_version": "21.01",
-          "length": "17M",
-          "link": "Nrk0o4EIeUU",
-          "speakers": [
-            "jmchilton"
-          ]
-        }
-      ]
-    },
-    "dev/debugging/tutorial/intro": {
-      "description": "This is the first video in the Debugging Galaxy series.",
-      "faq": "https://docs.google.com/document/d/e/2PACX-1vT3bgaeSbiZ0lofmUS-KB-2-OZkdxP8_OnWl1kOex5O7HSAR_Sj8Xmzz26lrh3k5aTzhjDNzt6cVa0S/pub",
-      "materials": [
-        {
-          "link": "topics/dev/tutorials/debugging/tutorial.html",
-          "type": "Tutorial"
-        }
-      ],
-      "support_channel": "#dev-debugging-galaxy",
-      "support_link": "https://gtnsmrgsbord.slack.com/archives/C025DL2S03W",
-      "tags": [
-        "dev"
-      ],
-      "type": "Tutorial",
-      "versions": [
-        {
-          "captions": [
-            "tnabtaf"
-          ],
-          "date": "2021-02-15",
-          "galaxy_version": "21.01",
-          "length": "11M",
-          "link": "FlFF3TPEfC8",
-          "speakers": [
-            "assuntad23",
-            "ic4f"
-          ]
-        }
-      ]
-    },
-    "dev/debugging/tutorial/client-unit-test": {
-      "description": "What to do when your client throws a unit test failure.",
-      "faq": "https://docs.google.com/document/d/e/2PACX-1vT3bgaeSbiZ0lofmUS-KB-2-OZkdxP8_OnWl1kOex5O7HSAR_Sj8Xmzz26lrh3k5aTzhjDNzt6cVa0S/pub",
-      "materials": [
-        {
-          "link": "topics/dev/tutorials/debugging/tutorial.html",
-          "type": "Tutorial"
-        }
-      ],
-      "support_channel": "#dev-debugging-galaxy",
-      "support_link": "https://gtnsmrgsbord.slack.com/archives/C025DL2S03W",
-      "tags": [
-        "dev"
-      ],
-      "type": "Tutorial",
-      "versions": [
-        {
-          "captions": [
-            "beatrizserrano"
-          ],
-          "date": "2021-02-15",
-          "galaxy_version": "21.01",
-          "length": "6M",
-          "link": "A6LSTCb-rGg",
-          "speakers": [
-            "assuntad23",
-            "ic4f"
-          ]
-        }
-      ]
-    },
-    "dev/debugging/tutorial/summary": {
-      "description": "A summary of wisdom to debug Galaxy with.",
-      "faq": "https://docs.google.com/document/d/e/2PACX-1vT3bgaeSbiZ0lofmUS-KB-2-OZkdxP8_OnWl1kOex5O7HSAR_Sj8Xmzz26lrh3k5aTzhjDNzt6cVa0S/pub",
-      "materials": [
-        {
-          "link": "topics/dev/tutorials/debugging/tutorial.html",
-          "type": "Tutorial"
-        }
-      ],
-      "support_channel": "#dev-debugging-galaxy",
-      "support_link": "https://gtnsmrgsbord.slack.com/archives/C025DL2S03W",
-      "tags": [
-        "dev"
-      ],
-      "type": "Lecture",
-      "versions": [
-        {
-          "captions": [
-            "tnabtaf"
-          ],
-          "date": "2021-02-15",
-          "galaxy_version": "21.01",
-          "length": "3M",
-          "link": "_sH1uTKf4ec",
-          "speakers": [
-            "assuntad23",
-            "ic4f"
           ]
         }
       ]
@@ -527,6 +434,68 @@
           "galaxy_version": "21.01",
           "length": "6M",
           "link": "YKyP5Y4Y4js",
+          "speakers": [
+            "assuntad23",
+            "ic4f"
+          ]
+        }
+      ]
+    },
+    "dev/debugging/tutorial/client-unit-test": {
+      "description": "What to do when your client throws a unit test failure.",
+      "faq": "https://docs.google.com/document/d/e/2PACX-1vT3bgaeSbiZ0lofmUS-KB-2-OZkdxP8_OnWl1kOex5O7HSAR_Sj8Xmzz26lrh3k5aTzhjDNzt6cVa0S/pub",
+      "materials": [
+        {
+          "link": "topics/dev/tutorials/debugging/tutorial.html",
+          "type": "Tutorial"
+        }
+      ],
+      "support_channel": "#dev-debugging-galaxy",
+      "support_link": "https://gtnsmrgsbord.slack.com/archives/C025DL2S03W",
+      "tags": [
+        "dev"
+      ],
+      "type": "Tutorial",
+      "versions": [
+        {
+          "captions": [
+            "beatrizserrano"
+          ],
+          "date": "2021-02-15",
+          "galaxy_version": "21.01",
+          "length": "6M",
+          "link": "A6LSTCb-rGg",
+          "speakers": [
+            "assuntad23",
+            "ic4f"
+          ]
+        }
+      ]
+    },
+    "dev/debugging/tutorial/intro": {
+      "description": "This is the first video in the Debugging Galaxy series.",
+      "faq": "https://docs.google.com/document/d/e/2PACX-1vT3bgaeSbiZ0lofmUS-KB-2-OZkdxP8_OnWl1kOex5O7HSAR_Sj8Xmzz26lrh3k5aTzhjDNzt6cVa0S/pub",
+      "materials": [
+        {
+          "link": "topics/dev/tutorials/debugging/tutorial.html",
+          "type": "Tutorial"
+        }
+      ],
+      "support_channel": "#dev-debugging-galaxy",
+      "support_link": "https://gtnsmrgsbord.slack.com/archives/C025DL2S03W",
+      "tags": [
+        "dev"
+      ],
+      "type": "Tutorial",
+      "versions": [
+        {
+          "captions": [
+            "tnabtaf"
+          ],
+          "date": "2021-02-15",
+          "galaxy_version": "21.01",
+          "length": "11M",
+          "link": "FlFF3TPEfC8",
           "speakers": [
             "assuntad23",
             "ic4f"
@@ -597,6 +566,37 @@
         }
       ]
     },
+    "dev/debugging/tutorial/summary": {
+      "description": "A summary of wisdom to debug Galaxy with.",
+      "faq": "https://docs.google.com/document/d/e/2PACX-1vT3bgaeSbiZ0lofmUS-KB-2-OZkdxP8_OnWl1kOex5O7HSAR_Sj8Xmzz26lrh3k5aTzhjDNzt6cVa0S/pub",
+      "materials": [
+        {
+          "link": "topics/dev/tutorials/debugging/tutorial.html",
+          "type": "Tutorial"
+        }
+      ],
+      "support_channel": "#dev-debugging-galaxy",
+      "support_link": "https://gtnsmrgsbord.slack.com/archives/C025DL2S03W",
+      "tags": [
+        "dev"
+      ],
+      "type": "Lecture",
+      "versions": [
+        {
+          "captions": [
+            "tnabtaf"
+          ],
+          "date": "2021-02-15",
+          "galaxy_version": "21.01",
+          "length": "3M",
+          "link": "_sH1uTKf4ec",
+          "speakers": [
+            "assuntad23",
+            "ic4f"
+          ]
+        }
+      ]
+    },
     "dev/debugging/tutorial/unit-test-failure": {
       "description": "What to do when a unit test fails.",
       "faq": "https://docs.google.com/document/d/e/2PACX-1vT3bgaeSbiZ0lofmUS-KB-2-OZkdxP8_OnWl1kOex5O7HSAR_Sj8Xmzz26lrh3k5aTzhjDNzt6cVa0S/pub",
@@ -658,6 +658,36 @@
         }
       ]
     },
+    "dev/tool-from-scratch/tutorial/planemo-init": {
+      "description": "Planemo is the Galaxy tool development kit, and will make your tool development process a lot easier! This tutorial will show you how to use Planemo to start the tool wrapping process, and covers the general structure of a Galaxy tool wrapper.",
+      "faq": "https://docs.google.com/document/d/1moSs0APNyhm4yZ9vPfpH0ErPONncNU-UCRzGvypc84I/pub",
+      "materials": [
+        {
+          "link": "topics/dev/tutorials/tool-from-scratch/tutorial.html",
+          "type": "Tutorial"
+        }
+      ],
+      "support_channel": "#dev-tools-conda",
+      "support_link": "https://gtnsmrgsbord.slack.com/archives/dev-tools-conda",
+      "tags": [
+        "dev"
+      ],
+      "type": null,
+      "versions": [
+        {
+          "captions": [
+            "astrovsky01"
+          ],
+          "date": "2021-02-15",
+          "galaxy_version": "21.01",
+          "length": "2M",
+          "link": "a6XZgEy6hlg",
+          "speakers": [
+            "astrovsky01"
+          ]
+        }
+      ]
+    },
     "dev/tool-from-scratch/tutorial/publish": {
       "description": "Here you will learn how to publish tools in public tool repositories.",
       "faq": "https://docs.google.com/document/d/1moSs0APNyhm4yZ9vPfpH0ErPONncNU-UCRzGvypc84I/pub",
@@ -684,6 +714,36 @@
           "link": "hg0YreA8W1I",
           "speakers": [
             "bernt-matthias"
+          ]
+        }
+      ]
+    },
+    "dev/tool-from-scratch/tutorial/shed-yml": {
+      "description": "Each tool wrapper also needs a .shed.yml file, which contains some metadata about the tool.",
+      "faq": "https://docs.google.com/document/d/1moSs0APNyhm4yZ9vPfpH0ErPONncNU-UCRzGvypc84I/pub",
+      "materials": [
+        {
+          "link": "topics/dev/tutorials/tool-from-scratch/tutorial.html",
+          "type": "Tutorial"
+        }
+      ],
+      "support_channel": "#dev-tools-conda",
+      "support_link": "https://gtnsmrgsbord.slack.com/archives/dev-tools-conda",
+      "tags": [
+        "dev"
+      ],
+      "type": null,
+      "versions": [
+        {
+          "captions": [
+            "astrovsky01"
+          ],
+          "date": "2021-02-15",
+          "galaxy_version": "21.01",
+          "length": "1M",
+          "link": "WFSQE8bq5qI",
+          "speakers": [
+            "astrovsky01"
           ]
         }
       ]
@@ -748,97 +808,6 @@
         }
       ]
     },
-    "dev/tool-from-scratch/tutorial/planemo-init": {
-      "description": "Planemo is the Galaxy tool development kit, and will make your tool development process a lot easier! This tutorial will show you how to use Planemo to start the tool wrapping process, and covers the general structure of a Galaxy tool wrapper.",
-      "faq": "https://docs.google.com/document/d/1moSs0APNyhm4yZ9vPfpH0ErPONncNU-UCRzGvypc84I/pub",
-      "materials": [
-        {
-          "link": "topics/dev/tutorials/tool-from-scratch/tutorial.html",
-          "type": "Tutorial"
-        }
-      ],
-      "support_channel": "#dev-tools-conda",
-      "support_link": "https://gtnsmrgsbord.slack.com/archives/dev-tools-conda",
-      "tags": [
-        "dev"
-      ],
-      "type": null,
-      "versions": [
-        {
-          "captions": [
-            "astrovsky01"
-          ],
-          "date": "2021-02-15",
-          "galaxy_version": "21.01",
-          "length": "2M",
-          "link": "a6XZgEy6hlg",
-          "speakers": [
-            "astrovsky01"
-          ]
-        }
-      ]
-    },
-    "dev/tool-from-scratch/tutorial/shed-yml": {
-      "description": "Each tool wrapper also needs a .shed.yml file, which contains some metadata about the tool.",
-      "faq": "https://docs.google.com/document/d/1moSs0APNyhm4yZ9vPfpH0ErPONncNU-UCRzGvypc84I/pub",
-      "materials": [
-        {
-          "link": "topics/dev/tutorials/tool-from-scratch/tutorial.html",
-          "type": "Tutorial"
-        }
-      ],
-      "support_channel": "#dev-tools-conda",
-      "support_link": "https://gtnsmrgsbord.slack.com/archives/dev-tools-conda",
-      "tags": [
-        "dev"
-      ],
-      "type": null,
-      "versions": [
-        {
-          "captions": [
-            "astrovsky01"
-          ],
-          "date": "2021-02-15",
-          "galaxy_version": "21.01",
-          "length": "1M",
-          "link": "WFSQE8bq5qI",
-          "speakers": [
-            "astrovsky01"
-          ]
-        }
-      ]
-    },
-    "dev/tool-generators/tutorial": {
-      "description": "ToolFactory Presentation: Abstract tool interface code that wraps simple scripts can be generated using a Galaxy tool.\nIf you haven't already decided that the GTN tutorials linked below might be useful for your work, or if want to hear Ross's opinions on tools,\nabstract interfaces and why they matter, this talk is for you.\n",
-      "faq": "https://docs.google.com/document/d/1e2iuYoseNkPvUBfMczEtPNsKI2Nfbyn6pN9Nz1x6E1o/pub",
-      "materials": [
-        {
-          "description": "Introductory hands-on DIY tutorial - obtaining the Appliance and creating \"hello world\" tools using the ToolFactory",
-          "link": "topics/dev/tutorials/tool-generators/tutorial.html",
-          "type": "Tutorial"
-        }
-      ],
-      "support_channel": "#dev-toolfactory",
-      "support_link": "https://gtnsmrgsbord.slack.com/archives/dev-toolfactory",
-      "tags": [
-        "dev"
-      ],
-      "type": null,
-      "versions": [
-        {
-          "captions": [
-            "fubar2"
-          ],
-          "date": "2021-02-15",
-          "galaxy_version": "21.01",
-          "length": "30M",
-          "link": "8nKBfVM6240",
-          "speakers": [
-            "fubar2"
-          ]
-        }
-      ]
-    },
     "dev/tool-generators-advanced/tutorial": {
       "description": "Hands on demonstration for the Introductory tutorial. Create, run and update a \"Hello World\" tool in Galaxy",
       "faq": "https://docs.google.com/document/d/1e2iuYoseNkPvUBfMczEtPNsKI2Nfbyn6pN9Nz1x6E1o/pub",
@@ -864,6 +833,37 @@
           "galaxy_version": "21.01",
           "length": "7M",
           "link": "DK1eKz5TRs4",
+          "speakers": [
+            "fubar2"
+          ]
+        }
+      ]
+    },
+    "dev/tool-generators/tutorial": {
+      "description": "ToolFactory Presentation: Abstract tool interface code that wraps simple scripts can be generated using a Galaxy tool. If you haven't already decided that the GTN tutorials linked below might be useful for your work, or if want to hear Ross's opinions on tools, abstract interfaces and why they matter, this talk is for you.",
+      "faq": "https://docs.google.com/document/d/1e2iuYoseNkPvUBfMczEtPNsKI2Nfbyn6pN9Nz1x6E1o/pub",
+      "materials": [
+        {
+          "description": "Introductory hands-on DIY tutorial - obtaining the Appliance and creating \"hello world\" tools using the ToolFactory",
+          "link": "topics/dev/tutorials/tool-generators/tutorial.html",
+          "type": "Tutorial"
+        }
+      ],
+      "support_channel": "#dev-toolfactory",
+      "support_link": "https://gtnsmrgsbord.slack.com/archives/dev-toolfactory",
+      "tags": [
+        "dev"
+      ],
+      "type": "Tutorial",
+      "versions": [
+        {
+          "captions": [
+            "fubar2"
+          ],
+          "date": "2021-02-15",
+          "galaxy_version": "21.01",
+          "length": "30M",
+          "link": "8nKBfVM6240",
           "speakers": [
             "fubar2"
           ]

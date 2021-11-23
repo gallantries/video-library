@@ -1,41 +1,7 @@
 {
   "url": "/video-library/api/tags/statistics.json",
   "videos": {
-    "statistics/machine-learning/intro": {
-      "name": "Introduction to Machine Learning",
-      "description": "The lecture explains introductory concepts in machine learning such as supervised and unsupervised learning, classification and regression, hyperparameter optimisation, cross-validation, train, test and validation sets.",
-      "faq": "https://docs.google.com/document/d/e/2PACX-1vQUIonilhLMvaTlPaYvi5BeOwFsWsmd30tlo1PXYCpOXNUTXiYkm4fxZ23MoOSh_PqVSqmF0lSXeE1C/pub",
-      "materials": [
-        {
-          "external": true,
-          "link": "https://docs.google.com/presentation/d/1RZtXFk8qz6wmPsIKnMte3Y4SvmI_nD2vIyeSEvYR6RA/edit?usp=sharing",
-          "title": "Introduction to Machine Learning",
-          "type": "Slides"
-        }
-      ],
-      "support_channel": "#machine_learning_introduction",
-      "support_link": "https://gtnsmrgsbord.slack.com/archives/C025EUF0R0U",
-      "tags": [
-        "statistics"
-      ],
-      "type": "Lecture",
-      "versions": [
-        {
-          "captions": [
-            "anuprulez"
-          ],
-          "date": "2021-02-15",
-          "galaxy_version": "21.01",
-          "length": "15M",
-          "link": "ix58oj8n8nA",
-          "speakers": [
-            "anuprulez"
-          ]
-        }
-      ]
-    },
     "statistics/CNN": {
-      "name": "Convolutional Neural Networks (CNN)",
       "description": "This hands-on tutorial covers Convolutional Neural Networks (CNN)",
       "faq": "https://docs.google.com/document/d/e/2PACX-1vTYyxANwg5BJXe6b9BwRnwBATU1GAYfOjLM-4SNBoPf5WQOucX9Hx-b2JiINpnAI4tRLAY_v8iXgnOy/pub",
       "materials": [
@@ -50,6 +16,7 @@
           "type": "Tutorial"
         }
       ],
+      "name": "Convolutional Neural Networks (CNN)",
       "support_channel": "#machine_learning_deep-neural-networks-demystified",
       "support_link": "https://gtnsmrgsbord.slack.com/archives/C025MKQNPU1",
       "tags": [
@@ -72,7 +39,6 @@
       ]
     },
     "statistics/FNN": {
-      "name": "Feedforward Neural Networks (FNN)",
       "description": "This hands-on tutorial covers Feedforward Neural Networks (FNN)",
       "faq": "https://docs.google.com/document/d/e/2PACX-1vTYyxANwg5BJXe6b9BwRnwBATU1GAYfOjLM-4SNBoPf5WQOucX9Hx-b2JiINpnAI4tRLAY_v8iXgnOy/pub",
       "materials": [
@@ -87,6 +53,7 @@
           "type": "Tutorial"
         }
       ],
+      "name": "Feedforward Neural Networks (FNN)",
       "support_channel": "#machine_learning_deep-neural-networks-demystified",
       "support_link": "https://gtnsmrgsbord.slack.com/archives/C025MKQNPU1",
       "tags": [
@@ -109,7 +76,6 @@
       ]
     },
     "statistics/RNN": {
-      "name": "Recurrent Neural Networks (RNN)",
       "description": "This hands-on tutorial covers Recurrenct Neural Networks (RNN)",
       "faq": "https://docs.google.com/document/d/e/2PACX-1vTYyxANwg5BJXe6b9BwRnwBATU1GAYfOjLM-4SNBoPf5WQOucX9Hx-b2JiINpnAI4tRLAY_v8iXgnOy/pub",
       "materials": [
@@ -124,6 +90,7 @@
           "type": "Tutorial"
         }
       ],
+      "name": "Recurrent Neural Networks (RNN)",
       "support_channel": "#machine_learning_deep-neural-networks-demystified",
       "support_link": "https://gtnsmrgsbord.slack.com/archives/C025MKQNPU1",
       "tags": [
@@ -208,6 +175,39 @@
           "link": "RT-g6KyAGdE",
           "speakers": [
             "fpsom"
+          ]
+        }
+      ]
+    },
+    "statistics/machine-learning/intro": {
+      "description": "The lecture explains introductory concepts in machine learning such as supervised and unsupervised learning, classification and regression, hyperparameter optimisation, cross-validation, train, test and validation sets.",
+      "faq": "https://docs.google.com/document/d/e/2PACX-1vQUIonilhLMvaTlPaYvi5BeOwFsWsmd30tlo1PXYCpOXNUTXiYkm4fxZ23MoOSh_PqVSqmF0lSXeE1C/pub",
+      "materials": [
+        {
+          "external": true,
+          "link": "https://docs.google.com/presentation/d/1RZtXFk8qz6wmPsIKnMte3Y4SvmI_nD2vIyeSEvYR6RA/edit?usp=sharing",
+          "title": "Introduction to Machine Learning",
+          "type": "Slides"
+        }
+      ],
+      "name": "Introduction to Machine Learning",
+      "support_channel": "#machine_learning_introduction",
+      "support_link": "https://gtnsmrgsbord.slack.com/archives/C025EUF0R0U",
+      "tags": [
+        "statistics"
+      ],
+      "type": "Lecture",
+      "versions": [
+        {
+          "captions": [
+            "anuprulez"
+          ],
+          "date": "2021-02-15",
+          "galaxy_version": "21.01",
+          "length": "15M",
+          "link": "ix58oj8n8nA",
+          "speakers": [
+            "anuprulez"
           ]
         }
       ]

@@ -1,46 +1,6 @@
 {
   "url": "/video-library/api/tags/proteomics.json",
   "videos": {
-    "proteomics/pandemic/external": {
-      "name": "Pandemics Research using Mass Spectrometry",
-      "description": "The Coronavirus Disease 2019 (COVID-19) global pandemic has had a profound, lasting impact on the world's population. Accurate and timely diagnosis of COVID-19 infection is an important step for providing care and containing its further spread. In this tutorial, attendees will be introduced to two workflows – a) database search workflow and b) peptide validation workflow. Attendees of the workshop will get an in-depth knowledge of the Galaxy workflows that detect SARS-CoV-2 peptides ([10.1186/s12014-021-09321-1)](https://doi.org/10.1186/s12014-021-09321-1)) and co-infecting pathogen peptides ([10.1021/acs.jproteome.0c00822](https://doi.org/10.1021/acs.jproteome.0c00822)).",
-      "faq": "https://docs.google.com/document/d/e/2PACX-1vRQ-GVpA-btUnHv3PBDkD2vM5OYg_iPPOFPTH7VVxz-0pLFdi8ZN82zXEBGpk1rrRuOrRKiX8sy3_Yr/pub",
-      "materials": [
-        {
-          "external": true,
-          "link": "https://drive.google.com/file/d/1anBPmGRWEVp9pBLZ_JInWV7iWrBpyCDs/view?usp=sharing",
-          "type": "Slides"
-        },
-        {
-          "external": true,
-          "link": "https://usegalaxy.eu/workflow/export_to_file?id=8a85663218676b59",
-          "type": "Workflow"
-        }
-      ],
-      "support_channel": "#proteomics_pandemics_research_ms",
-      "support_link": "https://gtnsmrgsbord.slack.com/archives/C025E2S35PE",
-      "tags": [
-        "proteomics"
-      ],
-      "type": "Lecture & Demo",
-      "versions": [
-        {
-          "captions": [
-            "emmaleith"
-          ],
-          "date": "2021-02-15",
-          "galaxy_version": "21.01",
-          "length": "35M",
-          "link": "CI35gTmZoqM",
-          "speakers": [
-            "timothygriffin",
-            "subinamehta",
-            "andrewr",
-            "pratikdjagtap"
-          ]
-        }
-      ]
-    },
     "proteomics/encyclopedia/slides": {
       "description": "This lecture will introduce EncyclopeDIA.",
       "faq": "https://docs.google.com/document/d/e/2PACX-1vTgfPPgjsGSaYjcKaeJZPsav6Ck-EPWMDscR6KGUFX2X9gdmQcO93T7DFxgfj5hxWEfN3qnSoEpzORB/pub",
@@ -133,6 +93,43 @@
         }
       ]
     },
+    "proteomics/maxquant-msstats-dda-lfq/tutorial": {
+      "description": "Modern mass spectrometry-based proteomics enables the identification and quantification of thousands of proteins. Therefore, quantitative mass spectrometry represents an indispensable technology for biological and clinical research. Statistical analyses are required for the unbiased answering of scientific questions and to uncover all important information in the proteomic data. In this training we will cover the full analysis workflow from label-free, data dependent acquisition (DDA) raw data to statistical results. We’ll use two popular quantitative proteomics software: MaxQuant and MSstats.",
+      "faq": "https://docs.google.com/document/d/e/2PACX-1vS4GuHPJrRcpGmNCXBTJ9wyUp6X33Xe6Ou8N_q0Ko5AJ-_rUy7ZsAu-x6R9yf7iRZLxK-t_e-O4Xoc6/pub",
+      "materials": [
+        {
+          "link": "topics/proteomics/tutorials/maxquant-msstats-dda-lfq/tutorial.html",
+          "title": "MaxQuant and MSstats for the analysis of label-free data",
+          "type": "Tutorial"
+        },
+        {
+          "external": true,
+          "link": "https://usegalaxy.eu/u/melanie-foell/h/maxquant-and-msstats-label-free-proteomics-training",
+          "title": "Galaxy History of this tutorial",
+          "type": "Example History"
+        }
+      ],
+      "support_channel": "#proteomics_maxquant-and-msstats",
+      "support_link": "https://gtnsmrgsbord.slack.com/archives/C01F0LY58R1",
+      "tags": [
+        "proteomics"
+      ],
+      "type": "Tutorial",
+      "versions": [
+        {
+          "captions": [
+            "foellmelanie"
+          ],
+          "date": "2021-02-15",
+          "galaxy_version": "21.01",
+          "length": "1H",
+          "link": "IXdLAt2PAT4",
+          "speakers": [
+            "foellmelanie"
+          ]
+        }
+      ]
+    },
     "proteomics/metaproteomics/tutorial": {
       "description": "In this tutorial, the basic workflow for metaproteomics is described, which includes database search, seeking taxonomy information and functional analysis. Related metaproteomics and functional microbiome tools and GTN tutorials are also mentioned in this tutorial.",
       "faq": "https://docs.google.com/document/d/e/2PACX-1vTX6JQG4oAKXvQSJU52thudorwANPtzIedTiTQU1NbXQYYfrNkBheN-gHu0O91bCOIk5wQBpH1mIk7v/pub",
@@ -158,6 +155,46 @@
           "length": "1H",
           "link": "3_yaPp-RCFw",
           "speakers": [
+            "pratikdjagtap"
+          ]
+        }
+      ]
+    },
+    "proteomics/pandemic/external": {
+      "description": "The Coronavirus Disease 2019 (COVID-19) global pandemic has had a profound, lasting impact on the world's population. Accurate and timely diagnosis of COVID-19 infection is an important step for providing care and containing its further spread. In this tutorial, attendees will be introduced to two workflows – a) database search workflow and b) peptide validation workflow. Attendees of the workshop will get an in-depth knowledge of the Galaxy workflows that detect SARS-CoV-2 peptides ([10.1186/s12014-021-09321-1)](https://doi.org/10.1186/s12014-021-09321-1)) and co-infecting pathogen peptides ([10.1021/acs.jproteome.0c00822](https://doi.org/10.1021/acs.jproteome.0c00822)).",
+      "faq": "https://docs.google.com/document/d/e/2PACX-1vRQ-GVpA-btUnHv3PBDkD2vM5OYg_iPPOFPTH7VVxz-0pLFdi8ZN82zXEBGpk1rrRuOrRKiX8sy3_Yr/pub",
+      "materials": [
+        {
+          "external": true,
+          "link": "https://drive.google.com/file/d/1anBPmGRWEVp9pBLZ_JInWV7iWrBpyCDs/view?usp=sharing",
+          "type": "Slides"
+        },
+        {
+          "external": true,
+          "link": "https://usegalaxy.eu/workflow/export_to_file?id=8a85663218676b59",
+          "type": "Workflow"
+        }
+      ],
+      "name": "Pandemics Research using Mass Spectrometry",
+      "support_channel": "#proteomics_pandemics_research_ms",
+      "support_link": "https://gtnsmrgsbord.slack.com/archives/C025E2S35PE",
+      "tags": [
+        "proteomics"
+      ],
+      "type": "Lecture & Demo",
+      "versions": [
+        {
+          "captions": [
+            "emmaleith"
+          ],
+          "date": "2021-02-15",
+          "galaxy_version": "21.01",
+          "length": "35M",
+          "link": "CI35gTmZoqM",
+          "speakers": [
+            "timothygriffin",
+            "subinamehta",
+            "andrewr",
             "pratikdjagtap"
           ]
         }
@@ -285,43 +322,6 @@
           "link": "qG7GZc6BeGY",
           "speakers": [
             "yvesvdb"
-          ]
-        }
-      ]
-    },
-    "proteomics/maxquant-msstats-dda-lfq/tutorial": {
-      "description": "Modern mass spectrometry-based proteomics enables the identification and quantification of thousands of proteins. Therefore, quantitative mass spectrometry represents an indispensable technology for biological and clinical research. Statistical analyses are required for the unbiased answering of scientific questions and to uncover all important information in the proteomic data. In this training we will cover the full analysis workflow from label-free, data dependent acquisition (DDA) raw data to statistical results. We’ll use two popular quantitative proteomics software: MaxQuant and MSstats.",
-      "faq": "https://docs.google.com/document/d/e/2PACX-1vS4GuHPJrRcpGmNCXBTJ9wyUp6X33Xe6Ou8N_q0Ko5AJ-_rUy7ZsAu-x6R9yf7iRZLxK-t_e-O4Xoc6/pub",
-      "materials": [
-        {
-          "link": "topics/proteomics/tutorials/maxquant-msstats-dda-lfq/tutorial.html",
-          "title": "MaxQuant and MSstats for the analysis of label-free data",
-          "type": "Tutorial"
-        },
-        {
-          "external": true,
-          "link": "https://usegalaxy.eu/u/melanie-foell/h/maxquant-and-msstats-label-free-proteomics-training",
-          "title": "Galaxy History of this tutorial",
-          "type": "Example History"
-        }
-      ],
-      "support_channel": "#proteomics_maxquant-and-msstats",
-      "support_link": "https://gtnsmrgsbord.slack.com/archives/C01F0LY58R1",
-      "tags": [
-        "proteomics"
-      ],
-      "type": "Tutorial",
-      "versions": [
-        {
-          "captions": [
-            "foellmelanie"
-          ],
-          "date": "2021-02-15",
-          "galaxy_version": "21.01",
-          "length": "1H",
-          "link": "IXdLAt2PAT4",
-          "speakers": [
-            "foellmelanie"
           ]
         }
       ]

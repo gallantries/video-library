@@ -2,12 +2,12 @@
   "url": "/video-library/api/tags/metagenomics.json",
   "videos": {
     "metagenomics/clinical-applications": {
-      "name": "Nanopore Whole Bacterial Genome Sequencing in a Clinical Setting",
       "description": "Nanopore Sequencing has many applications in a clinical setting. In this lecture, Astrid Heikema discusses how her group at the Erasmus Medical Center uses Nanopore for sequencing of bacterial Genomes.",
       "faq": "https://docs.google.com/document/d/e/2PACX-1vQlG_Onq011MQqyIu4D_erDqiLKAMLnduhHr5cDWwbXVqlU9VZhmm4OT_zphKqb8TEZprAFo8rdPXjO/pub",
       "materials": [
 
       ],
+      "name": "Nanopore Whole Bacterial Genome Sequencing in a Clinical Setting",
       "support_channel": "#microbiome_antibiotic-resistance-detection-nanopore",
       "support_link": "https://gtnsmrgsbord.slack.com/archives/C01F1GJ7JJX",
       "tags": [

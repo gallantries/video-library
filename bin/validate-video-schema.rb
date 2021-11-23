@@ -6,6 +6,12 @@ require 'kwalify'
 
 # Schemas
 TOPIC_SCHEMA = YAML.load_file('bin/schema-videos.yaml')
+CONTRIBUTORS = YAML.load_file('_data/instructors.yaml')
+
+# Update the existing schemas to have enums with values. Then we get validation
+# *for free*!
+TOPIC_SCHEMA['mapping']['=']['mapping']['versions']['sequence'][0]['mapping']['captions']['sequence'][0]['enum'] = CONTRIBUTORS.keys
+TOPIC_SCHEMA['mapping']['=']['mapping']['versions']['sequence'][0]['mapping']['speakers']['sequence'][0]['enum'] = CONTRIBUTORS.keys
 
 # Build validators now that we've filled out the subtopic enum
 $topic_validator = Kwalify::Validator.new(TOPIC_SCHEMA)

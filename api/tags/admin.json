@@ -1,37 +1,6 @@
 {
   "url": "/video-library/api/tags/admin.json",
   "videos": {
-    "admin/week-overview-slides": {
-      "name": "Admin Training Week Overview",
-      "description": null,
-      "faq": null,
-      "materials": [
-        {
-          "link": "topics/admin/tutorials/ansible-galaxy/slides.html",
-          "type": "Week Overview Slides"
-        }
-      ],
-      "support_channel": "#02-ansible-galaxy",
-      "support_link": "https://galaxyadmintraining.slack.com/archives/02-ansible-galaxy",
-      "tags": [
-        "admin"
-      ],
-      "type": "Tutorial",
-      "versions": [
-        {
-          "captions": [
-            "shiltemann"
-          ],
-          "date": "2021-02-15",
-          "galaxy_version": "21.01",
-          "length": "4M",
-          "link": "JN-C5UbHthY",
-          "speakers": [
-            "hexylena"
-          ]
-        }
-      ]
-    },
     "admin/ansible-galaxy/tutorial": {
       "description": null,
       "faq": null,
@@ -88,36 +57,6 @@
         }
       ]
     },
-    "admin/ansible/tutorial": {
-      "description": null,
-      "faq": null,
-      "materials": [
-        {
-          "link": "topics/admin/tutorials/ansible/tutorial.html",
-          "type": "Tutorial"
-        }
-      ],
-      "support_channel": "#01-ansible",
-      "support_link": "https://galaxyadmintraining.slack.com/archives/01-ansible",
-      "tags": [
-        "admin"
-      ],
-      "type": "Lecture",
-      "versions": [
-        {
-          "captions": [
-            "martenson"
-          ],
-          "date": "2021-02-15",
-          "galaxy_version": "21.01",
-          "length": "61M",
-          "link": "2KdT0sYKUeE",
-          "speakers": [
-            "martenson"
-          ]
-        }
-      ]
-    },
     "admin/ansible/slides": {
       "description": null,
       "faq": null,
@@ -144,6 +83,36 @@
           "link": "KFpbfmN0OTE",
           "speakers": [
             "ic4f"
+          ]
+        }
+      ]
+    },
+    "admin/ansible/tutorial": {
+      "description": null,
+      "faq": null,
+      "materials": [
+        {
+          "link": "topics/admin/tutorials/ansible/tutorial.html",
+          "type": "Tutorial"
+        }
+      ],
+      "support_channel": "#01-ansible",
+      "support_link": "https://galaxyadmintraining.slack.com/archives/01-ansible",
+      "tags": [
+        "admin"
+      ],
+      "type": "Lecture",
+      "versions": [
+        {
+          "captions": [
+            "martenson"
+          ],
+          "date": "2021-02-15",
+          "galaxy_version": "21.01",
+          "length": "61M",
+          "link": "2KdT0sYKUeE",
+          "speakers": [
+            "martenson"
           ]
         }
       ]
@@ -308,79 +277,6 @@
         }
       ]
     },
-    "admin/pulsar/slides": {
-      "description": null,
-      "faq": null,
-      "materials": [
-        {
-          "link": "topics/admin/tutorials/heterogeneous-compute/slides.html",
-          "type": "Slides"
-        }
-      ],
-      "support_channel": "#08-pulsar",
-      "support_link": "https://galaxyadmintraining.slack.com/archives/08-pulsar",
-      "tags": [
-        "admin"
-      ],
-      "type": "Lecture",
-      "versions": [
-        {
-          "captions": [
-            "shiltemann"
-          ],
-          "date": "2021-02-15",
-          "galaxy_version": "21.01",
-          "length": "14M",
-          "link": "M1-Z_2tuQPI",
-          "speakers": [
-            "slugger70"
-          ]
-        }
-      ]
-    },
-    "admin/pulsar/tutorial": {
-      "description": null,
-      "faq": null,
-      "materials": [
-        {
-          "link": "topics/admin/tutorials/heterogeneous-compute/tutorial.html",
-          "type": "Tutorial"
-        }
-      ],
-      "support_channel": "#08-pulsar",
-      "support_link": "https://galaxyadmintraining.slack.com/archives/08-pulsar",
-      "tags": [
-        "admin"
-      ],
-      "type": "Tutorial",
-      "versions": [
-        {
-          "captions": [
-            "hexylena"
-          ],
-          "date": "2021-06-28",
-          "galaxy_version": "21.05",
-          "length": "1H28M",
-          "link": "f0QdF8NDhsM",
-          "speakers": [
-            "slugger70"
-          ]
-        },
-        {
-          "captions": [
-            "simonbray",
-            "slugger70"
-          ],
-          "date": "2021-02-15",
-          "galaxy_version": "21.01",
-          "length": "57M",
-          "link": "a7fKJT4Fs9k",
-          "speakers": [
-            "slugger70"
-          ]
-        }
-      ]
-    },
     "admin/interactive-tools/slides": {
       "description": null,
       "faq": null,
@@ -447,7 +343,6 @@
       ]
     },
     "admin/job-metrics/tutorial": {
-      "name": "Recording Job Metrics",
       "description": null,
       "faq": null,
       "materials": [
@@ -456,6 +351,7 @@
           "type": "Tutorial"
         }
       ],
+      "name": "Recording Job Metrics",
       "support_channel": "#07-compute-cluster",
       "support_link": "https://galaxyadmintraining.slack.com/archives/07-compute-cluster",
       "tags": [
@@ -598,6 +494,79 @@
         }
       ]
     },
+    "admin/pulsar/slides": {
+      "description": null,
+      "faq": null,
+      "materials": [
+        {
+          "link": "topics/admin/tutorials/heterogeneous-compute/slides.html",
+          "type": "Slides"
+        }
+      ],
+      "support_channel": "#08-pulsar",
+      "support_link": "https://galaxyadmintraining.slack.com/archives/08-pulsar",
+      "tags": [
+        "admin"
+      ],
+      "type": "Lecture",
+      "versions": [
+        {
+          "captions": [
+            "shiltemann"
+          ],
+          "date": "2021-02-15",
+          "galaxy_version": "21.01",
+          "length": "14M",
+          "link": "M1-Z_2tuQPI",
+          "speakers": [
+            "slugger70"
+          ]
+        }
+      ]
+    },
+    "admin/pulsar/tutorial": {
+      "description": null,
+      "faq": null,
+      "materials": [
+        {
+          "link": "topics/admin/tutorials/heterogeneous-compute/tutorial.html",
+          "type": "Tutorial"
+        }
+      ],
+      "support_channel": "#08-pulsar",
+      "support_link": "https://galaxyadmintraining.slack.com/archives/08-pulsar",
+      "tags": [
+        "admin"
+      ],
+      "type": "Tutorial",
+      "versions": [
+        {
+          "captions": [
+            "hexylena"
+          ],
+          "date": "2021-06-28",
+          "galaxy_version": "21.05",
+          "length": "1H28M",
+          "link": "f0QdF8NDhsM",
+          "speakers": [
+            "slugger70"
+          ]
+        },
+        {
+          "captions": [
+            "simonbray",
+            "slugger70"
+          ],
+          "date": "2021-02-15",
+          "galaxy_version": "21.01",
+          "length": "57M",
+          "link": "a7fKJT4Fs9k",
+          "speakers": [
+            "slugger70"
+          ]
+        }
+      ]
+    },
     "admin/singularity/tutorial": {
       "description": null,
       "faq": null,
@@ -673,6 +642,40 @@
         }
       ]
     },
+    "admin/tool-management": {
+      "description": null,
+      "faq": null,
+      "materials": [
+        {
+          "link": "topics/admin/tutorials/tool-management/slides.html",
+          "type": "Slides"
+        },
+        {
+          "link": "topics/admin/tutorials/tool-management/tutorial.html",
+          "type": "Tutorial"
+        }
+      ],
+      "support_channel": "#03-ephemeris",
+      "support_link": "https://galaxyadmintraining.slack.com/archives/03-ephemeris",
+      "tags": [
+        "admin"
+      ],
+      "type": "Lecture & Tutorial",
+      "versions": [
+        {
+          "captions": [
+            "eancelet"
+          ],
+          "date": "2021-02-15",
+          "galaxy_version": "21.01",
+          "length": "47M",
+          "link": "7Qqwrzn--YI",
+          "speakers": [
+            "cat-bro"
+          ]
+        }
+      ]
+    },
     "admin/tool-management/slides": {
       "description": null,
       "faq": null,
@@ -741,40 +744,6 @@
         }
       ]
     },
-    "admin/tool-management": {
-      "description": null,
-      "faq": null,
-      "materials": [
-        {
-          "link": "topics/admin/tutorials/tool-management/slides.html",
-          "type": "Slides"
-        },
-        {
-          "link": "topics/admin/tutorials/tool-management/tutorial.html",
-          "type": "Tutorial"
-        }
-      ],
-      "support_channel": "#03-ephemeris",
-      "support_link": "https://galaxyadmintraining.slack.com/archives/03-ephemeris",
-      "tags": [
-        "admin"
-      ],
-      "type": "Lecture & Tutorial",
-      "versions": [
-        {
-          "captions": [
-            "eancelet"
-          ],
-          "date": "2021-02-15",
-          "galaxy_version": "21.01",
-          "length": "47M",
-          "link": "7Qqwrzn--YI",
-          "speakers": [
-            "cat-bro"
-          ]
-        }
-      ]
-    },
     "admin/upgrading/tutorial": {
       "description": null,
       "faq": null,
@@ -832,6 +801,37 @@
           "link": "crywu31L8qg",
           "speakers": [
             "awspolly"
+          ]
+        }
+      ]
+    },
+    "admin/week-overview-slides": {
+      "description": null,
+      "faq": null,
+      "materials": [
+        {
+          "link": "topics/admin/tutorials/ansible-galaxy/slides.html",
+          "type": "Week Overview Slides"
+        }
+      ],
+      "name": "Admin Training Week Overview",
+      "support_channel": "#02-ansible-galaxy",
+      "support_link": "https://galaxyadmintraining.slack.com/archives/02-ansible-galaxy",
+      "tags": [
+        "admin"
+      ],
+      "type": "Tutorial",
+      "versions": [
+        {
+          "captions": [
+            "shiltemann"
+          ],
+          "date": "2021-02-15",
+          "galaxy_version": "21.01",
+          "length": "4M",
+          "link": "JN-C5UbHthY",
+          "speakers": [
+            "hexylena"
           ]
         }
       ]
