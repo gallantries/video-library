@@ -2,6 +2,7 @@
   "url": "/video-library/api/tags/proteogenomics.json",
   "videos": {
     "proteogenomics/introduction/slides": {
+      "name": "Introduction to Proteogenomics",
       "description": "In this opening presentation, the basic components of proteogenomics are described, including the main steps in the bioinformatics analysis workflow that make up this approach and will be detailed in the following tutorials. Some examples of research questions that benefit from a proteogenomics approach are also highlighted.",
       "faq": "https://docs.google.com/document/d/e/2PACX-1vTjQFq5wdkZeEFiQq-E8DkOTlLI9PChgWrwekHjPYBqndlb6kuAoXDiuiJaX5N09r63dWTyLPnnL8BK/pub",
       "materials": [
@@ -11,7 +12,6 @@
           "type": "Slides"
         }
       ],
-      "name": "Introduction to Proteogenomics",
       "support_channel": "#proteomics_protegenomics",
       "support_link": "https://gtnsmrgsbord.slack.com/archives/C01ETNTP6HL",
       "tags": [

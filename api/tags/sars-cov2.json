@@ -2,10 +2,10 @@
   "url": "/video-library/api/tags/sars-cov2.json",
   "videos": {
     "galaxy-interface/upload-to-ena": {
+      "name": "Uploading data to ENA",
       "description": "So you’ve used Galaxy workflows to analyze your SARS-CoV-2 samples? Learn in this tutorial how to export results to your favorite datastore.",
       "faq": null,
       "materials": null,
-      "name": "Uploading data to ENA",
       "support_channel": null,
       "support_link": null,
       "tags": [
@@ -26,12 +26,12 @@
       ]
     },
     "sars-cov2/usegalaxy-star-bot": {
+      "name": "The usegalaxy.* SARS-CoV-2 Bot in Action",
       "description": "See in this demo how, on usegalaxy.*, we’ve used Planemo and Bioblend to build and operate an automated SARS-CoV-2 genome surveillance system based on the Galaxy workflows for variant calling, consensus building and reporting.",
       "faq": null,
       "materials": [
 
       ],
-      "name": "The usegalaxy.* SARS-CoV-2 Bot in Action",
       "support_channel": null,
       "support_link": null,
       "tags": [
@@ -51,12 +51,12 @@
       ]
     },
     "sars-cov2/using-galaxy": {
+      "name": "SARS-CoV-2 Monitoring and Analysis with Galaxy",
       "description": "Get an overview of the workshop: production-ready Galaxy workflows for SARS-CoV-2 sequencing data, tools you should know to automate workflow execution, and how you combine all of it to turn Galaxy into a platform for genome-surveillance",
       "faq": null,
       "materials": [
 
       ],
-      "name": "SARS-CoV-2 Monitoring and Analysis with Galaxy",
       "support_channel": null,
       "support_link": null,
       "tags": [

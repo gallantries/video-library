@@ -13,18 +13,6 @@
   },
   {
     "captions": [
-      "astrovsky01"
-    ],
-    "date": "2021-02-15",
-    "galaxy_version": "21.01",
-    "length": "2M",
-    "link": "a6XZgEy6hlg",
-    "speakers": [
-      "astrovsky01"
-    ]
-  },
-  {
-    "captions": [
       "bernt-matthias"
     ],
     "date": "2021-02-15",
@@ -33,18 +21,6 @@
     "link": "hg0YreA8W1I",
     "speakers": [
       "bernt-matthias"
-    ]
-  },
-  {
-    "captions": [
-      "astrovsky01"
-    ],
-    "date": "2021-02-15",
-    "galaxy_version": "21.01",
-    "length": "1M",
-    "link": "WFSQE8bq5qI",
-    "speakers": [
-      "astrovsky01"
     ]
   },
   {
@@ -67,6 +43,30 @@
     "galaxy_version": "21.01",
     "length": "17M",
     "link": "FdtD8vBLK5k",
+    "speakers": [
+      "astrovsky01"
+    ]
+  },
+  {
+    "captions": [
+      "astrovsky01"
+    ],
+    "date": "2021-02-15",
+    "galaxy_version": "21.01",
+    "length": "2M",
+    "link": "a6XZgEy6hlg",
+    "speakers": [
+      "astrovsky01"
+    ]
+  },
+  {
+    "captions": [
+      "astrovsky01"
+    ],
+    "date": "2021-02-15",
+    "galaxy_version": "21.01",
+    "length": "1M",
+    "link": "WFSQE8bq5qI",
     "speakers": [
       "astrovsky01"
     ]

@@ -2,14 +2,13 @@
   "url": "/video-library/api/tags/event.json",
   "videos": {
     "course/welcome-admin": {
+      "name": "Admin Training 2021: Welcome & Course Logistics",
       "description": null,
       "faq": null,
-      "name": "Admin Training 2021: Welcome & Course Logistics",
       "support_channel": "#general",
       "support_link": "https://galaxyadmintraining.slack.com/archives/general",
       "tags": [
-        "event",
-        "course"
+        "event"
       ],
       "type": "Tutorial",
       "versions": [
@@ -28,6 +27,7 @@
       ]
     },
     "course/welcome-gcc2021": {
+      "name": "GCC2021 Training: Welcome & Course Logistics",
       "description": "Start here; we will go over all the important things to know to get the most out of this workshop",
       "faq": null,
       "materials": [
@@ -37,12 +37,10 @@
           "type": "Slides"
         }
       ],
-      "name": "GCC2021 Training: Welcome & Course Logistics",
       "support_channel": "#general",
       "support_link": "https://galaxyadmintraining.slack.com/archives/general",
       "tags": [
-        "event",
-        "course"
+        "event"
       ],
       "type": "Lecture",
       "versions": [
