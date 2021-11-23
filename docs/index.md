@@ -23,7 +23,7 @@ The easiest way to find a video for a GTN tutorial that you are interested in, i
 
 ![screenshot of the GTN connection]({{site.baseurl}}/assets/images/gtn-videolib-connection.png){: width="50%" style="border:2px solid #555"}
 
-You can also find the full list of **videos** and **session** below.
+You can also find the full list of **videos** and **sessions** (multi-video tutorials) below.
 
 <a href="library"><button type="button" class="btn btn-warning">Video Library</button></a>
 <a href="session-library"><button type="button" class="btn btn-warning">Session Library</button></a>
