@@ -31,7 +31,7 @@
       "versions": [
         {
           "captions": [
-            null
+
           ],
           "date": "2021-02-15",
           "galaxy_version": "21.01",
@@ -73,7 +73,7 @@
       "versions": [
         {
           "captions": [
-            null
+
           ],
           "date": "2021-02-15",
           "galaxy_version": "21.01",
@@ -115,7 +115,7 @@
       "versions": [
         {
           "captions": [
-            null
+
           ],
           "date": "2021-02-15",
           "galaxy_version": "21.01",
@@ -199,7 +199,7 @@
       "versions": [
         {
           "captions": [
-            null
+
           ],
           "date": "2021-02-15",
           "galaxy_version": "21.01",
@@ -241,7 +241,7 @@
       "versions": [
         {
           "captions": [
-            null
+
           ],
           "date": "2021-02-15",
           "galaxy_version": "21.01",
@@ -325,7 +325,7 @@
       "versions": [
         {
           "captions": [
-            null
+
           ],
           "date": "2021-02-15",
           "galaxy_version": "21.01",
@@ -367,7 +367,7 @@
       "versions": [
         {
           "captions": [
-            null
+
           ],
           "date": "2021-02-15",
           "galaxy_version": "21.01",
@@ -380,6 +380,7 @@
       ]
     },
     "dev/debugging/tutorial/intro": {
+      "name": "Introduction",
       "description": "This is the first video in the Debugging Galaxy series.",
       "faq": "https://docs.google.com/document/d/e/2PACX-1vT3bgaeSbiZ0lofmUS-KB-2-OZkdxP8_OnWl1kOex5O7HSAR_Sj8Xmzz26lrh3k5aTzhjDNzt6cVa0S/pub",
       "materials": [
@@ -411,6 +412,7 @@
       ]
     },
     "dev/debugging/tutorial/client-unit-test": {
+      "name": "Client Unit Tests",
       "description": "What to do when your client throws a unit test failure.",
       "faq": "https://docs.google.com/document/d/e/2PACX-1vT3bgaeSbiZ0lofmUS-KB-2-OZkdxP8_OnWl1kOex5O7HSAR_Sj8Xmzz26lrh3k5aTzhjDNzt6cVa0S/pub",
       "materials": [
@@ -442,6 +444,7 @@
       ]
     },
     "dev/debugging/tutorial/summary": {
+      "name": "Debugging Wisdom",
       "description": "A summary of wisdom to debug Galaxy with.",
       "faq": "https://docs.google.com/document/d/e/2PACX-1vT3bgaeSbiZ0lofmUS-KB-2-OZkdxP8_OnWl1kOex5O7HSAR_Sj8Xmzz26lrh3k5aTzhjDNzt6cVa0S/pub",
       "materials": [
@@ -473,6 +476,7 @@
       ]
     },
     "dev/debugging/tutorial/api-test-failure": {
+      "name": "API tests",
       "description": "What to do when an API test fails.",
       "faq": "https://docs.google.com/document/d/e/2PACX-1vT3bgaeSbiZ0lofmUS-KB-2-OZkdxP8_OnWl1kOex5O7HSAR_Sj8Xmzz26lrh3k5aTzhjDNzt6cVa0S/pub",
       "materials": [
@@ -504,6 +508,7 @@
       ]
     },
     "dev/debugging/tutorial/client-linter": {
+      "name": "Client Linting",
       "description": "This video covers working through the client linting error hit in the previous tutorial.",
       "faq": "https://docs.google.com/document/d/e/2PACX-1vT3bgaeSbiZ0lofmUS-KB-2-OZkdxP8_OnWl1kOex5O7HSAR_Sj8Xmzz26lrh3k5aTzhjDNzt6cVa0S/pub",
       "materials": [
@@ -535,6 +540,7 @@
       ]
     },
     "dev/debugging/tutorial/runtime-error": {
+      "name": "Runtime Errors",
       "description": "How to fix a runtime error",
       "faq": "https://docs.google.com/document/d/e/2PACX-1vT3bgaeSbiZ0lofmUS-KB-2-OZkdxP8_OnWl1kOex5O7HSAR_Sj8Xmzz26lrh3k5aTzhjDNzt6cVa0S/pub",
       "materials": [
@@ -565,6 +571,7 @@
       ]
     },
     "dev/debugging/tutorial/selenium": {
+      "name": "Selenium",
       "description": "Selenium is used to test Galaxy development.  Learn more about test failure and how to address them.",
       "faq": "https://docs.google.com/document/d/e/2PACX-1vT3bgaeSbiZ0lofmUS-KB-2-OZkdxP8_OnWl1kOex5O7HSAR_Sj8Xmzz26lrh3k5aTzhjDNzt6cVa0S/pub",
       "materials": [
@@ -598,6 +605,7 @@
       ]
     },
     "dev/debugging/tutorial/unit-test-failure": {
+      "name": "Unit Testing",
       "description": "What to do when a unit test fails.",
       "faq": "https://docs.google.com/document/d/e/2PACX-1vT3bgaeSbiZ0lofmUS-KB-2-OZkdxP8_OnWl1kOex5O7HSAR_Sj8Xmzz26lrh3k5aTzhjDNzt6cVa0S/pub",
       "materials": [
@@ -629,6 +637,7 @@
       ]
     },
     "dev/tool-from-scratch/tutorial/conda": {
+      "name": "Conda",
       "description": "The first step to adding a tool to Galaxy, is to add it to (Bio)Conda. This tutorial will show you how to do that.",
       "faq": "https://docs.google.com/document/d/1moSs0APNyhm4yZ9vPfpH0ErPONncNU-UCRzGvypc84I/pub",
       "materials": [
@@ -659,6 +668,7 @@
       ]
     },
     "dev/tool-from-scratch/tutorial/publish": {
+      "name": "Publishing Tools",
       "description": "Here you will learn how to publish tools in public tool repositories.",
       "faq": "https://docs.google.com/document/d/1moSs0APNyhm4yZ9vPfpH0ErPONncNU-UCRzGvypc84I/pub",
       "materials": [
@@ -689,6 +699,7 @@
       ]
     },
     "dev/tool-from-scratch/tutorial/testing": {
+      "name": "Tool Testing",
       "description": "Here you will learn how to test Galaxy tools using Planemo.",
       "faq": "https://docs.google.com/document/d/1moSs0APNyhm4yZ9vPfpH0ErPONncNU-UCRzGvypc84I/pub",
       "materials": [
@@ -719,6 +730,7 @@
       ]
     },
     "dev/tool-from-scratch/tutorial/tool-wrapper": {
+      "name": "Tool Wrappers",
       "description": "You are now ready to start writing your tool wrapper! This video will show you how.",
       "faq": "https://docs.google.com/document/d/1moSs0APNyhm4yZ9vPfpH0ErPONncNU-UCRzGvypc84I/pub",
       "materials": [
@@ -749,6 +761,7 @@
       ]
     },
     "dev/tool-from-scratch/tutorial/planemo-init": {
+      "name": "Planemo Init",
       "description": "Planemo is the Galaxy tool development kit, and will make your tool development process a lot easier! This tutorial will show you how to use Planemo to start the tool wrapping process, and covers the general structure of a Galaxy tool wrapper.",
       "faq": "https://docs.google.com/document/d/1moSs0APNyhm4yZ9vPfpH0ErPONncNU-UCRzGvypc84I/pub",
       "materials": [
@@ -779,6 +792,7 @@
       ]
     },
     "dev/tool-from-scratch/tutorial/shed-yml": {
+      "name": "Shed.yml",
       "description": "Each tool wrapper also needs a .shed.yml file, which contains some metadata about the tool.",
       "faq": "https://docs.google.com/document/d/1moSs0APNyhm4yZ9vPfpH0ErPONncNU-UCRzGvypc84I/pub",
       "materials": [
@@ -813,7 +827,6 @@
       "faq": "https://docs.google.com/document/d/1e2iuYoseNkPvUBfMczEtPNsKI2Nfbyn6pN9Nz1x6E1o/pub",
       "materials": [
         {
-          "description": "Introductory hands-on DIY tutorial - obtaining the Appliance and creating \"hello world\" tools using the ToolFactory",
           "link": "topics/dev/tutorials/tool-generators/tutorial.html",
           "type": "Tutorial"
         }

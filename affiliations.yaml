@@ -48,6 +48,10 @@ fmi:
   link: "https://www.fmi.ch/"
   logo: fmi.png
 
+fredhutch:
+  name: Fred Hutchinson Cancer Research Center
+  link: "https://www.fredhutch.org"
+
 freiburguni:
   name: Albert-Ludwigs-Universität Freiburg
   link: "https://uni-freiburg.de/"
@@ -58,15 +62,15 @@ freiburg-uniklinik-surgpathol:
   link: "https://www.uniklinik-freiburg.de/pathologie-en.html"
   logo: 06_uniklikik.png
 
-inab-certh:
-  name: INAB|CERTH
-  link: "https://www.inab.certh.gr/"
-  logo: 05_inab.jpg
-
 ifb:
   name: French Institute of Bioinformatics
   link: "https://www.france-bioinformatique.fr"
   logo: ifb.jpg
+
+inab-certh:
+  name: INAB|CERTH
+  link: "https://www.inab.certh.gr/"
+  logo: 05_inab.jpg
 
 inrae:
   name: INRAE
@@ -106,16 +110,37 @@ pennstate:
   link: "https://www.psu.edu/"
   logo: pennstate.png
 
+petermac:
+  name: Peter MacCallum Cancer Centre
+  link: "https://www.petermac.org/"
+
 sanbi:
   name: SANBI/UWC
   link: "https://www.sanbi.org/"
   logo: sanbi.png
   mouseover: "South African National Bioinformatics Institute, South African MRC Bioinformatics Unit, University of the Western Cape, Bellville, 7535, South Africa"
 
+sciensano:
+  name: Sciensano
+  link: "https://www.sciensano.be"
+  logo: sciensano.jpg
+  mouseover: "Belgian National Public Health Institute."
+
 slu:
   name: Swedish University of Agricultural Sciences
   link: "https://www.slu.se"
   logo: slu.png
+
+uct:
+  name: University of Cape Town
+  link: "https://www.uct.ac.za/"
+  logo: UCTlogo.png
+
+ufz:
+  name: UFZ - Helmholtz Centre for Environmental Research
+  link: "https://www.ufz.de/"
+  logo: ufz.png
+
 
 UniQuilmes:
    name: Universidad Nacional de Quilmes/CONICET
