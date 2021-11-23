@@ -3119,7 +3119,7 @@ dev/tool-from-scratch/tutorial/tool-wrapper:
     - astrovsky01
 
 dev/tool-from-scratch/tutorial/planemo-init:
-  name: Planemo
+  name: Planemo Init
   description: Planemo is the Galaxy tool development kit, and will make your tool
     development process a lot easier! This tutorial will show you how to use Planemo
     to start the tool wrapping process, and covers the general structure of a Galaxy
