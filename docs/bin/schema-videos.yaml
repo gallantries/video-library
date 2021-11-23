@@ -78,10 +78,12 @@ mapping:
                               type: seq
                               sequence:
                                   - type: str
+                                    enum: CONTRIBUTORS
                           speakers:
                               type: seq
                               sequence:
                                   - type: str
+                                    enum: CONTRIBUTORS
                           date:
                               type: str
                               required: true
