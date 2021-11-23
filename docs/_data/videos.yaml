@@ -328,7 +328,7 @@ galaxy-interface/collections/tutorial:
   type: Tutorial
   versions:
   - captions: null
-    date: null
+    date: '2021-08-09'
     length: 11M
     link: uZUt9XIHUQo
     speakers:
@@ -418,10 +418,10 @@ galaxy-interface/upload-to-ena:
   tags:
   - sars-cov2
   - galaxy-interface
-  type: Slides & Tutorial
+  type: Lecture & Tutorial
   versions:
   - captions: null
-    date: null
+    date: '2021-08-09'
     length: 10M
     link: -5U0sINjoig
     speakers:
@@ -637,7 +637,7 @@ introduction/galaxy-intro-101/tutorial:
   type: Tutorial
   versions:
   - captions: null
-    date: 21-07-2021
+    date: '2021-07-21'
     length: 13M
     link: D5HgJWdfOWw
     speakers:
@@ -1110,7 +1110,7 @@ sars-cov2/usegalaxy-star-bot:
   type: Demo
   versions:
   - captions: null
-    date: null
+    date: '2021-08-09'
     length: 40M
     link: IRxja8bZ-MU
     speakers:
@@ -1129,7 +1129,7 @@ sars-cov2/using-galaxy:
   type: Tutorial
   versions:
   - captions: null
-    date: null
+    date: '2021-08-09'
     length: 13M
     link: luxFraFJTc4
     speakers:
@@ -2643,8 +2643,7 @@ dev/architecture/slides-ecosystem:
   tags: [dev]
   type: Lecture
   versions:
-  - captions:
-    - null
+  - captions: []
     date: '2021-02-15'
     galaxy_version: '21.01'
     length: 25M
@@ -2671,8 +2670,7 @@ dev/architecture/slides-models-managers:
   tags: [dev]
   type: Lecture
   versions:
-  - captions:
-    - null
+  - captions: []
     date: '2021-02-15'
     galaxy_version: '21.01'
     length: 15M
@@ -2699,8 +2697,7 @@ dev/architecture/slides-app-di:
   tags: [dev]
   type: Lecture
   versions:
-  - captions:
-    - null
+  - captions: []
     date: '2021-02-15'
     galaxy_version: '21.01'
     length: 15M
@@ -2755,8 +2752,7 @@ dev/architecture/slides-web-client:
   tags: [dev]
   type: Lecture
   versions:
-  - captions:
-    - null
+  - captions: []
     date: '2021-02-15'
     galaxy_version: '21.01'
     length: 15M
@@ -2783,8 +2779,7 @@ dev/architecture/slides-pluggable-components:
   tags: [dev]
   type: Lecture
   versions:
-  - captions:
-    - null
+  - captions: []
     date: '2021-02-15'
     galaxy_version: '21.01'
     length: 45M
@@ -2838,8 +2833,7 @@ dev/architecture/slides-web-requests:
   tags: [dev]
   type: Lecture
   versions:
-  - captions:
-    - null
+  - captions: []
     date: '2021-02-15'
     galaxy_version: '21.01'
     length: 35M
@@ -2865,8 +2859,7 @@ dev/architecture/slides-files-directories:
   tags: [dev]
   type: Lecture Series
   versions:
-  - captions:
-    - null
+  - captions: []
     date: '2021-02-15'
     galaxy_version: '21.01'
     length: 17M
@@ -2875,6 +2868,7 @@ dev/architecture/slides-files-directories:
     - jmchilton
 
 dev/debugging/tutorial/intro:
+  name: Introduction
   description: 'This is the first video in the Debugging Galaxy series.'
   faq: https://docs.google.com/document/d/e/2PACX-1vT3bgaeSbiZ0lofmUS-KB-2-OZkdxP8_OnWl1kOex5O7HSAR_Sj8Xmzz26lrh3k5aTzhjDNzt6cVa0S/pub
   materials:
@@ -2894,6 +2888,7 @@ dev/debugging/tutorial/intro:
     speakers: [assuntad23, ic4f]
 
 dev/debugging/tutorial/client-unit-test:
+  name: Client Unit Tests
   description: 'What to do when your client throws a unit test failure.'
   faq: https://docs.google.com/document/d/e/2PACX-1vT3bgaeSbiZ0lofmUS-KB-2-OZkdxP8_OnWl1kOex5O7HSAR_Sj8Xmzz26lrh3k5aTzhjDNzt6cVa0S/pub
   materials:
@@ -2913,6 +2908,7 @@ dev/debugging/tutorial/client-unit-test:
     speakers: [assuntad23, ic4f]
 
 dev/debugging/tutorial/summary:
+  name: Debugging Wisdom
   description: 'A summary of wisdom to debug Galaxy with.'
   faq: https://docs.google.com/document/d/e/2PACX-1vT3bgaeSbiZ0lofmUS-KB-2-OZkdxP8_OnWl1kOex5O7HSAR_Sj8Xmzz26lrh3k5aTzhjDNzt6cVa0S/pub
   materials:
@@ -2932,6 +2928,7 @@ dev/debugging/tutorial/summary:
     speakers: [assuntad23, ic4f]
 
 dev/debugging/tutorial/api-test-failure:
+  name: API tests
   description: 'What to do when an API test fails.'
   faq: https://docs.google.com/document/d/e/2PACX-1vT3bgaeSbiZ0lofmUS-KB-2-OZkdxP8_OnWl1kOex5O7HSAR_Sj8Xmzz26lrh3k5aTzhjDNzt6cVa0S/pub
   materials:
@@ -2951,6 +2948,7 @@ dev/debugging/tutorial/api-test-failure:
     speakers: [assuntad23, ic4f]
 
 dev/debugging/tutorial/client-linter:
+  name: Client Linting
   description: 'This video covers working through the client linting error hit in
     the previous tutorial.'
   faq: https://docs.google.com/document/d/e/2PACX-1vT3bgaeSbiZ0lofmUS-KB-2-OZkdxP8_OnWl1kOex5O7HSAR_Sj8Xmzz26lrh3k5aTzhjDNzt6cVa0S/pub
@@ -2971,6 +2969,7 @@ dev/debugging/tutorial/client-linter:
     speakers: [assuntad23, ic4f]
 
 dev/debugging/tutorial/runtime-error:
+  name: Runtime Errors
   description: 'How to fix a runtime error'
   faq: https://docs.google.com/document/d/e/2PACX-1vT3bgaeSbiZ0lofmUS-KB-2-OZkdxP8_OnWl1kOex5O7HSAR_Sj8Xmzz26lrh3k5aTzhjDNzt6cVa0S/pub
   materials:
@@ -2990,6 +2989,7 @@ dev/debugging/tutorial/runtime-error:
     speakers: [ic4f]
 
 dev/debugging/tutorial/selenium:
+  name: Selenium
   description: 'Selenium is used to test Galaxy development.  Learn more about test
     failure and how to address them.'
   faq: https://docs.google.com/document/d/e/2PACX-1vT3bgaeSbiZ0lofmUS-KB-2-OZkdxP8_OnWl1kOex5O7HSAR_Sj8Xmzz26lrh3k5aTzhjDNzt6cVa0S/pub
@@ -3014,6 +3014,7 @@ dev/debugging/tutorial/selenium:
     - assuntad23
 
 dev/debugging/tutorial/unit-test-failure:
+  name: Unit Testing
   description: 'What to do when a unit test fails.'
   faq: https://docs.google.com/document/d/e/2PACX-1vT3bgaeSbiZ0lofmUS-KB-2-OZkdxP8_OnWl1kOex5O7HSAR_Sj8Xmzz26lrh3k5aTzhjDNzt6cVa0S/pub
   materials:
@@ -3033,6 +3034,7 @@ dev/debugging/tutorial/unit-test-failure:
     speakers: [assuntad23, ic4f]
 
 dev/tool-from-scratch/tutorial/conda:
+  name: Conda
   description: The first step to adding a tool to Galaxy, is to add it to (Bio)Conda.
     This tutorial will show you how to do that.
   faq: https://docs.google.com/document/d/1moSs0APNyhm4yZ9vPfpH0ErPONncNU-UCRzGvypc84I/pub
@@ -3053,6 +3055,7 @@ dev/tool-from-scratch/tutorial/conda:
     speakers:
     - davebx
 dev/tool-from-scratch/tutorial/publish:
+  name: Publishing Tools
   description: Here you will learn how to publish tools in public tool repositories.
   faq: https://docs.google.com/document/d/1moSs0APNyhm4yZ9vPfpH0ErPONncNU-UCRzGvypc84I/pub
   materials:
@@ -3073,6 +3076,7 @@ dev/tool-from-scratch/tutorial/publish:
     - bernt-matthias
 
 dev/tool-from-scratch/tutorial/testing:
+  name: Tool Testing
   description: Here you will learn how to test Galaxy tools using Planemo.
   faq: https://docs.google.com/document/d/1moSs0APNyhm4yZ9vPfpH0ErPONncNU-UCRzGvypc84I/pub
   materials:
@@ -3093,6 +3097,7 @@ dev/tool-from-scratch/tutorial/testing:
     - bernt-matthias
 
 dev/tool-from-scratch/tutorial/tool-wrapper:
+  name: Tool Wrappers
   description: You are now ready to start writing your tool wrapper! This video will
     show you how.
   faq: https://docs.google.com/document/d/1moSs0APNyhm4yZ9vPfpH0ErPONncNU-UCRzGvypc84I/pub
@@ -3114,6 +3119,7 @@ dev/tool-from-scratch/tutorial/tool-wrapper:
     - astrovsky01
 
 dev/tool-from-scratch/tutorial/planemo-init:
+  name: Planemo
   description: Planemo is the Galaxy tool development kit, and will make your tool
     development process a lot easier! This tutorial will show you how to use Planemo
     to start the tool wrapping process, and covers the general structure of a Galaxy
@@ -3136,6 +3142,7 @@ dev/tool-from-scratch/tutorial/planemo-init:
     speakers:
     - astrovsky01
 dev/tool-from-scratch/tutorial/shed-yml:
+  name: Shed.yml
   description: Each tool wrapper also needs a .shed.yml file, which contains some
     metadata about the tool.
   faq: https://docs.google.com/document/d/1moSs0APNyhm4yZ9vPfpH0ErPONncNU-UCRzGvypc84I/pub
@@ -3156,12 +3163,13 @@ dev/tool-from-scratch/tutorial/shed-yml:
     speakers:
     - astrovsky01
 dev/tool-generators/tutorial:
-  description: 'Making tools from command-line scripts with the ToolFactory.'
+  description: |
+    Making tools from command-line scripts with the ToolFactory.
+    Introductory hands-on DIY tutorial - obtaining the Appliance and
+    creating "hello world" tools using the ToolFactory'
   faq: https://docs.google.com/document/d/1e2iuYoseNkPvUBfMczEtPNsKI2Nfbyn6pN9Nz1x6E1o/pub
   materials:
-  - description: 'Introductory hands-on DIY tutorial - obtaining the Appliance and
-      creating "hello world" tools using the ToolFactory'
-    link: topics/dev/tutorials/tool-generators/tutorial.html
+  - link: topics/dev/tutorials/tool-generators/tutorial.html
     type: Tutorial
   - link: topics/dev/tutorials/tool-generators-advanced/tutorial.html
     title: 'ToolFactory: Generating Tools From More Complex Scripts'
@@ -3191,9 +3199,7 @@ dev/tool-generators/tutorial:
     '
   faq: https://docs.google.com/document/d/1e2iuYoseNkPvUBfMczEtPNsKI2Nfbyn6pN9Nz1x6E1o/pub
   materials:
-  - description: 'Introductory hands-on DIY tutorial - obtaining the Appliance and
-      creating "hello world" tools using the ToolFactory'
-    link: topics/dev/tutorials/tool-generators/tutorial.html
+  - link: topics/dev/tutorials/tool-generators/tutorial.html
     type: Tutorial
   support_channel: '#dev-toolfactory'
   support_link: https://gtnsmrgsbord.slack.com/archives/dev-toolfactory

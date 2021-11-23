@@ -36,7 +36,7 @@ mapping:
                 pattern: /^https.*/
             type:
                 type: str
-                pattern: /^(Webinar|Demo|Lecture|Lecture & Demo|Tutorial|Lecture & Tutorial)$/
+                pattern: /^(Webinar|Demo|Lecture|Lecture & Demo|Tutorial|Lecture & Tutorial|Lecture Series)$/
             tags:
                 type: seq
                 sequence:
@@ -48,11 +48,11 @@ mapping:
                         - community
                         - computational-chemistry
                         - contributing
-                        - course
                         - data-science
                         - dev
                         - ecology
                         - epigenetics
+                        - event
                         - galaxy
                         - galaxy-interface
                         - galaxy-intro
