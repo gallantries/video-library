@@ -2238,6 +2238,18 @@
         "versions": [
           {
             "captions": [
+              "galaxycommunity"
+            ],
+            "date": "2021-04-20",
+            "galaxy_version": "21.01",
+            "length": "10M",
+            "link": "TODO",
+            "speakers": [
+              "awspolly"
+            ]
+          },
+          {
+            "captions": [
               "gallardoalba"
             ],
             "date": "2021-02-15",
@@ -2466,6 +2478,98 @@
             "speakers": [
               "awspolly"
             ]
+          }
+        ]
+      },
+      "transcriptomics/scrna-umis/tutorial": {
+        "name": "Understanding Barcodes",
+        "description": "This tutorial demonstrates the what barcodes in your sequencing data are, and how to handle them during analysis. Please work through the full tutorial yourself to get all the details.",
+        "support_channel": "#3-1_understanding-barcodes",
+        "support_link": "https://gtnsmrgsbord.slack.com/archives/C01EXBNDKT7",
+        "faq": "https://docs.google.com/document/d/e/2PACX-1vRWe-8VHsJ4vbO8rwXemPDKUabWrKy1NRnxOKfIzEgj8RQ0tfG0W1kyUx30gVyWND_h4s12MtsV58Sh/pub",
+        "materials": [
+          {
+            "type": "Tutorial",
+            "link": "topics/transcriptomics/tutorials/scrna-umis/tutorial.html"
+          }
+        ],
+        "tags": [
+          "transcriptomics"
+        ],
+        "type": "Demo",
+        "versions": [
+          {
+            "link": "AJ17BicjmYU",
+            "date": "2021-03-18",
+            "galaxy_version": "21.01",
+            "length": "10M",
+            "captions": [
+              "khanteymoori"
+            ],
+            "speakers": [
+              "nomadscientist"
+            ]
+          }
+        ]
+      },
+      "transcriptomics/scrna-preprocessing-tenx/tutorial": {
+        "name": "Pre-processing of 10X Single-Cell RNA Datasets",
+        "description": "10x genomics has provided not only a cost-effective high-throughput solution to understanding sample heterogeneity at the individual cell level, but has defined the standards of the field that many downstream analysis packages are now scrambling to accommodate. Please work through the full tutorial yourself to get all the details.",
+        "support_channel": "#3-2_preprocessing-10x-single-cell-rna-datasets",
+        "support_link": "https://gtnsmrgsbord.slack.com/archives/C01EXBPPBK7",
+        "faq": "https://docs.google.com/document/d/e/2PACX-1vTuCzmNJlZSbS9-lIdfLgt8T7IJb7jWZ3gedtjNB4aKJ7pAi3apYS4NgfaCRh0_r5QbF4Pwl15Z0-mk/pub",
+        "type": "Demo",
+        "materials": [
+          {
+            "type": "Tutorial",
+            "link": "topics/transcriptomics/tutorials/scrna-preprocessing-tenx/tutorial.html",
+            "title": "Pre-processing of 10X Single-Cell RNA Datasets"
+          }
+        ],
+        "tags": [
+          "transcriptomics"
+        ],
+        "versions": [
+          {
+            "link": "vNBNFkF0L4U",
+            "date": "2021-03-18",
+            "galaxy_version": "21.01",
+            "length": "5M",
+            "captions": [
+              "khanteymoori"
+            ],
+            "speakers": [
+              "nomadscientist"
+            ]
+          }
+        ]
+      },
+      "transcriptomics/scrna-scanpy-pbmc3k/tutorial": {
+        "name": "Clustering 3K PBMCs with Scanpy",
+        "support_channel": "#3-3_clustering-3k-pbmcs-with-scanpy",
+        "support_link": "https://gtnsmrgsbord.slack.com/archives/C01FQ9RLLF2",
+        "faq": "https://docs.google.com/document/d/e/2PACX-1vTdqGjslXMxUjyjqwkNtidsXFl6SRULFKFug_2TYBl-dYXIDEnXb59nMyZ5qJc6bXI-fP5cPLfkXbHV/pub",
+        "type": "Demo",
+        "description": "In this tutorial, we will investigate clustering of single-cell data from 10x Genomics, including preprocessing, clustering and the identification of cell types via known marker genes, using Scanpy. It will be illustrated using a dataset of Peripheral Blood Mononuclear Cells (PBMC), containing 2,700 single cells. Please work through the full tutorial yourself to get all the details.",
+        "tags": [
+          "transcriptomics"
+        ],
+        "video": [
+          {
+            "link": "nefB35Bi1l4",
+            "length": "45M",
+            "captions": [
+              "hrhotz"
+            ],
+            "speakers": [
+              "nomadscientist"
+            ]
+          }
+        ],
+        "material": [
+          {
+            "type": "Tutorial",
+            "link": "topics/transcriptomics/tutorials/scrna-scanpy-pbmc3k/tutorial.html"
           }
         ]
       },

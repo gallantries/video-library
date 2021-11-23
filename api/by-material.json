@@ -840,6 +840,18 @@
   "topics/transcriptomics/tutorials/mirna-target-finder/slides.html": [
     {
       "captions": [
+        "galaxycommunity"
+      ],
+      "date": "2021-04-20",
+      "galaxy_version": "21.01",
+      "length": "10M",
+      "link": "TODO",
+      "speakers": [
+        "awspolly"
+      ]
+    },
+    {
+      "captions": [
         "gallardoalba"
       ],
       "date": "2021-02-15",
@@ -949,6 +961,34 @@
       "link": "D3qvYWZMFa0",
       "speakers": [
         "awspolly"
+      ]
+    }
+  ],
+  "topics/transcriptomics/tutorials/scrna-umis/tutorial.html": [
+    {
+      "link": "AJ17BicjmYU",
+      "date": "2021-03-18",
+      "galaxy_version": "21.01",
+      "length": "10M",
+      "captions": [
+        "khanteymoori"
+      ],
+      "speakers": [
+        "nomadscientist"
+      ]
+    }
+  ],
+  "topics/transcriptomics/tutorials/scrna-preprocessing-tenx/tutorial.html": [
+    {
+      "link": "vNBNFkF0L4U",
+      "date": "2021-03-18",
+      "galaxy_version": "21.01",
+      "length": "5M",
+      "captions": [
+        "khanteymoori"
+      ],
+      "speakers": [
+        "nomadscientist"
       ]
     }
   ],
