@@ -95,6 +95,19 @@ module Jekyll
       durations['bytag'] = durations['bytag'].map{|k, v| [k, v]}.sort_by{|a| -a[1]}
       durations['byspeaker'] = durations['byspeaker'].map{|k, v| [k, v]}.sort_by{|a| -a[1]}
       durations['bycaptioner'] = durations['bycaptioner'].map{|k, v| [k, v]}.sort_by{|a| -a[1]}
+
+      # Propagate video tags to sessions
+      site.data['sessions_bytag'] = Hash.new { Array.new }
+      site.data['sessions'].each{|k, v|
+        # For each session we have some videos:
+        tags = v['videos'].map{|video| site.data['videos'][video]['tags'] }.flatten.uniq
+        tags.each{|tag|
+          if ! site.data['sessions_bytag'].has_key? tag
+            site.data['sessions_bytag'][tag] = {}
+          end
+          site.data['sessions_bytag'][tag][k] = site.data['sessions'][k]
+        }
+      }
     end
   end
 end
