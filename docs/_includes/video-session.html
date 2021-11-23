@@ -11,7 +11,7 @@
 
 <div class="flex-row" style="margin-top:1em;">
  <div class="col-md-8">
-  <h3 class="session-section">{% if include.title %}{{include.title}} {% if session-type %}({{session-type}}){% endif %}{% else %}{{session-type}} Video {% endif %}</h3>
+  <h3 class="session-section">{% if include.title %}{{include.title}} {% if session-type %}({{session-type}}){% endif %}{% else %}{{session-type}} Video {% endif %} {% if page.layout == 'video' %} ({{include.video.date | date: "%B %Y" }}) {% endif %} </h3>
   <div style="position:relative;padding-top:56.25%;">
    <iframe style="position:absolute;top:0;left:0;width:100%;height:100%;"
     {% if include.video.link contains 'http' %}
