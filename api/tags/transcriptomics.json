@@ -241,7 +241,8 @@
       "support_channel": "#transcriptomics_volcano-plot",
       "support_link": "https://gtnsmrgsbord.slack.com/archives/C0253LVPLFM",
       "tags": [
-        "transcriptomics"
+        "transcriptomics",
+        "visualisation"
       ],
       "type": "Tutorial",
       "versions": [
@@ -272,7 +273,8 @@
       "support_channel": "#transcriptomics_volcano-plot",
       "support_link": "https://gtnsmrgsbord.slack.com/archives/C0253LVPLFM",
       "tags": [
-        "transcriptomics"
+        "transcriptomics",
+        "visualisation"
       ],
       "type": "Tutorial",
       "versions": [
