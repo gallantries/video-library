@@ -1,0 +1,17 @@
+---
+type: map
+mapping:
+    "=":
+        type: map
+        mapping:
+            name:
+                type: str
+                required: true
+            affiliation:
+                type: str
+                required: false
+                enum: INSTITUTIONS
+            photo:
+                type: str
+                required: false
+                enum: PHOTOS

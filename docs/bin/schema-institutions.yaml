@@ -1,0 +1,20 @@
+---
+type: map
+mapping:
+    "=":
+        type: map
+        mapping:
+            name:
+                type: str
+                required: true
+            link:
+                type: str
+                required: false
+                pattern: /https?:\/\/.*/
+            logo:
+                type: str
+                required: false
+                enum: PICTURES
+            mouseover:
+                type: str
+                required: false
