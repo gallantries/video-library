@@ -17,4 +17,18 @@ This content is made available by a global community of contributors.
 - **For learners:** Here you can view and follow all the latest GTN video tutorials, and learn all about Galaxy and data analysis!
 - **For instructors and event organizers:** You can re-use these videos for your own lessons and workshops. Use our course builder to create your own program and get a free event page with course handbook and all the resources you need for your Galaxy training event!
 
+### Quick Start
+
+The easiest way to find a video for a GTN tutorial that you are interested in, is via the [GTN website](https://training.galaxyproject.org). Look at the overview box at the top of the tutorial, and look for the  **<i class="fas fa-video"></i> GTN Video Library** dropdown that will appear here if there is a video for that tutorial:
+
+![screenshot of the GTN connection]({{site.baseurl}}/assets/images/gtn-videolib-connection.png){: width="50%" style="border:2px solid #555"}
+
+You can also find the full list of **videos** and **session** below.
+
+<a href="library"><button type="button" class="btn btn-warning">Video Library</button></a>
+<a href="session-library"><button type="button" class="btn btn-warning">Session Library</button></a>
+<a href="course-builder"><button type="button" class="btn btn-info">Course Builder (Beta)</button></a>
+
+
+
 
