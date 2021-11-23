@@ -7,16 +7,15 @@ layout: default
 {% assign id2 = page.video | split: '/'%}
 {% capture name %}{{id2[0]}}/{{id2[1]}}{% endcapture%}
 
+<div class="alert alert-warning" role="alert">
+  <i class="fas fa-exclamation-triangle"></i><strong>Warning: </strong> Please be aware that these videos are a snapshot, and as such <strong>may use an outdated version</strong> of the tutorial and/or Galaxy. Below the video you will find links to the tutorials as they appeared at the time of recording.
+</div>
+
 <h2> {{ site.data.gtn[name] | default: site.data.videos[page.video].name }} </h2>
 
 Below are video tutorials for this GTN material, created for various (past) events.
 
 <br><br>
-
-<div class="alert alert-warning" role="alert">
-  <i class="fas fa-exclamation-triangle"></i><strong>Warning: </strong> Please be aware that these videos are a snapshot, and as such <strong>may use an outdated version</strong> of the tutorial and/or Galaxy. Please use the links to the archived versions of the GTN materials (below the video), to view the tutorials as they appeared at the time of recording.
-</div>
-
 
 {% assign allversions = "" | split: ',' %}
 {% for vid in v.versions %}{% assign allversions = allversions | push: vid %}{% endfor %}
@@ -30,7 +29,7 @@ Below are video tutorials for this GTN material, created for various (past) even
 <!-- list older versions of the video tutorial -->
 {% if numversions > 1 %}
 
-<h2> Older versions </h2>
+<h3> Older versions </h3>
 
 {% for version in sortedversions %}
 {% unless forloop.first %}
