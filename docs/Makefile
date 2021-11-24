@@ -22,5 +22,10 @@ check-html:
 		--allow-hash-href \
 		./_site
 
+test: build check-html-internal
+	bundle exec ruby bin/validate-frontmatter.rb
+	bundle exec ruby bin/validate-video-schema.rb
+
+
 clean:
 	rm -rf _site .jekyll-cache
