@@ -1,0 +1,31 @@
+---
+layout: default
+---
+
+{% assign s=site.data.sessions[page.session] %}
+
+<div class="alert alert-warning" role="alert">
+  <i class="fas fa-exclamation-triangle"></i><strong>Warning: </strong> Please be aware that these videos are a snapshot, and as such <strong>may use an outdated version</strong> of the tutorial and/or Galaxy. Below the video you will find links to the tutorials as they appeared at the time of recording.
+</div>
+
+<h2> {{ site.data.gtn[page.session] | default: site.data.sessions[page.session].name }} </h2>
+
+Below are video tutorials for this GTN session, created for various (past) events.
+
+<br><br>
+
+{{s.description}}
+
+{% for vid in s.videos %}
+  {% assign vsession = site.data.videos[vid] %}
+
+  {% assign allversions = "" | split: ',' %}
+  {% for v in vsession.versions %}{% assign allversions = allversions | push: v %}{% endfor %}
+  {% assign sortedversions = allversions | sort: 'date' | reverse %}
+  {% assign latestvideo = sortedversions[0] %}
+
+  {% include video-session.html vsession=vsession video=latestvideo id=vid  %}
+{% endfor %}
+
+
+
