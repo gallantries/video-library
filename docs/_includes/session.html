@@ -33,7 +33,7 @@
           {% assign vs = site.data.videos[vid] %}
           {% include video-session.html video=v vsession=vs session=include.session id=vid title=title %}
         {% endfor %}
-
+        Go to <a href="{{site.baseurl}}/sessions/{{include.id}}">session page</a>.
       {% elsif type == 'video' %}
         {% if include.session.versions.size >= 1  %}
            {% assign v = include.session.versions[0] %}
