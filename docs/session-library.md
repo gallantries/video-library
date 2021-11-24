@@ -19,7 +19,7 @@ Sessions are multi-video trainings often taught as a unit, for example a lecture
   {% for session in tag[1] %}
   {% assign id=session[0] %}
   {% assign s=session[1] %}
-  {% include session.html session=s id=id type="session" module="sessions" %}
+  {% include session.html session=s id=id type="session" module=tag-name %}
   {% endfor %}
 {% endfor %}
 </div>
