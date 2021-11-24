@@ -1,4 +1,4 @@
-name: Deploy Website
+name: Test Video Library
 
 on: [pull_request]
 
@@ -32,5 +32,5 @@ jobs:
       - name: Run Tests
         run: |
             cd docs/
-            ruby bin/validate-frontmatter.rb
-            ruby bin/validate-video-schema.rb
+            make test
+

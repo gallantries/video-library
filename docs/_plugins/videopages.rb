@@ -29,6 +29,32 @@ module Jekyll
           site.pages << page2
         end
       end
+
+      if site.layouts.key? 'session'
+        dir = 'sessions'
+
+        site.data['sessions'].each_key do |session|
+          page2 = PageWithoutAFile.new(site, "", File.join(dir, session), "index.html")
+          page2.content = nil
+          id2 = session.split('/')[0,2].join('/')
+
+          if site.data['gtn'].has_key?(id2)
+            name = site.data['gtn'].fetch(id2)
+          else
+            name = session
+          end if
+
+          # Their tutorials
+          page2.data['session'] = session
+          page2.data['sessionname'] = name
+          page2.data['title'] = "GTN Video: #{name}"
+          page2.data['layout'] = "session"
+
+          site.pages << page2
+        end
+      end
+
+
     end
   end
 end
