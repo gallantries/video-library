@@ -1,4 +1,4 @@
-name: Deploy Website
+name: Test Video Library
 
 on: [pull_request]
 
