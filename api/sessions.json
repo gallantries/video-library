@@ -114,7 +114,7 @@
       "dev/architecture/slides-files-directories"
     ]
   },
-  "dev/debugging": {
+  "dev/debugging/tutorial": {
     "name": "Debugging Galaxy",
     "description": "This series of videos will guide (future) Galaxy contributors through the process of debugging Galaxy.",
     "videos": [
@@ -128,7 +128,7 @@
       "dev/debugging/tutorial/summary"
     ]
   },
-  "dev/tool-development": {
+  "dev/tool-from-scratch/tutorial": {
     "name": "Galaxy Tool Development: From Conda to Deployment",
     "description": "This series of tutorials will walk you through the process of developing tools in Galaxy.",
     "videos": [
