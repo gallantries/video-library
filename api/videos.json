@@ -2054,7 +2054,7 @@
         "date": "2021-04-20",
         "galaxy_version": "21.01",
         "length": "10M",
-        "link": "TODO",
+        "link": "FNmZoo2OXTU",
         "speakers": [
           "awspolly"
         ]
@@ -2365,7 +2365,7 @@
     "tags": [
       "transcriptomics"
     ],
-    "video": [
+    "versions": [
       {
         "link": "nefB35Bi1l4",
         "length": "45M",
@@ -2374,10 +2374,11 @@
         ],
         "speakers": [
           "nomadscientist"
-        ]
+        ],
+        "date": "2021-03-18"
       }
     ],
-    "material": [
+    "materials": [
       {
         "type": "Tutorial",
         "link": "topics/transcriptomics/tutorials/scrna-scanpy-pbmc3k/tutorial.html"
