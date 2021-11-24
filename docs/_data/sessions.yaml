@@ -133,7 +133,7 @@ dev/debugging/tutorial:
     - dev/debugging/tutorial/summary
 
 
-dev/tool-tool-from-scratch/tutorial:
+dev/tool-from-scratch/tutorial:
   name: "Galaxy Tool Development: From Conda to Deployment"
   description: This series of tutorials will walk you through the process of developing tools in Galaxy.
   videos:
