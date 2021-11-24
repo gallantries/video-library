@@ -25,6 +25,7 @@ check-html:
 test: build check-html-internal
 	bundle exec ruby bin/validate-frontmatter.rb
 	bundle exec ruby bin/validate-video-schema.rb
+	bundle exec ruby bin/validate-instructors.rb
 
 
 clean:
