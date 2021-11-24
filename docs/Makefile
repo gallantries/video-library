@@ -8,7 +8,7 @@ api/swagger.json: api/swagger.yaml
 	ruby bin/yaml2json.rb < api/swagger.yaml > api/swagger.json
 
 check-html-internal:
-	htmlproofer \
+	bundle exec htmlproofer \
 		--assume-extension \
 		--http-status-ignore 405,503,999 \
 		--disable-external \
@@ -16,7 +16,7 @@ check-html-internal:
 		./_site
 
 check-html:
-	htmlproofer \
+	bundle exec htmlproofer \
 		--assume-extension \
 		--http-status-ignore 405,503,999 \
 		--allow-hash-href \
