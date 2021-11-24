@@ -1,0 +1,143 @@
+{
+  "webinars": {
+    "name": "Webinar Series: Galaxy Resources For..",
+    "description": "In this webinar series, we cover resources for different types of Galaxy users and audiences.",
+    "videos": [
+      "webinar/researchers",
+      "webinar/educators",
+      "webinar/tooldevs",
+      "webinar/admins"
+    ]
+  },
+  "sequence-analysis/quality-control": {
+    "name": "Quality Control",
+    "description": "In this sesssion, we will walk you through the basics of quality checking your sequencing data. This session consists of a lecture followed by a hands-on tutorial.",
+    "videos": [
+      "sequence-analysis/quality-control/slides",
+      "sequence-analysis/quality-control/tutorial"
+    ]
+  },
+  "sequence-analysis/mapping": {
+    "name": "Mapping",
+    "description": "In this sesssion, we will walk you through the basics of mapping your sequencing data to a reference genome. This session consists of a lecture followed by a hands-on tutorial.",
+    "videos": [
+      "sequence-analysis/mapping/slides",
+      "sequence-analysis/mapping/tutorial"
+    ]
+  },
+  "epigenetics/atac-seq": {
+    "name": "Epigenetics: ATAC-Seq",
+    "description": "ATAC-seq (Assay for Transposase-Accessible Chromatin using sequencing) is a technique used in molecular biology to assess genome-wide chromatin accessibility. This session will introduce ATAC-Seq and walk you through an analysis step by step.\n",
+    "videos": [
+      "epigenetics/atac-seq/slides",
+      "epigenetics/atac-seq/tutorial"
+    ]
+  },
+  "transcriptomics/scrna-intro": {
+    "name": "Introduction to Single-Cell RNA-seq Data Analysis",
+    "description": "Single-cell RNA-seq analysis is a rapidly evolving field at the forefront\nof transcriptomic research, used in high-throughput developmental studies\n",
+    "videos": [
+      "transcriptomics/scrna-intro/slides",
+      "transcriptomics/scrna-seq-basic-pipeline/tutorial"
+    ]
+  },
+  "climate/fates": {
+    "name": "Functionally Assembled Terrestrial Ecosystem Simulator (FATES)",
+    "description": "This session will provide a brief overview of FATES, and guide you through a Galaxy analysis step by step.",
+    "videos": [
+      "climate/fates/slides",
+      "climate/fates/tutorial"
+    ]
+  },
+  "genome-annotation/prokka": {
+    "name": "Genome Annotation with Prokka",
+    "description": "This tutorial will introduce genome annotation process and give you hands-on experience with annotating a prokaryotic genome using Prokka.",
+    "videos": [
+      "genome-annotation/annotation-with-prokka/slides",
+      "genome-annotation/annotation-with-prokka/tutorial"
+    ]
+  },
+  "genome-annotation/apollo": {
+    "name": "Genome Annotation with Apollo",
+    "description": "This session will introduce the Apollo genome annotation platform, and provide you hands-on experience with using Apollo in Galaxy.",
+    "videos": [
+      "genome-annotation/apollo/slides",
+      "genome-annotation/apollo/tutorial"
+    ]
+  },
+  "proteomics/encyclopedia": {
+    "name": "EncyclopeDIA",
+    "description": "Data independent acquisition (DIA) mass spectrometry is a powerful technique that is improving the\nreproducibility and throughput of proteomics studies. EncyclopeDIA is library search engine comprised of\nseveral algorithms for DIA data analysis and can search for peptides using either DDA-based spectrum libraries\nor DIA-based chromatogram libraries.\n",
+    "videos": [
+      "proteomics/encyclopedia/slides",
+      "proteomics/encyclopedia/tutorial"
+    ]
+  },
+  "proteomics/protegenomics": {
+    "name": "ProteoGenomics",
+    "description": "Proteogenomics is a field of biological research that utilizes a combination of proteomics, genomics, and\ntranscriptomics to aid in the discovery and identification of peptides\n",
+    "videos": [
+      "proteomics/proteogenomics-dbcreation/tutorial",
+      "proteomics/proteogenomics-dbsearch/tutorial",
+      "proteomics/proteogenomics-novel-peptide-analysis/tutorial"
+    ]
+  },
+  "statistics/deeplearning": {
+    "name": "Deep Learning",
+    "description": "This 3-part session will introduce you to the world of deep learning and cover Feedforward\nNeural Networks (FNN), Recurrent Neural Networks (FNN), and Convolutional Neural Networks\n(CNN).\n",
+    "videos": [
+      "statistics/FNN",
+      "statistics/RNN",
+      "statistics/CNN"
+    ]
+  },
+  "galaxy-interface/ncbi-sarf": {
+    "name": "SRA Aligned read format in Galaxy",
+    "description": "This session will introduce the SRA Aligned Read format, and show you how to use this in Galaxy to analyze a SARS-CoV-2 dataset.",
+    "videos": [
+      "galaxy-interface/ncbi-sarf/slides",
+      "galaxy-interface/ncbi-sarf/tutorial"
+    ]
+  },
+  "dev/architecture": {
+    "name": "Galaxy Code Architecture Lecture Series",
+    "description": "In this 9-part Lecture series, John Chilton will walk you through the Galaxy Code Architecture.",
+    "videos": [
+      "dev/architecture/slides-ecosystem",
+      "dev/architecture/slides-models-managers",
+      "dev/architecture/slides-app-di",
+      "dev/architecture/slides-project-management",
+      "dev/architecture/slides-web-client",
+      "dev/architecture/slides-pluggable-components",
+      "dev/architecture/slides-principles",
+      "dev/architecture/slides-web-requests",
+      "dev/architecture/slides-files-directories"
+    ]
+  },
+  "dev/debugging": {
+    "name": "Debugging Galaxy",
+    "description": "This series of videos will guide (future) Galaxy contributors through the process of debugging Galaxy.",
+    "videos": [
+      "dev/debugging/tutorial/intro",
+      "dev/debugging/tutorial/unit-test-failure",
+      "dev/debugging/tutorial/api-test-failure",
+      "dev/debugging/tutorial/client-unit-test",
+      "dev/debugging/tutorial/client-linter",
+      "dev/debugging/tutorial/selenium",
+      "dev/debugging/tutorial/runtime-error",
+      "dev/debugging/tutorial/summary"
+    ]
+  },
+  "dev/tool-development": {
+    "name": "Galaxy Tool Development: From Conda to Deployment",
+    "description": "This series of tutorials will walk you through the process of developing tools in Galaxy.",
+    "videos": [
+      "dev/tool-from-scratch/tutorial/conda",
+      "dev/tool-from-scratch/tutorial/planemo-init",
+      "dev/tool-from-scratch/tutorial/tool-wrapper",
+      "dev/tool-from-scratch/tutorial/shed-yml",
+      "dev/tool-from-scratch/tutorial/testing",
+      "dev/tool-from-scratch/tutorial/publish"
+    ]
+  }
+}
