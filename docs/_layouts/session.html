@@ -23,8 +23,9 @@ Below are video tutorials for this GTN session, created for various (past) event
   {% for v in vsession.versions %}{% assign allversions = allversions | push: v %}{% endfor %}
   {% assign sortedversions = allversions | sort: 'date' | reverse %}
   {% assign latestvideo = sortedversions[0] %}
+  {% assign title = site.data.videos[vid].name | default: site.data.gtn[vid] %}
 
-  {% include video-session.html vsession=vsession video=latestvideo id=vid  %}
+  {% include video-session.html vsession=vsession video=latestvideo id=vid title=title %}
 {% endfor %}
 
 
