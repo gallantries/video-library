@@ -14,6 +14,12 @@ module Jekyll
       page2.data["layout"] = nil
       site.pages << page2
 
+      puts "[VideoLibrary/API] Sessions"
+      page2 = PageWithoutAFile.new(site, "", "api/", "sessions.json")
+      page2.content = JSON.pretty_generate(site.data['sessions'])
+      page2.data["layout"] = nil
+      site.pages << page2
+
       by_tags = Hash.new { |hash, key| hash[key] = Hash.new }
       site.data['videos'].each{|k, v|
         if ! v.nil?

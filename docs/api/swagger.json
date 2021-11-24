@@ -35,6 +35,23 @@
         }
       }
     },
+    "/sessions.json": {
+      "get": {
+        "summary": "List all sessions",
+        "responses": {
+          "200": {
+            "description": "successful operation",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
     "/tags.json": {
       "get": {
         "summary": "Get tags",
