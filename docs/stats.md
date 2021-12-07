@@ -2,7 +2,7 @@
 layout: default
 title: "Statistics!"
 ---
-<h1>Video Data</h1>
+<h1 id="video-data">Video Data</h1>
 <div class="row">
 	<div class="col-md-6">
 	<div class="card bg-primary text-white">
@@ -38,7 +38,7 @@ title: "Statistics!"
 	{% endfor %}
 </div>
 
-<h1>Speaker Data</h1>
+<h1 id="speaker-data">Speaker Data</h1>
 
 <table>
 	<thead>
@@ -58,7 +58,7 @@ title: "Statistics!"
 	</tbody>
 </table>
 
-<h1>Captioner Data</h1>
+<h1 id="captioner-data">Captioner Data</h1>
 <table>
 	<thead>
 		<tr>
