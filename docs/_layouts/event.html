@@ -3,7 +3,7 @@ layout: default
 ---
 
 {% assign event = page %}
-
+<div class="event">
 <h1> {{ event.title }} </h1>
 
 {{ event.description }}
@@ -33,4 +33,4 @@ Below you will find all the tutorials for this course, everything you need to fo
 
 {% include course-handbook.html program=event.program instructors=event.instructors %}
 
-
+</div>
