@@ -1,5 +1,5 @@
 ---
-layout: course-handbook
+layout: default
 ---
 
 # Welcome to the Galaxy Training Video Library!
