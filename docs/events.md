@@ -2,8 +2,21 @@
 layout: default
 ---
 
-{% for page in site.pages %}
+<table class="table-striped">
+ <thead>
+  <tr>
+   <th> Event Name </th>
+   <th> When </th>
+  </tr>
+ </thead>
+ <tbody>
+ {% for page in site.pages %}
   {% if page.layout == 'event' %}
-   [{{page.title}}]({{site.baseurl}}{{page.url}})
+  <tr>
+   <td> <a href="{{site.baseurl}}{{page.url}}"> {{page.title}} </a> </td>
+   <td> {{ page.date.start | date: "%-d %B %Y" }} </td>
+  </tr>
   {% endif %}
-{% endfor %}
+ {% endfor %}
+ </tbody>
+</table>

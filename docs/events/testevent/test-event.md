@@ -1,6 +1,6 @@
 ---
 layout: event
-title: "My Awesome Event"
+title: "My Awesome Event (Example)"
 description: "Best training since sliced bread lessons"
 instructors: [hexylena, shiltemann, hexylena, hexylena, hexylena]
 date:
