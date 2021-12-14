@@ -39,7 +39,7 @@ layout: default
 					<td>
 						<a href="{{ site.baseurl }}/videos/{{ video[0] }}/">{{ name | default: video[0] }}</a>
 					</td>
-					<td>{{ video[2].date }}</td>
+					<td>{{ video[2].date | date: "%d %B %Y" }}</td>
 					<td>{{ video[2].length }}</td>
 				</tr>
 			{% endfor %}
@@ -56,7 +56,7 @@ layout: default
 					<td>
 						<a href="{{ site.baseurl }}/videos/{{ video[0] }}/">{{ name | default: video[0] }}</a>
 					</td>
-					<td>{{ video[2].date }}</td>
+					<td>{{ video[2].date | date: "%d %B %Y" }}</td>
 					<td>{{ video[2].length }}</td>
 				</tr>
 			{% endfor %}
