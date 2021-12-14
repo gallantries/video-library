@@ -278,7 +278,7 @@ body { font-family: 'Fira Sans', sans-serif; }
 
 h1 { font-weight: 600; }
 
-.event h2 { margin-top: 1em; }
+.section-header { margin-top: 1em; }
 
 .flex-row { display: flex; flex-wrap: wrap; flex-direction: row; justify-content: space-around; }
 
