@@ -43,6 +43,8 @@ mapping:
         sequence:
             - type: str
               enum: CONTRIBUTORS
+    example:
+        type: bool
     program:
         type: map
         mapping:
