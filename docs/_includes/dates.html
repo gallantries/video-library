@@ -1,19 +1,11 @@
 <!-- returns a nicely format range of dates, given a start and end date -->
 
-<<<<<<< HEAD
-{% assign start = include.start %}
-=======
 {% assign start = include.start | default: page.date.start %}
->>>>>>> e8c3db7 (add calendar buttons)
 {% assign startday = start | date: "%d" %}
 {% assign startmonth = start | date: "%m" %}
 {% assign startyear = start | date: "%Y" %}
 
-<<<<<<< HEAD
-{% assign end = include.end %}
-=======
 {% assign end = include.end | default: page.date.end %}
->>>>>>> e8c3db7 (add calendar buttons)
 {% assign endday = end | date: "%d" %}
 {% assign endmonth = end | date: "%m" %}
 {% assign endyear = end | date: "%Y" %}
