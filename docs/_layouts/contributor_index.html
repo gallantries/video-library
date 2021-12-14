@@ -35,12 +35,11 @@ layout: default
 			<table>
 			{% for video in page.videos %}
 				<tr>
-					{% assign name = video[1] %}
 					<td>
-						<a href="{{ site.baseurl }}/videos/{{ video[0] }}/">{{ name | default: video[0] }}</a>
+						<a href="{{ site.baseurl }}/videos/{{ video[0] }}/">{{ video[1].name | default: video[0] }}</a>
 					</td>
-					<td>{{ video[2].date | date: "%d %B %Y" }}</td>
-					<td>{{ video[2].length }}</td>
+					<td>{{ video[1].date | date: "%d %B %Y" }}</td>
+					<td>{{ video[1].length }}</td>
 				</tr>
 			{% endfor %}
 			</table>
@@ -52,12 +51,11 @@ layout: default
 			<table>
 			{% for video in page.caption %}
 				<tr>
-					{% assign name = video[1] %}
 					<td>
-						<a href="{{ site.baseurl }}/videos/{{ video[0] }}/">{{ name | default: video[0] }}</a>
+						<a href="{{ site.baseurl }}/videos/{{ video[0] }}/">{{ video[1].name | default: video[0] }}</a>
 					</td>
-					<td>{{ video[2].date | date: "%d %B %Y" }}</td>
-					<td>{{ video[2].length }}</td>
+					<td>{{ video[1].date | date: "%d %B %Y" }}</td>
+					<td>{{ video[1].length }}</td>
 				</tr>
 			{% endfor %}
 			</table>

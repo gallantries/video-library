@@ -41,12 +41,8 @@ mapping:
     contacts:
         type: seq
         sequence:
-            - type: map
-              mapping:
-                  name:
-                      type: str
-                  email:
-                      type: str
+            - type: str
+              enum: CONTRIBUTORS
     program:
         type: map
         mapping:

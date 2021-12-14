@@ -16,17 +16,13 @@ module Jekyll
 
       site.data['videos'].each{|k, v|
         if ! v.nil?
-          k2 = k.split('/')[0,2].join('/')
-
-          name = site.data['gtn'].fetch(k2, k2)
-
           v.fetch('versions', []).each{|version|
             version['speakers'].each{|speaker|
-              videos_by_author[speaker].push([k, name, version])
+              videos_by_author[speaker].push([k, version])
             }
             if version['captions']
               version['captions'].each{|speaker|
-                captions_by_author[speaker].push([k, name, version])
+                captions_by_author[speaker].push([k, version])
               }
             end
           }

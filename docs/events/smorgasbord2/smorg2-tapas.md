@@ -9,12 +9,7 @@ date:
   end: 2022-03-18
 registration: "https://forms.gle/ncFNjKXYHi7AbwnP8"
 cost: free
-contacts:
-  - name: Saskia Hiltemann
-    email: saskiahiltemann@gmail.com
-  - name: Helena Rasche
-    email: helenarasche@gmail.com
-
+contacts: [shiltemann, hexylena]
 
 program:
   day1:

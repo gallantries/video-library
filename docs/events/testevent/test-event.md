@@ -9,11 +9,7 @@ date:
   end: 2021-11-18
 registration: "https://example.com/registration"
 cost: free
-contacts:
-  - name: Saskia Hiltemann
-    email: saskiahiltemann@gmail.com
-  - name: Helena Rasche
-    email: helenarasche@gmail.com
+contacts: [shiltemann, hexylena]
 
 
 program:
