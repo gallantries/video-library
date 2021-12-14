@@ -12,7 +12,8 @@ module Jekyll
       end
 
       videos_by_author = Hash.new { |hash, key| hash[key] = [] }
-      captions_by_author= Hash.new { |hash, key| hash[key] = [] }
+      events_by_author = Hash.new { |hash, key| hash[key] = [] }
+      captions_by_author = Hash.new { |hash, key| hash[key] = [] }
 
       site.data['videos'].each{|k, v|
         if ! v.nil?
@@ -29,6 +30,12 @@ module Jekyll
         end
       }
 
+      site.pages.select{|p| p['layout'] == 'event'}.each do |event|
+        event.data['instructors'].each do |person|
+          events_by_author[person].push(event)
+        end
+      end
+
       site.data['instructors'].each_key do |contributor|
         page2 = PageWithoutAFile.new(site, "", File.join('contributors', contributor), "index.html")
         page2.content = nil
@@ -42,7 +49,9 @@ module Jekyll
 
         page2.data["videos"] = videos_by_author[contributor]
         page2.data["caption"] = captions_by_author[contributor]
+        page2.data["events"] = events_by_author[contributor].select{|e| ! e.data['example'] }.map{|e| e.data.update({"url" => e.url}) }.uniq
 
+        page2.data["events_count"] = events_by_author[contributor].length
         page2.data["videos_count"] = videos_by_author[contributor].length
         page2.data["caption_count"] = captions_by_author[contributor].length
 

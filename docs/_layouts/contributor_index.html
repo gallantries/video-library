@@ -28,6 +28,19 @@ layout: default
 
 		<div class="col-md-9">
 			<h1>Contributions</h1>
+			{% if page.events_count> 0 %}
+			<h2>Events Supported</h2>
+			<table>
+			{% for event in page.events %}
+			<tr>
+				<td>
+					<a href="{% if event.external %}{{event.external.link}}{% else %}{{site.baseurl}}/{{event.url}}{%endif%}">{{event.title}}</a>
+				</td>
+				<td> {% include dates.html start=event.date.start end=event.date.end %} </td>
+			</tr>
+			{% endfor %}
+			</table>
+			{% endif %}
 
 			{% if page.videos_count > 0 %}
 			<h2>Videos Recorded</h2>

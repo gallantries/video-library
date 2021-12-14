@@ -10,7 +10,7 @@ date:
 registration: "https://example.com/registration"
 cost: free
 contacts: [shiltemann, hexylena]
-
+example: true
 
 program:
   day1:
