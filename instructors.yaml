@@ -332,3 +332,29 @@ IrelCM:
 wm75:
     name: Wolfgang Maier
     affiliation: [freiburguni]
+
+jrr-cpt:
+    name: Jolene Ramsey
+    affilitation: tamu
+
+Lgallegovillar:
+    name: Lorena Gallego Villar
+    affiliation: UnikFreiberg
+
+mtbernardi:
+  name: María Bernardi
+  affiliation: uba
+
+pcm32:
+  name: Pablo Moreno
+  affiliation: ebi
+
+montserrat-ve-go:
+  name: Montserrat Ve Go
+
+vinicius:
+  name: Vinicius
+
+stefydreptate:
+    name: Stefana Dreptate
+    affiliation: ou
