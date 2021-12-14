@@ -10,7 +10,8 @@ layout: default
   </tr>
  </thead>
  <tbody>
- {% for page in site.pages %}
+ {% assign sortedpages = site.pages | sort: "date" | reverse %}
+ {% for page in sortedpages %}
   {% if page.layout == 'event' %}
   <tr>
    <td> <a href="{% if page.external %}{{page.external.link}}{% else %}{{site.baseurl}}/{{page.url}}{%endif%}"> {{page.title}} </a> </td>
