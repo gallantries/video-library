@@ -2,6 +2,7 @@
 layout: event
 title: "Smörgåsbord 2022: Tapas Edition"
 description: "Free, Global, Online Week of Galaxy Training"
+location: Online
 instructors: [hexylena, shiltemann, bebatut, fopsom, yvanlebras, abretaud]
 date:
   start: 2022-03-14

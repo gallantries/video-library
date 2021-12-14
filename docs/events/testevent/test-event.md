@@ -2,6 +2,7 @@
 layout: event
 title: "My Awesome Event (Example)"
 description: "Best training since sliced bread lessons"
+location: "The North Pole"
 instructors: [hexylena, shiltemann, hexylena, hexylena, hexylena]
 date:
   start: 2021-11-15
