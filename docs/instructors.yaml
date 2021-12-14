@@ -1,44 +1,44 @@
 abretaud:
     name: Anthony Bretaudeau
-    affiliation: inrae
+    affiliation: [inrae]
 
 afgane:
     name: Enis Afgan
-    affiliation: johnshopkins
+    affiliation: [johnshopkins]
 
 aheikema:
     name: Astrid Heikema
-    affiliation: erasmusmc
+    affiliation: [erasmusmc]
     photo: astrid.jpeg
 
 ales-ibt:
     name: Alejandra Escobar-Zepeda
-    affiliation: ebi
+    affiliation: [ebi]
 
 andrewr:
     name: Andrew Rajczewski
-    affiliation: minnesotauni
+    affiliation: [minnesotauni]
     photo: andrew_r.jpg
 
 annasyme:
     name: Anna Syme
-    affiliation: melbourneuni
+    affiliation: [melbourneuni]
 
 annefou:
     name: Anne Fouilloux
-    affiliation: eoscnordic
+    affiliation: [eoscnordic]
 
 anuprulez:
     name: Anup Kumar
-    affiliation: freiburguni
+    affiliation: [freiburguni]
 
 assuntad23:
     name: Assunta DeSanto
-    affiliation: pennstate
+    affiliation: [pennstate]
 
 astrovsky01:
     name: Alex Ostrovsky
-    affiliation: johnshopkins
+    affiliation: [johnshopkins]
 
 awspolly:
     name: These slides are narrated by AWS Polly.
@@ -54,100 +54,100 @@ awspolly/escat:
 
 beatrizserrano:
     name: Beatriz Serrano-Solano
-    affiliation: freiburguni
+    affiliation: [freiburguni]
 
 bebatut:
     name: Bérénice Batut
-    affiliation: freiburguni
+    affiliation: [freiburguni]
 
 bernt-matthias:
     name: Matthias Bernt
-    affiliation: ufz
+    affiliation: [ufz]
 
 bgruening:
     name: Björn Grüning
-    affiliation: freiburguni
+    affiliation: [freiburguni]
 
 blankenberg:
     name: Daniel Blankenberg
-    affiliation: clevelandclinic
+    affiliation: [clevelandclinic]
 
 cat-bro:
     name: Catherine Bromhead
-    affiliation: melbourneuni
+    affiliation: [melbourneuni]
 
 chrisbarnettster:
     name: Chris Barnett
-    affiliation: uct
+    affiliation: [uct]
 
 christinecucinotta:
     name: Christine Cucinotta
-    affiliation: fredhutch
+    affiliation: [fredhutch]
 
 colineroyaux:
     name: Coline Royaux
-    affiliation: cnrs
+    affiliation: [cnrs]
 
 combesf:
     name: Florence Combes
-    affiliation: ifb
+    affiliation: [ifb]
 
 dannon:
     name: Dannon Baker
-    affiliation: johnshopkins
+    affiliation: [johnshopkins]
 
 davebx:
     name: Dave Bouvier
-    affiliation: pennstate
+    affiliation: [pennstate]
 
 davelopez:
     name: David Lopez
 
 dieterbulach:
     name: Dieter Bulach
-    affiliation: melbourneuni
+    affiliation: [melbourneuni]
 
 delphine-l:
     name: Delphine Lariviere
-    affiliation: pennstate
+    affiliation: [pennstate]
 
 eancelet:
     name: Estelle Ancelet
-    affiliation: inrae
+    affiliation: [inrae]
 
 emmaleith:
     name: Emma Leith
-    affiliation: minnesotauni
+    affiliation: [minnesotauni]
 
 EngyNasr:
     name: Engy Nasr
-    affiliation: freiburguni
+    affiliation: [freiburguni]
 
 ennovytje:
     name: Yvonne Hiltemann
-    affiliation: barharbourinn
+    affiliation: [barharbourinn]
 
 FilipposZ:
    name: Filippos Zacharopoulos
 
 foellmelanie:
     name: Melanie Föll
-    affiliation: freiburg-uniklinik-surgpathol
+    affiliation: [freiburg-uniklinik-surgpathol]
 
 fpsom:
     name: Fotis E. Psomopoulos
-    affiliation: inab-certh
+    affiliation: [inab-certh]
 
 fubar2:
     name: Ross Lazarus
 
 gallardoalba:
     name: Cristóbal Gallardo
-    affiliation: freiburguni
+    affiliation: [freiburguni]
 
 gmauro:
     name: Gianmauro Cuccuru
-    affiliation: freiburguni
+    affiliation: [freiburguni]
 
 galaxycommunity:
     name: The Global Galaxy Community
@@ -155,173 +155,173 @@ galaxycommunity:
 
 heylf:
     name: Florian Heyl
-    affiliation: freiburguni
+    affiliation: [freiburguni]
 
 hexylena:
     name: Helena Rasche
-    affiliation: avans
+    affiliation: [erasmusmc, avans]
 
 hrhotz:
     name: Hans-Rudolf Hotz
-    affiliation: fmi
+    affiliation: [fmi]
 
 jennaj:
     name: Jennifer Hillman-Jackson
-    affiliation: pennstate
+    affiliation: [pennstate]
 
 jmchilton:
     name: John Chilton
-    affiliation: pennstate
+    affiliation: [pennstate]
 
 jj-umn:
     name: James Johnson
-    affiliation: minnesotauni
+    affiliation: [minnesotauni]
 
 khanteymoori:
     name: Alireza Khanteymoori
-    affiliation: freiburguni
+    affiliation: [freiburguni]
 
 kxk302:
     name: Kaivan Kamali
-    affiliation: pennstate
+    affiliation: [pennstate]
 
 kmurat1:
     name: Katarzyna Kamieniecka
-    affiliation: bradforduni
+    affiliation: [bradforduni]
 
 kpoterlowicz:
     name: Krzysztof Poterlowicz
-    affiliation: bradforduni
+    affiliation: [bradforduni]
 
 ksuderman:
     name: Keith Suderman
-    affiliation: johnshopkins
+    affiliation: [johnshopkins]
 
 lldelisle:
     name: Lucille Delisle
-    affiliation: epfl
+    affiliation: [epfl]
 
 malloryfreeberg:
     name: Mallory Freeberg
-    affiliation: ebi
+    affiliation: [ebi]
 
 MarenStilger:
     name: Maren Stillger
-    affiliation: freiburg-uniklinik-surgpathol
+    affiliation: [freiburg-uniklinik-surgpathol]
 
 MariaTsayo:
     name: Maria Tsagiopoulou
-    affiliation: inab-certh
+    affiliation: [inab-certh]
 
 martenson:
     name: Martin Čech
-    affiliation: iocb
+    affiliation: [iocb]
 
 mblue9:
     name: Maria Doyle
-    affiliation: petermac
+    affiliation: [petermac]
 
 miaomiaozhou88:
     name: Miaomiao Zhou
-    affiliation: avans
+    affiliation: [avans]
 
 mtekman:
     name: Mehmet Tekman
-    affiliation: freiburguni
+    affiliation: [freiburguni]
 
 mvdbeek:
     name: Marius van den Beek
-    affiliation: pennstate
+    affiliation: [pennstate]
 
 nagoue:
     name: Nadia Goué
-    affiliation: ifb
+    affiliation: [ifb]
 
 natefoo:
     name: Nate Coraor
-    affiliation: pennstate
+    affiliation: [pennstate]
 
 nekrut:
     name: Anton Nekrutenko
-    affiliation: pennstate
+    affiliation: [pennstate]
 
 nomadscientist:
     name: Wendi Bacon
-    affiliation: ebi
+    affiliation: [ebi]
 
 pclo:
     name: Patricia Carvajal López
-    affiliation: ebi
+    affiliation: [ebi]
 
 petrnovak:
     name: Petr Novák
 
 pratikdjagtap:
     name: Pratik Jagtap
-    affiliation: minnesotauni
+    affiliation: [minnesotauni]
 
 prodromus:
     name: Jonathan Trow
-    affiliation: ncbi
+    affiliation: [ncbi]
 
 pvanheus:
     name: Peter van Heusden
-    affiliation: sanbi
+    affiliation: [sanbi]
 
 rwinand:
     name: Raf Winand
-    affiliation: sciensano
+    affiliation: [sciensano]
 
 shiltemann:
     name: Saskia Hiltemann
-    affiliation: erasmusmc
+    affiliation: [erasmusmc]
 
 simonbray:
     name: Simon Bray
-    affiliation: freiburguni
+    affiliation: [freiburguni]
 
 s3by01:
     name: Sébastien Fouilloux
 
 subinamehta:
     name: Subina Mehta
-    affiliation: minnesotauni
+    affiliation: [minnesotauni]
 
 slugger70:
     name: Simon Gladman
-    affiliation: melbourneuni
+    affiliation: [melbourneuni]
 
 timothygriffin:
     name: Timothy J. Griffin
-    affiliation: minnesotauni
+    affiliation: [minnesotauni]
 
 tklingstrom:
     name: Tomas Klingström
-    affiliation: slu
+    affiliation: [slu]
 
 tnabtaf:
     name: Dave Clements
-    affiliation: johnshopkins
+    affiliation: [johnshopkins]
 
 willemdek11:
     name: Willem de Koning
-    affiliation: erasmusmc
+    affiliation: [erasmusmc]
 
 yvanlebras:
     name: Yvan Le Bras
-    affiliation: mnhn
+    affiliation: [mnhn]
 
 yvesvdb:
     name: Yves Vandenbrouck
-    affiliation: ifb
+    affiliation: [ifb]
 
 ic4f:
     name: Sergey Golitsynskiy
-    affiliation: johnshopkins
+    affiliation: [johnshopkins]
 
 npalopoli:
     name: Nicolás Palopoli
-    affiliation: UniQuilmes
+    affiliation: [UniQuilmes]
 
 melibleq:
     name: Melissa Black
@@ -331,4 +331,4 @@ IrelCM:
 
 wm75:
     name: Wolfgang Maier
-    affiliation: freiburguni
+    affiliation: [freiburguni]

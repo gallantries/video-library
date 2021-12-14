@@ -13,7 +13,7 @@ PICS_PEOPLE = Dir["assets/images/instructors/*"].map{|x| x["assets/images/instru
 
 # Update the existing schemas to have enums with values. Then we get validation
 # *for free*!
-INSTRUCTORS_SCHEMA['mapping']['=']['mapping']['affiliation']['enum'] = INSTITUTIONS.keys
+INSTRUCTORS_SCHEMA['mapping']['=']['mapping']['affiliation']['sequence'][0]['enum'] = INSTITUTIONS.keys
 INSTRUCTORS_SCHEMA['mapping']['=']['mapping']['photo']['enum'] = PICS_PEOPLE
 AFFILIATIONS_SCHEMA['mapping']['=']['mapping']['logo']['enum'] = PICTURES
 

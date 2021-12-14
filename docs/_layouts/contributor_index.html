@@ -18,10 +18,11 @@ layout: default
 			</h3>
 
 			<div class="affil">
-			{% assign affil = contributors[page.contributor].affiliation %}
+				{% for affil in contributors[page.contributor].affiliation %}
 				<a href="{{ site.data.affiliations[affil].link }}">
 					{{ site.data.affiliations[affil].name }}
 				</a>
+				{% endfor %}
 			</div>
 		</div>
 
