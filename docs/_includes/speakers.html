@@ -11,6 +11,7 @@
     {% assign instructor = site.data.instructors[username] %}
     {% assign photo = site.data.instructors[username].photo %}
 		<div class="hall-of-fame-hero" id="{{ username }}">
+			<a href="{{ site.baseurl }}/contributors/{{ username }}/">
             {% if photo %}
             <img src="{{site.baseurl}}/{{site.image_dir}}/instructors/{{photo}}" alt="{{ username }}">
             {% else %}
@@ -19,6 +20,7 @@
 			<div class="name">
 				{{ instructor.name | default: username }}
 			</div>
+			</a>
 			<div class="affil">
 			{% assign affil = instructor.affiliation %}
 				<a href="{{ site.data.affiliations[affil].link }}">

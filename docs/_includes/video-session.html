@@ -47,7 +47,7 @@
    {% else %}
           <tr>
               <td><strong>Captions:</strong></td>
-              <td>{% for name in include.video.captions %}{% unless forloop.first %}, {% endunless %} {{ site.data.instructors[name].name}}{% endfor %}</td>
+              <td>{% for name in include.video.captions %}{% unless forloop.first %}, {% endunless %} <a href="{{ site.baseurl }}/contributors/{{ name }}/">{{ site.data.instructors[name].name}}</a>{% endfor %}</td>
           </tr>
    {% endif %}
           {% if include.video.date %}
