@@ -79,9 +79,17 @@ module Jekyll
       durations['bycaptioner'] = Hash.new { 0 }
 
       site.data['videos'].each{|k, v|
+
+        k2 = k.split('/')[0,2].join('/')
+        v['name'] = site.data['gtn'].fetch(k2, k2)
+
         if ! v.nil?
           v.fetch('tags', []).each{|tag|
             v.fetch('versions', []).each{|version|
+
+              k2 = k.split('/')[0,2].join('/')
+              version['name'] = site.data['gtn'].fetch(k2, k2)
+
               durations['bytag'][tag] += findDuration(version['length']) / 3600.0
               durations['_total_'] += findDuration(version['length']) / 3600.0
               durations['_total_count_'] += 1

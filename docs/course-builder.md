@@ -40,7 +40,7 @@ wide: true
 
 							<!-- TODO: Some modules have no video, thus no time. {{ version_count }} -->
 							{% if version_count > 0 %}
-							<a class="b library_{{ video[0] | replace: '/','_' }}" onclick="updateBasket('{{video[0]}}')"><li class="list-group-item">{{ x[1] }}{% if x[2] %}/{{ x[2] }}{% endif %}</li></a>
+							<a class="b library_{{ video[0] | replace: '/','_' }}" onclick="updateBasket('{{video[0]}}')"><li class="list-group-item">{{ video[1]['name'] }}</li></a>
 							{% endif %}
 						{% endfor %}
 					</ul>
@@ -117,6 +117,27 @@ wide: true
 							</div>
 							<div class="row g-3 align-items-center">
 								<div class="col-md-2 text-end">
+									<label for="i-instructors" class="col-form-label">Event Instructors</label>
+								</div>
+								<div class="col-md-3">
+									<select id="i-instructors" class="form-select" multiple aria-label="Instructor select box" style="height: 300px" onchange="rerenderSchedule()">
+										{% for instructor in site.data['instructors'] %}
+											<option value="{{ instructor[0] }}">{{ instructor[0] }} ({{ instructor[1].name }})</option>
+										{% endfor %}
+									</select>
+								</div>
+								<div class="col-md-6">
+									<span id="i-instructors-help" class="form-text">
+										Who all is involved in teaching this event?
+									</span>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="tab-pane fade" id="home" role="tabpanel" aria-labelledby="home-tab">
+							<div class="row g-3 align-items-center">
+								<div class="col-md-2 text-end">
 									<label for="i-start-time" class="col-form-label">Daily Start Time</label>
 								</div>
 								<div class="col-md-3">
@@ -154,27 +175,6 @@ wide: true
 									</span>
 								</div>
 							</div>
-							<div class="row g-3 align-items-center">
-								<div class="col-md-2 text-end">
-									<label for="i-instructors" class="col-form-label">Event Instructors</label>
-								</div>
-								<div class="col-md-3">
-									<select id="i-instructors" class="form-select" multiple aria-label="Instructor select box" style="height: 300px" onchange="rerenderSchedule()">
-										{% for instructor in site.data['instructors'] %}
-											<option value="{{ instructor[0] }}">{{ instructor[0] }} ({{ instructor[1].name }})</option>
-										{% endfor %}
-									</select>
-								</div>
-								<div class="col-md-6">
-									<span id="i-instructors-help" class="form-text">
-										Who all is involved in teaching this event?
-									</span>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="tab-pane fade" id="home" role="tabpanel" aria-labelledby="home-tab">
 					<div id="schedule"></div>
 				</div>
 				<div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
