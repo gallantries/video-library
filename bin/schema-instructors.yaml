@@ -8,9 +8,11 @@ mapping:
                 type: str
                 required: true
             affiliation:
-                type: str
+                type: seq
                 required: false
-                enum: INSTITUTIONS
+                sequence:
+                    - type: str
+                      enum: INSTITUTIONS
             photo:
                 type: str
                 required: false
