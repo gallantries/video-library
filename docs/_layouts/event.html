@@ -2,15 +2,16 @@
 layout: default
 ---
 
+
 {% assign event = page %}
-<div class="event">
+
 <h1> {{ event.title }} </h1>
 
 {{ event.description }}
 
 {{ content }}
 
-<h2> Practical Information </h2>
+<h2 class="section-header"> Practical Information </h2>
 
 <ul>
   <li> <strong>Dates: </strong> {% include dates.html %}</li>
@@ -27,10 +28,9 @@ layout: default
 &nbsp;&nbsp; {% include calendar-buttons.html %}
 
 
-<h2> Program </h2>
+<h2 class="section-header"> Program </h2>
 
 Below you will find all the tutorials for this course, everything you need to follow this course is listed here.
 
 {% include course-handbook.html program=event.program instructors=event.instructors %}
 
-</div>
