@@ -31,7 +31,7 @@ layout: default
 
 			{% if page.videos_count > 0 %}
 			<h2>Videos Recorded</h2>
-			<p>{{ page.personname }} has recorded {{ page.videotime | round: 2}} hours of videos{% if page.videotime> 2 %}, truly amazing!{% endif %}</p>
+			<p>{{ page.personname }} has recorded {{ site.data.stats.byspeaker[page.contributor] | round: 2}} hours of videos{% if site.data.stats.byspeaker[page.contributor]> 2 %}, truly amazing!{% endif %}</p>
 			<table>
 			{% for video in page.videos %}
 				<tr>
@@ -48,7 +48,7 @@ layout: default
 
 			{% if page.caption_count > 0 %}
 			<h2>Captions Corrected</h2>
-			<p>{{ page.personname }} has corrected {{ page.captiontime | round: 2}} hours of captions{% if page.captiontime > 2 %}, incredible work!{% endif %}</p>
+			<p>{{ page.personname }} has corrected {{ site.data.stats.bycaptioner[page.contributor] | round: 2}} hours of captions{% if site.data.stats.bycaptioner[page.contributor] > 2 %}, incredible work!{% endif %}</p>
 			<table>
 			{% for video in page.caption %}
 				<tr>

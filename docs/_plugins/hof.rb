@@ -50,9 +50,6 @@ module Jekyll
         page2.data["videos_count"] = videos_by_author[contributor].length
         page2.data["caption_count"] = captions_by_author[contributor].length
 
-        page2.data["videotime"] = site.data['stats']['byspeaker'][contributor]
-        page2.data["captiontime"] = site.data['stats']['bycaptioner'][contributor]
-
         site.pages << page2
       end
     end
