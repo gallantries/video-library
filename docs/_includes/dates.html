@@ -1,0 +1,25 @@
+<!-- returns a nicely format range of dates, given a start and end date -->
+
+{% assign start = include.start %}
+{% assign startday = start | date: "%d" %}
+{% assign startmonth = start | date: "%m" %}
+{% assign startyear = start | date: "%Y" %}
+
+{% assign end = include.end %}
+{% assign endday = end | date: "%d" %}
+{% assign endmonth = end | date: "%m" %}
+{% assign endyear = end | date: "%Y" %}
+
+
+{% if startyear == endyear and startmonth == endmonth and startday == endday %}
+  {{ start | date: "%-d %B %Y" }}
+
+{% elsif startyear == endyear and startmonth == endmonth and startday != endday %}
+  {{start | date: "%-d"}}-{{end | date: "%-d"}} {{ start | date: "%B %Y" }}
+
+{% elsif startyear == endyear and startmonth != endmonth %}
+  {{start | date: "%-d %B"}}-{{end | date: "%-d %B"}} {{ start | date: "%Y" }}
+
+{% elsif startyear != endyear %}
+  {{ start | date: "%-d %B %Y" }} - {{ end | date: "%-d %B %Y" }}
+{% endif %}

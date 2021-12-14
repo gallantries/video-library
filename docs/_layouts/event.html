@@ -6,8 +6,6 @@ layout: default
 
 <h1> {{ event.title }} </h1>
 
-# test
-
 {{ event.description }}
 
 {{ content }}
@@ -15,7 +13,7 @@ layout: default
 <h2> Practical Information </h2>
 
 <ul>
-  <li> <strong>When: </strong> {{ page.date.start | date: "%-d %B %Y" }} - {{ page.date.end | date: "%-d %B %Y" }}</li>
+  <li> <strong>When: </strong> {% include dates.html start=page.date.start end=page.date.end %}</li>
 
   {% if page.registration %}<li><strong>Registration: </strong><a href="{{page.registration}}">link</a></li> {% endif %}
 
@@ -31,4 +29,5 @@ layout: default
 Below you will find all the tutorials for this course, everything you need to follow this course is listed here.
 
 {% include course-handbook.html program=event.program instructors=event.instructors %}
+
 
