@@ -1,0 +1,66 @@
+---
+layout: default
+---
+
+{% assign contributors = site.data['instructors'] %}
+
+<section>
+	<div class="row">
+		<div class="col-md-3">
+			{% if contributors[page.contributor].photo %}
+			<img src="{{site.baseurl}}/{{site.image_dir}}/instructors/{{photo}}" alt="{{ username }}">
+			{% else %}
+			<img src="https://avatars.githubusercontent.com/{{ page.contributor }}" alt="Github Avatar">
+			{% endif %}
+
+			<h3>
+				{{ page.personname | default: page.contributor }}
+			</h3>
+
+			<div class="affil">
+			{% assign affil = contributors[page.contributor].affiliation %}
+				<a href="{{ site.data.affiliations[affil].link }}">
+					{{ site.data.affiliations[affil].name }}
+				</a>
+			</div>
+		</div>
+
+		<div class="col-md-9">
+			<h1>Contributions</h1>
+
+			{% if page.videos_count > 0 %}
+			<h2>Videos Recorded</h2>
+			<p>{{ page.personname }} has recorded {{ page.videotime | round: 2}} hours of videos{% if page.videotime> 2 %}, truly amazing!{% endif %}</p>
+			<table>
+			{% for video in page.videos %}
+				<tr>
+					{% assign name = video[1] %}
+					<td>
+						<a href="{{ site.baseurl }}/videos/{{ video[0] }}/">{{ name | default: video[0] }}</a>
+					</td>
+					<td>{{ video[2].date }}</td>
+					<td>{{ video[2].length }}</td>
+				</tr>
+			{% endfor %}
+			</table>
+			{% endif %}
+
+			{% if page.caption_count > 0 %}
+			<h2>Captions Corrected</h2>
+			<p>{{ page.personname }} has corrected {{ page.captiontime | round: 2}} hours of captions{% if page.captiontime > 2 %}, incredible work!{% endif %}</p>
+			<table>
+			{% for video in page.caption %}
+				<tr>
+					{% assign name = video[1] %}
+					<td>
+						<a href="{{ site.baseurl }}/videos/{{ video[0] }}/">{{ name | default: video[0] }}</a>
+					</td>
+					<td>{{ video[2].date }}</td>
+					<td>{{ video[2].length }}</td>
+				</tr>
+			{% endfor %}
+			</table>
+			{% endif %}
+		</div>
+	</div>
+</section>

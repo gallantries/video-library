@@ -25,7 +25,7 @@ title: "Statistics!"
 </div>
 
 <div class="row">
-	{% for tag in site.data.stats.bytag %}
+	{% for tag in site.data.stats.bytag_a %}
 	<div class="col-md-3">
 		<div class="card">
 		<div class="card-body">
@@ -48,7 +48,7 @@ title: "Statistics!"
 		</tr>
 	</thead>
 	<tbody>
-	{% for speaker in site.data.stats.byspeaker %}
+	{% for speaker in site.data.stats.byspeaker_a %}
 		<tr>
 			{% assign x = speaker[0] %}
 			<td>{{ site.data.instructors[x].name | default: x}}</td>
@@ -67,7 +67,7 @@ title: "Statistics!"
 		</tr>
 	</thead>
 	<tbody>
-	{% for captor in site.data.stats.bycaptioner %}
+	{% for captor in site.data.stats.bycaptioner_a %}
 		{% if captor[0] %}
 		<tr>
 			{% assign x = captor[0] %}

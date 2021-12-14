@@ -14,11 +14,7 @@ module Jekyll
           page2.content = nil
           id2 = video.split('/')[0,2].join('/')
 
-          if site.data['gtn'].has_key?(id2)
-            name = site.data['gtn'].fetch(id2)
-          else
-            name = video
-          end if
+          name = site.data['gtn'].fetch(id2, video)
 
           # Their tutorials
           page2.data["video"] = video
@@ -38,11 +34,7 @@ module Jekyll
           page2.content = nil
           id2 = session.split('/')[0,2].join('/')
 
-          if site.data['gtn'].has_key?(id2)
-            name = site.data['gtn'].fetch(id2)
-          else
-            name = session
-          end if
+          name = site.data['gtn'].fetch(id2, session)
 
           # Their tutorials
           page2.data['session'] = session

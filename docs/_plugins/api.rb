@@ -98,9 +98,10 @@ module Jekyll
         end
       }
       site.data['stats'] = durations
-      durations['bytag'] = durations['bytag'].map{|k, v| [k, v]}.sort_by{|a| -a[1]}
-      durations['byspeaker'] = durations['byspeaker'].map{|k, v| [k, v]}.sort_by{|a| -a[1]}
-      durations['bycaptioner'] = durations['bycaptioner'].map{|k, v| [k, v]}.sort_by{|a| -a[1]}
+
+      durations['bytag_a'] = durations['bytag'].map{|k, v| [k, v]}.sort_by{|a| -a[1]}
+      durations['byspeaker_a'] = durations['byspeaker'].map{|k, v| [k, v]}.sort_by{|a| -a[1]}
+      durations['bycaptioner_a'] = durations['bycaptioner'].map{|k, v| [k, v]}.sort_by{|a| -a[1]}
 
       # Propagate video tags to sessions
       site.data['sessions_bytag'] = Hash.new { Array.new }
