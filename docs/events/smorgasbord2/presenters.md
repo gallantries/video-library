@@ -30,7 +30,7 @@ As a speaker for the training week, you are agreeing to:
    - in the [GTN](https://training.galaxyproject.org) if possible, but not mandatory
    - please let us know if you would like help creating GTN materials!
 2. Create a **video tutorial** for your session
-   - Please follow these [guidelines]({% link recording.md %}) for recording
+   - Please follow these [guidelines]({% link events/smorgasbord2/recording.md %}) for recording
    - We need large text, this is a big requirement!
 3. Submit the video [using this form](https://docs.google.com/forms/d/e/1FAIpQLSdYlHLqkt4PdY8uarkv1j01ZuWlEp5w3sGmZ1uy7N45j7ikwQ/viewform?usp=sf_link)
 3. We will send you the auto-generated **captions** (subtitles) for your video.
