@@ -35,13 +35,13 @@ that is fine too!
 
 ## Standards
 
-1. Please **zoom in**, in every interface you're covering!
+1. **Zoom in**, in every interface you're covering! Many people will be watching the video while they're doing the activity, and won't have significant monitor space. Which video below would you rather be trying to follow?
 
-   Bad | Good
+   Bad | Good 😍
    --- | ---
    ![default size screenshot of usegalaxy.eu](./bad.png) | ![zoomed in screenshot of usegalaxy.eu, now much more legible](./good.png)
 
-   Bad | Good
+   Bad | Good 🤩
    --- | ---
    ![green text on black background console with tiny font](./bad-console.png) | ![zoomed in screenshot of a console with high contrast black and white content](./good-console.png)
 
