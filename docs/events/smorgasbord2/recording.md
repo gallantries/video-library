@@ -55,6 +55,13 @@ that is fine too!
    --- | ---
    "As you can see here the report says X" | "I'm going to view the output of this tool, click on the eyeball icon, and as you can see the report says X."
 
+   But the same goes for terminal aliases, please disable your favourite terminal aliases and quick shortcuts that you're used to using, disable your bashrc, etc. These are all things students will try and type, and will fail in doing so. We need to be very clear and explicit because people will type exactly what is on the screen, and their environment should at minimum match yours.
+
+   Bad | Good
+   --- | ---
+   `lg file`| `ls -al | grep file`
+   `z galaxy`| `cd path/to/the/galaxy`
+
 
 3. Consider using a pointer that is more visually highlighted.
 
