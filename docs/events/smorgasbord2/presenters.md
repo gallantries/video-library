@@ -21,20 +21,15 @@ Welcome presenters! We're so glad you want to be involved in Smörgåbord 2! The
 
 This year we will, as before, have a "suggested course" that everyone can follow. Students will still be free to deviate from the schedule, or skip topics that are uninteresting to them, but it will provide a "happy path" and the basic structure of our event.
 
-While we are still working out the precise schedule, we expect to see the following themes/modules at Smörgåbord 2. Some will be individual days worth of content, some might be more. We will try and assign days to each of them as that lets participants see the largest number of other people working on the same topic at the same time and helps build momentum. Additionally some groups may wish to host zoom calls or so to interact with their participants or offer them "office hours".
+While we are still working out the precise schedule, we expect to see a large variety of themes/modules at Smörgåbord 2. Some will be individual days worth of content, some might be more. We will try and assign days to each of them as that allows participants see the largest number of other people working on the same topic at the same time and helps build momentum. Additionally some groups may wish to host zoom calls or so to interact with their participants or offer them "office hours".
 
-- Monday: Galaxy Basics & Galaxy Advanced (workflows, collections, etc.)
-- Transcriptomics (+ plant)
-- COVID-19
-- Single Cell
-- Metagenomics
-- Proteomics
-- Climate
-- Ecology
-- Genome Annotation
-- Admin Training
-- Computational Chemistry?
-- Dev? (It depends on instructor availability, let us know if you're interested in supporting this)
+Please check the [draft of the modules to be presented](https://docs.google.com/document/d/1oobKOsr-P5kludyWxiuNYmHbPTuuMdXbJj4oZUdezss/edit#)
+
+- Is your topic not there? *Add it!*
+- Do you think the tutorials are in the wrong order? *fix it!*
+- Are you interested in being responsible for that module? **Add yourself!**
+
+Modules lacking a volunteer responsible person may be removed.
 
 ## Timeline
 
@@ -59,6 +54,14 @@ This year we have an updated workflow and we want to break that down for you.
 4. Video Production
 5. Captioning
 6. Done!
+
+## Step 0: Check the schedule
+
+Please check the [draft of the modules to be presented](https://docs.google.com/document/d/1oobKOsr-P5kludyWxiuNYmHbPTuuMdXbJj4oZUdezss/edit#)
+
+- Do you want a whole new module (e.g. "Climate")? *Add it!*
+- Do you think the proposed tutorials are in the wrong order? *fix it!*
+- Are you interested in being responsible for that module? **Add yourself!**
 
 ## Step 1: Re-using old content
 
