@@ -49,6 +49,14 @@
       "transcriptomics/scrna-seq-basic-pipeline/tutorial"
     ]
   },
+  "transcriptomics/mirna-target-finder": {
+    "name": "Whole transcriptome analysis of Arabidopsis thaliana",
+    "description": "In plants, miRNAs can silence targets through RNA degradation as well as translational repression pathways, and unlike animals, a large proportion of miRNA and their targets have less than four mismatches. This feature has been exploited for developing miRNAs target prediction tools, providing an efficient approach to elucidate the miRNA-mediated regulatory networks, which can contribute to biotechnological solutions to improve crops productivity.\n",
+    "videos": [
+      "transcriptomics/mirna-target-finder/slides",
+      "transcriptomics/mirna-target-finder/tutorial"
+    ]
+  },
   "climate/fates": {
     "name": "Functionally Assembled Terrestrial Ecosystem Simulator (FATES)",
     "description": "This session will provide a brief overview of FATES, and guide you through a Galaxy analysis step by step.",
