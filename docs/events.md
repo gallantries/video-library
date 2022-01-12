@@ -14,7 +14,7 @@ layout: default
  {% for page in sortedpages %}
   {% if page.layout == 'event' %}
   <tr>
-   <td> <a href="{% if page.external %}{{page.external.link}}{% else %}{{site.baseurl}}/{{page.url}}{%endif%}"> {{page.title}} </a> </td>
+   <td> <a href="{% if page.external %}{{page.external.link}}{% else %}{{site.baseurl}}{{page.url}}{%endif%}"> {{page.title}} </a> </td>
    <td> {% include dates.html start=page.date.start end=page.date.end %} </td>
   </tr>
   {% endif %}
