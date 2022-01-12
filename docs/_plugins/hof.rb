@@ -36,6 +36,7 @@ module Jekyll
         end
       end
 
+      site.data['instructor_keys'] = site.data['instructors'].keys
       site.data['instructors'].each_key do |contributor|
         page2 = PageWithoutAFile.new(site, "", File.join('contributors', contributor), "index.html")
         page2.content = nil
