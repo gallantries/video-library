@@ -55,21 +55,13 @@ This year we have an updated workflow and we want to break that down for you.
 5. Captioning
 6. Done!
 
-## Step 0: Check the schedule
+## Step 1: Check the schedule
 
 Please check the [draft of the modules to be presented](https://docs.google.com/document/d/1oobKOsr-P5kludyWxiuNYmHbPTuuMdXbJj4oZUdezss/edit#)
 
 - Do you want a whole new module (e.g. "Climate")? *Add it!*
 - Do you think the proposed tutorials are in the wrong order? *fix it!*
 - Are you interested in being responsible for that module? **Add yourself!**
-
-## Step 1: Re-using old content
-
-1. [Check your profile]({% link contributors.html %})
-	1. Are you missing? [Contact us on slack](https://gtnsmrgsbord.slack.com/archives/C01ES97MZBN)
-2. Determine which sessions you recorded, can be reused
-3. [Fill out this google form.](https://docs.google.com/forms/d/e/1FAIpQLSfPWWZ3mpMuTbMNKSlYUvRcbWDD-Tfe3ctwnERdsyi4QqMheg/viewform?usp=sf_link)
-4. Does it not have a workflow/workflow test? Join the GTN CoFest to create them.
 
 ## Step 2: New or Updated content!
 
