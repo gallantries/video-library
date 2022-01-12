@@ -15,11 +15,13 @@ module Jekyll
           id2 = video.split('/')[0,2].join('/')
 
           name = site.data['gtn'].fetch(id2, video)
+          description = site.data['videos'].fetch(video)['description']
 
           # Their tutorials
           page2.data["video"] = video
           page2.data['videoname'] = name
           page2.data['title'] = "GTN Video: #{name}"
+          page2.data['description'] = "#{description}"
           page2.data["layout"] = "video"
 
           site.pages << page2
