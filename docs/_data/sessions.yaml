@@ -28,6 +28,16 @@ sequence-analysis/mapping:
     - sequence-analysis/mapping/slides
     - sequence-analysis/mapping/tutorial
 
+variant-analysis/tb-variant-analysis:
+  name: Tuberculosis Variant Analysis
+  description: iVariation in the genome of M. tuberculosis (Mtb) is associated with
+    changes in phenotype, for example drug resistance and virulence. It is also useful
+    for outbreak investigation as the single nucleotide polymorphisms (SNPs) in a
+    sample can be used to build a phylogeny.
+  videos:
+    - variant-analysis/tb-variant-analysis/slides
+    - variant-analysis/tb-variant-analysis/tutorial
+
 epigenetics/atac-seq:
   name: "Epigenetics: ATAC-Seq"
   description: |
