@@ -783,7 +783,7 @@
         "faq": "https://docs.google.com/document/d/e/2PACX-1vQ1SZCsxEcRXp39J2BcFAjXyC3B20sWzI7IVgBgwe2pcC9b0cza417jzBPYJVqCRNbU0dD4rv_y6u6P/pub",
         "materials": [
           {
-            "link": "topics/introduction/tutorials/galaxy-intro-short/slides",
+            "link": "topics/introduction/tutorials/galaxy-intro-short/slides.html",
             "title": "A Short Introduction to Galaxy",
             "type": "Related Slides"
           }
@@ -865,7 +865,7 @@
         "faq": "https://docs.google.com/document/d/e/2PACX-1vQ1SZCsxEcRXp39J2BcFAjXyC3B20sWzI7IVgBgwe2pcC9b0cza417jzBPYJVqCRNbU0dD4rv_y6u6P/pub",
         "materials": [
           {
-            "link": "topics/introduction/tutorials/galaxy-intro-short/slides",
+            "link": "topics/introduction/tutorials/galaxy-intro-short/slides.html",
             "title": "A Short Introduction to Galaxy",
             "type": "Related Slides"
           }
