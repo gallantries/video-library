@@ -65,7 +65,7 @@
       "climate/fates/tutorial"
     ]
   },
-  "genome-annotation/prokka": {
+  "genome-annotation/annotation-with-prokka": {
     "name": "Genome Annotation with Prokka",
     "description": "This tutorial will introduce genome annotation process and give you hands-on experience with annotating a prokaryotic genome using Prokka.",
     "videos": [
