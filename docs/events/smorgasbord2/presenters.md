@@ -29,7 +29,7 @@ Please check the [draft of the modules to be presented](https://docs.google.com/
 - Do you think the tutorials are in the wrong order? *fix it!*
 - Are you interested in being responsible for that module? **Add yourself!**
 
-Modules lacking a volunteer responsible person may be removed.
+Modules lacking a volunteer may be removed.
 
 ## Timeline
 
