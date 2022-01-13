@@ -55,13 +55,19 @@ This year we have an updated workflow and we want to break that down for you.
 5. Captioning
 6. Done!
 
-## Step 1: Check the schedule
+## Check the schedule
 
 Please check the [draft of the modules to be presented](https://docs.google.com/document/d/1oobKOsr-P5kludyWxiuNYmHbPTuuMdXbJj4oZUdezss/edit#)
 
 - Do you want a whole new module (e.g. "Climate")? *Add it!*
 - Do you think the proposed tutorials are in the wrong order? *fix it!*
 - Are you interested in being responsible for that module? **Add yourself!**
+
+### Step 1: Re-usable content
+
+- Check the videos you've taught in the past, listed on that page
+- Can any be re-used?
+- Do some need to be updated? Note it in the document.
 
 ## Step 2: New or Updated content!
 
