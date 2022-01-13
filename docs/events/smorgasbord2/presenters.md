@@ -4,7 +4,7 @@ title: "Presenter Welcome"
 author: hexylena
 ---
 
-Welcome presenters! We're so glad you want to be involved in Smörgåbord 2! There are lots of ways to be involved but if you want to show a video or have a tutorial be included then you're in the right place. This page contains some basic information that is useful for you as a speaker, and please don't hesitate to contact [`wg-goats`](https://gitter.im/galaxyproject/wg-goat) if you have any further questions!
+Welcome presenters! We're so glad you want to be involved in GTN Smörgåsbord 2: Tapas! There are lots of ways to be involved but if you want to show a video or have a tutorial be included then you're in the right place. This page contains some basic information that is useful for you as a speaker, and please don't hesitate to contact [`wg-goats`](https://gitter.im/galaxyproject/wg-goat) if you have any further questions!
 
 
 **Dates**
@@ -21,7 +21,7 @@ Welcome presenters! We're so glad you want to be involved in Smörgåbord 2! The
 
 This year we will, as before, have a "suggested course" that everyone can follow. Students will still be free to deviate from the schedule, or skip topics that are uninteresting to them, but it will provide a "happy path" and the basic structure of our event.
 
-While we are still working out the precise schedule, we expect to see a large variety of themes/modules at Smörgåbord 2. Some will be individual days worth of content, some might be more. We will try and assign days to each of them as that allows participants see the largest number of other people working on the same topic at the same time and helps build momentum. Additionally some groups may wish to host zoom calls or so to interact with their participants or offer them "office hours".
+While we are still working out the precise schedule, we expect to see a large variety of themes/modules at GTN Tapas. Some will be individual days worth of content, some might be more. We will try and assign days to each of them as that allows participants see the largest number of other people working on the same topic at the same time and helps build momentum. Additionally some groups may wish to host zoom calls or so to interact with their participants or offer them "office hours".
 
 Please check the [draft of the modules to be presented](https://docs.google.com/document/d/1oobKOsr-P5kludyWxiuNYmHbPTuuMdXbJj4oZUdezss/edit#)
 
@@ -33,7 +33,7 @@ Modules lacking a volunteer responsible person may be removed.
 
 ## Timeline
 
-This is the planned timeline for Smörgåbord. We will publish these events to the Galaxy Calendar to help you remember.
+This is the planned timeline for GTN Tapas. We will publish these events to the Galaxy Calendar to help you remember.
 
 Date        | Time Left | What's happening
 ---         | ---       | ---
