@@ -2,9 +2,12 @@
 layout: default
 title: "Presenter Welcome"
 author: hexylena
+date:
+  start: 2022-03-14
+  end: 2022-03-18
 ---
 
-Welcome presenters! We're so glad you want to be involved in GTN Smörgåsbord 2: Tapas! There are lots of ways to be involved but if you want to show a video or have a tutorial be included then you're in the right place. This page contains some basic information that is useful for you as a speaker, and please don't hesitate to contact [`wg-goats`](https://gitter.im/galaxyproject/wg-goat) if you have any further questions!
+Welcome presenters! We're so glad you want to be involved in [GTN Smörgåsbord 2: Tapas!]({{site.baseurl}}/events/smorgasbord2/smorg2-tapas.html) There are lots of ways to be involved but if you want to show a video or have a tutorial be included then you're in the right place. This page contains some basic information that is useful for you as a speaker, and please don't hesitate to contact [`wg-goats`](https://gitter.im/galaxyproject/wg-goat) if you have any further questions!
 
 
 **Dates**
@@ -18,6 +21,11 @@ Welcome presenters! We're so glad you want to be involved in GTN Smörgåsbord 2
 
 **Support**
 :  On slack
+
+<div>
+{%- include calendar-buttons.html name="Smörgåsbord 2022: Tapas Edition" -%}
+<br>
+</div>
 
 This year we will, as before, have a "suggested course" that everyone can follow. Students will still be free to deviate from the schedule, or skip topics that are uninteresting to them, but it will provide a "happy path" and the basic structure of our event.
 
