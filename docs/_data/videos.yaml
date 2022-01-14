@@ -2473,7 +2473,7 @@ admin/object-store/exercise:
     speakers:
     - gmauro
 admin/singularity/tutorial:
-  description: null
+  description: Running jobs in Singularity
   faq: null
   materials:
   - link: topics/admin/tutorials/singularity/tutorial.html
