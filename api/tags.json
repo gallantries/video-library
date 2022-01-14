@@ -3668,7 +3668,7 @@
         ]
       },
       "admin/singularity/tutorial": {
-        "description": null,
+        "description": "Running jobs in Singularity",
         "faq": null,
         "materials": [
           {
