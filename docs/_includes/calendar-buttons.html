@@ -1,6 +1,6 @@
 {% assign startdate = include.start | default: page.date.start %}
 {% assign enddate = include.end | default: page.date.end %}
-{% assign eventurl = include.url | default: page.external.link | default: page.url | prepend: site.baseurl %}
+{% assign eventurl = include.url | default: page.external.link | default: page.url | prepend: site.baseurl | prepend: site.url %}
 {% assign eventname = include.name | default: page.title %}
 {% assign location = include.location | default: page.location %}
 
