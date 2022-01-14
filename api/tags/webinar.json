@@ -10,7 +10,7 @@
           "type": "Galaxy Webinar Page"
         }
       ],
-      "name": "Galaxy Resources for.. Admins",
+      "title": "Galaxy Resources for.. Admins",
       "support_channel": "#event-gcc2021",
       "support_link": "https://gtnsmrgsbord.slack.com/archives/C0253H46ABV",
       "tags": [
@@ -41,7 +41,7 @@
           "type": "Galaxy Webinar Page"
         }
       ],
-      "name": "Galaxy Resources for.. Educators",
+      "title": "Galaxy Resources for.. Educators",
       "support_channel": "#event-gcc2021",
       "support_link": "https://gtnsmrgsbord.slack.com/archives/C0253H46ABV",
       "tags": [
@@ -76,7 +76,7 @@
           "type": "Galaxy Webinar Page"
         }
       ],
-      "name": "Galaxy Resources for.. Researchers",
+      "title": "Galaxy Resources for.. Researchers",
       "support_channel": "#event-gcc2021",
       "support_link": "https://gtnsmrgsbord.slack.com/archives/C0253H46ABV",
       "tags": [
@@ -104,7 +104,7 @@
           "type": "Galaxy Webinar Page"
         }
       ],
-      "name": "Galaxy Resources for.. Tool Developers",
+      "title": "Galaxy Resources for.. Tool Developers",
       "support_channel": "#event-gcc2021",
       "support_link": "https://gtnsmrgsbord.slack.com/archives/C0253H46ABV",
       "tags": [

@@ -272,7 +272,7 @@
             "type": "GTN Twitter"
           }
         ],
-        "name": "Meet & Join the Galaxy Community!",
+        "title": "Meet & Join the Galaxy Community!",
         "support_channel": null,
         "support_link": null,
         "tags": [
@@ -603,7 +603,7 @@
         ]
       },
       "galaxy-interface/upload-to-ena": {
-        "name": "Uploading data to ENA",
+        "title": "Uploading data to ENA",
         "description": "So you’ve used Galaxy workflows to analyze your SARS-CoV-2 samples? Learn in this tutorial how to export results to your favorite datastore.",
         "faq": null,
         "materials": null,
@@ -662,7 +662,7 @@
         ]
       },
       "rstudio-cloud": {
-        "name": "Running RStudio-cloud",
+        "title": "Running RStudio-cloud",
         "description": "This tutorial will show you how you can start Rstudio from within Galaxy. This option is only available on Galaxy EU for the time being. If you are working on a different Galaxy server, you can use <strong>Rstudio Cloud (https://rstudio.cloud/)</strong>",
         "faq": "https://docs.google.com/document/d/e/2PACX-1vQuOJPPP2nosMG1gh1TuAFu479F4u2kGCCsICHuKvQE7lJGZCreVbXMQrhEORu3O1fV2hX_DZDE_Isk/pub",
         "materials": [
@@ -699,7 +699,7 @@
     "url": "/video-library/api/tags/sars-cov2.json",
     "videos": {
       "galaxy-interface/upload-to-ena": {
-        "name": "Uploading data to ENA",
+        "title": "Uploading data to ENA",
         "description": "So you’ve used Galaxy workflows to analyze your SARS-CoV-2 samples? Learn in this tutorial how to export results to your favorite datastore.",
         "faq": null,
         "materials": null,
@@ -723,7 +723,7 @@
         ]
       },
       "sars-cov2/usegalaxy-star-bot": {
-        "name": "The usegalaxy.* SARS-CoV-2 Bot in Action",
+        "title": "The usegalaxy.* SARS-CoV-2 Bot in Action",
         "description": "See in this demo how, on usegalaxy.*, we’ve used Planemo and Bioblend to build and operate an automated SARS-CoV-2 genome surveillance system based on the Galaxy workflows for variant calling, consensus building and reporting.",
         "faq": null,
         "materials": [
@@ -748,7 +748,7 @@
         ]
       },
       "sars-cov2/using-galaxy": {
-        "name": "SARS-CoV-2 Monitoring and Analysis with Galaxy",
+        "title": "SARS-CoV-2 Monitoring and Analysis with Galaxy",
         "description": "Get an overview of the workshop: production-ready Galaxy workflows for SARS-CoV-2 sequencing data, tools you should know to automate workflow execution, and how you combine all of it to turn Galaxy into a platform for genome-surveillance",
         "faq": null,
         "materials": [
@@ -778,7 +778,7 @@
     "url": "/video-library/api/tags/galaxy-intro.json",
     "videos": {
       "galaxy/intro": {
-        "name": "A Very Short Introduction to Galaxy",
+        "title": "A Very Short Introduction to Galaxy",
         "description": "This video will introduce the Galaxy data analysis platform, and give a short demo on how to use it.",
         "faq": "https://docs.google.com/document/d/e/2PACX-1vQ1SZCsxEcRXp39J2BcFAjXyC3B20sWzI7IVgBgwe2pcC9b0cza417jzBPYJVqCRNbU0dD4rv_y6u6P/pub",
         "materials": [
@@ -811,7 +811,7 @@
         ]
       },
       "galaxy/intro2": {
-        "name": "Your First Galaxy Analysis",
+        "title": "Your First Galaxy Analysis",
         "description": "In this tutorial, we will walk you through your first (toy) analysis in Galaxy. This tutorial is aimed at familiarizing you with the Galaxy platform, and some basic NGS concepts.",
         "faq": "https://docs.google.com/document/u/2/d/1uFeeF2OwgzFFc8jbVF2elV5PQB5gbxMtE4pX2FOpXKM/pub",
         "materials": [
@@ -860,7 +860,7 @@
     "url": "/video-library/api/tags/galaxy.json",
     "videos": {
       "galaxy/intro": {
-        "name": "A Very Short Introduction to Galaxy",
+        "title": "A Very Short Introduction to Galaxy",
         "description": "This video will introduce the Galaxy data analysis platform, and give a short demo on how to use it.",
         "faq": "https://docs.google.com/document/d/e/2PACX-1vQ1SZCsxEcRXp39J2BcFAjXyC3B20sWzI7IVgBgwe2pcC9b0cza417jzBPYJVqCRNbU0dD4rv_y6u6P/pub",
         "materials": [
@@ -925,7 +925,7 @@
         ]
       },
       "galaxy/intro2": {
-        "name": "Your First Galaxy Analysis",
+        "title": "Your First Galaxy Analysis",
         "description": "In this tutorial, we will walk you through your first (toy) analysis in Galaxy. This tutorial is aimed at familiarizing you with the Galaxy platform, and some basic NGS concepts.",
         "faq": "https://docs.google.com/document/u/2/d/1uFeeF2OwgzFFc8jbVF2elV5PQB5gbxMtE4pX2FOpXKM/pub",
         "materials": [
@@ -1170,7 +1170,7 @@
     "url": "/video-library/api/tags/metagenomics.json",
     "videos": {
       "metagenomics/clinical-applications": {
-        "name": "Nanopore Whole Bacterial Genome Sequencing in a Clinical Setting",
+        "title": "Nanopore Whole Bacterial Genome Sequencing in a Clinical Setting",
         "description": "Nanopore Sequencing has many applications in a clinical setting. In this lecture, Astrid Heikema discusses how her group at the Erasmus Medical Center uses Nanopore for sequencing of bacterial Genomes.",
         "faq": "https://docs.google.com/document/d/e/2PACX-1vQlG_Onq011MQqyIu4D_erDqiLKAMLnduhHr5cDWwbXVqlU9VZhmm4OT_zphKqb8TEZprAFo8rdPXjO/pub",
         "materials": [
@@ -1344,7 +1344,7 @@
     "url": "/video-library/api/tags/proteomics.json",
     "videos": {
       "proteomics/pandemic/external": {
-        "name": "Pandemics Research using Mass Spectrometry",
+        "title": "Pandemics Research using Mass Spectrometry",
         "description": "The Coronavirus Disease 2019 (COVID-19) global pandemic has had a profound, lasting impact on the world's population. Accurate and timely diagnosis of COVID-19 infection is an important step for providing care and containing its further spread. In this tutorial, attendees will be introduced to two workflows – a) database search workflow and b) peptide validation workflow. Attendees of the workshop will get an in-depth knowledge of the Galaxy workflows that detect SARS-CoV-2 peptides ([10.1186/s12014-021-09321-1)](https://doi.org/10.1186/s12014-021-09321-1)) and co-infecting pathogen peptides ([10.1021/acs.jproteome.0c00822](https://doi.org/10.1021/acs.jproteome.0c00822)).",
         "faq": "https://docs.google.com/document/d/e/2PACX-1vRQ-GVpA-btUnHv3PBDkD2vM5OYg_iPPOFPTH7VVxz-0pLFdi8ZN82zXEBGpk1rrRuOrRKiX8sy3_Yr/pub",
         "materials": [
@@ -1674,7 +1674,7 @@
     "url": "/video-library/api/tags/proteogenomics.json",
     "videos": {
       "proteogenomics/introduction/slides": {
-        "name": "Introduction to Proteogenomics",
+        "title": "Introduction to Proteogenomics",
         "description": "In this opening presentation, the basic components of proteogenomics are described, including the main steps in the bioinformatics analysis workflow that make up this approach and will be detailed in the following tutorials. Some examples of research questions that benefit from a proteogenomics approach are also highlighted.",
         "faq": "https://docs.google.com/document/d/e/2PACX-1vTjQFq5wdkZeEFiQq-E8DkOTlLI9PChgWrwekHjPYBqndlb6kuAoXDiuiJaX5N09r63dWTyLPnnL8BK/pub",
         "materials": [
@@ -1866,7 +1866,7 @@
     "url": "/video-library/api/tags/statistics.json",
     "videos": {
       "statistics/machine-learning/intro": {
-        "name": "Introduction to Machine Learning",
+        "title": "Introduction to Machine Learning",
         "description": "The lecture explains introductory concepts in machine learning such as supervised and unsupervised learning, classification and regression, hyperparameter optimisation, cross-validation, train, test and validation sets.",
         "faq": "https://docs.google.com/document/d/e/2PACX-1vQUIonilhLMvaTlPaYvi5BeOwFsWsmd30tlo1PXYCpOXNUTXiYkm4fxZ23MoOSh_PqVSqmF0lSXeE1C/pub",
         "materials": [
@@ -1899,7 +1899,7 @@
         ]
       },
       "statistics/CNN": {
-        "name": "Convolutional Neural Networks (CNN)",
+        "title": "Convolutional Neural Networks (CNN)",
         "description": "This hands-on tutorial covers Convolutional Neural Networks (CNN)",
         "faq": "https://docs.google.com/document/d/e/2PACX-1vTYyxANwg5BJXe6b9BwRnwBATU1GAYfOjLM-4SNBoPf5WQOucX9Hx-b2JiINpnAI4tRLAY_v8iXgnOy/pub",
         "materials": [
@@ -1936,7 +1936,7 @@
         ]
       },
       "statistics/FNN": {
-        "name": "Feedforward Neural Networks (FNN)",
+        "title": "Feedforward Neural Networks (FNN)",
         "description": "This hands-on tutorial covers Feedforward Neural Networks (FNN)",
         "faq": "https://docs.google.com/document/d/e/2PACX-1vTYyxANwg5BJXe6b9BwRnwBATU1GAYfOjLM-4SNBoPf5WQOucX9Hx-b2JiINpnAI4tRLAY_v8iXgnOy/pub",
         "materials": [
@@ -1973,7 +1973,7 @@
         ]
       },
       "statistics/RNN": {
-        "name": "Recurrent Neural Networks (RNN)",
+        "title": "Recurrent Neural Networks (RNN)",
         "description": "This hands-on tutorial covers Recurrenct Neural Networks (RNN)",
         "faq": "https://docs.google.com/document/d/e/2PACX-1vTYyxANwg5BJXe6b9BwRnwBATU1GAYfOjLM-4SNBoPf5WQOucX9Hx-b2JiINpnAI4tRLAY_v8iXgnOy/pub",
         "materials": [
@@ -2482,7 +2482,7 @@
         ]
       },
       "transcriptomics/scrna-umis/tutorial": {
-        "name": "Understanding Barcodes",
+        "title": "Understanding Barcodes",
         "description": "This tutorial demonstrates the what barcodes in your sequencing data are, and how to handle them during analysis. Please work through the full tutorial yourself to get all the details.",
         "support_channel": "#3-1_understanding-barcodes",
         "support_link": "https://gtnsmrgsbord.slack.com/archives/C01EXBNDKT7",
@@ -2513,7 +2513,7 @@
         ]
       },
       "transcriptomics/scrna-preprocessing-tenx/tutorial": {
-        "name": "Pre-processing of 10X Single-Cell RNA Datasets",
+        "title": "Pre-processing of 10X Single-Cell RNA Datasets",
         "description": "10x genomics has provided not only a cost-effective high-throughput solution to understanding sample heterogeneity at the individual cell level, but has defined the standards of the field that many downstream analysis packages are now scrambling to accommodate. Please work through the full tutorial yourself to get all the details.",
         "support_channel": "#3-2_preprocessing-10x-single-cell-rna-datasets",
         "support_link": "https://gtnsmrgsbord.slack.com/archives/C01EXBPPBK7",
@@ -2545,7 +2545,7 @@
         ]
       },
       "transcriptomics/scrna-scanpy-pbmc3k/tutorial": {
-        "name": "Clustering 3K PBMCs with Scanpy",
+        "title": "Clustering 3K PBMCs with Scanpy",
         "support_channel": "#3-3_clustering-3k-pbmcs-with-scanpy",
         "support_link": "https://gtnsmrgsbord.slack.com/archives/C01FQ9RLLF2",
         "faq": "https://docs.google.com/document/d/e/2PACX-1vTdqGjslXMxUjyjqwkNtidsXFl6SRULFKFug_2TYBl-dYXIDEnXb59nMyZ5qJc6bXI-fP5cPLfkXbHV/pub",
@@ -2854,7 +2854,7 @@
             "type": "Galaxy Webinar Page"
           }
         ],
-        "name": "Galaxy Resources for.. Admins",
+        "title": "Galaxy Resources for.. Admins",
         "support_channel": "#event-gcc2021",
         "support_link": "https://gtnsmrgsbord.slack.com/archives/C0253H46ABV",
         "tags": [
@@ -2885,7 +2885,7 @@
             "type": "Galaxy Webinar Page"
           }
         ],
-        "name": "Galaxy Resources for.. Educators",
+        "title": "Galaxy Resources for.. Educators",
         "support_channel": "#event-gcc2021",
         "support_link": "https://gtnsmrgsbord.slack.com/archives/C0253H46ABV",
         "tags": [
@@ -2920,7 +2920,7 @@
             "type": "Galaxy Webinar Page"
           }
         ],
-        "name": "Galaxy Resources for.. Researchers",
+        "title": "Galaxy Resources for.. Researchers",
         "support_channel": "#event-gcc2021",
         "support_link": "https://gtnsmrgsbord.slack.com/archives/C0253H46ABV",
         "tags": [
@@ -2948,7 +2948,7 @@
             "type": "Galaxy Webinar Page"
           }
         ],
-        "name": "Galaxy Resources for.. Tool Developers",
+        "title": "Galaxy Resources for.. Tool Developers",
         "support_channel": "#event-gcc2021",
         "support_link": "https://gtnsmrgsbord.slack.com/archives/C0253H46ABV",
         "tags": [
@@ -2975,7 +2975,7 @@
     "url": "/video-library/api/tags/wetlab.json",
     "videos": {
       "wetlab/miseq/demo": {
-        "name": "MinION Wetlab demo",
+        "title": "MinION Wetlab demo",
         "description": "This video will show you the full process of sequencing a bacterial genome using the Oxford Nanopore MinION sequencer.",
         "faq": "https://docs.google.com/document/d/e/2PACX-1vQlG_Onq011MQqyIu4D_erDqiLKAMLnduhHr5cDWwbXVqlU9VZhmm4OT_zphKqb8TEZprAFo8rdPXjO/pub",
         "materials": [
@@ -3007,7 +3007,7 @@
     "url": "/video-library/api/tags/event.json",
     "videos": {
       "course/welcome-admin": {
-        "name": "Admin Training 2021: Welcome & Course Logistics",
+        "title": "Admin Training 2021: Welcome & Course Logistics",
         "description": null,
         "faq": null,
         "support_channel": "#general",
@@ -3032,7 +3032,7 @@
         ]
       },
       "course/welcome-gcc2021": {
-        "name": "GCC2021 Training: Welcome & Course Logistics",
+        "title": "GCC2021 Training: Welcome & Course Logistics",
         "description": "Start here; we will go over all the important things to know to get the most out of this workshop",
         "faq": null,
         "materials": [
@@ -3071,7 +3071,7 @@
     "url": "/video-library/api/tags/admin.json",
     "videos": {
       "admin/week-overview-slides": {
-        "name": "Admin Training Week Overview",
+        "title": "Admin Training Week Overview",
         "description": null,
         "faq": null,
         "materials": [
@@ -3516,7 +3516,7 @@
         ]
       },
       "admin/job-metrics/tutorial": {
-        "name": "Recording Job Metrics",
+        "title": "Recording Job Metrics",
         "description": null,
         "faq": null,
         "materials": [
@@ -4014,7 +4014,7 @@
     "url": "/video-library/api/tags/dev.json",
     "videos": {
       "dev/architecture/slides-ecosystem": {
-        "name": "Galaxy Code Architecture: Galaxy Ecosystem",
+        "title": "Galaxy Code Architecture: Galaxy Ecosystem",
         "description": "TODO",
         "faq": "https://docs.google.com/document/d/e/2PACX-1vQc9v1cfpXZFTha3EnP-9hWw_FH9T9QkGaBxnr2YJ_KEckHhNp8uiHNUR5aeM74Zgrb9mXeIZYIlMmP/pub",
         "materials": [
@@ -4056,7 +4056,7 @@
         ]
       },
       "dev/architecture/slides-models-managers": {
-        "name": "Galaxy Code Architecture: Models and Managers",
+        "title": "Galaxy Code Architecture: Models and Managers",
         "description": "TODO",
         "faq": "https://docs.google.com/document/d/e/2PACX-1vQc9v1cfpXZFTha3EnP-9hWw_FH9T9QkGaBxnr2YJ_KEckHhNp8uiHNUR5aeM74Zgrb9mXeIZYIlMmP/pub",
         "materials": [
@@ -4098,7 +4098,7 @@
         ]
       },
       "dev/architecture/slides-app-di": {
-        "name": "Galaxy Code Architecture: app and Dependency Injection",
+        "title": "Galaxy Code Architecture: app and Dependency Injection",
         "description": "TODO",
         "faq": "https://docs.google.com/document/d/e/2PACX-1vQc9v1cfpXZFTha3EnP-9hWw_FH9T9QkGaBxnr2YJ_KEckHhNp8uiHNUR5aeM74Zgrb9mXeIZYIlMmP/pub",
         "materials": [
@@ -4140,7 +4140,7 @@
         ]
       },
       "dev/architecture/slides-project-management": {
-        "name": "Galaxy Code Architecture: Project Management",
+        "title": "Galaxy Code Architecture: Project Management",
         "description": "TODO",
         "faq": "https://docs.google.com/document/d/e/2PACX-1vQc9v1cfpXZFTha3EnP-9hWw_FH9T9QkGaBxnr2YJ_KEckHhNp8uiHNUR5aeM74Zgrb9mXeIZYIlMmP/pub",
         "materials": [
@@ -4182,7 +4182,7 @@
         ]
       },
       "dev/architecture/slides-web-client": {
-        "name": "Galaxy Code Architecture: Web Client",
+        "title": "Galaxy Code Architecture: Web Client",
         "description": "TODO",
         "faq": "https://docs.google.com/document/d/e/2PACX-1vQc9v1cfpXZFTha3EnP-9hWw_FH9T9QkGaBxnr2YJ_KEckHhNp8uiHNUR5aeM74Zgrb9mXeIZYIlMmP/pub",
         "materials": [
@@ -4224,7 +4224,7 @@
         ]
       },
       "dev/architecture/slides-pluggable-components": {
-        "name": "Galaxy Code Architecture: Pluggable Components",
+        "title": "Galaxy Code Architecture: Pluggable Components",
         "description": "TODO",
         "faq": "https://docs.google.com/document/d/e/2PACX-1vQc9v1cfpXZFTha3EnP-9hWw_FH9T9QkGaBxnr2YJ_KEckHhNp8uiHNUR5aeM74Zgrb9mXeIZYIlMmP/pub",
         "materials": [
@@ -4266,7 +4266,7 @@
         ]
       },
       "dev/architecture/slides-principles": {
-        "name": "Galaxy Code Architecture: Principles",
+        "title": "Galaxy Code Architecture: Principles",
         "description": "TODO",
         "faq": "https://docs.google.com/document/d/e/2PACX-1vQc9v1cfpXZFTha3EnP-9hWw_FH9T9QkGaBxnr2YJ_KEckHhNp8uiHNUR5aeM74Zgrb9mXeIZYIlMmP/pub",
         "materials": [
@@ -4308,7 +4308,7 @@
         ]
       },
       "dev/architecture/slides-web-requests": {
-        "name": "Galaxy Code Architecture: Web Requests",
+        "title": "Galaxy Code Architecture: Web Requests",
         "description": "TODO",
         "faq": "https://docs.google.com/document/d/e/2PACX-1vQc9v1cfpXZFTha3EnP-9hWw_FH9T9QkGaBxnr2YJ_KEckHhNp8uiHNUR5aeM74Zgrb9mXeIZYIlMmP/pub",
         "materials": [
@@ -4350,7 +4350,7 @@
         ]
       },
       "dev/architecture/slides-files-directories": {
-        "name": "Galaxy Code Architecture: Files and Directories",
+        "title": "Galaxy Code Architecture: Files and Directories",
         "description": "TODO",
         "faq": "https://docs.google.com/document/d/e/2PACX-1vQc9v1cfpXZFTha3EnP-9hWw_FH9T9QkGaBxnr2YJ_KEckHhNp8uiHNUR5aeM74Zgrb9mXeIZYIlMmP/pub",
         "materials": [
@@ -4392,7 +4392,7 @@
         ]
       },
       "dev/debugging/tutorial/intro": {
-        "name": "Introduction",
+        "title": "Introduction",
         "description": "This is the first video in the Debugging Galaxy series.",
         "faq": "https://docs.google.com/document/d/e/2PACX-1vT3bgaeSbiZ0lofmUS-KB-2-OZkdxP8_OnWl1kOex5O7HSAR_Sj8Xmzz26lrh3k5aTzhjDNzt6cVa0S/pub",
         "materials": [
@@ -4424,7 +4424,7 @@
         ]
       },
       "dev/debugging/tutorial/client-unit-test": {
-        "name": "Client Unit Tests",
+        "title": "Client Unit Tests",
         "description": "What to do when your client throws a unit test failure.",
         "faq": "https://docs.google.com/document/d/e/2PACX-1vT3bgaeSbiZ0lofmUS-KB-2-OZkdxP8_OnWl1kOex5O7HSAR_Sj8Xmzz26lrh3k5aTzhjDNzt6cVa0S/pub",
         "materials": [
@@ -4456,7 +4456,7 @@
         ]
       },
       "dev/debugging/tutorial/summary": {
-        "name": "Debugging Wisdom",
+        "title": "Debugging Wisdom",
         "description": "A summary of wisdom to debug Galaxy with.",
         "faq": "https://docs.google.com/document/d/e/2PACX-1vT3bgaeSbiZ0lofmUS-KB-2-OZkdxP8_OnWl1kOex5O7HSAR_Sj8Xmzz26lrh3k5aTzhjDNzt6cVa0S/pub",
         "materials": [
@@ -4488,7 +4488,7 @@
         ]
       },
       "dev/debugging/tutorial/api-test-failure": {
-        "name": "API tests",
+        "title": "API tests",
         "description": "What to do when an API test fails.",
         "faq": "https://docs.google.com/document/d/e/2PACX-1vT3bgaeSbiZ0lofmUS-KB-2-OZkdxP8_OnWl1kOex5O7HSAR_Sj8Xmzz26lrh3k5aTzhjDNzt6cVa0S/pub",
         "materials": [
@@ -4520,7 +4520,7 @@
         ]
       },
       "dev/debugging/tutorial/client-linter": {
-        "name": "Client Linting",
+        "title": "Client Linting",
         "description": "This video covers working through the client linting error hit in the previous tutorial.",
         "faq": "https://docs.google.com/document/d/e/2PACX-1vT3bgaeSbiZ0lofmUS-KB-2-OZkdxP8_OnWl1kOex5O7HSAR_Sj8Xmzz26lrh3k5aTzhjDNzt6cVa0S/pub",
         "materials": [
@@ -4552,7 +4552,7 @@
         ]
       },
       "dev/debugging/tutorial/runtime-error": {
-        "name": "Runtime Errors",
+        "title": "Runtime Errors",
         "description": "How to fix a runtime error",
         "faq": "https://docs.google.com/document/d/e/2PACX-1vT3bgaeSbiZ0lofmUS-KB-2-OZkdxP8_OnWl1kOex5O7HSAR_Sj8Xmzz26lrh3k5aTzhjDNzt6cVa0S/pub",
         "materials": [
@@ -4583,7 +4583,7 @@
         ]
       },
       "dev/debugging/tutorial/selenium": {
-        "name": "Selenium",
+        "title": "Selenium",
         "description": "Selenium is used to test Galaxy development.  Learn more about test failure and how to address them.",
         "faq": "https://docs.google.com/document/d/e/2PACX-1vT3bgaeSbiZ0lofmUS-KB-2-OZkdxP8_OnWl1kOex5O7HSAR_Sj8Xmzz26lrh3k5aTzhjDNzt6cVa0S/pub",
         "materials": [
@@ -4617,7 +4617,7 @@
         ]
       },
       "dev/debugging/tutorial/unit-test-failure": {
-        "name": "Unit Testing",
+        "title": "Unit Testing",
         "description": "What to do when a unit test fails.",
         "faq": "https://docs.google.com/document/d/e/2PACX-1vT3bgaeSbiZ0lofmUS-KB-2-OZkdxP8_OnWl1kOex5O7HSAR_Sj8Xmzz26lrh3k5aTzhjDNzt6cVa0S/pub",
         "materials": [
@@ -4649,7 +4649,7 @@
         ]
       },
       "dev/tool-from-scratch/tutorial/conda": {
-        "name": "Conda",
+        "title": "Conda",
         "description": "The first step to adding a tool to Galaxy, is to add it to (Bio)Conda. This tutorial will show you how to do that.",
         "faq": "https://docs.google.com/document/d/1moSs0APNyhm4yZ9vPfpH0ErPONncNU-UCRzGvypc84I/pub",
         "materials": [
@@ -4680,7 +4680,7 @@
         ]
       },
       "dev/tool-from-scratch/tutorial/publish": {
-        "name": "Publishing Tools",
+        "title": "Publishing Tools",
         "description": "Here you will learn how to publish tools in public tool repositories.",
         "faq": "https://docs.google.com/document/d/1moSs0APNyhm4yZ9vPfpH0ErPONncNU-UCRzGvypc84I/pub",
         "materials": [
@@ -4711,7 +4711,7 @@
         ]
       },
       "dev/tool-from-scratch/tutorial/testing": {
-        "name": "Tool Testing",
+        "title": "Tool Testing",
         "description": "Here you will learn how to test Galaxy tools using Planemo.",
         "faq": "https://docs.google.com/document/d/1moSs0APNyhm4yZ9vPfpH0ErPONncNU-UCRzGvypc84I/pub",
         "materials": [
@@ -4742,7 +4742,7 @@
         ]
       },
       "dev/tool-from-scratch/tutorial/tool-wrapper": {
-        "name": "Tool Wrappers",
+        "title": "Tool Wrappers",
         "description": "You are now ready to start writing your tool wrapper! This video will show you how.",
         "faq": "https://docs.google.com/document/d/1moSs0APNyhm4yZ9vPfpH0ErPONncNU-UCRzGvypc84I/pub",
         "materials": [
@@ -4773,7 +4773,7 @@
         ]
       },
       "dev/tool-from-scratch/tutorial/planemo-init": {
-        "name": "Planemo Init",
+        "title": "Planemo Init",
         "description": "Planemo is the Galaxy tool development kit, and will make your tool development process a lot easier! This tutorial will show you how to use Planemo to start the tool wrapping process, and covers the general structure of a Galaxy tool wrapper.",
         "faq": "https://docs.google.com/document/d/1moSs0APNyhm4yZ9vPfpH0ErPONncNU-UCRzGvypc84I/pub",
         "materials": [
@@ -4804,7 +4804,7 @@
         ]
       },
       "dev/tool-from-scratch/tutorial/shed-yml": {
-        "name": "Shed.yml",
+        "title": "Shed.yml",
         "description": "Each tool wrapper also needs a .shed.yml file, which contains some metadata about the tool.",
         "faq": "https://docs.google.com/document/d/1moSs0APNyhm4yZ9vPfpH0ErPONncNU-UCRzGvypc84I/pub",
         "materials": [

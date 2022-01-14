@@ -366,7 +366,7 @@
       ]
     },
     "transcriptomics/scrna-umis/tutorial": {
-      "name": "Understanding Barcodes",
+      "title": "Understanding Barcodes",
       "description": "This tutorial demonstrates the what barcodes in your sequencing data are, and how to handle them during analysis. Please work through the full tutorial yourself to get all the details.",
       "support_channel": "#3-1_understanding-barcodes",
       "support_link": "https://gtnsmrgsbord.slack.com/archives/C01EXBNDKT7",
@@ -397,7 +397,7 @@
       ]
     },
     "transcriptomics/scrna-preprocessing-tenx/tutorial": {
-      "name": "Pre-processing of 10X Single-Cell RNA Datasets",
+      "title": "Pre-processing of 10X Single-Cell RNA Datasets",
       "description": "10x genomics has provided not only a cost-effective high-throughput solution to understanding sample heterogeneity at the individual cell level, but has defined the standards of the field that many downstream analysis packages are now scrambling to accommodate. Please work through the full tutorial yourself to get all the details.",
       "support_channel": "#3-2_preprocessing-10x-single-cell-rna-datasets",
       "support_link": "https://gtnsmrgsbord.slack.com/archives/C01EXBPPBK7",
@@ -429,7 +429,7 @@
       ]
     },
     "transcriptomics/scrna-scanpy-pbmc3k/tutorial": {
-      "name": "Clustering 3K PBMCs with Scanpy",
+      "title": "Clustering 3K PBMCs with Scanpy",
       "support_channel": "#3-3_clustering-3k-pbmcs-with-scanpy",
       "support_link": "https://gtnsmrgsbord.slack.com/archives/C01FQ9RLLF2",
       "faq": "https://docs.google.com/document/d/e/2PACX-1vTdqGjslXMxUjyjqwkNtidsXFl6SRULFKFug_2TYBl-dYXIDEnXb59nMyZ5qJc6bXI-fP5cPLfkXbHV/pub",

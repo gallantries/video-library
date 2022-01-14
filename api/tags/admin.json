@@ -2,7 +2,7 @@
   "url": "/video-library/api/tags/admin.json",
   "videos": {
     "admin/week-overview-slides": {
-      "name": "Admin Training Week Overview",
+      "title": "Admin Training Week Overview",
       "description": null,
       "faq": null,
       "materials": [
@@ -447,7 +447,7 @@
       ]
     },
     "admin/job-metrics/tutorial": {
-      "name": "Recording Job Metrics",
+      "title": "Recording Job Metrics",
       "description": null,
       "faq": null,
       "materials": [

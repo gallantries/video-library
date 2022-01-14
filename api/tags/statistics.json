@@ -2,7 +2,7 @@
   "url": "/video-library/api/tags/statistics.json",
   "videos": {
     "statistics/machine-learning/intro": {
-      "name": "Introduction to Machine Learning",
+      "title": "Introduction to Machine Learning",
       "description": "The lecture explains introductory concepts in machine learning such as supervised and unsupervised learning, classification and regression, hyperparameter optimisation, cross-validation, train, test and validation sets.",
       "faq": "https://docs.google.com/document/d/e/2PACX-1vQUIonilhLMvaTlPaYvi5BeOwFsWsmd30tlo1PXYCpOXNUTXiYkm4fxZ23MoOSh_PqVSqmF0lSXeE1C/pub",
       "materials": [
@@ -35,7 +35,7 @@
       ]
     },
     "statistics/CNN": {
-      "name": "Convolutional Neural Networks (CNN)",
+      "title": "Convolutional Neural Networks (CNN)",
       "description": "This hands-on tutorial covers Convolutional Neural Networks (CNN)",
       "faq": "https://docs.google.com/document/d/e/2PACX-1vTYyxANwg5BJXe6b9BwRnwBATU1GAYfOjLM-4SNBoPf5WQOucX9Hx-b2JiINpnAI4tRLAY_v8iXgnOy/pub",
       "materials": [
@@ -72,7 +72,7 @@
       ]
     },
     "statistics/FNN": {
-      "name": "Feedforward Neural Networks (FNN)",
+      "title": "Feedforward Neural Networks (FNN)",
       "description": "This hands-on tutorial covers Feedforward Neural Networks (FNN)",
       "faq": "https://docs.google.com/document/d/e/2PACX-1vTYyxANwg5BJXe6b9BwRnwBATU1GAYfOjLM-4SNBoPf5WQOucX9Hx-b2JiINpnAI4tRLAY_v8iXgnOy/pub",
       "materials": [
@@ -109,7 +109,7 @@
       ]
     },
     "statistics/RNN": {
-      "name": "Recurrent Neural Networks (RNN)",
+      "title": "Recurrent Neural Networks (RNN)",
       "description": "This hands-on tutorial covers Recurrenct Neural Networks (RNN)",
       "faq": "https://docs.google.com/document/d/e/2PACX-1vTYyxANwg5BJXe6b9BwRnwBATU1GAYfOjLM-4SNBoPf5WQOucX9Hx-b2JiINpnAI4tRLAY_v8iXgnOy/pub",
       "materials": [

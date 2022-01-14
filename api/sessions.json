@@ -1,6 +1,6 @@
 {
   "webinars": {
-    "name": "Webinar Series: Galaxy Resources For..",
+    "title": "Webinar Series: Galaxy Resources For..",
     "description": "In this webinar series, we cover resources for different types of Galaxy users and audiences.",
     "videos": [
       "webinar/researchers",
@@ -10,7 +10,7 @@
     ]
   },
   "sequence-analysis/quality-control": {
-    "name": "Quality Control",
+    "title": "Quality Control",
     "description": "In this sesssion, we will walk you through the basics of quality checking your sequencing data. This session consists of a lecture followed by a hands-on tutorial.",
     "videos": [
       "sequence-analysis/quality-control/slides",
@@ -18,7 +18,7 @@
     ]
   },
   "sequence-analysis/mapping": {
-    "name": "Mapping",
+    "title": "Mapping",
     "description": "In this sesssion, we will walk you through the basics of mapping your sequencing data to a reference genome. This session consists of a lecture followed by a hands-on tutorial.",
     "videos": [
       "sequence-analysis/mapping/slides",
@@ -26,7 +26,7 @@
     ]
   },
   "variant-analysis/tb-variant-analysis": {
-    "name": "Tuberculosis Variant Analysis",
+    "title": "Tuberculosis Variant Analysis",
     "description": "iVariation in the genome of M. tuberculosis (Mtb) is associated with changes in phenotype, for example drug resistance and virulence. It is also useful for outbreak investigation as the single nucleotide polymorphisms (SNPs) in a sample can be used to build a phylogeny.",
     "videos": [
       "variant-analysis/tb-variant-analysis/slides",
@@ -34,7 +34,7 @@
     ]
   },
   "epigenetics/atac-seq": {
-    "name": "Epigenetics: ATAC-Seq",
+    "title": "Epigenetics: ATAC-Seq",
     "description": "ATAC-seq (Assay for Transposase-Accessible Chromatin using sequencing) is a technique used in molecular biology to assess genome-wide chromatin accessibility. This session will introduce ATAC-Seq and walk you through an analysis step by step.\n",
     "videos": [
       "epigenetics/atac-seq/slides",
@@ -42,7 +42,7 @@
     ]
   },
   "transcriptomics/scrna-intro": {
-    "name": "Introduction to Single-Cell RNA-seq Data Analysis",
+    "title": "Introduction to Single-Cell RNA-seq Data Analysis",
     "description": "Single-cell RNA-seq analysis is a rapidly evolving field at the forefront\nof transcriptomic research, used in high-throughput developmental studies\n",
     "videos": [
       "transcriptomics/scrna-intro/slides",
@@ -50,7 +50,7 @@
     ]
   },
   "transcriptomics/mirna-target-finder": {
-    "name": "Whole transcriptome analysis of Arabidopsis thaliana",
+    "title": "Whole transcriptome analysis of Arabidopsis thaliana",
     "description": "In plants, miRNAs can silence targets through RNA degradation as well as translational repression pathways, and unlike animals, a large proportion of miRNA and their targets have less than four mismatches. This feature has been exploited for developing miRNAs target prediction tools, providing an efficient approach to elucidate the miRNA-mediated regulatory networks, which can contribute to biotechnological solutions to improve crops productivity.\n",
     "videos": [
       "transcriptomics/mirna-target-finder/slides",
@@ -58,7 +58,7 @@
     ]
   },
   "climate/fates": {
-    "name": "Functionally Assembled Terrestrial Ecosystem Simulator (FATES)",
+    "title": "Functionally Assembled Terrestrial Ecosystem Simulator (FATES)",
     "description": "This session will provide a brief overview of FATES, and guide you through a Galaxy analysis step by step.",
     "videos": [
       "climate/fates/slides",
@@ -66,7 +66,7 @@
     ]
   },
   "genome-annotation/annotation-with-prokka": {
-    "name": "Genome Annotation with Prokka",
+    "title": "Genome Annotation with Prokka",
     "description": "This tutorial will introduce genome annotation process and give you hands-on experience with annotating a prokaryotic genome using Prokka.",
     "videos": [
       "genome-annotation/annotation-with-prokka/slides",
@@ -74,7 +74,7 @@
     ]
   },
   "genome-annotation/apollo": {
-    "name": "Genome Annotation with Apollo",
+    "title": "Genome Annotation with Apollo",
     "description": "This session will introduce the Apollo genome annotation platform, and provide you hands-on experience with using Apollo in Galaxy.",
     "videos": [
       "genome-annotation/apollo/slides",
@@ -82,7 +82,7 @@
     ]
   },
   "proteomics/encyclopedia": {
-    "name": "EncyclopeDIA",
+    "title": "EncyclopeDIA",
     "description": "Data independent acquisition (DIA) mass spectrometry is a powerful technique that is improving the\nreproducibility and throughput of proteomics studies. EncyclopeDIA is library search engine comprised of\nseveral algorithms for DIA data analysis and can search for peptides using either DDA-based spectrum libraries\nor DIA-based chromatogram libraries.\n",
     "videos": [
       "proteomics/encyclopedia/slides",
@@ -90,7 +90,7 @@
     ]
   },
   "proteomics/protegenomics": {
-    "name": "ProteoGenomics",
+    "title": "ProteoGenomics",
     "description": "Proteogenomics is a field of biological research that utilizes a combination of proteomics, genomics, and\ntranscriptomics to aid in the discovery and identification of peptides\n",
     "videos": [
       "proteomics/proteogenomics-dbcreation/tutorial",
@@ -99,7 +99,7 @@
     ]
   },
   "statistics/deeplearning": {
-    "name": "Deep Learning",
+    "title": "Deep Learning",
     "description": "This 3-part session will introduce you to the world of deep learning and cover Feedforward\nNeural Networks (FNN), Recurrent Neural Networks (FNN), and Convolutional Neural Networks\n(CNN).\n",
     "videos": [
       "statistics/FNN",
@@ -108,7 +108,7 @@
     ]
   },
   "galaxy-interface/ncbi-sarf": {
-    "name": "SRA Aligned read format in Galaxy",
+    "title": "SRA Aligned read format in Galaxy",
     "description": "This session will introduce the SRA Aligned Read format, and show you how to use this in Galaxy to analyze a SARS-CoV-2 dataset.",
     "videos": [
       "galaxy-interface/ncbi-sarf/slides",
@@ -116,7 +116,7 @@
     ]
   },
   "dev/architecture": {
-    "name": "Galaxy Code Architecture Lecture Series",
+    "title": "Galaxy Code Architecture Lecture Series",
     "description": "In this 9-part Lecture series, John Chilton will walk you through the Galaxy Code Architecture.",
     "videos": [
       "dev/architecture/slides-ecosystem",
@@ -131,7 +131,7 @@
     ]
   },
   "dev/debugging/tutorial": {
-    "name": "Debugging Galaxy",
+    "title": "Debugging Galaxy",
     "description": "This series of videos will guide (future) Galaxy contributors through the process of debugging Galaxy.",
     "videos": [
       "dev/debugging/tutorial/intro",
@@ -145,7 +145,7 @@
     ]
   },
   "dev/tool-from-scratch/tutorial": {
-    "name": "Galaxy Tool Development: From Conda to Deployment",
+    "title": "Galaxy Tool Development: From Conda to Deployment",
     "description": "This series of tutorials will walk you through the process of developing tools in Galaxy.",
     "videos": [
       "dev/tool-from-scratch/tutorial/conda",
@@ -157,7 +157,7 @@
     ]
   },
   "visualisation/circos": {
-    "name": "Visualisation with Circos",
+    "title": "Visualisation with Circos",
     "description": "Circos (Krzywinski et al. 2009) is a software package for visualizing data in a circular layout. This makes Circos ideal for exploring relationships between objects or positions. Circos plots have appeared in thousands of scientific publications. Although originally designed for visualizing genomic data, it can create figures from data in any field.\n",
     "videos": [
       "visualisation/circos/slides",
@@ -165,7 +165,7 @@
     ]
   },
   "admin/ansible": {
-    "name": "Ansible",
+    "title": "Ansible",
     "description": "Here you'll learn the basics of Ansible",
     "videos": [
       "admin/ansible/tutorial",
@@ -173,7 +173,7 @@
     ]
   },
   "admin/cvmfs": {
-    "name": "CVMFS",
+    "title": "CVMFS",
     "description": "Reference data management is easier than ever with CVMFS",
     "videos": [
       "admin/cvmfs/slides",
@@ -181,7 +181,7 @@
     ]
   },
   "admin/pulsar": {
-    "name": "Pulsar",
+    "title": "Pulsar",
     "description": "Remote compute made possible with Pulsar",
     "videos": [
       "admin/pulsar/slides",
@@ -189,7 +189,7 @@
     ]
   },
   "admin/monitoring": {
-    "name": "Monitoring",
+    "title": "Monitoring",
     "description": "Learn advanced Galaxy monitoring with Telegraf, Influx, and Grafana.",
     "videos": [
       "admin/monitoring/slides",
@@ -197,7 +197,7 @@
     ]
   },
   "admin/tool-management": {
-    "name": "Tool Management",
+    "title": "Tool Management",
     "description": "Learn how to install and manage tools in Galaxy",
     "videos": [
       "admin/tool-management/slides",

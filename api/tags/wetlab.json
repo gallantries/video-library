@@ -2,7 +2,7 @@
   "url": "/video-library/api/tags/wetlab.json",
   "videos": {
     "wetlab/miseq/demo": {
-      "name": "MinION Wetlab demo",
+      "title": "MinION Wetlab demo",
       "description": "This video will show you the full process of sequencing a bacterial genome using the Oxford Nanopore MinION sequencer.",
       "faq": "https://docs.google.com/document/d/e/2PACX-1vQlG_Onq011MQqyIu4D_erDqiLKAMLnduhHr5cDWwbXVqlU9VZhmm4OT_zphKqb8TEZprAFo8rdPXjO/pub",
       "materials": [
