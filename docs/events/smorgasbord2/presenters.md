@@ -63,6 +63,15 @@ Please check the [draft of the modules to be presented](https://docs.google.com/
 - Do you think the proposed tutorials are in the wrong order? *fix it!*
 - Are you interested in being responsible for that module? **Add yourself!**
 
+### Step 0: Want to help out, but don't want to record a video?
+
+- We can always use helpers! Helpers...
+  - answer Galaxy Questions during the Event
+  - caption videos and double check that everything is correct
+  - test tutorials and make sure they work
+- [Register to the mailing list](https://lists.galaxyproject.org/lists/smorgasbord2022-instructors.lists.galaxyproject.org/)
+  - Then we'll add you to Slack
+
 ### Step 1: Re-usable content
 
 - Check the videos you've taught in the past, listed on that page
