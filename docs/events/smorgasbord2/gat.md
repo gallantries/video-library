@@ -28,14 +28,14 @@ program:
 
   day1:
     title: Monday
-    description: TODO
+    description:
     trainings:
       - session: admin/ansible
       - video: admin/ansible-galaxy/tutorial
 
   day2:
     title: Tuesday
-    description: TODO
+    description:
     trainings:
       - video: admin/singularity/tutorial
       - session: admin/tool-management
@@ -45,25 +45,25 @@ program:
 
   day3:
     title: Wednesday
-    description: TODO
+    description:
     trainings:
       - video: admin/connect-to-compute-cluster/combined
       - video: admin/job-destinations/tutorial
 
   day4:
     title: Thursday
-    description: TODO
+    description:
     trainings:
       - session: admin/pulsar
       - video: admin/gxadmin/slides
       - session: admin/monitoring
       - video: admin/maintenance/slides
-      #- video: admin/upgrading/slides # Todo?
+      #- video: admin/upgrading/slides # ?
       -
 
   day5:
     title: Choose Your Own Adventure
-    description: TODO
+    description:
     trainings:
       - video: community/welcome
       # Reports
@@ -78,3 +78,5 @@ program:
       - video: admin/object-store/exercise
 
 ---
+
+This page is currently **under construction** and the schedule is not finalised. This is the draft of the schedule for you to get a feeling of what sort of topics will be covered.
