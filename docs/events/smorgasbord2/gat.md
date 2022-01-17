@@ -79,6 +79,6 @@ program:
 
 ---
 
-<div>
-This page is currently **under construction** and the schedule is not finalised. This is the draft of the schedule for you to get a feeling of what sort of topics will be covered.
+<div class="alert alert-primary">
+This page is currently <b>under construction</b> and the schedule is not finalised. This is the draft of the schedule for you to get a feeling of what sort of topics will be covered.
 </div>
