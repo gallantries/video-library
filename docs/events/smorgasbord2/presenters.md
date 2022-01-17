@@ -4,7 +4,7 @@ title: "Presenter Welcome"
 author: hexylena
 date:
   start: 2022-03-14
-  end: 2022-03-18
+  end: 2022-03-19
 ---
 
 Welcome presenters! We're so glad you want to be involved in [GTN Smörgåsbord 2: Tapas!]({{site.baseurl}}/events/smorgasbord2/smorg2-tapas.html) There are lots of ways to be involved but if you want to show a video or have a tutorial be included then you're in the right place. This page contains some basic information that is useful for you as a speaker, and please don't hesitate to contact [`wg-goats`](https://gitter.im/galaxyproject/wg-goat) if you have any further questions!
