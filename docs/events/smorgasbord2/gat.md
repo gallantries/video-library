@@ -1,6 +1,7 @@
 ---
 layout: event
 title: "Galaxy Admin Training @ GTN Tapas"
+status: draft # draft, final (default)
 description: "Free, Global, Online Week of Galaxy Admin Training"
 location: Online
 instructors: [hexylena, natefoo, slugger70, nsoranzo, mvdbeek]
@@ -79,6 +80,3 @@ program:
 
 ---
 
-<div class="alert alert-primary">
-This page is currently <b>under construction</b> and the schedule is not finalised. This is the draft of the schedule for you to get a feeling of what sort of topics will be covered.
-</div>

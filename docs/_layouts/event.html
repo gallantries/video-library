@@ -5,11 +5,19 @@ layout: default
 
 {% assign event = page %}
 
+{% if event.status == 'draft' %}
+<div class="alert alert-warning">
+<i class="fas fa-exclamation-triangle"></i><strong> Warning: </strong>  This page is currently <b>under construction</b> and the schedule is not finalised. This is the draft of the schedule for you to get a feeling of what sort of topics will be covered.
+</div>
+{% endif %}
+
+
 <h1> {{ event.title }} </h1>
 
 {{ event.description }}
 
 {{ content | markdownify }}
+
 
 <h2 class="section-header"> Practical Information </h2>
 

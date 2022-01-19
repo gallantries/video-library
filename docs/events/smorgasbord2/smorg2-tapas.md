@@ -1,6 +1,7 @@
 ---
 layout: event
 title: "Smörgåsbord 2022: Tapas Edition"
+status: draft
 description: "Free, Global, Online Week of Galaxy Training"
 location: Online
 instructors: [hexylena, shiltemann, bebatut, fpsom, yvanlebras, abretaud]
