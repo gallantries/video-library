@@ -327,7 +327,9 @@ galaxy-interface/collections/tutorial:
   - galaxy-interface
   type: Tutorial
   versions:
-  - captions: null
+  - captions:
+    - annefou
+    - mariipia10
     date: '2021-08-09'
     length: 11M
     link: uZUt9XIHUQo
@@ -1128,7 +1130,8 @@ sars-cov2/using-galaxy:
   - sars-cov2
   type: Tutorial
   versions:
-  - captions: null
+  - captions:
+    - mariipia10
     date: '2021-08-09'
     length: 13M
     link: luxFraFJTc4
