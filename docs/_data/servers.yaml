@@ -1,0 +1,15 @@
+eu:
+  name: Galaxy Europe
+  url: "https://usegalaxy.eu"
+
+au:
+  name: Galaxy Australia
+  url: "https://usegalaxy.org.au"
+
+us:
+  name: Galaxy US
+  url: "https://usegalaxy.org"
+
+galaxy-p:
+  name: Galaxy-P
+  url: "https://proteomics.usegalaxy.eu"

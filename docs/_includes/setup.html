@@ -1,0 +1,110 @@
+{% assign galaxies_default = "eu,au,us" | split: ","%}
+{% assign galaxies = include.setup.servers | default: galaxies_default  %}
+
+
+<div class="accordion-item">
+ {% capture accordion_id %}heading{{module_id}}{{forloop.index0}}{% endcapture %}
+ <h2 class="accordion-header" id="{{ accordion_id }}">
+  <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse{{module_id}}{{forloop.index0}}" aria-expanded="true" aria-controls="collapse{{module_id}}{{forloop.index0}}"> Setup for the Course
+  </button>
+ </h2>
+
+ <div id="collapse{{module_id}}{{forloop.index0}}" class="accordion-collapse collapse {% if session.show  %}show{% endif %}" aria-labelledby="{{ accordion_id }}" data-bs-parent="#accordion{{module_id}}">
+
+  <div class="accordion-body">
+
+
+   <!-- Register a Galaxy Account -->
+   <div class="card" style="width: 100%">
+    <div class="row no-gutters">
+     <div class="col-sm-4">
+      <img class="card-img" src="{{site.baseurl}}/assets/images/setup/galaxylogo.png" alt="Galaxy logo" width="75%">
+     </div>
+     <div class="col-sm-7">
+      <div class="card-body">
+       <h5 class="card-title">Register for a Galaxy Account</h5>
+       <p class="card-text">
+        <br/><strong> Create an account on one of the following Galaxy servers: </strong>
+
+        <ul>
+        {% for s in galaxies %}
+         {% if s.custom %}
+           <li><a href="{{s.custom.url}}">🌍 {{s.custom.name}}</a></li>
+         {% else %}
+         <li><a href="{{site.data.servers[s.server].url}}">🌍 {{site.data.servers[s.server].name}}</a></li>
+         {% endif %}
+        {% endfor %}
+        </ul>
+
+       </p>
+      </div>
+     </div>
+    </div>
+   </div><!-- end Galaxy registration card -->
+   </br></br>
+
+
+
+   <!-- TIaaS -->
+   <div class="card" style="width: 100%">
+    <div class="row no-gutters">
+     <div class="col-sm-4">
+      <img class="card-img" src="{{site.baseurl}}/assets/images/setup/tiaas.png" alt="tiaas logo" width="75%">
+     </div>
+     <div class="col-sm-7">
+      <div class="card-body">
+       <h5 class="card-title">Join TIaaS group</h5>
+       <p class="card-text">
+        <br/><strong> Training Infrastructure as a Service (TIaaS) helps Galaxy workshops run smoothly. </strong>
+        Joining TIaaS will make your jobs run quicker.
+        <ul>
+         {% for s in galaxies %}
+
+         {% if s.custom and s.custom.tiaas %}
+         <li><a href="{{s.custom.url}}/join-training/{{s.custom.tiaas}}">🌍 {{s.custom.name}}: Click here to join TIaaS</a></li>
+         {% elsif s.tiaas %}
+
+         <li><a href="{{site.data.servers[s.server].url}}/join-training/{{s.tiaas}}">🌍 {{site.data.servers[s.server].name}}: Click here to join TIaaS </a></li>
+         {% endif %}
+
+         {% endfor %}
+        </ul>
+        After clicking this link you should see a green box, and then you are all set!
+       </p>
+      </div>
+     </div>
+    </div>
+   </div> <!-- end TiaaS card -->
+   <br/><br/>
+
+   <!-- Slack -->
+   {% unless include.setup.slack == false %}
+   <div class="card" style="width: 100%">
+    <div class="row no-gutters">
+     <div class="col-sm-4">
+      <img class="card-img" src="{{site.baseurl}}/assets/images/setup/slacklogo.png" alt="Slack Logo">
+     </div>
+     <div class="col-sm-7">
+      <div class="card-body">
+       <h5 class="card-title">Join Slack Chat!</h5>
+       <p class="card-text">
+        <br/>
+        <strong> Slack is where you can ask all your questions </strong>
+        <ul>
+         <li>Join Slack: <a href="{{include.setup.slack.join_link | default: site.support.join_link}}">Invite link</a></li>
+         {% if include.setup.slack.event_channel %}
+         <li>Join Channel: <a href="{{include.setup.slack.event_channel.link}}">{{include.setup.slack.event_channel.name}}</a></li> {% endif %}
+
+        </ul>
+        You will find different channels here, one for each training session where you can ask your questions, as well as some more general channels for socializing, general discussions, feedback and more.
+       </p>
+      </div>
+     </div>
+    </div>
+   </div><!-- end Slack card -->
+   {% endunless %}
+
+  </div>
+ </div>
+</div>
+

@@ -12,7 +12,29 @@ cost: free
 contacts: [shiltemann, hexylena]
 example: true
 
+setup:
+  servers:
+    - server: eu
+      tiaas: smorg2021  # if using TiaaS for this server, but the keyword here
+    - server: au
+    - custom:
+        name: My custom Galaxy server
+        url: "https://galaxy.example.com"
+  slack:
+    event_channel:
+      name: "#event-testevent"
+      link: "https://gtnsmrgsbord.slack.com/archives/C01EDBVMHBQ"
+
+
+wrapup:
+  feedback_form: "https://feedback.example.com"
+
+
 program:
+  preliminary:
+    title: Before you start
+    trainings:
+      - setup
   day1:
     title: Day 1
     description: your first intro
