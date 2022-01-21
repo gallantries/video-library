@@ -62,6 +62,16 @@
               <td>{% for m in materials %} <a href="{% unless m.link contains 'http' %}{{site.gtn}}/archive/{{archiveyear}}-{{archivemonth}}-01/{% endunless %}{{m.link}}">{{m.type}}</a><br/>{% endfor %}</td>
           </tr>
           {% endif %}
+          <tr>
+              <td><strong>Support:</strong></td>
+              <td>
+              <ul>
+               <li>Slack: <a href="{{include.session.support_link}}">{{include.session.support_channel}}</a> (<a href="{{site.support.join_link}}">Slack Invite</a>)</li>
+               <li><a href="{{site.gitter}}">Gitter</a></li>
+               <li><a href="https://help.galaxyproject.org">Galaxy Help Forum</a></li>
+              </ul>
+              </td>
+          </tr>
       </table>
 
   </div>

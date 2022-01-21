@@ -11,6 +11,8 @@ code_of_conduct: "https://galaxyproject.org/community/coc/"
 license:
 gtn: "https://training.galaxyproject.org"
 image_dir: "assets/images"
+gitter: "https://gitter.im/Galaxy-Training-Network/Lobby"
+
 # Support defaults, can be overridden in event definition
 support:
   platform: Slack
