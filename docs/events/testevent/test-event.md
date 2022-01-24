@@ -35,12 +35,17 @@ program:
     title: Before you start
     trainings:
       - setup
+      - video: community/welcome
   day1:
     title: Day 1
     description: your first intro
     trainings:
+      - icebreaker:
+          prompt: "Introduce yourself and tell us your favorite science fun fact!"
+          channel_link: bla
+          channel_name: blabla
+          certificate: false  # set this if you would like to encourage participation in icebreakers in order to receive certificate
       - session: webinars
-      - video: community/welcome
       - session: sequence-analysis/quality-control
   module2:
     title: Day 2
