@@ -10,6 +10,7 @@
   <div class="accordion-body">
 
    <p> Come say Hi in Slack! Let us know you are joining today and are getting started! </p>
+
    <div class="card" style="width: 100%">
     <div class="row no-gutters">
      <div class="col-sm-5">
@@ -22,7 +23,8 @@
         <br/><strong> {{ include.icebreaker.prompt }} </strong><br/>
        </p>
        <p class="card-text">
-        Post your answers in <a href="{{include.icebreaker.channel_link | default: site.support.icebreaker_link}}"> {{ include.icebreaker.channel_name | default: site.support.icebreaker_channel }}</a> on Slack!
+        Post your answers in <a href="{{ include.icebreaker.channel_link | default: include.setup.slack.event_channel.link | default: site.support.icebreaker_link }}">
+      {{ include.icebreaker.channel_name | default: include.setup.slack.event_channel.name | default: site.support.icebreaker_channel }}</a> on Slack!
        </p>
       </div>
      </div>

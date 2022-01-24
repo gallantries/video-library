@@ -21,7 +21,7 @@
      {% elsif session == "setup" %}
         {% include setup.html setup=page.setup %}
      {% elsif session.icebreaker %}
-        {% include icebreaker.html icebreaker=session.icebreaker %}
+        {% include icebreaker.html icebreaker=session.icebreaker setup=page.setup %}
 
      {% endif %}
        {% endfor %}

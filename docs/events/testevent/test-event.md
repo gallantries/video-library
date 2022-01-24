@@ -42,8 +42,8 @@ program:
     trainings:
       - icebreaker:
           prompt: "Introduce yourself and tell us your favorite science fun fact!"
-          channel_link: bla
-          channel_name: blabla
+          channel_link: example  # defaults to the event channel if not set, and #social if no event channel set
+          channel_name: "#mychannel"
           certificate: false  # set this if you would like to encourage participation in icebreakers in order to receive certificate
       - session: webinars
       - session: sequence-analysis/quality-control
