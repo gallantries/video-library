@@ -18,12 +18,14 @@
      {% elsif session.video %}
        {% assign s = site.data.videos[session.video] %}
        {% include session.html session=s type='video' id=session.video instructors=instructors module=module_id %}
+
      {% elsif session == "setup" %}
-        {% include setup.html setup=page.setup %}
+        {% include custom-session.html type="setup" config=page.setup title="Get set up for the Course" %}
+
      {% elsif session.icebreaker %}
-        {% include icebreaker.html icebreaker=session.icebreaker setup=page.setup %}
+        {% include custom-session.html type="icebreaker" config=session.icebreaker title="Icebreaker" %}
 
      {% endif %}
-       {% endfor %}
+  {% endfor %}
   </div>
 {% endfor %}

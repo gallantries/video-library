@@ -25,6 +25,8 @@ setup:
       name: "#event-testevent"
       link: "https://gtnsmrgsbord.slack.com/archives/C01EDBVMHBQ"
 
+certificates:
+  - request_form: ""
 
 wrapup:
   feedback_form: "https://feedback.example.com"

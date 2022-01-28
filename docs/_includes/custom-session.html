@@ -1,0 +1,22 @@
+<div class="accordion-item">
+ {% capture accordion_id %}heading{{module_id}}{{forloop.index0}}{% endcapture %}
+ <h2 class="accordion-header" id="{{ accordion_id }}">
+  <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse{{module_id}}{{forloop.index0}}" aria-expanded="true" aria-controls="collapse{{module_id}}{{forloop.index0}}"> {{include.title}}
+  </button>
+ </h2>
+
+ <div id="collapse{{module_id}}{{forloop.index0}}" class="accordion-collapse collapse {% if session.show  %}show{% endif %}" aria-labelledby="{{ accordion_id }}" data-bs-parent="#accordion{{module_id}}">
+
+  <div class="accordion-body">
+
+  {% if include.type == "setup" %}
+    {% include setup.html config=include.config %}
+  {% endif %}
+
+  {% if include.type == "icebreaker" %}
+    {% include sessions/icebreaker.html config=include.config %}
+  {% endif %}
+
+  </div>
+ </div>
+</div> <!-- end session -->

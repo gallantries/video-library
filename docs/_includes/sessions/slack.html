@@ -1,0 +1,24 @@
+<div class="card" style="width: 100%">
+    <div class="row no-gutters">
+     <div class="col-sm-4">
+      <img class="card-img" src="{{site.baseurl}}/assets/images/setup/slacklogo.png" alt="Slack Logo">
+     </div>
+     <div class="col-sm-7">
+      <div class="card-body">
+       <h5 class="card-title">Join Slack Chat!</h5>
+       <p class="card-text">
+        <br/>
+        <strong> Slack is where you can ask all your questions </strong>
+        <ul>
+         <li>Join Slack: <a href="{{include.config.slack.join_link | default: site.support.join_link}}">Invite link</a></li>
+         {% if include.config.slack.event_channel %}
+         <li>Join Channel: <a href="{{include.config.slack.event_channel.link}}">{{include.config.slack.event_channel.name}}</a></li> {% endif %}
+
+        </ul>
+        You will find different channels here, one for each training session where you can ask your questions, as well as some more general channels for socializing, general discussions, feedback and more.
+       </p>
+      </div>
+     </div>
+    </div>
+   </div><!-- end Slack card -->
+

@@ -1,0 +1,28 @@
+ <!-- Register a Galaxy Account -->
+   <div class="card" style="width: 100%">
+    <div class="row no-gutters">
+     <div class="col-sm-4">
+      <img class="card-img" src="{{site.baseurl}}/assets/images/setup/galaxylogo.png" alt="Galaxy logo" width="75%">
+     </div>
+     <div class="col-sm-7">
+      <div class="card-body">
+       <h5 class="card-title">Register for a Galaxy Account</h5>
+       <p class="card-text">
+        <br/><strong> Create an account on one of the following Galaxy servers: </strong>
+
+        <ul>
+        {% for s in include.galaxies %}
+         {% if s.custom %}
+           <li><a href="{{s.custom.url}}">🌍 {{s.custom.name}}</a></li>
+         {% else %}
+         <li><a href="{{site.data.servers[s.server].url}}">🌍 {{site.data.servers[s.server].name}}</a></li>
+         {% endif %}
+        {% endfor %}
+        </ul>
+
+       </p>
+      </div>
+     </div>
+    </div>
+   </div><!-- end Galaxy registration card -->
+

@@ -1,0 +1,31 @@
+<!-- TIaaS -->
+   <div class="card" style="width: 100%">
+    <div class="row no-gutters">
+     <div class="col-sm-4">
+      <img class="card-img" src="{{site.baseurl}}/assets/images/setup/tiaas.png" alt="tiaas logo" width="75%">
+     </div>
+     <div class="col-sm-7">
+      <div class="card-body">
+       <h5 class="card-title">Join TIaaS group</h5>
+       <p class="card-text">
+        <br/><strong> Training Infrastructure as a Service (TIaaS) helps Galaxy workshops run smoothly. </strong>
+        Joining TIaaS will make your jobs run quicker.
+        <ul>
+         {% for s in galaxies %}
+
+         {% if s.custom and s.custom.tiaas %}
+         <li><a href="{{s.custom.url}}/join-training/{{s.custom.tiaas}}">🌍 {{s.custom.name}}: Click here to join TIaaS</a></li>
+         {% elsif s.tiaas %}
+
+         <li><a href="{{site.data.servers[s.server].url}}/join-training/{{s.tiaas}}">🌍 {{site.data.servers[s.server].name}}: Click here to join TIaaS </a></li>
+         {% endif %}
+
+         {% endfor %}
+        </ul>
+        After clicking this link you should see a green box, and then you are all set!
+       </p>
+      </div>
+     </div>
+    </div>
+   </div> <!-- end TiaaS card -->
+
