@@ -17,6 +17,14 @@
     {% include sessions/icebreaker.html config=include.config %}
   {% endif %}
 
+  {% if include.type == "certificates" %}
+    {% include sessions/certificates.html config=include.config %}
+  {% endif %}
+
+  {% if include.type == "feedback" %}
+    {% include sessions/feedback.html config=include.config %}
+  {% endif %}
+
   </div>
  </div>
 </div> <!-- end session -->

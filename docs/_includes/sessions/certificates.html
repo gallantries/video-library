@@ -1,0 +1,28 @@
+
+<div class="card" style="width: 100%">
+ <div class="row no-gutters">
+  <div class="col-sm-4">
+   <img class="card-img" src="{{site.baseurl}}/assets/images/cert.gif" alt="Icon of a Certificate" width="75%">
+  </div>
+  <div class="col-sm-7">
+   <div class="card-body">
+    <h5 class="card-title">Request a certificate of attendance.</h5>
+    <p class="card-text">
+      After completing this course, please fill in this this <a href="{{include.config.request_form}}">Certificate Request Form</a> to get your certificate.
+    </p>
+    <p class="card-text">
+      <strong>Deadline: </strong> no later than <strong>{{include.config.deadline | date_to_long_string }}</strong>.
+    </p>
+   </div>
+  </div>
+ </div>
+</div>
+
+{% if include.config.notes %}
+  {% if include.config.notes.snippet %}
+    {% include {{include.config.notes.snippet}} %}
+  {% else %}
+    {{ include.config.notes }}
+  {% endif %}
+{% endif %}
+

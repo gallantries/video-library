@@ -14,10 +14,10 @@ example: true
 
 setup:
   servers:
-    - server: eu
-      tiaas: smorg2021  # if using TiaaS for this server, but the keyword here
+    - server: eu        # some popular servers are predefined (in _data/servers.yml)
+      tiaas: smorg2021  # if using TiaaS for this server, put the keyword here
     - server: au
-    - custom:
+    - custom:           # or you can specify a different server
         name: My custom Galaxy server
         url: "https://galaxy.example.com"
   slack:
@@ -26,10 +26,13 @@ setup:
       link: "https://gtnsmrgsbord.slack.com/archives/C01EDBVMHBQ"
 
 certificates:
-  - request_form: ""
+  request_form: "https://feedbackform.example.com"
+  deadline: 2022-07-24
+  notes:  # if you want to provide more explanation here, either specificy "notes: my text about certs" or reuse an available snippet as shown below
+    snippet: "snippets/cert-requirements-smorg.html"
 
-wrapup:
-  feedback_form: "https://feedback.example.com"
+feedback:
+  form: "https://feedback.example.com"
 
 
 program:
@@ -37,6 +40,7 @@ program:
     title: Before you start
     trainings:
       - setup
+      - certificates
       - video: community/welcome
   day1:
     title: Day 1
@@ -57,4 +61,11 @@ program:
         instructors: [hexylena, bebatut]
       - session: sequence-analysis/quality-control
 
+
+  wrapup:
+    title: Wrap-up
+    description: Thanks for joining this course!
+    trainings:
+      - feedback
+      - certificates
 ---

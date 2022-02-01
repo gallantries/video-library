@@ -25,6 +25,11 @@
      {% elsif session.icebreaker %}
         {% include custom-session.html type="icebreaker" config=session.icebreaker title="Icebreaker" %}
 
+     {% elsif session == "certificates" %}
+       {% include custom-session.html type="certificates" config=page.certificates title="About Certificates" %}
+
+     {% elsif session == "feedback" %}
+       {% include custom-session.html type="feedback" config=page.feedback title="Give us your Feedback!" %}
      {% endif %}
   {% endfor %}
   </div>
