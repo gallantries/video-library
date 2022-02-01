@@ -3,7 +3,7 @@ layout: default
 wide: true
 ---
 
-# Course Builder
+# Course Builder (Beta!)
 
 <style type="text/css">
 .a {
@@ -37,10 +37,11 @@ wide: true
 						{% assign x = video[0] | split:'/' %}
 						{% assign versions = video[1]['versions'] %}
 						{% assign version_count = versions | size %}
+						{% assign captioned = versions[0]['captions'] | size %}
 
 							<!-- TODO: Some modules have no video, thus no time. {{ version_count }} -->
 							{% if version_count > 0 %}
-							<a class="b library_{{ video[0] | replace: '/','_' }}" onclick="updateBasket('{{video[0]}}')"><li class="list-group-item">{{ video[1]['name'] }}</li></a>
+							<a class="b library_{{ video[0] | replace: '/','_' }}" onclick="updateBasket('{{video[0]}}')"><li class="list-group-item">{{ video[1]['name'] }} {% if captioned < 1 %}<span title="This video lacks captions, it is not appropriate for users with a hearing impairment. Captions are welcome if you have time, just ask WG-GOAT!">🧏‍♀️</span>{% endif %}</li></a>
 							{% endif %}
 						{% endfor %}
 					</ul>
