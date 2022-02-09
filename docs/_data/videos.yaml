@@ -1074,8 +1074,8 @@ proteomics/maxquant-msstats-dda-lfq/tutorial:
     link: IXdLAt2PAT4
     speakers:
     - foellmelanie
-rstudio-cloud:
-  title: Running RStudio-cloud
+rstudio-galaxy:
+  title: Running RStudio in Galaxy
   description: This tutorial will show you how you can start Rstudio from within Galaxy.
     This option is only available on Galaxy EU for the time being. If you are working
     on a different Galaxy server, you can use <strong>Rstudio Cloud (https://rstudio.cloud/)</strong>

@@ -28,9 +28,16 @@ sequence-analysis/mapping:
     - sequence-analysis/mapping/slides
     - sequence-analysis/mapping/tutorial
 
+assembly:
+  title: Genome Assembly
+  description: This session provides an introduction to Genome Assembly
+  videos:
+    - assembly/general-introduction/slides
+    - assembly/chloroplast-assembly/tutorial
+
 variant-analysis/tb-variant-analysis:
   title: Tuberculosis Variant Analysis
-  description: iVariation in the genome of M. tuberculosis (Mtb) is associated with
+  description: Variation in the genome of M. tuberculosis (Mtb) is associated with
     changes in phenotype, for example drug resistance and virulence. It is also useful
     for outbreak investigation as the single nucleotide polymorphisms (SNPs) in a
     sample can be used to build a phylogeny.
@@ -105,8 +112,15 @@ proteomics/protegenomics:
     - proteomics/proteogenomics-dbsearch/tutorial
     - proteomics/proteogenomics-novel-peptide-analysis/tutorial
 
+metagenomics/mothur-miseq-sop-short:
+  title: 16S metagenomics with Mothur
+  description:
+  videos:
+    - metagenomics/introduction/slides
+    - metagenomics/mothur-miseq-sop-short/tutorial
+
 statistics/deeplearning:
-  title: Deep Learning
+  title: Deep Learning Demystified
   description: |
     This 3-part session will introduce you to the world of deep learning and cover Feedforward
     Neural Networks (FNN), Recurrent Neural Networks (FNN), and Convolutional Neural Networks
@@ -162,6 +176,13 @@ dev/tool-from-scratch/tutorial:
     - dev/tool-from-scratch/tutorial/testing
     - dev/tool-from-scratch/tutorial/publish
 
+galaxy/r:
+  title: Using R in Galaxy
+  description: Want a bit more control over your Analyses? You can run R in Rstudio directly within Galaxy
+  videos:
+    - rstudio-galaxy
+    - data-science/r-basics/tutorial
+    - data-science/r-advanced/tutorial
 
 visualisation/circos:
   title: Visualisation with Circos
@@ -201,3 +222,5 @@ admin/tool-management:
   videos:
   - admin/tool-management/slides
   - admin/tool-management/tutorial
+
+

@@ -1,0 +1,21 @@
+---
+layout: default
+---
+
+
+{% assign module = page %}
+
+<h1> Module: {{ module.title }} </h1>
+
+{{ module.description }}
+
+<p>
+{{ content | markdownify }}
+</p>
+
+<p>
+Below you will find all the tutorials for this module, everything you need to follow these trainings is listed here.
+</p>
+
+{% include course-handbook.html program=module.program %}
+
