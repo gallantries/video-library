@@ -16,8 +16,6 @@ layout: default
 
 {{ event.description }}
 
-{{ content | markdownify }}
-
 
 <h2 class="section-header"> Practical Information </h2>
 
@@ -42,3 +40,8 @@ Below you will find all the tutorials for this course, everything you need to fo
 
 {% include course-handbook.html program=event.program instructors=event.instructors %}
 
+{% if page.lang == "html" %}
+  {{ content }}
+{% else %}
+  {{ content | markdownify }}
+{% endif %}
