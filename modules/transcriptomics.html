@@ -1,0 +1,1956 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  
+  <title>Transcriptomics</title>
+  
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <head profile="http://www.w3.org/2005/10/profile">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+  <link rel="icon" type="image/png" href="/video-library/assets/images/favicon.png" />
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+  <script async defer data-domain="gallantries.github.io" src="https://plausible.galaxyproject.eu/js/plausible.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/lazysizes/5.2.2/lazysizes.min.js" async></script>
+  <script src="https://kit.fontawesome.com/67b3f98409.js" crossorigin="anonymous"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/video-library/assets/main.css">
+
+  <!-- updates for previews on social media etc -->
+  <meta name="description" content="This module will guide you through transcriptomics analysis in Galaxy." />
+  <meta property="og:title" content="Transcriptomics" />
+  <meta property="og:description" content="This module will guide you through transcriptomics analysis in Galaxy." />
+  <meta property="og:image" content="/video-library/assets/images/video_cover.png" />
+
+</head>
+<body><nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <div class="container-fluid" style="width: calc(1000px - (30px * 2)); padding-left:30px">
+    <a class="navbar-brand"
+        
+             href="/video-library/">GTN Video Library
+        
+    </a>
+
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+			<a class="nav-link active" aria-current="page" href="/video-library/">Home</a>
+        </li>
+        <li class="nav-item">
+			<a class="nav-link active" aria-current="page" href="/video-library/events">Events</a>
+        </li>
+        <li class="nav-item">
+			<a class="nav-link active" aria-current="page" href="/video-library/library">Video Library</a>
+        </li>
+        <li class="nav-item">
+			<a class="nav-link active" aria-current="page" href="/video-library/session-library">Session Library</a>
+        </li>
+        <li class="nav-item">
+			<a class="nav-link active" aria-current="page" href="/video-library/course-builder">Course Builder</a>
+        </li>
+
+        <li class="nav-item">
+			<a class="nav-link active" aria-current="page" href="https://github.com/gallantries/video-library"><i class="fab fa-github"></i></a>
+        </li>
+
+	    <!-- Want to add more pages to the top menu bar? add them here.
+        <li class="nav-item">
+           <a class="nav-link " href="for-instructors.html">Instructors</a>
+        </li>
+        -->
+        <!--
+        <li class="nav-item">
+          <a class="nav-link " href="recording.html">recording</a>
+        </li>
+      -->
+      </ul>
+    </div>
+  </div>
+</nav>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper" >
+        
+
+<h1> Module: Transcriptomics </h1>
+
+This module will guide you through transcriptomics analysis in Galaxy.
+
+<p>
+
+
+</p>
+
+<p>
+Below you will find all the tutorials for this module, everything you need to follow these trainings is listed here.
+</p>
+
+<!-- This will generate the course handbook; the collapsible sections with videos and all others resources for the training -->
+
+
+
+
+  
+  
+  <h3 class="module-start"> Introduction to transcriptomics </h3>
+  <p class="module-description">  </p>
+  <div class="accordion" id="accordionintro">
+  
+     
+
+     
+       
+       
+
+
+
+
+
+
+
+
+
+
+
+<div class="accordion-item">
+  
+  <h2 class="accordion-header" id="headingintro0">
+   <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseintro0" aria-expanded="true" aria-controls="collapseintro0">
+        Introduction to Transcriptomics
+        
+   </button>
+  </h2>
+
+  <div id="collapseintro0" class="accordion-collapse collapse " aria-labelledby="headingintro0" data-bs-parent="#accordionintro">
+
+    <div class="accordion-body">
+
+      <!-- Video -->
+      
+        
+           
+           <!-- session: {"description"=>"RNA sequencing is used to assess the expression levels of genes. This video introduces the important concepts related to RNA-seq analysis.", "faq"=>"https://docs.google.com/document/d/e/2PACX-1vTOAKhYdmiiTucIarwlehmnPaxi0MXDmuCPdyZwB27xvBJPksDOLCOYMGdtEZAoz4WGxHGdDcBDdlM9/pub", "materials"=>[{"link"=>"topics/transcriptomics/slides/introduction.html", "title"=>"Introduction to Transcriptomics", "type"=>"Slides"}], "support_channel"=>"#transcriptomics_ref-based-rna-seq", "support_link"=>"https://gtnsmrgsbord.slack.com/archives/C01F0L6UW03", "tags"=>["transcriptomics"], "type"=>"Lecture", "versions"=>[{"captions"=>["nagoue", "shiltemann"], "date"=>"2021-02-15", "galaxy_version"=>"21.01", "length"=>"30M", "link"=>"qKkS_tztw_Q", "speakers"=>["fpsom"], "name"=>"Introduction to Transcriptomics"}], "name"=>"Introduction to Transcriptomics"}<br><br> video: {"captions"=>["nagoue", "shiltemann"], "date"=>"2021-02-15", "galaxy_version"=>"21.01", "length"=>"30M", "link"=>"qKkS_tztw_Q", "speakers"=>["fpsom"], "name"=>"Introduction to Transcriptomics"} -->
+
+
+
+
+
+<!-- determine the next archived version of tutorial -->
+
+
+
+
+<div class="flex-row" style="margin-top:1em;">
+ <div class="col-md-8">
+  <h3 class="session-section">Lecture Video   </h3>
+  <div style="position:relative;padding-top:56.25%;">
+   <iframe style="position:absolute;top:0;left:0;width:100%;height:100%;"
+    
+    data-src="https://www.youtube.com/embed/qKkS_tztw_Q"
+    
+     class="lazyload"
+     loading="lazy"
+     frameborder="0"
+     allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+     allowfullscreen>
+   </iframe>
+  </div>
+  <div style="margin-top:1em;" class="video-metadata">
+      <table>
+          
+          <tr>
+              <td><strong>Description:</strong></td>
+              <td>RNA sequencing is used to assess the expression levels of genes. This video introduces the important concepts related to RNA-seq analysis.</td>
+          </tr>
+          
+          <tr>
+              <td><strong>Length:</strong></td>
+              <td>30m</td>
+          </tr>
+   
+   
+          <tr>
+              <td><strong>Captions:</strong></td>
+              <td> <a href="/video-library/contributors/nagoue/">Nadia Goué</a>,  <a href="/video-library/contributors/shiltemann/">Saskia Hiltemann</a></td>
+          </tr>
+   
+          
+          <tr>
+              <td><strong>Created:</strong></td>
+              <td>15 February 2021</td>
+          </tr>
+          
+          
+          <tr>
+              <td><strong>Materials:</strong></td>
+              <td> <a href="https://training.galaxyproject.org/archive/2021-03-01/topics/transcriptomics/slides/introduction.html">Slides</a><br/></td>
+          </tr>
+          
+          <tr>
+              <td><strong>Support:</strong></td>
+              <td>
+              <ul>
+               <li>Slack: <a href="https://gtnsmrgsbord.slack.com/archives/C01F0L6UW03">#transcriptomics_ref-based-rna-seq</a> (<a href="https://join.slack.com/t/gtnsmrgsbord/shared_invite/zt-x7vinbs1-BA~Kht6N86JBhDq0uTIVdQ">Slack Invite</a>)</li>
+               <li><a href="https://gitter.im/Galaxy-Training-Network/Lobby">Gitter</a></li>
+               <li><a href="https://help.galaxyproject.org">Galaxy Help Forum</a></li>
+              </ul>
+              </td>
+          </tr>
+      </table>
+
+  </div>
+  
+  Go to the <a href="/video-library/videos/transcriptomics/introduction/slides">video page</a> to see all versions.
+  
+ </div>
+ <!-- speaker(s) -->
+ 
+ 
+
+ <div class="col-md-3">
+  <center><h3 class="session-section">Speaker</h3></center>
+  
+
+
+
+
+
+
+
+<div class="hall-of-fame">
+    
+    
+    
+		<div class="hall-of-fame-hero" id="fpsom">
+			<a href="/video-library/contributors/fpsom/">
+            
+			<img src="https://avatars.githubusercontent.com/fpsom" alt="fpsom">
+            
+			<div class="name">
+				<b>Fotis E. Psomopoulos</b>
+			</div>
+			</a>
+			<div class="affil">
+				
+				<a href="https://www.inab.certh.gr/">
+					INAB|CERTH
+				</a>
+				
+			</div>
+		</div>
+	
+    
+</div>
+
+ </div>
+
+
+</div><!-- end video session -->
+
+
+
+        
+
+      
+
+
+      <!-- Instructors -->
+      
+
+      <!-- Supporting Servers -->
+
+      <!-- Resources -->
+
+    </div><!-- end accordion body -->
+  </div><!-- end collapse -->
+</div><!-- end accordion item (training session) -->
+
+
+
+
+     
+  
+     
+
+     
+       
+       
+
+
+
+
+
+
+
+
+
+
+
+<div class="accordion-item">
+  
+  <h2 class="accordion-header" id="headingintro1">
+   <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseintro1" aria-expanded="true" aria-controls="collapseintro1">
+        Reference-based RNA-Seq data analysis
+        
+   </button>
+  </h2>
+
+  <div id="collapseintro1" class="accordion-collapse collapse " aria-labelledby="headingintro1" data-bs-parent="#accordionintro">
+
+    <div class="accordion-body">
+
+      <!-- Video -->
+      
+        
+           
+           <!-- session: {"description"=>"In this tutorial we will walk you through the process of an RNA-seq analysis, comparing gene expression levels between different conditions and assessing impacted gene pathways.", "faq"=>"https://docs.google.com/document/d/e/2PACX-1vTOAKhYdmiiTucIarwlehmnPaxi0MXDmuCPdyZwB27xvBJPksDOLCOYMGdtEZAoz4WGxHGdDcBDdlM9/pub", "materials"=>[{"link"=>"topics/transcriptomics/tutorials/ref-based/tutorial.html", "title"=>"Reference-based RNA-Seq data analysis", "type"=>"Tutorial"}], "support_channel"=>"#transcriptomics_ref-based-rna-seq", "support_link"=>"https://gtnsmrgsbord.slack.com/archives/C01F0L6UW03", "tags"=>["transcriptomics"], "type"=>"Tutorial", "versions"=>[{"captions"=>["hexylena", "shiltemann"], "date"=>"2021-02-15", "galaxy_version"=>"21.01", "length"=>"2H30M", "link"=>"j4onRSN650A", "speakers"=>["bebatut"], "name"=>"Reference-based RNA-Seq data analysis"}], "name"=>"Reference-based RNA-Seq data analysis"}<br><br> video: {"captions"=>["hexylena", "shiltemann"], "date"=>"2021-02-15", "galaxy_version"=>"21.01", "length"=>"2H30M", "link"=>"j4onRSN650A", "speakers"=>["bebatut"], "name"=>"Reference-based RNA-Seq data analysis"} -->
+
+
+
+
+
+<!-- determine the next archived version of tutorial -->
+
+
+
+
+<div class="flex-row" style="margin-top:1em;">
+ <div class="col-md-8">
+  <h3 class="session-section">Tutorial Video   </h3>
+  <div style="position:relative;padding-top:56.25%;">
+   <iframe style="position:absolute;top:0;left:0;width:100%;height:100%;"
+    
+    data-src="https://www.youtube.com/embed/j4onRSN650A"
+    
+     class="lazyload"
+     loading="lazy"
+     frameborder="0"
+     allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+     allowfullscreen>
+   </iframe>
+  </div>
+  <div style="margin-top:1em;" class="video-metadata">
+      <table>
+          
+          <tr>
+              <td><strong>Description:</strong></td>
+              <td>In this tutorial we will walk you through the process of an RNA-seq analysis, comparing gene expression levels between different conditions and assessing impacted gene pathways.</td>
+          </tr>
+          
+          <tr>
+              <td><strong>Length:</strong></td>
+              <td>2h30m</td>
+          </tr>
+   
+   
+          <tr>
+              <td><strong>Captions:</strong></td>
+              <td> <a href="/video-library/contributors/hexylena/">Helena Rasche</a>,  <a href="/video-library/contributors/shiltemann/">Saskia Hiltemann</a></td>
+          </tr>
+   
+          
+          <tr>
+              <td><strong>Created:</strong></td>
+              <td>15 February 2021</td>
+          </tr>
+          
+          
+          <tr>
+              <td><strong>Materials:</strong></td>
+              <td> <a href="https://training.galaxyproject.org/archive/2021-03-01/topics/transcriptomics/tutorials/ref-based/tutorial.html">Tutorial</a><br/></td>
+          </tr>
+          
+          <tr>
+              <td><strong>Support:</strong></td>
+              <td>
+              <ul>
+               <li>Slack: <a href="https://gtnsmrgsbord.slack.com/archives/C01F0L6UW03">#transcriptomics_ref-based-rna-seq</a> (<a href="https://join.slack.com/t/gtnsmrgsbord/shared_invite/zt-x7vinbs1-BA~Kht6N86JBhDq0uTIVdQ">Slack Invite</a>)</li>
+               <li><a href="https://gitter.im/Galaxy-Training-Network/Lobby">Gitter</a></li>
+               <li><a href="https://help.galaxyproject.org">Galaxy Help Forum</a></li>
+              </ul>
+              </td>
+          </tr>
+      </table>
+
+  </div>
+  
+  Go to the <a href="/video-library/videos/transcriptomics/ref-based/tutorial">video page</a> to see all versions.
+  
+ </div>
+ <!-- speaker(s) -->
+ 
+ 
+
+ <div class="col-md-3">
+  <center><h3 class="session-section">Speaker</h3></center>
+  
+
+
+
+
+
+
+
+<div class="hall-of-fame">
+    
+    
+    
+		<div class="hall-of-fame-hero" id="bebatut">
+			<a href="/video-library/contributors/bebatut/">
+            
+			<img src="https://avatars.githubusercontent.com/bebatut" alt="bebatut">
+            
+			<div class="name">
+				<b>Bérénice Batut</b>
+			</div>
+			</a>
+			<div class="affil">
+				
+				<a href="https://uni-freiburg.de/">
+					Albert-Ludwigs-Universität Freiburg
+				</a>
+				
+			</div>
+		</div>
+	
+    
+</div>
+
+ </div>
+
+
+</div><!-- end video session -->
+
+
+
+        
+
+      
+
+
+      <!-- Instructors -->
+      
+
+      <!-- Supporting Servers -->
+
+      <!-- Resources -->
+
+    </div><!-- end accordion body -->
+  </div><!-- end collapse -->
+</div><!-- end accordion item (training session) -->
+
+
+
+
+     
+  
+     
+
+     
+       
+       
+
+
+
+
+
+
+
+
+
+
+
+<div class="accordion-item">
+  
+  <h2 class="accordion-header" id="headingintro2">
+   <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseintro2" aria-expanded="true" aria-controls="collapseintro2">
+        Visualization of RNA-Seq results with Volcano Plot
+        
+   </button>
+  </h2>
+
+  <div id="collapseintro2" class="accordion-collapse collapse " aria-labelledby="headingintro2" data-bs-parent="#accordionintro">
+
+    <div class="accordion-body">
+
+      <!-- Video -->
+      
+        
+           
+           <!-- session: {"description"=>"This tutorial will show you how you can create volcano plots from your RNA-Seq analysis results using Galaxy tools.", "faq"=>"https://docs.google.com/document/d/e/2PACX-1vRuH3ZhCKeLypPNA-BYueeKo2pPjluLzk9go6dLEmQjg1C_d59uzSV25TDRZo6zRWKMLtKCcsgzHyMq/pub", "materials"=>[{"link"=>"topics/transcriptomics/tutorials/rna-seq-viz-with-volcanoplot/tutorial.html", "title"=>"Visualization of RNA-Seq results with Volcano Plot", "type"=>"Tutorial"}], "support_channel"=>"#transcriptomics_volcano-plot", "support_link"=>"https://gtnsmrgsbord.slack.com/archives/C0253LVPLFM", "tags"=>["transcriptomics", "visualisation"], "type"=>"Tutorial", "versions"=>[{"captions"=>["mblue9"], "date"=>"2021-02-15", "galaxy_version"=>"21.01", "length"=>"10M", "link"=>"uNGXIcEGZwA", "speakers"=>["mblue9"], "name"=>"Visualization of RNA-Seq results with Volcano Plot"}], "name"=>"Visualization of RNA-Seq results with Volcano Plot"}<br><br> video: {"captions"=>["mblue9"], "date"=>"2021-02-15", "galaxy_version"=>"21.01", "length"=>"10M", "link"=>"uNGXIcEGZwA", "speakers"=>["mblue9"], "name"=>"Visualization of RNA-Seq results with Volcano Plot"} -->
+
+
+
+
+
+<!-- determine the next archived version of tutorial -->
+
+
+
+
+<div class="flex-row" style="margin-top:1em;">
+ <div class="col-md-8">
+  <h3 class="session-section">Tutorial Video   </h3>
+  <div style="position:relative;padding-top:56.25%;">
+   <iframe style="position:absolute;top:0;left:0;width:100%;height:100%;"
+    
+    data-src="https://www.youtube.com/embed/uNGXIcEGZwA"
+    
+     class="lazyload"
+     loading="lazy"
+     frameborder="0"
+     allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+     allowfullscreen>
+   </iframe>
+  </div>
+  <div style="margin-top:1em;" class="video-metadata">
+      <table>
+          
+          <tr>
+              <td><strong>Description:</strong></td>
+              <td>This tutorial will show you how you can create volcano plots from your RNA-Seq analysis results using Galaxy tools.</td>
+          </tr>
+          
+          <tr>
+              <td><strong>Length:</strong></td>
+              <td>10m</td>
+          </tr>
+   
+   
+          <tr>
+              <td><strong>Captions:</strong></td>
+              <td> <a href="/video-library/contributors/mblue9/">Maria Doyle</a></td>
+          </tr>
+   
+          
+          <tr>
+              <td><strong>Created:</strong></td>
+              <td>15 February 2021</td>
+          </tr>
+          
+          
+          <tr>
+              <td><strong>Materials:</strong></td>
+              <td> <a href="https://training.galaxyproject.org/archive/2021-03-01/topics/transcriptomics/tutorials/rna-seq-viz-with-volcanoplot/tutorial.html">Tutorial</a><br/></td>
+          </tr>
+          
+          <tr>
+              <td><strong>Support:</strong></td>
+              <td>
+              <ul>
+               <li>Slack: <a href="https://gtnsmrgsbord.slack.com/archives/C0253LVPLFM">#transcriptomics_volcano-plot</a> (<a href="https://join.slack.com/t/gtnsmrgsbord/shared_invite/zt-x7vinbs1-BA~Kht6N86JBhDq0uTIVdQ">Slack Invite</a>)</li>
+               <li><a href="https://gitter.im/Galaxy-Training-Network/Lobby">Gitter</a></li>
+               <li><a href="https://help.galaxyproject.org">Galaxy Help Forum</a></li>
+              </ul>
+              </td>
+          </tr>
+      </table>
+
+  </div>
+  
+  Go to the <a href="/video-library/videos/transcriptomics/rna-seq-viz-with-volcanoplot/tutorial">video page</a> to see all versions.
+  
+ </div>
+ <!-- speaker(s) -->
+ 
+ 
+
+ <div class="col-md-3">
+  <center><h3 class="session-section">Speaker</h3></center>
+  
+
+
+
+
+
+
+
+<div class="hall-of-fame">
+    
+    
+    
+		<div class="hall-of-fame-hero" id="mblue9">
+			<a href="/video-library/contributors/mblue9/">
+            
+			<img src="https://avatars.githubusercontent.com/mblue9" alt="mblue9">
+            
+			<div class="name">
+				<b>Maria Doyle</b>
+			</div>
+			</a>
+			<div class="affil">
+				
+				<a href="https://www.petermac.org/">
+					Peter MacCallum Cancer Centre
+				</a>
+				
+			</div>
+		</div>
+	
+    
+</div>
+
+ </div>
+
+
+</div><!-- end video session -->
+
+
+
+        
+
+      
+
+
+      <!-- Instructors -->
+      
+
+      <!-- Supporting Servers -->
+
+      <!-- Resources -->
+
+    </div><!-- end accordion body -->
+  </div><!-- end collapse -->
+</div><!-- end accordion item (training session) -->
+
+
+
+
+     
+  
+     
+
+     
+       
+       
+
+
+
+
+
+
+
+
+
+
+
+<div class="accordion-item">
+  
+  <h2 class="accordion-header" id="headingintro3">
+   <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseintro3" aria-expanded="true" aria-controls="collapseintro3">
+        De novo transcriptome reconstruction with RNA-Seq
+        
+   </button>
+  </h2>
+
+  <div id="collapseintro3" class="accordion-collapse collapse " aria-labelledby="headingintro3" data-bs-parent="#accordionintro">
+
+    <div class="accordion-body">
+
+      <!-- Video -->
+      
+        
+           
+           <!-- session: {"description"=>"In this tutorial, we will use de novo transcript reconstruction to infer transcript structures from aligned reads. We will identify and quantify transcripts present in two different cell state and determine which transcripts are differentially expressed between the two states.", "faq"=>"https://docs.google.com/document/u/2/d/e/2PACX-1vT9HPChmFeBl8cQVp4OzTwYeKvXlUq_vnzj7BfWQ3G9HmiaIiX4ezLl2ciiyyK_ODrU1hyfIFoplmpW/pub", "materials"=>[{"link"=>"topics/transcriptomics/tutorials/de-novo/tutorial.html", "type"=>"Tutorial"}, {"external"=>true, "link"=>"https://europepmc.org/article/MED/25319994", "title"=>"Dynamic shifts in occupancy by TAL1 are guided by GATA factors and drive large-scale reprogramming of gene expression during hematopoiesis.", "type"=>"Publication"}, {"external"=>true, "link"=>"https://zenodo.org/record/583140#.YMpdBTZKjt1", "title"=>"Zenodo", "type"=>"Training data"}], "support_channel"=>"#transcriptomics_de-novo-transcriptome-reconstruction", "support_link"=>"https://gtnsmrgsbord.slack.com/archives/C024NGLDALF", "tags"=>["transcriptomics"], "type"=>"Tutorial", "versions"=>[{"captions"=>["malloryfreeberg"], "date"=>"2021-02-15", "galaxy_version"=>"21.01", "length"=>"48M", "link"=>"WrOIpCxba78", "speakers"=>["malloryfreeberg"], "name"=>"De novo transcriptome reconstruction with RNA-Seq"}], "name"=>"De novo transcriptome reconstruction with RNA-Seq"}<br><br> video: {"captions"=>["malloryfreeberg"], "date"=>"2021-02-15", "galaxy_version"=>"21.01", "length"=>"48M", "link"=>"WrOIpCxba78", "speakers"=>["malloryfreeberg"], "name"=>"De novo transcriptome reconstruction with RNA-Seq"} -->
+
+
+
+
+
+<!-- determine the next archived version of tutorial -->
+
+
+
+
+<div class="flex-row" style="margin-top:1em;">
+ <div class="col-md-8">
+  <h3 class="session-section">Tutorial Video   </h3>
+  <div style="position:relative;padding-top:56.25%;">
+   <iframe style="position:absolute;top:0;left:0;width:100%;height:100%;"
+    
+    data-src="https://www.youtube.com/embed/WrOIpCxba78"
+    
+     class="lazyload"
+     loading="lazy"
+     frameborder="0"
+     allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+     allowfullscreen>
+   </iframe>
+  </div>
+  <div style="margin-top:1em;" class="video-metadata">
+      <table>
+          
+          <tr>
+              <td><strong>Description:</strong></td>
+              <td>In this tutorial, we will use de novo transcript reconstruction to infer transcript structures from aligned reads. We will identify and quantify transcripts present in two different cell state and determine which transcripts are differentially expressed between the two states.</td>
+          </tr>
+          
+          <tr>
+              <td><strong>Length:</strong></td>
+              <td>48m</td>
+          </tr>
+   
+   
+          <tr>
+              <td><strong>Captions:</strong></td>
+              <td> <a href="/video-library/contributors/malloryfreeberg/">Mallory Freeberg</a></td>
+          </tr>
+   
+          
+          <tr>
+              <td><strong>Created:</strong></td>
+              <td>15 February 2021</td>
+          </tr>
+          
+          
+          <tr>
+              <td><strong>Materials:</strong></td>
+              <td> <a href="https://training.galaxyproject.org/archive/2021-03-01/topics/transcriptomics/tutorials/de-novo/tutorial.html">Tutorial</a><br/> <a href="https://europepmc.org/article/MED/25319994">Publication</a><br/> <a href="https://zenodo.org/record/583140#.YMpdBTZKjt1">Training data</a><br/></td>
+          </tr>
+          
+          <tr>
+              <td><strong>Support:</strong></td>
+              <td>
+              <ul>
+               <li>Slack: <a href="https://gtnsmrgsbord.slack.com/archives/C024NGLDALF">#transcriptomics_de-novo-transcriptome-reconstruction</a> (<a href="https://join.slack.com/t/gtnsmrgsbord/shared_invite/zt-x7vinbs1-BA~Kht6N86JBhDq0uTIVdQ">Slack Invite</a>)</li>
+               <li><a href="https://gitter.im/Galaxy-Training-Network/Lobby">Gitter</a></li>
+               <li><a href="https://help.galaxyproject.org">Galaxy Help Forum</a></li>
+              </ul>
+              </td>
+          </tr>
+      </table>
+
+  </div>
+  
+  Go to the <a href="/video-library/videos/transcriptomics/de-novo/tutorial">video page</a> to see all versions.
+  
+ </div>
+ <!-- speaker(s) -->
+ 
+ 
+
+ <div class="col-md-3">
+  <center><h3 class="session-section">Speaker</h3></center>
+  
+
+
+
+
+
+
+
+<div class="hall-of-fame">
+    
+    
+    
+		<div class="hall-of-fame-hero" id="malloryfreeberg">
+			<a href="/video-library/contributors/malloryfreeberg/">
+            
+			<img src="https://avatars.githubusercontent.com/malloryfreeberg" alt="malloryfreeberg">
+            
+			<div class="name">
+				<b>Mallory Freeberg</b>
+			</div>
+			</a>
+			<div class="affil">
+				
+				<a href="https://www.ebi.ac.uk/">
+					EMBL-EBI
+				</a>
+				
+			</div>
+		</div>
+	
+    
+</div>
+
+ </div>
+
+
+</div><!-- end video session -->
+
+
+
+        
+
+      
+
+
+      <!-- Instructors -->
+      
+
+      <!-- Supporting Servers -->
+
+      <!-- Resources -->
+
+    </div><!-- end accordion body -->
+  </div><!-- end collapse -->
+</div><!-- end accordion item (training session) -->
+
+
+
+
+     
+  
+  </div>
+
+  
+  
+  <h3 class="module-start"> Transcriptomics using R in Galaxy </h3>
+  <p class="module-description"> If you want a bit more control over your analysis, you can use R in Rstudio directly
+within Galaxy. These tutorials will perform transcriptomics analysis using R in Galaxy.
+
+If you are new to R, please make sure to follow the first video in this section
+ </p>
+  <div class="accordion" id="accordionr">
+  
+     
+
+     
+       
+       
+
+
+
+
+
+
+
+
+
+
+
+<div class="accordion-item">
+  
+  <h2 class="accordion-header" id="headingr0">
+   <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapser0" aria-expanded="true" aria-controls="collapser0">
+        Running RStudio in Galaxy
+        
+   </button>
+  </h2>
+
+  <div id="collapser0" class="accordion-collapse collapse " aria-labelledby="headingr0" data-bs-parent="#accordionr">
+
+    <div class="accordion-body">
+
+      <!-- Video -->
+      
+        
+           
+           <!-- session: {"title"=>"Running RStudio in Galaxy", "description"=>"This tutorial will show you how you can start Rstudio from within Galaxy. This option is only available on Galaxy EU for the time being. If you are working on a different Galaxy server, you can use <strong>Rstudio Cloud (https://rstudio.cloud/)</strong>", "faq"=>"https://docs.google.com/document/d/e/2PACX-1vQuOJPPP2nosMG1gh1TuAFu479F4u2kGCCsICHuKvQE7lJGZCreVbXMQrhEORu3O1fV2hX_DZDE_Isk/pub", "materials"=>[{"link"=>"https://rstudio.cloud/", "title"=>"Try Rstudio Cloud instead", "type"=>"Rstudio in Galaxy not available?"}], "support_channel"=>"#transcriptomics_intro-to-r", "support_link"=>"https://gtnsmrgsbord.slack.com/archives/C01F6JXPZM2", "tags"=>["galaxy-interface"], "type"=>"Demo", "versions"=>[{"captions"=>["shiltemann"], "date"=>"2021-02-15", "galaxy_version"=>"21.01", "length"=>"20M", "link"=>"vN14K74nFZc", "speakers"=>["fpsom"], "name"=>"rstudio-galaxy"}], "name"=>"rstudio-galaxy"}<br><br> video: {"captions"=>["shiltemann"], "date"=>"2021-02-15", "galaxy_version"=>"21.01", "length"=>"20M", "link"=>"vN14K74nFZc", "speakers"=>["fpsom"], "name"=>"rstudio-galaxy"} -->
+
+
+
+
+
+<!-- determine the next archived version of tutorial -->
+
+
+
+
+<div class="flex-row" style="margin-top:1em;">
+ <div class="col-md-8">
+  <h3 class="session-section">Demo Video   </h3>
+  <div style="position:relative;padding-top:56.25%;">
+   <iframe style="position:absolute;top:0;left:0;width:100%;height:100%;"
+    
+    data-src="https://www.youtube.com/embed/vN14K74nFZc"
+    
+     class="lazyload"
+     loading="lazy"
+     frameborder="0"
+     allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+     allowfullscreen>
+   </iframe>
+  </div>
+  <div style="margin-top:1em;" class="video-metadata">
+      <table>
+          
+          <tr>
+              <td><strong>Description:</strong></td>
+              <td>This tutorial will show you how you can start Rstudio from within Galaxy. This option is only available on Galaxy EU for the time being. If you are working on a different Galaxy server, you can use <strong>Rstudio Cloud (https://rstudio.cloud/)</strong></td>
+          </tr>
+          
+          <tr>
+              <td><strong>Length:</strong></td>
+              <td>20m</td>
+          </tr>
+   
+   
+          <tr>
+              <td><strong>Captions:</strong></td>
+              <td> <a href="/video-library/contributors/shiltemann/">Saskia Hiltemann</a></td>
+          </tr>
+   
+          
+          <tr>
+              <td><strong>Created:</strong></td>
+              <td>15 February 2021</td>
+          </tr>
+          
+          
+          <tr>
+              <td><strong>Materials:</strong></td>
+              <td> <a href="https://rstudio.cloud/">Rstudio in Galaxy not available?</a><br/></td>
+          </tr>
+          
+          <tr>
+              <td><strong>Support:</strong></td>
+              <td>
+              <ul>
+               <li>Slack: <a href="https://gtnsmrgsbord.slack.com/archives/C01F6JXPZM2">#transcriptomics_intro-to-r</a> (<a href="https://join.slack.com/t/gtnsmrgsbord/shared_invite/zt-x7vinbs1-BA~Kht6N86JBhDq0uTIVdQ">Slack Invite</a>)</li>
+               <li><a href="https://gitter.im/Galaxy-Training-Network/Lobby">Gitter</a></li>
+               <li><a href="https://help.galaxyproject.org">Galaxy Help Forum</a></li>
+              </ul>
+              </td>
+          </tr>
+      </table>
+
+  </div>
+  
+  Go to the <a href="/video-library/videos/rstudio-galaxy">video page</a> to see all versions.
+  
+ </div>
+ <!-- speaker(s) -->
+ 
+ 
+
+ <div class="col-md-3">
+  <center><h3 class="session-section">Speaker</h3></center>
+  
+
+
+
+
+
+
+
+<div class="hall-of-fame">
+    
+    
+    
+		<div class="hall-of-fame-hero" id="fpsom">
+			<a href="/video-library/contributors/fpsom/">
+            
+			<img src="https://avatars.githubusercontent.com/fpsom" alt="fpsom">
+            
+			<div class="name">
+				<b>Fotis E. Psomopoulos</b>
+			</div>
+			</a>
+			<div class="affil">
+				
+				<a href="https://www.inab.certh.gr/">
+					INAB|CERTH
+				</a>
+				
+			</div>
+		</div>
+	
+    
+</div>
+
+ </div>
+
+
+</div><!-- end video session -->
+
+
+
+        
+
+      
+
+
+      <!-- Instructors -->
+      
+
+      <!-- Supporting Servers -->
+
+      <!-- Resources -->
+
+    </div><!-- end accordion body -->
+  </div><!-- end collapse -->
+</div><!-- end accordion item (training session) -->
+
+
+
+
+     
+  
+     
+
+     
+       
+       
+
+
+
+
+
+
+
+
+
+
+
+<div class="accordion-item">
+  
+  <h2 class="accordion-header" id="headingr1">
+   <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapser1" aria-expanded="true" aria-controls="collapser1">
+        R basics in Galaxy
+        
+   </button>
+  </h2>
+
+  <div id="collapser1" class="accordion-collapse collapse " aria-labelledby="headingr1" data-bs-parent="#accordionr">
+
+    <div class="accordion-body">
+
+      <!-- Video -->
+      
+        
+           
+           <!-- session: {"description"=>"This tutorial will provide an introduction to using R with Rstudio in Galaxy.", "faq"=>"https://docs.google.com/document/d/e/2PACX-1vQuOJPPP2nosMG1gh1TuAFu479F4u2kGCCsICHuKvQE7lJGZCreVbXMQrhEORu3O1fV2hX_DZDE_Isk/pub", "materials"=>[{"link"=>"topics/introduction/tutorials/r-basics/tutorial.html", "title"=>"R basics in Galaxy", "type"=>"Tutorial"}], "support_channel"=>"#transcriptomics_intro-to-r", "support_link"=>"https://gtnsmrgsbord.slack.com/archives/C01F6JXPZM2", "tags"=>["data-science"], "type"=>"Tutorial", "versions"=>[{"captions"=>["s3by01", "annefou", "kxk302"], "date"=>"2021-02-15", "galaxy_version"=>"21.01", "length"=>"50M", "link"=>"MKkQDh5Nguc", "speakers"=>["fpsom"], "name"=>"R basics in Galaxy"}], "name"=>"R basics in Galaxy"}<br><br> video: {"captions"=>["s3by01", "annefou", "kxk302"], "date"=>"2021-02-15", "galaxy_version"=>"21.01", "length"=>"50M", "link"=>"MKkQDh5Nguc", "speakers"=>["fpsom"], "name"=>"R basics in Galaxy"} -->
+
+
+
+
+
+<!-- determine the next archived version of tutorial -->
+
+
+
+
+<div class="flex-row" style="margin-top:1em;">
+ <div class="col-md-8">
+  <h3 class="session-section">Tutorial Video   </h3>
+  <div style="position:relative;padding-top:56.25%;">
+   <iframe style="position:absolute;top:0;left:0;width:100%;height:100%;"
+    
+    data-src="https://www.youtube.com/embed/MKkQDh5Nguc"
+    
+     class="lazyload"
+     loading="lazy"
+     frameborder="0"
+     allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+     allowfullscreen>
+   </iframe>
+  </div>
+  <div style="margin-top:1em;" class="video-metadata">
+      <table>
+          
+          <tr>
+              <td><strong>Description:</strong></td>
+              <td>This tutorial will provide an introduction to using R with Rstudio in Galaxy.</td>
+          </tr>
+          
+          <tr>
+              <td><strong>Length:</strong></td>
+              <td>50m</td>
+          </tr>
+   
+   
+          <tr>
+              <td><strong>Captions:</strong></td>
+              <td> <a href="/video-library/contributors/s3by01/">Sébastien Fouilloux</a>,  <a href="/video-library/contributors/annefou/">Anne Fouilloux</a>,  <a href="/video-library/contributors/kxk302/">Kaivan Kamali</a></td>
+          </tr>
+   
+          
+          <tr>
+              <td><strong>Created:</strong></td>
+              <td>15 February 2021</td>
+          </tr>
+          
+          
+          <tr>
+              <td><strong>Materials:</strong></td>
+              <td> <a href="https://training.galaxyproject.org/archive/2021-03-01/topics/introduction/tutorials/r-basics/tutorial.html">Tutorial</a><br/></td>
+          </tr>
+          
+          <tr>
+              <td><strong>Support:</strong></td>
+              <td>
+              <ul>
+               <li>Slack: <a href="https://gtnsmrgsbord.slack.com/archives/C01F6JXPZM2">#transcriptomics_intro-to-r</a> (<a href="https://join.slack.com/t/gtnsmrgsbord/shared_invite/zt-x7vinbs1-BA~Kht6N86JBhDq0uTIVdQ">Slack Invite</a>)</li>
+               <li><a href="https://gitter.im/Galaxy-Training-Network/Lobby">Gitter</a></li>
+               <li><a href="https://help.galaxyproject.org">Galaxy Help Forum</a></li>
+              </ul>
+              </td>
+          </tr>
+      </table>
+
+  </div>
+  
+  Go to the <a href="/video-library/videos/data-science/r-basics/tutorial">video page</a> to see all versions.
+  
+ </div>
+ <!-- speaker(s) -->
+ 
+ 
+
+ <div class="col-md-3">
+  <center><h3 class="session-section">Speaker</h3></center>
+  
+
+
+
+
+
+
+
+<div class="hall-of-fame">
+    
+    
+    
+		<div class="hall-of-fame-hero" id="fpsom">
+			<a href="/video-library/contributors/fpsom/">
+            
+			<img src="https://avatars.githubusercontent.com/fpsom" alt="fpsom">
+            
+			<div class="name">
+				<b>Fotis E. Psomopoulos</b>
+			</div>
+			</a>
+			<div class="affil">
+				
+				<a href="https://www.inab.certh.gr/">
+					INAB|CERTH
+				</a>
+				
+			</div>
+		</div>
+	
+    
+</div>
+
+ </div>
+
+
+</div><!-- end video session -->
+
+
+
+        
+
+      
+
+
+      <!-- Instructors -->
+      
+
+      <!-- Supporting Servers -->
+
+      <!-- Resources -->
+
+    </div><!-- end accordion body -->
+  </div><!-- end collapse -->
+</div><!-- end accordion item (training session) -->
+
+
+
+
+     
+  
+     
+
+     
+       
+       
+
+
+
+
+
+
+
+
+
+
+
+<div class="accordion-item">
+  
+  <h2 class="accordion-header" id="headingr2">
+   <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapser2" aria-expanded="true" aria-controls="collapser2">
+        Advanced R in Galaxy
+        
+   </button>
+  </h2>
+
+  <div id="collapser2" class="accordion-collapse collapse " aria-labelledby="headingr2" data-bs-parent="#accordionr">
+
+    <div class="accordion-body">
+
+      <!-- Video -->
+      
+        
+           
+           <!-- session: {"description"=>"An advanced tutorial covering downstream analysis of RNA-seq data using R.", "faq"=>"https://docs.google.com/document/d/e/2PACX-1vQuOJPPP2nosMG1gh1TuAFu479F4u2kGCCsICHuKvQE7lJGZCreVbXMQrhEORu3O1fV2hX_DZDE_Isk/pub", "materials"=>[{"link"=>"topics/introduction/tutorials/r-advanced/tutorial.html", "title"=>"Advanced R in Galaxy", "type"=>"Tutorial"}], "support_channel"=>"#transcriptomics_advanced_r", "support_link"=>"https://gtnsmrgsbord.slack.com/archives/C01LKGNPE5V", "tags"=>["data-science"], "type"=>"Tutorial", "versions"=>[{"captions"=>["ksuderman", "nagoue"], "date"=>"2021-02-15", "galaxy_version"=>"21.01", "length"=>"1H", "link"=>"_hWBGdlICqg", "speakers"=>["fpsom"], "name"=>"Advanced R in Galaxy"}], "name"=>"Advanced R in Galaxy"}<br><br> video: {"captions"=>["ksuderman", "nagoue"], "date"=>"2021-02-15", "galaxy_version"=>"21.01", "length"=>"1H", "link"=>"_hWBGdlICqg", "speakers"=>["fpsom"], "name"=>"Advanced R in Galaxy"} -->
+
+
+
+
+
+<!-- determine the next archived version of tutorial -->
+
+
+
+
+<div class="flex-row" style="margin-top:1em;">
+ <div class="col-md-8">
+  <h3 class="session-section">Tutorial Video   </h3>
+  <div style="position:relative;padding-top:56.25%;">
+   <iframe style="position:absolute;top:0;left:0;width:100%;height:100%;"
+    
+    data-src="https://www.youtube.com/embed/_hWBGdlICqg"
+    
+     class="lazyload"
+     loading="lazy"
+     frameborder="0"
+     allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+     allowfullscreen>
+   </iframe>
+  </div>
+  <div style="margin-top:1em;" class="video-metadata">
+      <table>
+          
+          <tr>
+              <td><strong>Description:</strong></td>
+              <td>An advanced tutorial covering downstream analysis of RNA-seq data using R.</td>
+          </tr>
+          
+          <tr>
+              <td><strong>Length:</strong></td>
+              <td>1h</td>
+          </tr>
+   
+   
+          <tr>
+              <td><strong>Captions:</strong></td>
+              <td> <a href="/video-library/contributors/ksuderman/">Keith Suderman</a>,  <a href="/video-library/contributors/nagoue/">Nadia Goué</a></td>
+          </tr>
+   
+          
+          <tr>
+              <td><strong>Created:</strong></td>
+              <td>15 February 2021</td>
+          </tr>
+          
+          
+          <tr>
+              <td><strong>Materials:</strong></td>
+              <td> <a href="https://training.galaxyproject.org/archive/2021-03-01/topics/introduction/tutorials/r-advanced/tutorial.html">Tutorial</a><br/></td>
+          </tr>
+          
+          <tr>
+              <td><strong>Support:</strong></td>
+              <td>
+              <ul>
+               <li>Slack: <a href="https://gtnsmrgsbord.slack.com/archives/C01LKGNPE5V">#transcriptomics_advanced_r</a> (<a href="https://join.slack.com/t/gtnsmrgsbord/shared_invite/zt-x7vinbs1-BA~Kht6N86JBhDq0uTIVdQ">Slack Invite</a>)</li>
+               <li><a href="https://gitter.im/Galaxy-Training-Network/Lobby">Gitter</a></li>
+               <li><a href="https://help.galaxyproject.org">Galaxy Help Forum</a></li>
+              </ul>
+              </td>
+          </tr>
+      </table>
+
+  </div>
+  
+  Go to the <a href="/video-library/videos/data-science/r-advanced/tutorial">video page</a> to see all versions.
+  
+ </div>
+ <!-- speaker(s) -->
+ 
+ 
+
+ <div class="col-md-3">
+  <center><h3 class="session-section">Speaker</h3></center>
+  
+
+
+
+
+
+
+
+<div class="hall-of-fame">
+    
+    
+    
+		<div class="hall-of-fame-hero" id="fpsom">
+			<a href="/video-library/contributors/fpsom/">
+            
+			<img src="https://avatars.githubusercontent.com/fpsom" alt="fpsom">
+            
+			<div class="name">
+				<b>Fotis E. Psomopoulos</b>
+			</div>
+			</a>
+			<div class="affil">
+				
+				<a href="https://www.inab.certh.gr/">
+					INAB|CERTH
+				</a>
+				
+			</div>
+		</div>
+	
+    
+</div>
+
+ </div>
+
+
+</div><!-- end video session -->
+
+
+
+        
+
+      
+
+
+      <!-- Instructors -->
+      
+
+      <!-- Supporting Servers -->
+
+      <!-- Resources -->
+
+    </div><!-- end accordion body -->
+  </div><!-- end collapse -->
+</div><!-- end accordion item (training session) -->
+
+
+
+
+     
+  
+     
+
+     
+       
+       
+
+
+
+
+
+
+
+
+
+
+
+<div class="accordion-item">
+  
+  <h2 class="accordion-header" id="headingr3">
+   <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapser3" aria-expanded="true" aria-controls="collapser3">
+        RNA Seq Counts to Viz in R
+        
+   </button>
+  </h2>
+
+  <div id="collapser3" class="accordion-collapse collapse " aria-labelledby="headingr3" data-bs-parent="#accordionr">
+
+    <div class="accordion-body">
+
+      <!-- Video -->
+      
+        
+           
+           <!-- session: {"description"=>"In this tutorial, we will visualize our RNA-seq analysis results using R.", "faq"=>"https://docs.google.com/document/d/e/2PACX-1vTRNzQHT9qyPr9kdWOM1l8HiD0A1xCRMW7bYnUCcLYmF5yJFytYSOVrq_JFtRvqnat-_41JBkQray2F/pub", "materials"=>[{"link"=>"topics/transcriptomics/tutorials/rna-seq-counts-to-viz-in-r/tutorial.html", "title"=>"RNA Seq Counts to Viz in R", "type"=>"Tutorial"}], "support_channel"=>"#transcriptomics_visualisation-with-r", "support_link"=>"https://gtnsmrgsbord.slack.com/archives/C01FD3AFLN5", "tags"=>["transcriptomics"], "type"=>"Tutorial", "versions"=>[{"captions"=>["hexylena", "shiltemann", "fpsom"], "date"=>"2021-02-15", "galaxy_version"=>"21.01", "length"=>"30M", "link"=>"rJWgnLgA2BE", "speakers"=>["fpsom"], "name"=>"RNA Seq Counts to Viz in R"}], "name"=>"RNA Seq Counts to Viz in R"}<br><br> video: {"captions"=>["hexylena", "shiltemann", "fpsom"], "date"=>"2021-02-15", "galaxy_version"=>"21.01", "length"=>"30M", "link"=>"rJWgnLgA2BE", "speakers"=>["fpsom"], "name"=>"RNA Seq Counts to Viz in R"} -->
+
+
+
+
+
+<!-- determine the next archived version of tutorial -->
+
+
+
+
+<div class="flex-row" style="margin-top:1em;">
+ <div class="col-md-8">
+  <h3 class="session-section">Tutorial Video   </h3>
+  <div style="position:relative;padding-top:56.25%;">
+   <iframe style="position:absolute;top:0;left:0;width:100%;height:100%;"
+    
+    data-src="https://www.youtube.com/embed/rJWgnLgA2BE"
+    
+     class="lazyload"
+     loading="lazy"
+     frameborder="0"
+     allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+     allowfullscreen>
+   </iframe>
+  </div>
+  <div style="margin-top:1em;" class="video-metadata">
+      <table>
+          
+          <tr>
+              <td><strong>Description:</strong></td>
+              <td>In this tutorial, we will visualize our RNA-seq analysis results using R.</td>
+          </tr>
+          
+          <tr>
+              <td><strong>Length:</strong></td>
+              <td>30m</td>
+          </tr>
+   
+   
+          <tr>
+              <td><strong>Captions:</strong></td>
+              <td> <a href="/video-library/contributors/hexylena/">Helena Rasche</a>,  <a href="/video-library/contributors/shiltemann/">Saskia Hiltemann</a>,  <a href="/video-library/contributors/fpsom/">Fotis E. Psomopoulos</a></td>
+          </tr>
+   
+          
+          <tr>
+              <td><strong>Created:</strong></td>
+              <td>15 February 2021</td>
+          </tr>
+          
+          
+          <tr>
+              <td><strong>Materials:</strong></td>
+              <td> <a href="https://training.galaxyproject.org/archive/2021-03-01/topics/transcriptomics/tutorials/rna-seq-counts-to-viz-in-r/tutorial.html">Tutorial</a><br/></td>
+          </tr>
+          
+          <tr>
+              <td><strong>Support:</strong></td>
+              <td>
+              <ul>
+               <li>Slack: <a href="https://gtnsmrgsbord.slack.com/archives/C01FD3AFLN5">#transcriptomics_visualisation-with-r</a> (<a href="https://join.slack.com/t/gtnsmrgsbord/shared_invite/zt-x7vinbs1-BA~Kht6N86JBhDq0uTIVdQ">Slack Invite</a>)</li>
+               <li><a href="https://gitter.im/Galaxy-Training-Network/Lobby">Gitter</a></li>
+               <li><a href="https://help.galaxyproject.org">Galaxy Help Forum</a></li>
+              </ul>
+              </td>
+          </tr>
+      </table>
+
+  </div>
+  
+  Go to the <a href="/video-library/videos/transcriptomics/rna-seq-counts-to-viz-in-r/tutorial">video page</a> to see all versions.
+  
+ </div>
+ <!-- speaker(s) -->
+ 
+ 
+
+ <div class="col-md-3">
+  <center><h3 class="session-section">Speaker</h3></center>
+  
+
+
+
+
+
+
+
+<div class="hall-of-fame">
+    
+    
+    
+		<div class="hall-of-fame-hero" id="fpsom">
+			<a href="/video-library/contributors/fpsom/">
+            
+			<img src="https://avatars.githubusercontent.com/fpsom" alt="fpsom">
+            
+			<div class="name">
+				<b>Fotis E. Psomopoulos</b>
+			</div>
+			</a>
+			<div class="affil">
+				
+				<a href="https://www.inab.certh.gr/">
+					INAB|CERTH
+				</a>
+				
+			</div>
+		</div>
+	
+    
+</div>
+
+ </div>
+
+
+</div><!-- end video session -->
+
+
+
+        
+
+      
+
+
+      <!-- Instructors -->
+      
+
+      <!-- Supporting Servers -->
+
+      <!-- Resources -->
+
+    </div><!-- end accordion body -->
+  </div><!-- end collapse -->
+</div><!-- end accordion item (training session) -->
+
+
+
+
+     
+  
+     
+
+     
+       
+       
+
+
+
+
+
+
+
+
+
+
+
+<div class="accordion-item">
+  
+  <h2 class="accordion-header" id="headingr4">
+   <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapser4" aria-expanded="true" aria-controls="collapser4">
+        Visualization of RNA-Seq results with Volcano Plot in R
+        
+   </button>
+  </h2>
+
+  <div id="collapser4" class="accordion-collapse collapse " aria-labelledby="headingr4" data-bs-parent="#accordionr">
+
+    <div class="accordion-body">
+
+      <!-- Video -->
+      
+        
+           
+           <!-- session: {"description"=>"The previous tutorial introduced volcano plots and showed how they can be generated with the Galaxy Volcano plot tool. In this tutorial we show how you can customise a plot using the R script output from the tool.", "faq"=>"https://docs.google.com/document/d/e/2PACX-1vRuH3ZhCKeLypPNA-BYueeKo2pPjluLzk9go6dLEmQjg1C_d59uzSV25TDRZo6zRWKMLtKCcsgzHyMq/pub", "materials"=>[{"link"=>"topics/transcriptomics/tutorials/rna-seq-viz-with-volcanoplot-r/tutorial.html", "title"=>"Customizing your Volcano plots using R in Galaxy", "type"=>"Tutorial"}], "support_channel"=>"#transcriptomics_volcano-plot", "support_link"=>"https://gtnsmrgsbord.slack.com/archives/C0253LVPLFM", "tags"=>["transcriptomics", "visualisation"], "type"=>"Tutorial", "versions"=>[{"captions"=>["mblue9"], "date"=>"2021-02-15", "galaxy_version"=>"21.01", "length"=>"15M", "link"=>"4dspgiwkuxk", "speakers"=>["mblue9"], "name"=>"Visualization of RNA-Seq results with Volcano Plot in R"}], "name"=>"Visualization of RNA-Seq results with Volcano Plot in R"}<br><br> video: {"captions"=>["mblue9"], "date"=>"2021-02-15", "galaxy_version"=>"21.01", "length"=>"15M", "link"=>"4dspgiwkuxk", "speakers"=>["mblue9"], "name"=>"Visualization of RNA-Seq results with Volcano Plot in R"} -->
+
+
+
+
+
+<!-- determine the next archived version of tutorial -->
+
+
+
+
+<div class="flex-row" style="margin-top:1em;">
+ <div class="col-md-8">
+  <h3 class="session-section">Tutorial Video   </h3>
+  <div style="position:relative;padding-top:56.25%;">
+   <iframe style="position:absolute;top:0;left:0;width:100%;height:100%;"
+    
+    data-src="https://www.youtube.com/embed/4dspgiwkuxk"
+    
+     class="lazyload"
+     loading="lazy"
+     frameborder="0"
+     allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+     allowfullscreen>
+   </iframe>
+  </div>
+  <div style="margin-top:1em;" class="video-metadata">
+      <table>
+          
+          <tr>
+              <td><strong>Description:</strong></td>
+              <td>The previous tutorial introduced volcano plots and showed how they can be generated with the Galaxy Volcano plot tool. In this tutorial we show how you can customise a plot using the R script output from the tool.</td>
+          </tr>
+          
+          <tr>
+              <td><strong>Length:</strong></td>
+              <td>15m</td>
+          </tr>
+   
+   
+          <tr>
+              <td><strong>Captions:</strong></td>
+              <td> <a href="/video-library/contributors/mblue9/">Maria Doyle</a></td>
+          </tr>
+   
+          
+          <tr>
+              <td><strong>Created:</strong></td>
+              <td>15 February 2021</td>
+          </tr>
+          
+          
+          <tr>
+              <td><strong>Materials:</strong></td>
+              <td> <a href="https://training.galaxyproject.org/archive/2021-03-01/topics/transcriptomics/tutorials/rna-seq-viz-with-volcanoplot-r/tutorial.html">Tutorial</a><br/></td>
+          </tr>
+          
+          <tr>
+              <td><strong>Support:</strong></td>
+              <td>
+              <ul>
+               <li>Slack: <a href="https://gtnsmrgsbord.slack.com/archives/C0253LVPLFM">#transcriptomics_volcano-plot</a> (<a href="https://join.slack.com/t/gtnsmrgsbord/shared_invite/zt-x7vinbs1-BA~Kht6N86JBhDq0uTIVdQ">Slack Invite</a>)</li>
+               <li><a href="https://gitter.im/Galaxy-Training-Network/Lobby">Gitter</a></li>
+               <li><a href="https://help.galaxyproject.org">Galaxy Help Forum</a></li>
+              </ul>
+              </td>
+          </tr>
+      </table>
+
+  </div>
+  
+  Go to the <a href="/video-library/videos/transcriptomics/rna-seq-viz-with-volcanoplot-r/tutorial">video page</a> to see all versions.
+  
+ </div>
+ <!-- speaker(s) -->
+ 
+ 
+
+ <div class="col-md-3">
+  <center><h3 class="session-section">Speaker</h3></center>
+  
+
+
+
+
+
+
+
+<div class="hall-of-fame">
+    
+    
+    
+		<div class="hall-of-fame-hero" id="mblue9">
+			<a href="/video-library/contributors/mblue9/">
+            
+			<img src="https://avatars.githubusercontent.com/mblue9" alt="mblue9">
+            
+			<div class="name">
+				<b>Maria Doyle</b>
+			</div>
+			</a>
+			<div class="affil">
+				
+				<a href="https://www.petermac.org/">
+					Peter MacCallum Cancer Centre
+				</a>
+				
+			</div>
+		</div>
+	
+    
+</div>
+
+ </div>
+
+
+</div><!-- end video session -->
+
+
+
+        
+
+      
+
+
+      <!-- Instructors -->
+      
+
+      <!-- Supporting Servers -->
+
+      <!-- Resources -->
+
+    </div><!-- end accordion body -->
+  </div><!-- end collapse -->
+</div><!-- end accordion item (training session) -->
+
+
+
+
+     
+  
+  </div>
+
+  
+  
+  <h3 class="module-start"> Other trancriptomics tutorials </h3>
+  <p class="module-description">  </p>
+  <div class="accordion" id="accordionother">
+  
+     
+
+     
+       
+       
+
+
+
+
+
+
+
+
+
+
+
+<div class="accordion-item">
+  
+  <h2 class="accordion-header" id="headingother0">
+   <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseother0" aria-expanded="true" aria-controls="collapseother0">
+        Metatranscriptomics analysis using microbiome RNA-seq data
+        
+   </button>
+  </h2>
+
+  <div id="collapseother0" class="accordion-collapse collapse " aria-labelledby="headingother0" data-bs-parent="#accordionother">
+
+    <div class="accordion-body">
+
+      <!-- Video -->
+      
+        
+           
+           <!-- session: {"description"=>"Metatranscriptomics analysis examines how the microbiome responds to the environment by studying the taxonomic composition and functional analysis of genes expressed by the microbiome, using microbial community RNASeq data and subsequent metatranscriptomics workflows. This workshop will introduce researchers to the basic concepts and tools from the ASaiM-MT workflow. ASaiM-MT provides a curated collection of tools to explore and visualize taxonomic and functional information from metatranscriptomic sequences.", "faq"=>"https://docs.google.com/document/d/e/2PACX-1vRS1OnbS9qH6C7-p0NDoF9bQEyW8ICrqTEIrb55X9dVzMmu5_46FUx2uD0XHGLBQvqsZU66MP7_9seV/pub", "materials"=>[{"external"=>true, "link"=>"https://drive.google.com/file/d/11TOrL7Kxgel71AT1rBc4DqjaUh3QB2G_/view?usp=sharing", "type"=>"Slides from video"}, {"link"=>"topics/metagenomics/tutorials/metatranscriptomics/slides.html", "title"=>"Introduction to Metatranscriptomics", "type"=>"Related Slides"}, {"link"=>"topics/metagenomics/tutorials/metatranscriptomics/tutorial.html", "type"=>"Tutorial"}], "support_channel"=>"#microbiome_metatranscriptomics", "support_link"=>"https://gtnsmrgsbord.slack.com/archives/C0255JJQSKF", "tags"=>["metagenomics"], "type"=>"Tutorial", "versions"=>[{"captions"=>["EngyNasr", "shiltemann"], "date"=>"2021-02-15", "galaxy_version"=>"21.01", "length"=>"1H30M", "link"=>"EMaos5u1_a8", "speakers"=>["pratikdjagtap", "timothygriffin", "subinamehta", "shiltemann"], "name"=>"Metatranscriptomics analysis using microbiome RNA-seq data"}], "name"=>"Metatranscriptomics analysis using microbiome RNA-seq data"}<br><br> video: {"captions"=>["EngyNasr", "shiltemann"], "date"=>"2021-02-15", "galaxy_version"=>"21.01", "length"=>"1H30M", "link"=>"EMaos5u1_a8", "speakers"=>["pratikdjagtap", "timothygriffin", "subinamehta", "shiltemann"], "name"=>"Metatranscriptomics analysis using microbiome RNA-seq data"} -->
+
+
+
+
+
+<!-- determine the next archived version of tutorial -->
+
+
+
+
+<div class="flex-row" style="margin-top:1em;">
+ <div class="col-md-8">
+  <h3 class="session-section">Tutorial Video   </h3>
+  <div style="position:relative;padding-top:56.25%;">
+   <iframe style="position:absolute;top:0;left:0;width:100%;height:100%;"
+    
+    data-src="https://www.youtube.com/embed/EMaos5u1_a8"
+    
+     class="lazyload"
+     loading="lazy"
+     frameborder="0"
+     allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+     allowfullscreen>
+   </iframe>
+  </div>
+  <div style="margin-top:1em;" class="video-metadata">
+      <table>
+          
+          <tr>
+              <td><strong>Description:</strong></td>
+              <td>Metatranscriptomics analysis examines how the microbiome responds to the environment by studying the taxonomic composition and functional analysis of genes expressed by the microbiome, using microbial community RNASeq data and subsequent metatranscriptomics workflows. This workshop will introduce researchers to the basic concepts and tools from the ASaiM-MT workflow. ASaiM-MT provides a curated collection of tools to explore and visualize taxonomic and functional information from metatranscriptomic sequences.</td>
+          </tr>
+          
+          <tr>
+              <td><strong>Length:</strong></td>
+              <td>1h30m</td>
+          </tr>
+   
+   
+          <tr>
+              <td><strong>Captions:</strong></td>
+              <td> <a href="/video-library/contributors/EngyNasr/">Engy Nasr</a>,  <a href="/video-library/contributors/shiltemann/">Saskia Hiltemann</a></td>
+          </tr>
+   
+          
+          <tr>
+              <td><strong>Created:</strong></td>
+              <td>15 February 2021</td>
+          </tr>
+          
+          
+          <tr>
+              <td><strong>Materials:</strong></td>
+              <td> <a href="https://drive.google.com/file/d/11TOrL7Kxgel71AT1rBc4DqjaUh3QB2G_/view?usp=sharing">Slides from video</a><br/> <a href="https://training.galaxyproject.org/archive/2021-03-01/topics/metagenomics/tutorials/metatranscriptomics/slides.html">Related Slides</a><br/> <a href="https://training.galaxyproject.org/archive/2021-03-01/topics/metagenomics/tutorials/metatranscriptomics/tutorial.html">Tutorial</a><br/></td>
+          </tr>
+          
+          <tr>
+              <td><strong>Support:</strong></td>
+              <td>
+              <ul>
+               <li>Slack: <a href="https://gtnsmrgsbord.slack.com/archives/C0255JJQSKF">#microbiome_metatranscriptomics</a> (<a href="https://join.slack.com/t/gtnsmrgsbord/shared_invite/zt-x7vinbs1-BA~Kht6N86JBhDq0uTIVdQ">Slack Invite</a>)</li>
+               <li><a href="https://gitter.im/Galaxy-Training-Network/Lobby">Gitter</a></li>
+               <li><a href="https://help.galaxyproject.org">Galaxy Help Forum</a></li>
+              </ul>
+              </td>
+          </tr>
+      </table>
+
+  </div>
+  
+  Go to the <a href="/video-library/videos/metagenomics/metatranscriptomics">video page</a> to see all versions.
+  
+ </div>
+ <!-- speaker(s) -->
+ 
+ 
+
+ <div class="col-md-3">
+  <center><h3 class="session-section">Speakers</h3></center>
+  
+
+
+
+
+
+
+
+<div class="hall-of-fame">
+    
+    
+    
+		<div class="hall-of-fame-hero" id="pratikdjagtap">
+			<a href="/video-library/contributors/pratikdjagtap/">
+            
+			<img src="https://avatars.githubusercontent.com/pratikdjagtap" alt="pratikdjagtap">
+            
+			<div class="name">
+				<b>Pratik Jagtap</b>
+			</div>
+			</a>
+			<div class="affil">
+				
+				<a href="https://twin-cities.umn.edu/">
+					University of Minnesota
+				</a>
+				
+			</div>
+		</div>
+	
+    
+    
+		<div class="hall-of-fame-hero" id="timothygriffin">
+			<a href="/video-library/contributors/timothygriffin/">
+            
+			<img src="https://avatars.githubusercontent.com/timothygriffin" alt="timothygriffin">
+            
+			<div class="name">
+				<b>Timothy J. Griffin</b>
+			</div>
+			</a>
+			<div class="affil">
+				
+				<a href="https://twin-cities.umn.edu/">
+					University of Minnesota
+				</a>
+				
+			</div>
+		</div>
+	
+    
+    
+		<div class="hall-of-fame-hero" id="subinamehta">
+			<a href="/video-library/contributors/subinamehta/">
+            
+			<img src="https://avatars.githubusercontent.com/subinamehta" alt="subinamehta">
+            
+			<div class="name">
+				<b>Subina Mehta</b>
+			</div>
+			</a>
+			<div class="affil">
+				
+				<a href="https://twin-cities.umn.edu/">
+					University of Minnesota
+				</a>
+				
+			</div>
+		</div>
+	
+    
+    
+		<div class="hall-of-fame-hero" id="shiltemann">
+			<a href="/video-library/contributors/shiltemann/">
+            
+			<img src="https://avatars.githubusercontent.com/shiltemann" alt="shiltemann">
+            
+			<div class="name">
+				<b>Saskia Hiltemann</b>
+			</div>
+			</a>
+			<div class="affil">
+				
+				<a href="https://erasmusmc.nl">
+					Erasmus Medical Center
+				</a>
+				
+			</div>
+		</div>
+	
+    
+</div>
+
+ </div>
+
+
+</div><!-- end video session -->
+
+
+
+        
+
+      
+
+
+      <!-- Instructors -->
+      
+
+      <!-- Supporting Servers -->
+
+      <!-- Resources -->
+
+    </div><!-- end accordion body -->
+  </div><!-- end collapse -->
+</div><!-- end accordion item (training session) -->
+
+
+
+
+     
+  
+  </div>
+
+
+
+
+      </div>
+    </main><footer class="site-footer h-card">
+  <data class="u-url" href="/video-library/"></data>
+
+  <div class="wrapper">
+
+    <div class="row">
+        <div class="col-md-4">
+            <h2 class="footer-heading">
+             <img src="/video-library/assets/images/logos/gallantries.png" alt="Logo for the Gallantries project"  width="30em"/>
+             GTN Video Library
+            </h2>
+        </div>
+        <div class="col-md-4">
+          <p>Everyone participating is expected to abide by the <a href="https://galaxyproject.org/community/coc/">Code of Conduct</a></p>
+        </div>
+        <div class="col-md-4">
+            <img src="/video-library/assets/images/logos/erasmusplus.jpg" alt="european flag with text: With the support of the Erasmus+ Programme of the European Union."/>
+                    </div>
+    </div>
+	This project (<a href="https://ec.europa.eu/programmes/erasmus-plus/projects/eplus-project-details/#project/2020-1-NL01-KA203-064717">2020-1-NL01-KA203-064717</a>) is funded with the support of the Erasmus+ programme of the European Union.
+
+  </div>
+
+</footer>
+</body>
+
+
+</html>

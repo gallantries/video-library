@@ -1,0 +1,1045 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  
+  <title>Sequence Analysis Basics</title>
+  
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <head profile="http://www.w3.org/2005/10/profile">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+  <link rel="icon" type="image/png" href="/video-library/assets/images/favicon.png" />
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+  <script async defer data-domain="gallantries.github.io" src="https://plausible.galaxyproject.eu/js/plausible.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/lazysizes/5.2.2/lazysizes.min.js" async></script>
+  <script src="https://kit.fontawesome.com/67b3f98409.js" crossorigin="anonymous"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/video-library/assets/main.css">
+
+  <!-- updates for previews on social media etc -->
+  <meta name="description" content="This modules covers the basics of sequence analysis, including Quality Control (QC), mapping, and genome assembly." />
+  <meta property="og:title" content="Sequence Analysis Basics" />
+  <meta property="og:description" content="This modules covers the basics of sequence analysis, including Quality Control (QC), mapping, and genome assembly." />
+  <meta property="og:image" content="/video-library/assets/images/video_cover.png" />
+
+</head>
+<body><nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <div class="container-fluid" style="width: calc(1000px - (30px * 2)); padding-left:30px">
+    <a class="navbar-brand"
+        
+             href="/video-library/">GTN Video Library
+        
+    </a>
+
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+			<a class="nav-link active" aria-current="page" href="/video-library/">Home</a>
+        </li>
+        <li class="nav-item">
+			<a class="nav-link active" aria-current="page" href="/video-library/events">Events</a>
+        </li>
+        <li class="nav-item">
+			<a class="nav-link active" aria-current="page" href="/video-library/library">Video Library</a>
+        </li>
+        <li class="nav-item">
+			<a class="nav-link active" aria-current="page" href="/video-library/session-library">Session Library</a>
+        </li>
+        <li class="nav-item">
+			<a class="nav-link active" aria-current="page" href="/video-library/course-builder">Course Builder</a>
+        </li>
+
+        <li class="nav-item">
+			<a class="nav-link active" aria-current="page" href="https://github.com/gallantries/video-library"><i class="fab fa-github"></i></a>
+        </li>
+
+	    <!-- Want to add more pages to the top menu bar? add them here.
+        <li class="nav-item">
+           <a class="nav-link " href="for-instructors.html">Instructors</a>
+        </li>
+        -->
+        <!--
+        <li class="nav-item">
+          <a class="nav-link " href="recording.html">recording</a>
+        </li>
+      -->
+      </ul>
+    </div>
+  </div>
+</nav>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper" >
+        
+
+<h1> Module: Sequence Analysis Basics </h1>
+
+This modules covers the basics of sequence analysis, including Quality Control (QC), mapping, and genome assembly.
+
+<p>
+
+
+</p>
+
+<p>
+Below you will find all the tutorials for this module, everything you need to follow these trainings is listed here.
+</p>
+
+<!-- This will generate the course handbook; the collapsible sections with videos and all others resources for the training -->
+
+
+
+
+  
+  
+  <h3 class="module-start">  </h3>
+  <p class="module-description">  </p>
+  <div class="accordion" id="accordionintro">
+  
+     
+
+     
+       
+       
+
+
+
+
+
+
+
+
+
+
+
+<div class="accordion-item">
+  
+  <h2 class="accordion-header" id="headingintro0">
+   <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseintro0" aria-expanded="true" aria-controls="collapseintro0">
+        Quality Control
+        
+   </button>
+  </h2>
+
+  <div id="collapseintro0" class="accordion-collapse collapse " aria-labelledby="headingintro0" data-bs-parent="#accordionintro">
+
+    <div class="accordion-body">
+
+      <!-- Video -->
+      
+        <p>In this sesssion, we will walk you through the basics of quality checking your sequencing data. This session consists of a lecture followed by a hands-on tutorial.</p>
+        
+          
+          
+          
+          
+          <!-- session: {"title"=>"Quality Control", "description"=>"In this sesssion, we will walk you through the basics of quality checking your sequencing data. This session consists of a lecture followed by a hands-on tutorial.", "videos"=>["sequence-analysis/quality-control/slides", "sequence-analysis/quality-control/tutorial"]}<br><br> video: {"captions"=>["ennovytje", "nagoue", "hexylena"], "date"=>"2021-02-15", "galaxy_version"=>"21.01", "length"=>"40M", "link"=>"BWonTPS4zB8", "speakers"=>["heylf"], "name"=>"Quality Control"} -->
+
+
+
+
+
+<!-- determine the next archived version of tutorial -->
+
+
+
+
+<div class="flex-row" style="margin-top:1em;">
+ <div class="col-md-8">
+  <h3 class="session-section">Quality Control (Lecture)  </h3>
+  <div style="position:relative;padding-top:56.25%;">
+   <iframe style="position:absolute;top:0;left:0;width:100%;height:100%;"
+    
+    data-src="https://www.youtube.com/embed/BWonTPS4zB8"
+    
+     class="lazyload"
+     loading="lazy"
+     frameborder="0"
+     allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+     allowfullscreen>
+   </iframe>
+  </div>
+  <div style="margin-top:1em;" class="video-metadata">
+      <table>
+          
+          <tr>
+              <td><strong>Description:</strong></td>
+              <td>This lecture goes over the concepts involved in assessing the quality of your sequencing data.</td>
+          </tr>
+          
+          <tr>
+              <td><strong>Length:</strong></td>
+              <td>40m</td>
+          </tr>
+   
+   
+          <tr>
+              <td><strong>Captions:</strong></td>
+              <td> <a href="/video-library/contributors/ennovytje/">Yvonne Hiltemann</a>,  <a href="/video-library/contributors/nagoue/">Nadia Goué</a>,  <a href="/video-library/contributors/hexylena/">Helena Rasche</a></td>
+          </tr>
+   
+          
+          <tr>
+              <td><strong>Created:</strong></td>
+              <td>15 February 2021</td>
+          </tr>
+          
+          
+          <tr>
+              <td><strong>Materials:</strong></td>
+              <td> <a href="https://training.galaxyproject.org/archive/2021-03-01/topics/sequence-analysis/tutorials/quality-control/slides.html">Slides</a><br/></td>
+          </tr>
+          
+          <tr>
+              <td><strong>Support:</strong></td>
+              <td>
+              <ul>
+               <li>Slack: <a href="https://gtnsmrgsbord.slack.com/archives/C01MNM98X9V">#general</a> (<a href="https://join.slack.com/t/gtnsmrgsbord/shared_invite/zt-x7vinbs1-BA~Kht6N86JBhDq0uTIVdQ">Slack Invite</a>)</li>
+               <li><a href="https://gitter.im/Galaxy-Training-Network/Lobby">Gitter</a></li>
+               <li><a href="https://help.galaxyproject.org">Galaxy Help Forum</a></li>
+              </ul>
+              </td>
+          </tr>
+      </table>
+
+  </div>
+  
+  Go to the <a href="/video-library/videos/sequence-analysis/quality-control/slides">video page</a> to see all versions.
+  
+ </div>
+ <!-- speaker(s) -->
+ 
+ 
+
+ <div class="col-md-3">
+  <center><h3 class="session-section">Speaker</h3></center>
+  
+
+
+
+
+
+
+
+<div class="hall-of-fame">
+    
+    
+    
+		<div class="hall-of-fame-hero" id="heylf">
+			<a href="/video-library/contributors/heylf/">
+            
+			<img src="https://avatars.githubusercontent.com/heylf" alt="heylf">
+            
+			<div class="name">
+				<b>Florian Heyl</b>
+			</div>
+			</a>
+			<div class="affil">
+				
+				<a href="https://uni-freiburg.de/">
+					Albert-Ludwigs-Universität Freiburg
+				</a>
+				
+			</div>
+		</div>
+	
+    
+</div>
+
+ </div>
+
+
+</div><!-- end video session -->
+
+
+
+        
+          
+          
+          
+          
+          <!-- session: {"title"=>"Quality Control", "description"=>"In this sesssion, we will walk you through the basics of quality checking your sequencing data. This session consists of a lecture followed by a hands-on tutorial.", "videos"=>["sequence-analysis/quality-control/slides", "sequence-analysis/quality-control/tutorial"]}<br><br> video: {"captions"=>["bebatut", "nagoue", "shiltemann"], "date"=>"2021-02-15", "galaxy_version"=>"21.01", "length"=>"1H10M", "link"=>"QJRlX2hWDKM", "speakers"=>["heylf"], "name"=>"Quality Control"} -->
+
+
+
+
+
+<!-- determine the next archived version of tutorial -->
+
+
+
+
+<div class="flex-row" style="margin-top:1em;">
+ <div class="col-md-8">
+  <h3 class="session-section">Quality Control (Tutorial)  </h3>
+  <div style="position:relative;padding-top:56.25%;">
+   <iframe style="position:absolute;top:0;left:0;width:100%;height:100%;"
+    
+    data-src="https://www.youtube.com/embed/QJRlX2hWDKM"
+    
+     class="lazyload"
+     loading="lazy"
+     frameborder="0"
+     allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+     allowfullscreen>
+   </iframe>
+  </div>
+  <div style="margin-top:1em;" class="video-metadata">
+      <table>
+          
+          <tr>
+              <td><strong>Description:</strong></td>
+              <td>In this tutorial you will get some hand-on experience performing a quality assessment on sequencing data.</td>
+          </tr>
+          
+          <tr>
+              <td><strong>Length:</strong></td>
+              <td>1h10m</td>
+          </tr>
+   
+   
+          <tr>
+              <td><strong>Captions:</strong></td>
+              <td> <a href="/video-library/contributors/bebatut/">Bérénice Batut</a>,  <a href="/video-library/contributors/nagoue/">Nadia Goué</a>,  <a href="/video-library/contributors/shiltemann/">Saskia Hiltemann</a></td>
+          </tr>
+   
+          
+          <tr>
+              <td><strong>Created:</strong></td>
+              <td>15 February 2021</td>
+          </tr>
+          
+          
+          <tr>
+              <td><strong>Materials:</strong></td>
+              <td> <a href="https://training.galaxyproject.org/archive/2021-03-01/topics/sequence-analysis/tutorials/quality-control/tutorial.html">Tutorial</a><br/></td>
+          </tr>
+          
+          <tr>
+              <td><strong>Support:</strong></td>
+              <td>
+              <ul>
+               <li>Slack: <a href="https://gtnsmrgsbord.slack.com/archives/C01MNM98X9V">#general</a> (<a href="https://join.slack.com/t/gtnsmrgsbord/shared_invite/zt-x7vinbs1-BA~Kht6N86JBhDq0uTIVdQ">Slack Invite</a>)</li>
+               <li><a href="https://gitter.im/Galaxy-Training-Network/Lobby">Gitter</a></li>
+               <li><a href="https://help.galaxyproject.org">Galaxy Help Forum</a></li>
+              </ul>
+              </td>
+          </tr>
+      </table>
+
+  </div>
+  
+  Go to the <a href="/video-library/videos/sequence-analysis/quality-control/tutorial">video page</a> to see all versions.
+  
+ </div>
+ <!-- speaker(s) -->
+ 
+ 
+
+ <div class="col-md-3">
+  <center><h3 class="session-section">Speaker</h3></center>
+  
+
+
+
+
+
+
+
+<div class="hall-of-fame">
+    
+    
+    
+		<div class="hall-of-fame-hero" id="heylf">
+			<a href="/video-library/contributors/heylf/">
+            
+			<img src="https://avatars.githubusercontent.com/heylf" alt="heylf">
+            
+			<div class="name">
+				<b>Florian Heyl</b>
+			</div>
+			</a>
+			<div class="affil">
+				
+				<a href="https://uni-freiburg.de/">
+					Albert-Ludwigs-Universität Freiburg
+				</a>
+				
+			</div>
+		</div>
+	
+    
+</div>
+
+ </div>
+
+
+</div><!-- end video session -->
+
+
+
+        
+        Go to <a href="/video-library/sessions/sequence-analysis/quality-control/">session page</a>.
+      
+
+
+      <!-- Instructors -->
+      
+
+      <!-- Supporting Servers -->
+
+      <!-- Resources -->
+
+    </div><!-- end accordion body -->
+  </div><!-- end collapse -->
+</div><!-- end accordion item (training session) -->
+
+
+
+
+     
+  
+     
+
+     
+       
+       
+
+
+
+
+
+
+
+
+
+
+
+<div class="accordion-item">
+  
+  <h2 class="accordion-header" id="headingintro1">
+   <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseintro1" aria-expanded="true" aria-controls="collapseintro1">
+        Mapping
+        
+   </button>
+  </h2>
+
+  <div id="collapseintro1" class="accordion-collapse collapse " aria-labelledby="headingintro1" data-bs-parent="#accordionintro">
+
+    <div class="accordion-body">
+
+      <!-- Video -->
+      
+        <p>In this sesssion, we will walk you through the basics of mapping your sequencing data to a reference genome. This session consists of a lecture followed by a hands-on tutorial.</p>
+        
+          
+          
+          
+          
+          <!-- session: {"title"=>"Mapping", "description"=>"In this sesssion, we will walk you through the basics of mapping your sequencing data to a reference genome. This session consists of a lecture followed by a hands-on tutorial.", "videos"=>["sequence-analysis/mapping/slides", "sequence-analysis/mapping/tutorial"]}<br><br> video: {"captions"=>["blankenberg"], "date"=>"2021-02-15", "galaxy_version"=>"21.01", "length"=>"10M", "link"=>"7FhHb8EV3EU", "speakers"=>["pvanheus"], "name"=>"Mapping"} -->
+
+
+
+
+
+<!-- determine the next archived version of tutorial -->
+
+
+
+
+<div class="flex-row" style="margin-top:1em;">
+ <div class="col-md-8">
+  <h3 class="session-section">Mapping (Lecture)  </h3>
+  <div style="position:relative;padding-top:56.25%;">
+   <iframe style="position:absolute;top:0;left:0;width:100%;height:100%;"
+    
+    data-src="https://www.youtube.com/embed/7FhHb8EV3EU"
+    
+     class="lazyload"
+     loading="lazy"
+     frameborder="0"
+     allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+     allowfullscreen>
+   </iframe>
+  </div>
+  <div style="margin-top:1em;" class="video-metadata">
+      <table>
+          
+          <tr>
+              <td><strong>Description:</strong></td>
+              <td>This lecture covers the basic concepts involved in mapping sequencing reads to a reference genome.</td>
+          </tr>
+          
+          <tr>
+              <td><strong>Length:</strong></td>
+              <td>10m</td>
+          </tr>
+   
+   
+          <tr>
+              <td><strong>Captions:</strong></td>
+              <td> <a href="/video-library/contributors/blankenberg/">Daniel Blankenberg</a></td>
+          </tr>
+   
+          
+          <tr>
+              <td><strong>Created:</strong></td>
+              <td>15 February 2021</td>
+          </tr>
+          
+          
+          <tr>
+              <td><strong>Materials:</strong></td>
+              <td> <a href="https://training.galaxyproject.org/archive/2021-03-01/topics/sequence-analysis/tutorials/mapping/slides.html">Slides</a><br/></td>
+          </tr>
+          
+          <tr>
+              <td><strong>Support:</strong></td>
+              <td>
+              <ul>
+               <li>Slack: <a href="https://gtnsmrgsbord.slack.com/archives/C01MNM98X9V">#general</a> (<a href="https://join.slack.com/t/gtnsmrgsbord/shared_invite/zt-x7vinbs1-BA~Kht6N86JBhDq0uTIVdQ">Slack Invite</a>)</li>
+               <li><a href="https://gitter.im/Galaxy-Training-Network/Lobby">Gitter</a></li>
+               <li><a href="https://help.galaxyproject.org">Galaxy Help Forum</a></li>
+              </ul>
+              </td>
+          </tr>
+      </table>
+
+  </div>
+  
+  Go to the <a href="/video-library/videos/sequence-analysis/mapping/slides">video page</a> to see all versions.
+  
+ </div>
+ <!-- speaker(s) -->
+ 
+ 
+
+ <div class="col-md-3">
+  <center><h3 class="session-section">Speaker</h3></center>
+  
+
+
+
+
+
+
+
+<div class="hall-of-fame">
+    
+    
+    
+		<div class="hall-of-fame-hero" id="pvanheus">
+			<a href="/video-library/contributors/pvanheus/">
+            
+			<img src="https://avatars.githubusercontent.com/pvanheus" alt="pvanheus">
+            
+			<div class="name">
+				<b>Peter van Heusden</b>
+			</div>
+			</a>
+			<div class="affil">
+				
+				<a href="https://www.sanbi.org/">
+					SANBI/UWC
+				</a>
+				
+			</div>
+		</div>
+	
+    
+</div>
+
+ </div>
+
+
+</div><!-- end video session -->
+
+
+
+        
+          
+          
+          
+          
+          <!-- session: {"title"=>"Mapping", "description"=>"In this sesssion, we will walk you through the basics of mapping your sequencing data to a reference genome. This session consists of a lecture followed by a hands-on tutorial.", "videos"=>["sequence-analysis/mapping/slides", "sequence-analysis/mapping/tutorial"]}<br><br> video: {"captions"=>["shiltemann"], "date"=>"2021-02-15", "galaxy_version"=>"21.01", "length"=>"20M", "link"=>"1wm-62E2NkY", "speakers"=>["pvanheus"], "name"=>"Mapping"} -->
+
+
+
+
+
+<!-- determine the next archived version of tutorial -->
+
+
+
+
+<div class="flex-row" style="margin-top:1em;">
+ <div class="col-md-8">
+  <h3 class="session-section">Mapping (Tutorial)  </h3>
+  <div style="position:relative;padding-top:56.25%;">
+   <iframe style="position:absolute;top:0;left:0;width:100%;height:100%;"
+    
+    data-src="https://www.youtube.com/embed/1wm-62E2NkY"
+    
+     class="lazyload"
+     loading="lazy"
+     frameborder="0"
+     allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+     allowfullscreen>
+   </iframe>
+  </div>
+  <div style="margin-top:1em;" class="video-metadata">
+      <table>
+          
+          <tr>
+              <td><strong>Description:</strong></td>
+              <td>In this tutorial you will map sequencing data to a reference genome, and explore the mapped reads in a genome browser.</td>
+          </tr>
+          
+          <tr>
+              <td><strong>Length:</strong></td>
+              <td>20m</td>
+          </tr>
+   
+   
+          <tr>
+              <td><strong>Captions:</strong></td>
+              <td> <a href="/video-library/contributors/shiltemann/">Saskia Hiltemann</a></td>
+          </tr>
+   
+          
+          <tr>
+              <td><strong>Created:</strong></td>
+              <td>15 February 2021</td>
+          </tr>
+          
+          
+          <tr>
+              <td><strong>Materials:</strong></td>
+              <td> <a href="https://training.galaxyproject.org/archive/2021-03-01/topics/sequence-analysis/tutorials/mapping/tutorial.html">Tutorial</a><br/></td>
+          </tr>
+          
+          <tr>
+              <td><strong>Support:</strong></td>
+              <td>
+              <ul>
+               <li>Slack: <a href="https://gtnsmrgsbord.slack.com/archives/C01MNM98X9V">#general</a> (<a href="https://join.slack.com/t/gtnsmrgsbord/shared_invite/zt-x7vinbs1-BA~Kht6N86JBhDq0uTIVdQ">Slack Invite</a>)</li>
+               <li><a href="https://gitter.im/Galaxy-Training-Network/Lobby">Gitter</a></li>
+               <li><a href="https://help.galaxyproject.org">Galaxy Help Forum</a></li>
+              </ul>
+              </td>
+          </tr>
+      </table>
+
+  </div>
+  
+  Go to the <a href="/video-library/videos/sequence-analysis/mapping/tutorial">video page</a> to see all versions.
+  
+ </div>
+ <!-- speaker(s) -->
+ 
+ 
+
+ <div class="col-md-3">
+  <center><h3 class="session-section">Speaker</h3></center>
+  
+
+
+
+
+
+
+
+<div class="hall-of-fame">
+    
+    
+    
+		<div class="hall-of-fame-hero" id="pvanheus">
+			<a href="/video-library/contributors/pvanheus/">
+            
+			<img src="https://avatars.githubusercontent.com/pvanheus" alt="pvanheus">
+            
+			<div class="name">
+				<b>Peter van Heusden</b>
+			</div>
+			</a>
+			<div class="affil">
+				
+				<a href="https://www.sanbi.org/">
+					SANBI/UWC
+				</a>
+				
+			</div>
+		</div>
+	
+    
+</div>
+
+ </div>
+
+
+</div><!-- end video session -->
+
+
+
+        
+        Go to <a href="/video-library/sessions/sequence-analysis/mapping/">session page</a>.
+      
+
+
+      <!-- Instructors -->
+      
+
+      <!-- Supporting Servers -->
+
+      <!-- Resources -->
+
+    </div><!-- end accordion body -->
+  </div><!-- end collapse -->
+</div><!-- end accordion item (training session) -->
+
+
+
+
+     
+  
+     
+
+     
+       
+       
+
+
+
+
+
+
+
+
+
+
+
+<div class="accordion-item">
+  
+  <h2 class="accordion-header" id="headingintro2">
+   <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseintro2" aria-expanded="true" aria-controls="collapseintro2">
+        Genome Assembly
+        
+   </button>
+  </h2>
+
+  <div id="collapseintro2" class="accordion-collapse collapse " aria-labelledby="headingintro2" data-bs-parent="#accordionintro">
+
+    <div class="accordion-body">
+
+      <!-- Video -->
+      
+        <p>This session provides an introduction to Genome Assembly</p>
+        
+          
+          
+          
+          
+          <!-- session: {"title"=>"Genome Assembly", "description"=>"This session provides an introduction to Genome Assembly", "videos"=>["assembly/general-introduction/slides", "assembly/chloroplast-assembly/tutorial"]}<br><br> video: {"captions"=>["shiltemann", "hexylena"], "date"=>"2021-02-15", "galaxy_version"=>"21.01", "length"=>"25M", "link"=>"-EX_G1griZE", "speakers"=>["slugger70"], "name"=>"An Introduction to Genome Assembly"} -->
+
+
+
+
+
+<!-- determine the next archived version of tutorial -->
+
+
+
+
+<div class="flex-row" style="margin-top:1em;">
+ <div class="col-md-8">
+  <h3 class="session-section">An Introduction to Genome Assembly (Lecture)  </h3>
+  <div style="position:relative;padding-top:56.25%;">
+   <iframe style="position:absolute;top:0;left:0;width:100%;height:100%;"
+    
+    data-src="https://www.youtube.com/embed/-EX_G1griZE"
+    
+     class="lazyload"
+     loading="lazy"
+     frameborder="0"
+     allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+     allowfullscreen>
+   </iframe>
+  </div>
+  <div style="margin-top:1em;" class="video-metadata">
+      <table>
+          
+          <tr>
+              <td><strong>Description:</strong></td>
+              <td>This lecture walks you through the basic concepts involved in assembling a genome from short-read sequencing data.</td>
+          </tr>
+          
+          <tr>
+              <td><strong>Length:</strong></td>
+              <td>25m</td>
+          </tr>
+   
+   
+          <tr>
+              <td><strong>Captions:</strong></td>
+              <td> <a href="/video-library/contributors/shiltemann/">Saskia Hiltemann</a>,  <a href="/video-library/contributors/hexylena/">Helena Rasche</a></td>
+          </tr>
+   
+          
+          <tr>
+              <td><strong>Created:</strong></td>
+              <td>15 February 2021</td>
+          </tr>
+          
+          
+          <tr>
+              <td><strong>Materials:</strong></td>
+              <td> <a href="https://training.galaxyproject.org/archive/2021-03-01/topics/assembly/tutorials/general-introduction/slides.html">Slides</a><br/></td>
+          </tr>
+          
+          <tr>
+              <td><strong>Support:</strong></td>
+              <td>
+              <ul>
+               <li>Slack: <a href="https://gtnsmrgsbord.slack.com/archives/C01MNM98X9V">#general</a> (<a href="https://join.slack.com/t/gtnsmrgsbord/shared_invite/zt-x7vinbs1-BA~Kht6N86JBhDq0uTIVdQ">Slack Invite</a>)</li>
+               <li><a href="https://gitter.im/Galaxy-Training-Network/Lobby">Gitter</a></li>
+               <li><a href="https://help.galaxyproject.org">Galaxy Help Forum</a></li>
+              </ul>
+              </td>
+          </tr>
+      </table>
+
+  </div>
+  
+  Go to the <a href="/video-library/videos/assembly/general-introduction/slides">video page</a> to see all versions.
+  
+ </div>
+ <!-- speaker(s) -->
+ 
+ 
+
+ <div class="col-md-3">
+  <center><h3 class="session-section">Speaker</h3></center>
+  
+
+
+
+
+
+
+
+<div class="hall-of-fame">
+    
+    
+    
+		<div class="hall-of-fame-hero" id="slugger70">
+			<a href="/video-library/contributors/slugger70/">
+            
+			<img src="https://avatars.githubusercontent.com/slugger70" alt="slugger70">
+            
+			<div class="name">
+				<b>Simon Gladman</b>
+			</div>
+			</a>
+			<div class="affil">
+				
+				<a href="https://www.unimelb.edu.au/">
+					University of Melbourne
+				</a>
+				
+			</div>
+		</div>
+	
+    
+</div>
+
+ </div>
+
+
+</div><!-- end video session -->
+
+
+
+        
+          
+          
+          
+          
+          <!-- session: {"title"=>"Genome Assembly", "description"=>"This session provides an introduction to Genome Assembly", "videos"=>["assembly/general-introduction/slides", "assembly/chloroplast-assembly/tutorial"]}<br><br> video: {"captions"=>["annasyme"], "date"=>"2021-02-15", "galaxy_version"=>"21.01", "length"=>"35M", "link"=>"eyfCyINTD_E", "speakers"=>["annasyme"], "name"=>"Chloroplast genome assembly"} -->
+
+
+
+
+
+<!-- determine the next archived version of tutorial -->
+
+
+
+
+<div class="flex-row" style="margin-top:1em;">
+ <div class="col-md-8">
+  <h3 class="session-section">Chloroplast genome assembly (Lecture & Tutorial)  </h3>
+  <div style="position:relative;padding-top:56.25%;">
+   <iframe style="position:absolute;top:0;left:0;width:100%;height:100%;"
+    
+    data-src="https://www.youtube.com/embed/eyfCyINTD_E"
+    
+     class="lazyload"
+     loading="lazy"
+     frameborder="0"
+     allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+     allowfullscreen>
+   </iframe>
+  </div>
+  <div style="margin-top:1em;" class="video-metadata">
+      <table>
+          
+          <tr>
+              <td><strong>Description:</strong></td>
+              <td>In this tutorial, you will assemble a chloroplast genome using a combination of short and long read data.</td>
+          </tr>
+          
+          <tr>
+              <td><strong>Length:</strong></td>
+              <td>35m</td>
+          </tr>
+   
+   
+          <tr>
+              <td><strong>Captions:</strong></td>
+              <td> <a href="/video-library/contributors/annasyme/">Anna Syme</a></td>
+          </tr>
+   
+          
+          <tr>
+              <td><strong>Created:</strong></td>
+              <td>15 February 2021</td>
+          </tr>
+          
+          
+          <tr>
+              <td><strong>Materials:</strong></td>
+              <td> <a href="https://training.galaxyproject.org/archive/2021-03-01/topics/assembly/tutorials/chloroplast-assembly/tutorial.html">Tutorial</a><br/></td>
+          </tr>
+          
+          <tr>
+              <td><strong>Support:</strong></td>
+              <td>
+              <ul>
+               <li>Slack: <a href="https://gtnsmrgsbord.slack.com/archives/C01MNM98X9V">#general</a> (<a href="https://join.slack.com/t/gtnsmrgsbord/shared_invite/zt-x7vinbs1-BA~Kht6N86JBhDq0uTIVdQ">Slack Invite</a>)</li>
+               <li><a href="https://gitter.im/Galaxy-Training-Network/Lobby">Gitter</a></li>
+               <li><a href="https://help.galaxyproject.org">Galaxy Help Forum</a></li>
+              </ul>
+              </td>
+          </tr>
+      </table>
+
+  </div>
+  
+  Go to the <a href="/video-library/videos/assembly/chloroplast-assembly/tutorial">video page</a> to see all versions.
+  
+ </div>
+ <!-- speaker(s) -->
+ 
+ 
+
+ <div class="col-md-3">
+  <center><h3 class="session-section">Speaker</h3></center>
+  
+
+
+
+
+
+
+
+<div class="hall-of-fame">
+    
+    
+    
+		<div class="hall-of-fame-hero" id="annasyme">
+			<a href="/video-library/contributors/annasyme/">
+            
+			<img src="https://avatars.githubusercontent.com/annasyme" alt="annasyme">
+            
+			<div class="name">
+				<b>Anna Syme</b>
+			</div>
+			</a>
+			<div class="affil">
+				
+				<a href="https://www.unimelb.edu.au/">
+					University of Melbourne
+				</a>
+				
+			</div>
+		</div>
+	
+    
+</div>
+
+ </div>
+
+
+</div><!-- end video session -->
+
+
+
+        
+        Go to <a href="/video-library/sessions/assembly/">session page</a>.
+      
+
+
+      <!-- Instructors -->
+      
+
+      <!-- Supporting Servers -->
+
+      <!-- Resources -->
+
+    </div><!-- end accordion body -->
+  </div><!-- end collapse -->
+</div><!-- end accordion item (training session) -->
+
+
+
+
+     
+  
+  </div>
+
+
+
+
+      </div>
+    </main><footer class="site-footer h-card">
+  <data class="u-url" href="/video-library/"></data>
+
+  <div class="wrapper">
+
+    <div class="row">
+        <div class="col-md-4">
+            <h2 class="footer-heading">
+             <img src="/video-library/assets/images/logos/gallantries.png" alt="Logo for the Gallantries project"  width="30em"/>
+             GTN Video Library
+            </h2>
+        </div>
+        <div class="col-md-4">
+          <p>Everyone participating is expected to abide by the <a href="https://galaxyproject.org/community/coc/">Code of Conduct</a></p>
+        </div>
+        <div class="col-md-4">
+            <img src="/video-library/assets/images/logos/erasmusplus.jpg" alt="european flag with text: With the support of the Erasmus+ Programme of the European Union."/>
+                    </div>
+    </div>
+	This project (<a href="https://ec.europa.eu/programmes/erasmus-plus/projects/eplus-project-details/#project/2020-1-NL01-KA203-064717">2020-1-NL01-KA203-064717</a>) is funded with the support of the Erasmus+ programme of the European Union.
+
+  </div>
+
+</footer>
+</body>
+
+
+</html>
