@@ -36,9 +36,7 @@ program:
     title: "Friday: Microbiome"
     trainings:
       - session: metagenomics/mothur-miseq-sop-short
-      - video: wetlab/miseq/demo
-      - video: metagenomics/clinical-applications
-      - video: metagenomics/plasmid-metagenomics-nanopore/tutorial
+      - session: metagenomics/nanopore
 
 
 

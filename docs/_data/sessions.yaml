@@ -113,11 +113,19 @@ proteomics/protegenomics:
     - proteomics/proteogenomics-novel-peptide-analysis/tutorial
 
 metagenomics/mothur-miseq-sop-short:
-  title: 16S metagenomics with Mothur
+  title: 16S taxonomic profiling
   description:
   videos:
     - metagenomics/introduction/slides
     - metagenomics/mothur-miseq-sop-short/tutorial
+
+metagenomics/nanopore:
+  title: Microbiome Analysis using Nanopore Sequencing
+  videos:
+    - wetlab/miseq/demo
+    - metagenomics/clinical-applications
+    - metagenomics/plasmid-metagenomics-nanopore/tutorial
+
 
 statistics/deeplearning:
   title: Deep Learning Demystified
