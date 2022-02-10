@@ -24,7 +24,7 @@ program:
     trainings:
       - video: transcriptomics/introduction/slides
       - video: transcriptomics/ref-based/tutorial
-      - video: transcriptomics/rna-seq-viz-with-volcanoplot/tutoriala
+      - video: transcriptomics/rna-seq-viz-with-volcanoplot/tutorial
 
   day4:
     title: "Thursday: Proteomics"

@@ -114,13 +114,22 @@ proteomics/protegenomics:
 
 metagenomics/mothur-miseq-sop-short:
   title: 16S taxonomic profiling
-  description:
+  description: |
+    To determine the composition of a microbiome sample, sequencing of the 16S rRNA gene
+    is often used. This allows us to identify the bacterial species present in our sample.
+    This lecture and practical session introduces you to 16S analysis in Galaxy using the
+    mothur tool suite.
   videos:
     - metagenomics/introduction/slides
     - metagenomics/mothur-miseq-sop-short/tutorial
 
 metagenomics/nanopore:
   title: Microbiome Analysis using Nanopore Sequencing
+  description: |
+    In this 3-part module, you will learn about Nanopore long-read sequencing for the
+    detection of antimicrobial resistance (AMR). There is a short video showing you the
+    wetlab steps involved in using the MinION sequencer. A talk about the clinical applications,
+    and finally a practical tutorial walking you through an AMR analysis in Galaxy.
   videos:
     - wetlab/miseq/demo
     - metagenomics/clinical-applications
