@@ -1075,7 +1075,7 @@ proteomics/maxquant-msstats-dda-lfq/tutorial:
     speakers:
     - foellmelanie
 rstudio-galaxy:
-  title: Running RStudio in Galaxy
+  title: Running RStudio on Galaxy
   description: This tutorial will show you how you can start Rstudio from within Galaxy.
     This option is only available on Galaxy EU for the time being. If you are working
     on a different Galaxy server, you can use <strong>Rstudio Cloud (https://rstudio.cloud/)</strong>
@@ -1137,6 +1137,19 @@ sars-cov2/using-galaxy:
     link: luxFraFJTc4
     speakers:
     - wm75
+variant-analysis/sars-cov-2-variant-discovery/tutorial:
+  materials:
+    - link: topics/variant-analysis/tutorials/sars-cov-2-variant-discovery/tutorial.html
+      type: Tutorial
+  type: Tutorial
+  versions:
+  - captions:
+    date: '2021-08-09'
+    length: 1H30M
+    link: vnFQ2fR_fzw
+    speakers:
+    - wm75
+
 sequence-analysis/human-reads-removal/tutorial:
   description: null
   faq: null
