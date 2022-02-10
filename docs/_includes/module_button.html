@@ -7,24 +7,7 @@ add a button, include configuration options:
  colour:  blue/purple/green/red/yellow/lightblue/white/black
 -->
 
-{% assign buttonsize = include.buttonsize | default: "medium" %}
 
-{% if include.colour == "blue" %} {% assign styling="background-color: var(--bs-blue); color: white" %}
-{% elsif include.colour == "red" %} {% assign styling="background-color: var(--bs-red); color: white" %}
-{% elsif include.colour == "orange" %} {% assign styling="background-color: var(--bs-orange); color: black" %}
-{% elsif include.colour == "yellow" %} {% assign styling="background-color: var(--bs-yellow); color: black" %}
-{% elsif include.colour == "green" %} {% assign styling="background-color: var(--bs-green); color: white" %}
-{% elsif include.colour == "lightgreen" %} {% assign styling="background-color: var(--bs-teal); color: black" %}
-{% elsif include.colour == "purple" %} {% assign styling="background-color: var(--bs-purple); color: white" %}
-{% elsif include.colour == "indigo" %} {% assign styling="background-color: var(--bs-indigo); color: white" %}
-{% elsif include.colour == "pink" %} {% assign styling="background-color: var(--bs-pink); color: white" %}
-{% elsif include.colour == "lightblue" %} {% assign styling="background-color: var(--bs-cyan); color: black" %}
+{% assign module_link = include.link | prepend: '/modules/' %}
 
-
-{% endif %}
-
-
-
-
-<a href="{{site.baseurl}}/modules/{{include.link}}"><button type="button" style="{{styling}}" class="btn btn-square-{{buttonsize}}">{{include.label}}</button></a>
-
+{% include button.html link=module_link colour=include.colour label=include.label buttonsize=include.buttonsize  %}
