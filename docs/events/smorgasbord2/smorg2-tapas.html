@@ -12,6 +12,22 @@ registration: "https://forms.gle/ncFNjKXYHi7AbwnP8"
 cost: free
 contacts: [shiltemann, hexylena]
 
+setup:
+  servers:
+    - server: eu
+    - server: au
+    - server: us
+
+certificates:
+  request_form: "https://forms.gle/z8j1Eptyuefnu6Lx8"
+  deadline: 2022-04-01
+  notes:
+    snippet: "snippets/cert-requirements-smorg.html"
+
+feedback:
+  form: "https://forms.gle/VVs2QHWNa2ueKnRu7"
+
+
 program:
   day1:
     title: Welcome & Setup (Start Here!)
@@ -29,8 +45,7 @@ lang: html
 
 
 <h3 class="section-header"> Learn Galaxy </h3>
-<p><strong>New to Galaxy?</strong> please choose one of the two introductory modules. </p>
-<p><strong>Already familiar with Galaxy?</strong> Deepen your knowledge of the Galaxy platform with the tutorials in the 'Advanced Galaxy Features' section </p>
+<p><strong>New to Galaxy?</strong> please choose one of the two introductory modules. <strong>Already familiar with Galaxy?</strong> Deepen your knowledge of the Galaxy platform with the tutorials in the 'Advanced Galaxy Features' section </p>
 
 {% include module_button.html link="galaxy-intro" colour="red" label="Intro to Galaxy" buttonsize="large"  %}
 
@@ -92,6 +107,7 @@ lang: html
 {% include module_button.html link="climate" colour="lightblue" label="Climate" buttonsize="large" %}
 
 {% include module_button.html link="computational-chemistry" colour="purple" label="Computational Chemistry" buttonsize="large" %}
+
 
 
 <h2 class="section-header"> I'm new to Bioinformatics and unsure what to choose! </h2>
