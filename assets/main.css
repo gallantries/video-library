@@ -320,4 +320,12 @@ h1 { font-weight: 600; }
 
 .btn-square-extralarge { width: 200px !important; max-width: 100% !important; max-height: 100% !important; height: 200px !important; text-align: center; padding: 5px; font-size: 24px; margin: 5px; }
 
+dl { padding: 0.5em; }
+
+dt { float: left; clear: left; width: 100px; text-align: right; font-weight: bold; }
+
+dd { margin: 0 0 0 110px; padding: 0 0 0.5em 0; }
+
+.calendar-add { margin-right: 0.2em; }
+
 /*# sourceMappingURL=main.css.map */
