@@ -25,6 +25,25 @@ module Jekyll
           page2.data["layout"] = "video"
 
           site.pages << page2
+
+          # The embedded version
+          page2 = PageWithoutAFile.new(site, "", File.join(dir, video), "embed.html")
+          page2.content = nil
+          id2 = video.split('/')[0,2].join('/')
+
+          name = site.data['gtn'].fetch(id2, video)
+          description = site.data['videos'].fetch(video)['description']
+
+          # Their tutorials
+          page2.data["video"] = video
+          page2.data['videoname'] = name
+          page2.data['title'] = "GTN Video: #{name}"
+          page2.data['description'] = "#{description}"
+          page2.data["layout"] = "embed"
+
+          site.pages << page2
+
+
         end
       end
 

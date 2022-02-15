@@ -1,0 +1,15 @@
+---
+layout: plain
+---
+
+
+{% assign v=site.data.videos[page.video] %}
+{% assign id2 = page.video | split: '/'%}
+{% capture name %}{{id2[0]}}/{{id2[1]}}{% endcapture%}
+
+<h2> {{ site.data.gtn[name] | default: site.data.videos[page.video].title }} </h2>
+{% assign allversions = "" | split: ',' %}
+{% for vid in v.versions %}{% assign allversions = allversions | push: vid %}{% endfor %}
+{% assign sortedversions = allversions | sort: 'date' | reverse %}
+{% assign latestvideo = sortedversions[0] %}
+{% include video-session.html vsession=v video=latestvideo hidesupport=true %}
