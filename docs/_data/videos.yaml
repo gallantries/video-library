@@ -11,8 +11,6 @@ assembly/assembly-with-preprocessing:
     type: Slides
   - link: topics/assembly/tutorials/assembly-with-preprocessing/tutorial.html
     type: Tutorial
-  support_channel: '#ngs_advanced_unicycler-assembly-sars-cov2-genome'
-  support_link: https://gtnsmrgsbord.slack.com/archives/C01GJLDS01K
   tags:
   - assembly
   type: Tutorial
@@ -33,8 +31,6 @@ assembly/chloroplast-assembly/tutorial:
   - link: topics/assembly/tutorials/chloroplast-assembly/tutorial.html
     title: Chloroplast genome assembly
     type: Tutorial
-  support_channel: '#ngs_assembly'
-  support_link: https://gtnsmrgsbord.slack.com/archives/C01EKMD8VC7
   tags:
   - assembly
   type: Lecture & Tutorial
@@ -55,8 +51,6 @@ assembly/general-introduction/slides:
   - link: topics/assembly/tutorials/general-introduction/slides.html
     title: An Introduction to Genome Assembly
     type: Slides
-  support_channel: '#ngs_assembly'
-  support_link: https://gtnsmrgsbord.slack.com/archives/C01EKMD8VC7
   tags:
   - assembly
   type: Lecture
@@ -77,8 +71,6 @@ climate/fates/tutorial:
   - link: topics/climate/tutorials/fates/tutorial.html
     title: Functionally Assembled Terrestrial Ecosystem Simulator (FATES)
     type: Tutorial
-  support_channel: '#climate_fates'
-  support_link: https://gtnsmrgsbord.slack.com/archives/C01M63SFH34
   tags:
   - climate
   type: Tutorial
@@ -98,8 +90,6 @@ climate/fates/slides:
   - link: topics/climate/tutorials/fates/slides.html
     title: Functionally Assembled Terrestrial Ecosystem Simulator (FATES)
     type: Slides
-  support_channel: '#climate_fates'
-  support_link: https://gtnsmrgsbord.slack.com/archives/C01M63SFH34
   tags:
   - climate
   type: Lecture
@@ -182,8 +172,6 @@ community/welcome:
     title: follow the GTN @gxytraining
     type: GTN Twitter
   title: Meet & Join the Galaxy Community!
-  support_channel: null
-  support_link: null
   tags:
   - community
   - community
@@ -208,8 +196,6 @@ computational-chemistry/htmd-analysis/tutorial:
   - link: topics/computational-chemistry/tutorials/htmd-analysis/tutorial.html
     title: High Throughput Molecular Dynamics and Analysis
     type: Tutorial
-  support_channel: '#cheminformatics'
-  support_link: https://gtnsmrgsbord.slack.com/archives/C01MC9SK344
   tags:
   - computational-chemistry
   type: null
@@ -232,8 +218,6 @@ data-science/r-advanced/tutorial:
   - link: topics/introduction/tutorials/r-advanced/tutorial.html
     title: Advanced R in Galaxy
     type: Tutorial
-  support_channel: '#transcriptomics_advanced_r'
-  support_link: https://gtnsmrgsbord.slack.com/archives/C01LKGNPE5V
   tags:
   - data-science
   type: Tutorial
@@ -255,8 +239,6 @@ data-science/r-basics/tutorial:
   - link: topics/introduction/tutorials/r-basics/tutorial.html
     title: R basics in Galaxy
     type: Tutorial
-  support_channel: '#transcriptomics_intro-to-r'
-  support_link: https://gtnsmrgsbord.slack.com/archives/C01F6JXPZM2
   tags:
   - data-science
   type: Tutorial
@@ -279,8 +261,6 @@ epigenetics/atac-seq/slides:
   materials:
   - link: topics/epigenetics/tutorials/atac-seq/slides.html
     type: Slides
-  support_channel: '#ngs_advanced_epigenetics_atac-seq'
-  support_link: https://gtnsmrgsbord.slack.com/archives/C01LRHRC6A3
   tags:
   - epigenetics
   type: Lecture
@@ -300,8 +280,6 @@ epigenetics/atac-seq/tutorial:
   - link: topics/epigenetics/tutorials/atac-seq/tutorial.html
     title: ATAC-Seq data analysis
     type: Tutorial
-  support_channel: '#ngs_advanced_epigenetics_atac-seq'
-  support_link: https://gtnsmrgsbord.slack.com/archives/C01LRHRC6A3
   tags:
   - epigenetics
   type: Tutorial
@@ -321,8 +299,6 @@ galaxy-interface/collections/tutorial:
   - link: topics/galaxy-interface/tutorials/collections/tutorial.html
     title: Using dataset collections
     type: Tutorial
-  support_channel: null
-  support_link: null
   tags:
   - galaxy-interface
   type: Tutorial
@@ -345,8 +321,6 @@ galaxy-interface/ncbi-sarf/slides:
   - link: topics/galaxy-interface/tutorials/ncbi-sarf/slides.html
     title: Introduction to SRA Aligned Read Format and Cloud Metadata for SARS-CoV-2
     type: Slides
-  support_channel: '#ngs_advanced_sra-aligned-read-format'
-  support_link: https://gtnsmrgsbord.slack.com/archives/C024WDPSTUM
   tags:
   - galaxy-interface
   type: Lecture
@@ -371,8 +345,6 @@ galaxy-interface/ncbi-sarf/tutorial:
     title: 'From NCBI''s Sequence Read Archive (SRA) to Galaxy: SARS-CoV-2 variant
       analysis'
     type: Related Tutorial
-  support_channel: '#ngs_advanced_sra-aligned-read-format'
-  support_link: https://gtnsmrgsbord.slack.com/archives/C024WDPSTUM
   tags:
   - galaxy-interface
   type: Tutorial
@@ -395,8 +367,6 @@ galaxy-interface/upload-rules:
     type: Tutorial
   - link: topics/galaxy-interface/tutorials/upload-rules-advanced/tutorial.html
     type: Tutorial
-  support_channel: '#galaxy-rule-builder'
-  support_link: https://gtnsmrgsbord.slack.com/archives/galaxy-rule-builder
   tags:
   - galaxy-interface
   type: Tutorial
@@ -415,8 +385,6 @@ galaxy-interface/upload-to-ena:
     \ Learn in this tutorial how to export results to your favorite datastore."
   faq: null
   materials: null
-  support_channel: null
-  support_link: null
   tags:
   - sars-cov2
   - galaxy-interface
@@ -439,8 +407,6 @@ galaxy-interface/workflow-automation:
     type: Get Set Up (Windows)
   - link: topics/galaxy-interface/tutorials/workflow-automation/tutorial.html
     type: Tutorial
-  support_channel: '#galaxy-workflow-automation'
-  support_link: https://gtnsmrgsbord.slack.com/archives/galaxy-workflow-automation
   tags:
   - galaxy-interface
   type: Tutorial
@@ -462,8 +428,6 @@ galaxy/intro:
   - link: topics/introduction/tutorials/galaxy-intro-short/slides.html
     title: A Short Introduction to Galaxy
     type: Related Slides
-  support_channel: '#galaxy_first_analysis'
-  support_link: https://gtnsmrgsbord.slack.com/archives/C01ES914GCU
   tags:
   - galaxy-intro
   - galaxy
@@ -486,8 +450,6 @@ introduction/galaxy-intro-101-everyone/tutorial:
   - link: topics/introduction/tutorials/galaxy-intro-101-everyone/tutorial.html
     title: Galaxy 101 for Everyone
     type: Tutorial
-  support_channel: '#galaxy_intro_101-for-everyone'
-  support_link: https://gtnsmrgsbord.slack.com/archives/C023KFGASK0
   tags:
   - galaxy
   type: Tutorial
@@ -518,8 +480,6 @@ galaxy/intro2:
   - link: topics/galaxy-interface/tutorials/history-to-workflow/tutorial.html
     title: Extracting Workflows from Histories
     type: Tutorial
-  support_channel: '#galaxy_first_analysis'
-  support_link: https://gtnsmrgsbord.slack.com/archives/C01ES914GCU
   tags:
   - galaxy-intro
   - galaxy
@@ -542,8 +502,6 @@ genome-annotation/annotation-with-prokka/slides:
   materials:
   - link: topics/genome-annotation/tutorials/annotation-with-prokka/slides.html
     type: Slides
-  support_channel: '#ngs_advanced_annotation-prokaryotic-genome'
-  support_link: https://gtnsmrgsbord.slack.com/archives/C01GTTD1BE0
   tags:
   - genome-annotation
   type: Lecture
@@ -566,8 +524,6 @@ genome-annotation/annotation-with-prokka/tutorial:
   materials:
   - link: topics/genome-annotation/tutorials/annotation-with-prokka/tutorial.html
     type: Tutorial
-  support_channel: '#ngs_advanced_annotation-prokaryotic-genome'
-  support_link: https://gtnsmrgsbord.slack.com/archives/C01GTTD1BE0
   tags:
   - genome-annotation
   type: Tutorial
@@ -586,8 +542,6 @@ genome-annotation/apollo/slides:
   materials:
   - link: topics/genome-annotation/tutorials/apollo/slides.html
     type: Slides
-  support_channel: '#genome_annotation_apollo'
-  support_link: https://gtnsmrgsbord.slack.com/archives/C02597VTR9Q
   tags:
   - genome-annotation
   type: Lecture
@@ -609,8 +563,6 @@ genome-annotation/apollo/tutorial:
     type: Tutorial
   - link: https://genomearchitect.readthedocs.io/en/latest/UsersGuide.html
     type: Apollo User's Guide
-  support_channel: '#genome_annotation_apollo'
-  support_link: https://gtnsmrgsbord.slack.com/archives/C02597VTR9Q
   tags:
   - genome-annotation
   type: Tutorial
@@ -632,8 +584,6 @@ introduction/galaxy-intro-101/tutorial:
     type: Tutorial
   - link: https://usegalaxy.eu/u/wolfgang-maier/h/galaxy-101
     type: History on GalaxyEU
-  support_channel: null
-  support_link: null
   tags:
   - introduction
   type: Tutorial
@@ -653,8 +603,6 @@ introduction/galaxy-intro-ngs-data-managment:
   - link: topics/introduction/tutorials/galaxy-intro-ngs-data-managment/tutorial.html
     title: NGS data logistics
     type: Tutorial
-  support_channel: '#ngs_data-logistics'
-  support_link: https://gtnsmrgsbord.slack.com/archives/C01EXB3BKN1
   tags:
   - introduction
   type: Demo
@@ -674,8 +622,6 @@ metagenomics/clinical-applications:
     uses Nanopore for sequencing of bacterial Genomes.
   faq: https://docs.google.com/document/d/e/2PACX-1vQlG_Onq011MQqyIu4D_erDqiLKAMLnduhHr5cDWwbXVqlU9VZhmm4OT_zphKqb8TEZprAFo8rdPXjO/pub
   materials: []
-  support_channel: '#microbiome_antibiotic-resistance-detection-nanopore'
-  support_link: https://gtnsmrgsbord.slack.com/archives/C01F1GJ7JJX
   tags:
   - metagenomics
   type: Lecture
@@ -696,8 +642,6 @@ metagenomics/introduction/slides:
   - link: topics/metagenomics/slides/introduction.html
     title: Introduction to Metagenomics Analyses
     type: Slides
-  support_channel: '#microbiome_16s-microbial-analysis'
-  support_link: https://gtnsmrgsbord.slack.com/archives/C01FDV16V25
   tags:
   - metagenomics
   type: Lecture
@@ -728,8 +672,6 @@ metagenomics/metatranscriptomics:
     type: Related Slides
   - link: topics/metagenomics/tutorials/metatranscriptomics/tutorial.html
     type: Tutorial
-  support_channel: '#microbiome_metatranscriptomics'
-  support_link: https://gtnsmrgsbord.slack.com/archives/C0255JJQSKF
   tags:
   - metagenomics
   type: Tutorial
@@ -753,8 +695,6 @@ metagenomics/mothur-miseq-sop-short/tutorial:
   materials:
   - link: topics/metagenomics/tutorials/mothur-miseq-sop-short/tutorial.html
     type: Tutorial
-  support_channel: '#microbiome_16s-microbial-analysis'
-  support_link: https://gtnsmrgsbord.slack.com/archives/C01FDV16V25
   tags:
   - metagenomics
   type: Tutorial
@@ -779,8 +719,6 @@ metagenomics/plasmid-metagenomics-nanopore/tutorial:
   - link: topics/metagenomics/tutorials/nanopore-16S-metagenomics/tutorial.html
     title: 16S Microbial analysis with Nanopore data
     type: Related Tutorial
-  support_channel: '#microbiome_antibiotic-resistance-detection-nanopore'
-  support_link: https://gtnsmrgsbord.slack.com/archives/C01F1GJ7JJX
   tags:
   - metagenomics
   type: Tutorial
@@ -811,8 +749,6 @@ proteomics/pandemic/external:
   - external: true
     link: https://usegalaxy.eu/workflow/export_to_file?id=8a85663218676b59
     type: Workflow
-  support_channel: '#proteomics_pandemics_research_ms'
-  support_link: https://gtnsmrgsbord.slack.com/archives/C025E2S35PE
   tags:
   - proteomics
   type: Lecture & Demo
@@ -840,8 +776,6 @@ proteogenomics/introduction/slides:
   - external: true
     link: https://drive.google.com/file/d/1rqzf6Mrk9cMuQ2531tM6RpltPLrDCrgh/view?usp=sharing
     type: Slides
-  support_channel: '#proteomics_protegenomics'
-  support_link: https://gtnsmrgsbord.slack.com/archives/C01ETNTP6HL
   tags:
   - proteogenomics
   type: Lecture
@@ -861,8 +795,6 @@ proteomics/encyclopedia/slides:
   materials:
   - link: topics/proteomics/tutorials/encyclopedia/tutorial.html
     type: Tutorial
-  support_channel: '#proteomics_ms-encyclopedia'
-  support_link: https://gtnsmrgsbord.slack.com/archives/C0257QKT998
   tags:
   - proteomics
   type: Lecture
@@ -883,8 +815,6 @@ proteomics/encyclopedia/tutorial:
   materials:
   - link: topics/proteomics/tutorials/encyclopedia/tutorial.html
     type: Tutorial
-  support_channel: '#proteomics_ms-encyclopedia'
-  support_link: https://gtnsmrgsbord.slack.com/archives/C0257QKT998
   tags:
   - proteomics
   type: Tutorial
@@ -906,8 +836,6 @@ proteomics/introduction/slides:
     title: Introduction to proteomics, protein identification, quantification and
       statistical modelling
     type: Slides
-  support_channel: '#proteomics_introduction-to-ms'
-  support_link: https://gtnsmrgsbord.slack.com/archives/C01MQEDM39P
   tags:
   - proteomics
   type: Lecture
@@ -929,8 +857,6 @@ proteomics/metaproteomics/tutorial:
   materials:
   - link: topics/proteomics/tutorials/metaproteomics/tutorial.html
     type: Tutorial
-  support_channel: '#proteomics_metaproteomics'
-  support_link: https://gtnsmrgsbord.slack.com/archives/C01FD4276P3
   tags:
   - proteomics
   type: Demo
@@ -954,8 +880,6 @@ proteomics/proteogenomics-dbcreation/tutorial:
   materials:
   - link: topics/proteomics/tutorials/proteogenomics-dbcreation/tutorial.html
     type: Tutorial
-  support_channel: '#proteomics_protegenomics'
-  support_link: https://gtnsmrgsbord.slack.com/archives/C01ETNTP6HL
   tags:
   - proteomics
   type: Tutorial
@@ -982,8 +906,6 @@ proteomics/proteogenomics-dbsearch/tutorial:
   - external: true
     link: https://docs.google.com/presentation/d/1gAOJ7WQI1CEc3VeSm_fcvjg_GTxTCZ1N/edit#slide=id.p2
     type: Slides
-  support_channel: '#proteomics_protegenomics'
-  support_link: https://gtnsmrgsbord.slack.com/archives/C01ETNTP6HL
   tags:
   - proteomics
   type: Demo
@@ -1006,8 +928,6 @@ proteomics/proteogenomics-novel-peptide-analysis/tutorial:
   materials:
   - link: topics/proteomics/tutorials/proteogenomics-novel-peptide-analysis/tutorial.html
     type: Tutorial
-  support_channel: '#proteomics_protegenomics'
-  support_link: https://gtnsmrgsbord.slack.com/archives/C01ETNTP6HL
   tags:
   - proteomics
   type: Demo
@@ -1028,8 +948,6 @@ proteomics/proteome_annotation/tutorial:
   - link: topics/proteomics/tutorials/proteome_annotation/tutorial.html
     title: Annotating a protein list identified by LC-MS/MS experiments
     type: Tutorial
-  support_channel: '#proteomics_proteore-protein-list-annotation'
-  support_link: https://gtnsmrgsbord.slack.com/archives/C01EYBNQRL5
   tags:
   - proteomics
   type: Tutorial
@@ -1060,8 +978,6 @@ proteomics/maxquant-msstats-dda-lfq/tutorial:
     link: https://usegalaxy.eu/u/melanie-foell/h/maxquant-and-msstats-label-free-proteomics-training
     title: Galaxy History of this tutorial
     type: Example History
-  support_channel: '#proteomics_maxquant-and-msstats'
-  support_link: https://gtnsmrgsbord.slack.com/archives/C01F0LY58R1
   tags:
   - proteomics
   type: Tutorial
@@ -1084,8 +1000,6 @@ data-science/rstudio-galaxy:
   - link: https://rstudio.cloud/
     title: Try Rstudio Cloud instead
     type: Rstudio in Galaxy not available?
-  support_channel: '#transcriptomics_intro-to-r'
-  support_link: https://gtnsmrgsbord.slack.com/archives/C01F6JXPZM2
   tags:
   - galaxy-interface
   type: Demo
@@ -1105,8 +1019,6 @@ sars-cov2/usegalaxy-star-bot:
     \ based on the Galaxy workflows for variant calling, consensus building and reporting."
   faq: null
   materials: []
-  support_channel: null
-  support_link: null
   tags:
   - sars-cov2
   type: Demo
@@ -1124,8 +1036,6 @@ sars-cov2/using-galaxy:
     and how you combine all of it to turn Galaxy into a platform for genome-surveillance'
   faq: null
   materials: []
-  support_channel: null
-  support_link: null
   tags:
   - sars-cov2
   type: Tutorial
@@ -1161,8 +1071,6 @@ sequence-analysis/human-reads-removal/tutorial:
     link: https://usegalaxy.eu/u/wolfgang-maier/h/removal-of-human-reads-from-sars-cov-2-sequencing-data
     title: Example History
     type: Example History
-  support_channel: null
-  support_link: null
   tags:
   - sequence-analysis
   type: Tutorial
@@ -1174,8 +1082,6 @@ sequence-analysis/mapping/slides:
   - link: topics/sequence-analysis/tutorials/mapping/slides.html
     title: Mapping
     type: Slides
-  support_channel: '#ngs_mapping'
-  support_link: https://gtnsmrgsbord.slack.com/archives/C01F6JHCFT6
   tags:
   - sequence-analysis
   type: Lecture
@@ -1196,8 +1102,6 @@ sequence-analysis/mapping/tutorial:
   - link: topics/sequence-analysis/tutorials/mapping/tutorial.html
     title: Mapping
     type: Tutorial
-  support_channel: '#ngs_mapping'
-  support_link: https://gtnsmrgsbord.slack.com/archives/C01F6JHCFT6
   tags:
   - sequence-analysis
   type: Tutorial
@@ -1218,8 +1122,6 @@ sequence-analysis/quality-control/slides:
   - link: topics/sequence-analysis/tutorials/quality-control/slides.html
     title: Introduction to Quality Control
     type: Slides
-  support_channel: '#ngs_quality-control'
-  support_link: https://gtnsmrgsbord.slack.com/archives/C01FQ92MB7A
   tags:
   - sequence-analysis
   type: Lecture
@@ -1241,8 +1143,6 @@ sequence-analysis/quality-control/tutorial:
   materials:
   - link: topics/sequence-analysis/tutorials/quality-control/tutorial.html
     type: Tutorial
-  support_channel: '#ngs_quality-control'
-  support_link: https://gtnsmrgsbord.slack.com/archives/C01FQ92MB7A
   tags:
   - sequence-analysis
   type: Tutorial
@@ -1268,8 +1168,7 @@ statistics/machine-learning/intro:
     link: https://docs.google.com/presentation/d/1RZtXFk8qz6wmPsIKnMte3Y4SvmI_nD2vIyeSEvYR6RA/edit?usp=sharing
     title: Introduction to Machine Learning
     type: Slides
-  support_channel: '#machine_learning_introduction'
-  support_link: https://gtnsmrgsbord.slack.com/archives/C025EUF0R0U
+  support_channel: 'machine_learning_introduction'
   tags:
   - statistics
   type: Lecture
@@ -1293,8 +1192,7 @@ statistics/CNN:
   - link: topics/statistics/tutorials/CNN/tutorial.html
     title: Convolutional Neural Networks
     type: Tutorial
-  support_channel: '#machine_learning_deep-neural-networks-demystified'
-  support_link: https://gtnsmrgsbord.slack.com/archives/C025MKQNPU1
+  support_channel: 'machine_learning_deep-neural-networks-demystified'
   tags:
   - statistics
   type: Tutorial
@@ -1318,8 +1216,7 @@ statistics/FNN:
   - link: topics/statistics/tutorials/FNN/tutorial.html
     title: Feedforward Neural Networks
     type: Tutorial
-  support_channel: '#machine_learning_deep-neural-networks-demystified'
-  support_link: https://gtnsmrgsbord.slack.com/archives/C025MKQNPU1
+  support_channel: 'machine_learning_deep-neural-networks-demystified'
   tags:
   - statistics
   type: Tutorial
@@ -1343,8 +1240,7 @@ statistics/RNN:
   - link: topics/statistics/tutorials/RNN/tutorial.html
     title: Recurrent Neural Networks
     type: Tutorial
-  support_channel: '#machine_learning_deep-neural-networks-demystified'
-  support_link: https://gtnsmrgsbord.slack.com/archives/C025MKQNPU1
+  support_channel: 'machine_learning_deep-neural-networks-demystified'
   tags:
   - statistics
   type: Tutorial
@@ -1382,8 +1278,7 @@ statistics/classification_machinelearning/tutorial:
     link: https://docs.google.com/presentation/d/1lAYCZ-g6y8cC1aH68FWL6gkRRI2srXSHuJwaaYAQZaU/edit?usp=sharing
     title: Classification in Machine Learning
     type: Slides
-  support_channel: '#machine_learning_classification'
-  support_link: https://gtnsmrgsbord.slack.com/archives/C025MCF4C8Z
+  support_channel: 'machine_learning_classification'
   tags:
   - statistics
   type: Tutorial
@@ -1416,8 +1311,6 @@ statistics/intro-to-ml-with-r/tutorial:
   - link: topics/statistics/tutorials/intro-to-ml-with-r/tutorial.html
     title: Introduction to Machine Learning using R
     type: Tutorial
-  support_channel: '#machine_learning_with_r'
-  support_link: https://gtnsmrgsbord.slack.com/archives/C025MCK52TT
   tags:
   - statistics
   type: null
@@ -1453,8 +1346,6 @@ statistics/regression_machinelearning/tutorial:
     link: https://docs.google.com/presentation/d/16Ct2wJmLz4YI2rF9Y1SxcFWfSdVyJVoBy3YynBRDB0Q/edit?usp=sharing
     title: Regression in Machine Learning
     type: Slides
-  support_channel: '#machine_learning_regression'
-  support_link: https://gtnsmrgsbord.slack.com/archives/C02590LE3DH
   tags:
   - statistics
   type: null
@@ -1485,8 +1376,6 @@ transcriptomics/de-novo/tutorial:
     link: https://zenodo.org/record/583140#.YMpdBTZKjt1
     title: Zenodo
     type: Training data
-  support_channel: '#transcriptomics_de-novo-transcriptome-reconstruction'
-  support_link: https://gtnsmrgsbord.slack.com/archives/C024NGLDALF
   tags:
   - transcriptomics
   type: Tutorial
@@ -1508,8 +1397,6 @@ transcriptomics/droplet-quantification-preprocessing/tutorial:
   materials:
   - link: topics/transcriptomics/tutorials/droplet-quantification-preprocessing/tutorial.html
     type: Tutorial
-  support_channel: '#transcriptomics_single-cell-matrix-alevin'
-  support_link: https://gtnsmrgsbord.slack.com/archives/C0250JZCA6R
   tags:
   - transcriptomics
   type: Demo
@@ -1530,8 +1417,6 @@ transcriptomics/introduction/slides:
   - link: topics/transcriptomics/slides/introduction.html
     title: Introduction to Transcriptomics
     type: Slides
-  support_channel: '#transcriptomics_ref-based-rna-seq'
-  support_link: https://gtnsmrgsbord.slack.com/archives/C01F0L6UW03
   tags:
   - transcriptomics
   type: Lecture
@@ -1550,8 +1435,6 @@ transcriptomics/mirna-target-finder/slides:
   materials:
   - link: topics/transcriptomics/tutorials/mirna-target-finder/slides.html
     type: Slides
-  support_channel: '#transcriptomics_mirna-data-analysis'
-  support_link: https://gtnsmrgsbord.slack.com/archives/C01TCB1J7SA
   tags:
   - transcriptomics
   type: Lecture
@@ -1577,8 +1460,6 @@ transcriptomics/mirna-target-finder/tutorial:
   materials:
   - link: topics/transcriptomics/tutorials/mirna-target-finder/tutorial.html
     type: Tutorial
-  support_channel: '#transcriptomics_mirna-data-analysis'
-  support_link: https://gtnsmrgsbord.slack.com/archives/C01TCB1J7SA
   tags:
   - transcriptomics
   type: Tutorial
@@ -1600,8 +1481,6 @@ transcriptomics/ref-based/tutorial:
   - link: topics/transcriptomics/tutorials/ref-based/tutorial.html
     title: Reference-based RNA-Seq data analysis
     type: Tutorial
-  support_channel: '#transcriptomics_ref-based-rna-seq'
-  support_link: https://gtnsmrgsbord.slack.com/archives/C01F0L6UW03
   tags:
   - transcriptomics
   type: Tutorial
@@ -1623,8 +1502,6 @@ transcriptomics/rna-seq-counts-to-viz-in-r/tutorial:
   - link: topics/transcriptomics/tutorials/rna-seq-counts-to-viz-in-r/tutorial.html
     title: RNA Seq Counts to Viz in R
     type: Tutorial
-  support_channel: '#transcriptomics_visualisation-with-r'
-  support_link: https://gtnsmrgsbord.slack.com/archives/C01FD3AFLN5
   tags:
   - transcriptomics
   type: Tutorial
@@ -1648,8 +1525,7 @@ transcriptomics/rna-seq-viz-with-volcanoplot-r/tutorial:
   - link: topics/transcriptomics/tutorials/rna-seq-viz-with-volcanoplot-r/tutorial.html
     title: Customizing your Volcano plots using R in Galaxy
     type: Tutorial
-  support_channel: '#transcriptomics_volcano-plot'
-  support_link: https://gtnsmrgsbord.slack.com/archives/C0253LVPLFM
+  support_channel: 'transcriptomics_rna-seq-viz-with-volcanoplot'
   tags:
   - transcriptomics
   - visualisation
@@ -1671,8 +1547,6 @@ transcriptomics/rna-seq-viz-with-volcanoplot/tutorial:
   - link: topics/transcriptomics/tutorials/rna-seq-viz-with-volcanoplot/tutorial.html
     title: Visualization of RNA-Seq results with Volcano Plot
     type: Tutorial
-  support_channel: '#transcriptomics_volcano-plot'
-  support_link: https://gtnsmrgsbord.slack.com/archives/C0253LVPLFM
   tags:
   - transcriptomics
   - visualisation
@@ -1701,8 +1575,6 @@ transcriptomics/scrna-JUPYTER-trajectories/tutorial:
   materials:
   - link: topics/transcriptomics/tutorials/scrna-JUPYTER-trajectories/tutorial.html
     type: Tutorial
-  support_channel: '#transcriptomics_single_cell_trajectory-analysis-jupyter'
-  support_link: https://gtnsmrgsbord.slack.com/archives/C0257SCES83
   tags:
   - transcriptomics
   type: Demo
@@ -1727,8 +1599,6 @@ transcriptomics/scrna-intro/slides:
   - link: topics/transcriptomics/tutorials/scrna-intro/slides.html
     title: An introduction to scRNA-Seq data analysis
     type: Slides
-  support_channel: '#transcriptomics_single-cell-rnaseq'
-  support_link: https://gtnsmrgsbord.slack.com/archives/C01M17R4YA1
   tags:
   - transcriptomics
   type: Lecture
@@ -1745,8 +1615,6 @@ transcriptomics/scrna-intro/slides:
 transcriptomics/scrna-umis/tutorial:
   title: "Understanding Barcodes"
   description: This tutorial demonstrates the what barcodes in your sequencing data are, and how to handle them during analysis. Please work through the full tutorial yourself to get all the details.
-  support_channel: "#3-1_understanding-barcodes"
-  support_link: "https://gtnsmrgsbord.slack.com/archives/C01EXBNDKT7"
   faq: "https://docs.google.com/document/d/e/2PACX-1vRWe-8VHsJ4vbO8rwXemPDKUabWrKy1NRnxOKfIzEgj8RQ0tfG0W1kyUx30gVyWND_h4s12MtsV58Sh/pub"
   materials:
     - type: Tutorial
@@ -1767,8 +1635,6 @@ transcriptomics/scrna-umis/tutorial:
 transcriptomics/scrna-preprocessing-tenx/tutorial:
   title: "Pre-processing of 10X Single-Cell RNA Datasets"
   description: 10x genomics has provided not only a cost-effective high-throughput solution to understanding sample heterogeneity at the individual cell level, but has defined the standards of the field that many downstream analysis packages are now scrambling to accommodate. Please work through the full tutorial yourself to get all the details.
-  support_channel: "#3-2_preprocessing-10x-single-cell-rna-datasets"
-  support_link: "https://gtnsmrgsbord.slack.com/archives/C01EXBPPBK7"
   faq: "https://docs.google.com/document/d/e/2PACX-1vTuCzmNJlZSbS9-lIdfLgt8T7IJb7jWZ3gedtjNB4aKJ7pAi3apYS4NgfaCRh0_r5QbF4Pwl15Z0-mk/pub"
   type: Demo
   materials:
@@ -1789,8 +1655,6 @@ transcriptomics/scrna-preprocessing-tenx/tutorial:
 
 transcriptomics/scrna-scanpy-pbmc3k/tutorial:
   title: "Clustering 3K PBMCs with Scanpy"
-  support_channel: "#3-3_clustering-3k-pbmcs-with-scanpy"
-  support_link: "https://gtnsmrgsbord.slack.com/archives/C01FQ9RLLF2"
   faq: "https://docs.google.com/document/d/e/2PACX-1vTdqGjslXMxUjyjqwkNtidsXFl6SRULFKFug_2TYBl-dYXIDEnXb59nMyZ5qJc6bXI-fP5cPLfkXbHV/pub"
   type: Demo
   description: "In this tutorial, we will investigate clustering of single-cell data from 10x Genomics, including preprocessing, clustering and the identification of cell types via known marker genes, using Scanpy. It will be illustrated using a dataset of Peripheral Blood Mononuclear Cells (PBMC), containing 2,700 single cells. Please work through the full tutorial yourself to get all the details."
@@ -1820,8 +1684,6 @@ transcriptomics/scrna-plant/tutorial:
   materials:
   - link: topics/transcriptomics/tutorials/scrna-plant/tutorial.html
     type: Tutorial
-  support_channel: null
-  support_link: https://gtnsmrgsbord.slack.com/archives/C01TG5YNF6Z
   tags:
   - transcriptomics
   type: Tutorial
@@ -1845,8 +1707,6 @@ transcriptomics/scrna-seq-basic-pipeline/tutorial:
   materials:
   - link: topics/transcriptomics/tutorials/scrna-seq-basic-pipeline/tutorial.html
     type: Tutorial
-  support_channel: '#transcriptomics_single-cell-filter-plot-explore'
-  support_link: https://gtnsmrgsbord.slack.com/archives/C025LA0NBLH
   tags:
   - transcriptomics
   type: Demo
@@ -1869,8 +1729,6 @@ variant-analysis/tb-variant-analysis/slides:
   - external: true
     link: https://docs.google.com/presentation/d/16XTMh2fRrl73WVaezNAFWET0IIMXBv0MCI2engFtdQs/edit#slide=id.g6231f48ea2_0_34
     type: Slides
-  support_channel: '#microbial_tuberculosis-variant-analysis'
-  support_link: https://gtnsmrgsbord.slack.com/archives/C01FD2WJU01
   tags:
   - variant-analysis
   type: Lecture
@@ -1892,8 +1750,6 @@ variant-analysis/tb-variant-analysis/tutorial:
   materials:
   - link: topics/variant-analysis/tutorials/tb-variant-analysis/tutorial.html
     type: Tutorial
-  support_channel: '#microbial_tuberculosis-variant-analysis'
-  support_link: https://gtnsmrgsbord.slack.com/archives/C01FD2WJU01
   tags:
   - variant-analysis
   type: Tutorial
@@ -1915,8 +1771,6 @@ visualisation/circos/slides:
   materials:
   - link: topics/visualisation/tutorials/circos/slides.html
     type: Slides
-  support_channel: '#visualisation_circos'
-  support_link: https://gtnsmrgsbord.slack.com/archives/C01ELJ6QTQF
   tags:
   - visualisation
   type: Lecture
@@ -1940,8 +1794,6 @@ visualisation/circos/tutorial:
   - link: topics/visualisation/tutorials/circos/tutorial.html
     title: Visualisation with Circos
     type: Tutorial
-  support_channel: '#visualisation_circos'
-  support_link: https://gtnsmrgsbord.slack.com/archives/C01ELJ6QTQF
   tags:
   - visualisation
   type: Tutorial
@@ -1964,8 +1816,6 @@ webinar/admins:
     title: View past & upcoming webinars
     type: Galaxy Webinar Page
   title: Galaxy Resources for.. Admins
-  support_channel: '#event-gcc2021'
-  support_link: https://gtnsmrgsbord.slack.com/archives/C0253H46ABV
   tags:
   - webinar
   type: Webinar
@@ -1984,8 +1834,6 @@ webinar/educators:
     title: View past & upcoming webinars
     type: Galaxy Webinar Page
   title: Galaxy Resources for.. Educators
-  support_channel: '#event-gcc2021'
-  support_link: https://gtnsmrgsbord.slack.com/archives/C0253H46ABV
   tags:
   - webinar
   type: Webinar
@@ -2011,8 +1859,6 @@ webinar/researchers:
     title: View past & upcoming webinars
     type: Galaxy Webinar Page
   title: Galaxy Resources for.. Researchers
-  support_channel: '#event-gcc2021'
-  support_link: https://gtnsmrgsbord.slack.com/archives/C0253H46ABV
   tags:
   - webinar
   type: Webinar
@@ -2030,8 +1876,6 @@ webinar/tooldevs:
     title: View past & upcoming webinars
     type: Galaxy Webinar Page
   title: Galaxy Resources for.. Tool Developers
-  support_channel: '#event-gcc2021'
-  support_link: https://gtnsmrgsbord.slack.com/archives/C0253H46ABV
   tags:
   - webinar
   type: Webinar
@@ -2050,8 +1894,6 @@ wetlab/miseq/demo:
     genome using the Oxford Nanopore MinION sequencer.
   faq: https://docs.google.com/document/d/e/2PACX-1vQlG_Onq011MQqyIu4D_erDqiLKAMLnduhHr5cDWwbXVqlU9VZhmm4OT_zphKqb8TEZprAFo8rdPXjO/pub
   materials: []
-  support_channel: '#microbiome_antibiotic-resistance-detection-nanopore'
-  support_link: https://gtnsmrgsbord.slack.com/archives/C01F1GJ7JJX
   tags:
   - wetlab
   type: Demo
@@ -2069,8 +1911,6 @@ course/welcome-admin:
   title: "Admin Training 2021: Welcome & Course Logistics"
   description: null
   faq: null
-  support_channel: '#general'
-  support_link: https://galaxyadmintraining.slack.com/archives/general
   tags: [event]
   type: Tutorial
   versions:
@@ -2092,8 +1932,6 @@ course/welcome-gcc2021:
   - external: true
     link: https://docs.google.com/presentation/d/11iR7mjnyhl2OX9KDmeE6TrArYeEUwVnnV3cFMFWMBwI/edit?usp=sharing
     type: Slides
-  support_channel: '#general'
-  support_link: https://galaxyadmintraining.slack.com/archives/general
   tags: [event]
   type: Lecture
   versions:
@@ -2115,8 +1953,7 @@ admin/week-overview-slides:
   materials:
   - link: topics/admin/tutorials/ansible-galaxy/slides.html
     type: Week Overview Slides
-  support_channel: '#02-ansible-galaxy'
-  support_link: https://galaxyadmintraining.slack.com/archives/02-ansible-galaxy
+  support_channel: 'admin_ansible-galaxy'
   tags: [admin]
   type: Tutorial
   versions:
@@ -2140,8 +1977,6 @@ admin/ansible-galaxy/tutorial:
     type: systemd Slides
   - link: topics/admin/tutorials/production/slides.html
     type: Moving Towards Production Slides
-  support_channel: '#02-ansible-galaxy'
-  support_link: https://galaxyadmintraining.slack.com/archives/02-ansible-galaxy
   tags: [admin]
   type: Tutorial
   versions:
@@ -2170,8 +2005,6 @@ admin/ansible/tutorial:
   materials:
   - link: topics/admin/tutorials/ansible/tutorial.html
     type: Tutorial
-  support_channel: '#01-ansible'
-  support_link: https://galaxyadmintraining.slack.com/archives/01-ansible
   tags: [admin]
   type: Lecture
   versions:
@@ -2189,8 +2022,6 @@ admin/ansible/slides:
   materials:
   - link: topics/admin/tutorials/ansible/slides.html
     type: Slides
-  support_channel: '#01-ansible'
-  support_link: https://galaxyadmintraining.slack.com/archives/01-ansible
   tags: [admin]
   type: Tutorial
   versions:
@@ -2210,8 +2041,6 @@ admin/connect-to-compute-cluster/combined:
     type: Slides
   - link: topics/admin/tutorials/connect-to-compute-cluster/tutorial.html
     type: Tutorial
-  support_channel: '#07-compute-cluster'
-  support_link: https://galaxyadmintraining.slack.com/archives/07-compute-cluster
   tags: [admin]
   type: Tutorial
   versions:
@@ -2230,8 +2059,6 @@ admin/cvmfs/slides:
   materials:
   - link: topics/admin/tutorials/cvmfs/slides.html
     type: Slides
-  support_channel: '#04-cvmfs'
-  support_link: https://galaxyadmintraining.slack.com/archives/04-cvmfs
   tags: [admin]
   type: Tutorial
   versions:
@@ -2249,8 +2076,6 @@ admin/cvmfs/tutorial:
   materials:
   - link: topics/admin/tutorials/cvmfs/tutorial.html
     type: Tutorial
-  support_channel: '#04-cvmfs'
-  support_link: https://galaxyadmintraining.slack.com/archives/04-cvmfs
   tags: [admin]
   type: Tutorial
   versions:
@@ -2268,8 +2093,6 @@ admin/data-library/tutorial:
   materials:
   - link: topics/admin/tutorials/data-library/tutorial.html
     type: Tutorial
-  support_channel: '#05-data-libraries'
-  support_link: https://galaxyadmintraining.slack.com/archives/05-data-libraries
   tags: [admin]
   type: Tutorial
   versions:
@@ -2290,8 +2113,6 @@ admin/gxadmin/slides:
     type: Slides
   - link: topics/admin/tutorials/gxadmin/tutorial.html
     type: Exercise
-  support_channel: '#09-storage'
-  support_link: https://galaxyadmintraining.slack.com/archives/09-storage
   tags: [admin]
   type: Tutorial
   versions:
@@ -2309,8 +2130,6 @@ admin/pulsar/slides:
   materials:
   - link: topics/admin/tutorials/heterogeneous-compute/slides.html
     type: Slides
-  support_channel: '#08-pulsar'
-  support_link: https://galaxyadmintraining.slack.com/archives/08-pulsar
   tags: [admin]
   type: Lecture
   versions:
@@ -2328,8 +2147,6 @@ admin/pulsar/tutorial:
   materials:
   - link: topics/admin/tutorials/heterogeneous-compute/tutorial.html
     type: Tutorial
-  support_channel: '#08-pulsar'
-  support_link: https://galaxyadmintraining.slack.com/archives/08-pulsar
   tags: [admin]
   type: Tutorial
   versions:
@@ -2358,8 +2175,6 @@ admin/interactive-tools/slides:
     type: Slides
   - link: topics/admin/tutorials/interactive-tools/tutorial.html
     type: Tutorial
-  support_channel: '#11-cyoa'
-  support_link: https://galaxyadmintraining.slack.com/archives/11-cyoa
   tags: [admin]
   type: Tutorial
   versions:
@@ -2378,8 +2193,6 @@ admin/job-destinations/tutorial:
   materials:
   - link: topics/admin/tutorials/job-destinations/tutorial.html
     type: Tutorial
-  support_channel: '#07-compute-cluster'
-  support_link: https://galaxyadmintraining.slack.com/archives/07-compute-cluster
   tags: [admin]
   type: Tutorial
   versions:
@@ -2399,8 +2212,6 @@ admin/job-metrics/tutorial:
   materials:
   - link: topics/admin/tutorials/job-metrics/tutorial.html
     type: Tutorial
-  support_channel: '#07-compute-cluster'
-  support_link: https://galaxyadmintraining.slack.com/archives/07-compute-cluster
   tags: [admin]
   type: Tutorial
   versions:
@@ -2419,8 +2230,6 @@ admin/maintenance/slides:
   materials:
   - link: topics/admin/tutorials/maintenance/slides.html
     type: Slides
-  support_channel: '#10-monitoring'
-  support_link: https://galaxyadmintraining.slack.com/archives/10-monitoring
   tags: [admin]
   type: Lecture
   versions:
@@ -2438,8 +2247,6 @@ admin/monitoring/slides:
   materials:
   - link: topics/admin/tutorials/monitoring/slides.html
     type: Slides
-  support_channel: '#10-monitoring'
-  support_link: https://galaxyadmintraining.slack.com/archives/10-monitoring
   tags: [admin]
   type: Lecture
   versions:
@@ -2456,8 +2263,6 @@ admin/monitoring/tutorial:
   materials:
   - link: topics/admin/tutorials/monitoring/tutorial.html
     type: Tutorial
-  support_channel: '#10-monitoring'
-  support_link: https://galaxyadmintraining.slack.com/archives/10-monitoring
   tags: [admin]
   type: Tutorial
   versions:
@@ -2475,8 +2280,6 @@ admin/object-store/exercise:
   materials:
   - link: topics/admin/tutorials/object-store/tutorial.html
     type: Exercise
-  support_channel: '#09-storage'
-  support_link: https://galaxyadmintraining.slack.com/archives/09-storage
   tags: [admin]
   type: Tutorial
   versions:
@@ -2494,8 +2297,6 @@ admin/singularity/tutorial:
   materials:
   - link: topics/admin/tutorials/singularity/tutorial.html
     type: Tutorial
-  support_channel: '#03-singularity'
-  support_link: https://galaxyadmintraining.slack.com/archives/03-singularity
   tags: [admin]
   type: Tutorial
   versions:
@@ -2523,8 +2324,6 @@ admin/tiaas/tutorial:
   materials:
   - link: topics/admin/tutorials/tiaas/tutorial.html
     type: Tutorial
-  support_channel: '#12-tiaas'
-  support_link: https://galaxyadmintraining.slack.com/archives/12-tiaas
   tags: [admin]
   type: Tutorial
   versions:
@@ -2545,8 +2344,6 @@ admin/tool-management/slides:
     type: Slides
   - link: topics/admin/tutorials/tool-management/tutorial.html
     type: Tutorial
-  support_channel: '#03-ephemeris'
-  support_link: https://galaxyadmintraining.slack.com/archives/03-ephemeris
   tags: [admin]
   type: Lecture
   versions:
@@ -2566,8 +2363,6 @@ admin/tool-management/tutorial:
     type: Slides
   - link: topics/admin/tutorials/tool-management/tutorial.html
     type: Tutorial
-  support_channel: '#03-ephemeris'
-  support_link: https://galaxyadmintraining.slack.com/archives/03-ephemeris
   tags: [admin]
   type: Tutorial
   versions:
@@ -2587,8 +2382,6 @@ admin/tool-management:
     type: Slides
   - link: topics/admin/tutorials/tool-management/tutorial.html
     type: Tutorial
-  support_channel: '#03-ephemeris'
-  support_link: https://galaxyadmintraining.slack.com/archives/03-ephemeris
   tags: [admin]
   type: Lecture & Tutorial
   versions:
@@ -2606,8 +2399,6 @@ admin/upgrading/tutorial:
   materials:
   - link: topics/admin/tutorials/upgrading/tutorial.html
     type: tutorial
-  support_channel: '#11-cyoa'
-  support_link: https://galaxyadmintraining.slack.com/archives/11-cyoa
   tags: [admin]
   type: Tutorial
   versions:
@@ -2626,8 +2417,6 @@ admin/users-groups-quotas/slides:
   materials:
   - link: topics/admin/tutorials/users-groups-quotas/slides.html
     type: Slides
-  support_channel: '#general'
-  support_link: https://galaxyadmintraining.slack.com/archives/general
   tags: [admin]
   type: Lecture
   versions:
@@ -2648,8 +2437,6 @@ contributing/gitpod/tutorial:
   - link: topics/contributing/tutorials/gitpod/tutorial.html
     title: Running the GTN website online using GitPod
     type: Tutorial
-  support_channel: '#contributing-gtn'
-  support_link: https://gtnsmrgsbord.slack.com/archives/contributing-gtn
   tags: [contributing]
   type: Tutorial
   versions:
@@ -2676,8 +2463,6 @@ contributing/create-new-tutorial-slides/slides:
   - link: topics/contributing/tutorials/create-new-tutorial-slides/slides.html
     title: Creating Slides for the GTN
     type: Slides
-  support_channel: '#contributing-gtn'
-  support_link: https://gtnsmrgsbord.slack.com/archives/contributing-gtn
   tags: [contributing]
   type: Lecture
   versions:
@@ -2701,8 +2486,6 @@ contributing/create-new-tutorial/tutorial:
   - link: topics/contributing/tutorials/create-new-tutorial-content/tutorial.html
     title: Creating content in Markdown
     type: Related tutorial
-  support_channel: '#contributing-gtn'
-  support_link: https://gtnsmrgsbord.slack.com/archives/contributing-gtn
   tags: [contributing]
   type: Tutorial
   versions:
@@ -2729,8 +2512,6 @@ dev/architecture/slides-ecosystem:
     link: https://bit.ly/gx-arch-vids
     title: Always contains the latest version of these lectures.
     type: Youtube Playlist
-  support_channel: '#dev-galaxy-core'
-  support_link: https://gtnsmrgsbord.slack.com/archives/C025X3XLZ4Y
   tags: [dev]
   type: Lecture
   versions:
@@ -2756,8 +2537,6 @@ dev/architecture/slides-models-managers:
     link: https://bit.ly/gx-arch-vids
     title: Always contains the latest version of these lectures.
     type: Youtube Playlist
-  support_channel: '#dev-galaxy-core'
-  support_link: https://gtnsmrgsbord.slack.com/archives/C025X3XLZ4Y
   tags: [dev]
   type: Lecture
   versions:
@@ -2783,8 +2562,6 @@ dev/architecture/slides-app-di:
     link: https://bit.ly/gx-arch-vids
     title: Always contains the latest version of these lectures.
     type: Youtube Playlist
-  support_channel: '#dev-galaxy-core'
-  support_link: https://gtnsmrgsbord.slack.com/archives/C025X3XLZ4Y
   tags: [dev]
   type: Lecture
   versions:
@@ -2810,8 +2587,6 @@ dev/architecture/slides-project-management:
     link: https://bit.ly/gx-arch-vids
     title: Always contains the latest version of these lectures.
     type: Youtube Playlist
-  support_channel: '#dev-galaxy-core'
-  support_link: https://gtnsmrgsbord.slack.com/archives/C025X3XLZ4Y
   tags: [dev]
   type: Lecture
   versions:
@@ -2838,8 +2613,6 @@ dev/architecture/slides-web-client:
     link: https://bit.ly/gx-arch-vids
     title: Always contains the latest version of these lectures.
     type: Youtube Playlist
-  support_channel: '#dev-galaxy-core'
-  support_link: https://gtnsmrgsbord.slack.com/archives/C025X3XLZ4Y
   tags: [dev]
   type: Lecture
   versions:
@@ -2865,8 +2638,6 @@ dev/architecture/slides-pluggable-components:
     link: https://bit.ly/gx-arch-vids
     title: Always contains the latest version of these lectures.
     type: Youtube Playlist
-  support_channel: '#dev-galaxy-core'
-  support_link: https://gtnsmrgsbord.slack.com/archives/C025X3XLZ4Y
   tags: [dev]
   type: Lecture
   versions:
@@ -2892,8 +2663,6 @@ dev/architecture/slides-principles:
     link: https://bit.ly/gx-arch-vids
     title: Always contains the latest version of these lectures.
     type: Youtube Playlist
-  support_channel: '#dev-galaxy-core'
-  support_link: https://gtnsmrgsbord.slack.com/archives/C025X3XLZ4Y
   tags: [dev]
   type: Lecture
   versions:
@@ -2919,8 +2688,6 @@ dev/architecture/slides-web-requests:
     link: https://bit.ly/gx-arch-vids
     title: Always contains the latest version of these lectures.
     type: Youtube Playlist
-  support_channel: '#dev-galaxy-core'
-  support_link: https://gtnsmrgsbord.slack.com/archives/C025X3XLZ4Y
   tags: [dev]
   type: Lecture
   versions:
@@ -2945,8 +2712,6 @@ dev/architecture/slides-files-directories:
     link: https://bit.ly/gx-arch-vids
     title: Always contains the latest version of these lectures.
     type: Youtube Playlist
-  support_channel: '#dev-galaxy-core'
-  support_link: https://gtnsmrgsbord.slack.com/archives/C025X3XLZ4Y
   tags: [dev]
   type: Lecture Series
   versions:
@@ -2965,8 +2730,6 @@ dev/debugging/tutorial/intro:
   materials:
   - link: topics/dev/tutorials/debugging/tutorial.html
     type: Tutorial
-  support_channel: '#dev-debugging-galaxy'
-  support_link: https://gtnsmrgsbord.slack.com/archives/C025DL2S03W
   tags: [dev]
   type: Tutorial
   versions:
@@ -2985,8 +2748,6 @@ dev/debugging/tutorial/client-unit-test:
   materials:
   - link: topics/dev/tutorials/debugging/tutorial.html
     type: Tutorial
-  support_channel: '#dev-debugging-galaxy'
-  support_link: https://gtnsmrgsbord.slack.com/archives/C025DL2S03W
   tags: [dev]
   type: Tutorial
   versions:
@@ -3005,8 +2766,6 @@ dev/debugging/tutorial/summary:
   materials:
   - link: topics/dev/tutorials/debugging/tutorial.html
     type: Tutorial
-  support_channel: '#dev-debugging-galaxy'
-  support_link: https://gtnsmrgsbord.slack.com/archives/C025DL2S03W
   tags: [dev]
   type: Lecture
   versions:
@@ -3025,8 +2784,6 @@ dev/debugging/tutorial/api-test-failure:
   materials:
   - link: topics/dev/tutorials/debugging/tutorial.html
     type: Tutorial
-  support_channel: '#dev-debugging-galaxy'
-  support_link: https://gtnsmrgsbord.slack.com/archives/C025DL2S03W
   tags: [dev]
   type: Tutorial
   versions:
@@ -3046,8 +2803,6 @@ dev/debugging/tutorial/client-linter:
   materials:
   - link: topics/dev/tutorials/debugging/tutorial.html
     type: Tutorial
-  support_channel: '#dev-debugging-galaxy'
-  support_link: https://gtnsmrgsbord.slack.com/archives/C025DL2S03W
   tags: [dev]
   type: Tutorial
   versions:
@@ -3066,8 +2821,6 @@ dev/debugging/tutorial/runtime-error:
   materials:
   - link: topics/dev/tutorials/debugging/tutorial.html
     type: Tutorial
-  support_channel: '#dev-debugging-galaxy'
-  support_link: https://gtnsmrgsbord.slack.com/archives/C025DL2S03W
   tags: [dev]
   type: Tutorial
   versions:
@@ -3087,8 +2840,6 @@ dev/debugging/tutorial/selenium:
   materials:
   - link: topics/dev/tutorials/debugging/tutorial.html
     type: Tutorial
-  support_channel: '#dev-debugging-galaxy'
-  support_link: https://gtnsmrgsbord.slack.com/archives/C025DL2S03W
   tags: [dev]
   type: Tutorial
   versions:
@@ -3111,8 +2862,6 @@ dev/debugging/tutorial/unit-test-failure:
   materials:
   - link: topics/dev/tutorials/debugging/tutorial.html
     type: Tutorial
-  support_channel: '#dev-debugging-galaxy'
-  support_link: https://gtnsmrgsbord.slack.com/archives/C025DL2S03W
   tags: [dev]
   type: Tutorial
   versions:
@@ -3132,8 +2881,6 @@ dev/tool-from-scratch/tutorial/conda:
   materials:
   - link: topics/dev/tutorials/tool-from-scratch/tutorial.html
     type: Tutorial
-  support_channel: '#dev-tools-conda'
-  support_link: https://gtnsmrgsbord.slack.com/archives/dev-tools-conda
   tags: [dev]
   type: null
   versions:
@@ -3152,8 +2899,6 @@ dev/tool-from-scratch/tutorial/publish:
   materials:
   - link: topics/dev/tutorials/tool-from-scratch/tutorial.html
     type: Tutorial
-  support_channel: '#dev-tools-conda'
-  support_link: https://gtnsmrgsbord.slack.com/archives/dev-tools-conda
   tags: [dev]
   type: null
   versions:
@@ -3173,8 +2918,6 @@ dev/tool-from-scratch/tutorial/testing:
   materials:
   - link: topics/dev/tutorials/tool-from-scratch/tutorial.html
     type: Tutorial
-  support_channel: '#dev-tools-conda'
-  support_link: https://gtnsmrgsbord.slack.com/archives/dev-tools-conda
   tags: [dev]
   type: null
   versions:
@@ -3195,8 +2938,6 @@ dev/tool-from-scratch/tutorial/tool-wrapper:
   materials:
   - link: topics/dev/tutorials/tool-from-scratch/tutorial.html
     type: Tutorial
-  support_channel: '#dev-tools-conda'
-  support_link: https://gtnsmrgsbord.slack.com/archives/dev-tools-conda
   tags: [dev]
   type: null
   versions:
@@ -3219,8 +2960,6 @@ dev/tool-from-scratch/tutorial/planemo-init:
   materials:
   - link: topics/dev/tutorials/tool-from-scratch/tutorial.html
     type: Tutorial
-  support_channel: '#dev-tools-conda'
-  support_link: https://gtnsmrgsbord.slack.com/archives/dev-tools-conda
   tags: [dev]
   type: null
   versions:
@@ -3240,8 +2979,6 @@ dev/tool-from-scratch/tutorial/shed-yml:
   materials:
   - link: topics/dev/tutorials/tool-from-scratch/tutorial.html
     type: Tutorial
-  support_channel: '#dev-tools-conda'
-  support_link: https://gtnsmrgsbord.slack.com/archives/dev-tools-conda
   tags: [dev]
   type: null
   versions:
@@ -3265,8 +3002,6 @@ dev/tool-generators/tutorial:
   - link: topics/dev/tutorials/tool-generators-advanced/tutorial.html
     title: 'ToolFactory: Generating Tools From More Complex Scripts'
     type: Tutorial
-  support_channel: '#dev-toolfactory'
-  support_link: https://gtnsmrgsbord.slack.com/archives/dev-toolfactory
   tags: [dev]
   type: null
   versions:
@@ -3292,8 +3027,6 @@ dev/tool-generators/tutorial:
   materials:
   - link: topics/dev/tutorials/tool-generators/tutorial.html
     type: Tutorial
-  support_channel: '#dev-toolfactory'
-  support_link: https://gtnsmrgsbord.slack.com/archives/dev-toolfactory
   tags: [dev]
   type: null
   versions:
@@ -3313,8 +3046,6 @@ dev/tool-generators-advanced/tutorial:
   - link: topics/dev/tutorials/tool-generators-advanced/tutorial.html
     title: 'ToolFactory: Generating Tools From More Complex Scripts'
     type: Tutorial
-  support_channel: '#dev-toolfactory'
-  support_link: https://gtnsmrgsbord.slack.com/archives/dev-toolfactory
   tags: [dev]
   type: null
   versions:
