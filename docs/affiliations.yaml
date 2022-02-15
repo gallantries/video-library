@@ -131,6 +131,10 @@ slu:
   link: "https://www.slu.se"
   logo: slu.png
 
+ei:
+    name: Earlham Institute
+    link: "https://www.earlham.ac.uk/"
+
 uct:
   name: University of Cape Town
   link: "https://www.uct.ac.za/"

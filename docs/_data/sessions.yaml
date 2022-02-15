@@ -197,7 +197,7 @@ galaxy/r:
   title: Using R in Galaxy
   description: Want a bit more control over your Analyses? You can run R in Rstudio directly within Galaxy
   videos:
-    - rstudio-galaxy
+    - data-science/rstudio-galaxy
     - data-science/r-basics/tutorial
     - data-science/r-advanced/tutorial
 

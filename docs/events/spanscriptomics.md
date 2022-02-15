@@ -1,5 +1,6 @@
 ---
 layout: event
+id: spanscriptomics
 title: "Spanscriptomics: Análisis de células únicas con Galaxy"
 location: Online
 date:

@@ -1,5 +1,6 @@
 ---
 layout: event
+id: 'tapas-gat'
 title: "Galaxy Admin Training @ GTN Tapas"
 status: draft # draft, final (default)
 description: "Free, Global, Online Week of Galaxy Admin Training"

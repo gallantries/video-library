@@ -1,6 +1,10 @@
 ---
 type: map
 mapping:
+    id:
+        type: str
+        required: true
+
     layout:
         type: str
         required: false
@@ -33,6 +37,11 @@ mapping:
         type: str
     location:
         type: str
+    status:
+        type: str
+        enum:
+            - draft
+            - final
     external:
         type: map
         mapping:
@@ -45,6 +54,53 @@ mapping:
               enum: CONTRIBUTORS
     example:
         type: bool
+    certificates:
+        type: map
+        mapping:
+            request_form:
+                type: str
+            deadline:
+                type: date
+            notes:
+                type: map
+                mapping:
+                    snippet:
+                        type: str
+
+    feedback:
+        type: map
+        mapping:
+            form:
+                type: str
+                required: false
+    setup:
+        type: map
+        mapping:
+            slack:
+                type: map
+                mapping:
+                    '=':
+                        type: str
+            servers:
+                type: seq
+                sequence:
+                    - type: map
+                      mapping:
+                          server:
+                              type: str
+                              enum:
+                                  - eu
+                                  - au
+                                  - us
+                          tiaas:
+                              type: str
+                          custom:
+                              type: map
+                              mapping:
+                                  name:
+                                      type: str
+                                  url:
+                                      type: str
     program:
         type: map
         mapping:
@@ -56,7 +112,7 @@ mapping:
                         required: true
                     description:
                         type: str
-                        required: true
+                        required: false
                     trainings:
                         type: seq
                         sequence:

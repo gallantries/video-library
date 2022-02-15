@@ -17,7 +17,7 @@ program:
       Want to go beyond the standard Machine Learning tools in Galaxy?
       Get a bit more control over you analysis by using R in Rstudio within Galaxy!
     trainings:
-      - video: rstudio-galaxy
+      - video: data-science/rstudio-galaxy
       - video: data-science/r-basics/tutorial
       - video: statistics/intro-to-ml-with-r/tutorial
 

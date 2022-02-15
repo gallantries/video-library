@@ -20,7 +20,7 @@ program:
 
       If you are new to R, please make sure to follow the first video in this section
     trainings:
-      - video: rstudio-galaxy
+      - video: data-science/rstudio-galaxy
       - video: data-science/r-basics/tutorial
       - video: data-science/r-advanced/tutorial
       - video: transcriptomics/rna-seq-counts-to-viz-in-r/tutorial

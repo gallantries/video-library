@@ -253,6 +253,10 @@ nomadscientist:
     name: Wendi Bacon
     affiliation: [ebi]
 
+nsoranzo:
+    name: Nicola Soranzo
+    affiliation: [ei]
+
 pclo:
     name: Patricia Carvajal López
     affiliation: [ebi]
@@ -340,7 +344,7 @@ wm75:
 
 jrr-cpt:
     name: Jolene Ramsey
-    affilitation: tamu
+    affiliation: tamu
 
 Lgallegovillar:
     name: Lorena Gallego Villar

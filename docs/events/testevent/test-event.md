@@ -1,5 +1,6 @@
 ---
 layout: event
+id: test
 title: "My Awesome Event (Example)"
 description: "Best training since sliced bread lessons"
 location: "The North Pole"
