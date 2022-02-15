@@ -19,7 +19,7 @@ This content is made available by a global community of contributors.
 
 ### Quick Start
 
-The easiest way to find a video for a GTN tutorial that you are interested in, is via the [GTN website](https://training.galaxyproject.org). Look at the overview box at the top of the tutorial, and look for the  **<i class="fas fa-video"></i> GTN Video Library** dropdown that will appear here if there is a video for that tutorial:
+The easiest way to find a video for a GTN tutorial that you are interested in, is via the [GTN website](https://training.galaxyproject.org). Look at the overview box at the top of the tutorial, and look for the  **{% icon video %} GTN Video Library** dropdown that will appear here if there is a video for that tutorial:
 
 ![Screenshot of the button on GTN page labelled GTN Video Library]({{site.baseurl}}/assets/images/gtn-videolib-connection.png){: width="50%" style="border:2px solid #555"}
 

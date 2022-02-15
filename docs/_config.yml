@@ -35,3 +35,8 @@ video:
 # Build settings
 markdown: kramdown
 lang: en
+
+icon-tag:
+    warning: assets/fa/exclamation-triangle.svg #fas fa-exclamation-triangle
+    video: assets/fa/video-camera.svg #fas fa-video
+    github: assets/fa/github.svg #fab fa-github
