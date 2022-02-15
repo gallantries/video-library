@@ -13,9 +13,9 @@
 		<div class="hall-of-fame-hero" id="{{ username }}">
 			<a href="{{ site.baseurl }}/contributors/{{ username }}/">
             {% if photo %}
-            <img src="{{site.baseurl}}/{{site.image_dir}}/instructors/{{photo}}">
+            <img src="{{site.baseurl}}/{{site.image_dir}}/instructors/{{photo}}" alt="">
             {% else %}
-			<img src="https://avatars.githubusercontent.com/{{ username }}">
+			<img src="https://avatars.githubusercontent.com/{{ username }}" alt="">
             {% endif %}
 			<div class="name">
 				<b>{{ instructor.name | default: username }}</b>

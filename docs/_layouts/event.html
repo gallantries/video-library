@@ -51,7 +51,7 @@ Below you will find all the tutorials for this course, everything you need to fo
 
 {% include course-handbook.html program=event.program instructors=event.instructors %}
 
-{% if page.lang == "html" %}
+{% if page.formatting_lang == "html" %}
   {{ content }}
 {% else %}
   {{ content | markdownify }}

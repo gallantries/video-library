@@ -4,10 +4,10 @@
   {%- include head.html -%}
 
   <body>
-
+	<a class="sr-only sr-only-focusable" href="#content">Skip to main content</a>
     {%- include header.html -%}
 
-    <main class="page-content" aria-label="Content">
+    <main class="page-content" aria-label="Content" id="content">
       <div class="wrapper" {% if page.wide %}style="max-width: 1700px"{% endif %}>
         {{ content }}
       </div>
