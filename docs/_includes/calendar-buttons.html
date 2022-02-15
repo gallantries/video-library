@@ -13,7 +13,7 @@ utm_medium%3Dcalendar%26
 utm_campaign%3Dgallantries&
 location={{location}}&
 text={{eventname}}"
-class="btn btn-info btn-sm" alt="Add to Google Calendar">Add to Google Calendar</a>&nbsp;
+class="btn btn-info btn-sm calendar-add" alt="Add to Google Calendar">Add to Google Calendar</a>
 
 <a href="https://outlook.live.com/calendar/0/deeplink/compose?
 body={{eventurl}}%2F%3F
@@ -26,7 +26,7 @@ path=%2Fcalendar%2Faction%2Fcompose&
 rru=addevent&
 startdt={{startdate | date: "%Y-%m-%d"}}&
 subject={{eventname}}"
-class="btn btn-info btn-sm">Add to Outlook</a>&nbsp;
+class="btn btn-info btn-sm calendar-add">Add to Outlook</a>
 
 <a href="https://outlook.office.com/calendar/0/deeplink/compose/?
 body={{eventurl}}
@@ -40,4 +40,4 @@ path=%2fcalendar%2faction%2fcompose&
 rru=addevent&
 startdt={{startdate | date: "%Y-%m-%d"}}&
 subject={{eventname}}"
-class="btn btn-info btn-sm">Add to Office 365</a>
+class="btn btn-info btn-sm calendar-add">Add to Office 365</a>

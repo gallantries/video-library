@@ -25,5 +25,5 @@ add a button, include configuration options:
 
 
 
-<a href="{{include.link | absolute_url }}"><button type="button" style="{{styling}}" class="btn btn-square-{{buttonsize}}">{{include.label}}</button></a>
+<a href="{{include.link | prepend: site.baseurl }}"><button type="button" style="{{styling}}" class="btn btn-square-{{buttonsize}}">{{include.label}}</button></a>
 

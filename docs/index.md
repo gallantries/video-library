@@ -4,7 +4,7 @@ layout: default
 
 # Gallantries & GTN Training Video Library
 
-![GTN logo]({{site.baseurl}}/{{site.image_dir}}/logos/gtn.png){: style="float: right" width="300px"}
+![]({{site.baseurl}}/{{site.image_dir}}/logos/gtn.png){: style="float: right" width="300px"}
 
 Welcome to the Galaxy Training Network (GTN) Video Library!
 
@@ -21,7 +21,7 @@ This content is made available by a global community of contributors.
 
 The easiest way to find a video for a GTN tutorial that you are interested in, is via the [GTN website](https://training.galaxyproject.org). Look at the overview box at the top of the tutorial, and look for the  **<i class="fas fa-video"></i> GTN Video Library** dropdown that will appear here if there is a video for that tutorial:
 
-![screenshot of the GTN connection]({{site.baseurl}}/assets/images/gtn-videolib-connection.png){: width="50%" style="border:2px solid #555"}
+![Screenshot of the button on GTN page labelled GTN Video Library]({{site.baseurl}}/assets/images/gtn-videolib-connection.png){: width="50%" style="border:2px solid #555"}
 
 You can also find the full list of **videos** and **sessions** (multi-video tutorials) below.
 
