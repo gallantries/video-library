@@ -36,7 +36,7 @@
           {% endif %}
           <tr>
               <td><strong>Length:</strong></td>
-              <td>{{ include.video.length | downcase }}</td>
+              <td>{{ include.video.length | duration_to_human }}</td>
           </tr>
    {% assign captions = include.video.captions | size %}
    {% if captions == 0 %}
