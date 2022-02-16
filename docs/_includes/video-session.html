@@ -72,8 +72,9 @@
                         {% endif %}
 
                         {{ m.type }}:
+                        {% if m.link contains "training.galaxyproject.org" %}
                         <a href="{% unless m.link contains 'http' %}{{site.gtn}}/archive/{{archiveyear}}-{{archivemonth}}-01/{% endunless %}{{m.link}}">Archived Version</a>
-                        |
+                        |{% endif %}
                         <a href="{% unless m.link contains 'http' %}{{site.gtn}}/{% endunless %}{{m.link}}">Latest Version</a>
                     </li>
                 {% endfor %}
