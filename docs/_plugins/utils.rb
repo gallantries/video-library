@@ -1,5 +1,44 @@
 module Jekyll
-  module DurationFilter
+  module VideoLibrary
+
+    def slack_channel_name(path)
+      if path.nil?
+        return "general"
+      end
+      path_parts = path.split('/')
+
+      # Update these two terms, just overwriting them
+      if path_parts[0] == 'statistics'
+        path_parts[0] = 'machine_learning'
+      end
+
+      if path_parts[0] == 'sequence-analysis'
+        path_parts[0] = 'ngs'
+      end
+
+      if path.include?('galaxy/intro') or path_parts[0] == 'introduction'
+        return 'galaxy-intro'
+      elsif ['galaxy', 'community', 'webinar'].include? path_parts[0]
+        return 'general'
+      elsif path_parts[0] == 'course'
+        # These are specific to their events
+        puts
+        return ['event', path_parts[1].gsub(/welcome-/, '')].join('-')
+      elsif path_parts[0] == 'contributing'
+        return 'gtn'
+      elsif path_parts[1].include?('tool-generators')
+        return 'dev-toolfactory'
+      elsif path_parts.length > 2 and ['tutorial', 'slides'].include?(path_parts[2])
+        return path_parts[0..1].join("_")
+      elsif path_parts.length > 2
+        return path_parts[0..1].join("_")
+      elsif path_parts.length == 2
+        path_parts[0..1].join("_")
+      else
+        return "general"
+      end
+    end
+
     def duration_to_human(duration)
       # Match the different parts of the string, must match entire string or it will fail.
       match = /^(?:([0-9]*)[Hh])*(?:([0-9]*)[Mm])*(?:([0-9.]*)[Ss])*$/.match(duration)
@@ -47,4 +86,4 @@ module Jekyll
   end
 end
 
-Liquid::Template.register_filter(Jekyll::DurationFilter)
+Liquid::Template.register_filter(Jekyll::VideoLibrary)
