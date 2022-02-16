@@ -61,7 +61,17 @@
           {% if materials %}
           <tr>
               <td><strong>Materials:</strong></td>
-              <td>{% for m in materials %} <a href="{% unless m.link contains 'http' %}{{site.gtn}}/archive/{{archiveyear}}-{{archivemonth}}-01/{% endunless %}{{m.link}}">{{m.type}}</a><br/>{% endfor %}</td>
+              <td>
+                <ul>
+                {% for m in materials %}
+                    <li>
+                        {{ m.type }}
+                        <a class="btn btn-primary" href="{% unless m.link contains 'http' %}{{site.gtn}}/archive/{{archiveyear}}-{{archivemonth}}-01/{% endunless %}{{m.link}}">Version at date of recording</a>
+                        <a class="btn btn-secondary" href="{% unless m.link contains 'http' %}{{site.gtn}}/{% endunless %}{{m.link}}">Latest Version</a>
+                    </li>
+                {% endfor %}
+                </ul>
+              </td>
           </tr>
           {% endif %}
           <!-- this is for the embedded versions where they'll use their own support forum -->
