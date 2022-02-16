@@ -40,6 +40,7 @@ program:
     title: Before you start
     trainings:
       - setup
+      - code-of-conduct
       - certificates
       - video: community/welcome
   day1:

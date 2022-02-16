@@ -28,8 +28,12 @@
      {% elsif session == "certificates" %}
        {% include custom-session.html type="certificates" config=page.certificates title="About Certificates" %}
 
+     {% elsif session == "code-of-conduct" %}
+       {% include custom-session.html type="code-of-conduct" config=page title="Code of Conduct" %}
+
      {% elsif session == "feedback" %}
        {% include custom-session.html type="feedback" config=page.feedback title="Give us your Feedback!" %}
+
      {% endif %}
   {% endfor %}
   </div>

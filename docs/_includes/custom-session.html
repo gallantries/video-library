@@ -25,6 +25,10 @@
     {% include sessions/feedback.html config=include.config %}
   {% endif %}
 
+  {% if include.type == "code-of-conduct" %}
+    {% include sessions/code-of-conduct.html config=include.config %}
+  {% endif %}
+
   </div>
  </div>
 </div> <!-- end session -->
