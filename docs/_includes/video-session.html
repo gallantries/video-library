@@ -62,12 +62,19 @@
           <tr>
               <td><strong>Materials:</strong></td>
               <td>
-                <ul>
+                <ul class="plain-text-list">
                 {% for m in materials %}
                     <li>
-                        {{ m.type }}
-                        <a class="btn btn-primary" href="{% unless m.link contains 'http' %}{{site.gtn}}/archive/{{archiveyear}}-{{archivemonth}}-01/{% endunless %}{{m.link}}">Version at date of recording</a>
-                        <a class="btn btn-secondary" href="{% unless m.link contains 'http' %}{{site.gtn}}/{% endunless %}{{m.link}}">Latest Version</a>
+                        {% if m.type == "Tutorial" %}
+                            {% icon tutorial %}
+                        {% elsif m.type == "Slides" %}
+                            {% icon slides %}
+                        {% endif %}
+
+                        {{ m.type }}:
+                        <a href="{% unless m.link contains 'http' %}{{site.gtn}}/archive/{{archiveyear}}-{{archivemonth}}-01/{% endunless %}{{m.link}}">Archived Version</a>
+                        |
+                        <a href="{% unless m.link contains 'http' %}{{site.gtn}}/{% endunless %}{{m.link}}">Latest Version</a>
                     </li>
                 {% endfor %}
                 </ul>
