@@ -3,3 +3,4 @@ for topic in $(curl https://training.galaxyproject.org/training-material/api/top
 done;
 
 python bin/objectives.py
+rm -f _data/gtn_*.json
