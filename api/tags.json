@@ -15,8 +15,6 @@
             "type": "Tutorial"
           }
         ],
-        "support_channel": "#ngs_advanced_unicycler-assembly-sars-cov2-genome",
-        "support_link": "https://gtnsmrgsbord.slack.com/archives/C01GJLDS01K",
         "tags": [
           "assembly"
         ],
@@ -46,8 +44,6 @@
             "type": "Tutorial"
           }
         ],
-        "support_channel": "#ngs_assembly",
-        "support_link": "https://gtnsmrgsbord.slack.com/archives/C01EKMD8VC7",
         "tags": [
           "assembly"
         ],
@@ -77,8 +73,6 @@
             "type": "Slides"
           }
         ],
-        "support_channel": "#ngs_assembly",
-        "support_link": "https://gtnsmrgsbord.slack.com/archives/C01EKMD8VC7",
         "tags": [
           "assembly"
         ],
@@ -114,8 +108,6 @@
             "type": "Tutorial"
           }
         ],
-        "support_channel": "#climate_fates",
-        "support_link": "https://gtnsmrgsbord.slack.com/archives/C01M63SFH34",
         "tags": [
           "climate"
         ],
@@ -145,8 +137,6 @@
             "type": "Slides"
           }
         ],
-        "support_channel": "#climate_fates",
-        "support_link": "https://gtnsmrgsbord.slack.com/archives/C01M63SFH34",
         "tags": [
           "climate"
         ],
@@ -273,8 +263,6 @@
           }
         ],
         "title": "Meet & Join the Galaxy Community!",
-        "support_channel": null,
-        "support_link": null,
         "tags": [
           "community",
           "community"
@@ -310,8 +298,6 @@
             "type": "Tutorial"
           }
         ],
-        "support_channel": "#cheminformatics",
-        "support_link": "https://gtnsmrgsbord.slack.com/archives/C01MC9SK344",
         "tags": [
           "computational-chemistry"
         ],
@@ -347,8 +333,6 @@
             "type": "Tutorial"
           }
         ],
-        "support_channel": "#transcriptomics_advanced_r",
-        "support_link": "https://gtnsmrgsbord.slack.com/archives/C01LKGNPE5V",
         "tags": [
           "data-science"
         ],
@@ -379,8 +363,6 @@
             "type": "Tutorial"
           }
         ],
-        "support_channel": "#transcriptomics_intro-to-r",
-        "support_link": "https://gtnsmrgsbord.slack.com/archives/C01F6JXPZM2",
         "tags": [
           "data-science"
         ],
@@ -416,8 +398,6 @@
             "type": "Slides"
           }
         ],
-        "support_channel": "#ngs_advanced_epigenetics_atac-seq",
-        "support_link": "https://gtnsmrgsbord.slack.com/archives/C01LRHRC6A3",
         "tags": [
           "epigenetics"
         ],
@@ -447,8 +427,6 @@
             "type": "Tutorial"
           }
         ],
-        "support_channel": "#ngs_advanced_epigenetics_atac-seq",
-        "support_link": "https://gtnsmrgsbord.slack.com/archives/C01LRHRC6A3",
         "tags": [
           "epigenetics"
         ],
@@ -483,8 +461,6 @@
             "type": "Tutorial"
           }
         ],
-        "support_channel": null,
-        "support_link": null,
         "tags": [
           "galaxy-interface"
         ],
@@ -514,8 +490,6 @@
             "type": "Slides"
           }
         ],
-        "support_channel": "#ngs_advanced_sra-aligned-read-format",
-        "support_link": "https://gtnsmrgsbord.slack.com/archives/C024WDPSTUM",
         "tags": [
           "galaxy-interface"
         ],
@@ -550,8 +524,6 @@
             "type": "Related Tutorial"
           }
         ],
-        "support_channel": "#ngs_advanced_sra-aligned-read-format",
-        "support_link": "https://gtnsmrgsbord.slack.com/archives/C024WDPSTUM",
         "tags": [
           "galaxy-interface"
         ],
@@ -584,8 +556,6 @@
             "type": "Tutorial"
           }
         ],
-        "support_channel": "#galaxy-rule-builder",
-        "support_link": "https://gtnsmrgsbord.slack.com/archives/galaxy-rule-builder",
         "tags": [
           "galaxy-interface"
         ],
@@ -610,8 +580,6 @@
         "description": "So you’ve used Galaxy workflows to analyze your SARS-CoV-2 samples? Learn in this tutorial how to export results to your favorite datastore.",
         "faq": null,
         "materials": null,
-        "support_channel": null,
-        "support_link": null,
         "tags": [
           "sars-cov2",
           "galaxy-interface"
@@ -643,8 +611,6 @@
             "type": "Tutorial"
           }
         ],
-        "support_channel": "#galaxy-workflow-automation",
-        "support_link": "https://gtnsmrgsbord.slack.com/archives/galaxy-workflow-automation",
         "tags": [
           "galaxy-interface"
         ],
@@ -664,7 +630,7 @@
           }
         ]
       },
-      "rstudio-galaxy": {
+      "data-science/rstudio-galaxy": {
         "title": "Running RStudio on Galaxy",
         "description": "This tutorial will show you how you can start Rstudio from within Galaxy. This option is only available on Galaxy EU for the time being. If you are working on a different Galaxy server, you can use <strong>Rstudio Cloud (https://rstudio.cloud/)</strong>",
         "faq": "https://docs.google.com/document/d/e/2PACX-1vQuOJPPP2nosMG1gh1TuAFu479F4u2kGCCsICHuKvQE7lJGZCreVbXMQrhEORu3O1fV2hX_DZDE_Isk/pub",
@@ -675,8 +641,6 @@
             "type": "Rstudio in Galaxy not available?"
           }
         ],
-        "support_channel": "#transcriptomics_intro-to-r",
-        "support_link": "https://gtnsmrgsbord.slack.com/archives/C01F6JXPZM2",
         "tags": [
           "galaxy-interface"
         ],
@@ -706,8 +670,6 @@
         "description": "So you’ve used Galaxy workflows to analyze your SARS-CoV-2 samples? Learn in this tutorial how to export results to your favorite datastore.",
         "faq": null,
         "materials": null,
-        "support_channel": null,
-        "support_link": null,
         "tags": [
           "sars-cov2",
           "galaxy-interface"
@@ -732,8 +694,6 @@
         "materials": [
 
         ],
-        "support_channel": null,
-        "support_link": null,
         "tags": [
           "sars-cov2"
         ],
@@ -757,8 +717,6 @@
         "materials": [
 
         ],
-        "support_channel": null,
-        "support_link": null,
         "tags": [
           "sars-cov2"
         ],
@@ -793,8 +751,6 @@
             "type": "Related Slides"
           }
         ],
-        "support_channel": "#galaxy_first_analysis",
-        "support_link": "https://gtnsmrgsbord.slack.com/archives/C01ES914GCU",
         "tags": [
           "galaxy-intro",
           "galaxy"
@@ -837,8 +793,6 @@
             "type": "Tutorial"
           }
         ],
-        "support_channel": "#galaxy_first_analysis",
-        "support_link": "https://gtnsmrgsbord.slack.com/archives/C01ES914GCU",
         "tags": [
           "galaxy-intro",
           "galaxy"
@@ -875,8 +829,6 @@
             "type": "Related Slides"
           }
         ],
-        "support_channel": "#galaxy_first_analysis",
-        "support_link": "https://gtnsmrgsbord.slack.com/archives/C01ES914GCU",
         "tags": [
           "galaxy-intro",
           "galaxy"
@@ -907,8 +859,6 @@
             "type": "Tutorial"
           }
         ],
-        "support_channel": "#galaxy_intro_101-for-everyone",
-        "support_link": "https://gtnsmrgsbord.slack.com/archives/C023KFGASK0",
         "tags": [
           "galaxy"
         ],
@@ -951,8 +901,6 @@
             "type": "Tutorial"
           }
         ],
-        "support_channel": "#galaxy_first_analysis",
-        "support_link": "https://gtnsmrgsbord.slack.com/archives/C01ES914GCU",
         "tags": [
           "galaxy-intro",
           "galaxy"
@@ -987,8 +935,6 @@
             "type": "Slides"
           }
         ],
-        "support_channel": "#ngs_advanced_annotation-prokaryotic-genome",
-        "support_link": "https://gtnsmrgsbord.slack.com/archives/C01GTTD1BE0",
         "tags": [
           "genome-annotation"
         ],
@@ -1017,8 +963,6 @@
             "type": "Tutorial"
           }
         ],
-        "support_channel": "#ngs_advanced_annotation-prokaryotic-genome",
-        "support_link": "https://gtnsmrgsbord.slack.com/archives/C01GTTD1BE0",
         "tags": [
           "genome-annotation"
         ],
@@ -1047,8 +991,6 @@
             "type": "Slides"
           }
         ],
-        "support_channel": "#genome_annotation_apollo",
-        "support_link": "https://gtnsmrgsbord.slack.com/archives/C02597VTR9Q",
         "tags": [
           "genome-annotation"
         ],
@@ -1081,8 +1023,6 @@
             "type": "Apollo User's Guide"
           }
         ],
-        "support_channel": "#genome_annotation_apollo",
-        "support_link": "https://gtnsmrgsbord.slack.com/archives/C02597VTR9Q",
         "tags": [
           "genome-annotation"
         ],
@@ -1120,8 +1060,6 @@
             "type": "History on GalaxyEU"
           }
         ],
-        "support_channel": null,
-        "support_link": null,
         "tags": [
           "introduction"
         ],
@@ -1148,8 +1086,6 @@
             "type": "Tutorial"
           }
         ],
-        "support_channel": "#ngs_data-logistics",
-        "support_link": "https://gtnsmrgsbord.slack.com/archives/C01EXB3BKN1",
         "tags": [
           "introduction"
         ],
@@ -1181,8 +1117,6 @@
         "materials": [
 
         ],
-        "support_channel": "#microbiome_antibiotic-resistance-detection-nanopore",
-        "support_link": "https://gtnsmrgsbord.slack.com/archives/C01F1GJ7JJX",
         "tags": [
           "metagenomics"
         ],
@@ -1212,8 +1146,6 @@
             "type": "Slides"
           }
         ],
-        "support_channel": "#microbiome_16s-microbial-analysis",
-        "support_link": "https://gtnsmrgsbord.slack.com/archives/C01FDV16V25",
         "tags": [
           "metagenomics"
         ],
@@ -1252,8 +1184,6 @@
             "type": "Tutorial"
           }
         ],
-        "support_channel": "#microbiome_metatranscriptomics",
-        "support_link": "https://gtnsmrgsbord.slack.com/archives/C0255JJQSKF",
         "tags": [
           "metagenomics"
         ],
@@ -1286,8 +1216,6 @@
             "type": "Tutorial"
           }
         ],
-        "support_channel": "#microbiome_16s-microbial-analysis",
-        "support_link": "https://gtnsmrgsbord.slack.com/archives/C01FDV16V25",
         "tags": [
           "metagenomics"
         ],
@@ -1322,8 +1250,6 @@
             "type": "Related Tutorial"
           }
         ],
-        "support_channel": "#microbiome_antibiotic-resistance-detection-nanopore",
-        "support_link": "https://gtnsmrgsbord.slack.com/archives/C01F1GJ7JJX",
         "tags": [
           "metagenomics"
         ],
@@ -1364,8 +1290,6 @@
             "type": "Workflow"
           }
         ],
-        "support_channel": "#proteomics_pandemics_research_ms",
-        "support_link": "https://gtnsmrgsbord.slack.com/archives/C025E2S35PE",
         "tags": [
           "proteomics"
         ],
@@ -1397,8 +1321,6 @@
             "type": "Tutorial"
           }
         ],
-        "support_channel": "#proteomics_ms-encyclopedia",
-        "support_link": "https://gtnsmrgsbord.slack.com/archives/C0257QKT998",
         "tags": [
           "proteomics"
         ],
@@ -1428,8 +1350,6 @@
             "type": "Tutorial"
           }
         ],
-        "support_channel": "#proteomics_ms-encyclopedia",
-        "support_link": "https://gtnsmrgsbord.slack.com/archives/C0257QKT998",
         "tags": [
           "proteomics"
         ],
@@ -1459,8 +1379,6 @@
             "type": "Slides"
           }
         ],
-        "support_channel": "#proteomics_introduction-to-ms",
-        "support_link": "https://gtnsmrgsbord.slack.com/archives/C01MQEDM39P",
         "tags": [
           "proteomics"
         ],
@@ -1489,8 +1407,6 @@
             "type": "Tutorial"
           }
         ],
-        "support_channel": "#proteomics_metaproteomics",
-        "support_link": "https://gtnsmrgsbord.slack.com/archives/C01FD4276P3",
         "tags": [
           "proteomics"
         ],
@@ -1519,8 +1435,6 @@
             "type": "Tutorial"
           }
         ],
-        "support_channel": "#proteomics_protegenomics",
-        "support_link": "https://gtnsmrgsbord.slack.com/archives/C01ETNTP6HL",
         "tags": [
           "proteomics"
         ],
@@ -1554,8 +1468,6 @@
             "type": "Slides"
           }
         ],
-        "support_channel": "#proteomics_protegenomics",
-        "support_link": "https://gtnsmrgsbord.slack.com/archives/C01ETNTP6HL",
         "tags": [
           "proteomics"
         ],
@@ -1584,8 +1496,6 @@
             "type": "Tutorial"
           }
         ],
-        "support_channel": "#proteomics_protegenomics",
-        "support_link": "https://gtnsmrgsbord.slack.com/archives/C01ETNTP6HL",
         "tags": [
           "proteomics"
         ],
@@ -1615,8 +1525,6 @@
             "type": "Tutorial"
           }
         ],
-        "support_channel": "#proteomics_proteore-protein-list-annotation",
-        "support_link": "https://gtnsmrgsbord.slack.com/archives/C01EYBNQRL5",
         "tags": [
           "proteomics"
         ],
@@ -1652,8 +1560,6 @@
             "type": "Example History"
           }
         ],
-        "support_channel": "#proteomics_maxquant-and-msstats",
-        "support_link": "https://gtnsmrgsbord.slack.com/archives/C01F0LY58R1",
         "tags": [
           "proteomics"
         ],
@@ -1689,8 +1595,6 @@
             "type": "Slides"
           }
         ],
-        "support_channel": "#proteomics_protegenomics",
-        "support_link": "https://gtnsmrgsbord.slack.com/archives/C01ETNTP6HL",
         "tags": [
           "proteogenomics"
         ],
@@ -1731,8 +1635,6 @@
             "type": "Example History"
           }
         ],
-        "support_channel": null,
-        "support_link": null,
         "tags": [
           "sequence-analysis"
         ],
@@ -1748,8 +1650,6 @@
             "type": "Slides"
           }
         ],
-        "support_channel": "#ngs_mapping",
-        "support_link": "https://gtnsmrgsbord.slack.com/archives/C01F6JHCFT6",
         "tags": [
           "sequence-analysis"
         ],
@@ -1779,8 +1679,6 @@
             "type": "Tutorial"
           }
         ],
-        "support_channel": "#ngs_mapping",
-        "support_link": "https://gtnsmrgsbord.slack.com/archives/C01F6JHCFT6",
         "tags": [
           "sequence-analysis"
         ],
@@ -1810,8 +1708,6 @@
             "type": "Slides"
           }
         ],
-        "support_channel": "#ngs_quality-control",
-        "support_link": "https://gtnsmrgsbord.slack.com/archives/C01FQ92MB7A",
         "tags": [
           "sequence-analysis"
         ],
@@ -1842,8 +1738,6 @@
             "type": "Tutorial"
           }
         ],
-        "support_channel": "#ngs_quality-control",
-        "support_link": "https://gtnsmrgsbord.slack.com/archives/C01FQ92MB7A",
         "tags": [
           "sequence-analysis"
         ],
@@ -1882,8 +1776,7 @@
             "type": "Slides"
           }
         ],
-        "support_channel": "#machine_learning_introduction",
-        "support_link": "https://gtnsmrgsbord.slack.com/archives/C025EUF0R0U",
+        "support_channel": "machine_learning_introduction",
         "tags": [
           "statistics"
         ],
@@ -1919,8 +1812,7 @@
             "type": "Tutorial"
           }
         ],
-        "support_channel": "#machine_learning_deep-neural-networks-demystified",
-        "support_link": "https://gtnsmrgsbord.slack.com/archives/C025MKQNPU1",
+        "support_channel": "machine_learning_deep-neural-networks-demystified",
         "tags": [
           "statistics"
         ],
@@ -1956,8 +1848,7 @@
             "type": "Tutorial"
           }
         ],
-        "support_channel": "#machine_learning_deep-neural-networks-demystified",
-        "support_link": "https://gtnsmrgsbord.slack.com/archives/C025MKQNPU1",
+        "support_channel": "machine_learning_deep-neural-networks-demystified",
         "tags": [
           "statistics"
         ],
@@ -1993,8 +1884,7 @@
             "type": "Tutorial"
           }
         ],
-        "support_channel": "#machine_learning_deep-neural-networks-demystified",
-        "support_link": "https://gtnsmrgsbord.slack.com/archives/C025MKQNPU1",
+        "support_channel": "machine_learning_deep-neural-networks-demystified",
         "tags": [
           "statistics"
         ],
@@ -2029,8 +1919,7 @@
             "type": "Slides"
           }
         ],
-        "support_channel": "#machine_learning_classification",
-        "support_link": "https://gtnsmrgsbord.slack.com/archives/C025MCF4C8Z",
+        "support_channel": "machine_learning_classification",
         "tags": [
           "statistics"
         ],
@@ -2060,8 +1949,6 @@
             "type": "Tutorial"
           }
         ],
-        "support_channel": "#machine_learning_with_r",
-        "support_link": "https://gtnsmrgsbord.slack.com/archives/C025MCK52TT",
         "tags": [
           "statistics"
         ],
@@ -2096,8 +1983,6 @@
             "type": "Slides"
           }
         ],
-        "support_channel": "#machine_learning_regression",
-        "support_link": "https://gtnsmrgsbord.slack.com/archives/C02590LE3DH",
         "tags": [
           "statistics"
         ],
@@ -2143,8 +2028,6 @@
             "type": "Training data"
           }
         ],
-        "support_channel": "#transcriptomics_de-novo-transcriptome-reconstruction",
-        "support_link": "https://gtnsmrgsbord.slack.com/archives/C024NGLDALF",
         "tags": [
           "transcriptomics"
         ],
@@ -2173,8 +2056,6 @@
             "type": "Tutorial"
           }
         ],
-        "support_channel": "#transcriptomics_single-cell-matrix-alevin",
-        "support_link": "https://gtnsmrgsbord.slack.com/archives/C0250JZCA6R",
         "tags": [
           "transcriptomics"
         ],
@@ -2204,8 +2085,6 @@
             "type": "Slides"
           }
         ],
-        "support_channel": "#transcriptomics_ref-based-rna-seq",
-        "support_link": "https://gtnsmrgsbord.slack.com/archives/C01F0L6UW03",
         "tags": [
           "transcriptomics"
         ],
@@ -2234,8 +2113,6 @@
             "type": "Slides"
           }
         ],
-        "support_channel": "#transcriptomics_mirna-data-analysis",
-        "support_link": "https://gtnsmrgsbord.slack.com/archives/C01TCB1J7SA",
         "tags": [
           "transcriptomics"
         ],
@@ -2275,8 +2152,6 @@
             "type": "Tutorial"
           }
         ],
-        "support_channel": "#transcriptomics_mirna-data-analysis",
-        "support_link": "https://gtnsmrgsbord.slack.com/archives/C01TCB1J7SA",
         "tags": [
           "transcriptomics"
         ],
@@ -2306,8 +2181,6 @@
             "type": "Tutorial"
           }
         ],
-        "support_channel": "#transcriptomics_ref-based-rna-seq",
-        "support_link": "https://gtnsmrgsbord.slack.com/archives/C01F0L6UW03",
         "tags": [
           "transcriptomics"
         ],
@@ -2338,8 +2211,6 @@
             "type": "Tutorial"
           }
         ],
-        "support_channel": "#transcriptomics_visualisation-with-r",
-        "support_link": "https://gtnsmrgsbord.slack.com/archives/C01FD3AFLN5",
         "tags": [
           "transcriptomics"
         ],
@@ -2371,8 +2242,7 @@
             "type": "Tutorial"
           }
         ],
-        "support_channel": "#transcriptomics_volcano-plot",
-        "support_link": "https://gtnsmrgsbord.slack.com/archives/C0253LVPLFM",
+        "support_channel": "transcriptomics_rna-seq-viz-with-volcanoplot",
         "tags": [
           "transcriptomics",
           "visualisation"
@@ -2403,8 +2273,6 @@
             "type": "Tutorial"
           }
         ],
-        "support_channel": "#transcriptomics_volcano-plot",
-        "support_link": "https://gtnsmrgsbord.slack.com/archives/C0253LVPLFM",
         "tags": [
           "transcriptomics",
           "visualisation"
@@ -2434,8 +2302,6 @@
             "type": "Tutorial"
           }
         ],
-        "support_channel": "#transcriptomics_single_cell_trajectory-analysis-jupyter",
-        "support_link": "https://gtnsmrgsbord.slack.com/archives/C0257SCES83",
         "tags": [
           "transcriptomics"
         ],
@@ -2465,8 +2331,6 @@
             "type": "Slides"
           }
         ],
-        "support_channel": "#transcriptomics_single-cell-rnaseq",
-        "support_link": "https://gtnsmrgsbord.slack.com/archives/C01M17R4YA1",
         "tags": [
           "transcriptomics"
         ],
@@ -2489,8 +2353,6 @@
       "transcriptomics/scrna-umis/tutorial": {
         "title": "Understanding Barcodes",
         "description": "This tutorial demonstrates the what barcodes in your sequencing data are, and how to handle them during analysis. Please work through the full tutorial yourself to get all the details.",
-        "support_channel": "#3-1_understanding-barcodes",
-        "support_link": "https://gtnsmrgsbord.slack.com/archives/C01EXBNDKT7",
         "faq": "https://docs.google.com/document/d/e/2PACX-1vRWe-8VHsJ4vbO8rwXemPDKUabWrKy1NRnxOKfIzEgj8RQ0tfG0W1kyUx30gVyWND_h4s12MtsV58Sh/pub",
         "materials": [
           {
@@ -2520,8 +2382,6 @@
       "transcriptomics/scrna-preprocessing-tenx/tutorial": {
         "title": "Pre-processing of 10X Single-Cell RNA Datasets",
         "description": "10x genomics has provided not only a cost-effective high-throughput solution to understanding sample heterogeneity at the individual cell level, but has defined the standards of the field that many downstream analysis packages are now scrambling to accommodate. Please work through the full tutorial yourself to get all the details.",
-        "support_channel": "#3-2_preprocessing-10x-single-cell-rna-datasets",
-        "support_link": "https://gtnsmrgsbord.slack.com/archives/C01EXBPPBK7",
         "faq": "https://docs.google.com/document/d/e/2PACX-1vTuCzmNJlZSbS9-lIdfLgt8T7IJb7jWZ3gedtjNB4aKJ7pAi3apYS4NgfaCRh0_r5QbF4Pwl15Z0-mk/pub",
         "type": "Demo",
         "materials": [
@@ -2551,8 +2411,6 @@
       },
       "transcriptomics/scrna-scanpy-pbmc3k/tutorial": {
         "title": "Clustering 3K PBMCs with Scanpy",
-        "support_channel": "#3-3_clustering-3k-pbmcs-with-scanpy",
-        "support_link": "https://gtnsmrgsbord.slack.com/archives/C01FQ9RLLF2",
         "faq": "https://docs.google.com/document/d/e/2PACX-1vTdqGjslXMxUjyjqwkNtidsXFl6SRULFKFug_2TYBl-dYXIDEnXb59nMyZ5qJc6bXI-fP5cPLfkXbHV/pub",
         "type": "Demo",
         "description": "In this tutorial, we will investigate clustering of single-cell data from 10x Genomics, including preprocessing, clustering and the identification of cell types via known marker genes, using Scanpy. It will be illustrated using a dataset of Peripheral Blood Mononuclear Cells (PBMC), containing 2,700 single cells. Please work through the full tutorial yourself to get all the details.",
@@ -2588,8 +2446,6 @@
             "type": "Tutorial"
           }
         ],
-        "support_channel": null,
-        "support_link": "https://gtnsmrgsbord.slack.com/archives/C01TG5YNF6Z",
         "tags": [
           "transcriptomics"
         ],
@@ -2618,8 +2474,6 @@
             "type": "Tutorial"
           }
         ],
-        "support_channel": "#transcriptomics_single-cell-filter-plot-explore",
-        "support_link": "https://gtnsmrgsbord.slack.com/archives/C025LA0NBLH",
         "tags": [
           "transcriptomics"
         ],
@@ -2654,8 +2508,7 @@
             "type": "Tutorial"
           }
         ],
-        "support_channel": "#transcriptomics_volcano-plot",
-        "support_link": "https://gtnsmrgsbord.slack.com/archives/C0253LVPLFM",
+        "support_channel": "transcriptomics_rna-seq-viz-with-volcanoplot",
         "tags": [
           "transcriptomics",
           "visualisation"
@@ -2686,8 +2539,6 @@
             "type": "Tutorial"
           }
         ],
-        "support_channel": "#transcriptomics_volcano-plot",
-        "support_link": "https://gtnsmrgsbord.slack.com/archives/C0253LVPLFM",
         "tags": [
           "transcriptomics",
           "visualisation"
@@ -2717,8 +2568,6 @@
             "type": "Slides"
           }
         ],
-        "support_channel": "#visualisation_circos",
-        "support_link": "https://gtnsmrgsbord.slack.com/archives/C01ELJ6QTQF",
         "tags": [
           "visualisation"
         ],
@@ -2753,8 +2602,6 @@
             "type": "Tutorial"
           }
         ],
-        "support_channel": "#visualisation_circos",
-        "support_link": "https://gtnsmrgsbord.slack.com/archives/C01ELJ6QTQF",
         "tags": [
           "visualisation"
         ],
@@ -2792,8 +2639,6 @@
             "type": "Slides"
           }
         ],
-        "support_channel": "#microbial_tuberculosis-variant-analysis",
-        "support_link": "https://gtnsmrgsbord.slack.com/archives/C01FD2WJU01",
         "tags": [
           "variant-analysis"
         ],
@@ -2822,8 +2667,6 @@
             "type": "Tutorial"
           }
         ],
-        "support_channel": "#microbial_tuberculosis-variant-analysis",
-        "support_link": "https://gtnsmrgsbord.slack.com/archives/C01FD2WJU01",
         "tags": [
           "variant-analysis"
         ],
@@ -2860,8 +2703,6 @@
           }
         ],
         "title": "Galaxy Resources for.. Admins",
-        "support_channel": "#event-gcc2021",
-        "support_link": "https://gtnsmrgsbord.slack.com/archives/C0253H46ABV",
         "tags": [
           "webinar"
         ],
@@ -2891,8 +2732,6 @@
           }
         ],
         "title": "Galaxy Resources for.. Educators",
-        "support_channel": "#event-gcc2021",
-        "support_link": "https://gtnsmrgsbord.slack.com/archives/C0253H46ABV",
         "tags": [
           "webinar"
         ],
@@ -2926,8 +2765,6 @@
           }
         ],
         "title": "Galaxy Resources for.. Researchers",
-        "support_channel": "#event-gcc2021",
-        "support_link": "https://gtnsmrgsbord.slack.com/archives/C0253H46ABV",
         "tags": [
           "webinar"
         ],
@@ -2954,8 +2791,6 @@
           }
         ],
         "title": "Galaxy Resources for.. Tool Developers",
-        "support_channel": "#event-gcc2021",
-        "support_link": "https://gtnsmrgsbord.slack.com/archives/C0253H46ABV",
         "tags": [
           "webinar"
         ],
@@ -2986,8 +2821,6 @@
         "materials": [
 
         ],
-        "support_channel": "#microbiome_antibiotic-resistance-detection-nanopore",
-        "support_link": "https://gtnsmrgsbord.slack.com/archives/C01F1GJ7JJX",
         "tags": [
           "wetlab"
         ],
@@ -3015,8 +2848,6 @@
         "title": "Admin Training 2021: Welcome & Course Logistics",
         "description": null,
         "faq": null,
-        "support_channel": "#general",
-        "support_link": "https://galaxyadmintraining.slack.com/archives/general",
         "tags": [
           "event"
         ],
@@ -3047,8 +2878,6 @@
             "type": "Slides"
           }
         ],
-        "support_channel": "#general",
-        "support_link": "https://galaxyadmintraining.slack.com/archives/general",
         "tags": [
           "event"
         ],
@@ -3085,8 +2914,7 @@
             "type": "Week Overview Slides"
           }
         ],
-        "support_channel": "#02-ansible-galaxy",
-        "support_link": "https://galaxyadmintraining.slack.com/archives/02-ansible-galaxy",
+        "support_channel": "admin_ansible-galaxy",
         "tags": [
           "admin"
         ],
@@ -3127,8 +2955,6 @@
             "type": "Moving Towards Production Slides"
           }
         ],
-        "support_channel": "#02-ansible-galaxy",
-        "support_link": "https://galaxyadmintraining.slack.com/archives/02-ansible-galaxy",
         "tags": [
           "admin"
         ],
@@ -3171,8 +2997,6 @@
             "type": "Tutorial"
           }
         ],
-        "support_channel": "#01-ansible",
-        "support_link": "https://galaxyadmintraining.slack.com/archives/01-ansible",
         "tags": [
           "admin"
         ],
@@ -3201,8 +3025,6 @@
             "type": "Slides"
           }
         ],
-        "support_channel": "#01-ansible",
-        "support_link": "https://galaxyadmintraining.slack.com/archives/01-ansible",
         "tags": [
           "admin"
         ],
@@ -3235,8 +3057,6 @@
             "type": "Tutorial"
           }
         ],
-        "support_channel": "#07-compute-cluster",
-        "support_link": "https://galaxyadmintraining.slack.com/archives/07-compute-cluster",
         "tags": [
           "admin"
         ],
@@ -3266,8 +3086,6 @@
             "type": "Slides"
           }
         ],
-        "support_channel": "#04-cvmfs",
-        "support_link": "https://galaxyadmintraining.slack.com/archives/04-cvmfs",
         "tags": [
           "admin"
         ],
@@ -3296,8 +3114,6 @@
             "type": "Tutorial"
           }
         ],
-        "support_channel": "#04-cvmfs",
-        "support_link": "https://galaxyadmintraining.slack.com/archives/04-cvmfs",
         "tags": [
           "admin"
         ],
@@ -3326,8 +3142,6 @@
             "type": "Tutorial"
           }
         ],
-        "support_channel": "#05-data-libraries",
-        "support_link": "https://galaxyadmintraining.slack.com/archives/05-data-libraries",
         "tags": [
           "admin"
         ],
@@ -3361,8 +3175,6 @@
             "type": "Exercise"
           }
         ],
-        "support_channel": "#09-storage",
-        "support_link": "https://galaxyadmintraining.slack.com/archives/09-storage",
         "tags": [
           "admin"
         ],
@@ -3391,8 +3203,6 @@
             "type": "Slides"
           }
         ],
-        "support_channel": "#08-pulsar",
-        "support_link": "https://galaxyadmintraining.slack.com/archives/08-pulsar",
         "tags": [
           "admin"
         ],
@@ -3421,8 +3231,6 @@
             "type": "Tutorial"
           }
         ],
-        "support_channel": "#08-pulsar",
-        "support_link": "https://galaxyadmintraining.slack.com/archives/08-pulsar",
         "tags": [
           "admin"
         ],
@@ -3468,8 +3276,6 @@
             "type": "Tutorial"
           }
         ],
-        "support_channel": "#11-cyoa",
-        "support_link": "https://galaxyadmintraining.slack.com/archives/11-cyoa",
         "tags": [
           "admin"
         ],
@@ -3499,8 +3305,6 @@
             "type": "Tutorial"
           }
         ],
-        "support_channel": "#07-compute-cluster",
-        "support_link": "https://galaxyadmintraining.slack.com/archives/07-compute-cluster",
         "tags": [
           "admin"
         ],
@@ -3530,8 +3334,6 @@
             "type": "Tutorial"
           }
         ],
-        "support_channel": "#07-compute-cluster",
-        "support_link": "https://galaxyadmintraining.slack.com/archives/07-compute-cluster",
         "tags": [
           "admin"
         ],
@@ -3560,8 +3362,6 @@
             "type": "Slides"
           }
         ],
-        "support_channel": "#10-monitoring",
-        "support_link": "https://galaxyadmintraining.slack.com/archives/10-monitoring",
         "tags": [
           "admin"
         ],
@@ -3590,8 +3390,6 @@
             "type": "Slides"
           }
         ],
-        "support_channel": "#10-monitoring",
-        "support_link": "https://galaxyadmintraining.slack.com/archives/10-monitoring",
         "tags": [
           "admin"
         ],
@@ -3620,8 +3418,6 @@
             "type": "Tutorial"
           }
         ],
-        "support_channel": "#10-monitoring",
-        "support_link": "https://galaxyadmintraining.slack.com/archives/10-monitoring",
         "tags": [
           "admin"
         ],
@@ -3651,8 +3447,6 @@
             "type": "Exercise"
           }
         ],
-        "support_channel": "#09-storage",
-        "support_link": "https://galaxyadmintraining.slack.com/archives/09-storage",
         "tags": [
           "admin"
         ],
@@ -3681,8 +3475,6 @@
             "type": "Tutorial"
           }
         ],
-        "support_channel": "#03-singularity",
-        "support_link": "https://galaxyadmintraining.slack.com/archives/03-singularity",
         "tags": [
           "admin"
         ],
@@ -3725,8 +3517,6 @@
             "type": "Tutorial"
           }
         ],
-        "support_channel": "#12-tiaas",
-        "support_link": "https://galaxyadmintraining.slack.com/archives/12-tiaas",
         "tags": [
           "admin"
         ],
@@ -3760,8 +3550,6 @@
             "type": "Tutorial"
           }
         ],
-        "support_channel": "#03-ephemeris",
-        "support_link": "https://galaxyadmintraining.slack.com/archives/03-ephemeris",
         "tags": [
           "admin"
         ],
@@ -3794,8 +3582,6 @@
             "type": "Tutorial"
           }
         ],
-        "support_channel": "#03-ephemeris",
-        "support_link": "https://galaxyadmintraining.slack.com/archives/03-ephemeris",
         "tags": [
           "admin"
         ],
@@ -3828,8 +3614,6 @@
             "type": "Tutorial"
           }
         ],
-        "support_channel": "#03-ephemeris",
-        "support_link": "https://galaxyadmintraining.slack.com/archives/03-ephemeris",
         "tags": [
           "admin"
         ],
@@ -3858,8 +3642,6 @@
             "type": "tutorial"
           }
         ],
-        "support_channel": "#11-cyoa",
-        "support_link": "https://galaxyadmintraining.slack.com/archives/11-cyoa",
         "tags": [
           "admin"
         ],
@@ -3889,8 +3671,6 @@
             "type": "Slides"
           }
         ],
-        "support_channel": "#general",
-        "support_link": "https://galaxyadmintraining.slack.com/archives/general",
         "tags": [
           "admin"
         ],
@@ -3925,8 +3705,6 @@
             "type": "Tutorial"
           }
         ],
-        "support_channel": "#contributing-gtn",
-        "support_link": "https://gtnsmrgsbord.slack.com/archives/contributing-gtn",
         "tags": [
           "contributing"
         ],
@@ -3956,8 +3734,6 @@
             "type": "Slides"
           }
         ],
-        "support_channel": "#contributing-gtn",
-        "support_link": "https://gtnsmrgsbord.slack.com/archives/contributing-gtn",
         "tags": [
           "contributing"
         ],
@@ -3992,8 +3768,6 @@
             "type": "Related tutorial"
           }
         ],
-        "support_channel": "#contributing-gtn",
-        "support_link": "https://gtnsmrgsbord.slack.com/archives/contributing-gtn",
         "tags": [
           "contributing"
         ],
@@ -4039,8 +3813,6 @@
             "type": "Youtube Playlist"
           }
         ],
-        "support_channel": "#dev-galaxy-core",
-        "support_link": "https://gtnsmrgsbord.slack.com/archives/C025X3XLZ4Y",
         "tags": [
           "dev"
         ],
@@ -4081,8 +3853,6 @@
             "type": "Youtube Playlist"
           }
         ],
-        "support_channel": "#dev-galaxy-core",
-        "support_link": "https://gtnsmrgsbord.slack.com/archives/C025X3XLZ4Y",
         "tags": [
           "dev"
         ],
@@ -4123,8 +3893,6 @@
             "type": "Youtube Playlist"
           }
         ],
-        "support_channel": "#dev-galaxy-core",
-        "support_link": "https://gtnsmrgsbord.slack.com/archives/C025X3XLZ4Y",
         "tags": [
           "dev"
         ],
@@ -4165,8 +3933,6 @@
             "type": "Youtube Playlist"
           }
         ],
-        "support_channel": "#dev-galaxy-core",
-        "support_link": "https://gtnsmrgsbord.slack.com/archives/C025X3XLZ4Y",
         "tags": [
           "dev"
         ],
@@ -4207,8 +3973,6 @@
             "type": "Youtube Playlist"
           }
         ],
-        "support_channel": "#dev-galaxy-core",
-        "support_link": "https://gtnsmrgsbord.slack.com/archives/C025X3XLZ4Y",
         "tags": [
           "dev"
         ],
@@ -4249,8 +4013,6 @@
             "type": "Youtube Playlist"
           }
         ],
-        "support_channel": "#dev-galaxy-core",
-        "support_link": "https://gtnsmrgsbord.slack.com/archives/C025X3XLZ4Y",
         "tags": [
           "dev"
         ],
@@ -4291,8 +4053,6 @@
             "type": "Youtube Playlist"
           }
         ],
-        "support_channel": "#dev-galaxy-core",
-        "support_link": "https://gtnsmrgsbord.slack.com/archives/C025X3XLZ4Y",
         "tags": [
           "dev"
         ],
@@ -4333,8 +4093,6 @@
             "type": "Youtube Playlist"
           }
         ],
-        "support_channel": "#dev-galaxy-core",
-        "support_link": "https://gtnsmrgsbord.slack.com/archives/C025X3XLZ4Y",
         "tags": [
           "dev"
         ],
@@ -4375,8 +4133,6 @@
             "type": "Youtube Playlist"
           }
         ],
-        "support_channel": "#dev-galaxy-core",
-        "support_link": "https://gtnsmrgsbord.slack.com/archives/C025X3XLZ4Y",
         "tags": [
           "dev"
         ],
@@ -4406,8 +4162,6 @@
             "type": "Tutorial"
           }
         ],
-        "support_channel": "#dev-debugging-galaxy",
-        "support_link": "https://gtnsmrgsbord.slack.com/archives/C025DL2S03W",
         "tags": [
           "dev"
         ],
@@ -4438,8 +4192,6 @@
             "type": "Tutorial"
           }
         ],
-        "support_channel": "#dev-debugging-galaxy",
-        "support_link": "https://gtnsmrgsbord.slack.com/archives/C025DL2S03W",
         "tags": [
           "dev"
         ],
@@ -4470,8 +4222,6 @@
             "type": "Tutorial"
           }
         ],
-        "support_channel": "#dev-debugging-galaxy",
-        "support_link": "https://gtnsmrgsbord.slack.com/archives/C025DL2S03W",
         "tags": [
           "dev"
         ],
@@ -4502,8 +4252,6 @@
             "type": "Tutorial"
           }
         ],
-        "support_channel": "#dev-debugging-galaxy",
-        "support_link": "https://gtnsmrgsbord.slack.com/archives/C025DL2S03W",
         "tags": [
           "dev"
         ],
@@ -4534,8 +4282,6 @@
             "type": "Tutorial"
           }
         ],
-        "support_channel": "#dev-debugging-galaxy",
-        "support_link": "https://gtnsmrgsbord.slack.com/archives/C025DL2S03W",
         "tags": [
           "dev"
         ],
@@ -4566,8 +4312,6 @@
             "type": "Tutorial"
           }
         ],
-        "support_channel": "#dev-debugging-galaxy",
-        "support_link": "https://gtnsmrgsbord.slack.com/archives/C025DL2S03W",
         "tags": [
           "dev"
         ],
@@ -4597,8 +4341,6 @@
             "type": "Tutorial"
           }
         ],
-        "support_channel": "#dev-debugging-galaxy",
-        "support_link": "https://gtnsmrgsbord.slack.com/archives/C025DL2S03W",
         "tags": [
           "dev"
         ],
@@ -4631,8 +4373,6 @@
             "type": "Tutorial"
           }
         ],
-        "support_channel": "#dev-debugging-galaxy",
-        "support_link": "https://gtnsmrgsbord.slack.com/archives/C025DL2S03W",
         "tags": [
           "dev"
         ],
@@ -4663,8 +4403,6 @@
             "type": "Tutorial"
           }
         ],
-        "support_channel": "#dev-tools-conda",
-        "support_link": "https://gtnsmrgsbord.slack.com/archives/dev-tools-conda",
         "tags": [
           "dev"
         ],
@@ -4694,8 +4432,6 @@
             "type": "Tutorial"
           }
         ],
-        "support_channel": "#dev-tools-conda",
-        "support_link": "https://gtnsmrgsbord.slack.com/archives/dev-tools-conda",
         "tags": [
           "dev"
         ],
@@ -4725,8 +4461,6 @@
             "type": "Tutorial"
           }
         ],
-        "support_channel": "#dev-tools-conda",
-        "support_link": "https://gtnsmrgsbord.slack.com/archives/dev-tools-conda",
         "tags": [
           "dev"
         ],
@@ -4756,8 +4490,6 @@
             "type": "Tutorial"
           }
         ],
-        "support_channel": "#dev-tools-conda",
-        "support_link": "https://gtnsmrgsbord.slack.com/archives/dev-tools-conda",
         "tags": [
           "dev"
         ],
@@ -4787,8 +4519,6 @@
             "type": "Tutorial"
           }
         ],
-        "support_channel": "#dev-tools-conda",
-        "support_link": "https://gtnsmrgsbord.slack.com/archives/dev-tools-conda",
         "tags": [
           "dev"
         ],
@@ -4818,8 +4548,6 @@
             "type": "Tutorial"
           }
         ],
-        "support_channel": "#dev-tools-conda",
-        "support_link": "https://gtnsmrgsbord.slack.com/archives/dev-tools-conda",
         "tags": [
           "dev"
         ],
@@ -4848,8 +4576,6 @@
             "type": "Tutorial"
           }
         ],
-        "support_channel": "#dev-toolfactory",
-        "support_link": "https://gtnsmrgsbord.slack.com/archives/dev-toolfactory",
         "tags": [
           "dev"
         ],
@@ -4879,8 +4605,6 @@
             "type": "Tutorial"
           }
         ],
-        "support_channel": "#dev-toolfactory",
-        "support_link": "https://gtnsmrgsbord.slack.com/archives/dev-toolfactory",
         "tags": [
           "dev"
         ],

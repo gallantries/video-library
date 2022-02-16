@@ -11,8 +11,7 @@
           "type": "Week Overview Slides"
         }
       ],
-      "support_channel": "#02-ansible-galaxy",
-      "support_link": "https://galaxyadmintraining.slack.com/archives/02-ansible-galaxy",
+      "support_channel": "admin_ansible-galaxy",
       "tags": [
         "admin"
       ],
@@ -53,8 +52,6 @@
           "type": "Moving Towards Production Slides"
         }
       ],
-      "support_channel": "#02-ansible-galaxy",
-      "support_link": "https://galaxyadmintraining.slack.com/archives/02-ansible-galaxy",
       "tags": [
         "admin"
       ],
@@ -97,8 +94,6 @@
           "type": "Tutorial"
         }
       ],
-      "support_channel": "#01-ansible",
-      "support_link": "https://galaxyadmintraining.slack.com/archives/01-ansible",
       "tags": [
         "admin"
       ],
@@ -127,8 +122,6 @@
           "type": "Slides"
         }
       ],
-      "support_channel": "#01-ansible",
-      "support_link": "https://galaxyadmintraining.slack.com/archives/01-ansible",
       "tags": [
         "admin"
       ],
@@ -161,8 +154,6 @@
           "type": "Tutorial"
         }
       ],
-      "support_channel": "#07-compute-cluster",
-      "support_link": "https://galaxyadmintraining.slack.com/archives/07-compute-cluster",
       "tags": [
         "admin"
       ],
@@ -192,8 +183,6 @@
           "type": "Slides"
         }
       ],
-      "support_channel": "#04-cvmfs",
-      "support_link": "https://galaxyadmintraining.slack.com/archives/04-cvmfs",
       "tags": [
         "admin"
       ],
@@ -222,8 +211,6 @@
           "type": "Tutorial"
         }
       ],
-      "support_channel": "#04-cvmfs",
-      "support_link": "https://galaxyadmintraining.slack.com/archives/04-cvmfs",
       "tags": [
         "admin"
       ],
@@ -252,8 +239,6 @@
           "type": "Tutorial"
         }
       ],
-      "support_channel": "#05-data-libraries",
-      "support_link": "https://galaxyadmintraining.slack.com/archives/05-data-libraries",
       "tags": [
         "admin"
       ],
@@ -287,8 +272,6 @@
           "type": "Exercise"
         }
       ],
-      "support_channel": "#09-storage",
-      "support_link": "https://galaxyadmintraining.slack.com/archives/09-storage",
       "tags": [
         "admin"
       ],
@@ -317,8 +300,6 @@
           "type": "Slides"
         }
       ],
-      "support_channel": "#08-pulsar",
-      "support_link": "https://galaxyadmintraining.slack.com/archives/08-pulsar",
       "tags": [
         "admin"
       ],
@@ -347,8 +328,6 @@
           "type": "Tutorial"
         }
       ],
-      "support_channel": "#08-pulsar",
-      "support_link": "https://galaxyadmintraining.slack.com/archives/08-pulsar",
       "tags": [
         "admin"
       ],
@@ -394,8 +373,6 @@
           "type": "Tutorial"
         }
       ],
-      "support_channel": "#11-cyoa",
-      "support_link": "https://galaxyadmintraining.slack.com/archives/11-cyoa",
       "tags": [
         "admin"
       ],
@@ -425,8 +402,6 @@
           "type": "Tutorial"
         }
       ],
-      "support_channel": "#07-compute-cluster",
-      "support_link": "https://galaxyadmintraining.slack.com/archives/07-compute-cluster",
       "tags": [
         "admin"
       ],
@@ -456,8 +431,6 @@
           "type": "Tutorial"
         }
       ],
-      "support_channel": "#07-compute-cluster",
-      "support_link": "https://galaxyadmintraining.slack.com/archives/07-compute-cluster",
       "tags": [
         "admin"
       ],
@@ -486,8 +459,6 @@
           "type": "Slides"
         }
       ],
-      "support_channel": "#10-monitoring",
-      "support_link": "https://galaxyadmintraining.slack.com/archives/10-monitoring",
       "tags": [
         "admin"
       ],
@@ -516,8 +487,6 @@
           "type": "Slides"
         }
       ],
-      "support_channel": "#10-monitoring",
-      "support_link": "https://galaxyadmintraining.slack.com/archives/10-monitoring",
       "tags": [
         "admin"
       ],
@@ -546,8 +515,6 @@
           "type": "Tutorial"
         }
       ],
-      "support_channel": "#10-monitoring",
-      "support_link": "https://galaxyadmintraining.slack.com/archives/10-monitoring",
       "tags": [
         "admin"
       ],
@@ -577,8 +544,6 @@
           "type": "Exercise"
         }
       ],
-      "support_channel": "#09-storage",
-      "support_link": "https://galaxyadmintraining.slack.com/archives/09-storage",
       "tags": [
         "admin"
       ],
@@ -607,8 +572,6 @@
           "type": "Tutorial"
         }
       ],
-      "support_channel": "#03-singularity",
-      "support_link": "https://galaxyadmintraining.slack.com/archives/03-singularity",
       "tags": [
         "admin"
       ],
@@ -651,8 +614,6 @@
           "type": "Tutorial"
         }
       ],
-      "support_channel": "#12-tiaas",
-      "support_link": "https://galaxyadmintraining.slack.com/archives/12-tiaas",
       "tags": [
         "admin"
       ],
@@ -686,8 +647,6 @@
           "type": "Tutorial"
         }
       ],
-      "support_channel": "#03-ephemeris",
-      "support_link": "https://galaxyadmintraining.slack.com/archives/03-ephemeris",
       "tags": [
         "admin"
       ],
@@ -720,8 +679,6 @@
           "type": "Tutorial"
         }
       ],
-      "support_channel": "#03-ephemeris",
-      "support_link": "https://galaxyadmintraining.slack.com/archives/03-ephemeris",
       "tags": [
         "admin"
       ],
@@ -754,8 +711,6 @@
           "type": "Tutorial"
         }
       ],
-      "support_channel": "#03-ephemeris",
-      "support_link": "https://galaxyadmintraining.slack.com/archives/03-ephemeris",
       "tags": [
         "admin"
       ],
@@ -784,8 +739,6 @@
           "type": "tutorial"
         }
       ],
-      "support_channel": "#11-cyoa",
-      "support_link": "https://galaxyadmintraining.slack.com/archives/11-cyoa",
       "tags": [
         "admin"
       ],
@@ -815,8 +768,6 @@
           "type": "Slides"
         }
       ],
-      "support_channel": "#general",
-      "support_link": "https://galaxyadmintraining.slack.com/archives/general",
       "tags": [
         "admin"
       ],

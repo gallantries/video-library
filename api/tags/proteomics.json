@@ -17,8 +17,6 @@
           "type": "Workflow"
         }
       ],
-      "support_channel": "#proteomics_pandemics_research_ms",
-      "support_link": "https://gtnsmrgsbord.slack.com/archives/C025E2S35PE",
       "tags": [
         "proteomics"
       ],
@@ -50,8 +48,6 @@
           "type": "Tutorial"
         }
       ],
-      "support_channel": "#proteomics_ms-encyclopedia",
-      "support_link": "https://gtnsmrgsbord.slack.com/archives/C0257QKT998",
       "tags": [
         "proteomics"
       ],
@@ -81,8 +77,6 @@
           "type": "Tutorial"
         }
       ],
-      "support_channel": "#proteomics_ms-encyclopedia",
-      "support_link": "https://gtnsmrgsbord.slack.com/archives/C0257QKT998",
       "tags": [
         "proteomics"
       ],
@@ -112,8 +106,6 @@
           "type": "Slides"
         }
       ],
-      "support_channel": "#proteomics_introduction-to-ms",
-      "support_link": "https://gtnsmrgsbord.slack.com/archives/C01MQEDM39P",
       "tags": [
         "proteomics"
       ],
@@ -142,8 +134,6 @@
           "type": "Tutorial"
         }
       ],
-      "support_channel": "#proteomics_metaproteomics",
-      "support_link": "https://gtnsmrgsbord.slack.com/archives/C01FD4276P3",
       "tags": [
         "proteomics"
       ],
@@ -172,8 +162,6 @@
           "type": "Tutorial"
         }
       ],
-      "support_channel": "#proteomics_protegenomics",
-      "support_link": "https://gtnsmrgsbord.slack.com/archives/C01ETNTP6HL",
       "tags": [
         "proteomics"
       ],
@@ -207,8 +195,6 @@
           "type": "Slides"
         }
       ],
-      "support_channel": "#proteomics_protegenomics",
-      "support_link": "https://gtnsmrgsbord.slack.com/archives/C01ETNTP6HL",
       "tags": [
         "proteomics"
       ],
@@ -237,8 +223,6 @@
           "type": "Tutorial"
         }
       ],
-      "support_channel": "#proteomics_protegenomics",
-      "support_link": "https://gtnsmrgsbord.slack.com/archives/C01ETNTP6HL",
       "tags": [
         "proteomics"
       ],
@@ -268,8 +252,6 @@
           "type": "Tutorial"
         }
       ],
-      "support_channel": "#proteomics_proteore-protein-list-annotation",
-      "support_link": "https://gtnsmrgsbord.slack.com/archives/C01EYBNQRL5",
       "tags": [
         "proteomics"
       ],
@@ -305,8 +287,6 @@
           "type": "Example History"
         }
       ],
-      "support_channel": "#proteomics_maxquant-and-msstats",
-      "support_link": "https://gtnsmrgsbord.slack.com/archives/C01F0LY58R1",
       "tags": [
         "proteomics"
       ],

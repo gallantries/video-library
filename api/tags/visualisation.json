@@ -11,8 +11,7 @@
           "type": "Tutorial"
         }
       ],
-      "support_channel": "#transcriptomics_volcano-plot",
-      "support_link": "https://gtnsmrgsbord.slack.com/archives/C0253LVPLFM",
+      "support_channel": "transcriptomics_rna-seq-viz-with-volcanoplot",
       "tags": [
         "transcriptomics",
         "visualisation"
@@ -43,8 +42,6 @@
           "type": "Tutorial"
         }
       ],
-      "support_channel": "#transcriptomics_volcano-plot",
-      "support_link": "https://gtnsmrgsbord.slack.com/archives/C0253LVPLFM",
       "tags": [
         "transcriptomics",
         "visualisation"
@@ -74,8 +71,6 @@
           "type": "Slides"
         }
       ],
-      "support_channel": "#visualisation_circos",
-      "support_link": "https://gtnsmrgsbord.slack.com/archives/C01ELJ6QTQF",
       "tags": [
         "visualisation"
       ],
@@ -110,8 +105,6 @@
           "type": "Tutorial"
         }
       ],
-      "support_channel": "#visualisation_circos",
-      "support_link": "https://gtnsmrgsbord.slack.com/archives/C01ELJ6QTQF",
       "tags": [
         "visualisation"
       ],

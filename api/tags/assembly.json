@@ -14,8 +14,6 @@
           "type": "Tutorial"
         }
       ],
-      "support_channel": "#ngs_advanced_unicycler-assembly-sars-cov2-genome",
-      "support_link": "https://gtnsmrgsbord.slack.com/archives/C01GJLDS01K",
       "tags": [
         "assembly"
       ],
@@ -45,8 +43,6 @@
           "type": "Tutorial"
         }
       ],
-      "support_channel": "#ngs_assembly",
-      "support_link": "https://gtnsmrgsbord.slack.com/archives/C01EKMD8VC7",
       "tags": [
         "assembly"
       ],
@@ -76,8 +72,6 @@
           "type": "Slides"
         }
       ],
-      "support_channel": "#ngs_assembly",
-      "support_link": "https://gtnsmrgsbord.slack.com/archives/C01EKMD8VC7",
       "tags": [
         "assembly"
       ],

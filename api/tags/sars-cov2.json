@@ -6,8 +6,6 @@
       "description": "So you’ve used Galaxy workflows to analyze your SARS-CoV-2 samples? Learn in this tutorial how to export results to your favorite datastore.",
       "faq": null,
       "materials": null,
-      "support_channel": null,
-      "support_link": null,
       "tags": [
         "sars-cov2",
         "galaxy-interface"
@@ -32,8 +30,6 @@
       "materials": [
 
       ],
-      "support_channel": null,
-      "support_link": null,
       "tags": [
         "sars-cov2"
       ],
@@ -57,8 +53,6 @@
       "materials": [
 
       ],
-      "support_channel": null,
-      "support_link": null,
       "tags": [
         "sars-cov2"
       ],

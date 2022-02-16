@@ -5,8 +5,6 @@
       "title": "Admin Training 2021: Welcome & Course Logistics",
       "description": null,
       "faq": null,
-      "support_channel": "#general",
-      "support_link": "https://galaxyadmintraining.slack.com/archives/general",
       "tags": [
         "event"
       ],
@@ -37,8 +35,6 @@
           "type": "Slides"
         }
       ],
-      "support_channel": "#general",
-      "support_link": "https://galaxyadmintraining.slack.com/archives/general",
       "tags": [
         "event"
       ],

@@ -17,8 +17,6 @@
           "type": "Example History"
         }
       ],
-      "support_channel": null,
-      "support_link": null,
       "tags": [
         "sequence-analysis"
       ],
@@ -34,8 +32,6 @@
           "type": "Slides"
         }
       ],
-      "support_channel": "#ngs_mapping",
-      "support_link": "https://gtnsmrgsbord.slack.com/archives/C01F6JHCFT6",
       "tags": [
         "sequence-analysis"
       ],
@@ -65,8 +61,6 @@
           "type": "Tutorial"
         }
       ],
-      "support_channel": "#ngs_mapping",
-      "support_link": "https://gtnsmrgsbord.slack.com/archives/C01F6JHCFT6",
       "tags": [
         "sequence-analysis"
       ],
@@ -96,8 +90,6 @@
           "type": "Slides"
         }
       ],
-      "support_channel": "#ngs_quality-control",
-      "support_link": "https://gtnsmrgsbord.slack.com/archives/C01FQ92MB7A",
       "tags": [
         "sequence-analysis"
       ],
@@ -128,8 +120,6 @@
           "type": "Tutorial"
         }
       ],
-      "support_channel": "#ngs_quality-control",
-      "support_link": "https://gtnsmrgsbord.slack.com/archives/C01FQ92MB7A",
       "tags": [
         "sequence-analysis"
       ],

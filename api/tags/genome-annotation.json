@@ -10,8 +10,6 @@
           "type": "Slides"
         }
       ],
-      "support_channel": "#ngs_advanced_annotation-prokaryotic-genome",
-      "support_link": "https://gtnsmrgsbord.slack.com/archives/C01GTTD1BE0",
       "tags": [
         "genome-annotation"
       ],
@@ -40,8 +38,6 @@
           "type": "Tutorial"
         }
       ],
-      "support_channel": "#ngs_advanced_annotation-prokaryotic-genome",
-      "support_link": "https://gtnsmrgsbord.slack.com/archives/C01GTTD1BE0",
       "tags": [
         "genome-annotation"
       ],
@@ -70,8 +66,6 @@
           "type": "Slides"
         }
       ],
-      "support_channel": "#genome_annotation_apollo",
-      "support_link": "https://gtnsmrgsbord.slack.com/archives/C02597VTR9Q",
       "tags": [
         "genome-annotation"
       ],
@@ -104,8 +98,6 @@
           "type": "Apollo User's Guide"
         }
       ],
-      "support_channel": "#genome_annotation_apollo",
-      "support_link": "https://gtnsmrgsbord.slack.com/archives/C02597VTR9Q",
       "tags": [
         "genome-annotation"
       ],

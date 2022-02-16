@@ -50,6 +50,12 @@ def lint_file(fn)
     return nil
   end
 
+  # Skip non-events
+  if data['layout'] != 'event'
+    puts "Skipping #{fn}"
+    return nil
+  end
+
   # Generic error handling:
   errs.push(*validate_document(data, $event_validator))
 
@@ -75,7 +81,7 @@ Find.find('./events') do |path|
     end
   else
     last_component = path.split('/')[-1]
-    if last_component =~ /.*\.md/ then
+    if last_component =~ /.*\.md/ || last_component =~ /.*\.html/ then
       errs = lint_file(path)
       if !errs.nil? && errs.length > 0 then
         ec = 1

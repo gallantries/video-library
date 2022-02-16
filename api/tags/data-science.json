@@ -11,8 +11,6 @@
           "type": "Tutorial"
         }
       ],
-      "support_channel": "#transcriptomics_advanced_r",
-      "support_link": "https://gtnsmrgsbord.slack.com/archives/C01LKGNPE5V",
       "tags": [
         "data-science"
       ],
@@ -43,8 +41,6 @@
           "type": "Tutorial"
         }
       ],
-      "support_channel": "#transcriptomics_intro-to-r",
-      "support_link": "https://gtnsmrgsbord.slack.com/archives/C01F6JXPZM2",
       "tags": [
         "data-science"
       ],

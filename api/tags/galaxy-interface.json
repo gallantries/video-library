@@ -11,8 +11,6 @@
           "type": "Tutorial"
         }
       ],
-      "support_channel": null,
-      "support_link": null,
       "tags": [
         "galaxy-interface"
       ],
@@ -42,8 +40,6 @@
           "type": "Slides"
         }
       ],
-      "support_channel": "#ngs_advanced_sra-aligned-read-format",
-      "support_link": "https://gtnsmrgsbord.slack.com/archives/C024WDPSTUM",
       "tags": [
         "galaxy-interface"
       ],
@@ -78,8 +74,6 @@
           "type": "Related Tutorial"
         }
       ],
-      "support_channel": "#ngs_advanced_sra-aligned-read-format",
-      "support_link": "https://gtnsmrgsbord.slack.com/archives/C024WDPSTUM",
       "tags": [
         "galaxy-interface"
       ],
@@ -112,8 +106,6 @@
           "type": "Tutorial"
         }
       ],
-      "support_channel": "#galaxy-rule-builder",
-      "support_link": "https://gtnsmrgsbord.slack.com/archives/galaxy-rule-builder",
       "tags": [
         "galaxy-interface"
       ],
@@ -138,8 +130,6 @@
       "description": "So you’ve used Galaxy workflows to analyze your SARS-CoV-2 samples? Learn in this tutorial how to export results to your favorite datastore.",
       "faq": null,
       "materials": null,
-      "support_channel": null,
-      "support_link": null,
       "tags": [
         "sars-cov2",
         "galaxy-interface"
@@ -171,8 +161,6 @@
           "type": "Tutorial"
         }
       ],
-      "support_channel": "#galaxy-workflow-automation",
-      "support_link": "https://gtnsmrgsbord.slack.com/archives/galaxy-workflow-automation",
       "tags": [
         "galaxy-interface"
       ],
@@ -192,7 +180,7 @@
         }
       ]
     },
-    "rstudio-galaxy": {
+    "data-science/rstudio-galaxy": {
       "title": "Running RStudio on Galaxy",
       "description": "This tutorial will show you how you can start Rstudio from within Galaxy. This option is only available on Galaxy EU for the time being. If you are working on a different Galaxy server, you can use <strong>Rstudio Cloud (https://rstudio.cloud/)</strong>",
       "faq": "https://docs.google.com/document/d/e/2PACX-1vQuOJPPP2nosMG1gh1TuAFu479F4u2kGCCsICHuKvQE7lJGZCreVbXMQrhEORu3O1fV2hX_DZDE_Isk/pub",
@@ -203,8 +191,6 @@
           "type": "Rstudio in Galaxy not available?"
         }
       ],
-      "support_channel": "#transcriptomics_intro-to-r",
-      "support_link": "https://gtnsmrgsbord.slack.com/archives/C01F6JXPZM2",
       "tags": [
         "galaxy-interface"
       ],

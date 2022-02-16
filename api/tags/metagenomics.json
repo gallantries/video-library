@@ -8,8 +8,6 @@
       "materials": [
 
       ],
-      "support_channel": "#microbiome_antibiotic-resistance-detection-nanopore",
-      "support_link": "https://gtnsmrgsbord.slack.com/archives/C01F1GJ7JJX",
       "tags": [
         "metagenomics"
       ],
@@ -39,8 +37,6 @@
           "type": "Slides"
         }
       ],
-      "support_channel": "#microbiome_16s-microbial-analysis",
-      "support_link": "https://gtnsmrgsbord.slack.com/archives/C01FDV16V25",
       "tags": [
         "metagenomics"
       ],
@@ -79,8 +75,6 @@
           "type": "Tutorial"
         }
       ],
-      "support_channel": "#microbiome_metatranscriptomics",
-      "support_link": "https://gtnsmrgsbord.slack.com/archives/C0255JJQSKF",
       "tags": [
         "metagenomics"
       ],
@@ -113,8 +107,6 @@
           "type": "Tutorial"
         }
       ],
-      "support_channel": "#microbiome_16s-microbial-analysis",
-      "support_link": "https://gtnsmrgsbord.slack.com/archives/C01FDV16V25",
       "tags": [
         "metagenomics"
       ],
@@ -149,8 +141,6 @@
           "type": "Related Tutorial"
         }
       ],
-      "support_channel": "#microbiome_antibiotic-resistance-detection-nanopore",
-      "support_link": "https://gtnsmrgsbord.slack.com/archives/C01F1GJ7JJX",
       "tags": [
         "metagenomics"
       ],

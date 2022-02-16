@@ -22,8 +22,6 @@
           "type": "Training data"
         }
       ],
-      "support_channel": "#transcriptomics_de-novo-transcriptome-reconstruction",
-      "support_link": "https://gtnsmrgsbord.slack.com/archives/C024NGLDALF",
       "tags": [
         "transcriptomics"
       ],
@@ -52,8 +50,6 @@
           "type": "Tutorial"
         }
       ],
-      "support_channel": "#transcriptomics_single-cell-matrix-alevin",
-      "support_link": "https://gtnsmrgsbord.slack.com/archives/C0250JZCA6R",
       "tags": [
         "transcriptomics"
       ],
@@ -83,8 +79,6 @@
           "type": "Slides"
         }
       ],
-      "support_channel": "#transcriptomics_ref-based-rna-seq",
-      "support_link": "https://gtnsmrgsbord.slack.com/archives/C01F0L6UW03",
       "tags": [
         "transcriptomics"
       ],
@@ -113,8 +107,6 @@
           "type": "Slides"
         }
       ],
-      "support_channel": "#transcriptomics_mirna-data-analysis",
-      "support_link": "https://gtnsmrgsbord.slack.com/archives/C01TCB1J7SA",
       "tags": [
         "transcriptomics"
       ],
@@ -154,8 +146,6 @@
           "type": "Tutorial"
         }
       ],
-      "support_channel": "#transcriptomics_mirna-data-analysis",
-      "support_link": "https://gtnsmrgsbord.slack.com/archives/C01TCB1J7SA",
       "tags": [
         "transcriptomics"
       ],
@@ -185,8 +175,6 @@
           "type": "Tutorial"
         }
       ],
-      "support_channel": "#transcriptomics_ref-based-rna-seq",
-      "support_link": "https://gtnsmrgsbord.slack.com/archives/C01F0L6UW03",
       "tags": [
         "transcriptomics"
       ],
@@ -217,8 +205,6 @@
           "type": "Tutorial"
         }
       ],
-      "support_channel": "#transcriptomics_visualisation-with-r",
-      "support_link": "https://gtnsmrgsbord.slack.com/archives/C01FD3AFLN5",
       "tags": [
         "transcriptomics"
       ],
@@ -250,8 +236,7 @@
           "type": "Tutorial"
         }
       ],
-      "support_channel": "#transcriptomics_volcano-plot",
-      "support_link": "https://gtnsmrgsbord.slack.com/archives/C0253LVPLFM",
+      "support_channel": "transcriptomics_rna-seq-viz-with-volcanoplot",
       "tags": [
         "transcriptomics",
         "visualisation"
@@ -282,8 +267,6 @@
           "type": "Tutorial"
         }
       ],
-      "support_channel": "#transcriptomics_volcano-plot",
-      "support_link": "https://gtnsmrgsbord.slack.com/archives/C0253LVPLFM",
       "tags": [
         "transcriptomics",
         "visualisation"
@@ -313,8 +296,6 @@
           "type": "Tutorial"
         }
       ],
-      "support_channel": "#transcriptomics_single_cell_trajectory-analysis-jupyter",
-      "support_link": "https://gtnsmrgsbord.slack.com/archives/C0257SCES83",
       "tags": [
         "transcriptomics"
       ],
@@ -344,8 +325,6 @@
           "type": "Slides"
         }
       ],
-      "support_channel": "#transcriptomics_single-cell-rnaseq",
-      "support_link": "https://gtnsmrgsbord.slack.com/archives/C01M17R4YA1",
       "tags": [
         "transcriptomics"
       ],
@@ -368,8 +347,6 @@
     "transcriptomics/scrna-umis/tutorial": {
       "title": "Understanding Barcodes",
       "description": "This tutorial demonstrates the what barcodes in your sequencing data are, and how to handle them during analysis. Please work through the full tutorial yourself to get all the details.",
-      "support_channel": "#3-1_understanding-barcodes",
-      "support_link": "https://gtnsmrgsbord.slack.com/archives/C01EXBNDKT7",
       "faq": "https://docs.google.com/document/d/e/2PACX-1vRWe-8VHsJ4vbO8rwXemPDKUabWrKy1NRnxOKfIzEgj8RQ0tfG0W1kyUx30gVyWND_h4s12MtsV58Sh/pub",
       "materials": [
         {
@@ -399,8 +376,6 @@
     "transcriptomics/scrna-preprocessing-tenx/tutorial": {
       "title": "Pre-processing of 10X Single-Cell RNA Datasets",
       "description": "10x genomics has provided not only a cost-effective high-throughput solution to understanding sample heterogeneity at the individual cell level, but has defined the standards of the field that many downstream analysis packages are now scrambling to accommodate. Please work through the full tutorial yourself to get all the details.",
-      "support_channel": "#3-2_preprocessing-10x-single-cell-rna-datasets",
-      "support_link": "https://gtnsmrgsbord.slack.com/archives/C01EXBPPBK7",
       "faq": "https://docs.google.com/document/d/e/2PACX-1vTuCzmNJlZSbS9-lIdfLgt8T7IJb7jWZ3gedtjNB4aKJ7pAi3apYS4NgfaCRh0_r5QbF4Pwl15Z0-mk/pub",
       "type": "Demo",
       "materials": [
@@ -430,8 +405,6 @@
     },
     "transcriptomics/scrna-scanpy-pbmc3k/tutorial": {
       "title": "Clustering 3K PBMCs with Scanpy",
-      "support_channel": "#3-3_clustering-3k-pbmcs-with-scanpy",
-      "support_link": "https://gtnsmrgsbord.slack.com/archives/C01FQ9RLLF2",
       "faq": "https://docs.google.com/document/d/e/2PACX-1vTdqGjslXMxUjyjqwkNtidsXFl6SRULFKFug_2TYBl-dYXIDEnXb59nMyZ5qJc6bXI-fP5cPLfkXbHV/pub",
       "type": "Demo",
       "description": "In this tutorial, we will investigate clustering of single-cell data from 10x Genomics, including preprocessing, clustering and the identification of cell types via known marker genes, using Scanpy. It will be illustrated using a dataset of Peripheral Blood Mononuclear Cells (PBMC), containing 2,700 single cells. Please work through the full tutorial yourself to get all the details.",
@@ -467,8 +440,6 @@
           "type": "Tutorial"
         }
       ],
-      "support_channel": null,
-      "support_link": "https://gtnsmrgsbord.slack.com/archives/C01TG5YNF6Z",
       "tags": [
         "transcriptomics"
       ],
@@ -497,8 +468,6 @@
           "type": "Tutorial"
         }
       ],
-      "support_channel": "#transcriptomics_single-cell-filter-plot-explore",
-      "support_link": "https://gtnsmrgsbord.slack.com/archives/C025LA0NBLH",
       "tags": [
         "transcriptomics"
       ],

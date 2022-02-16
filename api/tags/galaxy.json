@@ -12,8 +12,6 @@
           "type": "Related Slides"
         }
       ],
-      "support_channel": "#galaxy_first_analysis",
-      "support_link": "https://gtnsmrgsbord.slack.com/archives/C01ES914GCU",
       "tags": [
         "galaxy-intro",
         "galaxy"
@@ -44,8 +42,6 @@
           "type": "Tutorial"
         }
       ],
-      "support_channel": "#galaxy_intro_101-for-everyone",
-      "support_link": "https://gtnsmrgsbord.slack.com/archives/C023KFGASK0",
       "tags": [
         "galaxy"
       ],
@@ -88,8 +84,6 @@
           "type": "Tutorial"
         }
       ],
-      "support_channel": "#galaxy_first_analysis",
-      "support_link": "https://gtnsmrgsbord.slack.com/archives/C01ES914GCU",
       "tags": [
         "galaxy-intro",
         "galaxy"

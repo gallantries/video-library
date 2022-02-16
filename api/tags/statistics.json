@@ -13,8 +13,7 @@
           "type": "Slides"
         }
       ],
-      "support_channel": "#machine_learning_introduction",
-      "support_link": "https://gtnsmrgsbord.slack.com/archives/C025EUF0R0U",
+      "support_channel": "machine_learning_introduction",
       "tags": [
         "statistics"
       ],
@@ -50,8 +49,7 @@
           "type": "Tutorial"
         }
       ],
-      "support_channel": "#machine_learning_deep-neural-networks-demystified",
-      "support_link": "https://gtnsmrgsbord.slack.com/archives/C025MKQNPU1",
+      "support_channel": "machine_learning_deep-neural-networks-demystified",
       "tags": [
         "statistics"
       ],
@@ -87,8 +85,7 @@
           "type": "Tutorial"
         }
       ],
-      "support_channel": "#machine_learning_deep-neural-networks-demystified",
-      "support_link": "https://gtnsmrgsbord.slack.com/archives/C025MKQNPU1",
+      "support_channel": "machine_learning_deep-neural-networks-demystified",
       "tags": [
         "statistics"
       ],
@@ -124,8 +121,7 @@
           "type": "Tutorial"
         }
       ],
-      "support_channel": "#machine_learning_deep-neural-networks-demystified",
-      "support_link": "https://gtnsmrgsbord.slack.com/archives/C025MKQNPU1",
+      "support_channel": "machine_learning_deep-neural-networks-demystified",
       "tags": [
         "statistics"
       ],
@@ -160,8 +156,7 @@
           "type": "Slides"
         }
       ],
-      "support_channel": "#machine_learning_classification",
-      "support_link": "https://gtnsmrgsbord.slack.com/archives/C025MCF4C8Z",
+      "support_channel": "machine_learning_classification",
       "tags": [
         "statistics"
       ],
@@ -191,8 +186,6 @@
           "type": "Tutorial"
         }
       ],
-      "support_channel": "#machine_learning_with_r",
-      "support_link": "https://gtnsmrgsbord.slack.com/archives/C025MCK52TT",
       "tags": [
         "statistics"
       ],
@@ -227,8 +220,6 @@
           "type": "Slides"
         }
       ],
-      "support_channel": "#machine_learning_regression",
-      "support_link": "https://gtnsmrgsbord.slack.com/archives/C02590LE3DH",
       "tags": [
         "statistics"
       ],

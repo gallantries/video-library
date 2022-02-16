@@ -14,8 +14,6 @@
           "type": "History on GalaxyEU"
         }
       ],
-      "support_channel": null,
-      "support_link": null,
       "tags": [
         "introduction"
       ],
@@ -42,8 +40,6 @@
           "type": "Tutorial"
         }
       ],
-      "support_channel": "#ngs_data-logistics",
-      "support_link": "https://gtnsmrgsbord.slack.com/archives/C01EXB3BKN1",
       "tags": [
         "introduction"
       ],
