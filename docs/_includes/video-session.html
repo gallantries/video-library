@@ -79,6 +79,18 @@
               </td>
           </tr>
           {% endunless %}
+          {% if site.data.objectives[include.id] %}
+          <tr>
+              <td><strong>Learning Objectives:</strong></td>
+              <td>
+                  <ul>
+                      {% for objective in site.data.objectives[include.id] %}
+                      <li>{{ objective }}</li>
+                      {% endfor %}
+                  </ul>
+              </td>
+          </tr>
+          {% endif %}
       </table>
 
   </div>
