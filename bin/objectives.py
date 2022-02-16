@@ -1,24 +1,24 @@
 #!/usr/bin/env python
-import glob
+import sys
 import json
 
 objectives = {}
 gtn = {}
 
-for fn in glob.glob("_data/gtn_*.json"):
+for fn in sorted(sys.argv[1:]):
     with open(fn, 'r') as handle:
         data = json.load(handle)
 
         for material in data['materials']:
             k = material['topic_name'] + '/' + material['tutorial_name']
 
+            gtn[k] = material['title']
+
             if material.get('slides', False):
                 objectives[k + '/slides'] = material.get('objectives', [])
-                gtn[k + '/slides'] = material['title']
 
             if material.get('hands_on', False):
                 objectives[k + '/tutorial'] = material.get('objectives', [])
-                gtn[k + '/tutorial'] = material['title']
 
 with open('_data/gtn.json', 'w') as handle:
     json.dump(gtn, handle, ensure_ascii=False)
