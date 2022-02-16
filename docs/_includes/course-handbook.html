@@ -23,7 +23,9 @@
         {% include custom-session.html type="setup" config=page.setup title="Get set up for the Course" %}
 
      {% elsif session.icebreaker %}
-        {% include custom-session.html type="icebreaker" config=session.icebreaker title="Icebreaker" %}
+        {% if session.icebreaker.size > 1 %}{% assign t = "Daily Icebreaker Questions" %}
+        {% else %}{% assign t = "Icebreaker Question" %}{% endif %}
+        {% include custom-session.html type="icebreaker" config=session.icebreaker title=t %}
 
      {% elsif session == "certificates" %}
        {% include custom-session.html type="certificates" config=page.certificates title="About Certificates" %}
