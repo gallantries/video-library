@@ -131,3 +131,15 @@ formatting_lang: html
 {% include button.html link="https://training.galaxyproject.org" colour="orange" label="Browse All GTN Tutorials" buttonsize="large" %}
 
 <p>Or ask us for recommendations in Slack!</p>
+
+<h2 class="section-header"> Wrap-up </h2>
+
+<p>Done for the week? Please take a moment to <strong>thank your volunteer instructors</strong> in Slack, and give us some <strong>feedback</strong> so that we can improve this event in the future. </p>
+
+<p><strong>Thank you</strong> for joining and we hope to see you around the Galaxy Community! </p>
+
+{% include custom-session.html type="feedback" config=page.feedback title="Give us your Feedback!" %}
+{% assign s = site.data.videos['community/welcome'] %}
+{% include session.html session=s type='video' id=session.video instructors=instructors module=module_id %}
+
+
