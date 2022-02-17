@@ -28,6 +28,11 @@ layout: default
 	<dd>{{ page.location }}</dd>
 	{% endif %}
 
+    {% if page.format %}
+	<dt>Format</dt>
+	<dd>{{ page.format }}</dd>
+	{% endif %}
+
 	{% if page.cost %}
 	<dt>Cost</dt>
 	<dd>{{ page.cost }}</dd>
