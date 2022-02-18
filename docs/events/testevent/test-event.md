@@ -4,6 +4,7 @@ id: test
 title: "My Awesome Event (Example)"
 description: "Best training since sliced bread lessons"
 location: "The North Pole"
+format: Asynchronous with some live Q&A sessions
 instructors: [fpsom, shiltemann, bebatut, abretaud, yvanlebras, hexylena]
 date:
   start: 2021-11-15
@@ -61,6 +62,12 @@ program:
       - session: webinars
         instructors: [hexylena, bebatut]
       - session: sequence-analysis/quality-control
+      - self-study: climate/fates
+        type: [slides, tutorial]
+      - self-study: climate/fates
+        type: [slides]
+      - self-study: assembly/mrsa-nanopore  # default is tutorial only
+
 
 
   wrapup:

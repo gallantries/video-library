@@ -1,0 +1,22 @@
+
+<div class="card" style="width: 100%">
+ <div class="row no-gutters">
+  <div class="col-sm-4">
+   <img class="card-img" src="{{site.baseurl}}/assets/images/cert.gif" alt="Icon of a Certificate" width="75%">
+  </div>
+  <div class="col-sm-7">
+   <div class="card-body">
+    <h5 class="card-title">Request a certificate of attendance.</h5>
+    <p class="card-text">
+
+    {% assign sesh = include.type | prepend: "sessions/" | append: ".html" %}
+    {{sesh}}
+    {% include {{sesh}} config=include.config %}
+
+    </p>
+   </div>
+  </div>
+ </div>
+</div>
+
+

@@ -19,6 +19,10 @@
        {% assign s = site.data.videos[session.video] %}
        {% include session.html session=s type='video' id=session.video instructors=instructors module=module_id %}
 
+      {% elsif session.self-study %}
+       {% assign title = site.data.gtn[session.self-study]%}
+       {% include custom-session.html type="self-study" config=session title=title %}
+
      {% elsif session == "setup" %}
         {% include custom-session.html type="setup" config=page.setup title="Get set up for the Course" %}
 

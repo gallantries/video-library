@@ -9,29 +9,8 @@
 
   <div class="accordion-body">
 
-  {% if include.type == "setup" %}
-    {% include setup.html config=include.config %}
-  {% endif %}
+  {% include card.html type=include.type config=include.config %}
 
-  {% if include.type == "icebreaker" %}
-    {% include sessions/icebreaker.html config=include.config %}
-  {% endif %}
-
-  {% if include.type == "certificates" %}
-    {% include sessions/certificates.html config=include.config %}
-  {% endif %}
-
-  {% if include.type == "self-study" %}
-    {% include self-study.html config=include.config %}
-  {% endif %}
-
-  {% if include.type == "feedback" %}
-    {% include sessions/feedback.html config=include.config %}
-  {% endif %}
-
-  {% if include.type == "code-of-conduct" %}
-    {% include sessions/code-of-conduct.html config=include.config %}
-  {% endif %}
 
   </div>
  </div>
