@@ -15,7 +15,7 @@ This content is made available by a global community of contributors.
 ### How to use this website
 
 - **For learners:** Here you can view and follow all the latest GTN video tutorials, and learn all about Galaxy and data analysis!
-- **For instructors and event organizers:** You can re-use these videos for your own lessons and workshops. Use our course builder to create your own program and get a free event page with course handbook and all the resources you need for your Galaxy training event!
+- **For instructors and event organizers:** You can re-use these videos for your own lessons and workshops. Embed them into your course handbook, or use our course builder to create your own program and get a free event page with course handbook and all the resources you need for your Galaxy training event!
 
 ### Quick Start
 
@@ -25,9 +25,11 @@ The easiest way to find a video for a GTN tutorial that you are interested in, i
 
 You can also find the full list of **videos** and **sessions** (multi-video tutorials) below.
 
-<a href="library"><button type="button" class="btn btn-warning">Video Library</button></a>
-<a href="session-library"><button type="button" class="btn btn-warning">Session Library</button></a>
-<a href="course-builder"><button type="button" class="btn btn-info">Course Builder (Beta)</button></a>
+<div markdown="0">
+{% include button.html link="/modules" colour="yellow" label="Training Modules" buttonsize="large" %}
+{% include button.html link="/library" colour="purple" label="All Videos" buttonsize="large" %}
+{% include button.html link="/course-builder" colour="blue" label="Course Builder (Beta)" buttonsize="large" %}
+</div>
 
 
 
