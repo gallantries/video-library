@@ -71,6 +71,7 @@ program:
           title: My External Session
           description: This is a training that is not in the GTN, but it will teach you about XYZ
           video: oAVjF_7ensg  # a youtube id, or a video embed link
+          length: 1h35m
           slides: "https://galaxyproject.org/"
           tutorial: "https://galaxyproject.org/"
           other: "https://galaxyproject.org/"

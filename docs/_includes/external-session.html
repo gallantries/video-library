@@ -1,7 +1,10 @@
 
-<h3 class="session-section">External Training Session</h3>
 
 <p> This is a training session outside of the GTN. See below for more details. </p>
+
+<h3 class="session-section">{{include.config.title}}</h3>
+<p>{{include.config.description}}</p>
+
 
 {% if include.config.video %}
 <div style="position:relative;padding-top:56.25%;">
@@ -28,10 +31,18 @@
    <td><strong>Title:</strong></td>
    <td>{{ include.config.title }}</td>
  </tr>
+ {% if include.config.description %}
  <tr>
    <td><strong>Description:</strong></td>
    <td>{{ include.config.description }}</td>
  </tr>
+ {% endif %}
+ {% if include.config.length %}
+ <tr>
+   <td><strong>Length:</strong></td>
+   <td>{{ include.config.length }}</td>
+ </tr>
+ {% endif %}
  {% if include.config.slides %}
  <tr>
    <td><strong>Slides:</strong></td>
