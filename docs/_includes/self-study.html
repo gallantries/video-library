@@ -18,10 +18,10 @@ This is a self-study session. Please work through the materials on your own, and
    {% assign p = include.config.self-study | split: '/' %}
    <td>
     {% if include.config.type contains 'slides' %}
-    <a href="https://training.galaxyproject.org/topics/{{p[0]}}/tutorials/{{p[1]}}/slides.html">GTN Slides</a><br>
+    <a href="https://training.galaxyproject.org/topics/{{p[0]}}/tutorials/{{p[1]}}/slides.html">{% icon slides %} GTN Slides</a><br>
     {% endif %}
     {% if include.config.type contains 'tutorial' or include.config.type == null %}
-    <a href="https://training.galaxyproject.org/topics/{{p[0]}}/tutorials/{{p[1]}}/tutorial.html">GTN Tutorial</a>
+    <a href="https://training.galaxyproject.org/topics/{{p[0]}}/tutorials/{{p[1]}}/tutorial.html">{% icon tutorial %} GTN Tutorial</a>
     {% endif %}
     </td>
  </tr>
