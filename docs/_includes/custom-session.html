@@ -25,6 +25,10 @@
     {% include self-study.html config=include.config %}
   {% endif %}
 
+  {% if include.type == "external" %}
+    {% include external-session.html config=include.config %}
+  {% endif %}
+
   {% if include.type == "feedback" %}
     {% include sessions/feedback.html config=include.config %}
   {% endif %}

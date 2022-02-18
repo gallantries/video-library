@@ -66,7 +66,15 @@ program:
         type: [slides, tutorial]
       - self-study: climate/fates
         type: [slides]
-      - self-study: assembly/mrsa-nanopore  # default is tutorial only
+      - self-study: assembly/mrsa-nanopore  # default type is tutorial only
+      - external:
+          title: My External Session
+          description: This is a training that is not in the GTN, but it will teach you about XYZ
+          video: oAVjF_7ensg  # a youtube id, or a video embed link
+          slides: "https://galaxyproject.org/"
+          tutorial: "https://galaxyproject.org/"
+          other: "https://galaxyproject.org/"
+          author: "External Person X"
 
 
 
