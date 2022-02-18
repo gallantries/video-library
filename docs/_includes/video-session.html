@@ -71,11 +71,16 @@
                             {% icon slides %}
                         {% endif %}
 
+
+                        {% assign prefix = m.link | split:'/' | first %}
+                        {% if prefix == "topics" %}
                         {{ m.type }}:
-                        {% if m.link contains "training.galaxyproject.org" %}
-                        <a href="{% unless m.link contains 'http' %}{{site.gtn}}/archive/{{archiveyear}}-{{archivemonth}}-01/{% endunless %}{{m.link}}">Archived Version</a>
-                        |{% endif %}
-                        <a href="{% unless m.link contains 'http' %}{{site.gtn}}/{% endunless %}{{m.link}}">Latest Version</a>
+                        <a href="{{site.gtn}}/archive/{{archiveyear}}-{{archivemonth}}-01/{{m.link}}">Archived Version</a>
+                        |
+                        <a href="{{site.gtn}}/{{m.link}}">Latest Version</a>
+                        {% else %}
+                        <a href="{% unless m.link contains 'http' %}{{site.gtn}}/{% endunless %}{{m.link}}">{{m.type}}</a>
+                        {% endif %}
                     </li>
                 {% endfor %}
                 </ul>
