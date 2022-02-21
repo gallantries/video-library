@@ -26,3 +26,5 @@ program:
       - video: transcriptomics/scrna-plant/tutorial
 
 ---
+
+This module covers the contents of the [plant transcriptome analysis using Galaxy workshop](https://galaxyproject.eu/posts/2021/05/03/plant-summary/), first organized in 2021.
