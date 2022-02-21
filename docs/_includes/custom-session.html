@@ -29,6 +29,10 @@
     {% include external-session.html config=include.config %}
   {% endif %}
 
+  {% if include.type == "custom" %}
+    {% include inline-session.html config=include.config %}
+  {% endif %}
+
   {% if include.type == "feedback" %}
     {% include sessions/feedback.html config=include.config %}
   {% endif %}

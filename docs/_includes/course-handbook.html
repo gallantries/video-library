@@ -26,6 +26,9 @@
      {% elsif session.external %}
        {% include custom-session.html type="external" config=session.external title=session.external.title %}
 
+     {% elsif session.custom %}
+       {% include custom-session.html type="custom" config=session.custom title=session.custom.title %}
+
      {% elsif session == "setup" %}
         {% include custom-session.html type="setup" config=page.setup title="Get set up for the Course" %}
 
