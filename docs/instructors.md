@@ -26,10 +26,11 @@ program:
       - custom:
           title: Slack for Support
           description: |
-            1. Join Slack using this [invite link]({{site.support.join_link}})
+            1. Join the [GTN Training Slack](https://gtnsmrgsbord.slack.com/), using this [invite link](https://join.slack.com/t/gtnsmrgsbord/shared_invite/zt-x7vinbs1-BA~Kht6N86JBhDq0uTIVdQ")
             2. Ask to be added to the [#instructors](https://gtnsmrgsbord.slack.com/archives/C01ES97MZBN) channel.
             3. Browse channels and join the ones you would like to help with!
-            4. Familiarize yourself with the platform ([short guide]({./instructors/slack.html}}))
+               - Slack channels for each session can be found under the videos on the event page.
+            4. Familiarize yourself with the platform ([short guide](./instructors/slack.html))
       - custom:
           title: Add Yourself to the Instructor List
           description: |
@@ -37,11 +38,18 @@ program:
 
             1. **Familiar with git?** Add yourself to the [instructors.yaml](https://github.com/gallantries/video-library/blob/main/docs/instructors.yaml)
                file and create a Pull Request
-            2. **Not familiar with git?** No problem! Just provide us with your name, affiation, and (optionally) a profile picture, and we will add you to the list. You can ask in the [#instructors](https://gtnsmrgsbord.slack.com/archives/C01ES97MZBN) channel of Slack (or via DM)
+            2. **Not familiar with git?** No problem! Just provide us your
+               - name
+               - affiliation
+               - (optional) a profile picture
+
+               We will add you to the list!
+               You can ask us in the [#instructors](https://gtnsmrgsbord.slack.com/archives/C01ES97MZBN)
+               channel of Slack (or via DM)
       - custom:
           title: Create a 30-second introduction video (optional)
           description: |
-            For some events (such as the annual Smorgasbord), we like to have a *Meet your
+            For some events (such as the annual Smörgåsbord), we like to have a *Meet your
             instructors* video as part of the welcome session.
       - custom:
           title: Tutorial Testing
@@ -61,9 +69,10 @@ program:
             **Instructors are encouraged to answer these the daily icebreakers** in Slack as
             well, and respond to the answers from participants
 
-            Our aim is to provide a fun environment for all, and make it easier for participants
-            to ask questions about the tutorial in Slack. The more activity there is on Slack,
-            the lower the barrier for shy participants to join in!
+            Our aim with these questions is to provide a fun and welcoming environment for all,
+            which will make it easier for participants to ask their questions about the tutorials
+            in Slack. The more activity there is on Slack, the lower the barrier for shy
+            participants to join in!
 
       - custom:
           title: Answering Questions
@@ -142,7 +151,7 @@ program:
             1. Which Galaxy server are they using?
             2. Make sure they have used the correct settings and input files
             3. It can be useful to have them **share their history** with you
-               ([instruction](https://training.galaxyproject.org/training-material/faqs/galaxy/histories_sharing.html))
+               ([instructions](https://training.galaxyproject.org/training-material/faqs/galaxy/histories_sharing.html))
             4. If you think there is a problem with the server, report it in [#instructors](https://gtnsmrgsbord.slack.com/archives/C01ES97MZBN) channel
                and ping the admins of that server.
 
