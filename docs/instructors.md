@@ -176,8 +176,6 @@ program:
 
 ---
 
-# Instructors information
-
 Thanks for being an instructor at one or more GTN Events!
 
 On this page we aim to provide all the information you need, but please don't hesitate to ask us any remaining questions you may have!
