@@ -105,7 +105,7 @@ program:
             participant, please:
 
             1. Ask participant which server they are using
-            2. Link to the question in the #instructors channel
+            2. **Share** the message to the [#instructors](https://gtnsmrgsbord.slack.com/archives/C01ES97MZBN) channel (see [Slack info page](./slack) for instruction)
             3. Ping one of the admins/representatives for that server
                - Galaxy Main (US): **@Nate Coraor, @Jen Hillman-Jackson**
                - Galaxy EU: **@Gianmauro Cuccuro, @Björn Grüning**
