@@ -30,7 +30,7 @@ program:
             2. Ask to be added to the [#instructors](https://gtnsmrgsbord.slack.com/archives/C01ES97MZBN) channel.
             3. Browse channels and join the ones you would like to help with!
                - Slack channels for each session can be found under the videos on the event page.
-            4. Familiarize yourself with the platform ([short guide](./instructors/slack.html))
+            4. Familiarize yourself with the platform ([short guide](./slack.html))
       - custom:
           title: Add Yourself to the Instructor List
           description: |
@@ -128,21 +128,28 @@ program:
       - custom:
           title: Give us your feedback
           description: |
-            todo
+            link to survey to follow.
   faq:
     title: Frequently Asked Questions
+    description: Some common Galaxy questions are listed in the [GTN FAQ page](https://training.galaxyproject.org/training-material/faqs/galaxy/). The icon behind each FAQ title will take you to the FAQ page, which you can easily share with participants.
     trainings:
+      - custom:
+          title: How do I share my history?
+          description: |
+            Often it helps to look at a participant's history to understand their problem better.
+            - Ask the participant to [share their history via link](https://training.galaxyproject.org/training-material/faqs/galaxy/histories_sharing.html) and post it in Slack.
       - custom:
           title: I can't find tool X!
           description: |
             If a participant can't find a tool:
-            1. Make sure they are working on one of the supporting servers.
+            1. Make sure they are working on one of the supporting servers
+               - see *"Available on these Galaxies"* section in the overview box at top of tutorial.
             2. Tool search sometimes doesn't return the right results
                - Encourage them to use GTN-in-Galaxy, many tutorials will have direct links to
                  the correct tools this way
             4. Think something else is wrong? Report it in [#instructors](https://gtnsmrgsbord.slack.com/archives/C01ES97MZBN) channel
                and ping the admins of that server (see *When there is a problem with the
-               Galaxy server*)
+               Galaxy server* above)
 
       - custom:
           title: Tool Y isn't working!

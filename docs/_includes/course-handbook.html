@@ -6,7 +6,7 @@
   {% assign module = m[1] %}
   {% assign module_id = m[0] %}
   <h3 class="module-start"> {{module.title}} </h3>
-  <p class="module-description"> {{module.description}} </p>
+  <p class="module-description"> {{module.description | markdownify }} </p>
   <div class="accordion" id="accordion{{m[0]}}">
   {% for session in module.trainings %}
      {% assign instructors = session.instructors | default: include.instructors %}
