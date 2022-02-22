@@ -8,7 +8,7 @@ description: |
   <br><br>
   See the official [Slack help center](https://slack.com/help) for an in-depth guide to Slack.
   Below we list the most important Slack tips & tricks in the context of GTN training.
-
+module: false
 
 program:
   tipsntricks:

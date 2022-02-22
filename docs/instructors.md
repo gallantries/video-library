@@ -1,6 +1,7 @@
 ---
 layout: module
 title: Instructor Information
+module: false
 
 program:
   before:

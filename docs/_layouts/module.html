@@ -5,7 +5,7 @@ layout: default
 
 {% assign module = page %}
 
-<h1> Module: {{ module.title }} </h1>
+<h1>{% unless page.module == false %}Module: {% endunless %}{{ module.title }} </h1>
 
 {{ module.description | markdownify }}
 
