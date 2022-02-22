@@ -1,6 +1,12 @@
 # GTN Video Library
 
-This repository hosts the GTN Video library
+This repository hosts the GTN Video library 
+
+## Events
+
+We offer support for event organizers to create webpages for their events
+
+For examples of past events using this setup, see our [Event list](https://gallantries.github.io/video-library/events)
 
 ## Adding an Event
 
