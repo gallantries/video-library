@@ -68,7 +68,20 @@ program:
              4. You can also react with an emoji to a message
              <br><br>
              ![](./assets/images/slack/replyinthread.png)
+      - custom:
+          title: Forwarding a message to a different channel
+          description: |
+            This option is mainly useful for instructors.
 
+            If you want to share a message to a different channel, to bring it to the attention
+            of the right people, you can do that as follows:
+            1. Hover over the message
+            2. Click on the **"Arrow icon"** that is labelled **Share message**
+            3. Choose the channel to share it to (e.g. #instructors) and add your own message
+
+            ![](./assets/images/slack/sharemessage.png)
+
+            ![](./assets/images/slack/sharemessage2.png)
 
 
 ---
