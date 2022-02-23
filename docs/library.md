@@ -6,7 +6,15 @@ layout: default
 
 This page shows you the full library of available GTN video tutorials, you can use these for self-study, courses, and more! Below are all of the individual videos, but some videos are part of multi-video "sessions" which can be found in the [session library]({% link session-library.md %})
 
-<a href="session-library"><button type="button" class="btn btn-warning">Session Library</button></a>
+<div markdown="0">
+{% include button.html link="/session-library" colour="yellow" label="Multi-Video Sessions" buttonsize="large" %}
+
+{% include button.html link="/modules" colour="pink" label="Training Modules" buttonsize="large" %}
+
+{% include button.html link="/instructors" colour="blue" label="Adding Videos" buttonsize="large" %}
+</div>
+
+<br>
 
 ## All Training Videos
 
