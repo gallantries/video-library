@@ -25,4 +25,4 @@ add a button, include configuration options:
 
 
 
-<a href="{{include.link | prepend: site.baseurl }}" style="display: inline-flex; align-items: center; {{styling}}" class="btn btn-square-{{buttonsize}}"><span style="width: 100%">{{include.label}}</span></a>
+<a href="{% if include.link contains 'https' %}{{include.link}}{% else %}{{include.link | prepend: site.baseurl }}{% endif %}" style="display: inline-flex; align-items: center; {{styling}}" class="btn btn-square-{{buttonsize}}"><span style="width: 100%">{{include.label}}</span></a>
