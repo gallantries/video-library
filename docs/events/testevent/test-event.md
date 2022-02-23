@@ -27,24 +27,24 @@ setup:
       name: "#event-testevent"
       link: "https://gtnsmrgsbord.slack.com/archives/C01EDBVMHBQ"
 
-certificates:
+certificates:  # optional. If you provide certificates for your event, which participants should request
   request_form: "https://feedbackform.example.com"
   deadline: 2022-07-24
   notes:  # if you want to provide more explanation here, either specificy "notes: my text about certs" or reuse an available snippet as shown below
     snippet: "snippets/cert-requirements-smorg.html"
 
-feedback:
+feedback:  # optional. If you have a feedback survey for your course
   form: "https://feedback.example.com"
 
 
 program:
-  preliminary:
+  preliminary:   # you can define various sections (e.g. days) here
     title: Before you start
     trainings:
       - setup
       - code-of-conduct
-      - certificates
-      - video: community/welcome
+      - certificates               # a predefined "session" explaining about certificates
+      - video: community/welcome   # this points to a video in our video library
   day1:
     title: Day 1
     description: your first intro
@@ -53,7 +53,7 @@ program:
           - prompt: "Introduce yourself and tell us your favorite science fun fact!"
             channel: "mychannel"
             certificate: false  # set this if you would like to encourage participation in icebreakers in order to receive certificate
-      - session: webinars
+      - session: webinars          # sessions are multi-video tutorials (e.g. lecture & hands-on), see our session library for these
       - session: sequence-analysis/quality-control
   module2:
     title: Day 2
@@ -62,12 +62,12 @@ program:
       - session: webinars
         instructors: [hexylena, bebatut]
       - session: sequence-analysis/quality-control
-      - self-study: climate/fates
-        type: [slides, tutorial]
+      - self-study: climate/fates   # you can also add GTN tutorials that don't have videos, format is <topics>/<tutorial id> (find this in the GTN url of the tutorial)
+        type: [slides, tutorial]    # does thit tutorial have slides, tutorial or both?
       - self-study: climate/fates
         type: [slides]
       - self-study: assembly/mrsa-nanopore  # default type is tutorial only
-      - external:
+      - external:                   # if you want to include something outside of the GTN? No problem!
           title: My External Session
           description: This is a training that is not in the GTN, but it will teach you about XYZ
           video: oAVjF_7ensg  # a youtube id, or a video embed link
@@ -83,6 +83,6 @@ program:
     title: Wrap-up
     description: Thanks for joining this course!
     trainings:
-      - feedback
+      - feedback        # predifind section, this will link to the survey form you defined above.
       - certificates
 ---
