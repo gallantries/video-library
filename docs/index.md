@@ -29,6 +29,7 @@ You can also find the full list of **videos** and **sessions** (multi-video tuto
 {% include button.html link="/modules" colour="yellow" label="Training Modules" buttonsize="large" %}
 {% include button.html link="/library" colour="purple" label="All Videos" buttonsize="large" %}
 {% include button.html link="/course-builder" colour="blue" label="Course Builder (Beta)" buttonsize="large" %}
+{% include button.html link="/instructors" colour="green" label="Instructor Guide" buttonsize="large" %}
 </div>
 
 
