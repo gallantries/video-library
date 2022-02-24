@@ -31,6 +31,7 @@ program:
       - video: statistics/FNN
       - video: statistics/RNN
       - video: statistics/CNN
+      - video: statistics/fruit_360
 
 
 ---
