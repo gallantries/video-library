@@ -73,8 +73,8 @@ program:
       - external:
           title: "Case Studies: What you can do with SARS-COV-2 data"
           description: Learn what you can do with SARS-CoV-2 data
-          video: R4EoTEiAQNE
-          length: 37m
+          video: AArikEWlTXY
+          length: 32m
           author: Andrew Page
 
 
