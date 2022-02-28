@@ -78,6 +78,11 @@
                         <a href="{{site.gtn}}/archive/{{archiveyear}}-{{archivemonth}}-01/{{m.link}}">Archived Version</a>
                         |
                         <a href="{{site.gtn}}/{{m.link}}">Latest Version</a>
+                        {% if m.type == "Tutorial" %}
+                        |
+                        {% assign faqpage = m.link | remove: "tutorial.html" | append: "faqs/" %}
+                        <a href="{{site.gtn}}/{{faqpage}}">FAQs</a>
+                        {% endif %}
                         {% else %}
                         <a href="{% unless m.link contains 'http' %}{{site.gtn}}/{% endunless %}{{m.link}}">{{m.type}}</a>
                         {% endif %}
@@ -87,7 +92,7 @@
               </td>
           </tr>
           {% endif %}
-          <!-- this is for the embedded versions where they'll use their own support forum -->
+          <!-- this is for the embedded versions where they'll use their own1 support forum -->
           {% unless include.hidesupport %}
           <tr>
               <td><strong>Support:</strong></td>
