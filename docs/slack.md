@@ -16,7 +16,7 @@ program:
       - custom:
           title: Joining Slack
           description: |
-            1. Please join [GTN Slack]() via this [invite link]()
+            1. Please join [GTN Slack](https://gtnsmrgsbord.slack.com) via this [invite link](https://join.slack.com/t/gtnsmrgsbord/shared_invite/zt-x7vinbs1-BA~Kht6N86JBhDq0uTIVdQ)
             2. If your country blocks Slack, please ask your questions on our
                [GTN Gitter channel](https://gitter.im/Galaxy-Training-Network/Lobby)
             3. Also can't join Gitter? Contact the event organizer via e-mail (see event page)
