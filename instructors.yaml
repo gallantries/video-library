@@ -344,19 +344,19 @@ wm75:
 
 jrr-cpt:
     name: Jolene Ramsey
-    affiliation: tamu
+    affiliation: [tamu]
 
 Lgallegovillar:
     name: Lorena Gallego Villar
-    affiliation: UnikFreiberg
+    affiliation: [UnikFreiberg]
 
 mtbernardi:
   name: María Bernardi
-  affiliation: uba
+  affiliation: [uba]
 
 pcm32:
   name: Pablo Moreno
-  affiliation: ebi
+  affiliation: [ebi]
 
 montserrat-ve-go:
   name: Montserrat Ve Go
@@ -366,4 +366,8 @@ vinicius:
 
 stefydreptate:
     name: Stefana Dreptate
-    affiliation: ou
+    affiliation: [ou]
+
+onorvez:
+    name: Olivier Norvez
+    affiliation: [mnhn]

@@ -1,0 +1,86 @@
+{
+  "url": "/video-library/api/tags/ecology.json",
+  "videos": {
+    "ecology/PAMPA-toolsuite-tutorial/tutorial": {
+      "description": "This tutorial aims to present the PAMPA Galaxy workflow, how to use it to\ncompute common biodiversity metrics from species abundance data and\nanalyse it through generalized linear (mixed) models (GLM and GLMM). This\nworkflow made up of 5 tools will allow you to process temporal series\ndata that include at least year, location and species sampled along with\nabundance value and, finally, generate article-ready data products.\n",
+      "materials": [
+        {
+          "link": "topics/ecology/tutorials/PAMPA-toolsuite-tutorial/tutorial.html",
+          "type": "Tutorial"
+        }
+      ],
+      "tags": [
+        "ecology"
+      ],
+      "type": "Lecture",
+      "versions": [
+        {
+          "captions": [
+            "colineroyaux"
+          ],
+          "date": "2022-03-03",
+          "galaxy_version": "21.09",
+          "length": "2H",
+          "link": "leMPC2Ckehc",
+          "speakers": [
+            "colineroyaux"
+          ]
+        }
+      ]
+    },
+    "ecology/Obitools-metabarcoding/tutorial": {
+      "description": "Based on this OBITools official tutorial, you will learn here how to\nanalyze DNA metabarcoding data produced on Illumina sequencers\n",
+      "materials": [
+        {
+          "link": "topics/ecology/tutorials/Obitools-metabarcoding/tutorial.html",
+          "type": "Tutorial"
+        }
+      ],
+      "tags": [
+        "ecology"
+      ],
+      "type": "Lecture",
+      "versions": [
+        {
+          "captions": [
+
+          ],
+          "date": "2022-03-03",
+          "galaxy_version": "21.09",
+          "length": "1H15M",
+          "link": "o2cUvb_lmLs",
+          "speakers": [
+            "yvanlebras"
+          ]
+        }
+      ]
+    },
+    "ecology/biodiversity-data-exploration/tutorial": {
+      "description": "",
+      "materials": [
+        {
+          "link": "topics/ecology/tutorials/biodiversity-data-exploration/tutorial.html",
+          "type": "Tutorial"
+        }
+      ],
+      "tags": [
+        "ecology"
+      ],
+      "type": "Lecture",
+      "versions": [
+        {
+          "captions": [
+
+          ],
+          "date": "2022-03-03",
+          "galaxy_version": "21.09",
+          "length": "1H",
+          "link": "rWfPr-5F3GQ",
+          "speakers": [
+            "onorvez"
+          ]
+        }
+      ]
+    }
+  }
+}

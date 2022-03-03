@@ -130,6 +130,48 @@
       ]
     }
   ],
+  "topics/ecology/tutorials/PAMPA-toolsuite-tutorial/tutorial.html": [
+    {
+      "captions": [
+        "colineroyaux"
+      ],
+      "date": "2022-03-03",
+      "galaxy_version": "21.09",
+      "length": "2H",
+      "link": "leMPC2Ckehc",
+      "speakers": [
+        "colineroyaux"
+      ]
+    }
+  ],
+  "topics/ecology/tutorials/Obitools-metabarcoding/tutorial.html": [
+    {
+      "captions": [
+
+      ],
+      "date": "2022-03-03",
+      "galaxy_version": "21.09",
+      "length": "1H15M",
+      "link": "o2cUvb_lmLs",
+      "speakers": [
+        "yvanlebras"
+      ]
+    }
+  ],
+  "topics/ecology/tutorials/biodiversity-data-exploration/tutorial.html": [
+    {
+      "captions": [
+
+      ],
+      "date": "2022-03-03",
+      "galaxy_version": "21.09",
+      "length": "1H",
+      "link": "rWfPr-5F3GQ",
+      "speakers": [
+        "onorvez"
+      ]
+    }
+  ],
   "topics/epigenetics/tutorials/atac-seq/slides.html": [
     {
       "captions": [
@@ -364,6 +406,20 @@
       "galaxy_version": "21.01",
       "length": "1H",
       "link": "ywK1fhM-QFU",
+      "speakers": [
+        "abretaud"
+      ]
+    }
+  ],
+  "topics/genome-annotation/tutorials/repeatmasker/tutorial.html": [
+    {
+      "captions": [
+        "abretaud"
+      ],
+      "date": "2022-03-03",
+      "galaxy_version": "21.09",
+      "length": "16M",
+      "link": "AYAvjwm4cnM",
       "speakers": [
         "abretaud"
       ]
