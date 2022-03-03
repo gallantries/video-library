@@ -278,6 +278,42 @@ ecology/PAMPA-toolsuite-tutorial/tutorial:
     speakers:
     - colineroyaux
 
+ecology/Obitools-metabarcoding/tutorial:
+  description: |
+      Based on this OBITools official tutorial, you will learn here how to
+      analyze DNA metabarcoding data produced on Illumina sequencers
+  materials:
+  - link: topics/ecology/tutorials/Obitools-metabarcoding/tutorial.html
+    type: Tutorial
+  tags:
+  - ecology
+  type: Lecture
+  versions:
+  - captions: [] # TODO: Waiting for receipt.
+    date: '2022-03-03'
+    galaxy_version: '21.09'
+    length: 1H15M
+    link: o2cUvb_lmLs
+    speakers:
+    - yvanlebras
+
+ecology/biodiversity-data-exploration/tutorial:
+  description: |
+  materials:
+  - link: topics/ecology/tutorials/biodiversity-data-exploration/tutorial.html
+    type: Tutorial
+  tags:
+  - ecology
+  type: Lecture
+  versions:
+  - captions: [] # TODO: Waiting for receipt.
+    date: '2022-03-03'
+    galaxy_version: '21.09'
+    length: 1H
+    link: rWfPr-5F3GQ
+    speakers:
+    - onorvez
+
 epigenetics/atac-seq/slides:
   description: This lecture will introduce the basic concepts involved in ATAC-Seq
     analysis.
