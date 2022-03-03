@@ -8,7 +8,9 @@
    <div class="card-body">
     <h5 class="card-title">Request a certificate of attendance.</h5>
     <p class="card-text">
-      After completing this course, please fill in this <a href="{{include.config.request_form}}">Certificate Request Form</a> to get your certificate.
+        In order to request a certificate, you can use the <code>/request-certificate</code> command in Slack, do this in any channel (not a DM!) or in a message to <a href="https://gtnsmrgsbord.slack.com/app_redirect?channel=U02EWBWKWKT">@GTN Certificate Bot</a>
+
+      If, for any reason you are not able to access slack, then please fill in this <a href="{{include.config.request_form}}">Certificate Request Form</a> to get your certificate.
     </p>
     <p class="card-text">
       <strong>Deadline: </strong> no later than <strong>{{include.config.deadline | date_to_long_string }}</strong>.

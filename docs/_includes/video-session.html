@@ -119,6 +119,20 @@
               </td>
           </tr>
           {% endif %}
+          {% unless include.hidesupport %}
+          <tr>
+              <td><strong>Finished this tutorial?</strong></td>
+              <td>
+              <ol>
+                {% capture predicted_channel_name %}{{ include.id | slack_channel_name }}{% endcapture %}
+                {% capture channel %}{{ include.session.support_channel | default: predicted_channel_name | default: site.support.general_channel}}{% endcapture %}
+                <li><a href="https://training.galaxyproject.org/training-material/faqs/galaxy/histories_sharing.html">Share your history</a> (if applicable)</li>
+                <li>Copy the URL</li>
+                <li>Run the command <code>/completed</code> with the URL to your shared history, in <a href="https://gtnsmrgsbord.slack.com/archives/{{ channel }}">#{{ channel }}</a></li>
+              </ol>
+              </td>
+          </tr>
+          {% endunless %}
       </table>
 
   </div>
