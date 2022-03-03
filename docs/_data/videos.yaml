@@ -575,6 +575,26 @@ genome-annotation/apollo/tutorial:
     link: ywK1fhM-QFU
     speakers:
     - abretaud
+
+genome-annotation/repeatmasker/tutorial:
+  description: |
+    The aim of repeat masking is to identify the location of all repeated elements along a genome sequence. Other tools (like annotation pipelines) can then take this information into account when producing their results.
+  materials:
+  - link: topics/genome-annotation/tutorials/repeatmasker/tutorial.html
+    type: Tutorial
+  tags:
+  - genome-annotation
+  type: Tutorial
+  versions:
+  - captions:
+    - abretaud
+    date: '2022-03-03'
+    galaxy_version: '21.09'
+    length: 16M
+    link: AYAvjwm4cnM
+    speakers:
+    - abretaud
+
 introduction/galaxy-intro-101/tutorial:
   description: This tutorial will introduce you to Galaxy. You will familiarize yourself
     with tools, workflows and histories. Those skills will be needed the next days
