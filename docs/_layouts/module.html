@@ -16,3 +16,7 @@ layout: default
 
 {% include course-handbook.html program=module.program %}
 
+{% if page.instructors %}
+<h2 class="section-header">This course was brought to you by..</h2>
+{% include speakers.html speakers=page.instructors %}
+{% endif %}
