@@ -3435,7 +3435,7 @@
           }
         ]
       },
-      "admin/interactive-tools/slides": {
+      "admin/interactive-tools": {
         "description": null,
         "faq": null,
         "materials": [
