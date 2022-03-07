@@ -1266,6 +1266,234 @@ add a button, include configuration options:
 
 
 	
+		
+		
+		
+
+
+
+
+
+
+
+
+
+
+
+<div class="accordion-item">
+  
+  <div class="accordion-header" id="headingclimate2">
+   <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseclimate2" aria-expanded="false" aria-controls="collapseclimate2">
+        Pangeo ecosystem 101 for everyone - Introduction to Xarray Galaxy Tools
+         (Tutorial) 
+   </button>
+  </div>
+
+  <div id="collapseclimate2" class="accordion-collapse collapse " aria-labelledby="headingclimate2" data-bs-parent="#accordionclimate">
+
+    <div class="accordion-body">
+
+      <!-- Video -->
+      
+        
+           
+           <!-- session: {"description"=>"In this tutorial, you will learn how to manipulate netCDF data files using Xarray Galaxy Tools. NetCDF stands for network Common Data Form and is one of the most popular file format in climate science. It is used for storing multidimensional scientific data variables such as temperature or humidity, and metadata can be added to facilitate sharing of netCDF data. netCDF is widely used outside the Climate Science community and each community has its own set of conventions, especially for metadata. The Climate and Forecast metadata convention, also called CF-convention is used by the Climate community and is designed to promote the processing and sharing of netCDF files.\n", "materials"=>[{"link"=>"topics/climate/tutorials/pangeo/tutorial.html", "title"=>"Pangeo ecosystem 101 for everyone - Introduction to Xarray Galaxy Tools", "type"=>"Tutorial"}], "tags"=>["climate"], "type"=>"Tutorial", "versions"=>[{"captions"=>["annefou"], "date"=>"2022-03-03", "galaxy_version"=>"21.09", "length"=>"1H20M", "link"=>"V43jEJfa6hY", "speakers"=>["annefou"], "name"=>"Pangeo ecosystem 101 for everyone - Introduction to Xarray Galaxy Tools"}], "name"=>"Pangeo ecosystem 101 for everyone - Introduction to Xarray Galaxy Tools"}<br><br> video: {"captions"=>["annefou"], "date"=>"2022-03-03", "galaxy_version"=>"21.09", "length"=>"1H20M", "link"=>"V43jEJfa6hY", "speakers"=>["annefou"], "name"=>"Pangeo ecosystem 101 for everyone - Introduction to Xarray Galaxy Tools"} -->
+
+
+
+
+
+<!-- determine the next archived version of tutorial -->
+
+
+
+
+<div class="flex-row" style="margin-top:1em;">
+ <div class="col-md-8">
+  <h3 class="session-section">Tutorial Video   </h3>
+  <div style="position:relative;padding-top:56.25%;">
+   <iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" data-src="https://www.youtube.com/embed/V43jEJfa6hY" class="lazyload" loading="lazy" frameborder="0" title="YouTube Embedded Video of the Tutorial" aria-label="YouTube Embedded Video of the Tutorial" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="">
+   </iframe>
+  </div>
+  <div style="margin-top:1em;" class="video-metadata">
+      <table>
+          
+          <tr>
+              <td><strong>Description:</strong></td>
+              <td>In this tutorial, you will learn how to manipulate netCDF data files using Xarray Galaxy Tools. NetCDF stands for network Common Data Form and is one of the most popular file format in climate science. It is used for storing multidimensional scientific data variables such as temperature or humidity, and metadata can be added to facilitate sharing of netCDF data. netCDF is widely used outside the Climate Science community and each community has its own set of conventions, especially for metadata. The Climate and Forecast metadata convention, also called CF-convention is used by the Climate community and is designed to promote the processing and sharing of netCDF files.
+</td>
+          </tr>
+          
+          <tr>
+              <td><strong>Length:</strong></td>
+              <td>1 hour 20 minutes</td>
+          </tr>
+   
+   
+          <tr>
+              <td><strong>Captions:</strong></td>
+              <td> <a href="/video-library/contributors/annefou/">Anne Fouilloux</a></td>
+          </tr>
+   
+          
+          <tr>
+              <td><strong>Created:</strong></td>
+              <td>3 March 2022</td>
+          </tr>
+          
+          
+          <tr>
+              <td><strong>Materials:</strong></td>
+              <td>
+                <ul class="plain-text-list">
+                
+                    <li>
+                        
+                            <img style="height: 1em" src="/video-library/assets/fa/tutorial.svg" alt="assets/fa/tutorial.svg" aria-hidden="true" />
+                        
+
+
+                        
+                        
+                        Tutorial:
+                        <a href="https://training.galaxyproject.org/archive/2022-04-01/topics/climate/tutorials/pangeo/tutorial.html">Archived Version</a>
+                        |
+                        <a href="https://training.galaxyproject.org/topics/climate/tutorials/pangeo/tutorial.html">Latest Version</a>
+                        
+                        |
+                        
+                        <a href="https://training.galaxyproject.org/topics/climate/tutorials/pangeo/faqs/">FAQs</a>
+                        
+                        
+                    </li>
+                
+                </ul>
+              </td>
+          </tr>
+          
+          <!-- this is for the embedded versions where they'll use their own1 support forum -->
+          
+          <tr>
+              <td><strong>Support:</strong></td>
+              <td>
+              <ul>
+                
+                
+                <li>Slack: <a href="https://gtnsmrgsbord.slack.com/archives/climate_pangeo">#climate_pangeo</a> (<a href="https://join.slack.com/t/gtnsmrgsbord/shared_invite/zt-x7vinbs1-BA~Kht6N86JBhDq0uTIVdQ">Slack Invite</a>)</li>
+                <li><a href="https://gitter.im/Galaxy-Training-Network/Lobby">Gitter</a></li>
+                <li><a href="https://help.galaxyproject.org">Galaxy Help Forum</a></li>
+              </ul>
+              </td>
+          </tr>
+          
+          
+          <tr>
+              <td><strong>Learning Objectives:</strong></td>
+              <td>
+                  <ul>
+                      
+                      <li>Understand what Pangeo and Xarray are</li>
+                      
+                      <li>Learn to get metadata information using Xarray Galaxy Tools</li>
+                      
+                      <li>Learn to select data</li>
+                      
+                      <li>Learn to visualize geographical data on a map</li>
+                      
+                      <li>Learn to filter, make reduction operations (mean, max, min)</li>
+                      
+                      <li>Learn to resample my data</li>
+                      
+                  </ul>
+              </td>
+          </tr>
+          
+          
+          <tr>
+              <td><strong>Finished this tutorial as part of GTN Tapas?</strong></td>
+              <td>
+              <ol>
+                
+                
+                <li><a href="https://training.galaxyproject.org/training-material/faqs/galaxy/histories_sharing.html">Share your history</a> (if applicable)</li>
+                <li>Copy the URL</li>
+                <li>Run the command <code>/completed</code> with the URL to your shared history, in <a href="https://gtnsmrgsbord.slack.com/archives/climate_pangeo">#climate_pangeo</a></li>
+              </ol>
+              </td>
+          </tr>
+          
+      </table>
+
+  </div>
+  
+  Go to the <a href="/video-library/videos/climate/pangeo/tutorial">video page</a> to see all versions.
+  
+ </div>
+ <!-- speaker(s) -->
+ 
+ 
+
+ <div class="col-md-3">
+  <center><h3 class="session-section">Speaker</h3></center>
+  
+
+
+
+
+
+
+
+<div class="hall-of-fame">
+    
+    
+    
+		<div class="hall-of-fame-hero" id="annefou">
+			<a href="/video-library/contributors/annefou/">
+            
+			<img src="https://avatars.githubusercontent.com/annefou" alt="" />
+            
+			<div class="name">
+				<b>Anne Fouilloux</b>
+			</div>
+			</a>
+			<div class="affil">
+				
+				<a href="https://www.eosc-nordic.eu/">
+					EOSC-Nordic
+				</a>
+				
+			</div>
+		</div>
+	
+    
+</div>
+
+ </div>
+
+
+</div><!-- end video session -->
+
+
+
+        
+
+      
+
+
+      <!-- Instructors -->
+      
+
+      <!-- Supporting Servers -->
+
+      <!-- Resources -->
+
+    </div><!-- end accordion body -->
+  </div><!-- end collapse -->
+</div><!-- end accordion item (training session) -->
+
+
+
+	
 
     
 	<h3 style="text-transform:capitalize;" id="community">Community</h3>
