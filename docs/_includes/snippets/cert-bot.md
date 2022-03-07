@@ -10,7 +10,8 @@
   - Where? In **any channel**, or a message to [@GTN Certificate Bot](https://gtnsmrgsbord.slack.com/app_redirect?channel=U02EWBWKWKT)
 
 - **Finished with the event?**
-  - Use the `/request-certificate` command to request a certificate for the course.
+  - Use the `/request-certificate <Your Full Name>` command to request a certificate for the course.
+    - Enter your name as you would like it to appear on the Certificate
   - Where? In **any channel**, or a message to [@GTN Certificate Bot](https://gtnsmrgsbord.slack.com/app_redirect?channel=U02EWBWKWKT)
   - Deadline: {{include.config.deadline | date_to_long_string }}
   - We will review your Galaxy histories, and send you your personalised certificate
