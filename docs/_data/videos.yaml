@@ -882,7 +882,7 @@ proteomics/encyclopedia/slides:
   versions:
   - captions:
     - emmaleith
-    date: '2021-02-15'
+    date: '2021-06-25'
     galaxy_version: '21.01'
     length: 20M
     link: EGWTFWeI5gg
@@ -902,7 +902,7 @@ proteomics/encyclopedia/tutorial:
   versions:
   - captions:
     - mtekman
-    date: '2021-02-15'
+    date: '2021-06-25'
     galaxy_version: '21.01'
     length: 30M
     link: eCEjHtbZLVg
