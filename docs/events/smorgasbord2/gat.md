@@ -14,13 +14,6 @@ cost: free
 contacts: [hexylena, shiltemann]
 
 program:
-  intro:
-    title: Introduction
-    description: Start here. This will cover all the logistics and practical information for this training week.
-    trainings:
-      - video: course/welcome-admin
-      - session: webinars
-
   galaxyintro:
     title: Introduction to Galaxy
     description: "Start here if you are new to Galaxy. These videos will introduce you to the Galaxy platform, and walk you through your first analyses"
@@ -40,6 +33,7 @@ program:
     description:
     trainings:
       - video: admin/singularity/tutorial
+      # TODO: TUS
       - session: admin/tool-management
       - video: admin/users-groups-quotas/slides
       - session: admin/cvmfs
@@ -60,24 +54,19 @@ program:
       - video: admin/gxadmin/slides
       - session: admin/monitoring
       - video: admin/maintenance/slides
-      #- video: admin/upgrading/slides # ?
-      -
 
   day5:
     title: Choose Your Own Adventure
     description:
     trainings:
       - video: community/welcome
-      # Reports
       - video: admin/interactive-tools/slides
-      # Jenkins
-      # Advanced cust
-      # Troubleshooting
-      # Python
-      # Tool integration
-      # Collections
-      # Developing Own Training
+      - video: admin/upgrading/tutorial
       - video: admin/object-store/exercise
+      - self-study: admin/jenkins
+      - self-study: admin/ftp
+      - self-study: admin/advanced-galaxy-customisation
+      - self-study: admin/troubleshooting
 
 ---
 
