@@ -7,5 +7,6 @@ program:
   intro:
     trainings:
       - session: climate/fates
+      - video: climate/pangeo/tutorial
 
 ---

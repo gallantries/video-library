@@ -78,6 +78,11 @@
                         <a href="{{site.gtn}}/archive/{{archiveyear}}-{{archivemonth}}-01/{{m.link}}">Archived Version</a>
                         |
                         <a href="{{site.gtn}}/{{m.link}}">Latest Version</a>
+                        {% if m.type == "Tutorial" %}
+                        |
+                        {% assign faqpage = m.link | remove: "tutorial.html" | append: "faqs/" %}
+                        <a href="{{site.gtn}}/{{faqpage}}">FAQs</a>
+                        {% endif %}
                         {% else %}
                         <a href="{% unless m.link contains 'http' %}{{site.gtn}}/{% endunless %}{{m.link}}">{{m.type}}</a>
                         {% endif %}
@@ -87,7 +92,7 @@
               </td>
           </tr>
           {% endif %}
-          <!-- this is for the embedded versions where they'll use their own support forum -->
+          <!-- this is for the embedded versions where they'll use their own1 support forum -->
           {% unless include.hidesupport %}
           <tr>
               <td><strong>Support:</strong></td>
@@ -114,6 +119,20 @@
               </td>
           </tr>
           {% endif %}
+          {% unless include.hidesupport %}
+          <tr>
+              <td><strong>Finished this tutorial as part of GTN Tapas?</strong></td>
+              <td>
+              <ol>
+                {% capture predicted_channel_name %}{{ include.id | slack_channel_name }}{% endcapture %}
+                {% capture channel %}{{ include.session.support_channel | default: predicted_channel_name | default: site.support.general_channel}}{% endcapture %}
+                <li><a href="https://training.galaxyproject.org/training-material/faqs/galaxy/histories_sharing.html">Share your history</a> (if applicable)</li>
+                <li>Copy the URL</li>
+                <li>Run the command <code>/completed</code> with the URL to your shared history, in <a href="https://gtnsmrgsbord.slack.com/archives/{{ channel }}">#{{ channel }}</a></li>
+              </ol>
+              </td>
+          </tr>
+          {% endunless %}
       </table>
 
   </div>

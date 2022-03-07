@@ -150,3 +150,8 @@ UniQuilmes:
    name: Universidad Nacional de Quilmes/CONICET
    link: "http://www.unq.edu.ar/"
    logo: uni-quilmes-conicet.png
+   
+pu:
+  name: Pondicherry University
+  link: "https://www.pondiuni.edu.in/home"
+
