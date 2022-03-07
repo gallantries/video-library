@@ -101,7 +101,7 @@ program:
     subday: true
     trainings:
       - video: galaxy/intro
-      - video: introduction/galaxy-intro-101
+      - video: introduction/galaxy-intro-101/tutorial
 
   day2-2:
     title: "Session 2: Mapping and Variant calling of short MTBC reads"
