@@ -1,0 +1,3579 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  
+  <title>Mycobacterium tuberculosis NGS made easy: data analysis step-by-step</title>
+  
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <head profile="http://www.w3.org/2005/10/profile">
+  <link href="/video-library/assets/bootstrap-5.0.0-beta1.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+  <link rel="icon" type="image/png" href="/video-library/assets/images/favicon.png" />
+  <script src="/video-library/assets/js/bootstrap-5.0.0-beta1.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+  <script async defer data-domain="gallantries.github.io" src="https://plausible.galaxyproject.eu/js/plausible.js"></script>
+  <script src="/video-library/assets/js/lazysizes-5.2.2.min.js" async></script>
+  <!--
+	  we've replaced with the individual icons because we don't need that many icons.
+  <script src="https://kit.fontawesome.com/67b3f98409.js" crossorigin="anonymous"></script>
+  -->
+  <link rel="stylesheet" href="/video-library/assets/main.css">
+
+  <!-- updates for previews on social media etc -->
+  <meta name="description" content="" />
+  <meta property="og:title" content="Mycobacterium tuberculosis NGS made easy: data analysis step-by-step" />
+  <meta property="og:description" content="" />
+  <meta property="og:image" content="/video-library/assets/images/video_cover.png" />
+
+</head>
+<body>
+	<a class="visually-hidden visually-hidden-focusable" href="#content">Skip to main content</a><nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <div class="container-fluid" style="width: calc(1000px - (30px * 2)); padding-left:30px">
+    <a class="navbar-brand"
+        
+             href="/video-library/">GTN Video Library
+        
+    </a>
+
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <!--
+        <li class="nav-item">
+			<a class="nav-link" href="/video-library/">Home</a>
+        </li>
+        -->
+        <li class="nav-item">
+			<a class="nav-link" href="/video-library/events">Events</a>
+        </li>
+         <li class="nav-item">
+			<a class="nav-link" href="/video-library/modules">Training Modules</a>
+        </li>
+        <li class="nav-item">
+			<a class="nav-link" href="/video-library/library">Videos</a>
+        </li>
+        <!--
+        <li class="nav-item">
+			<a class="nav-link" href="/video-library/session-library">Sessions</a>
+        </li>
+        -->
+        <li class="nav-item">
+			<a class="nav-link" href="/video-library/course-builder">Course Builder</a>
+        </li>
+        <li class="nav-item">
+			<a class="nav-link" href="/video-library/instructors">Instructor Guide</a>
+        </li>
+
+        <li class="nav-item">
+			<a class="nav-link" href="https://github.com/gallantries/video-library" title="Github Repository"><img style="height: 1em" src="/video-library/assets/fa/github.svg" alt="assets/fa/github.svg" aria-hidden="true"/></a>
+        </li>
+
+	    <!-- Want to add more pages to the top menu bar? add them here.
+        <li class="nav-item">
+           <a class="nav-link " href="for-instructors.html">Instructors</a>
+        </li>
+        -->
+        <!--
+        <li class="nav-item">
+          <a class="nav-link " href="recording.html">recording</a>
+        </li>
+      -->
+      </ul>
+    </div>
+  </div>
+</nav>
+<main class="page-content" aria-label="Content" id="content">
+      <div class="wrapper" >
+        
+
+<h1>Mycobacterium tuberculosis NGS made easy: data analysis step-by-step </h1>
+
+
+
+
+<p>
+
+
+</p>
+
+
+<!-- This will generate the course handbook; the collapsible sections with videos and all others resources for the training -->
+
+
+
+
+  
+  
+  
+  <h3 class="module-start"> Welcome & Setup </h3>
+  
+  <p class="module-description"> 
+ </p>
+  <div class="accordion" id="accordionprelim">
+  
+     
+
+     
+        <div class="accordion-item">
+ 
+ <div class="accordion-header" id="headingprelim0">
+  <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseprelim0" aria-expanded="false" aria-controls="collapseprelim0"> Get set up for the Course
+  </button>
+ </div>
+
+ <div id="collapseprelim0" class="accordion-collapse collapse " aria-labelledby="headingprelim0" data-bs-parent="#accordionprelim">
+
+  <div class="accordion-body">
+
+  
+    
+
+
+
+<!-- Register on a Galaxy server -->
+ <!-- Register a Galaxy Account -->
+   <div class="card" style="width: 100%">
+    <div class="row no-gutters">
+     <div class="col-sm-4">
+      <img class="card-img" src="/video-library/assets/images/setup/galaxylogo.png" alt="Galaxy logo" width="75%">
+     </div>
+     <div class="col-sm-7">
+      <div class="card-body">
+       <h5 class="card-title">Register for a Galaxy Account</h5>
+       <p class="card-text">
+        <br/><strong> Create an account on one of the following Galaxy servers: </strong>
+
+        <ul>
+        
+         
+         <li><a href="https://usegalaxy.eu">🌍 Galaxy Europe</a></li>
+         
+        
+        </ul>
+        You will get an <strong>email with activation link</strong>. It may end up in your <strong>junk folder</strong>.
+       </p>
+      </div>
+     </div>
+    </div>
+   </div><!-- end Galaxy registration card -->
+
+ </br>
+
+
+<!--Join TIaaS  -->
+
+
+
+ <!-- TIaaS -->
+   <div class="card" style="width: 100%">
+    <div class="row no-gutters">
+     <div class="col-sm-4">
+      <img class="card-img" src="/video-library/assets/images/setup/tiaas.png" alt="tiaas logo" width="75%">
+     </div>
+     <div class="col-sm-7">
+      <div class="card-body">
+       <h5 class="card-title">Join TIaaS group</h5>
+       <p class="card-text">
+        <br/><strong> Training Infrastructure as a Service (TIaaS) helps Galaxy workshops run smoothly. </strong>
+        Joining TIaaS will make your jobs run quicker.
+        <ul>
+         
+
+         
+
+         <li><a href="https://usegalaxy.eu/join-training/mtb-ngs">🌍 Galaxy Europe: Click here to join TIaaS </a></li>
+         
+
+         
+        </ul>
+        After clicking this link you should see a green box, and then you are all set!
+       </p>
+      </div>
+     </div>
+    </div>
+   </div> <!-- end TiaaS card -->
+
+ <br/>
+
+
+
+<!-- Slack -->
+
+ <div class="card" style="width: 100%">
+    <div class="row no-gutters">
+     <div class="col-sm-4">
+      <img class="card-img" src="/video-library/assets/images/setup/slacklogo.png" alt="Slack Logo">
+     </div>
+     <div class="col-sm-7">
+      <div class="card-body">
+       <h5 class="card-title">Join Slack Chat!</h5>
+       <p class="card-text">
+        <br/>
+        <strong> Slack is where you can ask all your questions </strong>
+        <ul>
+         <li>Join Slack: <a href="https://join.slack.com/t/gtnsmrgsbord/shared_invite/zt-x7vinbs1-BA~Kht6N86JBhDq0uTIVdQ">Invite link</a></li>
+         
+         <li>Join Channel: <a href="https://gtnsmrgsbord.slack.com/archives/C035Q01UA2F">#event-mtb-ngs</a> (and say Hi!)</li> 
+
+        </ul>
+        You will find different channels here, one for each training session where you can ask your questions, as well as some more general channels for socializing, general discussions, feedback and more.
+
+       <br><br>
+       See our <a href="/video-library/slack">Slack Tips & Tricks</a> page for some more info about Slack and how we use it.
+       </p>
+      </div>
+     </div>
+    </div>
+   </div><!-- end Slack card -->
+
+
+
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  </div>
+ </div>
+</div> <!-- end session -->
+
+
+     
+  
+     
+
+     
+       <div class="accordion-item">
+ 
+ <div class="accordion-header" id="headingprelim1">
+  <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseprelim1" aria-expanded="false" aria-controls="collapseprelim1"> Code of Conduct
+  </button>
+ </div>
+
+ <div id="collapseprelim1" class="accordion-collapse collapse " aria-labelledby="headingprelim1" data-bs-parent="#accordionprelim">
+
+  <div class="accordion-body">
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+    <div class="card" style="width: 100%">
+ <div class="row no-gutters">
+  <div class="col-sm-4">
+   <img class="card-img" src="/video-library/assets/images/setup/coc.svg" alt="Galaxy logo" width="75%">
+  </div>
+  <div class="col-sm-7">
+   <div class="card-body">
+    <h5 class="card-title">GalaxyProject Code of Conduct</h5>
+    <p class="card-text">
+
+    We are committed to providing a <strong>welcoming and inspiring community for all</strong>,
+    and expect our <a href="https://galaxyproject.org/community/coc/">code of conduct</a> to be honored.
+    <br><br>
+    Please read the Code of Conduct and adhere to it throughout this event.
+    If you witness any violations of this code of conduct, please <strong><a href="https://galaxyproject.org/community/coc/#reporting-issues">report</a></strong> it to us.
+    <br><br>
+    <a href="https://galaxyproject.org/community/coc/">Read the full Code of Conduct</a>
+   </p>
+   </div>
+  </div>
+ </div>
+</div>
+
+
+  
+
+  </div>
+ </div>
+</div> <!-- end session -->
+
+
+     
+  
+  </div>
+
+  
+  
+  
+  <h3 class="module-start"> Day 1: Overview of NGS technologies & TB specific NGS solutions </h3>
+  
+  <p class="module-description"> <p>There were unusually high rates of TB cases in your country this year. To characterize the underlying
+bacterial factors driving the epidemic, isolates been sent for whole-genome sequencing.  Doctors and public
+health authorities request information in order to take decisions. In this course it will be demonstrated how
+you would make use of NGS to answer several questions relevant for patient and public health system management
+such as:</p>
+<ul>
+  <li>Are there cases of drug resistant bacteria?</li>
+  <li>Is there transmission of drug resistance?</li>
+  <li>Is there evidence of de novo emergence of resistance?</li>
+  <li>Are there multiple infections per patient?</li>
+  <li>Do we have on-going transmission?</li>
+  <li>Are there imported cases?</li>
+  <li>Can we say that we have ancestral strains infecting patients in our population?</li>
+</ul>
+
+<p>We hope that at the end of the different training sessions you can answer this question on your own!</p>
+ </p>
+  <div class="accordion" id="accordionday1">
+  
+     
+
+     
+        
+        <div class="accordion-item">
+ 
+ <div class="accordion-header" id="headingday10">
+  <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseday10" aria-expanded="false" aria-controls="collapseday10"> Icebreaker Question
+  </button>
+ </div>
+
+ <div id="collapseday10" class="accordion-collapse collapse " aria-labelledby="headingday10" data-bs-parent="#accordionday1">
+
+  <div class="accordion-body">
+
+  
+
+  
+       <p> Come say Hi in Slack! Let us know you are joining today and are getting started! </p>
+
+   
+   <div class="card" style="width: 100%">
+    <div class="row no-gutters">
+     <div class="col-sm-5">
+      <img class="card-img" src="/video-library/assets/images/icebreaker.jpg" alt="Icebreaker pictogram">
+     </div>
+     <div class="col-sm-7">
+      <div class="card-body">
+       <h5 class="card-title">Icebreaker Question</h5>
+       <p class="card-text">
+        <br/><strong> Introduce yourself and tell us your favorite science fun fact! </strong><br/>
+       </p>
+       <p class="card-text">
+        Post your answers in <a href="https://gtnsmrgsbord.slack.com/archives/event-mtb-ngs">
+      #event-mtb-ngs</a> on Slack!
+       </p>
+       <p class="card-text">
+        Please feel free to respond to each other here, this channel is for socializing and getting to know each other! :)
+       </p>
+      </div>
+     </div>
+    </div>
+   </div>
+   
+   <br>
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  </div>
+ </div>
+</div> <!-- end session -->
+
+
+     
+  
+     
+
+     
+       <div class="accordion-item">
+ 
+ <div class="accordion-header" id="headingday11">
+  <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseday11" aria-expanded="false" aria-controls="collapseday11"> Webinar: Overview of NGS technologies & TB specific NGS solutions
+  </button>
+ </div>
+
+ <div id="collapseday11" class="accordion-collapse collapse " aria-labelledby="headingday11" data-bs-parent="#accordionday1">
+
+  <div class="accordion-body">
+
+  
+
+  
+
+  
+
+  
+
+  
+    
+
+<p> This is a training session outside of the GTN. See below for more details. </p>
+
+<h3 class="session-section">Webinar: Overview of NGS technologies & TB specific NGS solutions</h3>
+<p>This webinar will introduce different sequencing technologies and what applies best to what
+kind of problem.
+</p>
+
+
+
+
+  <img src="/video-library/assets/images/comingsoon.jpg" alt="comingsoon" width="80%"/>
+
+
+<div style="margin-top:1em;" class="video-metadata">
+ <table>
+  <tr>
+   <td><strong>Title:</strong></td>
+   <td>Webinar: Overview of NGS technologies & TB specific NGS solutions</td>
+ </tr>
+ 
+ <tr>
+   <td><strong>Description:</strong></td>
+   <td>This webinar will introduce different sequencing technologies and what applies best to what
+kind of problem.
+</td>
+ </tr>
+ 
+ 
+ <tr>
+   <td><strong>Length:</strong></td>
+   <td>1h15m</td>
+ </tr>
+ 
+ 
+ 
+
+
+ 
+ <tr>
+   <td><strong>Author(s):</strong></td>
+   <td> Andrea Cabibbe </td>
+ </tr>
+ 
+ </table>
+</div>
+
+  
+
+  
+
+  
+
+  
+
+  </div>
+ </div>
+</div> <!-- end session -->
+
+
+     
+  
+     
+
+     
+       <div class="accordion-item">
+ 
+ <div class="accordion-header" id="headingday12">
+  <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseday12" aria-expanded="false" aria-controls="collapseday12"> Webinar: Implementation of NGS for TB- WHO documents and other considerations
+  </button>
+ </div>
+
+ <div id="collapseday12" class="accordion-collapse collapse " aria-labelledby="headingday12" data-bs-parent="#accordionday1">
+
+  <div class="accordion-body">
+
+  
+
+  
+
+  
+
+  
+
+  
+    
+
+<p> This is a training session outside of the GTN. See below for more details. </p>
+
+<h3 class="session-section">Webinar: Implementation of NGS for TB- WHO documents and other considerations</h3>
+<p>This webinar will summarize the recommendations and considerations available from the WHO
+documents on the use of NGS for TB
+</p>
+
+
+
+
+  <img src="/video-library/assets/images/comingsoon.jpg" alt="comingsoon" width="80%"/>
+
+
+<div style="margin-top:1em;" class="video-metadata">
+ <table>
+  <tr>
+   <td><strong>Title:</strong></td>
+   <td>Webinar: Implementation of NGS for TB- WHO documents and other considerations</td>
+ </tr>
+ 
+ <tr>
+   <td><strong>Description:</strong></td>
+   <td>This webinar will summarize the recommendations and considerations available from the WHO
+documents on the use of NGS for TB
+</td>
+ </tr>
+ 
+ 
+ 
+ 
+
+
+ 
+ <tr>
+   <td><strong>Author(s):</strong></td>
+   <td> Andrea Cabibbe </td>
+ </tr>
+ 
+ </table>
+</div>
+
+  
+
+  
+
+  
+
+  
+
+  </div>
+ </div>
+</div> <!-- end session -->
+
+
+     
+  
+     
+
+     
+       <div class="accordion-item">
+ 
+ <div class="accordion-header" id="headingday13">
+  <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseday13" aria-expanded="false" aria-controls="collapseday13"> Q&A session
+  </button>
+ </div>
+
+ <div id="collapseday13" class="accordion-collapse collapse " aria-labelledby="headingday13" data-bs-parent="#accordionday1">
+
+  <div class="accordion-body">
+
+  
+
+  
+
+  
+
+  
+
+  
+    
+
+<p> This is a training session outside of the GTN. See below for more details. </p>
+
+<h3 class="session-section">Q&A session</h3>
+<p>Discussion. Q&A join the experts</p>
+
+
+
+<div style="margin-top:1em;" class="video-metadata">
+ <table>
+  <tr>
+   <td><strong>Title:</strong></td>
+   <td>Q&A session</td>
+ </tr>
+ 
+ <tr>
+   <td><strong>Description:</strong></td>
+   <td>Discussion. Q&A join the experts</td>
+ </tr>
+ 
+ 
+ 
+ 
+
+
+ <tr>
+   <td><strong></strong></td>
+   
+   
+ </tr>
+ 
+ 
+
+ 
+ </table>
+</div>
+
+  
+
+  
+
+  
+
+  
+
+  </div>
+ </div>
+</div> <!-- end session -->
+
+
+     
+  
+  </div>
+
+  
+  
+  
+  <h3 class="module-start"> Day 2 </h3>
+  
+  <p class="module-description"> <p>The 20 strains isolated in your country have been sequenced with Illumina technology
+to obtain whole-genome sequences. In this part of the workshop you will learn how to
+analyse those sequences.</p>
+
+<p>In a typical bioinformatic pipeline you would store your sequences in a computer server
+where all necessary software would be installed. This would be a server running the
+operating system LINUX, which is the most efficient way to run bioinformatics pipelines
+(more on this on Day 4). You will be running your analysis in a LINUX server from Galaxy,
+but instead of writing directly commands to execute operations in the server, you will be
+executing operations through a Galaxy graphical interface. This allows you to have access
+to a LINUX server and to run workflows without knowing LINUX. Importantly, for training
+purposes  it also allows you to dedicate more attention in trying to understand what is
+being done in each of the steps without having to understand the programing behind. This
+being said, working directly on a LINUX cluster provides you always more flexibility, but
+if you don’t have access to one, Galaxy is a very good alternative for data analysis.</p>
+
+<p>You will need to understand how to use Galaxy to run all the hands-on tutorials and
+therefore is highly recommended that you follow the next webinar and hands-on on Galaxy.
+The good thing about this is that once you know how it works, you can use it to run your
+own analysis with your own data.</p>
+ </p>
+  <div class="accordion" id="accordionday2">
+  
+     
+
+     
+        
+        <div class="accordion-item">
+ 
+ <div class="accordion-header" id="headingday20">
+  <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseday20" aria-expanded="false" aria-controls="collapseday20"> Icebreaker Question
+  </button>
+ </div>
+
+ <div id="collapseday20" class="accordion-collapse collapse " aria-labelledby="headingday20" data-bs-parent="#accordionday2">
+
+  <div class="accordion-body">
+
+  
+
+  
+       <p> Come say Hi in Slack! Let us know you are joining today and are getting started! </p>
+
+   
+   <div class="card" style="width: 100%">
+    <div class="row no-gutters">
+     <div class="col-sm-5">
+      <img class="card-img" src="/video-library/assets/images/icebreaker.jpg" alt="Icebreaker pictogram">
+     </div>
+     <div class="col-sm-7">
+      <div class="card-body">
+       <h5 class="card-title">Icebreaker Question</h5>
+       <p class="card-text">
+        <br/><strong> TODO </strong><br/>
+       </p>
+       <p class="card-text">
+        Post your answers in <a href="https://gtnsmrgsbord.slack.com/archives/https://gtnsmrgsbord.slack.com/archives/C035Q01UA2F">
+      ##event-mtb-ngs</a> on Slack!
+       </p>
+       <p class="card-text">
+        Please feel free to respond to each other here, this channel is for socializing and getting to know each other! :)
+       </p>
+      </div>
+     </div>
+    </div>
+   </div>
+   
+   <br>
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  </div>
+ </div>
+</div> <!-- end session -->
+
+
+     
+  
+  </div>
+
+  
+  
+  
+  <h4 class="module-start"> Session 1: Learning Galaxy </h4>
+  
+  <p class="module-description"> 
+ </p>
+  <div class="accordion" id="accordionday2-1">
+  
+     
+
+     
+       
+       
+
+
+
+
+
+
+
+
+
+
+
+<div class="accordion-item">
+  
+  <div class="accordion-header" id="headingday2-10">
+   <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseday2-10" aria-expanded="false" aria-controls="collapseday2-10">
+        A Very Short Introduction to Galaxy
+        
+   </button>
+  </div>
+
+  <div id="collapseday2-10" class="accordion-collapse collapse " aria-labelledby="headingday2-10" data-bs-parent="#accordionday2-1">
+
+    <div class="accordion-body">
+
+      <!-- Video -->
+      
+        
+           
+           <!-- session: {"title"=>"A Very Short Introduction to Galaxy", "description"=>"This video will introduce the Galaxy data analysis platform, and give a short demo on how to use it.", "faq"=>"https://docs.google.com/document/d/e/2PACX-1vQ1SZCsxEcRXp39J2BcFAjXyC3B20sWzI7IVgBgwe2pcC9b0cza417jzBPYJVqCRNbU0dD4rv_y6u6P/pub", "materials"=>[{"link"=>"topics/introduction/tutorials/galaxy-intro-short/slides.html", "title"=>"A Short Introduction to Galaxy", "type"=>"Related Slides"}], "tags"=>["galaxy-intro", "galaxy"], "type"=>"Lecture & Demo", "versions"=>[{"captions"=>["nekrut"], "date"=>"2021-02-15", "galaxy_version"=>"21.01", "length"=>"10M", "link"=>"VZoz3k5EehI", "speakers"=>["nekrut"], "name"=>"galaxy/intro"}], "name"=>"galaxy/intro"}<br><br> video: {"captions"=>["nekrut"], "date"=>"2021-02-15", "galaxy_version"=>"21.01", "length"=>"10M", "link"=>"VZoz3k5EehI", "speakers"=>["nekrut"], "name"=>"galaxy/intro"} -->
+
+
+
+
+
+<!-- determine the next archived version of tutorial -->
+
+
+
+
+<div class="flex-row" style="margin-top:1em;">
+ <div class="col-md-8">
+  <h3 class="session-section">Lecture & Demo Video   </h3>
+  <div style="position:relative;padding-top:56.25%;">
+   <iframe style="position:absolute;top:0;left:0;width:100%;height:100%;"
+    
+    data-src="https://www.youtube.com/embed/VZoz3k5EehI"
+    
+     class="lazyload"
+     loading="lazy"
+     frameborder="0"
+     title="YouTube Embedded Video of the Tutorial"
+     aria-label="YouTube Embedded Video of the Tutorial"
+     allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+     allowfullscreen>
+   </iframe>
+  </div>
+  <div style="margin-top:1em;" class="video-metadata">
+      <table>
+          
+          <tr>
+              <td><strong>Description:</strong></td>
+              <td>This video will introduce the Galaxy data analysis platform, and give a short demo on how to use it.</td>
+          </tr>
+          
+          <tr>
+              <td><strong>Length:</strong></td>
+              <td>10 minutes</td>
+          </tr>
+   
+   
+          <tr>
+              <td><strong>Captions:</strong></td>
+              <td> <a href="/video-library/contributors/nekrut/">Anton Nekrutenko</a></td>
+          </tr>
+   
+          
+          <tr>
+              <td><strong>Created:</strong></td>
+              <td>15 February 2021</td>
+          </tr>
+          
+          
+          <tr>
+              <td><strong>Materials:</strong></td>
+              <td>
+                <ul class="plain-text-list">
+                
+                    <li>
+                        
+
+
+                        
+                        
+                        Related Slides:
+                        <a href="https://training.galaxyproject.org/archive/2021-03-01/topics/introduction/tutorials/galaxy-intro-short/slides.html">Archived Version</a>
+                        |
+                        <a href="https://training.galaxyproject.org/topics/introduction/tutorials/galaxy-intro-short/slides.html">Latest Version</a>
+                        
+                        
+                    </li>
+                
+                </ul>
+              </td>
+          </tr>
+          
+          <!-- this is for the embedded versions where they'll use their own1 support forum -->
+          
+          <tr>
+              <td><strong>Support:</strong></td>
+              <td>
+              <ul>
+                
+                
+                <li>Slack: <a href="https://gtnsmrgsbord.slack.com/archives/galaxy-intro">#galaxy-intro</a> (<a href="https://join.slack.com/t/gtnsmrgsbord/shared_invite/zt-x7vinbs1-BA~Kht6N86JBhDq0uTIVdQ">Slack Invite</a>)</li>
+                <li><a href="https://gitter.im/Galaxy-Training-Network/Lobby">Gitter</a></li>
+                <li><a href="https://help.galaxyproject.org">Galaxy Help Forum</a></li>
+              </ul>
+              </td>
+          </tr>
+          
+          
+          
+          <tr>
+              <td><strong>Finished this tutorial as part of GTN Tapas?</strong></td>
+              <td>
+              <ol>
+                
+                
+                <li><a href="https://training.galaxyproject.org/training-material/faqs/galaxy/histories_sharing.html">Share your history</a> (if applicable)</li>
+                <li>Copy the URL</li>
+                <li>Run the command <code>/completed</code> with the URL to your shared history, in <a href="https://gtnsmrgsbord.slack.com/archives/galaxy-intro">#galaxy-intro</a></li>
+              </ol>
+              </td>
+          </tr>
+          
+      </table>
+
+  </div>
+  
+  Go to the <a href="/video-library/videos/galaxy/intro">video page</a> to see all versions.
+  
+ </div>
+ <!-- speaker(s) -->
+ 
+ 
+
+ <div class="col-md-3">
+  <center><h3 class="session-section">Speaker</h3></center>
+  
+
+
+
+
+
+
+
+<div class="hall-of-fame">
+    
+    
+    
+		<div class="hall-of-fame-hero" id="nekrut">
+			<a href="/video-library/contributors/nekrut/">
+            
+			<img src="https://avatars.githubusercontent.com/nekrut" alt="">
+            
+			<div class="name">
+				<b>Anton Nekrutenko</b>
+			</div>
+			</a>
+			<div class="affil">
+				
+				<a href="https://www.psu.edu/">
+					Penn State University
+				</a>
+				
+			</div>
+		</div>
+	
+    
+</div>
+
+ </div>
+
+
+</div><!-- end video session -->
+
+
+
+        
+
+      
+
+
+      <!-- Instructors -->
+      
+
+      <!-- Supporting Servers -->
+
+      <!-- Resources -->
+
+    </div><!-- end accordion body -->
+  </div><!-- end collapse -->
+</div><!-- end accordion item (training session) -->
+
+
+
+
+     
+  
+     
+
+     
+       
+       
+
+
+
+
+
+
+
+
+
+
+
+<div class="accordion-item">
+  
+  <div class="accordion-header" id="headingday2-11">
+   <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseday2-11" aria-expanded="false" aria-controls="collapseday2-11">
+        Galaxy 101
+        
+   </button>
+  </div>
+
+  <div id="collapseday2-11" class="accordion-collapse collapse " aria-labelledby="headingday2-11" data-bs-parent="#accordionday2-1">
+
+    <div class="accordion-body">
+
+      <!-- Video -->
+      
+         <!-- Self-study tutorial -->
+            selfstudy tutorial
+            
+<h3 class="session-section">Self-study Tutorial</h3>
+
+This is a self-study session. Please work through the materials on your own, and ask the instructors for help if you get stuck or have any questions!
+
+<div class="col-md-8">
+  <img src="/video-library/assets/images/selfstudy.png" alt="image indicating this is a self-study session."/>
+</div>
+
+<div style="margin-top:1em;" class="video-metadata">
+ <table>
+  <tr>
+   <td><strong>Tutorial:</strong></td>
+   <td></td>
+ </tr>
+ <tr>
+   <td><strong>Material:</strong></td>
+   
+   <td>
+    
+    
+    <a href="https://training.galaxyproject.org/topics//tutorials//tutorial.html"><img style="height: 1em" src="/video-library/assets/fa/tutorial.svg" alt="assets/fa/tutorial.svg" aria-hidden="true"/> GTN Tutorial</a>
+    
+    </td>
+ </tr>
+ </table>
+</div>
+
+        
+
+      
+
+
+      <!-- Instructors -->
+      
+
+      <!-- Supporting Servers -->
+
+      <!-- Resources -->
+
+    </div><!-- end accordion body -->
+  </div><!-- end collapse -->
+</div><!-- end accordion item (training session) -->
+
+
+
+
+     
+  
+  </div>
+
+  
+  
+  
+  <h4 class="module-start"> Session 2: Mapping and Variant calling of short MTBC reads </h4>
+  
+  <p class="module-description"> <p>Once you have received your sequences, the first step is to assess the quality of
+sequencing. Once we are sure that the sequencing worked well, we typically compare our
+sequencing results to a reference genome (re-sequencing approach) by using a
+bioinformatics procedure usually called mapping. After, we will identify the genomic
+variants in our sequences with respect to the reference genome, a bioinformatics procedure
+called, variant calling. Once we are certain of the variants we have identified, usually
+we are interested in determining to what genes they belong, to what pathways or for
+instance if they are likely to disrupt protein function. This procedure is called
+annotation. Once we have gone through each of these steps we are ready to analyse drug
+resistant patterns, draw phylogenetic relationships or identify recent transmission of M.
+tuberculosis.</p>
+
+<p>You are now ready for performing bioinformatic analysis in Galaxy. Before we start we
+would like you to watch a short video on how Illumina sequencing works. Following that
+video we have prepared a webinar on mapping and variant calling of Illumina applied to
+MTBC. After watching it you will be hopefully able to know; how a reference genome is
+chosen, why we typically ignore some regions of the MTBC genomes or what is the difference
+between a fixed and a variable SNP and why do we care about it (among other things).</p>
+ </p>
+  <div class="accordion" id="accordionday2-2">
+  
+     
+
+     
+       <div class="accordion-item">
+ 
+ <div class="accordion-header" id="headingday2-20">
+  <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseday2-20" aria-expanded="false" aria-controls="collapseday2-20"> Illumina sequencing principle video
+  </button>
+ </div>
+
+ <div id="collapseday2-20" class="accordion-collapse collapse " aria-labelledby="headingday2-20" data-bs-parent="#accordionday2-2">
+
+  <div class="accordion-body">
+
+  
+
+  
+
+  
+
+  
+
+  
+    
+
+<p> This is a training session outside of the GTN. See below for more details. </p>
+
+<h3 class="session-section">Illumina sequencing principle video</h3>
+<p></p>
+
+
+
+
+
+<div style="position:relative;padding-top:56.25%;">
+   <iframe style="position:absolute;top:0;left:0;width:100%;height:100%;"
+    
+    data-src="https://www.youtube.com/embed/fCd6B5HRaZ8"
+    
+     class="lazyload"
+     loading="lazy"
+     frameborder="0"
+     title="YouTube Embedded Video of the Tutorial"
+     aria-label="YouTube Embedded Video of the Tutorial"
+     allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+     allowfullscreen>
+   </iframe>
+  </div>
+
+
+<div style="margin-top:1em;" class="video-metadata">
+ <table>
+  <tr>
+   <td><strong>Title:</strong></td>
+   <td>Illumina sequencing principle video</td>
+ </tr>
+ 
+ 
+ <tr>
+   <td><strong>Length:</strong></td>
+   <td>5m</td>
+ </tr>
+ 
+ 
+ 
+
+
+ 
+ </table>
+</div>
+
+  
+
+  
+
+  
+
+  
+
+  </div>
+ </div>
+</div> <!-- end session -->
+
+
+     
+  
+     
+
+     
+       <div class="accordion-item">
+ 
+ <div class="accordion-header" id="headingday2-21">
+  <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseday2-21" aria-expanded="false" aria-controls="collapseday2-21"> Webinar: Mapping and Variant calling
+  </button>
+ </div>
+
+ <div id="collapseday2-21" class="accordion-collapse collapse " aria-labelledby="headingday2-21" data-bs-parent="#accordionday2-2">
+
+  <div class="accordion-body">
+
+  
+
+  
+
+  
+
+  
+
+  
+    
+
+<p> This is a training session outside of the GTN. See below for more details. </p>
+
+<h3 class="session-section">Webinar: Mapping and Variant calling</h3>
+<p>Main bioinformatics steps involved in mapping and variant calling from Illumina short reads applied to MTBC</p>
+
+
+
+
+  <img src="/video-library/assets/images/comingsoon.jpg" alt="comingsoon" width="80%"/>
+
+
+<div style="margin-top:1em;" class="video-metadata">
+ <table>
+  <tr>
+   <td><strong>Title:</strong></td>
+   <td>Webinar: Mapping and Variant calling</td>
+ </tr>
+ 
+ <tr>
+   <td><strong>Description:</strong></td>
+   <td>Main bioinformatics steps involved in mapping and variant calling from Illumina short reads applied to MTBC</td>
+ </tr>
+ 
+ 
+ 
+ <tr>
+   <td><strong>Slides:</strong></td>
+   <td> <a href="https://docs.google.com/presentation/d/1Q3es-gIoMJ_otl_Wbd-JKZThhnZxZdL3gcYmRFJiAeU/edit?usp=sharing">link</a> </td>
+ </tr>
+ 
+ 
+
+
+ 
+ <tr>
+   <td><strong>Author(s):</strong></td>
+   <td> Daniela Brites </td>
+ </tr>
+ 
+ </table>
+</div>
+
+  
+
+  
+
+  
+
+  
+
+  </div>
+ </div>
+</div> <!-- end session -->
+
+
+     
+  
+     
+
+     
+       <div class="accordion-item">
+ 
+ <div class="accordion-header" id="headingday2-22">
+  <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseday2-22" aria-expanded="false" aria-controls="collapseday2-22"> Q&A session
+  </button>
+ </div>
+
+ <div id="collapseday2-22" class="accordion-collapse collapse " aria-labelledby="headingday2-22" data-bs-parent="#accordionday2-2">
+
+  <div class="accordion-body">
+
+  
+
+  
+
+  
+
+  
+
+  
+    
+
+<p> This is a training session outside of the GTN. See below for more details. </p>
+
+<h3 class="session-section">Q&A session</h3>
+<p>Discussion with the experts</p>
+
+
+
+<div style="margin-top:1em;" class="video-metadata">
+ <table>
+  <tr>
+   <td><strong>Title:</strong></td>
+   <td>Q&A session</td>
+ </tr>
+ 
+ <tr>
+   <td><strong>Description:</strong></td>
+   <td>Discussion with the experts</td>
+ </tr>
+ 
+ 
+ 
+ 
+
+
+ <tr>
+   <td><strong>Time</strong></td>
+   
+   
+   <td> 11:30-12:30 CET </td>
+   
+ </tr>
+ 
+ <tr>
+   <td><strong>Zoom Link (TODO)</strong></td>
+   
+   <td> <a href="TODO">link </a> </td>
+   
+   
+ </tr>
+ 
+ 
+
+ 
+ <tr>
+   <td><strong>Author(s):</strong></td>
+   <td> Daniela Brites & Galo A. Goig </td>
+ </tr>
+ 
+ </table>
+</div>
+
+  
+
+  
+
+  
+
+  
+
+  </div>
+ </div>
+</div> <!-- end session -->
+
+
+     
+  
+     
+
+     
+       
+       
+
+
+
+
+
+
+
+
+
+
+
+<div class="accordion-item">
+  
+  <div class="accordion-header" id="headingday2-23">
+   <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseday2-23" aria-expanded="false" aria-controls="collapseday2-23">
+        Tuberculosis Variant Analysis
+        
+   </button>
+  </div>
+
+  <div id="collapseday2-23" class="accordion-collapse collapse " aria-labelledby="headingday2-23" data-bs-parent="#accordionday2-2">
+
+    <div class="accordion-body">
+
+      <!-- Video -->
+      
+        <p>Variation in the genome of M. tuberculosis (Mtb) is associated with changes in phenotype, for example drug resistance and virulence. It is also useful for outbreak investigation as the single nucleotide polymorphisms (SNPs) in a sample can be used to build a phylogeny.</p>
+        
+          
+          
+          
+          
+          <!-- session: {"title"=>"Tuberculosis Variant Analysis", "description"=>"Variation in the genome of M. tuberculosis (Mtb) is associated with changes in phenotype, for example drug resistance and virulence. It is also useful for outbreak investigation as the single nucleotide polymorphisms (SNPs) in a sample can be used to build a phylogeny.", "videos"=>["variant-analysis/tb-variant-analysis/slides", "variant-analysis/tb-variant-analysis/tutorial"]}<br><br> video: {"captions"=>["shiltemann"], "date"=>"2021-02-15", "galaxy_version"=>"21.01", "length"=>"20M", "link"=>"yCC9EmLuyJg", "speakers"=>["pvanheus"], "name"=>"M. tuberculosis Variant Analysis"} -->
+
+
+
+
+
+<!-- determine the next archived version of tutorial -->
+
+
+
+
+<div class="flex-row" style="margin-top:1em;">
+ <div class="col-md-8">
+  <h3 class="session-section">M. tuberculosis Variant Analysis (Lecture)  </h3>
+  <div style="position:relative;padding-top:56.25%;">
+   <iframe style="position:absolute;top:0;left:0;width:100%;height:100%;"
+    
+    data-src="https://www.youtube.com/embed/yCC9EmLuyJg"
+    
+     class="lazyload"
+     loading="lazy"
+     frameborder="0"
+     title="YouTube Embedded Video of the Tutorial"
+     aria-label="YouTube Embedded Video of the Tutorial"
+     allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+     allowfullscreen>
+   </iframe>
+  </div>
+  <div style="margin-top:1em;" class="video-metadata">
+      <table>
+          
+          <tr>
+              <td><strong>Description:</strong></td>
+              <td>Tuberculosis (TB) is an infectious disease caused by the bacterium Mycobacterium tuberculosis. According to the WHO, in 2018 there were 10.0 million new cases of TB worldwide and 1.4 million deaths due to the disease, making TB the world’s most deadly infectious disease.</td>
+          </tr>
+          
+          <tr>
+              <td><strong>Length:</strong></td>
+              <td>20 minutes</td>
+          </tr>
+   
+   
+          <tr>
+              <td><strong>Captions:</strong></td>
+              <td> <a href="/video-library/contributors/shiltemann/">Saskia Hiltemann</a></td>
+          </tr>
+   
+          
+          <tr>
+              <td><strong>Created:</strong></td>
+              <td>15 February 2021</td>
+          </tr>
+          
+          
+          <tr>
+              <td><strong>Materials:</strong></td>
+              <td>
+                <ul class="plain-text-list">
+                
+                    <li>
+                        
+                            <img style="height: 1em" src="/video-library/assets/fa/slides.svg" alt="assets/fa/slides.svg" aria-hidden="true"/>
+                        
+
+
+                        
+                        
+                        <a href="https://docs.google.com/presentation/d/16XTMh2fRrl73WVaezNAFWET0IIMXBv0MCI2engFtdQs/edit#slide=id.g6231f48ea2_0_34">Slides</a>
+                        
+                    </li>
+                
+                </ul>
+              </td>
+          </tr>
+          
+          <!-- this is for the embedded versions where they'll use their own1 support forum -->
+          
+          <tr>
+              <td><strong>Support:</strong></td>
+              <td>
+              <ul>
+                
+                
+                <li>Slack: <a href="https://gtnsmrgsbord.slack.com/archives/variant-analysis_tb-variant-analysis">#variant-analysis_tb-variant-analysis</a> (<a href="https://join.slack.com/t/gtnsmrgsbord/shared_invite/zt-x7vinbs1-BA~Kht6N86JBhDq0uTIVdQ">Slack Invite</a>)</li>
+                <li><a href="https://gitter.im/Galaxy-Training-Network/Lobby">Gitter</a></li>
+                <li><a href="https://help.galaxyproject.org">Galaxy Help Forum</a></li>
+              </ul>
+              </td>
+          </tr>
+          
+          
+          
+          <tr>
+              <td><strong>Finished this tutorial as part of GTN Tapas?</strong></td>
+              <td>
+              <ol>
+                
+                
+                <li><a href="https://training.galaxyproject.org/training-material/faqs/galaxy/histories_sharing.html">Share your history</a> (if applicable)</li>
+                <li>Copy the URL</li>
+                <li>Run the command <code>/completed</code> with the URL to your shared history, in <a href="https://gtnsmrgsbord.slack.com/archives/variant-analysis_tb-variant-analysis">#variant-analysis_tb-variant-analysis</a></li>
+              </ol>
+              </td>
+          </tr>
+          
+      </table>
+
+  </div>
+  
+  Go to the <a href="/video-library/videos/variant-analysis/tb-variant-analysis/slides">video page</a> to see all versions.
+  
+ </div>
+ <!-- speaker(s) -->
+ 
+ 
+
+ <div class="col-md-3">
+  <center><h3 class="session-section">Speaker</h3></center>
+  
+
+
+
+
+
+
+
+<div class="hall-of-fame">
+    
+    
+    
+		<div class="hall-of-fame-hero" id="pvanheus">
+			<a href="/video-library/contributors/pvanheus/">
+            
+			<img src="https://avatars.githubusercontent.com/pvanheus" alt="">
+            
+			<div class="name">
+				<b>Peter van Heusden</b>
+			</div>
+			</a>
+			<div class="affil">
+				
+				<a href="https://www.sanbi.org/">
+					SANBI/UWC
+				</a>
+				
+			</div>
+		</div>
+	
+    
+</div>
+
+ </div>
+
+
+</div><!-- end video session -->
+
+
+
+        
+          
+          
+          
+          
+          <!-- session: {"title"=>"Tuberculosis Variant Analysis", "description"=>"Variation in the genome of M. tuberculosis (Mtb) is associated with changes in phenotype, for example drug resistance and virulence. It is also useful for outbreak investigation as the single nucleotide polymorphisms (SNPs) in a sample can be used to build a phylogeny.", "videos"=>["variant-analysis/tb-variant-analysis/slides", "variant-analysis/tb-variant-analysis/tutorial"]}<br><br> video: {"captions"=>["pvanheus", "nagoue", "hexylena"], "date"=>"2021-02-15", "galaxy_version"=>"21.01", "length"=>"40M", "link"=>"G1DmquX6Wh8", "speakers"=>["pvanheus"], "name"=>"M. tuberculosis Variant Analysis"} -->
+
+
+
+
+
+<!-- determine the next archived version of tutorial -->
+
+
+
+
+<div class="flex-row" style="margin-top:1em;">
+ <div class="col-md-8">
+  <h3 class="session-section">M. tuberculosis Variant Analysis (Tutorial)  </h3>
+  <div style="position:relative;padding-top:56.25%;">
+   <iframe style="position:absolute;top:0;left:0;width:100%;height:100%;"
+    
+    data-src="https://www.youtube.com/embed/G1DmquX6Wh8"
+    
+     class="lazyload"
+     loading="lazy"
+     frameborder="0"
+     title="YouTube Embedded Video of the Tutorial"
+     aria-label="YouTube Embedded Video of the Tutorial"
+     allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+     allowfullscreen>
+   </iframe>
+  </div>
+  <div style="margin-top:1em;" class="video-metadata">
+      <table>
+          
+          <tr>
+              <td><strong>Description:</strong></td>
+              <td>Variation in the genome of M. tuberculosis (Mtb) is associated with changes in phenotype, for example drug resistance and virulence. It is also useful for outbreak investigation as the single nucleotide polymorphisms (SNPs) in a sample can be used to build a phylogeny.</td>
+          </tr>
+          
+          <tr>
+              <td><strong>Length:</strong></td>
+              <td>40 minutes</td>
+          </tr>
+   
+   
+          <tr>
+              <td><strong>Captions:</strong></td>
+              <td> <a href="/video-library/contributors/pvanheus/">Peter van Heusden</a>,  <a href="/video-library/contributors/nagoue/">Nadia Goué</a>,  <a href="/video-library/contributors/hexylena/">Helena Rasche</a></td>
+          </tr>
+   
+          
+          <tr>
+              <td><strong>Created:</strong></td>
+              <td>15 February 2021</td>
+          </tr>
+          
+          
+          <tr>
+              <td><strong>Materials:</strong></td>
+              <td>
+                <ul class="plain-text-list">
+                
+                    <li>
+                        
+                            <img style="height: 1em" src="/video-library/assets/fa/tutorial.svg" alt="assets/fa/tutorial.svg" aria-hidden="true"/>
+                        
+
+
+                        
+                        
+                        Tutorial:
+                        <a href="https://training.galaxyproject.org/archive/2021-03-01/topics/variant-analysis/tutorials/tb-variant-analysis/tutorial.html">Archived Version</a>
+                        |
+                        <a href="https://training.galaxyproject.org/topics/variant-analysis/tutorials/tb-variant-analysis/tutorial.html">Latest Version</a>
+                        
+                        |
+                        
+                        <a href="https://training.galaxyproject.org/topics/variant-analysis/tutorials/tb-variant-analysis/faqs/">FAQs</a>
+                        
+                        
+                    </li>
+                
+                </ul>
+              </td>
+          </tr>
+          
+          <!-- this is for the embedded versions where they'll use their own1 support forum -->
+          
+          <tr>
+              <td><strong>Support:</strong></td>
+              <td>
+              <ul>
+                
+                
+                <li>Slack: <a href="https://gtnsmrgsbord.slack.com/archives/variant-analysis_tb-variant-analysis">#variant-analysis_tb-variant-analysis</a> (<a href="https://join.slack.com/t/gtnsmrgsbord/shared_invite/zt-x7vinbs1-BA~Kht6N86JBhDq0uTIVdQ">Slack Invite</a>)</li>
+                <li><a href="https://gitter.im/Galaxy-Training-Network/Lobby">Gitter</a></li>
+                <li><a href="https://help.galaxyproject.org">Galaxy Help Forum</a></li>
+              </ul>
+              </td>
+          </tr>
+          
+          
+          <tr>
+              <td><strong>Learning Objectives:</strong></td>
+              <td>
+                  <ul>
+                      
+                      <li>How should we filter those variants</li>
+                      
+                      <li>How can we predict drug resistance from those variants</li>
+                      
+                      <li>How do we annotate those variants</li>
+                      
+                  </ul>
+              </td>
+          </tr>
+          
+          
+          <tr>
+              <td><strong>Finished this tutorial as part of GTN Tapas?</strong></td>
+              <td>
+              <ol>
+                
+                
+                <li><a href="https://training.galaxyproject.org/training-material/faqs/galaxy/histories_sharing.html">Share your history</a> (if applicable)</li>
+                <li>Copy the URL</li>
+                <li>Run the command <code>/completed</code> with the URL to your shared history, in <a href="https://gtnsmrgsbord.slack.com/archives/variant-analysis_tb-variant-analysis">#variant-analysis_tb-variant-analysis</a></li>
+              </ol>
+              </td>
+          </tr>
+          
+      </table>
+
+  </div>
+  
+  Go to the <a href="/video-library/videos/variant-analysis/tb-variant-analysis/tutorial">video page</a> to see all versions.
+  
+ </div>
+ <!-- speaker(s) -->
+ 
+ 
+
+ <div class="col-md-3">
+  <center><h3 class="session-section">Speaker</h3></center>
+  
+
+
+
+
+
+
+
+<div class="hall-of-fame">
+    
+    
+    
+		<div class="hall-of-fame-hero" id="pvanheus">
+			<a href="/video-library/contributors/pvanheus/">
+            
+			<img src="https://avatars.githubusercontent.com/pvanheus" alt="">
+            
+			<div class="name">
+				<b>Peter van Heusden</b>
+			</div>
+			</a>
+			<div class="affil">
+				
+				<a href="https://www.sanbi.org/">
+					SANBI/UWC
+				</a>
+				
+			</div>
+		</div>
+	
+    
+</div>
+
+ </div>
+
+
+</div><!-- end video session -->
+
+
+
+        
+        Go to <a href="/video-library/sessions/variant-analysis/tb-variant-analysis/">session page</a>.
+      
+
+
+      <!-- Instructors -->
+      
+
+      <!-- Supporting Servers -->
+
+      <!-- Resources -->
+
+    </div><!-- end accordion body -->
+  </div><!-- end collapse -->
+</div><!-- end accordion item (training session) -->
+
+
+
+
+     
+  
+     
+
+     
+       <div class="accordion-item">
+ 
+ <div class="accordion-header" id="headingday2-24">
+  <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseday2-24" aria-expanded="false" aria-controls="collapseday2-24"> Q&A session
+  </button>
+ </div>
+
+ <div id="collapseday2-24" class="accordion-collapse collapse " aria-labelledby="headingday2-24" data-bs-parent="#accordionday2-2">
+
+  <div class="accordion-body">
+
+  
+
+  
+
+  
+
+  
+
+  
+    
+
+<p> This is a training session outside of the GTN. See below for more details. </p>
+
+<h3 class="session-section">Q&A session</h3>
+<p>Discussion with the experts</p>
+
+
+
+<div style="margin-top:1em;" class="video-metadata">
+ <table>
+  <tr>
+   <td><strong>Title:</strong></td>
+   <td>Q&A session</td>
+ </tr>
+ 
+ <tr>
+   <td><strong>Description:</strong></td>
+   <td>Discussion with the experts</td>
+ </tr>
+ 
+ 
+ 
+ 
+
+
+ <tr>
+   <td><strong>Time</strong></td>
+   
+   
+   <td> 16:30-17:30 CET </td>
+   
+ </tr>
+ 
+ <tr>
+   <td><strong>Zoom Link (TODO)</strong></td>
+   
+   <td> <a href="TODO">link </a> </td>
+   
+   
+ </tr>
+ 
+ 
+
+ 
+ <tr>
+   <td><strong>Author(s):</strong></td>
+   <td> Daniela Brites & Galo A. Goig </td>
+ </tr>
+ 
+ </table>
+</div>
+
+  
+
+  
+
+  
+
+  
+
+  </div>
+ </div>
+</div> <!-- end session -->
+
+
+     
+  
+  </div>
+
+  
+  
+  
+  <h3 class="module-start"> Day 3: Evolutionary epidemiology: using phylogenetics to understand DR emergence and Mtb transmission </h3>
+  
+  <p class="module-description"> <p>We are ready to analyse drug resistant patterns, draw phylogenetic relationships or
+identify recent transmission among the isolates we have sampled in our population. Before
+delving into the analysis of the genomes we would like to share with you some notions
+important to the inference of direct transmission and to the interpretation of drug
+resistant patterns.</p>
+ </p>
+  <div class="accordion" id="accordionday3">
+  
+     
+
+     
+       <div class="accordion-item">
+ 
+ <div class="accordion-header" id="headingday30">
+  <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseday30" aria-expanded="false" aria-controls="collapseday30"> Webinar: Drug resistance prediction
+  </button>
+ </div>
+
+ <div id="collapseday30" class="accordion-collapse collapse " aria-labelledby="headingday30" data-bs-parent="#accordionday3">
+
+  <div class="accordion-body">
+
+  
+
+  
+
+  
+
+  
+
+  
+    
+
+<p> This is a training session outside of the GTN. See below for more details. </p>
+
+<h3 class="session-section">Webinar: Drug resistance prediction</h3>
+<p>Principles of drug resistance detection from genomic data</p>
+
+
+
+
+  <img src="/video-library/assets/images/comingsoon.jpg" alt="comingsoon" width="80%"/>
+
+
+<div style="margin-top:1em;" class="video-metadata">
+ <table>
+  <tr>
+   <td><strong>Title:</strong></td>
+   <td>Webinar: Drug resistance prediction</td>
+ </tr>
+ 
+ <tr>
+   <td><strong>Description:</strong></td>
+   <td>Principles of drug resistance detection from genomic data</td>
+ </tr>
+ 
+ 
+ <tr>
+   <td><strong>Length:</strong></td>
+   <td>20m</td>
+ </tr>
+ 
+ 
+ 
+
+
+ 
+ <tr>
+   <td><strong>Author(s):</strong></td>
+   <td> Galo A. Goig </td>
+ </tr>
+ 
+ </table>
+</div>
+
+  
+
+  
+
+  
+
+  
+
+  </div>
+ </div>
+</div> <!-- end session -->
+
+
+     
+  
+     
+
+     
+       <div class="accordion-item">
+ 
+ <div class="accordion-header" id="headingday31">
+  <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseday31" aria-expanded="false" aria-controls="collapseday31"> Webinar: Phylogenetic and compensatory mutations
+  </button>
+ </div>
+
+ <div id="collapseday31" class="accordion-collapse collapse " aria-labelledby="headingday31" data-bs-parent="#accordionday3">
+
+  <div class="accordion-body">
+
+  
+
+  
+
+  
+
+  
+
+  
+    
+
+<p> This is a training session outside of the GTN. See below for more details. </p>
+
+<h3 class="session-section">Webinar: Phylogenetic and compensatory mutations</h3>
+<p>This video will introduce two types of mutations to take into account when studying
+drug resistance patterns
+</p>
+
+
+
+
+  <img src="/video-library/assets/images/comingsoon.jpg" alt="comingsoon" width="80%"/>
+
+
+<div style="margin-top:1em;" class="video-metadata">
+ <table>
+  <tr>
+   <td><strong>Title:</strong></td>
+   <td>Webinar: Phylogenetic and compensatory mutations</td>
+ </tr>
+ 
+ <tr>
+   <td><strong>Description:</strong></td>
+   <td>This video will introduce two types of mutations to take into account when studying
+drug resistance patterns
+</td>
+ </tr>
+ 
+ 
+ <tr>
+   <td><strong>Length:</strong></td>
+   <td>15m</td>
+ </tr>
+ 
+ 
+ 
+
+
+ 
+ <tr>
+   <td><strong>Author(s):</strong></td>
+   <td> Galo A. Goig </td>
+ </tr>
+ 
+ </table>
+</div>
+
+  
+
+  
+
+  
+
+  
+
+  </div>
+ </div>
+</div> <!-- end session -->
+
+
+     
+  
+     
+
+     
+       <div class="accordion-item">
+ 
+ <div class="accordion-header" id="headingday32">
+  <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseday32" aria-expanded="false" aria-controls="collapseday32"> Webinar: The concept of clustering
+  </button>
+ </div>
+
+ <div id="collapseday32" class="accordion-collapse collapse " aria-labelledby="headingday32" data-bs-parent="#accordionday3">
+
+  <div class="accordion-body">
+
+  
+
+  
+
+  
+
+  
+
+  
+    
+
+<p> This is a training session outside of the GTN. See below for more details. </p>
+
+<h3 class="session-section">Webinar: The concept of clustering</h3>
+<p>Main aspects of clustering analysis to infer transmission in MTBC</p>
+
+
+
+
+  <img src="/video-library/assets/images/comingsoon.jpg" alt="comingsoon" width="80%"/>
+
+
+<div style="margin-top:1em;" class="video-metadata">
+ <table>
+  <tr>
+   <td><strong>Title:</strong></td>
+   <td>Webinar: The concept of clustering</td>
+ </tr>
+ 
+ <tr>
+   <td><strong>Description:</strong></td>
+   <td>Main aspects of clustering analysis to infer transmission in MTBC</td>
+ </tr>
+ 
+ 
+ <tr>
+   <td><strong>Length:</strong></td>
+   <td>15m</td>
+ </tr>
+ 
+ 
+ 
+
+
+ 
+ <tr>
+   <td><strong>Author(s):</strong></td>
+   <td> Galo A. Goig </td>
+ </tr>
+ 
+ </table>
+</div>
+
+  
+
+  
+
+  
+
+  
+
+  </div>
+ </div>
+</div> <!-- end session -->
+
+
+     
+  
+     
+
+     
+       <div class="accordion-item">
+ 
+ <div class="accordion-header" id="headingday33">
+  <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseday33" aria-expanded="false" aria-controls="collapseday33"> Webinar: Genetic distance thresholds
+  </button>
+ </div>
+
+ <div id="collapseday33" class="accordion-collapse collapse " aria-labelledby="headingday33" data-bs-parent="#accordionday3">
+
+  <div class="accordion-body">
+
+  
+
+  
+
+  
+
+  
+
+  
+    
+
+<p> This is a training session outside of the GTN. See below for more details. </p>
+
+<h3 class="session-section">Webinar: Genetic distance thresholds</h3>
+<p>Clustering as an approximation to infer transmission</p>
+
+
+
+
+  <img src="/video-library/assets/images/comingsoon.jpg" alt="comingsoon" width="80%"/>
+
+
+<div style="margin-top:1em;" class="video-metadata">
+ <table>
+  <tr>
+   <td><strong>Title:</strong></td>
+   <td>Webinar: Genetic distance thresholds</td>
+ </tr>
+ 
+ <tr>
+   <td><strong>Description:</strong></td>
+   <td>Clustering as an approximation to infer transmission</td>
+ </tr>
+ 
+ 
+ <tr>
+   <td><strong>Length:</strong></td>
+   <td>15m</td>
+ </tr>
+ 
+ 
+ 
+
+
+ 
+ <tr>
+   <td><strong>Author(s):</strong></td>
+   <td> Galo A. Goig </td>
+ </tr>
+ 
+ </table>
+</div>
+
+  
+
+  
+
+  
+
+  
+
+  </div>
+ </div>
+</div> <!-- end session -->
+
+
+     
+  
+     
+
+     
+       <div class="accordion-item">
+ 
+ <div class="accordion-header" id="headingday34">
+  <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseday34" aria-expanded="false" aria-controls="collapseday34"> Hands-on: Performing clustering analysis & drug resistance prediction
+  </button>
+ </div>
+
+ <div id="collapseday34" class="accordion-collapse collapse " aria-labelledby="headingday34" data-bs-parent="#accordionday3">
+
+  <div class="accordion-body">
+
+  
+
+  
+
+  
+
+  
+
+  
+    
+
+<p> This is a training session outside of the GTN. See below for more details. </p>
+
+<h3 class="session-section">Hands-on: Performing clustering analysis & drug resistance prediction</h3>
+<p>Learning how to do clustering analysis and interpret drug resistance patterns</p>
+
+
+
+
+  <img src="/video-library/assets/images/comingsoon.jpg" alt="comingsoon" width="80%"/>
+
+
+<div style="margin-top:1em;" class="video-metadata">
+ <table>
+  <tr>
+   <td><strong>Title:</strong></td>
+   <td>Hands-on: Performing clustering analysis & drug resistance prediction</td>
+ </tr>
+ 
+ <tr>
+   <td><strong>Description:</strong></td>
+   <td>Learning how to do clustering analysis and interpret drug resistance patterns</td>
+ </tr>
+ 
+ 
+ <tr>
+   <td><strong>Length:</strong></td>
+   <td>2h</td>
+ </tr>
+ 
+ 
+ 
+
+
+ 
+ <tr>
+   <td><strong>Author(s):</strong></td>
+   <td> Galo A. Goig </td>
+ </tr>
+ 
+ </table>
+</div>
+
+  
+
+  
+
+  
+
+  
+
+  </div>
+ </div>
+</div> <!-- end session -->
+
+
+     
+  
+     
+
+     
+       <div class="accordion-item">
+ 
+ <div class="accordion-header" id="headingday35">
+  <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseday35" aria-expanded="false" aria-controls="collapseday35"> Q&A
+  </button>
+ </div>
+
+ <div id="collapseday35" class="accordion-collapse collapse " aria-labelledby="headingday35" data-bs-parent="#accordionday3">
+
+  <div class="accordion-body">
+
+  
+
+  
+
+  
+
+  
+
+  
+    
+
+<p> This is a training session outside of the GTN. See below for more details. </p>
+
+<h3 class="session-section">Q&A</h3>
+<p>Discussion with the experts</p>
+
+
+
+<div style="margin-top:1em;" class="video-metadata">
+ <table>
+  <tr>
+   <td><strong>Title:</strong></td>
+   <td>Q&A</td>
+ </tr>
+ 
+ <tr>
+   <td><strong>Description:</strong></td>
+   <td>Discussion with the experts</td>
+ </tr>
+ 
+ 
+ 
+ 
+
+
+ <tr>
+   <td><strong>Time</strong></td>
+   
+   
+   <td> 11:30-12:30 CET </td>
+   
+ </tr>
+ 
+ <tr>
+   <td><strong>Zoom (TODO)</strong></td>
+   
+   <td> <a href="TODO">link </a> </td>
+   
+   
+ </tr>
+ 
+ 
+
+ 
+ <tr>
+   <td><strong>Author(s):</strong></td>
+   <td> Galo A. Goig & Christoph Stritt </td>
+ </tr>
+ 
+ </table>
+</div>
+
+  
+
+  
+
+  
+
+  
+
+  </div>
+ </div>
+</div> <!-- end session -->
+
+
+     
+  
+     
+
+     
+       <div class="accordion-item">
+ 
+ <div class="accordion-header" id="headingday36">
+  <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseday36" aria-expanded="false" aria-controls="collapseday36"> Hands-on: Inference of phylogenetic trees
+  </button>
+ </div>
+
+ <div id="collapseday36" class="accordion-collapse collapse " aria-labelledby="headingday36" data-bs-parent="#accordionday3">
+
+  <div class="accordion-body">
+
+  
+
+  
+
+  
+
+  
+
+  
+    
+
+<p> This is a training session outside of the GTN. See below for more details. </p>
+
+<h3 class="session-section">Hands-on: Inference of phylogenetic trees</h3>
+<p>Main principles of phylogenetic inference, tree interpretation</p>
+
+
+
+
+  <img src="/video-library/assets/images/comingsoon.jpg" alt="comingsoon" width="80%"/>
+
+
+<div style="margin-top:1em;" class="video-metadata">
+ <table>
+  <tr>
+   <td><strong>Title:</strong></td>
+   <td>Hands-on: Inference of phylogenetic trees</td>
+ </tr>
+ 
+ <tr>
+   <td><strong>Description:</strong></td>
+   <td>Main principles of phylogenetic inference, tree interpretation</td>
+ </tr>
+ 
+ 
+ <tr>
+   <td><strong>Length:</strong></td>
+   <td>1h</td>
+ </tr>
+ 
+ 
+ 
+
+
+ 
+ <tr>
+   <td><strong>Author(s):</strong></td>
+   <td> Christoph Stritt </td>
+ </tr>
+ 
+ </table>
+</div>
+
+  
+
+  
+
+  
+
+  
+
+  </div>
+ </div>
+</div> <!-- end session -->
+
+
+     
+  
+     
+
+     
+       <div class="accordion-item">
+ 
+ <div class="accordion-header" id="headingday37">
+  <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseday37" aria-expanded="false" aria-controls="collapseday37"> Q&A
+  </button>
+ </div>
+
+ <div id="collapseday37" class="accordion-collapse collapse " aria-labelledby="headingday37" data-bs-parent="#accordionday3">
+
+  <div class="accordion-body">
+
+  
+
+  
+
+  
+
+  
+
+  
+    
+
+<p> This is a training session outside of the GTN. See below for more details. </p>
+
+<h3 class="session-section">Q&A</h3>
+<p>Discussion with the experts</p>
+
+
+
+<div style="margin-top:1em;" class="video-metadata">
+ <table>
+  <tr>
+   <td><strong>Title:</strong></td>
+   <td>Q&A</td>
+ </tr>
+ 
+ <tr>
+   <td><strong>Description:</strong></td>
+   <td>Discussion with the experts</td>
+ </tr>
+ 
+ 
+ 
+ 
+
+
+ <tr>
+   <td><strong>Time</strong></td>
+   
+   
+   <td> 16:30-17:30 CET </td>
+   
+ </tr>
+ 
+ <tr>
+   <td><strong>Zoom (TODO)</strong></td>
+   
+   <td> <a href="TODO">link </a> </td>
+   
+   
+ </tr>
+ 
+ 
+
+ 
+ <tr>
+   <td><strong>Author(s):</strong></td>
+   <td> Galo A. Goig & Christoph Stritt </td>
+ </tr>
+ 
+ </table>
+</div>
+
+  
+
+  
+
+  
+
+  
+
+  </div>
+ </div>
+</div> <!-- end session -->
+
+
+     
+  
+  </div>
+
+  
+  
+  
+  <h3 class="module-start"> Day 4 </h3>
+  
+  <p class="module-description"> 
+ </p>
+  <div class="accordion" id="accordionday4">
+  
+  </div>
+
+  
+  
+  
+  <h4 class="module-start"> Session 1: Webtools dedicated to MTBC bioinformatics </h4>
+  
+  <p class="module-description"> <p>The use of whole-genome sequencing (WGS) for antibiotic resistance prediction and routine
+typing of bacterial isolates has increased substantially in recent years. To date a
+multitude of solutions for analyzing WGS data of the Mycobacterium tuberculosis complex
+(MTBC) data have been developed. In the first part of the 4th day of this workshop, we
+introduce some freely available webtools and open source pipelines designed to analyze
+MTBC sequence data and we’ll provide some examples of how these tools work and how to
+interpret the results.</p>
+ </p>
+  <div class="accordion" id="accordionday4-1">
+  
+     
+
+     
+       <div class="accordion-item">
+ 
+ <div class="accordion-header" id="headingday4-10">
+  <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseday4-10" aria-expanded="false" aria-controls="collapseday4-10"> Webinar: Fast identification of bacterial strains from raw sequencing reads
+  </button>
+ </div>
+
+ <div id="collapseday4-10" class="accordion-collapse collapse " aria-labelledby="headingday4-10" data-bs-parent="#accordionday4-1">
+
+  <div class="accordion-body">
+
+  
+
+  
+
+  
+
+  
+
+  
+    
+
+<p> This is a training session outside of the GTN. See below for more details. </p>
+
+<h3 class="session-section">Webinar: Fast identification of bacterial strains from raw sequencing reads</h3>
+<p>Introduction to most common web tools for fast identification of bacterial species from raw sequencing reads</p>
+
+
+
+
+  <img src="/video-library/assets/images/comingsoon.jpg" alt="comingsoon" width="80%"/>
+
+
+<div style="margin-top:1em;" class="video-metadata">
+ <table>
+  <tr>
+   <td><strong>Title:</strong></td>
+   <td>Webinar: Fast identification of bacterial strains from raw sequencing reads</td>
+ </tr>
+ 
+ <tr>
+   <td><strong>Description:</strong></td>
+   <td>Introduction to most common web tools for fast identification of bacterial species from raw sequencing reads</td>
+ </tr>
+ 
+ 
+ <tr>
+   <td><strong>Length:</strong></td>
+   <td>30m</td>
+ </tr>
+ 
+ 
+ 
+
+
+ 
+ <tr>
+   <td><strong>Author(s):</strong></td>
+   <td> Arash Ghodousi </td>
+ </tr>
+ 
+ </table>
+</div>
+
+  
+
+  
+
+  
+
+  
+
+  </div>
+ </div>
+</div> <!-- end session -->
+
+
+     
+  
+     
+
+     
+       <div class="accordion-item">
+ 
+ <div class="accordion-header" id="headingday4-11">
+  <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseday4-11" aria-expanded="false" aria-controls="collapseday4-11"> Webinar: Web tools for analysis of MTBC sequenced data
+  </button>
+ </div>
+
+ <div id="collapseday4-11" class="accordion-collapse collapse " aria-labelledby="headingday4-11" data-bs-parent="#accordionday4-1">
+
+  <div class="accordion-body">
+
+  
+
+  
+
+  
+
+  
+
+  
+    
+
+<p> This is a training session outside of the GTN. See below for more details. </p>
+
+<h3 class="session-section">Webinar: Web tools for analysis of MTBC sequenced data</h3>
+<p>This video will introduce web tools designed for analysis of MTBC sequenced data</p>
+
+
+
+
+  <img src="/video-library/assets/images/comingsoon.jpg" alt="comingsoon" width="80%"/>
+
+
+<div style="margin-top:1em;" class="video-metadata">
+ <table>
+  <tr>
+   <td><strong>Title:</strong></td>
+   <td>Webinar: Web tools for analysis of MTBC sequenced data</td>
+ </tr>
+ 
+ <tr>
+   <td><strong>Description:</strong></td>
+   <td>This video will introduce web tools designed for analysis of MTBC sequenced data</td>
+ </tr>
+ 
+ 
+ <tr>
+   <td><strong>Length:</strong></td>
+   <td>45m</td>
+ </tr>
+ 
+ 
+ 
+
+
+ 
+ <tr>
+   <td><strong>Author(s):</strong></td>
+   <td> Arash Ghodousi </td>
+ </tr>
+ 
+ </table>
+</div>
+
+  
+
+  
+
+  
+
+  
+
+  </div>
+ </div>
+</div> <!-- end session -->
+
+
+     
+  
+     
+
+     
+       <div class="accordion-item">
+ 
+ <div class="accordion-header" id="headingday4-12">
+  <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseday4-12" aria-expanded="false" aria-controls="collapseday4-12"> Webinar: Introduction to the MTBseq pipeline
+  </button>
+ </div>
+
+ <div id="collapseday4-12" class="accordion-collapse collapse " aria-labelledby="headingday4-12" data-bs-parent="#accordionday4-1">
+
+  <div class="accordion-body">
+
+  
+
+  
+
+  
+
+  
+
+  
+    
+
+<p> This is a training session outside of the GTN. See below for more details. </p>
+
+<h3 class="session-section">Webinar: Introduction to the MTBseq pipeline</h3>
+<p>Introduction to MTBseq pipeline, an automated pipeline for mapping, variant calling and detection of resistance mediating and phylogenetic variants from whole genome sequence data of MTBC</p>
+
+
+
+
+  <img src="/video-library/assets/images/comingsoon.jpg" alt="comingsoon" width="80%"/>
+
+
+<div style="margin-top:1em;" class="video-metadata">
+ <table>
+  <tr>
+   <td><strong>Title:</strong></td>
+   <td>Webinar: Introduction to the MTBseq pipeline</td>
+ </tr>
+ 
+ <tr>
+   <td><strong>Description:</strong></td>
+   <td>Introduction to MTBseq pipeline, an automated pipeline for mapping, variant calling and detection of resistance mediating and phylogenetic variants from whole genome sequence data of MTBC</td>
+ </tr>
+ 
+ 
+ <tr>
+   <td><strong>Length:</strong></td>
+   <td>30m</td>
+ </tr>
+ 
+ 
+ 
+
+
+ 
+ <tr>
+   <td><strong>Author(s):</strong></td>
+   <td> Arash Ghodousi </td>
+ </tr>
+ 
+ </table>
+</div>
+
+  
+
+  
+
+  
+
+  
+
+  </div>
+ </div>
+</div> <!-- end session -->
+
+
+     
+  
+     
+
+     
+       <div class="accordion-item">
+ 
+ <div class="accordion-header" id="headingday4-13">
+  <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseday4-13" aria-expanded="false" aria-controls="collapseday4-13"> Webinar: Demonstration of data analysis using webtools
+  </button>
+ </div>
+
+ <div id="collapseday4-13" class="accordion-collapse collapse " aria-labelledby="headingday4-13" data-bs-parent="#accordionday4-1">
+
+  <div class="accordion-body">
+
+  
+
+  
+
+  
+
+  
+
+  
+    
+
+<p> This is a training session outside of the GTN. See below for more details. </p>
+
+<h3 class="session-section">Webinar: Demonstration of data analysis using webtools</h3>
+<p>Demonstration of how to use most common web tools for analysis of MTBC sequenced data</p>
+
+
+
+
+  <img src="/video-library/assets/images/comingsoon.jpg" alt="comingsoon" width="80%"/>
+
+
+<div style="margin-top:1em;" class="video-metadata">
+ <table>
+  <tr>
+   <td><strong>Title:</strong></td>
+   <td>Webinar: Demonstration of data analysis using webtools</td>
+ </tr>
+ 
+ <tr>
+   <td><strong>Description:</strong></td>
+   <td>Demonstration of how to use most common web tools for analysis of MTBC sequenced data</td>
+ </tr>
+ 
+ 
+ <tr>
+   <td><strong>Length:</strong></td>
+   <td>45m</td>
+ </tr>
+ 
+ 
+ 
+
+
+ 
+ <tr>
+   <td><strong>Author(s):</strong></td>
+   <td> Arash Ghodousi </td>
+ </tr>
+ 
+ </table>
+</div>
+
+  
+
+  
+
+  
+
+  
+
+  </div>
+ </div>
+</div> <!-- end session -->
+
+
+     
+  
+     
+
+     
+       <div class="accordion-item">
+ 
+ <div class="accordion-header" id="headingday4-14">
+  <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseday4-14" aria-expanded="false" aria-controls="collapseday4-14"> Q&A
+  </button>
+ </div>
+
+ <div id="collapseday4-14" class="accordion-collapse collapse " aria-labelledby="headingday4-14" data-bs-parent="#accordionday4-1">
+
+  <div class="accordion-body">
+
+  
+
+  
+
+  
+
+  
+
+  
+    
+
+<p> This is a training session outside of the GTN. See below for more details. </p>
+
+<h3 class="session-section">Q&A</h3>
+<p>Discussion with the experts</p>
+
+
+
+<div style="margin-top:1em;" class="video-metadata">
+ <table>
+  <tr>
+   <td><strong>Title:</strong></td>
+   <td>Q&A</td>
+ </tr>
+ 
+ <tr>
+   <td><strong>Description:</strong></td>
+   <td>Discussion with the experts</td>
+ </tr>
+ 
+ 
+ 
+ 
+
+
+ <tr>
+   <td><strong>Time</strong></td>
+   
+   
+   <td> 11:30-12:30 CET </td>
+   
+ </tr>
+ 
+ <tr>
+   <td><strong>Zoom (TODO)</strong></td>
+   
+   <td> <a href="TODO">link </a> </td>
+   
+   
+ </tr>
+ 
+ 
+
+ 
+ <tr>
+   <td><strong>Author(s):</strong></td>
+   <td> Arash Ghodousi & Andrea Spitaleri </td>
+ </tr>
+ 
+ </table>
+</div>
+
+  
+
+  
+
+  
+
+  
+
+  </div>
+ </div>
+</div> <!-- end session -->
+
+
+     
+  
+  </div>
+
+  
+  
+  
+  <h4 class="module-start"> Session 2: Be a bioinformatician in the jungle </h4>
+  
+  <p class="module-description"> <p>On Day 2 and 3 you have learned how you could use galaxy for analysing your own data.
+Establishing your own workflows in galaxy would allow you combining different tools and
+build your own pipeline without having to know how to program. If you are not so
+interested in having your own pipeline, webtools for WGS analysis can be very useful, as
+we have shown in the previous session.</p>
+
+<p>However, in the last part of the training we would like to convey to you what it would
+take if would want to run Linux via the command line.  The Linux operating system will be
+introduced, how to perform basic tasks using the Unix shell and how to install and run
+pipelines on the command line. You will learn the power of the Unix shell in performing
+complex and powerful tasks, often with just a few keystrokes or lines of code. In fact,
+Unix shell helps users automate repetitive tasks and easily combine smaller tasks into
+larger, more powerful workflows (i.e. pipelines). Use of the shell is fundamental to a
+wide range of advanced computing tasks, including high-performance computing. These
+webinars will introduce you to this powerful tool. Which approach to choose, Galaxy
+workflows, Webtools or native Linux depends on your needs, your interests and what
+computer resources you have available.</p>
+ </p>
+  <div class="accordion" id="accordionday4-2">
+  
+     
+
+     
+       <div class="accordion-item">
+ 
+ <div class="accordion-header" id="headingday4-20">
+  <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseday4-20" aria-expanded="false" aria-controls="collapseday4-20"> Webinar: Introduction to Linux
+  </button>
+ </div>
+
+ <div id="collapseday4-20" class="accordion-collapse collapse " aria-labelledby="headingday4-20" data-bs-parent="#accordionday4-2">
+
+  <div class="accordion-body">
+
+  
+
+  
+
+  
+
+  
+
+  
+    
+
+<p> This is a training session outside of the GTN. See below for more details. </p>
+
+<h3 class="session-section">Webinar: Introduction to Linux</h3>
+<p>Introduction to Linux OS: installation and usage</p>
+
+
+
+
+  <img src="/video-library/assets/images/comingsoon.jpg" alt="comingsoon" width="80%"/>
+
+
+<div style="margin-top:1em;" class="video-metadata">
+ <table>
+  <tr>
+   <td><strong>Title:</strong></td>
+   <td>Webinar: Introduction to Linux</td>
+ </tr>
+ 
+ <tr>
+   <td><strong>Description:</strong></td>
+   <td>Introduction to Linux OS: installation and usage</td>
+ </tr>
+ 
+ 
+ <tr>
+   <td><strong>Length:</strong></td>
+   <td>30m</td>
+ </tr>
+ 
+ 
+ 
+
+
+ 
+ <tr>
+   <td><strong>Author(s):</strong></td>
+   <td> Andrea Spitaleri </td>
+ </tr>
+ 
+ </table>
+</div>
+
+  
+
+  
+
+  
+
+  
+
+  </div>
+ </div>
+</div> <!-- end session -->
+
+
+     
+  
+     
+
+     
+       <div class="accordion-item">
+ 
+ <div class="accordion-header" id="headingday4-21">
+  <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseday4-21" aria-expanded="false" aria-controls="collapseday4-21"> Webinar: How to run programs (Python, Docker, Singularity)
+  </button>
+ </div>
+
+ <div id="collapseday4-21" class="accordion-collapse collapse " aria-labelledby="headingday4-21" data-bs-parent="#accordionday4-2">
+
+  <div class="accordion-body">
+
+  
+
+  
+
+  
+
+  
+
+  
+    
+
+<p> This is a training session outside of the GTN. See below for more details. </p>
+
+<h3 class="session-section">Webinar: How to run programs (Python, Docker, Singularity)</h3>
+<p>Learning how to install and use programs to analyze data</p>
+
+
+
+
+
+<div style="position:relative;padding-top:56.25%;">
+   <iframe style="position:absolute;top:0;left:0;width:100%;height:100%;"
+    
+    data-src="https://www.youtube.com/embed/missing"
+    
+     class="lazyload"
+     loading="lazy"
+     frameborder="0"
+     title="YouTube Embedded Video of the Tutorial"
+     aria-label="YouTube Embedded Video of the Tutorial"
+     allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+     allowfullscreen>
+   </iframe>
+  </div>
+
+
+<div style="margin-top:1em;" class="video-metadata">
+ <table>
+  <tr>
+   <td><strong>Title:</strong></td>
+   <td>Webinar: How to run programs (Python, Docker, Singularity)</td>
+ </tr>
+ 
+ <tr>
+   <td><strong>Description:</strong></td>
+   <td>Learning how to install and use programs to analyze data</td>
+ </tr>
+ 
+ 
+ <tr>
+   <td><strong>Length:</strong></td>
+   <td>30m</td>
+ </tr>
+ 
+ 
+ 
+
+
+ 
+ <tr>
+   <td><strong>Author(s):</strong></td>
+   <td> Andrea Spitaleri </td>
+ </tr>
+ 
+ </table>
+</div>
+
+  
+
+  
+
+  
+
+  
+
+  </div>
+ </div>
+</div> <!-- end session -->
+
+
+     
+  
+     
+
+     
+       <div class="accordion-item">
+ 
+ <div class="accordion-header" id="headingday4-22">
+  <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseday4-22" aria-expanded="false" aria-controls="collapseday4-22"> Webinar: Demo on how to run the Linux command line
+  </button>
+ </div>
+
+ <div id="collapseday4-22" class="accordion-collapse collapse " aria-labelledby="headingday4-22" data-bs-parent="#accordionday4-2">
+
+  <div class="accordion-body">
+
+  
+
+  
+
+  
+
+  
+
+  
+    
+
+<p> This is a training session outside of the GTN. See below for more details. </p>
+
+<h3 class="session-section">Webinar: Demo on how to run the Linux command line</h3>
+<p>Demo video on how to use the shell commands</p>
+
+
+
+
+  <img src="/video-library/assets/images/comingsoon.jpg" alt="comingsoon" width="80%"/>
+
+
+<div style="margin-top:1em;" class="video-metadata">
+ <table>
+  <tr>
+   <td><strong>Title:</strong></td>
+   <td>Webinar: Demo on how to run the Linux command line</td>
+ </tr>
+ 
+ <tr>
+   <td><strong>Description:</strong></td>
+   <td>Demo video on how to use the shell commands</td>
+ </tr>
+ 
+ 
+ <tr>
+   <td><strong>Length:</strong></td>
+   <td>30m</td>
+ </tr>
+ 
+ 
+ 
+
+
+ 
+ <tr>
+   <td><strong>Author(s):</strong></td>
+   <td> Andrea Spitaleri </td>
+ </tr>
+ 
+ </table>
+</div>
+
+  
+
+  
+
+  
+
+  
+
+  </div>
+ </div>
+</div> <!-- end session -->
+
+
+     
+  
+     
+
+     
+       <div class="accordion-item">
+ 
+ <div class="accordion-header" id="headingday4-23">
+  <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseday4-23" aria-expanded="false" aria-controls="collapseday4-23"> [Optional] Hands-on: The Unix Shell
+  </button>
+ </div>
+
+ <div id="collapseday4-23" class="accordion-collapse collapse " aria-labelledby="headingday4-23" data-bs-parent="#accordionday4-2">
+
+  <div class="accordion-body">
+
+  
+
+  
+
+  
+
+  
+
+  
+    
+
+<p> This is a training session outside of the GTN. See below for more details. </p>
+
+<h3 class="session-section">[Optional] Hands-on: The Unix Shell</h3>
+<p>Recommended tutorial from software carpentries to those wanting to learn Linux.</p>
+
+
+
+<div style="margin-top:1em;" class="video-metadata">
+ <table>
+  <tr>
+   <td><strong>Title:</strong></td>
+   <td>[Optional] Hands-on: The Unix Shell</td>
+ </tr>
+ 
+ <tr>
+   <td><strong>Description:</strong></td>
+   <td>Recommended tutorial from software carpentries to those wanting to learn Linux.</td>
+ </tr>
+ 
+ 
+ <tr>
+   <td><strong>Length:</strong></td>
+   <td>4h</td>
+ </tr>
+ 
+ 
+ 
+ <tr>
+   <td><strong>Tutorial:</strong></td>
+   <td> <a href="https://swcarpentry.github.io/shell-novice/">link</a> </td>
+ </tr>
+ 
+
+
+ 
+ <tr>
+   <td><strong>Author(s):</strong></td>
+   <td> Andrea Spitaleri </td>
+ </tr>
+ 
+ </table>
+</div>
+
+  
+
+  
+
+  
+
+  
+
+  </div>
+ </div>
+</div> <!-- end session -->
+
+
+     
+  
+     
+
+     
+       <div class="accordion-item">
+ 
+ <div class="accordion-header" id="headingday4-24">
+  <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseday4-24" aria-expanded="false" aria-controls="collapseday4-24"> Q&A
+  </button>
+ </div>
+
+ <div id="collapseday4-24" class="accordion-collapse collapse " aria-labelledby="headingday4-24" data-bs-parent="#accordionday4-2">
+
+  <div class="accordion-body">
+
+  
+
+  
+
+  
+
+  
+
+  
+    
+
+<p> This is a training session outside of the GTN. See below for more details. </p>
+
+<h3 class="session-section">Q&A</h3>
+<p>Discussion with the experts</p>
+
+
+
+<div style="margin-top:1em;" class="video-metadata">
+ <table>
+  <tr>
+   <td><strong>Title:</strong></td>
+   <td>Q&A</td>
+ </tr>
+ 
+ <tr>
+   <td><strong>Description:</strong></td>
+   <td>Discussion with the experts</td>
+ </tr>
+ 
+ 
+ 
+ 
+
+
+ <tr>
+   <td><strong>Time</strong></td>
+   
+   
+   <td> 16:30-17:30 CET </td>
+   
+ </tr>
+ 
+ <tr>
+   <td><strong>Zoom (TODO)</strong></td>
+   
+   <td> <a href="TODO">link </a> </td>
+   
+   
+ </tr>
+ 
+ 
+
+ 
+ <tr>
+   <td><strong>Author(s):</strong></td>
+   <td> Arash Ghodousi & Andrea Spitaleri </td>
+ </tr>
+ 
+ </table>
+</div>
+
+  
+
+  
+
+  
+
+  
+
+  </div>
+ </div>
+</div> <!-- end session -->
+
+
+     
+  
+  </div>
+
+  
+  
+  
+  <h3 class="module-start"> Day 5 </h3>
+  
+  <p class="module-description"> <p>Today all experts will  be available to answer your questions and discuss any
+of the tutorials, webinars or questions related to your own data. Meet with us at the
+zoom link!</p>
+ </p>
+  <div class="accordion" id="accordionday5">
+  
+     
+
+     
+       <div class="accordion-item">
+ 
+ <div class="accordion-header" id="headingday50">
+  <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseday50" aria-expanded="false" aria-controls="collapseday50"> Q&A
+  </button>
+ </div>
+
+ <div id="collapseday50" class="accordion-collapse collapse " aria-labelledby="headingday50" data-bs-parent="#accordionday5">
+
+  <div class="accordion-body">
+
+  
+
+  
+
+  
+
+  
+
+  
+    
+
+<p> This is a training session outside of the GTN. See below for more details. </p>
+
+<h3 class="session-section">Q&A</h3>
+<p>Discussion with the experts</p>
+
+
+
+<div style="margin-top:1em;" class="video-metadata">
+ <table>
+  <tr>
+   <td><strong>Title:</strong></td>
+   <td>Q&A</td>
+ </tr>
+ 
+ <tr>
+   <td><strong>Description:</strong></td>
+   <td>Discussion with the experts</td>
+ </tr>
+ 
+ 
+ 
+ 
+
+
+ <tr>
+   <td><strong>Time</strong></td>
+   
+   
+   <td> 10:00-12:30 CET </td>
+   
+ </tr>
+ 
+ <tr>
+   <td><strong>Zoom (TODO)</strong></td>
+   
+   <td> <a href="TODO">link </a> </td>
+   
+   
+ </tr>
+ 
+ 
+
+ 
+ <tr>
+   <td><strong>Author(s):</strong></td>
+   <td> All </td>
+ </tr>
+ 
+ </table>
+</div>
+
+  
+
+  
+
+  
+
+  
+
+  </div>
+ </div>
+</div> <!-- end session -->
+
+
+     
+  
+  </div>
+
+
+
+
+      </div>
+    </main><footer class="site-footer h-card">
+  <data class="u-url" href="/video-library/"></data>
+
+  <div class="wrapper">
+
+    <div class="row">
+        <div class="col-md-4">
+            <h2 class="footer-heading">
+             <img src="/video-library/assets/images/logos/gallantries.png" alt="Logo for the Gallantries project"  width="30em"/>
+             GTN Video Library
+            </h2>
+        </div>
+        <div class="col-md-4">
+          <p>Everyone participating is expected to abide by the <a href="https://galaxyproject.org/community/coc/">Code of Conduct</a></p>
+        </div>
+        <div class="col-md-4">
+            <img src="/video-library/assets/images/logos/erasmusplus.jpg" alt="european flag with text: With the support of the Erasmus+ Programme of the European Union."/>
+                    </div>
+    </div>
+	This project (<a href="https://ec.europa.eu/programmes/erasmus-plus/projects/eplus-project-details/#project/2020-1-NL01-KA203-064717">2020-1-NL01-KA203-064717</a>) is funded with the support of the Erasmus+ programme of the European Union.
+
+  </div>
+
+</footer>
+</body>
+
+
+</html>
