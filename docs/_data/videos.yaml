@@ -289,7 +289,8 @@ ecology/Obitools-metabarcoding/tutorial:
   - ecology
   type: Lecture
   versions:
-  - captions: [] # TODO: Waiting for receipt.
+  - captions:
+    - yvanlebras
     date: '2022-03-03'
     galaxy_version: '21.09'
     length: 1H15M
