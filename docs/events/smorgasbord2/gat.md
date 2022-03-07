@@ -5,13 +5,13 @@ title: "Galaxy Admin Training @ GTN Tapas"
 status: draft # draft, final (default)
 description: "Free, Global, Online Week of Galaxy Admin Training"
 location: Online
-instructors: [hexylena, natefoo, slugger70, nsoranzo, mvdbeek]
+instructors: [hexylena, natefoo, slugger70, nsoranzo, mvdbeek, cat-bro]
 date:
   start: 2022-03-14
   end: 2022-03-18
 registration: "https://docs.google.com/forms/d/e/1FAIpQLSeoBxpkddbCXQps6p71lWit09Tt3qBQ1ewWraz4k0XmaX4_yg/viewform?usp=sf_link"
 cost: free
-contacts: [hexylena, shiltemann]
+contacts: [hexylena]
 
 program:
   galaxyintro:
