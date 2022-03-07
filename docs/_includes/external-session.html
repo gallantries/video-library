@@ -7,6 +7,10 @@
 
 
 {% if include.config.video %}
+{% if include.config.video == "todo" %}
+  <img src="{{site.baseurl}}/assets/images/comingsoon.jpg" alt="comingsoon" width="80%"/>
+{% else %}
+
 <div style="position:relative;padding-top:56.25%;">
    <iframe style="position:absolute;top:0;left:0;width:100%;height:100%;"
     {% if include.config.video contains 'http' %}
@@ -24,7 +28,7 @@
    </iframe>
   </div>
 {% endif %}
-
+{% endif %}
 <div style="margin-top:1em;" class="video-metadata">
  <table>
   <tr>
@@ -56,15 +60,24 @@
  </tr>
  {% endif %}
 {% if include.config.other %}
+{% for mat in include.config.other %}
  <tr>
-   <td><strong>Material:</strong></td>
-   <td> <a href="{{ include.config.other }}">link </a> </td>
+   <td><strong>{{mat.label}}</strong></td>
+   {% if mat.link %}
+   <td> <a href="{{ mat.link }}">link </a> </td>
+   {% endif %}
+   {% if mat.value %}
+   <td> {{mat.value}} </td>
+   {% endif %}
  </tr>
+ {% endfor %}
  {% endif %}
 
+ {% if include.config.author %}
  <tr>
    <td><strong>Author(s):</strong></td>
    <td> {{ include.config.author }} </td>
  </tr>
+ {% endif %}
  </table>
 </div>

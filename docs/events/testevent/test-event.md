@@ -12,6 +12,10 @@ date:
 registration: "https://example.com/registration"
 cost: free
 contacts: [shiltemann, hexylena]
+
+practical:  # anything else you want to list in the practical session can go here
+  - name: My custom Info
+    text: Anything else you want to list in practical info section
 example: true
 
 setup:
@@ -74,7 +78,11 @@ program:
           length: 1h35m
           slides: "https://galaxyproject.org/"
           tutorial: "https://galaxyproject.org/"
-          other: "https://galaxyproject.org/"
+          other:    # Any other info you want to apear in the table
+            - label: Home Page
+              link: "https://galaxyproject.org/"
+            - label: Time
+              value: "11:30-12:30 CET"
           author: "External Person X"
 
 

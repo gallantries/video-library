@@ -14,7 +14,7 @@ layout: default
 
 <h1> {{ event.title }} </h1>
 
-{{ event.description }}
+{{ event.description | markdownify }}
 
 
 <h2 class="section-header"> Practical Information </h2>
@@ -23,22 +23,38 @@ layout: default
 	<dt>Dates</dt>
 	<dd>{% include dates.html %}</dd>
 
-	{% if page.location %}
-	<dt>Location</dt>
+    {% if page.location %}
+	<dt>Location:</dt>
 	<dd>{{ page.location }}</dd>
 	{% endif %}
 
-    {% if page.format %}
-	<dt>Format</dt>
-	<dd>{{ page.format }}</dd>
+    {% if page.audience %}
+	<dt>Who:</dt>
+	<dd>{{ page.audience }}</dd>
 	{% endif %}
 
-	{% if page.cost %}
-	<dt>Cost</dt>
+    {% if page.cost %}
+	<dt>Cost:</dt>
 	<dd>{{ page.cost }}</dd>
 	{% endif %}
 
-	<dt>Contact</dt>
+    {% if page.format %}
+	<dt>Format:</dt>
+	<dd>{{ page.format }}</dd>
+	{% endif %}
+
+	{% if page.support %}
+	<dt>Support:</dt>
+	<dd>{{ page.support | markdownify }}</dd>
+	{% endif %}
+
+ 	{% for p in page.practical %}
+	<dt>{{p.name}}:</dt>
+	<dd>{{ p.text | markdownify }}</dd>
+	{% endfor %}
+
+
+	<dt>Contact:</dt>
 	<dd>{% for c in page.contacts %}<a href="mailto:{{site.data.instructors[c].email}}">{{site.data.instructors[c].name}}</a>{% unless forloop.last %}, {% endunless %}{% endfor %}</dd>
 
 	{% if page.registration %}
@@ -48,13 +64,17 @@ layout: default
 
 </dl>
 {% include calendar-buttons.html %}
+<br><br>
 
-
+{% if page.program %}
 <h2 class="section-header"> Program </h2>
 
 Below you will find all the tutorials for this course, everything you need to follow this course is listed here.
 
 {% include course-handbook.html program=event.program instructors=event.instructors %}
+
+{% endif %}
+
 
 {% if page.formatting_lang == "html" %}
   {{ content }}
@@ -62,6 +82,7 @@ Below you will find all the tutorials for this course, everything you need to fo
   {{ content | markdownify }}
 {% endif %}
 
+{% if page.program %}
 
 <h2 class="section-header">This event was brought to you by..</h2>
 
@@ -71,4 +92,4 @@ Below you will find all the tutorials for this course, everything you need to fo
  {% include speakers.html speakers=page.instructors %}
 {% endif %}
 
-
+{% endif %}
