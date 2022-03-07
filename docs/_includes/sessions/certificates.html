@@ -8,10 +8,17 @@
    <div class="card-body">
     <h5 class="card-title">Request a certificate of attendance.</h5>
     <p class="card-text">
-        In order to request a certificate, you can use the <code>/request-certificate</code> command in Slack, do this in any channel (not a DM!) or in a message to <a href="https://gtnsmrgsbord.slack.com/app_redirect?channel=U02EWBWKWKT">@GTN Certificate Bot</a>
-
-      If, for any reason you are not able to access slack, then please fill in this <a href="{{include.config.request_form}}">Certificate Request Form</a> to get your certificate.
+    {% unless include.config.certbot == false %}
+        For this event, we will use the <strong>GTN Certificate Slack Bot</strong> to keep track of your progress and request your certificate. (<strong>Instructions below</strong>).
+        </p>
+        <p class="card-text"
+        <strong>NOTE: </strong>If your country blocks Slack, then please fill in this <a href="{{include.config.request_form}}">Certificate Request Form</a> instead.
     </p>
+    {% else %}
+      To request a certificate of attendance for this event, please fill in this <a href="{{include.config.request_form}}">Certificate Request Form</a>.
+    </p>
+
+    {% endunless %}
     <p class="card-text">
       <strong>Deadline: </strong> no later than <strong>{{include.config.deadline | date_to_long_string }}</strong>.
     </p>
@@ -20,6 +27,7 @@
  </div>
 </div>
 
+
 {% if include.config.notes %}
   {% if include.config.notes.snippet %}
     {% include {{include.config.notes.snippet}} %}
@@ -27,4 +35,11 @@
     {{ include.config.notes }}
   {% endif %}
 {% endif %}
+
+{% unless include.config.certbot == false %}
+  <hr><br>
+  {% capture certbot %}{% include snippets/cert-bot.md %}{% endcapture %}
+  {{ certbot | markdownify }}
+{% endunless %}
+
 
