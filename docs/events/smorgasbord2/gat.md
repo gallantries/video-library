@@ -60,7 +60,7 @@ program:
     description:
     trainings:
       - video: community/welcome
-      - video: admin/interactive-tools/slides
+      - video: admin/interactive-tools
       - video: admin/upgrading/tutorial
       - video: admin/object-store/exercise
       - self-study: admin/jenkins
