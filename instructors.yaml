@@ -92,6 +92,10 @@ combesf:
     name: Florence Combes
     affiliation: [ifb]
 
+danielabrites:
+    name: Daniela Brites
+    email: d.brites@swisstph.ch
+
 dannon:
     name: Dannon Baker
     affiliation: [johnshopkins]
@@ -371,7 +375,7 @@ stefydreptate:
 onorvez:
     name: Olivier Norvez
     affiliation: [mnhn]
-    
+
 pranavathiyani:
     name: Pranavathiyani G
     affiliation: [pu]
