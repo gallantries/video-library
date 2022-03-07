@@ -63,8 +63,9 @@ program:
       - external:
           title: Q&A session
           description: Discussion. Q&A join the experts
-          other: |
-            [Zoom Link (TODO)]()
+          other:
+            - label: Zoom (TODO)
+              link: TODO
 
 
   day2:
@@ -93,6 +94,7 @@ program:
     trainings:
       - icebreaker:
         - prompt: TODO
+          channel: event-mtb-ngs
 
   day2-1:
     title: "Session 1: Learning Galaxy"
@@ -166,6 +168,9 @@ program:
       important to the inference of direct transmission and to the interpretation of drug
       resistant patterns.
     trainings:
+      - icebreaker:
+        - prompt: TODO
+          channel: event-mtb-ngs
       - external:
           title: "Webinar: Drug resistance prediction"
           author: Galo A. Goig
@@ -239,6 +244,9 @@ program:
       MTBC sequence data and we’ll provide some examples of how these tools work and how to
       interpret the results.
     trainings:
+      - icebreaker:
+        - prompt: TODO
+          channel: event-mtb-ngs
       - external:
           title: "Webinar: Fast identification of bacterial strains from raw sequencing reads"
           author: Arash Ghodousi
