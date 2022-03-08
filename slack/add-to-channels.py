@@ -20,7 +20,7 @@ def list_conversations():
 parser = argparse.ArgumentParser(description='Add users to specific channels')
 parser.add_argument('users', type=str, nargs='+',
                     help='Slack User IDs')
-parser.add_argument('--channels', choices=('all', 'admin_', 'managed', 'galaxy_'), type=str, help="Which groups of channels to add the user to")
+parser.add_argument('--channels', type=str, help="Which groups of channels to add the user to. Some special values are 'all' and 'managed', otherwise filters on prefix.")
 args = parser.parse_args()
 
 
@@ -28,13 +28,11 @@ conversations = list_conversations()
 channels = []
 if args.channels == 'all':
     channels = [x for x in conversations['channels'] if x['is_archived'] is False]
-elif args.channels == 'admin_':
-    channels = [x for x in conversations['channels'] if x['is_archived'] is False and x['name'].startswith('admin_')]
-elif args.channels == 'galaxy_':
-    channels = [x for x in conversations['channels'] if x['is_archived'] is False and x['name'].startswith('galaxy-')]
 elif args.channels == 'managed':
     managed = lib.get_managed_channels()
     channels = [x for x in conversations['channels'] if x['is_archived'] is False and x['name'] in managed]
+else:
+    channels = [x for x in conversations['channels'] if x['is_archived'] is False and x['name'].startswith(args.channels)]
 
 for channel in tqdm.tqdm(channels):
     print(channel)
