@@ -43,6 +43,11 @@ erasmusmc:
   link: "https://erasmusmc.nl"
   logo: 03_erasmusmc.png
 
+find:
+  name: FIND
+  link: https://www.finddx.org/
+  logo: find.png
+
 fmi:
   name: Friedrich Miescher Institute
   link: "https://www.fmi.ch/"
@@ -81,10 +86,21 @@ iocb:
   name: Institute of Organic Chemistry and Biochemistry, Prague
   link: "https://www.uochb.cz/en"
 
+irccs:
+  name: IRCCS Ospedale San Raffaele
+  link: "https://www.hsr.it/"
+  logo: irccs.jpg
+
 johnshopkins:
   name: Johns Hopkins University
   link: "https://www.jhu.edu/"
   logo: hopkins.png
+
+linq:
+  name: LINQ
+  link: "https://linq-management.com/"
+  logo: linq.jpg
+
 melbourneuni:
   name: University of Melbourne
   link: "https://www.unimelb.edu.au/"
@@ -131,6 +147,11 @@ slu:
   link: "https://www.slu.se"
   logo: slu.png
 
+swiss-tph:
+  name: Swiss Tropical and Public Health Institute
+  link: https://www.swisstph.ch/en/
+  logo: swiss-tph.png
+
 ei:
     name: Earlham Institute
     link: "https://www.earlham.ac.uk/"
@@ -150,7 +171,7 @@ UniQuilmes:
    name: Universidad Nacional de Quilmes/CONICET
    link: "http://www.unq.edu.ar/"
    logo: uni-quilmes-conicet.png
-   
+
 pu:
   name: Pondicherry University
   link: "https://www.pondiuni.edu.in/home"
