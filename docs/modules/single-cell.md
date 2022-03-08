@@ -10,5 +10,6 @@ program:
       - video: transcriptomics/scrna-umis/tutorial
       - video: transcriptomics/droplet-quantification-preprocessing/tutorial
       - video: transcriptomics/scrna-seq-basic-pipeline/tutorial
+      - video: transcriptomics/bulk-music/tutorial
 
 ---

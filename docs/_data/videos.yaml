@@ -1683,6 +1683,37 @@ transcriptomics/rna-seq-viz-with-volcanoplot/tutorial:
     link: uNGXIcEGZwA
     speakers:
     - mblue9
+
+transcriptomics/bulk-music/tutorial:
+    description: |
+        Bulk RNA-seq data contains a mixture of transcript signatures from
+        several types of cells. We wish to deconvolve this mixture to obtain
+        estimates of the proportions of cell types within the bulk sample. To
+        do this, we can use single cell RNA-seq data as a reference for
+        estimating the cell type proportions within the bulk data.
+
+        In this tutorial, we will use bulk and single-cell RNA-seq data, including
+        matrices of similar tissues from different sources, to illustrate how to infer
+        cell type abundances from bulk RNA-seq.
+  materials:
+  - link: topics/transcriptomics/tutorials/scrna-JUPYTER-trajectories/tutorial.html
+    type: Tutorial
+  tags:
+  - transcriptomics
+  - single-cell
+  type: Tutorial
+  versions:
+  - captions:
+    - mtekman
+    - nomadscientist
+    date: '2021-03-08'
+    galaxy_version: '21.09'
+    length: 20M
+    link: nfAUXP3W-jM
+    speakers:
+    - nomadscientist
+
+
 transcriptomics/scrna-JUPYTER-trajectories/tutorial:
   description: "You\u2019ve done all the hard work of preparing a single cell matrix,\
     \ processing it, plotting it, interpreting it, finding lots of lovely genes, all\
@@ -1700,6 +1731,7 @@ transcriptomics/scrna-JUPYTER-trajectories/tutorial:
     type: Tutorial
   tags:
   - transcriptomics
+  - single-cell
   type: Demo
   versions:
   - captions:
@@ -1724,6 +1756,7 @@ transcriptomics/scrna-intro/slides:
     type: Slides
   tags:
   - transcriptomics
+  - single-cell
   type: Lecture
   versions:
   - captions:
@@ -1766,6 +1799,7 @@ transcriptomics/scrna-preprocessing-tenx/tutorial:
     title: Pre-processing of 10X Single-Cell RNA Datasets
   tags:
   - transcriptomics
+  - single-cell
   versions:
   - link: vNBNFkF0L4U
     date: '2021-03-18'
@@ -1783,6 +1817,7 @@ transcriptomics/scrna-scanpy-pbmc3k/tutorial:
   description: "In this tutorial, we will investigate clustering of single-cell data from 10x Genomics, including preprocessing, clustering and the identification of cell types via known marker genes, using Scanpy. It will be illustrated using a dataset of Peripheral Blood Mononuclear Cells (PBMC), containing 2,700 single cells. Please work through the full tutorial yourself to get all the details."
   tags:
   - transcriptomics
+  - single-cell
   versions:
   - link: nefB35Bi1l4
     length: 45M
@@ -1809,6 +1844,7 @@ transcriptomics/scrna-plant/tutorial:
     type: Tutorial
   tags:
   - transcriptomics
+  - single-cell
   type: Tutorial
   versions:
   - captions:
@@ -1832,6 +1868,7 @@ transcriptomics/scrna-seq-basic-pipeline/tutorial:
     type: Tutorial
   tags:
   - transcriptomics
+  - single-cell
   type: Demo
   versions:
   - captions:
