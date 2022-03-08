@@ -12,6 +12,7 @@ check-html-internal:
 		--assume-extension \
 		--http-status-ignore 405,503,999 \
 		--disable-external \
+		--ignore_missing_alt \
 		--allow-hash-href \
 		./_site
 
@@ -20,6 +21,7 @@ check-html:
 		--assume-extension \
 		--http-status-ignore 405,503,999 \
 		--allow-hash-href \
+		--ignore_missing_alt \
 		./_site
 
 test: build check-html-internal
