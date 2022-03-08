@@ -2,6 +2,11 @@
 layout: program
 module: false
 title: "Mycobacterium tuberculosis NGS made easy: data analysis step-by-step"
+description: |
+  ![banner](images/TBCAPT_NGS_Training_banner.jpg)
+
+  Below you will find everything you need for this course!
+
 certbot: false
 instructors: [danielabrites,cstritt,andreacabibbe,annalenaguske, andreaspitaleri,galo-adrian-goig,arashghodousi,liliana-rutaihwa]
 setup:
