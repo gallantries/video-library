@@ -695,27 +695,7 @@
           "speakers": [
             "cat-bro"
           ]
-        }
-      ]
-    },
-    "admin/tool-management": {
-      "description": null,
-      "faq": null,
-      "materials": [
-        {
-          "link": "topics/admin/tutorials/tool-management/slides.html",
-          "type": "Slides"
         },
-        {
-          "link": "topics/admin/tutorials/tool-management/tutorial.html",
-          "type": "Tutorial"
-        }
-      ],
-      "tags": [
-        "admin"
-      ],
-      "type": "Lecture & Tutorial",
-      "versions": [
         {
           "captions": [
             "eancelet"
