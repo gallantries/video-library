@@ -16702,8 +16702,8 @@ This is a self-study session. Please work through the materials on your own, and
   
   <div class="accordion-header" id="headingtranscriptomics9">
    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapsetranscriptomics9" aria-expanded="false" aria-controls="collapsetranscriptomics9">
-        Trajectory Analysis using Python (Jupyter Notebook) in Galaxy
-         (Demo) 
+        Bulk RNA Deconvolution with MuSiC
+         (Tutorial) 
    </button>
   </div>
 
@@ -16715,7 +16715,237 @@ This is a self-study session. Please work through the materials on your own, and
       
         
            
-           <!-- session: {"description"=>"You’ve done all the hard work of preparing a single cell matrix, processing it, plotting it, interpreting it, finding lots of lovely genes, all within the glorious Galaxy interface. Now you want to infer trajectories, or relationships between cells… and you’ve been threatened with learning Python to do so! Well, fear not. If you can have a run-through of a basic python coding introduction, then that will help you make more sense of this tutorial, however you’ll be able to make and interpret glorious plots even without understanding the Python coding language. This is the beauty of Galaxy - all the ‘set-up’ is identical across computers, because it’s browser based. So fear not!", "faq"=>"https://docs.google.com/document/d/e/2PACX-1vQFtqSeiowtVHQHdNuJ8tjAhfSKtmfm0B_pfrbOhx0EVYxO4sbza3AKFcVEyrGtM3q5QNH82LaDKyki/pub", "materials"=>[{"link"=>"topics/transcriptomics/tutorials/scrna-JUPYTER-trajectories/tutorial.html", "type"=>"Tutorial"}], "tags"=>["transcriptomics"], "type"=>"Demo", "versions"=>[{"captions"=>["nomadscientist"], "date"=>"2021-02-15", "galaxy_version"=>"21.01", "length"=>"10M", "link"=>"VEyTmwDIgPI", "speakers"=>["nomadscientist"], "name"=>"Trajectory Analysis using Python (Jupyter Notebook) in Galaxy"}], "name"=>"Trajectory Analysis using Python (Jupyter Notebook) in Galaxy"}<br><br> video: {"captions"=>["nomadscientist"], "date"=>"2021-02-15", "galaxy_version"=>"21.01", "length"=>"10M", "link"=>"VEyTmwDIgPI", "speakers"=>["nomadscientist"], "name"=>"Trajectory Analysis using Python (Jupyter Notebook) in Galaxy"} -->
+           <!-- session: {"description"=>"Bulk RNA-seq data contains a mixture of transcript signatures from\nseveral types of cells. We wish to deconvolve this mixture to obtain\nestimates of the proportions of cell types within the bulk sample. To\ndo this, we can use single cell RNA-seq data as a reference for\nestimating the cell type proportions within the bulk data.\n\nIn this tutorial, we will use bulk and single-cell RNA-seq data, including\nmatrices of similar tissues from different sources, to illustrate how to infer\ncell type abundances from bulk RNA-seq.\n", "materials"=>[{"link"=>"topics/transcriptomics/tutorials/scrna-JUPYTER-trajectories/tutorial.html", "type"=>"Tutorial"}], "tags"=>["transcriptomics", "single-cell"], "type"=>"Tutorial", "versions"=>[{"captions"=>["mtekman", "nomadscientist"], "date"=>"2021-03-08", "galaxy_version"=>"21.09", "length"=>"20M", "link"=>"nfAUXP3W-jM", "speakers"=>["nomadscientist"], "name"=>"Bulk RNA Deconvolution with MuSiC"}], "name"=>"Bulk RNA Deconvolution with MuSiC"}<br><br> video: {"captions"=>["mtekman", "nomadscientist"], "date"=>"2021-03-08", "galaxy_version"=>"21.09", "length"=>"20M", "link"=>"nfAUXP3W-jM", "speakers"=>["nomadscientist"], "name"=>"Bulk RNA Deconvolution with MuSiC"} -->
+
+
+
+
+
+<!-- determine the next archived version of tutorial -->
+
+
+
+
+<div class="flex-row" style="margin-top:1em;">
+ <div class="col-md-8">
+  <h3 class="session-section">Tutorial Video   </h3>
+  <div style="position:relative;padding-top:56.25%;">
+   <iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" data-src="https://www.youtube.com/embed/nfAUXP3W-jM" class="lazyload" loading="lazy" frameborder="0" title="YouTube Embedded Video of the Tutorial" aria-label="YouTube Embedded Video of the Tutorial" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="">
+   </iframe>
+  </div>
+  <div style="margin-top:1em;" class="video-metadata">
+      <table>
+          
+          <tr>
+              <td><strong>Description:</strong></td>
+              <td>Bulk RNA-seq data contains a mixture of transcript signatures from
+several types of cells. We wish to deconvolve this mixture to obtain
+estimates of the proportions of cell types within the bulk sample. To
+do this, we can use single cell RNA-seq data as a reference for
+estimating the cell type proportions within the bulk data.
+
+In this tutorial, we will use bulk and single-cell RNA-seq data, including
+matrices of similar tissues from different sources, to illustrate how to infer
+cell type abundances from bulk RNA-seq.
+</td>
+          </tr>
+          
+          <tr>
+              <td><strong>Length:</strong></td>
+              <td>20 minutes</td>
+          </tr>
+   
+   
+          <tr>
+              <td><strong>Captions:</strong></td>
+              <td> <a href="/video-library/contributors/mtekman/">Mehmet Tekman</a>,  <a href="/video-library/contributors/nomadscientist/">Wendi Bacon</a></td>
+          </tr>
+   
+          
+          <tr>
+              <td><strong>Created:</strong></td>
+              <td>8 March 2021</td>
+          </tr>
+          
+          
+          <tr>
+              <td><strong>Materials:</strong></td>
+              <td>
+                <ul class="plain-text-list">
+                
+                    <li>
+                        
+                            <img style="height: 1em" src="/video-library/assets/fa/tutorial.svg" alt="assets/fa/tutorial.svg" aria-hidden="true" />
+                        
+
+
+                        
+                        
+                        Tutorial:
+                        <a href="https://training.galaxyproject.org/archive/2021-04-01/topics/transcriptomics/tutorials/scrna-JUPYTER-trajectories/tutorial.html">Archived Version</a>
+                        |
+                        <a href="https://training.galaxyproject.org/topics/transcriptomics/tutorials/scrna-JUPYTER-trajectories/tutorial.html">Latest Version</a>
+                        
+                        |
+                        
+                        <a href="https://training.galaxyproject.org/topics/transcriptomics/tutorials/scrna-JUPYTER-trajectories/faqs/">FAQs</a>
+                        
+                        
+                    </li>
+                
+                </ul>
+              </td>
+          </tr>
+          
+          <!-- this is for the embedded versions where they'll use their own1 support forum -->
+          
+          <tr>
+              <td><strong>Support:</strong></td>
+              <td>
+              <ul>
+                
+                
+                <li>Slack: <a href="https://gtnsmrgsbord.slack.com/archives/transcriptomics_bulk-music">#transcriptomics_bulk-music</a> (<a href="https://join.slack.com/t/gtnsmrgsbord/shared_invite/zt-x7vinbs1-BA~Kht6N86JBhDq0uTIVdQ">Slack Invite</a>)</li>
+                <li><a href="https://gitter.im/Galaxy-Training-Network/Lobby">Gitter</a></li>
+                <li><a href="https://help.galaxyproject.org">Galaxy Help Forum</a></li>
+              </ul>
+              </td>
+          </tr>
+          
+          
+          <tr>
+              <td><strong>Learning Objectives:</strong></td>
+              <td>
+                  <ul>
+                      
+                      <li>Construct Bulk and scRNA Expression Set Objects</li>
+                      
+                      <li>Inspect these objects for various properties</li>
+                      
+                      <li>Measure the abundance of certain cell type cluster markers compared to others</li>
+                      
+                  </ul>
+              </td>
+          </tr>
+          
+          
+          <tr>
+              <td><strong>Finished this tutorial as part of GTN Tapas?</strong></td>
+              <td>
+              <ol>
+                
+                
+                <li><a href="https://training.galaxyproject.org/training-material/faqs/galaxy/histories_sharing.html">Share your history</a> (if applicable)</li>
+                <li>Copy the URL</li>
+                <li>Run the command <code>/completed</code> with the URL to your shared history, in <a href="https://gtnsmrgsbord.slack.com/archives/transcriptomics_bulk-music">#transcriptomics_bulk-music</a></li>
+              </ol>
+              </td>
+          </tr>
+          
+      </table>
+
+  </div>
+  
+  Go to the <a href="/video-library/videos/transcriptomics/bulk-music/tutorial">video page</a> to see all versions.
+  
+ </div>
+ <!-- speaker(s) -->
+ 
+ 
+
+ <div class="col-md-3">
+  <center><h3 class="session-section">Speaker</h3></center>
+  
+
+
+
+
+
+
+
+<div class="hall-of-fame">
+    
+    
+    
+		<div class="hall-of-fame-hero" id="nomadscientist">
+			<a href="/video-library/contributors/nomadscientist/">
+            
+			<img src="https://avatars.githubusercontent.com/nomadscientist" alt="" />
+            
+			<div class="name">
+				<b>Wendi Bacon</b>
+			</div>
+			</a>
+			<div class="affil">
+				
+				<a href="https://www.ebi.ac.uk/">
+					EMBL-EBI
+				</a>
+				
+			</div>
+		</div>
+	
+    
+</div>
+
+ </div>
+
+
+</div><!-- end video session -->
+
+
+
+        
+
+      
+
+
+      <!-- Instructors -->
+      
+
+      <!-- Supporting Servers -->
+
+      <!-- Resources -->
+
+    </div><!-- end accordion body -->
+  </div><!-- end collapse -->
+</div><!-- end accordion item (training session) -->
+
+
+
+	
+		
+		
+		
+
+
+
+
+
+
+
+
+
+
+
+<div class="accordion-item">
+  
+  <div class="accordion-header" id="headingtranscriptomics10">
+   <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapsetranscriptomics10" aria-expanded="false" aria-controls="collapsetranscriptomics10">
+        Trajectory Analysis using Python (Jupyter Notebook) in Galaxy
+         (Demo) 
+   </button>
+  </div>
+
+  <div id="collapsetranscriptomics10" class="accordion-collapse collapse " aria-labelledby="headingtranscriptomics10" data-bs-parent="#accordiontranscriptomics">
+
+    <div class="accordion-body">
+
+      <!-- Video -->
+      
+        
+           
+           <!-- session: {"description"=>"You’ve done all the hard work of preparing a single cell matrix, processing it, plotting it, interpreting it, finding lots of lovely genes, all within the glorious Galaxy interface. Now you want to infer trajectories, or relationships between cells… and you’ve been threatened with learning Python to do so! Well, fear not. If you can have a run-through of a basic python coding introduction, then that will help you make more sense of this tutorial, however you’ll be able to make and interpret glorious plots even without understanding the Python coding language. This is the beauty of Galaxy - all the ‘set-up’ is identical across computers, because it’s browser based. So fear not!", "faq"=>"https://docs.google.com/document/d/e/2PACX-1vQFtqSeiowtVHQHdNuJ8tjAhfSKtmfm0B_pfrbOhx0EVYxO4sbza3AKFcVEyrGtM3q5QNH82LaDKyki/pub", "materials"=>[{"link"=>"topics/transcriptomics/tutorials/scrna-JUPYTER-trajectories/tutorial.html", "type"=>"Tutorial"}], "tags"=>["transcriptomics", "single-cell"], "type"=>"Demo", "versions"=>[{"captions"=>["nomadscientist"], "date"=>"2021-02-15", "galaxy_version"=>"21.01", "length"=>"10M", "link"=>"VEyTmwDIgPI", "speakers"=>["nomadscientist"], "name"=>"Trajectory Analysis using Python (Jupyter Notebook) in Galaxy"}], "name"=>"Trajectory Analysis using Python (Jupyter Notebook) in Galaxy"}<br><br> video: {"captions"=>["nomadscientist"], "date"=>"2021-02-15", "galaxy_version"=>"21.01", "length"=>"10M", "link"=>"VEyTmwDIgPI", "speakers"=>["nomadscientist"], "name"=>"Trajectory Analysis using Python (Jupyter Notebook) in Galaxy"} -->
 
 
 
@@ -16919,14 +17149,14 @@ This is a self-study session. Please work through the materials on your own, and
 
 <div class="accordion-item">
   
-  <div class="accordion-header" id="headingtranscriptomics10">
-   <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapsetranscriptomics10" aria-expanded="false" aria-controls="collapsetranscriptomics10">
+  <div class="accordion-header" id="headingtranscriptomics11">
+   <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapsetranscriptomics11" aria-expanded="false" aria-controls="collapsetranscriptomics11">
         An introduction to scRNA-seq data analysis
          (Lecture) 
    </button>
   </div>
 
-  <div id="collapsetranscriptomics10" class="accordion-collapse collapse " aria-labelledby="headingtranscriptomics10" data-bs-parent="#accordiontranscriptomics">
+  <div id="collapsetranscriptomics11" class="accordion-collapse collapse " aria-labelledby="headingtranscriptomics11" data-bs-parent="#accordiontranscriptomics">
 
     <div class="accordion-body">
 
@@ -16934,7 +17164,7 @@ This is a self-study session. Please work through the materials on your own, and
       
         
            
-           <!-- session: {"description"=>"Single-cell RNA-seq analysis is a rapidly evolving field at the forefront of transcriptomic research, used in high-throughput developmental studies and rare transcript studies to examine cell heterogeneity within a populations of cells. The cellular resolution and genome wide scope make it possible to draw new conclusions that are not otherwise possible with bulk RNA-seq. <strong>Slides created by Mehmet Tekman</strong>.", "faq"=>"https://docs.google.com/document/d/e/2PACX-1vSVFOV1C6hqMPGIpZ1qeOo6t-ubjaWbtsGSTMH9TwNlvfqZrP48i0_7_Xk5rxmY7g2CroOF1dNIyfMY/pub", "materials"=>[{"link"=>"topics/transcriptomics/tutorials/scrna-intro/slides.html", "title"=>"An introduction to scRNA-Seq data analysis", "type"=>"Slides"}], "tags"=>["transcriptomics"], "type"=>"Lecture", "versions"=>[{"captions"=>["mtekman"], "date"=>"2021-02-15", "galaxy_version"=>"21.01", "length"=>"20M", "link"=>"D3qvYWZMFa0", "speakers"=>["awspolly"], "name"=>"An introduction to scRNA-seq data analysis"}], "name"=>"An introduction to scRNA-seq data analysis"}<br><br> video: {"captions"=>["mtekman"], "date"=>"2021-02-15", "galaxy_version"=>"21.01", "length"=>"20M", "link"=>"D3qvYWZMFa0", "speakers"=>["awspolly"], "name"=>"An introduction to scRNA-seq data analysis"} -->
+           <!-- session: {"description"=>"Single-cell RNA-seq analysis is a rapidly evolving field at the forefront of transcriptomic research, used in high-throughput developmental studies and rare transcript studies to examine cell heterogeneity within a populations of cells. The cellular resolution and genome wide scope make it possible to draw new conclusions that are not otherwise possible with bulk RNA-seq. <strong>Slides created by Mehmet Tekman</strong>.", "faq"=>"https://docs.google.com/document/d/e/2PACX-1vSVFOV1C6hqMPGIpZ1qeOo6t-ubjaWbtsGSTMH9TwNlvfqZrP48i0_7_Xk5rxmY7g2CroOF1dNIyfMY/pub", "materials"=>[{"link"=>"topics/transcriptomics/tutorials/scrna-intro/slides.html", "title"=>"An introduction to scRNA-Seq data analysis", "type"=>"Slides"}], "tags"=>["transcriptomics", "single-cell"], "type"=>"Lecture", "versions"=>[{"captions"=>["mtekman"], "date"=>"2021-02-15", "galaxy_version"=>"21.01", "length"=>"20M", "link"=>"D3qvYWZMFa0", "speakers"=>["awspolly"], "name"=>"An introduction to scRNA-seq data analysis"}], "name"=>"An introduction to scRNA-seq data analysis"}<br><br> video: {"captions"=>["mtekman"], "date"=>"2021-02-15", "galaxy_version"=>"21.01", "length"=>"20M", "link"=>"D3qvYWZMFa0", "speakers"=>["awspolly"], "name"=>"An introduction to scRNA-seq data analysis"} -->
 
 
 
@@ -17134,14 +17364,14 @@ This is a self-study session. Please work through the materials on your own, and
 
 <div class="accordion-item">
   
-  <div class="accordion-header" id="headingtranscriptomics11">
-   <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapsetranscriptomics11" aria-expanded="false" aria-controls="collapsetranscriptomics11">
+  <div class="accordion-header" id="headingtranscriptomics12">
+   <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapsetranscriptomics12" aria-expanded="false" aria-controls="collapsetranscriptomics12">
         Understanding Barcodes
          (Demo) 
    </button>
   </div>
 
-  <div id="collapsetranscriptomics11" class="accordion-collapse collapse " aria-labelledby="headingtranscriptomics11" data-bs-parent="#accordiontranscriptomics">
+  <div id="collapsetranscriptomics12" class="accordion-collapse collapse " aria-labelledby="headingtranscriptomics12" data-bs-parent="#accordiontranscriptomics">
 
     <div class="accordion-body">
 
@@ -17353,14 +17583,14 @@ This is a self-study session. Please work through the materials on your own, and
 
 <div class="accordion-item">
   
-  <div class="accordion-header" id="headingtranscriptomics12">
-   <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapsetranscriptomics12" aria-expanded="false" aria-controls="collapsetranscriptomics12">
+  <div class="accordion-header" id="headingtranscriptomics13">
+   <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapsetranscriptomics13" aria-expanded="false" aria-controls="collapsetranscriptomics13">
         Pre-processing of 10X Single-Cell RNA Datasets
          (Demo) 
    </button>
   </div>
 
-  <div id="collapsetranscriptomics12" class="accordion-collapse collapse " aria-labelledby="headingtranscriptomics12" data-bs-parent="#accordiontranscriptomics">
+  <div id="collapsetranscriptomics13" class="accordion-collapse collapse " aria-labelledby="headingtranscriptomics13" data-bs-parent="#accordiontranscriptomics">
 
     <div class="accordion-body">
 
@@ -17368,7 +17598,7 @@ This is a self-study session. Please work through the materials on your own, and
       
         
            
-           <!-- session: {"title"=>"Pre-processing of 10X Single-Cell RNA Datasets", "description"=>"10x genomics has provided not only a cost-effective high-throughput solution to understanding sample heterogeneity at the individual cell level, but has defined the standards of the field that many downstream analysis packages are now scrambling to accommodate. Please work through the full tutorial yourself to get all the details.", "faq"=>"https://docs.google.com/document/d/e/2PACX-1vTuCzmNJlZSbS9-lIdfLgt8T7IJb7jWZ3gedtjNB4aKJ7pAi3apYS4NgfaCRh0_r5QbF4Pwl15Z0-mk/pub", "type"=>"Demo", "materials"=>[{"type"=>"Tutorial", "link"=>"topics/transcriptomics/tutorials/scrna-preprocessing-tenx/tutorial.html", "title"=>"Pre-processing of 10X Single-Cell RNA Datasets"}], "tags"=>["transcriptomics"], "versions"=>[{"link"=>"vNBNFkF0L4U", "date"=>"2021-03-18", "galaxy_version"=>"21.01", "length"=>"5M", "captions"=>["khanteymoori"], "speakers"=>["nomadscientist"], "name"=>"Pre-processing of 10X Single-Cell RNA Datasets"}], "name"=>"Pre-processing of 10X Single-Cell RNA Datasets"}<br><br> video: {"link"=>"vNBNFkF0L4U", "date"=>"2021-03-18", "galaxy_version"=>"21.01", "length"=>"5M", "captions"=>["khanteymoori"], "speakers"=>["nomadscientist"], "name"=>"Pre-processing of 10X Single-Cell RNA Datasets"} -->
+           <!-- session: {"title"=>"Pre-processing of 10X Single-Cell RNA Datasets", "description"=>"10x genomics has provided not only a cost-effective high-throughput solution to understanding sample heterogeneity at the individual cell level, but has defined the standards of the field that many downstream analysis packages are now scrambling to accommodate. Please work through the full tutorial yourself to get all the details.", "faq"=>"https://docs.google.com/document/d/e/2PACX-1vTuCzmNJlZSbS9-lIdfLgt8T7IJb7jWZ3gedtjNB4aKJ7pAi3apYS4NgfaCRh0_r5QbF4Pwl15Z0-mk/pub", "type"=>"Demo", "materials"=>[{"type"=>"Tutorial", "link"=>"topics/transcriptomics/tutorials/scrna-preprocessing-tenx/tutorial.html", "title"=>"Pre-processing of 10X Single-Cell RNA Datasets"}], "tags"=>["transcriptomics", "single-cell"], "versions"=>[{"link"=>"vNBNFkF0L4U", "date"=>"2021-03-18", "galaxy_version"=>"21.01", "length"=>"5M", "captions"=>["khanteymoori"], "speakers"=>["nomadscientist"], "name"=>"Pre-processing of 10X Single-Cell RNA Datasets"}], "name"=>"Pre-processing of 10X Single-Cell RNA Datasets"}<br><br> video: {"link"=>"vNBNFkF0L4U", "date"=>"2021-03-18", "galaxy_version"=>"21.01", "length"=>"5M", "captions"=>["khanteymoori"], "speakers"=>["nomadscientist"], "name"=>"Pre-processing of 10X Single-Cell RNA Datasets"} -->
 
 
 
@@ -17574,14 +17804,14 @@ This is a self-study session. Please work through the materials on your own, and
 
 <div class="accordion-item">
   
-  <div class="accordion-header" id="headingtranscriptomics13">
-   <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapsetranscriptomics13" aria-expanded="false" aria-controls="collapsetranscriptomics13">
+  <div class="accordion-header" id="headingtranscriptomics14">
+   <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapsetranscriptomics14" aria-expanded="false" aria-controls="collapsetranscriptomics14">
         Clustering 3K PBMCs with Scanpy
          (Demo) 
    </button>
   </div>
 
-  <div id="collapsetranscriptomics13" class="accordion-collapse collapse " aria-labelledby="headingtranscriptomics13" data-bs-parent="#accordiontranscriptomics">
+  <div id="collapsetranscriptomics14" class="accordion-collapse collapse " aria-labelledby="headingtranscriptomics14" data-bs-parent="#accordiontranscriptomics">
 
     <div class="accordion-body">
 
@@ -17589,7 +17819,7 @@ This is a self-study session. Please work through the materials on your own, and
       
         
            
-           <!-- session: {"title"=>"Clustering 3K PBMCs with Scanpy", "faq"=>"https://docs.google.com/document/d/e/2PACX-1vTdqGjslXMxUjyjqwkNtidsXFl6SRULFKFug_2TYBl-dYXIDEnXb59nMyZ5qJc6bXI-fP5cPLfkXbHV/pub", "type"=>"Demo", "description"=>"In this tutorial, we will investigate clustering of single-cell data from 10x Genomics, including preprocessing, clustering and the identification of cell types via known marker genes, using Scanpy. It will be illustrated using a dataset of Peripheral Blood Mononuclear Cells (PBMC), containing 2,700 single cells. Please work through the full tutorial yourself to get all the details.", "tags"=>["transcriptomics"], "versions"=>[{"link"=>"nefB35Bi1l4", "length"=>"45M", "captions"=>["hrhotz"], "speakers"=>["nomadscientist"], "date"=>"2021-03-18", "name"=>"Clustering 3K PBMCs with Scanpy"}], "materials"=>[{"type"=>"Tutorial", "link"=>"topics/transcriptomics/tutorials/scrna-scanpy-pbmc3k/tutorial.html"}], "name"=>"Clustering 3K PBMCs with Scanpy"}<br><br> video: {"link"=>"nefB35Bi1l4", "length"=>"45M", "captions"=>["hrhotz"], "speakers"=>["nomadscientist"], "date"=>"2021-03-18", "name"=>"Clustering 3K PBMCs with Scanpy"} -->
+           <!-- session: {"title"=>"Clustering 3K PBMCs with Scanpy", "faq"=>"https://docs.google.com/document/d/e/2PACX-1vTdqGjslXMxUjyjqwkNtidsXFl6SRULFKFug_2TYBl-dYXIDEnXb59nMyZ5qJc6bXI-fP5cPLfkXbHV/pub", "type"=>"Demo", "description"=>"In this tutorial, we will investigate clustering of single-cell data from 10x Genomics, including preprocessing, clustering and the identification of cell types via known marker genes, using Scanpy. It will be illustrated using a dataset of Peripheral Blood Mononuclear Cells (PBMC), containing 2,700 single cells. Please work through the full tutorial yourself to get all the details.", "tags"=>["transcriptomics", "single-cell"], "versions"=>[{"link"=>"nefB35Bi1l4", "length"=>"45M", "captions"=>["hrhotz"], "speakers"=>["nomadscientist"], "date"=>"2021-03-18", "name"=>"Clustering 3K PBMCs with Scanpy"}], "materials"=>[{"type"=>"Tutorial", "link"=>"topics/transcriptomics/tutorials/scrna-scanpy-pbmc3k/tutorial.html"}], "name"=>"Clustering 3K PBMCs with Scanpy"}<br><br> video: {"link"=>"nefB35Bi1l4", "length"=>"45M", "captions"=>["hrhotz"], "speakers"=>["nomadscientist"], "date"=>"2021-03-18", "name"=>"Clustering 3K PBMCs with Scanpy"} -->
 
 
 
@@ -17807,14 +18037,14 @@ This is a self-study session. Please work through the materials on your own, and
 
 <div class="accordion-item">
   
-  <div class="accordion-header" id="headingtranscriptomics14">
-   <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapsetranscriptomics14" aria-expanded="false" aria-controls="collapsetranscriptomics14">
+  <div class="accordion-header" id="headingtranscriptomics15">
+   <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapsetranscriptomics15" aria-expanded="false" aria-controls="collapsetranscriptomics15">
         Analysis of plant scRNA-Seq Data with Scanpy
          (Tutorial) 
    </button>
   </div>
 
-  <div id="collapsetranscriptomics14" class="accordion-collapse collapse " aria-labelledby="headingtranscriptomics14" data-bs-parent="#accordiontranscriptomics">
+  <div id="collapsetranscriptomics15" class="accordion-collapse collapse " aria-labelledby="headingtranscriptomics15" data-bs-parent="#accordiontranscriptomics">
 
     <div class="accordion-body">
 
@@ -17822,7 +18052,7 @@ This is a self-study session. Please work through the materials on your own, and
       
         
            
-           <!-- session: {"description"=>"This tutorial replicates the paper “Spatiotemporal Developmental Trajectories in the Arabidopsis Root Revealed Using High-Throughput Single-Cell RNA Sequencing” (Denyer et al. 2019), where the major plant cell types are recovered in the data as well as distinguishing between QC and meristematic cells. The original paper used the Seurat analysis suite (Satija et al. 2015), but here we will use the ScanPy analysis suite (Wolf et al. 2018) integrated within the single-cell resources in Galaxy (Tekman et al. 2020).", "faq"=>"https://docs.google.com/document/d/e/2PACX-1vS8qAPOQwMPlt16fFWQ-JPHNrzKT_46I1OHiFFaJ9r8oT6LZaelryrwnigWUPVPfsccQJkm3Q68TyHr/pub", "materials"=>[{"link"=>"topics/transcriptomics/tutorials/scrna-plant/tutorial.html", "type"=>"Tutorial"}], "tags"=>["transcriptomics"], "type"=>"Tutorial", "versions"=>[{"captions"=>["mtekman"], "date"=>"2021-02-15", "galaxy_version"=>"21.01", "length"=>"55M", "link"=>"yKlJ5ESri7o", "speakers"=>["mtekman"], "name"=>"Analysis of plant scRNA-Seq Data with Scanpy"}], "name"=>"Analysis of plant scRNA-Seq Data with Scanpy"}<br><br> video: {"captions"=>["mtekman"], "date"=>"2021-02-15", "galaxy_version"=>"21.01", "length"=>"55M", "link"=>"yKlJ5ESri7o", "speakers"=>["mtekman"], "name"=>"Analysis of plant scRNA-Seq Data with Scanpy"} -->
+           <!-- session: {"description"=>"This tutorial replicates the paper “Spatiotemporal Developmental Trajectories in the Arabidopsis Root Revealed Using High-Throughput Single-Cell RNA Sequencing” (Denyer et al. 2019), where the major plant cell types are recovered in the data as well as distinguishing between QC and meristematic cells. The original paper used the Seurat analysis suite (Satija et al. 2015), but here we will use the ScanPy analysis suite (Wolf et al. 2018) integrated within the single-cell resources in Galaxy (Tekman et al. 2020).", "faq"=>"https://docs.google.com/document/d/e/2PACX-1vS8qAPOQwMPlt16fFWQ-JPHNrzKT_46I1OHiFFaJ9r8oT6LZaelryrwnigWUPVPfsccQJkm3Q68TyHr/pub", "materials"=>[{"link"=>"topics/transcriptomics/tutorials/scrna-plant/tutorial.html", "type"=>"Tutorial"}], "tags"=>["transcriptomics", "single-cell"], "type"=>"Tutorial", "versions"=>[{"captions"=>["mtekman"], "date"=>"2021-02-15", "galaxy_version"=>"21.01", "length"=>"55M", "link"=>"yKlJ5ESri7o", "speakers"=>["mtekman"], "name"=>"Analysis of plant scRNA-Seq Data with Scanpy"}], "name"=>"Analysis of plant scRNA-Seq Data with Scanpy"}<br><br> video: {"captions"=>["mtekman"], "date"=>"2021-02-15", "galaxy_version"=>"21.01", "length"=>"55M", "link"=>"yKlJ5ESri7o", "speakers"=>["mtekman"], "name"=>"Analysis of plant scRNA-Seq Data with Scanpy"} -->
 
 
 
@@ -18028,14 +18258,14 @@ This is a self-study session. Please work through the materials on your own, and
 
 <div class="accordion-item">
   
-  <div class="accordion-header" id="headingtranscriptomics15">
-   <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapsetranscriptomics15" aria-expanded="false" aria-controls="collapsetranscriptomics15">
+  <div class="accordion-header" id="headingtranscriptomics16">
+   <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapsetranscriptomics16" aria-expanded="false" aria-controls="collapsetranscriptomics16">
         Filter, Plot and Explore Single-cell RNA-seq Data
          (Demo) 
    </button>
   </div>
 
-  <div id="collapsetranscriptomics15" class="accordion-collapse collapse " aria-labelledby="headingtranscriptomics15" data-bs-parent="#accordiontranscriptomics">
+  <div id="collapsetranscriptomics16" class="accordion-collapse collapse " aria-labelledby="headingtranscriptomics16" data-bs-parent="#accordiontranscriptomics">
 
     <div class="accordion-body">
 
@@ -18043,7 +18273,7 @@ This is a self-study session. Please work through the materials on your own, and
       
         
            
-           <!-- session: {"description"=>"You’ve done all the work to make a single cell matrix, with gene counts and mitochondrial counts and buckets of cell metadata from all your variables of interest, now it’s time to fully process our data, to remove low quality cells, to reduce the many dimensions of data that make it difficult to work with, and ultimately to try to define our clusters and to find our biological meaning and insights!", "faq"=>"https://docs.google.com/document/d/e/2PACX-1vTIorwkiFua1sXaJwKOsXPTugOZz_BzcfNnFgbsd2a6AjDuHbrj-KD023J25OHp9F_Dmql0luIMCN3N/pub", "materials"=>[{"link"=>"topics/transcriptomics/tutorials/scrna-seq-basic-pipeline/tutorial.html", "type"=>"Tutorial"}], "tags"=>["transcriptomics"], "type"=>"Demo", "versions"=>[{"captions"=>["nomadscientist"], "date"=>"2021-02-15", "galaxy_version"=>"21.01", "length"=>"30M", "link"=>"M6iepSJh0EQ", "speakers"=>["nomadscientist"], "name"=>"Filter, Plot and Explore Single-cell RNA-seq Data"}], "name"=>"Filter, Plot and Explore Single-cell RNA-seq Data"}<br><br> video: {"captions"=>["nomadscientist"], "date"=>"2021-02-15", "galaxy_version"=>"21.01", "length"=>"30M", "link"=>"M6iepSJh0EQ", "speakers"=>["nomadscientist"], "name"=>"Filter, Plot and Explore Single-cell RNA-seq Data"} -->
+           <!-- session: {"description"=>"You’ve done all the work to make a single cell matrix, with gene counts and mitochondrial counts and buckets of cell metadata from all your variables of interest, now it’s time to fully process our data, to remove low quality cells, to reduce the many dimensions of data that make it difficult to work with, and ultimately to try to define our clusters and to find our biological meaning and insights!", "faq"=>"https://docs.google.com/document/d/e/2PACX-1vTIorwkiFua1sXaJwKOsXPTugOZz_BzcfNnFgbsd2a6AjDuHbrj-KD023J25OHp9F_Dmql0luIMCN3N/pub", "materials"=>[{"link"=>"topics/transcriptomics/tutorials/scrna-seq-basic-pipeline/tutorial.html", "type"=>"Tutorial"}], "tags"=>["transcriptomics", "single-cell"], "type"=>"Demo", "versions"=>[{"captions"=>["nomadscientist"], "date"=>"2021-02-15", "galaxy_version"=>"21.01", "length"=>"30M", "link"=>"M6iepSJh0EQ", "speakers"=>["nomadscientist"], "name"=>"Filter, Plot and Explore Single-cell RNA-seq Data"}], "name"=>"Filter, Plot and Explore Single-cell RNA-seq Data"}<br><br> video: {"captions"=>["nomadscientist"], "date"=>"2021-02-15", "galaxy_version"=>"21.01", "length"=>"30M", "link"=>"M6iepSJh0EQ", "speakers"=>["nomadscientist"], "name"=>"Filter, Plot and Explore Single-cell RNA-seq Data"} -->
 
 
 
@@ -19099,6 +19329,1574 @@ This is a self-study session. Please work through the materials on your own, and
 				
 				<a href="https://avans.nl">
 					Avans Hogeschool
+				</a>
+				
+			</div>
+		</div>
+	
+    
+</div>
+
+ </div>
+
+
+</div><!-- end video session -->
+
+
+
+        
+
+      
+
+
+      <!-- Instructors -->
+      
+
+      <!-- Supporting Servers -->
+
+      <!-- Resources -->
+
+    </div><!-- end accordion body -->
+  </div><!-- end collapse -->
+</div><!-- end accordion item (training session) -->
+
+
+
+	
+
+    
+	<h3 style="text-transform:capitalize;" id="single-cell">Single cell</h3>
+	
+		
+		
+		
+
+
+
+
+
+
+
+
+
+
+
+<div class="accordion-item">
+  
+  <div class="accordion-header" id="headingsingle-cell0">
+   <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapsesingle-cell0" aria-expanded="false" aria-controls="collapsesingle-cell0">
+        Bulk RNA Deconvolution with MuSiC
+         (Tutorial) 
+   </button>
+  </div>
+
+  <div id="collapsesingle-cell0" class="accordion-collapse collapse " aria-labelledby="headingsingle-cell0" data-bs-parent="#accordionsingle-cell">
+
+    <div class="accordion-body">
+
+      <!-- Video -->
+      
+        
+           
+           <!-- session: {"description"=>"Bulk RNA-seq data contains a mixture of transcript signatures from\nseveral types of cells. We wish to deconvolve this mixture to obtain\nestimates of the proportions of cell types within the bulk sample. To\ndo this, we can use single cell RNA-seq data as a reference for\nestimating the cell type proportions within the bulk data.\n\nIn this tutorial, we will use bulk and single-cell RNA-seq data, including\nmatrices of similar tissues from different sources, to illustrate how to infer\ncell type abundances from bulk RNA-seq.\n", "materials"=>[{"link"=>"topics/transcriptomics/tutorials/scrna-JUPYTER-trajectories/tutorial.html", "type"=>"Tutorial"}], "tags"=>["transcriptomics", "single-cell"], "type"=>"Tutorial", "versions"=>[{"captions"=>["mtekman", "nomadscientist"], "date"=>"2021-03-08", "galaxy_version"=>"21.09", "length"=>"20M", "link"=>"nfAUXP3W-jM", "speakers"=>["nomadscientist"], "name"=>"Bulk RNA Deconvolution with MuSiC"}], "name"=>"Bulk RNA Deconvolution with MuSiC"}<br><br> video: {"captions"=>["mtekman", "nomadscientist"], "date"=>"2021-03-08", "galaxy_version"=>"21.09", "length"=>"20M", "link"=>"nfAUXP3W-jM", "speakers"=>["nomadscientist"], "name"=>"Bulk RNA Deconvolution with MuSiC"} -->
+
+
+
+
+
+<!-- determine the next archived version of tutorial -->
+
+
+
+
+<div class="flex-row" style="margin-top:1em;">
+ <div class="col-md-8">
+  <h3 class="session-section">Tutorial Video   </h3>
+  <div style="position:relative;padding-top:56.25%;">
+   <iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" data-src="https://www.youtube.com/embed/nfAUXP3W-jM" class="lazyload" loading="lazy" frameborder="0" title="YouTube Embedded Video of the Tutorial" aria-label="YouTube Embedded Video of the Tutorial" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="">
+   </iframe>
+  </div>
+  <div style="margin-top:1em;" class="video-metadata">
+      <table>
+          
+          <tr>
+              <td><strong>Description:</strong></td>
+              <td>Bulk RNA-seq data contains a mixture of transcript signatures from
+several types of cells. We wish to deconvolve this mixture to obtain
+estimates of the proportions of cell types within the bulk sample. To
+do this, we can use single cell RNA-seq data as a reference for
+estimating the cell type proportions within the bulk data.
+
+In this tutorial, we will use bulk and single-cell RNA-seq data, including
+matrices of similar tissues from different sources, to illustrate how to infer
+cell type abundances from bulk RNA-seq.
+</td>
+          </tr>
+          
+          <tr>
+              <td><strong>Length:</strong></td>
+              <td>20 minutes</td>
+          </tr>
+   
+   
+          <tr>
+              <td><strong>Captions:</strong></td>
+              <td> <a href="/video-library/contributors/mtekman/">Mehmet Tekman</a>,  <a href="/video-library/contributors/nomadscientist/">Wendi Bacon</a></td>
+          </tr>
+   
+          
+          <tr>
+              <td><strong>Created:</strong></td>
+              <td>8 March 2021</td>
+          </tr>
+          
+          
+          <tr>
+              <td><strong>Materials:</strong></td>
+              <td>
+                <ul class="plain-text-list">
+                
+                    <li>
+                        
+                            <img style="height: 1em" src="/video-library/assets/fa/tutorial.svg" alt="assets/fa/tutorial.svg" aria-hidden="true" />
+                        
+
+
+                        
+                        
+                        Tutorial:
+                        <a href="https://training.galaxyproject.org/archive/2021-04-01/topics/transcriptomics/tutorials/scrna-JUPYTER-trajectories/tutorial.html">Archived Version</a>
+                        |
+                        <a href="https://training.galaxyproject.org/topics/transcriptomics/tutorials/scrna-JUPYTER-trajectories/tutorial.html">Latest Version</a>
+                        
+                        |
+                        
+                        <a href="https://training.galaxyproject.org/topics/transcriptomics/tutorials/scrna-JUPYTER-trajectories/faqs/">FAQs</a>
+                        
+                        
+                    </li>
+                
+                </ul>
+              </td>
+          </tr>
+          
+          <!-- this is for the embedded versions where they'll use their own1 support forum -->
+          
+          <tr>
+              <td><strong>Support:</strong></td>
+              <td>
+              <ul>
+                
+                
+                <li>Slack: <a href="https://gtnsmrgsbord.slack.com/archives/transcriptomics_bulk-music">#transcriptomics_bulk-music</a> (<a href="https://join.slack.com/t/gtnsmrgsbord/shared_invite/zt-x7vinbs1-BA~Kht6N86JBhDq0uTIVdQ">Slack Invite</a>)</li>
+                <li><a href="https://gitter.im/Galaxy-Training-Network/Lobby">Gitter</a></li>
+                <li><a href="https://help.galaxyproject.org">Galaxy Help Forum</a></li>
+              </ul>
+              </td>
+          </tr>
+          
+          
+          <tr>
+              <td><strong>Learning Objectives:</strong></td>
+              <td>
+                  <ul>
+                      
+                      <li>Construct Bulk and scRNA Expression Set Objects</li>
+                      
+                      <li>Inspect these objects for various properties</li>
+                      
+                      <li>Measure the abundance of certain cell type cluster markers compared to others</li>
+                      
+                  </ul>
+              </td>
+          </tr>
+          
+          
+          <tr>
+              <td><strong>Finished this tutorial as part of GTN Tapas?</strong></td>
+              <td>
+              <ol>
+                
+                
+                <li><a href="https://training.galaxyproject.org/training-material/faqs/galaxy/histories_sharing.html">Share your history</a> (if applicable)</li>
+                <li>Copy the URL</li>
+                <li>Run the command <code>/completed</code> with the URL to your shared history, in <a href="https://gtnsmrgsbord.slack.com/archives/transcriptomics_bulk-music">#transcriptomics_bulk-music</a></li>
+              </ol>
+              </td>
+          </tr>
+          
+      </table>
+
+  </div>
+  
+  Go to the <a href="/video-library/videos/transcriptomics/bulk-music/tutorial">video page</a> to see all versions.
+  
+ </div>
+ <!-- speaker(s) -->
+ 
+ 
+
+ <div class="col-md-3">
+  <center><h3 class="session-section">Speaker</h3></center>
+  
+
+
+
+
+
+
+
+<div class="hall-of-fame">
+    
+    
+    
+		<div class="hall-of-fame-hero" id="nomadscientist">
+			<a href="/video-library/contributors/nomadscientist/">
+            
+			<img src="https://avatars.githubusercontent.com/nomadscientist" alt="" />
+            
+			<div class="name">
+				<b>Wendi Bacon</b>
+			</div>
+			</a>
+			<div class="affil">
+				
+				<a href="https://www.ebi.ac.uk/">
+					EMBL-EBI
+				</a>
+				
+			</div>
+		</div>
+	
+    
+</div>
+
+ </div>
+
+
+</div><!-- end video session -->
+
+
+
+        
+
+      
+
+
+      <!-- Instructors -->
+      
+
+      <!-- Supporting Servers -->
+
+      <!-- Resources -->
+
+    </div><!-- end accordion body -->
+  </div><!-- end collapse -->
+</div><!-- end accordion item (training session) -->
+
+
+
+	
+		
+		
+		
+
+
+
+
+
+
+
+
+
+
+
+<div class="accordion-item">
+  
+  <div class="accordion-header" id="headingsingle-cell1">
+   <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapsesingle-cell1" aria-expanded="false" aria-controls="collapsesingle-cell1">
+        Trajectory Analysis using Python (Jupyter Notebook) in Galaxy
+         (Demo) 
+   </button>
+  </div>
+
+  <div id="collapsesingle-cell1" class="accordion-collapse collapse " aria-labelledby="headingsingle-cell1" data-bs-parent="#accordionsingle-cell">
+
+    <div class="accordion-body">
+
+      <!-- Video -->
+      
+        
+           
+           <!-- session: {"description"=>"You’ve done all the hard work of preparing a single cell matrix, processing it, plotting it, interpreting it, finding lots of lovely genes, all within the glorious Galaxy interface. Now you want to infer trajectories, or relationships between cells… and you’ve been threatened with learning Python to do so! Well, fear not. If you can have a run-through of a basic python coding introduction, then that will help you make more sense of this tutorial, however you’ll be able to make and interpret glorious plots even without understanding the Python coding language. This is the beauty of Galaxy - all the ‘set-up’ is identical across computers, because it’s browser based. So fear not!", "faq"=>"https://docs.google.com/document/d/e/2PACX-1vQFtqSeiowtVHQHdNuJ8tjAhfSKtmfm0B_pfrbOhx0EVYxO4sbza3AKFcVEyrGtM3q5QNH82LaDKyki/pub", "materials"=>[{"link"=>"topics/transcriptomics/tutorials/scrna-JUPYTER-trajectories/tutorial.html", "type"=>"Tutorial"}], "tags"=>["transcriptomics", "single-cell"], "type"=>"Demo", "versions"=>[{"captions"=>["nomadscientist"], "date"=>"2021-02-15", "galaxy_version"=>"21.01", "length"=>"10M", "link"=>"VEyTmwDIgPI", "speakers"=>["nomadscientist"], "name"=>"Trajectory Analysis using Python (Jupyter Notebook) in Galaxy"}], "name"=>"Trajectory Analysis using Python (Jupyter Notebook) in Galaxy"}<br><br> video: {"captions"=>["nomadscientist"], "date"=>"2021-02-15", "galaxy_version"=>"21.01", "length"=>"10M", "link"=>"VEyTmwDIgPI", "speakers"=>["nomadscientist"], "name"=>"Trajectory Analysis using Python (Jupyter Notebook) in Galaxy"} -->
+
+
+
+
+
+<!-- determine the next archived version of tutorial -->
+
+
+
+
+<div class="flex-row" style="margin-top:1em;">
+ <div class="col-md-8">
+  <h3 class="session-section">Demo Video   </h3>
+  <div style="position:relative;padding-top:56.25%;">
+   <iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" data-src="https://www.youtube.com/embed/VEyTmwDIgPI" class="lazyload" loading="lazy" frameborder="0" title="YouTube Embedded Video of the Tutorial" aria-label="YouTube Embedded Video of the Tutorial" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="">
+   </iframe>
+  </div>
+  <div style="margin-top:1em;" class="video-metadata">
+      <table>
+          
+          <tr>
+              <td><strong>Description:</strong></td>
+              <td>You’ve done all the hard work of preparing a single cell matrix, processing it, plotting it, interpreting it, finding lots of lovely genes, all within the glorious Galaxy interface. Now you want to infer trajectories, or relationships between cells… and you’ve been threatened with learning Python to do so! Well, fear not. If you can have a run-through of a basic python coding introduction, then that will help you make more sense of this tutorial, however you’ll be able to make and interpret glorious plots even without understanding the Python coding language. This is the beauty of Galaxy - all the ‘set-up’ is identical across computers, because it’s browser based. So fear not!</td>
+          </tr>
+          
+          <tr>
+              <td><strong>Length:</strong></td>
+              <td>10 minutes</td>
+          </tr>
+   
+   
+          <tr>
+              <td><strong>Captions:</strong></td>
+              <td> <a href="/video-library/contributors/nomadscientist/">Wendi Bacon</a></td>
+          </tr>
+   
+          
+          <tr>
+              <td><strong>Created:</strong></td>
+              <td>15 February 2021</td>
+          </tr>
+          
+          
+          <tr>
+              <td><strong>Materials:</strong></td>
+              <td>
+                <ul class="plain-text-list">
+                
+                    <li>
+                        
+                            <img style="height: 1em" src="/video-library/assets/fa/tutorial.svg" alt="assets/fa/tutorial.svg" aria-hidden="true" />
+                        
+
+
+                        
+                        
+                        Tutorial:
+                        <a href="https://training.galaxyproject.org/archive/2021-03-01/topics/transcriptomics/tutorials/scrna-JUPYTER-trajectories/tutorial.html">Archived Version</a>
+                        |
+                        <a href="https://training.galaxyproject.org/topics/transcriptomics/tutorials/scrna-JUPYTER-trajectories/tutorial.html">Latest Version</a>
+                        
+                        |
+                        
+                        <a href="https://training.galaxyproject.org/topics/transcriptomics/tutorials/scrna-JUPYTER-trajectories/faqs/">FAQs</a>
+                        
+                        
+                    </li>
+                
+                </ul>
+              </td>
+          </tr>
+          
+          <!-- this is for the embedded versions where they'll use their own1 support forum -->
+          
+          <tr>
+              <td><strong>Support:</strong></td>
+              <td>
+              <ul>
+                
+                
+                <li>Slack: <a href="https://gtnsmrgsbord.slack.com/archives/transcriptomics_scrna-JUPYTER-trajectories">#transcriptomics_scrna-JUPYTER-trajectories</a> (<a href="https://join.slack.com/t/gtnsmrgsbord/shared_invite/zt-x7vinbs1-BA~Kht6N86JBhDq0uTIVdQ">Slack Invite</a>)</li>
+                <li><a href="https://gitter.im/Galaxy-Training-Network/Lobby">Gitter</a></li>
+                <li><a href="https://help.galaxyproject.org">Galaxy Help Forum</a></li>
+              </ul>
+              </td>
+          </tr>
+          
+          
+          <tr>
+              <td><strong>Learning Objectives:</strong></td>
+              <td>
+                  <ul>
+                      
+                      <li>Execute multiple plotting methods designed to maintain lineage relationships between cells</li>
+                      
+                      <li>Interpret these plots</li>
+                      
+                  </ul>
+              </td>
+          </tr>
+          
+          
+          <tr>
+              <td><strong>Finished this tutorial as part of GTN Tapas?</strong></td>
+              <td>
+              <ol>
+                
+                
+                <li><a href="https://training.galaxyproject.org/training-material/faqs/galaxy/histories_sharing.html">Share your history</a> (if applicable)</li>
+                <li>Copy the URL</li>
+                <li>Run the command <code>/completed</code> with the URL to your shared history, in <a href="https://gtnsmrgsbord.slack.com/archives/transcriptomics_scrna-JUPYTER-trajectories">#transcriptomics_scrna-JUPYTER-trajectories</a></li>
+              </ol>
+              </td>
+          </tr>
+          
+      </table>
+
+  </div>
+  
+  Go to the <a href="/video-library/videos/transcriptomics/scrna-JUPYTER-trajectories/tutorial">video page</a> to see all versions.
+  
+ </div>
+ <!-- speaker(s) -->
+ 
+ 
+
+ <div class="col-md-3">
+  <center><h3 class="session-section">Speaker</h3></center>
+  
+
+
+
+
+
+
+
+<div class="hall-of-fame">
+    
+    
+    
+		<div class="hall-of-fame-hero" id="nomadscientist">
+			<a href="/video-library/contributors/nomadscientist/">
+            
+			<img src="https://avatars.githubusercontent.com/nomadscientist" alt="" />
+            
+			<div class="name">
+				<b>Wendi Bacon</b>
+			</div>
+			</a>
+			<div class="affil">
+				
+				<a href="https://www.ebi.ac.uk/">
+					EMBL-EBI
+				</a>
+				
+			</div>
+		</div>
+	
+    
+</div>
+
+ </div>
+
+
+</div><!-- end video session -->
+
+
+
+        
+
+      
+
+
+      <!-- Instructors -->
+      
+
+      <!-- Supporting Servers -->
+
+      <!-- Resources -->
+
+    </div><!-- end accordion body -->
+  </div><!-- end collapse -->
+</div><!-- end accordion item (training session) -->
+
+
+
+	
+		
+		
+		
+
+
+
+
+
+
+
+
+
+
+
+<div class="accordion-item">
+  
+  <div class="accordion-header" id="headingsingle-cell2">
+   <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapsesingle-cell2" aria-expanded="false" aria-controls="collapsesingle-cell2">
+        An introduction to scRNA-seq data analysis
+         (Lecture) 
+   </button>
+  </div>
+
+  <div id="collapsesingle-cell2" class="accordion-collapse collapse " aria-labelledby="headingsingle-cell2" data-bs-parent="#accordionsingle-cell">
+
+    <div class="accordion-body">
+
+      <!-- Video -->
+      
+        
+           
+           <!-- session: {"description"=>"Single-cell RNA-seq analysis is a rapidly evolving field at the forefront of transcriptomic research, used in high-throughput developmental studies and rare transcript studies to examine cell heterogeneity within a populations of cells. The cellular resolution and genome wide scope make it possible to draw new conclusions that are not otherwise possible with bulk RNA-seq. <strong>Slides created by Mehmet Tekman</strong>.", "faq"=>"https://docs.google.com/document/d/e/2PACX-1vSVFOV1C6hqMPGIpZ1qeOo6t-ubjaWbtsGSTMH9TwNlvfqZrP48i0_7_Xk5rxmY7g2CroOF1dNIyfMY/pub", "materials"=>[{"link"=>"topics/transcriptomics/tutorials/scrna-intro/slides.html", "title"=>"An introduction to scRNA-Seq data analysis", "type"=>"Slides"}], "tags"=>["transcriptomics", "single-cell"], "type"=>"Lecture", "versions"=>[{"captions"=>["mtekman"], "date"=>"2021-02-15", "galaxy_version"=>"21.01", "length"=>"20M", "link"=>"D3qvYWZMFa0", "speakers"=>["awspolly"], "name"=>"An introduction to scRNA-seq data analysis"}], "name"=>"An introduction to scRNA-seq data analysis"}<br><br> video: {"captions"=>["mtekman"], "date"=>"2021-02-15", "galaxy_version"=>"21.01", "length"=>"20M", "link"=>"D3qvYWZMFa0", "speakers"=>["awspolly"], "name"=>"An introduction to scRNA-seq data analysis"} -->
+
+
+
+
+
+<!-- determine the next archived version of tutorial -->
+
+
+
+
+<div class="flex-row" style="margin-top:1em;">
+ <div class="col-md-8">
+  <h3 class="session-section">Lecture Video   </h3>
+  <div style="position:relative;padding-top:56.25%;">
+   <iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" data-src="https://www.youtube.com/embed/D3qvYWZMFa0" class="lazyload" loading="lazy" frameborder="0" title="YouTube Embedded Video of the Tutorial" aria-label="YouTube Embedded Video of the Tutorial" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="">
+   </iframe>
+  </div>
+  <div style="margin-top:1em;" class="video-metadata">
+      <table>
+          
+          <tr>
+              <td><strong>Description:</strong></td>
+              <td>Single-cell RNA-seq analysis is a rapidly evolving field at the forefront of transcriptomic research, used in high-throughput developmental studies and rare transcript studies to examine cell heterogeneity within a populations of cells. The cellular resolution and genome wide scope make it possible to draw new conclusions that are not otherwise possible with bulk RNA-seq. <strong>Slides created by Mehmet Tekman</strong>.</td>
+          </tr>
+          
+          <tr>
+              <td><strong>Length:</strong></td>
+              <td>20 minutes</td>
+          </tr>
+   
+   
+          <tr>
+              <td><strong>Captions:</strong></td>
+              <td> <a href="/video-library/contributors/mtekman/">Mehmet Tekman</a></td>
+          </tr>
+   
+          
+          <tr>
+              <td><strong>Created:</strong></td>
+              <td>15 February 2021</td>
+          </tr>
+          
+          
+          <tr>
+              <td><strong>Materials:</strong></td>
+              <td>
+                <ul class="plain-text-list">
+                
+                    <li>
+                        
+                            <img style="height: 1em" src="/video-library/assets/fa/slides.svg" alt="assets/fa/slides.svg" aria-hidden="true" />
+                        
+
+
+                        
+                        
+                        Slides:
+                        <a href="https://training.galaxyproject.org/archive/2021-03-01/topics/transcriptomics/tutorials/scrna-intro/slides.html">Archived Version</a>
+                        |
+                        <a href="https://training.galaxyproject.org/topics/transcriptomics/tutorials/scrna-intro/slides.html">Latest Version</a>
+                        
+                        
+                    </li>
+                
+                </ul>
+              </td>
+          </tr>
+          
+          <!-- this is for the embedded versions where they'll use their own1 support forum -->
+          
+          <tr>
+              <td><strong>Support:</strong></td>
+              <td>
+              <ul>
+                
+                
+                <li>Slack: <a href="https://gtnsmrgsbord.slack.com/archives/transcriptomics_scrna-intro">#transcriptomics_scrna-intro</a> (<a href="https://join.slack.com/t/gtnsmrgsbord/shared_invite/zt-x7vinbs1-BA~Kht6N86JBhDq0uTIVdQ">Slack Invite</a>)</li>
+                <li><a href="https://gitter.im/Galaxy-Training-Network/Lobby">Gitter</a></li>
+                <li><a href="https://help.galaxyproject.org">Galaxy Help Forum</a></li>
+              </ul>
+              </td>
+          </tr>
+          
+          
+          <tr>
+              <td><strong>Learning Objectives:</strong></td>
+              <td>
+                  <ul>
+                      
+                      <li>To understand the pitfalls in scRNA-seq sequencing and amplification, and how they are overcome.</li>
+                      
+                      <li>Know the types of variation in an analysis and how to control for them.</li>
+                      
+                      <li>Grasp what dimension reduction is, and how it might be performed.</li>
+                      
+                      <li>Be familiarised with the main types of clustering techniques and when to use them.</li>
+                      
+                  </ul>
+              </td>
+          </tr>
+          
+          
+          <tr>
+              <td><strong>Finished this tutorial as part of GTN Tapas?</strong></td>
+              <td>
+              <ol>
+                
+                
+                <li><a href="https://training.galaxyproject.org/training-material/faqs/galaxy/histories_sharing.html">Share your history</a> (if applicable)</li>
+                <li>Copy the URL</li>
+                <li>Run the command <code>/completed</code> with the URL to your shared history, in <a href="https://gtnsmrgsbord.slack.com/archives/transcriptomics_scrna-intro">#transcriptomics_scrna-intro</a></li>
+              </ol>
+              </td>
+          </tr>
+          
+      </table>
+
+  </div>
+  
+  Go to the <a href="/video-library/videos/transcriptomics/scrna-intro/slides">video page</a> to see all versions.
+  
+ </div>
+ <!-- speaker(s) -->
+ 
+ 
+
+ <div class="col-md-3">
+  <center><h3 class="session-section">Speaker</h3></center>
+  
+
+
+
+
+
+
+
+<div class="hall-of-fame">
+    
+    
+    
+		<div class="hall-of-fame-hero" id="awspolly">
+			<a href="/video-library/contributors/awspolly/">
+            
+            <img src="/video-library/assets/images/instructors/polly.png" alt="" />
+            
+			<div class="name">
+				<b>These slides are narrated by AWS Polly.</b>
+			</div>
+			</a>
+			<div class="affil">
+				
+			</div>
+		</div>
+	
+    
+</div>
+
+ </div>
+
+
+</div><!-- end video session -->
+
+
+
+        
+
+      
+
+
+      <!-- Instructors -->
+      
+
+      <!-- Supporting Servers -->
+
+      <!-- Resources -->
+
+    </div><!-- end accordion body -->
+  </div><!-- end collapse -->
+</div><!-- end accordion item (training session) -->
+
+
+
+	
+		
+		
+		
+
+
+
+
+
+
+
+
+
+
+
+<div class="accordion-item">
+  
+  <div class="accordion-header" id="headingsingle-cell3">
+   <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapsesingle-cell3" aria-expanded="false" aria-controls="collapsesingle-cell3">
+        Pre-processing of 10X Single-Cell RNA Datasets
+         (Demo) 
+   </button>
+  </div>
+
+  <div id="collapsesingle-cell3" class="accordion-collapse collapse " aria-labelledby="headingsingle-cell3" data-bs-parent="#accordionsingle-cell">
+
+    <div class="accordion-body">
+
+      <!-- Video -->
+      
+        
+           
+           <!-- session: {"title"=>"Pre-processing of 10X Single-Cell RNA Datasets", "description"=>"10x genomics has provided not only a cost-effective high-throughput solution to understanding sample heterogeneity at the individual cell level, but has defined the standards of the field that many downstream analysis packages are now scrambling to accommodate. Please work through the full tutorial yourself to get all the details.", "faq"=>"https://docs.google.com/document/d/e/2PACX-1vTuCzmNJlZSbS9-lIdfLgt8T7IJb7jWZ3gedtjNB4aKJ7pAi3apYS4NgfaCRh0_r5QbF4Pwl15Z0-mk/pub", "type"=>"Demo", "materials"=>[{"type"=>"Tutorial", "link"=>"topics/transcriptomics/tutorials/scrna-preprocessing-tenx/tutorial.html", "title"=>"Pre-processing of 10X Single-Cell RNA Datasets"}], "tags"=>["transcriptomics", "single-cell"], "versions"=>[{"link"=>"vNBNFkF0L4U", "date"=>"2021-03-18", "galaxy_version"=>"21.01", "length"=>"5M", "captions"=>["khanteymoori"], "speakers"=>["nomadscientist"], "name"=>"Pre-processing of 10X Single-Cell RNA Datasets"}], "name"=>"Pre-processing of 10X Single-Cell RNA Datasets"}<br><br> video: {"link"=>"vNBNFkF0L4U", "date"=>"2021-03-18", "galaxy_version"=>"21.01", "length"=>"5M", "captions"=>["khanteymoori"], "speakers"=>["nomadscientist"], "name"=>"Pre-processing of 10X Single-Cell RNA Datasets"} -->
+
+
+
+
+
+<!-- determine the next archived version of tutorial -->
+
+
+
+
+<div class="flex-row" style="margin-top:1em;">
+ <div class="col-md-8">
+  <h3 class="session-section">Demo Video   </h3>
+  <div style="position:relative;padding-top:56.25%;">
+   <iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" data-src="https://www.youtube.com/embed/vNBNFkF0L4U" class="lazyload" loading="lazy" frameborder="0" title="YouTube Embedded Video of the Tutorial" aria-label="YouTube Embedded Video of the Tutorial" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="">
+   </iframe>
+  </div>
+  <div style="margin-top:1em;" class="video-metadata">
+      <table>
+          
+          <tr>
+              <td><strong>Description:</strong></td>
+              <td>10x genomics has provided not only a cost-effective high-throughput solution to understanding sample heterogeneity at the individual cell level, but has defined the standards of the field that many downstream analysis packages are now scrambling to accommodate. Please work through the full tutorial yourself to get all the details.</td>
+          </tr>
+          
+          <tr>
+              <td><strong>Length:</strong></td>
+              <td>5 minutes</td>
+          </tr>
+   
+   
+          <tr>
+              <td><strong>Captions:</strong></td>
+              <td> <a href="/video-library/contributors/khanteymoori/">Alireza Khanteymoori</a></td>
+          </tr>
+   
+          
+          <tr>
+              <td><strong>Created:</strong></td>
+              <td>18 March 2021</td>
+          </tr>
+          
+          
+          <tr>
+              <td><strong>Materials:</strong></td>
+              <td>
+                <ul class="plain-text-list">
+                
+                    <li>
+                        
+                            <img style="height: 1em" src="/video-library/assets/fa/tutorial.svg" alt="assets/fa/tutorial.svg" aria-hidden="true" />
+                        
+
+
+                        
+                        
+                        Tutorial:
+                        <a href="https://training.galaxyproject.org/archive/2021-04-01/topics/transcriptomics/tutorials/scrna-preprocessing-tenx/tutorial.html">Archived Version</a>
+                        |
+                        <a href="https://training.galaxyproject.org/topics/transcriptomics/tutorials/scrna-preprocessing-tenx/tutorial.html">Latest Version</a>
+                        
+                        |
+                        
+                        <a href="https://training.galaxyproject.org/topics/transcriptomics/tutorials/scrna-preprocessing-tenx/faqs/">FAQs</a>
+                        
+                        
+                    </li>
+                
+                </ul>
+              </td>
+          </tr>
+          
+          <!-- this is for the embedded versions where they'll use their own1 support forum -->
+          
+          <tr>
+              <td><strong>Support:</strong></td>
+              <td>
+              <ul>
+                
+                
+                <li>Slack: <a href="https://gtnsmrgsbord.slack.com/archives/transcriptomics_scrna-preprocessing-tenx">#transcriptomics_scrna-preprocessing-tenx</a> (<a href="https://join.slack.com/t/gtnsmrgsbord/shared_invite/zt-x7vinbs1-BA~Kht6N86JBhDq0uTIVdQ">Slack Invite</a>)</li>
+                <li><a href="https://gitter.im/Galaxy-Training-Network/Lobby">Gitter</a></li>
+                <li><a href="https://help.galaxyproject.org">Galaxy Help Forum</a></li>
+              </ul>
+              </td>
+          </tr>
+          
+          
+          <tr>
+              <td><strong>Learning Objectives:</strong></td>
+              <td>
+                  <ul>
+                      
+                      <li>Demultiplex single-cell FASTQ data from 10X Genomics</li>
+                      
+                      <li>Learn about transparent matrix formats</li>
+                      
+                      <li>Understand the importance of high and low quality cells</li>
+                      
+                  </ul>
+              </td>
+          </tr>
+          
+          
+          <tr>
+              <td><strong>Finished this tutorial as part of GTN Tapas?</strong></td>
+              <td>
+              <ol>
+                
+                
+                <li><a href="https://training.galaxyproject.org/training-material/faqs/galaxy/histories_sharing.html">Share your history</a> (if applicable)</li>
+                <li>Copy the URL</li>
+                <li>Run the command <code>/completed</code> with the URL to your shared history, in <a href="https://gtnsmrgsbord.slack.com/archives/transcriptomics_scrna-preprocessing-tenx">#transcriptomics_scrna-preprocessing-tenx</a></li>
+              </ol>
+              </td>
+          </tr>
+          
+      </table>
+
+  </div>
+  
+  Go to the <a href="/video-library/videos/transcriptomics/scrna-preprocessing-tenx/tutorial">video page</a> to see all versions.
+  
+ </div>
+ <!-- speaker(s) -->
+ 
+ 
+
+ <div class="col-md-3">
+  <center><h3 class="session-section">Speaker</h3></center>
+  
+
+
+
+
+
+
+
+<div class="hall-of-fame">
+    
+    
+    
+		<div class="hall-of-fame-hero" id="nomadscientist">
+			<a href="/video-library/contributors/nomadscientist/">
+            
+			<img src="https://avatars.githubusercontent.com/nomadscientist" alt="" />
+            
+			<div class="name">
+				<b>Wendi Bacon</b>
+			</div>
+			</a>
+			<div class="affil">
+				
+				<a href="https://www.ebi.ac.uk/">
+					EMBL-EBI
+				</a>
+				
+			</div>
+		</div>
+	
+    
+</div>
+
+ </div>
+
+
+</div><!-- end video session -->
+
+
+
+        
+
+      
+
+
+      <!-- Instructors -->
+      
+
+      <!-- Supporting Servers -->
+
+      <!-- Resources -->
+
+    </div><!-- end accordion body -->
+  </div><!-- end collapse -->
+</div><!-- end accordion item (training session) -->
+
+
+
+	
+		
+		
+		
+
+
+
+
+
+
+
+
+
+
+
+<div class="accordion-item">
+  
+  <div class="accordion-header" id="headingsingle-cell4">
+   <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapsesingle-cell4" aria-expanded="false" aria-controls="collapsesingle-cell4">
+        Clustering 3K PBMCs with Scanpy
+         (Demo) 
+   </button>
+  </div>
+
+  <div id="collapsesingle-cell4" class="accordion-collapse collapse " aria-labelledby="headingsingle-cell4" data-bs-parent="#accordionsingle-cell">
+
+    <div class="accordion-body">
+
+      <!-- Video -->
+      
+        
+           
+           <!-- session: {"title"=>"Clustering 3K PBMCs with Scanpy", "faq"=>"https://docs.google.com/document/d/e/2PACX-1vTdqGjslXMxUjyjqwkNtidsXFl6SRULFKFug_2TYBl-dYXIDEnXb59nMyZ5qJc6bXI-fP5cPLfkXbHV/pub", "type"=>"Demo", "description"=>"In this tutorial, we will investigate clustering of single-cell data from 10x Genomics, including preprocessing, clustering and the identification of cell types via known marker genes, using Scanpy. It will be illustrated using a dataset of Peripheral Blood Mononuclear Cells (PBMC), containing 2,700 single cells. Please work through the full tutorial yourself to get all the details.", "tags"=>["transcriptomics", "single-cell"], "versions"=>[{"link"=>"nefB35Bi1l4", "length"=>"45M", "captions"=>["hrhotz"], "speakers"=>["nomadscientist"], "date"=>"2021-03-18", "name"=>"Clustering 3K PBMCs with Scanpy"}], "materials"=>[{"type"=>"Tutorial", "link"=>"topics/transcriptomics/tutorials/scrna-scanpy-pbmc3k/tutorial.html"}], "name"=>"Clustering 3K PBMCs with Scanpy"}<br><br> video: {"link"=>"nefB35Bi1l4", "length"=>"45M", "captions"=>["hrhotz"], "speakers"=>["nomadscientist"], "date"=>"2021-03-18", "name"=>"Clustering 3K PBMCs with Scanpy"} -->
+
+
+
+
+
+<!-- determine the next archived version of tutorial -->
+
+
+
+
+<div class="flex-row" style="margin-top:1em;">
+ <div class="col-md-8">
+  <h3 class="session-section">Demo Video   </h3>
+  <div style="position:relative;padding-top:56.25%;">
+   <iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" data-src="https://www.youtube.com/embed/nefB35Bi1l4" class="lazyload" loading="lazy" frameborder="0" title="YouTube Embedded Video of the Tutorial" aria-label="YouTube Embedded Video of the Tutorial" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="">
+   </iframe>
+  </div>
+  <div style="margin-top:1em;" class="video-metadata">
+      <table>
+          
+          <tr>
+              <td><strong>Description:</strong></td>
+              <td>In this tutorial, we will investigate clustering of single-cell data from 10x Genomics, including preprocessing, clustering and the identification of cell types via known marker genes, using Scanpy. It will be illustrated using a dataset of Peripheral Blood Mononuclear Cells (PBMC), containing 2,700 single cells. Please work through the full tutorial yourself to get all the details.</td>
+          </tr>
+          
+          <tr>
+              <td><strong>Length:</strong></td>
+              <td>45 minutes</td>
+          </tr>
+   
+   
+          <tr>
+              <td><strong>Captions:</strong></td>
+              <td> <a href="/video-library/contributors/hrhotz/">Hans-Rudolf Hotz</a></td>
+          </tr>
+   
+          
+          <tr>
+              <td><strong>Created:</strong></td>
+              <td>18 March 2021</td>
+          </tr>
+          
+          
+          <tr>
+              <td><strong>Materials:</strong></td>
+              <td>
+                <ul class="plain-text-list">
+                
+                    <li>
+                        
+                            <img style="height: 1em" src="/video-library/assets/fa/tutorial.svg" alt="assets/fa/tutorial.svg" aria-hidden="true" />
+                        
+
+
+                        
+                        
+                        Tutorial:
+                        <a href="https://training.galaxyproject.org/archive/2021-04-01/topics/transcriptomics/tutorials/scrna-scanpy-pbmc3k/tutorial.html">Archived Version</a>
+                        |
+                        <a href="https://training.galaxyproject.org/topics/transcriptomics/tutorials/scrna-scanpy-pbmc3k/tutorial.html">Latest Version</a>
+                        
+                        |
+                        
+                        <a href="https://training.galaxyproject.org/topics/transcriptomics/tutorials/scrna-scanpy-pbmc3k/faqs/">FAQs</a>
+                        
+                        
+                    </li>
+                
+                </ul>
+              </td>
+          </tr>
+          
+          <!-- this is for the embedded versions where they'll use their own1 support forum -->
+          
+          <tr>
+              <td><strong>Support:</strong></td>
+              <td>
+              <ul>
+                
+                
+                <li>Slack: <a href="https://gtnsmrgsbord.slack.com/archives/transcriptomics_scrna-scanpy-pbmc3k">#transcriptomics_scrna-scanpy-pbmc3k</a> (<a href="https://join.slack.com/t/gtnsmrgsbord/shared_invite/zt-x7vinbs1-BA~Kht6N86JBhDq0uTIVdQ">Slack Invite</a>)</li>
+                <li><a href="https://gitter.im/Galaxy-Training-Network/Lobby">Gitter</a></li>
+                <li><a href="https://help.galaxyproject.org">Galaxy Help Forum</a></li>
+              </ul>
+              </td>
+          </tr>
+          
+          
+          <tr>
+              <td><strong>Learning Objectives:</strong></td>
+              <td>
+                  <ul>
+                      
+                      <li>Describe an AnnData object to store single-cell data</li>
+                      
+                      <li>Explain the preprocessing steps for single-cell data</li>
+                      
+                      <li>Evaluate quality of single-cell data and apply steps to select and filter cells and genes based on QC</li>
+                      
+                      <li>Execute data normalization and scaling</li>
+                      
+                      <li>Identify highly variable genes</li>
+                      
+                      <li>Construct and run a dimensionality reduction using Principal Component Analysis</li>
+                      
+                      <li>Perform a graph-based clustering for cells</li>
+                      
+                      <li>Identify marker genes for the clusters</li>
+                      
+                      <li>Construct and run a cell type annotation for the clusters</li>
+                      
+                  </ul>
+              </td>
+          </tr>
+          
+          
+          <tr>
+              <td><strong>Finished this tutorial as part of GTN Tapas?</strong></td>
+              <td>
+              <ol>
+                
+                
+                <li><a href="https://training.galaxyproject.org/training-material/faqs/galaxy/histories_sharing.html">Share your history</a> (if applicable)</li>
+                <li>Copy the URL</li>
+                <li>Run the command <code>/completed</code> with the URL to your shared history, in <a href="https://gtnsmrgsbord.slack.com/archives/transcriptomics_scrna-scanpy-pbmc3k">#transcriptomics_scrna-scanpy-pbmc3k</a></li>
+              </ol>
+              </td>
+          </tr>
+          
+      </table>
+
+  </div>
+  
+  Go to the <a href="/video-library/videos/transcriptomics/scrna-scanpy-pbmc3k/tutorial">video page</a> to see all versions.
+  
+ </div>
+ <!-- speaker(s) -->
+ 
+ 
+
+ <div class="col-md-3">
+  <center><h3 class="session-section">Speaker</h3></center>
+  
+
+
+
+
+
+
+
+<div class="hall-of-fame">
+    
+    
+    
+		<div class="hall-of-fame-hero" id="nomadscientist">
+			<a href="/video-library/contributors/nomadscientist/">
+            
+			<img src="https://avatars.githubusercontent.com/nomadscientist" alt="" />
+            
+			<div class="name">
+				<b>Wendi Bacon</b>
+			</div>
+			</a>
+			<div class="affil">
+				
+				<a href="https://www.ebi.ac.uk/">
+					EMBL-EBI
+				</a>
+				
+			</div>
+		</div>
+	
+    
+</div>
+
+ </div>
+
+
+</div><!-- end video session -->
+
+
+
+        
+
+      
+
+
+      <!-- Instructors -->
+      
+
+      <!-- Supporting Servers -->
+
+      <!-- Resources -->
+
+    </div><!-- end accordion body -->
+  </div><!-- end collapse -->
+</div><!-- end accordion item (training session) -->
+
+
+
+	
+		
+		
+		
+
+
+
+
+
+
+
+
+
+
+
+<div class="accordion-item">
+  
+  <div class="accordion-header" id="headingsingle-cell5">
+   <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapsesingle-cell5" aria-expanded="false" aria-controls="collapsesingle-cell5">
+        Analysis of plant scRNA-Seq Data with Scanpy
+         (Tutorial) 
+   </button>
+  </div>
+
+  <div id="collapsesingle-cell5" class="accordion-collapse collapse " aria-labelledby="headingsingle-cell5" data-bs-parent="#accordionsingle-cell">
+
+    <div class="accordion-body">
+
+      <!-- Video -->
+      
+        
+           
+           <!-- session: {"description"=>"This tutorial replicates the paper “Spatiotemporal Developmental Trajectories in the Arabidopsis Root Revealed Using High-Throughput Single-Cell RNA Sequencing” (Denyer et al. 2019), where the major plant cell types are recovered in the data as well as distinguishing between QC and meristematic cells. The original paper used the Seurat analysis suite (Satija et al. 2015), but here we will use the ScanPy analysis suite (Wolf et al. 2018) integrated within the single-cell resources in Galaxy (Tekman et al. 2020).", "faq"=>"https://docs.google.com/document/d/e/2PACX-1vS8qAPOQwMPlt16fFWQ-JPHNrzKT_46I1OHiFFaJ9r8oT6LZaelryrwnigWUPVPfsccQJkm3Q68TyHr/pub", "materials"=>[{"link"=>"topics/transcriptomics/tutorials/scrna-plant/tutorial.html", "type"=>"Tutorial"}], "tags"=>["transcriptomics", "single-cell"], "type"=>"Tutorial", "versions"=>[{"captions"=>["mtekman"], "date"=>"2021-02-15", "galaxy_version"=>"21.01", "length"=>"55M", "link"=>"yKlJ5ESri7o", "speakers"=>["mtekman"], "name"=>"Analysis of plant scRNA-Seq Data with Scanpy"}], "name"=>"Analysis of plant scRNA-Seq Data with Scanpy"}<br><br> video: {"captions"=>["mtekman"], "date"=>"2021-02-15", "galaxy_version"=>"21.01", "length"=>"55M", "link"=>"yKlJ5ESri7o", "speakers"=>["mtekman"], "name"=>"Analysis of plant scRNA-Seq Data with Scanpy"} -->
+
+
+
+
+
+<!-- determine the next archived version of tutorial -->
+
+
+
+
+<div class="flex-row" style="margin-top:1em;">
+ <div class="col-md-8">
+  <h3 class="session-section">Tutorial Video   </h3>
+  <div style="position:relative;padding-top:56.25%;">
+   <iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" data-src="https://www.youtube.com/embed/yKlJ5ESri7o" class="lazyload" loading="lazy" frameborder="0" title="YouTube Embedded Video of the Tutorial" aria-label="YouTube Embedded Video of the Tutorial" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="">
+   </iframe>
+  </div>
+  <div style="margin-top:1em;" class="video-metadata">
+      <table>
+          
+          <tr>
+              <td><strong>Description:</strong></td>
+              <td>This tutorial replicates the paper “Spatiotemporal Developmental Trajectories in the Arabidopsis Root Revealed Using High-Throughput Single-Cell RNA Sequencing” (Denyer et al. 2019), where the major plant cell types are recovered in the data as well as distinguishing between QC and meristematic cells. The original paper used the Seurat analysis suite (Satija et al. 2015), but here we will use the ScanPy analysis suite (Wolf et al. 2018) integrated within the single-cell resources in Galaxy (Tekman et al. 2020).</td>
+          </tr>
+          
+          <tr>
+              <td><strong>Length:</strong></td>
+              <td>55 minutes</td>
+          </tr>
+   
+   
+          <tr>
+              <td><strong>Captions:</strong></td>
+              <td> <a href="/video-library/contributors/mtekman/">Mehmet Tekman</a></td>
+          </tr>
+   
+          
+          <tr>
+              <td><strong>Created:</strong></td>
+              <td>15 February 2021</td>
+          </tr>
+          
+          
+          <tr>
+              <td><strong>Materials:</strong></td>
+              <td>
+                <ul class="plain-text-list">
+                
+                    <li>
+                        
+                            <img style="height: 1em" src="/video-library/assets/fa/tutorial.svg" alt="assets/fa/tutorial.svg" aria-hidden="true" />
+                        
+
+
+                        
+                        
+                        Tutorial:
+                        <a href="https://training.galaxyproject.org/archive/2021-03-01/topics/transcriptomics/tutorials/scrna-plant/tutorial.html">Archived Version</a>
+                        |
+                        <a href="https://training.galaxyproject.org/topics/transcriptomics/tutorials/scrna-plant/tutorial.html">Latest Version</a>
+                        
+                        |
+                        
+                        <a href="https://training.galaxyproject.org/topics/transcriptomics/tutorials/scrna-plant/faqs/">FAQs</a>
+                        
+                        
+                    </li>
+                
+                </ul>
+              </td>
+          </tr>
+          
+          <!-- this is for the embedded versions where they'll use their own1 support forum -->
+          
+          <tr>
+              <td><strong>Support:</strong></td>
+              <td>
+              <ul>
+                
+                
+                <li>Slack: <a href="https://gtnsmrgsbord.slack.com/archives/transcriptomics_scrna-plant">#transcriptomics_scrna-plant</a> (<a href="https://join.slack.com/t/gtnsmrgsbord/shared_invite/zt-x7vinbs1-BA~Kht6N86JBhDq0uTIVdQ">Slack Invite</a>)</li>
+                <li><a href="https://gitter.im/Galaxy-Training-Network/Lobby">Gitter</a></li>
+                <li><a href="https://help.galaxyproject.org">Galaxy Help Forum</a></li>
+              </ul>
+              </td>
+          </tr>
+          
+          
+          <tr>
+              <td><strong>Learning Objectives:</strong></td>
+              <td>
+                  <ul>
+                      
+                      <li>Perform filtering, dimensionality reduction, and clustering</li>
+                      
+                      <li>Generate a DotPlot emulating the original paper using a different analysis tool</li>
+                      
+                      <li>Determine robust clusters across scRNA-seq pipelines</li>
+                      
+                  </ul>
+              </td>
+          </tr>
+          
+          
+          <tr>
+              <td><strong>Finished this tutorial as part of GTN Tapas?</strong></td>
+              <td>
+              <ol>
+                
+                
+                <li><a href="https://training.galaxyproject.org/training-material/faqs/galaxy/histories_sharing.html">Share your history</a> (if applicable)</li>
+                <li>Copy the URL</li>
+                <li>Run the command <code>/completed</code> with the URL to your shared history, in <a href="https://gtnsmrgsbord.slack.com/archives/transcriptomics_scrna-plant">#transcriptomics_scrna-plant</a></li>
+              </ol>
+              </td>
+          </tr>
+          
+      </table>
+
+  </div>
+  
+  Go to the <a href="/video-library/videos/transcriptomics/scrna-plant/tutorial">video page</a> to see all versions.
+  
+ </div>
+ <!-- speaker(s) -->
+ 
+ 
+
+ <div class="col-md-3">
+  <center><h3 class="session-section">Speaker</h3></center>
+  
+
+
+
+
+
+
+
+<div class="hall-of-fame">
+    
+    
+    
+		<div class="hall-of-fame-hero" id="mtekman">
+			<a href="/video-library/contributors/mtekman/">
+            
+			<img src="https://avatars.githubusercontent.com/mtekman" alt="" />
+            
+			<div class="name">
+				<b>Mehmet Tekman</b>
+			</div>
+			</a>
+			<div class="affil">
+				
+				<a href="https://uni-freiburg.de/">
+					Albert-Ludwigs-Universität Freiburg
+				</a>
+				
+			</div>
+		</div>
+	
+    
+</div>
+
+ </div>
+
+
+</div><!-- end video session -->
+
+
+
+        
+
+      
+
+
+      <!-- Instructors -->
+      
+
+      <!-- Supporting Servers -->
+
+      <!-- Resources -->
+
+    </div><!-- end accordion body -->
+  </div><!-- end collapse -->
+</div><!-- end accordion item (training session) -->
+
+
+
+	
+		
+		
+		
+
+
+
+
+
+
+
+
+
+
+
+<div class="accordion-item">
+  
+  <div class="accordion-header" id="headingsingle-cell6">
+   <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapsesingle-cell6" aria-expanded="false" aria-controls="collapsesingle-cell6">
+        Filter, Plot and Explore Single-cell RNA-seq Data
+         (Demo) 
+   </button>
+  </div>
+
+  <div id="collapsesingle-cell6" class="accordion-collapse collapse " aria-labelledby="headingsingle-cell6" data-bs-parent="#accordionsingle-cell">
+
+    <div class="accordion-body">
+
+      <!-- Video -->
+      
+        
+           
+           <!-- session: {"description"=>"You’ve done all the work to make a single cell matrix, with gene counts and mitochondrial counts and buckets of cell metadata from all your variables of interest, now it’s time to fully process our data, to remove low quality cells, to reduce the many dimensions of data that make it difficult to work with, and ultimately to try to define our clusters and to find our biological meaning and insights!", "faq"=>"https://docs.google.com/document/d/e/2PACX-1vTIorwkiFua1sXaJwKOsXPTugOZz_BzcfNnFgbsd2a6AjDuHbrj-KD023J25OHp9F_Dmql0luIMCN3N/pub", "materials"=>[{"link"=>"topics/transcriptomics/tutorials/scrna-seq-basic-pipeline/tutorial.html", "type"=>"Tutorial"}], "tags"=>["transcriptomics", "single-cell"], "type"=>"Demo", "versions"=>[{"captions"=>["nomadscientist"], "date"=>"2021-02-15", "galaxy_version"=>"21.01", "length"=>"30M", "link"=>"M6iepSJh0EQ", "speakers"=>["nomadscientist"], "name"=>"Filter, Plot and Explore Single-cell RNA-seq Data"}], "name"=>"Filter, Plot and Explore Single-cell RNA-seq Data"}<br><br> video: {"captions"=>["nomadscientist"], "date"=>"2021-02-15", "galaxy_version"=>"21.01", "length"=>"30M", "link"=>"M6iepSJh0EQ", "speakers"=>["nomadscientist"], "name"=>"Filter, Plot and Explore Single-cell RNA-seq Data"} -->
+
+
+
+
+
+<!-- determine the next archived version of tutorial -->
+
+
+
+
+<div class="flex-row" style="margin-top:1em;">
+ <div class="col-md-8">
+  <h3 class="session-section">Demo Video   </h3>
+  <div style="position:relative;padding-top:56.25%;">
+   <iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" data-src="https://www.youtube.com/embed/M6iepSJh0EQ" class="lazyload" loading="lazy" frameborder="0" title="YouTube Embedded Video of the Tutorial" aria-label="YouTube Embedded Video of the Tutorial" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="">
+   </iframe>
+  </div>
+  <div style="margin-top:1em;" class="video-metadata">
+      <table>
+          
+          <tr>
+              <td><strong>Description:</strong></td>
+              <td>You’ve done all the work to make a single cell matrix, with gene counts and mitochondrial counts and buckets of cell metadata from all your variables of interest, now it’s time to fully process our data, to remove low quality cells, to reduce the many dimensions of data that make it difficult to work with, and ultimately to try to define our clusters and to find our biological meaning and insights!</td>
+          </tr>
+          
+          <tr>
+              <td><strong>Length:</strong></td>
+              <td>30 minutes</td>
+          </tr>
+   
+   
+          <tr>
+              <td><strong>Captions:</strong></td>
+              <td> <a href="/video-library/contributors/nomadscientist/">Wendi Bacon</a></td>
+          </tr>
+   
+          
+          <tr>
+              <td><strong>Created:</strong></td>
+              <td>15 February 2021</td>
+          </tr>
+          
+          
+          <tr>
+              <td><strong>Materials:</strong></td>
+              <td>
+                <ul class="plain-text-list">
+                
+                    <li>
+                        
+                            <img style="height: 1em" src="/video-library/assets/fa/tutorial.svg" alt="assets/fa/tutorial.svg" aria-hidden="true" />
+                        
+
+
+                        
+                        
+                        Tutorial:
+                        <a href="https://training.galaxyproject.org/archive/2021-03-01/topics/transcriptomics/tutorials/scrna-seq-basic-pipeline/tutorial.html">Archived Version</a>
+                        |
+                        <a href="https://training.galaxyproject.org/topics/transcriptomics/tutorials/scrna-seq-basic-pipeline/tutorial.html">Latest Version</a>
+                        
+                        |
+                        
+                        <a href="https://training.galaxyproject.org/topics/transcriptomics/tutorials/scrna-seq-basic-pipeline/faqs/">FAQs</a>
+                        
+                        
+                    </li>
+                
+                </ul>
+              </td>
+          </tr>
+          
+          <!-- this is for the embedded versions where they'll use their own1 support forum -->
+          
+          <tr>
+              <td><strong>Support:</strong></td>
+              <td>
+              <ul>
+                
+                
+                <li>Slack: <a href="https://gtnsmrgsbord.slack.com/archives/transcriptomics_scrna-seq-basic-pipeline">#transcriptomics_scrna-seq-basic-pipeline</a> (<a href="https://join.slack.com/t/gtnsmrgsbord/shared_invite/zt-x7vinbs1-BA~Kht6N86JBhDq0uTIVdQ">Slack Invite</a>)</li>
+                <li><a href="https://gitter.im/Galaxy-Training-Network/Lobby">Gitter</a></li>
+                <li><a href="https://help.galaxyproject.org">Galaxy Help Forum</a></li>
+              </ul>
+              </td>
+          </tr>
+          
+          
+          <tr>
+              <td><strong>Learning Objectives:</strong></td>
+              <td>
+                  <ul>
+                      
+                      <li>Interpret quality control plots to direct parameter decisions</li>
+                      
+                      <li>Repeat analysis from matrix to clustering</li>
+                      
+                      <li>Identify decision-making points</li>
+                      
+                      <li>Appraise data outputs and decisions</li>
+                      
+                      <li>Explain why single cell analysis is an iterative (i.e. the first plots you generate are not final, but rather you go back and re-analyse your data repeatedly) process</li>
+                      
+                  </ul>
+              </td>
+          </tr>
+          
+          
+          <tr>
+              <td><strong>Finished this tutorial as part of GTN Tapas?</strong></td>
+              <td>
+              <ol>
+                
+                
+                <li><a href="https://training.galaxyproject.org/training-material/faqs/galaxy/histories_sharing.html">Share your history</a> (if applicable)</li>
+                <li>Copy the URL</li>
+                <li>Run the command <code>/completed</code> with the URL to your shared history, in <a href="https://gtnsmrgsbord.slack.com/archives/transcriptomics_scrna-seq-basic-pipeline">#transcriptomics_scrna-seq-basic-pipeline</a></li>
+              </ol>
+              </td>
+          </tr>
+          
+      </table>
+
+  </div>
+  
+  Go to the <a href="/video-library/videos/transcriptomics/scrna-seq-basic-pipeline/tutorial">video page</a> to see all versions.
+  
+ </div>
+ <!-- speaker(s) -->
+ 
+ 
+
+ <div class="col-md-3">
+  <center><h3 class="session-section">Speaker</h3></center>
+  
+
+
+
+
+
+
+
+<div class="hall-of-fame">
+    
+    
+    
+		<div class="hall-of-fame-hero" id="nomadscientist">
+			<a href="/video-library/contributors/nomadscientist/">
+            
+			<img src="https://avatars.githubusercontent.com/nomadscientist" alt="" />
+            
+			<div class="name">
+				<b>Wendi Bacon</b>
+			</div>
+			</a>
+			<div class="affil">
+				
+				<a href="https://www.ebi.ac.uk/">
+					EMBL-EBI
 				</a>
 				
 			</div>

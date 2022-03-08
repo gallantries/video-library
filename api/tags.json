@@ -2465,6 +2465,35 @@
           }
         ]
       },
+      "transcriptomics/bulk-music/tutorial": {
+        "description": "Bulk RNA-seq data contains a mixture of transcript signatures from\nseveral types of cells. We wish to deconvolve this mixture to obtain\nestimates of the proportions of cell types within the bulk sample. To\ndo this, we can use single cell RNA-seq data as a reference for\nestimating the cell type proportions within the bulk data.\n\nIn this tutorial, we will use bulk and single-cell RNA-seq data, including\nmatrices of similar tissues from different sources, to illustrate how to infer\ncell type abundances from bulk RNA-seq.\n",
+        "materials": [
+          {
+            "link": "topics/transcriptomics/tutorials/scrna-JUPYTER-trajectories/tutorial.html",
+            "type": "Tutorial"
+          }
+        ],
+        "tags": [
+          "transcriptomics",
+          "single-cell"
+        ],
+        "type": "Tutorial",
+        "versions": [
+          {
+            "captions": [
+              "mtekman",
+              "nomadscientist"
+            ],
+            "date": "2021-03-08",
+            "galaxy_version": "21.09",
+            "length": "20M",
+            "link": "nfAUXP3W-jM",
+            "speakers": [
+              "nomadscientist"
+            ]
+          }
+        ]
+      },
       "transcriptomics/scrna-JUPYTER-trajectories/tutorial": {
         "description": "You’ve done all the hard work of preparing a single cell matrix, processing it, plotting it, interpreting it, finding lots of lovely genes, all within the glorious Galaxy interface. Now you want to infer trajectories, or relationships between cells… and you’ve been threatened with learning Python to do so! Well, fear not. If you can have a run-through of a basic python coding introduction, then that will help you make more sense of this tutorial, however you’ll be able to make and interpret glorious plots even without understanding the Python coding language. This is the beauty of Galaxy - all the ‘set-up’ is identical across computers, because it’s browser based. So fear not!",
         "faq": "https://docs.google.com/document/d/e/2PACX-1vQFtqSeiowtVHQHdNuJ8tjAhfSKtmfm0B_pfrbOhx0EVYxO4sbza3AKFcVEyrGtM3q5QNH82LaDKyki/pub",
@@ -2475,7 +2504,8 @@
           }
         ],
         "tags": [
-          "transcriptomics"
+          "transcriptomics",
+          "single-cell"
         ],
         "type": "Demo",
         "versions": [
@@ -2504,7 +2534,8 @@
           }
         ],
         "tags": [
-          "transcriptomics"
+          "transcriptomics",
+          "single-cell"
         ],
         "type": "Lecture",
         "versions": [
@@ -2564,7 +2595,8 @@
           }
         ],
         "tags": [
-          "transcriptomics"
+          "transcriptomics",
+          "single-cell"
         ],
         "versions": [
           {
@@ -2587,7 +2619,8 @@
         "type": "Demo",
         "description": "In this tutorial, we will investigate clustering of single-cell data from 10x Genomics, including preprocessing, clustering and the identification of cell types via known marker genes, using Scanpy. It will be illustrated using a dataset of Peripheral Blood Mononuclear Cells (PBMC), containing 2,700 single cells. Please work through the full tutorial yourself to get all the details.",
         "tags": [
-          "transcriptomics"
+          "transcriptomics",
+          "single-cell"
         ],
         "versions": [
           {
@@ -2619,7 +2652,8 @@
           }
         ],
         "tags": [
-          "transcriptomics"
+          "transcriptomics",
+          "single-cell"
         ],
         "type": "Tutorial",
         "versions": [
@@ -2647,7 +2681,8 @@
           }
         ],
         "tags": [
-          "transcriptomics"
+          "transcriptomics",
+          "single-cell"
         ],
         "type": "Demo",
         "versions": [
@@ -2792,6 +2827,217 @@
             "link": "tbqeUP67w-Y",
             "speakers": [
               "hexylena"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "single-cell": {
+    "url": "/video-library/api/tags/single-cell.json",
+    "videos": {
+      "transcriptomics/bulk-music/tutorial": {
+        "description": "Bulk RNA-seq data contains a mixture of transcript signatures from\nseveral types of cells. We wish to deconvolve this mixture to obtain\nestimates of the proportions of cell types within the bulk sample. To\ndo this, we can use single cell RNA-seq data as a reference for\nestimating the cell type proportions within the bulk data.\n\nIn this tutorial, we will use bulk and single-cell RNA-seq data, including\nmatrices of similar tissues from different sources, to illustrate how to infer\ncell type abundances from bulk RNA-seq.\n",
+        "materials": [
+          {
+            "link": "topics/transcriptomics/tutorials/scrna-JUPYTER-trajectories/tutorial.html",
+            "type": "Tutorial"
+          }
+        ],
+        "tags": [
+          "transcriptomics",
+          "single-cell"
+        ],
+        "type": "Tutorial",
+        "versions": [
+          {
+            "captions": [
+              "mtekman",
+              "nomadscientist"
+            ],
+            "date": "2021-03-08",
+            "galaxy_version": "21.09",
+            "length": "20M",
+            "link": "nfAUXP3W-jM",
+            "speakers": [
+              "nomadscientist"
+            ]
+          }
+        ]
+      },
+      "transcriptomics/scrna-JUPYTER-trajectories/tutorial": {
+        "description": "You’ve done all the hard work of preparing a single cell matrix, processing it, plotting it, interpreting it, finding lots of lovely genes, all within the glorious Galaxy interface. Now you want to infer trajectories, or relationships between cells… and you’ve been threatened with learning Python to do so! Well, fear not. If you can have a run-through of a basic python coding introduction, then that will help you make more sense of this tutorial, however you’ll be able to make and interpret glorious plots even without understanding the Python coding language. This is the beauty of Galaxy - all the ‘set-up’ is identical across computers, because it’s browser based. So fear not!",
+        "faq": "https://docs.google.com/document/d/e/2PACX-1vQFtqSeiowtVHQHdNuJ8tjAhfSKtmfm0B_pfrbOhx0EVYxO4sbza3AKFcVEyrGtM3q5QNH82LaDKyki/pub",
+        "materials": [
+          {
+            "link": "topics/transcriptomics/tutorials/scrna-JUPYTER-trajectories/tutorial.html",
+            "type": "Tutorial"
+          }
+        ],
+        "tags": [
+          "transcriptomics",
+          "single-cell"
+        ],
+        "type": "Demo",
+        "versions": [
+          {
+            "captions": [
+              "nomadscientist"
+            ],
+            "date": "2021-02-15",
+            "galaxy_version": "21.01",
+            "length": "10M",
+            "link": "VEyTmwDIgPI",
+            "speakers": [
+              "nomadscientist"
+            ]
+          }
+        ]
+      },
+      "transcriptomics/scrna-intro/slides": {
+        "description": "Single-cell RNA-seq analysis is a rapidly evolving field at the forefront of transcriptomic research, used in high-throughput developmental studies and rare transcript studies to examine cell heterogeneity within a populations of cells. The cellular resolution and genome wide scope make it possible to draw new conclusions that are not otherwise possible with bulk RNA-seq. <strong>Slides created by Mehmet Tekman</strong>.",
+        "faq": "https://docs.google.com/document/d/e/2PACX-1vSVFOV1C6hqMPGIpZ1qeOo6t-ubjaWbtsGSTMH9TwNlvfqZrP48i0_7_Xk5rxmY7g2CroOF1dNIyfMY/pub",
+        "materials": [
+          {
+            "link": "topics/transcriptomics/tutorials/scrna-intro/slides.html",
+            "title": "An introduction to scRNA-Seq data analysis",
+            "type": "Slides"
+          }
+        ],
+        "tags": [
+          "transcriptomics",
+          "single-cell"
+        ],
+        "type": "Lecture",
+        "versions": [
+          {
+            "captions": [
+              "mtekman"
+            ],
+            "date": "2021-02-15",
+            "galaxy_version": "21.01",
+            "length": "20M",
+            "link": "D3qvYWZMFa0",
+            "speakers": [
+              "awspolly"
+            ]
+          }
+        ]
+      },
+      "transcriptomics/scrna-preprocessing-tenx/tutorial": {
+        "title": "Pre-processing of 10X Single-Cell RNA Datasets",
+        "description": "10x genomics has provided not only a cost-effective high-throughput solution to understanding sample heterogeneity at the individual cell level, but has defined the standards of the field that many downstream analysis packages are now scrambling to accommodate. Please work through the full tutorial yourself to get all the details.",
+        "faq": "https://docs.google.com/document/d/e/2PACX-1vTuCzmNJlZSbS9-lIdfLgt8T7IJb7jWZ3gedtjNB4aKJ7pAi3apYS4NgfaCRh0_r5QbF4Pwl15Z0-mk/pub",
+        "type": "Demo",
+        "materials": [
+          {
+            "type": "Tutorial",
+            "link": "topics/transcriptomics/tutorials/scrna-preprocessing-tenx/tutorial.html",
+            "title": "Pre-processing of 10X Single-Cell RNA Datasets"
+          }
+        ],
+        "tags": [
+          "transcriptomics",
+          "single-cell"
+        ],
+        "versions": [
+          {
+            "link": "vNBNFkF0L4U",
+            "date": "2021-03-18",
+            "galaxy_version": "21.01",
+            "length": "5M",
+            "captions": [
+              "khanteymoori"
+            ],
+            "speakers": [
+              "nomadscientist"
+            ]
+          }
+        ]
+      },
+      "transcriptomics/scrna-scanpy-pbmc3k/tutorial": {
+        "title": "Clustering 3K PBMCs with Scanpy",
+        "faq": "https://docs.google.com/document/d/e/2PACX-1vTdqGjslXMxUjyjqwkNtidsXFl6SRULFKFug_2TYBl-dYXIDEnXb59nMyZ5qJc6bXI-fP5cPLfkXbHV/pub",
+        "type": "Demo",
+        "description": "In this tutorial, we will investigate clustering of single-cell data from 10x Genomics, including preprocessing, clustering and the identification of cell types via known marker genes, using Scanpy. It will be illustrated using a dataset of Peripheral Blood Mononuclear Cells (PBMC), containing 2,700 single cells. Please work through the full tutorial yourself to get all the details.",
+        "tags": [
+          "transcriptomics",
+          "single-cell"
+        ],
+        "versions": [
+          {
+            "link": "nefB35Bi1l4",
+            "length": "45M",
+            "captions": [
+              "hrhotz"
+            ],
+            "speakers": [
+              "nomadscientist"
+            ],
+            "date": "2021-03-18"
+          }
+        ],
+        "materials": [
+          {
+            "type": "Tutorial",
+            "link": "topics/transcriptomics/tutorials/scrna-scanpy-pbmc3k/tutorial.html"
+          }
+        ]
+      },
+      "transcriptomics/scrna-plant/tutorial": {
+        "description": "This tutorial replicates the paper “Spatiotemporal Developmental Trajectories in the Arabidopsis Root Revealed Using High-Throughput Single-Cell RNA Sequencing” (Denyer et al. 2019), where the major plant cell types are recovered in the data as well as distinguishing between QC and meristematic cells. The original paper used the Seurat analysis suite (Satija et al. 2015), but here we will use the ScanPy analysis suite (Wolf et al. 2018) integrated within the single-cell resources in Galaxy (Tekman et al. 2020).",
+        "faq": "https://docs.google.com/document/d/e/2PACX-1vS8qAPOQwMPlt16fFWQ-JPHNrzKT_46I1OHiFFaJ9r8oT6LZaelryrwnigWUPVPfsccQJkm3Q68TyHr/pub",
+        "materials": [
+          {
+            "link": "topics/transcriptomics/tutorials/scrna-plant/tutorial.html",
+            "type": "Tutorial"
+          }
+        ],
+        "tags": [
+          "transcriptomics",
+          "single-cell"
+        ],
+        "type": "Tutorial",
+        "versions": [
+          {
+            "captions": [
+              "mtekman"
+            ],
+            "date": "2021-02-15",
+            "galaxy_version": "21.01",
+            "length": "55M",
+            "link": "yKlJ5ESri7o",
+            "speakers": [
+              "mtekman"
+            ]
+          }
+        ]
+      },
+      "transcriptomics/scrna-seq-basic-pipeline/tutorial": {
+        "description": "You’ve done all the work to make a single cell matrix, with gene counts and mitochondrial counts and buckets of cell metadata from all your variables of interest, now it’s time to fully process our data, to remove low quality cells, to reduce the many dimensions of data that make it difficult to work with, and ultimately to try to define our clusters and to find our biological meaning and insights!",
+        "faq": "https://docs.google.com/document/d/e/2PACX-1vTIorwkiFua1sXaJwKOsXPTugOZz_BzcfNnFgbsd2a6AjDuHbrj-KD023J25OHp9F_Dmql0luIMCN3N/pub",
+        "materials": [
+          {
+            "link": "topics/transcriptomics/tutorials/scrna-seq-basic-pipeline/tutorial.html",
+            "type": "Tutorial"
+          }
+        ],
+        "tags": [
+          "transcriptomics",
+          "single-cell"
+        ],
+        "type": "Demo",
+        "versions": [
+          {
+            "captions": [
+              "nomadscientist"
+            ],
+            "date": "2021-02-15",
+            "galaxy_version": "21.01",
+            "length": "30M",
+            "link": "M6iepSJh0EQ",
+            "speakers": [
+              "nomadscientist"
             ]
           }
         ]

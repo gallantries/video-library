@@ -3679,6 +3679,411 @@ of transcriptomic research, used in high-throughput developmental studies
   
 
   
+  <h3 style="text-transform:capitalize;" id="single-cell">Single cell</h3>
+  
+  
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+<div class="accordion-item">
+  
+  <div class="accordion-header" id="headingsingle-cell0">
+   <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapsesingle-cell0" aria-expanded="false" aria-controls="collapsesingle-cell0">
+        Introduction to Single-Cell RNA-seq Data Analysis
+        
+   </button>
+  </div>
+
+  <div id="collapsesingle-cell0" class="accordion-collapse collapse " aria-labelledby="headingsingle-cell0" data-bs-parent="#accordionsingle-cell">
+
+    <div class="accordion-body">
+
+      <!-- Video -->
+      
+        <p>Single-cell RNA-seq analysis is a rapidly evolving field at the forefront
+of transcriptomic research, used in high-throughput developmental studies
+</p>
+        
+          
+          
+          
+          
+          <!-- session: {"title"=>"Introduction to Single-Cell RNA-seq Data Analysis", "description"=>"Single-cell RNA-seq analysis is a rapidly evolving field at the forefront\nof transcriptomic research, used in high-throughput developmental studies\n", "videos"=>["transcriptomics/scrna-intro/slides", "transcriptomics/scrna-seq-basic-pipeline/tutorial"]}<br><br> video: {"captions"=>["mtekman"], "date"=>"2021-02-15", "galaxy_version"=>"21.01", "length"=>"20M", "link"=>"D3qvYWZMFa0", "speakers"=>["awspolly"], "name"=>"An introduction to scRNA-seq data analysis"} -->
+
+
+
+
+
+<!-- determine the next archived version of tutorial -->
+
+
+
+
+<div class="flex-row" style="margin-top:1em;">
+ <div class="col-md-8">
+  <h3 class="session-section">An introduction to scRNA-seq data analysis (Lecture)  </h3>
+  <div style="position:relative;padding-top:56.25%;">
+   <iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" data-src="https://www.youtube.com/embed/D3qvYWZMFa0" class="lazyload" loading="lazy" frameborder="0" title="YouTube Embedded Video of the Tutorial" aria-label="YouTube Embedded Video of the Tutorial" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="">
+   </iframe>
+  </div>
+  <div style="margin-top:1em;" class="video-metadata">
+      <table>
+          
+          <tr>
+              <td><strong>Description:</strong></td>
+              <td>Single-cell RNA-seq analysis is a rapidly evolving field at the forefront of transcriptomic research, used in high-throughput developmental studies and rare transcript studies to examine cell heterogeneity within a populations of cells. The cellular resolution and genome wide scope make it possible to draw new conclusions that are not otherwise possible with bulk RNA-seq. <strong>Slides created by Mehmet Tekman</strong>.</td>
+          </tr>
+          
+          <tr>
+              <td><strong>Length:</strong></td>
+              <td>20 minutes</td>
+          </tr>
+   
+   
+          <tr>
+              <td><strong>Captions:</strong></td>
+              <td> <a href="/video-library/contributors/mtekman/">Mehmet Tekman</a></td>
+          </tr>
+   
+          
+          <tr>
+              <td><strong>Created:</strong></td>
+              <td>15 February 2021</td>
+          </tr>
+          
+          
+          <tr>
+              <td><strong>Materials:</strong></td>
+              <td>
+                <ul class="plain-text-list">
+                
+                    <li>
+                        
+                            <img style="height: 1em" src="/video-library/assets/fa/slides.svg" alt="assets/fa/slides.svg" aria-hidden="true" />
+                        
+
+
+                        
+                        
+                        Slides:
+                        <a href="https://training.galaxyproject.org/archive/2021-03-01/topics/transcriptomics/tutorials/scrna-intro/slides.html">Archived Version</a>
+                        |
+                        <a href="https://training.galaxyproject.org/topics/transcriptomics/tutorials/scrna-intro/slides.html">Latest Version</a>
+                        
+                        
+                    </li>
+                
+                </ul>
+              </td>
+          </tr>
+          
+          <!-- this is for the embedded versions where they'll use their own1 support forum -->
+          
+          <tr>
+              <td><strong>Support:</strong></td>
+              <td>
+              <ul>
+                
+                
+                <li>Slack: <a href="https://gtnsmrgsbord.slack.com/archives/transcriptomics_scrna-intro">#transcriptomics_scrna-intro</a> (<a href="https://join.slack.com/t/gtnsmrgsbord/shared_invite/zt-x7vinbs1-BA~Kht6N86JBhDq0uTIVdQ">Slack Invite</a>)</li>
+                <li><a href="https://gitter.im/Galaxy-Training-Network/Lobby">Gitter</a></li>
+                <li><a href="https://help.galaxyproject.org">Galaxy Help Forum</a></li>
+              </ul>
+              </td>
+          </tr>
+          
+          
+          <tr>
+              <td><strong>Learning Objectives:</strong></td>
+              <td>
+                  <ul>
+                      
+                      <li>To understand the pitfalls in scRNA-seq sequencing and amplification, and how they are overcome.</li>
+                      
+                      <li>Know the types of variation in an analysis and how to control for them.</li>
+                      
+                      <li>Grasp what dimension reduction is, and how it might be performed.</li>
+                      
+                      <li>Be familiarised with the main types of clustering techniques and when to use them.</li>
+                      
+                  </ul>
+              </td>
+          </tr>
+          
+          
+          <tr>
+              <td><strong>Finished this tutorial as part of GTN Tapas?</strong></td>
+              <td>
+              <ol>
+                
+                
+                <li><a href="https://training.galaxyproject.org/training-material/faqs/galaxy/histories_sharing.html">Share your history</a> (if applicable)</li>
+                <li>Copy the URL</li>
+                <li>Run the command <code>/completed</code> with the URL to your shared history, in <a href="https://gtnsmrgsbord.slack.com/archives/transcriptomics_scrna-intro">#transcriptomics_scrna-intro</a></li>
+              </ol>
+              </td>
+          </tr>
+          
+      </table>
+
+  </div>
+  
+  Go to the <a href="/video-library/videos/transcriptomics/scrna-intro/slides">video page</a> to see all versions.
+  
+ </div>
+ <!-- speaker(s) -->
+ 
+ 
+
+ <div class="col-md-3">
+  <center><h3 class="session-section">Speaker</h3></center>
+  
+
+
+
+
+
+
+
+<div class="hall-of-fame">
+    
+    
+    
+		<div class="hall-of-fame-hero" id="awspolly">
+			<a href="/video-library/contributors/awspolly/">
+            
+            <img src="/video-library/assets/images/instructors/polly.png" alt="" />
+            
+			<div class="name">
+				<b>These slides are narrated by AWS Polly.</b>
+			</div>
+			</a>
+			<div class="affil">
+				
+			</div>
+		</div>
+	
+    
+</div>
+
+ </div>
+
+
+</div><!-- end video session -->
+
+
+
+        
+          
+          
+          
+          
+          <!-- session: {"title"=>"Introduction to Single-Cell RNA-seq Data Analysis", "description"=>"Single-cell RNA-seq analysis is a rapidly evolving field at the forefront\nof transcriptomic research, used in high-throughput developmental studies\n", "videos"=>["transcriptomics/scrna-intro/slides", "transcriptomics/scrna-seq-basic-pipeline/tutorial"]}<br><br> video: {"captions"=>["nomadscientist"], "date"=>"2021-02-15", "galaxy_version"=>"21.01", "length"=>"30M", "link"=>"M6iepSJh0EQ", "speakers"=>["nomadscientist"], "name"=>"Filter, Plot and Explore Single-cell RNA-seq Data"} -->
+
+
+
+
+
+<!-- determine the next archived version of tutorial -->
+
+
+
+
+<div class="flex-row" style="margin-top:1em;">
+ <div class="col-md-8">
+  <h3 class="session-section">Filter, Plot and Explore Single-cell RNA-seq Data (Demo)  </h3>
+  <div style="position:relative;padding-top:56.25%;">
+   <iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" data-src="https://www.youtube.com/embed/M6iepSJh0EQ" class="lazyload" loading="lazy" frameborder="0" title="YouTube Embedded Video of the Tutorial" aria-label="YouTube Embedded Video of the Tutorial" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="">
+   </iframe>
+  </div>
+  <div style="margin-top:1em;" class="video-metadata">
+      <table>
+          
+          <tr>
+              <td><strong>Description:</strong></td>
+              <td>You’ve done all the work to make a single cell matrix, with gene counts and mitochondrial counts and buckets of cell metadata from all your variables of interest, now it’s time to fully process our data, to remove low quality cells, to reduce the many dimensions of data that make it difficult to work with, and ultimately to try to define our clusters and to find our biological meaning and insights!</td>
+          </tr>
+          
+          <tr>
+              <td><strong>Length:</strong></td>
+              <td>30 minutes</td>
+          </tr>
+   
+   
+          <tr>
+              <td><strong>Captions:</strong></td>
+              <td> <a href="/video-library/contributors/nomadscientist/">Wendi Bacon</a></td>
+          </tr>
+   
+          
+          <tr>
+              <td><strong>Created:</strong></td>
+              <td>15 February 2021</td>
+          </tr>
+          
+          
+          <tr>
+              <td><strong>Materials:</strong></td>
+              <td>
+                <ul class="plain-text-list">
+                
+                    <li>
+                        
+                            <img style="height: 1em" src="/video-library/assets/fa/tutorial.svg" alt="assets/fa/tutorial.svg" aria-hidden="true" />
+                        
+
+
+                        
+                        
+                        Tutorial:
+                        <a href="https://training.galaxyproject.org/archive/2021-03-01/topics/transcriptomics/tutorials/scrna-seq-basic-pipeline/tutorial.html">Archived Version</a>
+                        |
+                        <a href="https://training.galaxyproject.org/topics/transcriptomics/tutorials/scrna-seq-basic-pipeline/tutorial.html">Latest Version</a>
+                        
+                        |
+                        
+                        <a href="https://training.galaxyproject.org/topics/transcriptomics/tutorials/scrna-seq-basic-pipeline/faqs/">FAQs</a>
+                        
+                        
+                    </li>
+                
+                </ul>
+              </td>
+          </tr>
+          
+          <!-- this is for the embedded versions where they'll use their own1 support forum -->
+          
+          <tr>
+              <td><strong>Support:</strong></td>
+              <td>
+              <ul>
+                
+                
+                <li>Slack: <a href="https://gtnsmrgsbord.slack.com/archives/transcriptomics_scrna-seq-basic-pipeline">#transcriptomics_scrna-seq-basic-pipeline</a> (<a href="https://join.slack.com/t/gtnsmrgsbord/shared_invite/zt-x7vinbs1-BA~Kht6N86JBhDq0uTIVdQ">Slack Invite</a>)</li>
+                <li><a href="https://gitter.im/Galaxy-Training-Network/Lobby">Gitter</a></li>
+                <li><a href="https://help.galaxyproject.org">Galaxy Help Forum</a></li>
+              </ul>
+              </td>
+          </tr>
+          
+          
+          <tr>
+              <td><strong>Learning Objectives:</strong></td>
+              <td>
+                  <ul>
+                      
+                      <li>Interpret quality control plots to direct parameter decisions</li>
+                      
+                      <li>Repeat analysis from matrix to clustering</li>
+                      
+                      <li>Identify decision-making points</li>
+                      
+                      <li>Appraise data outputs and decisions</li>
+                      
+                      <li>Explain why single cell analysis is an iterative (i.e. the first plots you generate are not final, but rather you go back and re-analyse your data repeatedly) process</li>
+                      
+                  </ul>
+              </td>
+          </tr>
+          
+          
+          <tr>
+              <td><strong>Finished this tutorial as part of GTN Tapas?</strong></td>
+              <td>
+              <ol>
+                
+                
+                <li><a href="https://training.galaxyproject.org/training-material/faqs/galaxy/histories_sharing.html">Share your history</a> (if applicable)</li>
+                <li>Copy the URL</li>
+                <li>Run the command <code>/completed</code> with the URL to your shared history, in <a href="https://gtnsmrgsbord.slack.com/archives/transcriptomics_scrna-seq-basic-pipeline">#transcriptomics_scrna-seq-basic-pipeline</a></li>
+              </ol>
+              </td>
+          </tr>
+          
+      </table>
+
+  </div>
+  
+  Go to the <a href="/video-library/videos/transcriptomics/scrna-seq-basic-pipeline/tutorial">video page</a> to see all versions.
+  
+ </div>
+ <!-- speaker(s) -->
+ 
+ 
+
+ <div class="col-md-3">
+  <center><h3 class="session-section">Speaker</h3></center>
+  
+
+
+
+
+
+
+
+<div class="hall-of-fame">
+    
+    
+    
+		<div class="hall-of-fame-hero" id="nomadscientist">
+			<a href="/video-library/contributors/nomadscientist/">
+            
+			<img src="https://avatars.githubusercontent.com/nomadscientist" alt="" />
+            
+			<div class="name">
+				<b>Wendi Bacon</b>
+			</div>
+			</a>
+			<div class="affil">
+				
+				<a href="https://www.ebi.ac.uk/">
+					EMBL-EBI
+				</a>
+				
+			</div>
+		</div>
+	
+    
+</div>
+
+ </div>
+
+
+</div><!-- end video session -->
+
+
+
+        
+        Go to <a href="/video-library/sessions/transcriptomics/scrna-intro/">session page</a>.
+      
+
+
+      <!-- Instructors -->
+      
+
+      <!-- Supporting Servers -->
+
+      <!-- Resources -->
+
+    </div><!-- end accordion body -->
+  </div><!-- end collapse -->
+</div><!-- end accordion item (training session) -->
+
+
+
+  
+
+  
   <h3 style="text-transform:capitalize;" id="climate">Climate</h3>
   
   
