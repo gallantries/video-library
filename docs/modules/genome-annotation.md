@@ -1,7 +1,7 @@
 ---
 layout: module
 title: Genome Annotation
-description: This module will cover climate analysis in Galaxy
+description: This module will cover genome annotation analysis in Galaxy
 prerequisites:
   - module: galaxy-intro
   - session: sequence-analysis-basics
