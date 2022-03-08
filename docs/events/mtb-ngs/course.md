@@ -28,6 +28,14 @@ contacts:
 
 instructors:
   - danielabrites
+  - cstritt
+  - andreacabibbe
+  - annalenaguske
+  - andreaspitaleri
+  - galo-adrian-goig
+  - arashghodousi
+  - liliana-rutaihwa
+
 ---
 
 

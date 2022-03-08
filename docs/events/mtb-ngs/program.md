@@ -3,7 +3,7 @@ layout: program
 module: false
 title: "Mycobacterium tuberculosis NGS made easy: data analysis step-by-step"
 certbot: false
-instructors: [danielabrites]
+instructors: [danielabrites,cstritt,andreacabibbe,annalenaguske, andreaspitaleri,galo-adrian-goig,arashghodousi,liliana-rutaihwa]
 setup:
   servers:
     - server: eu
