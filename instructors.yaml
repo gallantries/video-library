@@ -15,10 +15,25 @@ ales-ibt:
     name: Alejandra Escobar-Zepeda
     affiliation: [ebi]
 
+andreacabibbe:
+    name: Andrea Cabibbe
+    affiliation: irccs
+    photo: Andrea_Cabibbe.jpg
+
+andreaspitaleri:
+    name: Andrea Spitaleri
+    affiliation: irccs
+    photo: spitaleri_andrea.jpg
+
 andrewr:
     name: Andrew Rajczewski
     affiliation: [minnesotauni]
     photo: andrew_r.jpg
+
+annalenaguske:
+    name: Anna-Lena Guske
+    affiliation: linq
+    photo: AnnaLena.jfif
 
 annasyme:
     name: Anna Syme
@@ -31,6 +46,10 @@ annefou:
 anuprulez:
     name: Anup Kumar
     affiliation: [freiburguni]
+
+arashghodousi:
+    name: Arash Ghodousi
+    afilliation: irccs
 
 assuntad23:
     name: Assunta DeSanto
@@ -92,9 +111,14 @@ combesf:
     name: Florence Combes
     affiliation: [ifb]
 
+cstritt:
+    name: Christoph Stritt
+    affiliation: swiss-tph
+
 danielabrites:
     name: Daniela Brites
     email: d.brites@swisstph.ch
+    affiliation: swiss-tph
 
 dannon:
     name: Dannon Baker
@@ -149,6 +173,10 @@ gallardoalba:
     name: Cristóbal Gallardo
     affiliation: [freiburguni]
 
+galo-adrian-goig:
+    name: Galo Adrián Goig
+    affiliation: swiss-tph
+
 gmauro:
     name: Gianmauro Cuccuru
     affiliation: [freiburguni]
@@ -201,6 +229,10 @@ kpoterlowicz:
 ksuderman:
     name: Keith Suderman
     affiliation: [johnshopkins]
+
+liliana-rutaihwa:
+    name: Liliana Rutaihwa
+    affilitaion: find
 
 lldelisle:
     name: Lucille Delisle
