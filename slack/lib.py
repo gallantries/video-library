@@ -1,4 +1,9 @@
 import yaml
+import os
+import json
+import atexit
+import time
+
 
 with open('video-library.yaml', 'r') as handle:
     VIDEOS = yaml.safe_load(handle)
@@ -91,3 +96,35 @@ def get_managed_channels_with_resources_sessions():
 
     CHANNEL_MAPPING = {k: list(set(v)) for k, v in CHANNEL_MAPPING.items()}
     return CHANNEL_MAPPING
+
+
+def persist_to_file(file_name, age=None):
+    """
+    Based on https://stackoverflow.com/a/16464555
+
+    file_name: a path
+    age: time expressed in seconds.
+    """
+    def decorator(original_func):
+        # Allow expiring it.
+        if age is not None:
+            if os.path.exists(file_name):
+                mtime = os.stat(file_name).st_mtime
+                if time.time() - mtime > age:
+                    os.unlink(file_name)
+
+        try:
+            print(f"Reading cache from {file_name}")
+            cache = json.load(open(file_name, 'r'))
+        except (IOError, ValueError):
+            cache = {}
+
+        atexit.register(lambda: json.dump(cache, open(file_name, 'w')))
+
+        def new_func(*args, **kwargs):
+            memk = f"{args}{kwargs}"
+            if memk not in cache:
+                cache[memk] = original_func(*args, **kwargs)
+            return cache[memk]
+        return new_func
+    return decorator
