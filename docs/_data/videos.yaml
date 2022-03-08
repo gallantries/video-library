@@ -1685,7 +1685,7 @@ transcriptomics/rna-seq-viz-with-volcanoplot/tutorial:
     - mblue9
 
 transcriptomics/bulk-music/tutorial:
-    description: |
+  description: |
         Bulk RNA-seq data contains a mixture of transcript signatures from
         several types of cells. We wish to deconvolve this mixture to obtain
         estimates of the proportions of cell types within the bulk sample. To
