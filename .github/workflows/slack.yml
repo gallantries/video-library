@@ -1,0 +1,42 @@
+name: Update Slack.
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+    paths:
+      - 'docs/_data/sessions.yaml'
+      - 'docs/_data/videos.yaml'
+      - 'docs/_data/gtn.json'
+
+jobs:
+  deploy:
+    runs-on: ubuntu-18.04
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          fetch-depth: 0
+
+      # BEGIN Dependencies
+      - uses: actions/setup-python@v2
+        with:
+          python-version: '3.10'
+          architecture: 'x64'
+
+      - name: Install dependencies
+        run: |
+            pip install -r slack/requirements.txt
+      # END Dependencies
+
+      - name: Update Channels
+        run: |
+            python slack/configure-channels.py
+        env:
+          SLACK_BOT_TOKEN: ${{ secrets.slack_bot_token }}
+
+      - name: Update Bookmarks for Managed Channels
+        run: |
+            python slack/bookmarks-update.py
+        env:
+          SLACK_BOT_TOKEN: ${{ secrets.slack_bot_token }}
