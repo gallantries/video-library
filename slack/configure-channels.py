@@ -39,17 +39,14 @@ def slack(method, data):
             data={'channel': data['channel']}
         )
         response = r.json()
-    # print(response)
 
     if method not in ('conversations.rename', 'conversations.archive'):
-        print(method, data)
         r = requests.post(
             f'https://slack.com/api/{method}',
             headers={'Authorization': f'Bearer {SLACK_BOT_TOKEN}'},
             data=data
         )
         response = r.json()
-        print(response)
     else:
         response = None
 
@@ -84,15 +81,16 @@ for k, v in data.items():
     if 'event-' in new_name:
         continue
 
-    print(k, old_name, override if override is not None else new_name)
+    #print(k, old_name, override if override is not None else new_name)
     if old_name == new_name:
-        print("nothing to do")
+        pass
     elif not old_name and not override:
         if find_channel_by_name(new_name) is None:
             print(f"Creating a new channel {new_name}")
             slack('conversations.create', {'name': new_name})
         else:
-            print(f"{new_name} exists already")
+            pass
+            # print(f"{new_name} exists already")
     elif old_name and not override:
         print(f"\tMoving {old_name} -> {new_name}")
         if find_channel_by_name(old_name) is not None:
@@ -114,16 +112,15 @@ for k, v in data.items():
 
         else:
             if find_channel_by_name(new_name) is not None:
-                print(f"\t      Nothing to do, {new_name} exists")
+                pass # print(f"\t      Nothing to do, {new_name} exists")
             else:
                 print(f"\t      Creating {new_name}")
                 slack('conversations.create', {'name': new_name})
     elif override is not None:
         if find_channel_by_name(override) is not None:
-            print(f"\t      Nothing to do")
+            pass # print(f"\t      Nothing to do")
         else:
             print(f"\t      Creating {override}")
             slack('conversations.create', {'name': override})
     else:
         print("???")
-    print()
