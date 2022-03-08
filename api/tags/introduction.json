@@ -20,7 +20,9 @@
       "type": "Tutorial",
       "versions": [
         {
-          "captions": null,
+          "captions": [
+            "shiltemann"
+          ],
           "date": "2021-07-21",
           "length": "13M",
           "link": "D5HgJWdfOWw",
