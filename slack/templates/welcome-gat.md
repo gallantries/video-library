@@ -6,7 +6,7 @@ Everyone is expected to abide by the [Code of Conduct (CoC)](https://galaxyproje
 
 This is probably  different kind of training than you have attended before. This is completely *asynchronous* workshop. There are tutorials and recordings online, and you are free to go through these at your own pace.
 
-For this training week there is a fixed ordering, but **no fixed schedule**. Take breaks when you want to, do as much as you want or as little as you need to on a specific day.
+For this training week there is a *fixed ordering*, but **no fixed schedule**. Take breaks when you want to, do as much as you want or as little as you need to on a specific day.
 
 **Important Information**
 
@@ -44,6 +44,6 @@ When asking a question:
 
 :ice_cube: **Today's Icebreaker** :ice_cube:
 
-Head over to <SOCIAL_CHANNEL> and let us know the answer to this important question:
+Let us know the answer to these two questions:
 
->  <ICEBREAKER>
+> **Introduce yourself and tell us one fun fact about yourself!** and **What are you hoping to learn this week?**

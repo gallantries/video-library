@@ -12,10 +12,6 @@ For this training week there is *no fixed schedule*, instead we provide a set of
 - New to Galaxy? We suggest you start with the 'Introduction to Galaxy' module, followed by the ['Bioinformatics Buffet' module](https://gallantries.github.io/video-library/modules/bioinformatics-buffet).
 - Unsure which tutorial to follow? Feel free to ask us for recommendations in Slack!
 
-**Important Information**
-
-You'll need an SSH client. For OSX/linux, this should already be there. For Windows, you'll probably need to install PuTTY. If you cannot get an SSH client installed, then all VMs come pre-configured with an SSH client. You'll login with your VM credentials and find 'Terminal' at the bottom left.
-
 :computer: **Doing the tutorials** :computer:
 
 Whenever you're ready to get started, find the module of interest in your track, and start following the videos and/or tutorials for that module.
@@ -50,4 +46,4 @@ Click this link to join the training event group on your server! It makes your j
 
 Head over to <SOCIAL_CHANNEL> and let us know the answer to this important question:
 
->  <ICEBREAKER>
+> **Introduce yourself and tell us one fun fact about yourself!** and **What are you hoping to learn this week?**
