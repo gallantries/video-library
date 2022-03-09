@@ -24,7 +24,7 @@ practical:
     text: "[European Galaxy server](https://usegalaxy.eu) and the [Galaxy Training Material](https://training.galaxyproject.org). Both will stay accessible and open after the training."
 
 contacts:
-  - danielabrites
+  - dbrites
 
 instructors:
   - dbrites
