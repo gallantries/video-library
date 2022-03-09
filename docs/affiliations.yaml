@@ -196,7 +196,7 @@ pu:
   link: "https://www.pondiuni.edu.in/home"
 
 
-jetstream:
+jetstream2:
   name: JetStream2
   link: https://jetstream-cloud.org/
   logo: jetstream2.png
