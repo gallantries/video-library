@@ -27,7 +27,7 @@ contacts:
   - danielabrites
 
 instructors:
-  - danielabrites
+  - dbrites
   - cstritt
   - andreacabibbe
   - annalenaguske

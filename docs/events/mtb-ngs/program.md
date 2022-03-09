@@ -9,7 +9,7 @@ description: |
   <br><br>
 
 certbot: false
-instructors: [danielabrites,cstritt,andreacabibbe,annalenaguske, andreaspitaleri,GaloGS,arashghodousi,liliana-rutaihwa]
+instructors: [dbrites,cstritt,andreacabibbe,annalenaguske, andreaspitaleri,GaloGS,arashghodousi,liliana-rutaihwa]
 setup:
   servers:
     - server: eu
