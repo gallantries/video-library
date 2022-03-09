@@ -12,6 +12,7 @@ date:
 registration: "https://docs.google.com/forms/d/e/1FAIpQLSeoBxpkddbCXQps6p71lWit09Tt3qBQ1ewWraz4k0XmaX4_yg/viewform?usp=sf_link"
 cost: free
 contacts: [hexylena]
+institutions: [biocommons, jetstream2, gallantries, erasmusmc, elixir, gtn]
 
 certificates:
   deadline: 2022-04-01
