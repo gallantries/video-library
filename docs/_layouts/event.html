@@ -91,7 +91,7 @@ Below you will find all the tutorials for this course, everything you need to fo
 <h3> Acknowledgements </h3>
 {% for i in page.institutions %}
 
-<img src="{{site.baseurl}}/assets/images/logos/{{site.data.affiliations[i].logo}}" alt="logo" style="width: 15%; margin: 1em;"/>
+<a href="{{site.data.affiliations[i].link}}"><img src="{{site.baseurl}}/assets/images/logos/{{site.data.affiliations[i].logo}}" alt="logo" style="width: 15%; margin: 1em;"/></a>
 
 {% endfor %}
 {% endif %}
