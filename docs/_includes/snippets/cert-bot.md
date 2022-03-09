@@ -1,4 +1,4 @@
-#### Using the GTN Certificate Bot {% unless page.layout == 'default' %}<a href="{% link certbot.md %}">{% icon external-link %}{: style="height:0.5em;color: blue"}</a>{% endunless %}
+#### Using the GTN Certificate Slack Bot {% unless page.layout == 'default' %}<a href="{% link certbot.md %}">{% icon external-link %}{: style="height:0.5em;color: blue"}</a>{% endunless %}
 
 
 - **Completed a tutorial?**
@@ -7,8 +7,7 @@
     - The history URL will look something like: `https://usegalaxy.xx/u/saskia/h/my-history-name`
   2. **Submit your history URL** to the bot using the command:
     - `/completed{% unless include.gat %} <your history URL>{% endunless %}`
-    - Do this in the **channel for the tutorial** you completed
-      - link to the tutorial channel is given below each video
+    - In the **tutorial Slack channel** (link below video)
   3. **Write a short message** in the channel letting us know what you thought of the tutorial, and/or thanking the instructors!
 <br><br>
 - **Want to check your submissions?**
