@@ -9,3 +9,18 @@ We hope it's going well for you so far! Please let us know if you have any quest
 Head over to <SOCIAL_CHANNEL> and let us know the answer to this important question:
 
 > **What is the coolest, most mind blowing fact (nature/people/animal etc.) you know?**
+
+---
+
+**Servers**
+
+Get Registered on your closest Galaxy server.
+
+<SERVERS>
+
+**TIaaS**
+
+Click this link to join the training event group on your server! It makes your jobs go faster, but you *only* need to click it if you're using that specific server.
+
+<TIAAS>
+
