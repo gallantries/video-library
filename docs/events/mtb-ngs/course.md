@@ -36,6 +36,12 @@ instructors:
   - arashghodousi
   - liliana-rutaihwa
 
+institutions:
+  - swiss-tph
+  - irccs
+  - linq
+  - find
+
 ---
 
 
