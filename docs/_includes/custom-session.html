@@ -13,6 +13,10 @@
     {% include setup.html config=include.config %}
   {% endif %}
 
+  {% if include.type == "setup-gat" %}
+    {% include setup-gat.html config=include.config %}
+  {% endif %}
+
   {% if include.type == "icebreaker" %}
     {% include sessions/icebreaker.html config=include.config %}
   {% endif %}

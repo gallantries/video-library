@@ -36,6 +36,9 @@
      {% elsif session == "setup" %}
         {% include custom-session.html type="setup" config=page.setup title="Get set up for the Course" %}
 
+     {% elsif session == "setup-gat" %}
+        {% include custom-session.html type="setup-gat" config=page.setup title="Get set up for the Course" %}
+
      {% elsif session.icebreaker %}
         {% if session.icebreaker.size > 1 %}{% assign t = "Daily Icebreaker Questions" %}
         {% else %}{% assign t = "Icebreaker Question" %}{% endif %}
