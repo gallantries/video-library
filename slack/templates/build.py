@@ -63,7 +63,7 @@ if args.days > 2:
     for tz in zones:
         for i in range(1, args.days - 1):
             posts.append(
-                (f'shift-change-{args.course}.md', start + timedelta(days=i, hours=2), tz)
+                (f'shift-change-{i}-{args.course}.md', start + timedelta(days=i, hours=2), tz)
             )
 
     for tz in zones:
