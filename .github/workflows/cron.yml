@@ -1,0 +1,48 @@
+name: Announcement Bot
+
+on:
+  schedule:
+    # * is a special character in YAML so you have to quote this string
+    - cron:  '4 * * * *'
+  workflow_dispatch:
+
+jobs:
+  setup:
+    runs-on: ubuntu-20.04
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          fetch-depth: 1
+
+      # BEGIN Dependencies
+      - uses: actions/setup-python@v2
+        with:
+          python-version: '3.10'
+          architecture: 'x64'
+
+      - name: Install dependencies
+        run: |
+            pip install -r slack-utils/requirements.txt
+      # END Dependencies
+
+      - name: Send messages
+        run: |
+            cd slack
+            python cron.py announce "${SLACK_API_ANNOUNCEMENTS}"
+            python cron.py event-gat "${SLACK_API_EVENT_GAT}"
+        env:
+          SLACK_API_ANNOUNCEMENTS: ${{ secrets.SLACK_API_ANNOUNCEMENTS }}
+          SLACK_API_EVENT_GAT: ${{ secrets.SLACK_API_EVENT_GAT }}
+
+      - name: Commit changed files back
+        run: |
+            git add .
+            count=$(git diff --name-only --cached | wc -l)
+            if (( count > 0 )); then
+                git config --global user.email "bot@github.com"
+                git config --global user.name "Github Actions"
+                git commit -a -m "[slack-bot] $(date '+%H:%M')"
+                git push
+            fi
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
