@@ -38,7 +38,7 @@
 
 {% unless include.config.certbot == false %}
   <hr><br>
-  {% capture certbot %}{% include snippets/cert-bot.md %}{% endcapture %}
+  {% capture certbot %}{% include snippets/cert-bot.md gat=include.config.certbot_admin %}{% endcapture %}
   {{ certbot | markdownify }}
 {% endunless %}
 

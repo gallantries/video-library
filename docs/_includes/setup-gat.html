@@ -1,0 +1,4 @@
+<!-- Slack -->
+{% unless include.config.slack == false %}
+ {% include sessions/slack.html config=include.config %}
+{% endunless %}

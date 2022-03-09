@@ -3,7 +3,7 @@
 
 - **Completed a tutorial?**
   - **Share your Galaxy history** via URL ([instructions](https://training.galaxyproject.org/training-material/faqs/galaxy/histories_sharing.html))
-  - Use the command: `/completed <link to your Galaxy History>` to register your completion.
+  - Use the command: `/completed{% unless include.gat %} <link to your Galaxy History>{% endunless %}` to register your completion.
   - Where? In the **channel for the tutorial** you completed (linked below video)
   - **Write a short message** in the channel letting us know what you thought of the tutorial, and/or thanking the instructors!
 <br><br>

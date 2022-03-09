@@ -13,7 +13,45 @@ registration: "https://docs.google.com/forms/d/e/1FAIpQLSeoBxpkddbCXQps6p71lWit0
 cost: free
 contacts: [hexylena]
 
+certificates:
+  deadline: 2022-04-01
+  certbot: true
+  certbot_admin: true
+  notes:
+    snippet: "snippets/cert-requirements-smorg.html"
+
 program:
+  intro:
+    title: Welcome & Setup (Start Here!)
+    description: Practical information about this course and getting everything set up to follow this course.
+    trainings:
+      - setup-gat
+      - code-of-conduct
+      - certificates
+      - icebreaker:
+        - prompt: |
+            1. Introduce yourself and tell us one fun fact about yourself! <br>
+            2. What are you hoping to learn this week?
+          title: "Monday Icebreaker"
+          channel: social
+          certificate: true
+        - prompt: "What is the coolest, most mind blowing fact (nature/people/animal etc.) you know? "
+          title: "Tuesday Icebreaker"
+          channel: social
+        - prompt: "What is your favorite dish (food or drink)? Bonus points for recipes!"
+          title: "Wednesday Icebreaker"
+          channel: social
+        - prompt: |
+            1. If you could meet one person from history, who would it be and why? <br>
+            2. Or: what is your favorite thing about the course so far?
+          title: "Thursday Icebreaker"
+          channel: social
+        - prompt: "What is your favorite book, film, tv show or game you've enjoyed recently?"
+          title: "Friday Icebreaker"
+          channel: social
+
+
+
   galaxyintro:
     title: Introduction to Galaxy
     description: "Start here if you are new to Galaxy. These videos will introduce you to the Galaxy platform, and walk you through your first analyses"
