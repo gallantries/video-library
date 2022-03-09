@@ -26,17 +26,17 @@ jobs:
 
       - name: Install dependencies
         run: |
-            pip install -r slack/requirements.txt
+            pip install -r slack-utils/requirements.txt
       # END Dependencies
 
       - name: Update Channels
         run: |
-            python slack/configure-channels.py
+            python slack-utils/configure-channels.py
         env:
           SLACK_BOT_TOKEN: ${{ secrets.slack_bot_token }}
 
       - name: Update Bookmarks for Managed Channels
         run: |
-            python slack/bookmarks-update.py
+            python slack-utils/bookmarks-update.py
         env:
           SLACK_BOT_TOKEN: ${{ secrets.slack_bot_token }}
