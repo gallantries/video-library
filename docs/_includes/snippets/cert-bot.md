@@ -2,14 +2,14 @@
 
 
 - **Completed a tutorial?**
-  - **Share your Galaxy history** via URL
+  1. **Share your Galaxy history** via URL
     - [Instructions](https://training.galaxyproject.org/training-material/faqs/galaxy/histories_sharing.html)
     - The history URL will look something like: `https://usegalaxy.xx/u/saskia/h/my-history-name`
-  - **Submit your history URL** to the bot using the command:
+  2. **Submit your history URL** to the bot using the command:
     - `/completed{% unless include.gat %} <your history URL>{% endunless %}`
     - Do this in the **channel for the tutorial** you completed
       - link to the tutorial channel is given below each video
-  - **Write a short message** in the channel letting us know what you thought of the tutorial, and/or thanking the instructors!
+  3. **Write a short message** in the channel letting us know what you thought of the tutorial, and/or thanking the instructors!
 <br><br>
 - **Want to check your submissions?**
   - At any time, use the `/transcript` command to see what you have already submitted
