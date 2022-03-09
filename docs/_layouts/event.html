@@ -53,6 +53,10 @@ layout: default
 	<dd>{{ p.text | markdownify }}</dd>
 	{% endfor %}
 
+    {% if page.institutions %}
+    <dt>Organized by:</dt>
+    <dd>{% for i in page.institutions %}<a href="{{site.data.affiliations[i].link}}">{{site.data.affiliations[i].name}}</a>{% unless forloop.last %}, {% endunless %}{% endfor %}</dd>
+    {% endif %}
 
 	<dt>Contact:</dt>
 	<dd>{% for c in page.contacts %}<a href="mailto:{{site.data.instructors[c].email}}">{{site.data.instructors[c].name}}</a>{% unless forloop.last %}, {% endunless %}{% endfor %}</dd>
@@ -80,6 +84,16 @@ Below you will find all the tutorials for this course, everything you need to fo
   {{ content }}
 {% else %}
   {{ content | markdownify }}
+{% endif %}
+
+{% if page.institutions %}
+<br><br>
+<h3> Acknowledgements </h3>
+{% for i in page.institutions %}
+
+<img src="{{site.baseurl}}/assets/images/logos/{{site.data.affiliations[i].logo}}" alt="logo" style="width: 15%; margin: 1em;"/>
+
+{% endfor %}
 {% endif %}
 
 {% if page.instructors %}

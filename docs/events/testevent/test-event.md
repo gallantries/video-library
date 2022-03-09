@@ -6,6 +6,8 @@ description: "Best training since sliced bread lessons"
 location: "The North Pole"
 format: Asynchronous with some live Q&A sessions
 instructors: [fpsom, shiltemann, bebatut, abretaud, yvanlebras, hexylena]
+institutions: [gtn, gallantries]  # refer to institutes in affiliations.yaml, these will be listed as organisers and in the acknowledgement section of the page
+
 date:
   start: 2021-11-15
   end: 2021-11-18

@@ -18,6 +18,11 @@ clevelandclinic:
   link: "https://my.clevelandclinic.org/"
   logo: clevelandclinic.jpg
 
+cineca:
+  name: The CINECA Project
+  link: "https://www.cineca-project.eu/"
+  logo: 01_CINECA_logo.png
+
 cnrs:
   name: "Le Centre national de la recherche Scientifique"
   link: "https://www.cnrs.fr/"
@@ -27,6 +32,11 @@ ebi:
   name: EMBL-EBI
   link: "https://www.ebi.ac.uk/"
   logo: embl-ebi.png
+
+elixir:
+  name: ELIXIR Europe
+  link: "https://elixir-europe.org/"
+  logo: 88_elixir_logo_white_background-300x226.png
 
 eoscnordic:
   name: EOSC-Nordic
@@ -67,6 +77,15 @@ freiburg-uniklinik-surgpathol:
   link: "https://www.uniklinik-freiburg.de/pathologie-en.html"
   logo: 06_uniklikik.png
 
+gallantries:
+  name: The Gallantries Project
+  link: "https://gallantries.github.io"
+  logo: gallantries.png
+
+gtn:
+  name: The Galaxy Training Network
+  link: "https://training.galaxyproject.org/hall-of-fame"
+  logo: 00_GTNLogo300.png
 ifb:
   name: French Institute of Bioinformatics
   link: "https://www.france-bioinformatique.fr"
