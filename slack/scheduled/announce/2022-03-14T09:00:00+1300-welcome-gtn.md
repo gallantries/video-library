@@ -38,7 +38,7 @@ Get Registered on your closest Galaxy server.
 
 **TIaaS**
 
-Click this link to join the training event group on your server! It makes your jobs go faster
+Click this link to join the training event group on your server! It makes your jobs go faster, but you *only* need to click it if you're using that specific server.
 
 <TIAAS>
 
