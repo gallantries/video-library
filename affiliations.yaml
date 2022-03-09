@@ -195,3 +195,13 @@ pu:
   name: Pondicherry University
   link: "https://www.pondiuni.edu.in/home"
 
+
+jetstream2:
+  name: JetStream2
+  link: https://jetstream-cloud.org/
+  logo: jetstream2.png
+
+biocommons:
+  name: Australian Biocommons
+  link: https://www.biocommons.org.au/galaxy-australia
+  logo: biocommons.png
