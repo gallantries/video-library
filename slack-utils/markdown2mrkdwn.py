@@ -1,7 +1,38 @@
+#!/usr/bin/env python
 import sys
+import random
 import json
 import marko
 import marko.ast_renderer
+
+
+def buttonify(links):
+    buttons = [
+        {
+            "type": "button",
+            "text": {"type": "plain_text", "text": title},
+            "url": url
+        }
+        for (url, title) in links
+    ]
+    random.shuffle(buttons)
+    return buttons
+
+
+SERVERS = [
+    ("https://usegalaxy.eu/", "Galaxy Europe :earth_africa:"),
+    ("https://usegalaxy.be/", "Galaxy Belgium :flag-be:"),
+    ("https://usegalaxy.fr/", "Galaxy France :flag-fr:"),
+    ("https://usegalaxy.org/", "Galaxy US :earth_americas:"),
+    ("https://usegalaxy.org.au/", "Galaxy Australia :earth_asia:"),
+]
+
+TIAAS = [
+    ("https://usegalaxy.eu/join-training/event-tapas/", "Join EU TIaaS :earth_africa:"),
+    ("https://usegalaxy.org/join-training/event-tapas/", "Join US TIaaS :earth_americas:"),
+    ("https://usegalaxy.org.au/join-training/event-tapas/", "Join AU TIaaS :earth_asia:"),
+    ("https://usegalaxy.fr/join-training/event-tapas/", "Join FR TIaaS :flag-fr:"),
+]
 
 
 def render_paragraph(children):
@@ -80,62 +111,12 @@ def convert_markodoc(doc):
             if text == '<SERVERS>':
                 blocks.append({
                     "type": "actions",
-                    "elements": [
-                        {
-                            "type": "button",
-                            "text": {
-                                "type": "plain_text",
-                                "text": "UseGalaxy.eu :earth_africa:",
-                            },
-                            "url": "https://usegalaxy.eu/"
-                        },
-                        {
-                            "type": "button",
-                            "text": {
-                                "type": "plain_text",
-                                "text": "UseGalaxy.org :earth_americas:",
-                            },
-                            "url": "https://usegalaxy.org/"
-                        },
-                        {
-                            "type": "button",
-                            "text": {
-                                "type": "plain_text",
-                                "text": "UseGalaxy.org.au :earth_asia:",
-                            },
-                            "url": "https://usegalaxy.org.au/"
-                        },
-                    ]
+                    "elements": buttonify(SERVERS)
                 })
             elif text == '<TIAAS>':
                 blocks.append({
                     "type": "actions",
-                    "elements": [
-                        {
-                            "type": "button",
-                            "text": {
-                                "type": "plain_text",
-                                "text": "UseGalaxy.eu :earth_africa:",
-                            },
-                            "url": "https://usegalaxy.eu/join-training/gtn-tapas"
-                        },
-                        {
-                            "type": "button",
-                            "text": {
-                                "type": "plain_text",
-                                "text": "UseGalaxy.org :earth_americas:",
-                            },
-                            "url": "https://usegalaxy.org/join-training/gtn-tapas"
-                        },
-                        {
-                            "type": "button",
-                            "text": {
-                                "type": "plain_text",
-                                "text": "UseGalaxy.org.AU :earth_asia:",
-                            },
-                            "url": "https://usegalaxy.org.au/join-training/gtn-tapas"
-                        },
-                    ]
+                    "elements": buttonify(TIAAS)
                 })
             else:
                 raise Exception(f"Cannot handle {kid['children']}")
