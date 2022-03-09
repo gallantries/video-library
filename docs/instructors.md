@@ -184,6 +184,10 @@ program:
                ([instructions](https://training.galaxyproject.org/training-material/faqs/galaxy/histories_sharing.html))
             4. If you think there is a problem with the server, report it in [#instructors](https://gtnsmrgsbord.slack.com/archives/C01ES97MZBN) channel
                and ping the admins of that server.
+      - custom:
+          title: How do I use the Certificate Bot?
+          description: |
+            For selected events, participants can use the GTN Certificate bot in Slack to track their progress and request certificates. More information can be found here: [Certbot instructions](./certbot)
 
       - custom:
           title: "[Smörgåsbord] I don't know what tutorials to do!"
