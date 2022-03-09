@@ -144,9 +144,9 @@ def convert_markodoc(doc):
         else:
             raise Exception(f"Cannot handle {kid}")
 
-    return json.dumps(blocks_obj)
+    return blocks_obj
 
 
 if __name__ == '__main__':
     with open(sys.argv[1], 'r') as handle:
-        print(convert_text(handle.read()))
+        print(json.dumps(convert_text(handle.read()), indent=2))

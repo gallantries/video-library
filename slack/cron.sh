@@ -33,8 +33,9 @@ process_folder(){
 	fi
 }
 
-process_folder gtn/announce       "$SLACK_API_ANNOUNCEMENTS"
-process_folder gtn/instructors    "$SLACK_API_INSTRUCTORS"
-process_folder gtn/admins         "$SLACK_API_ADMINS"
-process_folder gtn/admin-training "$SLACK_API_ADMIN_TRANING"
-process_folder gtn/social         "$SLACK_API_SOCIAL"
+process_folder announce       "$SLACK_API_ANNOUNCEMENTS"
+process_folder event-gat      "$SLACK_API_GAT"
+#process_folder gtn/instructors    "$SLACK_API_INSTRUCTORS"
+#process_folder gtn/admins         "$SLACK_API_ADMINS"
+#process_folder gtn/admin-training "$SLACK_API_ADMIN_TRANING"
+#process_folder gtn/social         "$SLACK_API_SOCIAL"
