@@ -1,5 +1,6 @@
-#### Using the GTN Certificate Bot
-<br>
+#### Using the GTN Certificate Bot {% unless page.layout == 'default' %}<a href="{% link certbot.md %}">{% icon external-link %}{: style="height:0.5em;color: blue"}</a>{% endunless %}
+
+
 - **Completed a tutorial?**
   - **Share your Galaxy history** via URL ([instructions](https://training.galaxyproject.org/training-material/faqs/galaxy/histories_sharing.html))
   - Use the command: `/completed <link to your Galaxy History>` to register your completion.
