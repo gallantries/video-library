@@ -1,5 +1,5 @@
 #### Using the GTN Certificate Bot
-
+<br>
 - **Completed a tutorial?**
   - **Share your Galaxy history** via URL ([instructions](https://training.galaxyproject.org/training-material/faqs/galaxy/histories_sharing.html))
   - Use the command: `/completed <link to your Galaxy History>` to register your completion.
