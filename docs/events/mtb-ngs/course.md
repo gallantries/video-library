@@ -32,7 +32,7 @@ instructors:
   - andreacabibbe
   - annalenaguske
   - andreaspitaleri
-  - galo-adrian-goig
+  - GaloGS
   - arashghodousi
   - liliana-rutaihwa
 
