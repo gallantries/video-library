@@ -12,4 +12,4 @@ layout: plain
 {% for vid in v.versions %}{% assign allversions = allversions | push: vid %}{% endfor %}
 {% assign sortedversions = allversions | sort: 'date' | reverse %}
 {% assign latestvideo = sortedversions[0] %}
-{% include video-session.html vsession=v video=latestvideo hidesupport=true %}
+{% include video-session.html vsession=v video=latestvideo hidesupport=true id=page.video %}
