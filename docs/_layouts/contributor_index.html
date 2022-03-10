@@ -8,7 +8,7 @@ layout: default
 	<div class="row">
 		<div class="col-md-3">
 			{% if contributors[page.contributor].photo %}
-			<img src="{{site.baseurl}}/{{site.image_dir}}/instructors/{{photo}}" alt="{{ username }}">
+			<img src="{{site.baseurl}}/{{site.image_dir}}/instructors/{{contributors[page.contributor].photo}}" alt="{{ username }}">
 			{% else %}
 			<img src="https://avatars.githubusercontent.com/{{ page.contributor }}" alt="Github Avatar">
 			{% endif %}
