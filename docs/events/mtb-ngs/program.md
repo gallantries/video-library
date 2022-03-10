@@ -70,8 +70,8 @@ program:
           title: Q&A session
           description: Discussion. Q&A join the experts
           other:
-            - label: Zoom (TODO)
-              link: TODO
+            - label: Zoom
+              link: https://swisstph.zoom.us/j/84656236451
 
 
   day2:
@@ -152,8 +152,8 @@ program:
           other:
             - label: Time
               value: "11:30-12:30 CET"
-            - label: Zoom Link (TODO)
-              link: TODO
+            - label: Zoom Link
+              link: https://swisstph.zoom.us/j/84656236451
       - session: variant-analysis/tb-variant-analysis
       - external:
           title: Q&A session
@@ -162,8 +162,8 @@ program:
           other:
             - label: Time
               value: "16:30-17:30 CET"
-            - label: Zoom Link (TODO)
-              link: TODO
+            - label: Zoom Link
+              link: https://swisstph.zoom.us/j/84656236451
 
   day3:
     title: "Day 3: Evolutionary epidemiology: using phylogenetics to understand DR emergence and Mtb transmission"
@@ -216,8 +216,8 @@ program:
           other:
             - label: Time
               value: "11:30-12:30 CET"
-            - label: Zoom (TODO)
-              link: TODO
+            - label: Zoom
+              link: https://swisstph.zoom.us/j/84656236451
 
       - external:
           title: "Hands-on: Inference of phylogenetic trees"
@@ -232,8 +232,8 @@ program:
           other:
             - label: Time
               value: "16:30-17:30 CET"
-            - label: Zoom (TODO)
-              link: TODO
+            - label: Zoom
+              link: https://swisstph.zoom.us/j/84656236451
 
   day4:
     title: Day 4
@@ -284,8 +284,8 @@ program:
           other:
             - label: Time
               value: "11:30-12:30 CET"
-            - label: Zoom (TODO)
-              link: TODO
+            - label: Zoom
+              link: https://swisstph.zoom.us/j/84656236451
 
   day4-2:
     title: "Session 2: Be a bioinformatician in the jungle"
@@ -341,8 +341,8 @@ program:
           other:
             - label: Time
               value: "16:30-17:30 CET"
-            - label: Zoom (TODO)
-              link: TODO
+            - label: Zoom
+              link: https://swisstph.zoom.us/j/84656236451
 
   day5:
     title: Day 5
@@ -358,7 +358,7 @@ program:
           other:
             - label: Time
               value: "10:00-12:30 CET"
-            - label: Zoom (TODO)
-              link: TODO
+            - label: Zoom
+              link: https://swisstph.zoom.us/j/84656236451
 
 ---
