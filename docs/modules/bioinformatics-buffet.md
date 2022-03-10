@@ -18,6 +18,7 @@ program:
       - session: assembly
       - session: variant-analysis/tb-variant-analysis
       - session: epigenetics/atac-seq
+      - session: genome-annotation/crispr-screen
 
   day3:
     title: "Wednesday: Transcriptomics"

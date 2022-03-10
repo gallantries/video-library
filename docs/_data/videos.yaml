@@ -524,6 +524,45 @@ galaxy/intro:
     link: VZoz3k5EehI
     speakers:
     - nekrut
+
+genome-annotation/crispr-screen/slides:
+  description: This lecture will introduce the basic concepts involved in CRISPR screen analysis.
+  faq: https://training.galaxyproject.org/training-material/topics/genome-annotation/tutorials/crispr-screen/faqs/
+  materials:
+  - link: topics/genome-annotation/tutorials/crispr-screen/slides.html
+    type: Slides
+  tags:
+  - crispr
+  type: Lecture
+  versions:
+  - captions:
+    - mblue9
+    date: '2022-03-10'
+    galaxy_version: '21.09'
+    length: 3M
+    link: TBA
+    speakers:
+    - awspolly
+genome-annotation/crispr-screen/tutorial:
+  description: This tutorial will walk you through a CRISPR screen analysis.
+  faq: https://training.galaxyproject.org/training-material/topics/genome-annotation/tutorials/crispr-screen/faqs/
+  materials:
+  - link: topics/genome-annotation/tutorials/crispr-screen/tutorial.html
+    title: CRISPR screen analysis
+    type: Tutorial
+  tags:
+  - crispr
+  type: Tutorial
+  versions:
+  - captions:
+    - TBA
+    date: '2022-03-10'
+    galaxy_version: '21.09'
+    length: 45M
+    link: TBA
+    speakers:
+    - mblue9
+
 introduction/galaxy-intro-101-everyone/tutorial:
   description: This video tutorial will provide a non-genomics based first look at
     the Galaxy platform, how to use it, and discusses how you can get support for
