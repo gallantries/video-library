@@ -11,7 +11,7 @@ program:
     trainings:
       - session: genome-annotation/annotation-with-prokka
       - session: genome-annotation/apollo
-      - session: genome-annotation/repeatmasker/tutorial
+      - video: genome-annotation/repeatmasker/tutorial
   viz:
     title: Visualisation
     trainings:
