@@ -296,7 +296,7 @@ h1 { font-weight: 600; }
 
 .hall-of-fame-hero .contact-items { margin-top: 0.2rem; }
 
-.hall-of-fame-hero img { background-color: white; border-radius: 20px; border: 1px solid #ccc; padding: 5px; width: 100%; height: 60%; object-fit: cover; -webkit-transition: border 0.2s ease-in-out; -o-transition: border 0.2s ease-in-out; transition: border 0.2s ease-in-out; }
+.hall-of-fame-hero img { background-color: white; border-radius: 20px; border: 1px solid #ccc; padding: 5px; width: 100%; min-height: 60%; object-fit: cover; -webkit-transition: border 0.2s ease-in-out; -o-transition: border 0.2s ease-in-out; transition: border 0.2s ease-in-out; }
 
 .hall-of-fame-hero img:hover, .hall-of-fame-hero img:focus, .hall-of-fame-hero img:active { border-color: blue; }
 
