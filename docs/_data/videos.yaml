@@ -123,6 +123,32 @@ climate/pangeo/tutorial:
     speakers:
     - annefou
 
+climate/pangeo-notebook/tutorial:
+  description: |
+      In this tutorial, we will learn about Xarray, one of the most used Python
+      library from the Pangeo ecosystem.
+
+      We will be using data from Copernicus Atmosphere Monitoring Service and
+      more precisely PM2.5 (Particle Matter < 2.5 μm) 4 days forecast from
+      December, 22 2021. Parallel data analysis with Pangeo is not covered in
+      this tutorial.
+  materials:
+  - link: topics/climate/tutorials/pangeo-notebook/tutorial.html
+    title: Pangeo Notebook in Galaxy - Introduction to Xarray
+    type: Tutorial
+  tags:
+  - climate
+  type: Tutorial
+  versions:
+  - captions:
+    - annefou
+    date: '2022-03-03'
+    galaxy_version: '21.09'
+    length: 17M
+    link: XFF2yRcYGp0
+    speakers:
+    - annefou
+
 community/welcome:
   description: This short video gives an overview of the worldwide Galaxy community,
     and different ways you can get involved! <strong>Video created by Beatriz Serrano-Solano</strong>.
