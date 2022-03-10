@@ -12,7 +12,7 @@ check-html-internal:
 		--assume-extension \
 		--http-status-ignore 405,503,999 \
 		--disable-external \
-		--ignore_missing_alt \
+		--empty-alt-ignore \
 		--allow-hash-href \
 		./_site
 
