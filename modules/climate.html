@@ -783,6 +783,254 @@
 
      
   
+     
+
+     
+       
+       
+
+
+
+
+
+
+
+
+
+
+
+<div class="accordion-item">
+  
+  <div class="accordion-header" id="headingintro2">
+   <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseintro2" aria-expanded="false" aria-controls="collapseintro2">
+        Pangeo Notebook in Galaxy - Introduction to Xarray
+        
+   </button>
+  </div>
+
+  <div id="collapseintro2" class="accordion-collapse collapse " aria-labelledby="headingintro2" data-bs-parent="#accordionintro">
+
+    <div class="accordion-body">
+
+      <!-- Video -->
+      
+        
+           
+           <!-- session: {"description"=>"In this tutorial, we will learn about Xarray, one of the most used Python\nlibrary from the Pangeo ecosystem.\n\nWe will be using data from Copernicus Atmosphere Monitoring Service and\nmore precisely PM2.5 (Particle Matter < 2.5 μm) 4 days forecast from\nDecember, 22 2021. Parallel data analysis with Pangeo is not covered in\nthis tutorial.\n", "materials"=>[{"link"=>"topics/climate/tutorials/pangeo-notebook/tutorial.html", "title"=>"Pangeo Notebook in Galaxy - Introduction to Xarray", "type"=>"Tutorial"}], "tags"=>["climate"], "type"=>"Tutorial", "versions"=>[{"captions"=>["annefou"], "date"=>"2022-03-03", "galaxy_version"=>"21.09", "length"=>"17M", "link"=>"XFF2yRcYGp0", "speakers"=>["annefou"], "name"=>"Pangeo Notebook in Galaxy - Introduction to Xarray"}], "name"=>"Pangeo Notebook in Galaxy - Introduction to Xarray"}<br><br> video: {"captions"=>["annefou"], "date"=>"2022-03-03", "galaxy_version"=>"21.09", "length"=>"17M", "link"=>"XFF2yRcYGp0", "speakers"=>["annefou"], "name"=>"Pangeo Notebook in Galaxy - Introduction to Xarray"} -->
+
+
+
+
+
+<!-- determine the next archived version of tutorial -->
+
+
+
+
+<div class="flex-row" style="margin-top:1em;">
+ <div class="col-md-8">
+  <h3 class="session-section">Tutorial Video   </h3>
+  <div style="position:relative;padding-top:56.25%;">
+   <iframe style="position:absolute;top:0;left:0;width:100%;height:100%;"
+    
+    data-src="https://www.youtube.com/embed/XFF2yRcYGp0"
+    
+     class="lazyload"
+     loading="lazy"
+     frameborder="0"
+     title="YouTube Embedded Video of the Tutorial"
+     aria-label="YouTube Embedded Video of the Tutorial"
+     allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+     allowfullscreen>
+   </iframe>
+  </div>
+  <div style="margin-top:1em;" class="video-metadata">
+      <table>
+          
+          <tr>
+              <td><strong>Description:</strong></td>
+              <td>In this tutorial, we will learn about Xarray, one of the most used Python
+library from the Pangeo ecosystem.
+
+We will be using data from Copernicus Atmosphere Monitoring Service and
+more precisely PM2.5 (Particle Matter < 2.5 μm) 4 days forecast from
+December, 22 2021. Parallel data analysis with Pangeo is not covered in
+this tutorial.
+</td>
+          </tr>
+          
+          <tr>
+              <td><strong>Length:</strong></td>
+              <td>17 minutes</td>
+          </tr>
+   
+   
+          <tr>
+              <td><strong>Captions:</strong></td>
+              <td> <a href="/video-library/contributors/annefou/">Anne Fouilloux</a></td>
+          </tr>
+   
+          
+          <tr>
+              <td><strong>Created:</strong></td>
+              <td>3 March 2022</td>
+          </tr>
+          
+          
+          <tr>
+              <td><strong>Materials:</strong></td>
+              <td>
+                <ul class="plain-text-list">
+                
+                    <li>
+                        
+                            <img style="height: 1em" src="/video-library/assets/fa/tutorial.svg" alt="assets/fa/tutorial.svg" aria-hidden="true"/>
+                        
+
+
+                        
+                        
+                        Tutorial:
+                        <a href="https://training.galaxyproject.org/archive/2022-04-01/topics/climate/tutorials/pangeo-notebook/tutorial.html">Archived Version</a>
+                        |
+                        <a href="https://training.galaxyproject.org/topics/climate/tutorials/pangeo-notebook/tutorial.html">Latest Version</a>
+                        
+                        |
+                        
+                        <a href="https://training.galaxyproject.org/topics/climate/tutorials/pangeo-notebook/faqs/">FAQs</a>
+                        
+                        
+                    </li>
+                
+                </ul>
+              </td>
+          </tr>
+          
+          <!-- this is for the embedded versions where they'll use their own1 support forum -->
+          
+          <tr>
+              <td><strong>Support:</strong></td>
+              <td>
+              <ul>
+                
+                
+                <li>Slack: <a href="https://gtnsmrgsbord.slack.com/archives/climate_pangeo-notebook">#climate_pangeo-notebook</a> (<a href="https://join.slack.com/t/gtnsmrgsbord/shared_invite/zt-x7vinbs1-BA~Kht6N86JBhDq0uTIVdQ">Slack Invite</a>)</li>
+                <li><a href="https://gitter.im/Galaxy-Training-Network/Lobby">Gitter</a></li>
+                <li><a href="https://help.galaxyproject.org">Galaxy Help Forum</a></li>
+              </ul>
+              </td>
+          </tr>
+          
+          
+          <tr>
+              <td><strong>Learning Objectives:</strong></td>
+              <td>
+                  <ul>
+                      
+                      <li>Learn to get metadata information using Xarray Galaxy Tools</li>
+                      
+                      <li>Learn to select data</li>
+                      
+                      <li>Learn to visualize data</li>
+                      
+                      <li>Learn to filter, make reduction operations (mean, max, min)</li>
+                      
+                      <li>Learn to resample my data</li>
+                      
+                      <li>Learn to cite and contribute to Pangeo</li>
+                      
+                  </ul>
+              </td>
+          </tr>
+          
+          
+          <tr>
+              <td><strong>Finished this tutorial as part of GTN Tapas?</strong></td>
+              <td>
+              <ol>
+                
+                
+                <li><a href="https://training.galaxyproject.org/training-material/faqs/galaxy/histories_sharing.html">Share your history</a> (if applicable)</li>
+                <li>Copy the URL</li>
+                <li>Run the command <code>/completed</code> with the URL to your shared history, in <a href="https://gtnsmrgsbord.slack.com/archives/climate_pangeo-notebook">#climate_pangeo-notebook</a></li>
+              </ol>
+              </td>
+          </tr>
+          
+      </table>
+
+  </div>
+  
+  Go to the <a href="/video-library/videos/climate/pangeo-notebook/tutorial">video page</a> to see all versions.
+  
+ </div>
+ <!-- speaker(s) -->
+ 
+ 
+
+ <div class="col-md-3">
+  <center><h3 class="session-section">Speaker</h3></center>
+  
+
+
+
+
+
+
+
+<div class="hall-of-fame">
+    
+    
+    
+		<div class="hall-of-fame-hero" id="annefou">
+			<a href="/video-library/contributors/annefou/">
+            
+			<img src="https://avatars.githubusercontent.com/annefou" alt="">
+            
+			<div class="name">
+				<b>Anne Fouilloux</b>
+			</div>
+			</a>
+			<div class="affil">
+				
+				<a href="https://www.eosc-nordic.eu/">
+					EOSC-Nordic
+				</a>
+				
+			</div>
+		</div>
+	
+    
+</div>
+
+ </div>
+
+
+</div><!-- end video session -->
+
+
+
+        
+
+      
+
+
+      <!-- Instructors -->
+      
+
+      <!-- Supporting Servers -->
+
+      <!-- Resources -->
+
+    </div><!-- end accordion body -->
+  </div><!-- end collapse -->
+</div><!-- end accordion item (training session) -->
+
+
+
+
+     
+  
   </div>
 
 

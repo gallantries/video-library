@@ -98,6 +98,20 @@
       ]
     }
   ],
+  "topics/climate/tutorials/pangeo-notebook/tutorial.html": [
+    {
+      "captions": [
+        "annefou"
+      ],
+      "date": "2022-03-03",
+      "galaxy_version": "21.09",
+      "length": "17M",
+      "link": "XFF2yRcYGp0",
+      "speakers": [
+        "annefou"
+      ]
+    }
+  ],
   "topics/computational-chemistry/tutorials/htmd-analysis/tutorial.html": [
     {
       "captions": [
