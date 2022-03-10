@@ -18,7 +18,7 @@ format: |
   Asynchronous; all training sessions are pre-recorded and
   provided in advance.
 
-support: "**Live support in Slack** ([invite link](https://join.slack.com/t/gtnsmrgsbord/shared_invite/zt-x7vinbs1-BA~Kht6N86JBhDq0uTIVdQ), channel: [#event-mtb-ngs](https://gtnsmrgsbord.slack.com/channels/event-mtb-ngs)), in which experts will answer questions on a peer-to-peer basis. **Real-Time Q&A sessions**  See the schedule below to know when you can join us live![Zoom Link] (https://swisstph.zoom.us/j/84656236451) "
+support: "**Live support in Slack** ([invite link](https://join.slack.com/t/gtnsmrgsbord/shared_invite/zt-x7vinbs1-BA~Kht6N86JBhDq0uTIVdQ), channel: [#event-mtb-ngs](https://gtnsmrgsbord.slack.com/channels/event-mtb-ngs)), in which experts will answer questions on a peer-to-peer basis. **Real-Time Q&A sessions**  See the schedule below to know when you can join us live! [Zoom Link](https://swisstph.zoom.us/j/84656236451)"
 
 
 practical:
@@ -68,7 +68,7 @@ After the trainings all participants are expected to:
   - Identify drug resistant mutations
   - Identify genetic relationships and interpret a phylogenetic trees
   - Use web applications designed for M. tuberculosis
-  
+
 <br>
 
 ## Program
@@ -162,7 +162,7 @@ Live discussion [here](https://swisstph.zoom.us/j/84656236451) (**16:30-17:30 CE
 ### Day 5 - Live Discussion (optional)
 *{{"2022-03-25" | date: "%-d %B %Y" }}*
 
-All instructors available from **10:00h-12:30** CET [here](https://swisstph.zoom.us/j/84656236451) 
+All instructors available from **10:00h-12:30** CET [here](https://swisstph.zoom.us/j/84656236451)
 
 <br>
 
@@ -172,7 +172,7 @@ Please feel free to hang around in Slack and talk to us and the rest of the Gala
 
 
 - Feedback Survey
-- Certificates 
+- Certificates
 
 ## After the Course
 All these materials will remain online, so you can continue working on them for as long as you want. The only difference will be that you should ask your questions on the [GTN Gitter channel](https://gitter.im/Galaxy-Training-Network/Lobby), instead of Slack.
