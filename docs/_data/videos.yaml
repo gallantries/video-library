@@ -3134,7 +3134,7 @@ dev/debugging/tutorial/unit-test-failure:
 
 dev/tool-from-scratch/tutorial:
   title: Tools from Scratch
-  description:
+  description: |
     1. The first step to adding a tool to Galaxy, is to add it to (Bio)Conda.
        This tutorial will show you how to do that.
     2. Planemo is the Galaxy tool development kit, and will make your tool

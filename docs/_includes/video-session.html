@@ -33,7 +33,7 @@
           {% if description %}
           <tr>
               <td><strong>Description:</strong></td>
-              <td>{{ description }}</td>
+              <td>{{ description | markdownify }}</td>
           </tr>
           {% endif %}
           <tr>
