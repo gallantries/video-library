@@ -3029,19 +3029,23 @@
     "materials": [
       {
         "link": "topics/admin/tutorials/ansible-galaxy/tutorial.html",
-        "type": "Tutorial (All Parts)"
+        "title": "Tutorial (All Parts)",
+        "type": "Tutorial"
       },
       {
         "link": "topics/admin/tutorials/database/slides.html",
-        "type": "Database Slides"
+        "title": "Database Slides",
+        "type": "Slides"
       },
       {
         "link": "topics/admin/tutorials/systemd-supervisor/slides.html",
-        "type": "systemd Slides"
+        "title": "systemd Slides",
+        "type": "Slides"
       },
       {
         "link": "topics/admin/tutorials/production/slides.html",
-        "type": "Moving Towards Production Slides"
+        "title": "Moving Towards Production Slides",
+        "type": "Slides"
       }
     ],
     "tags": [
