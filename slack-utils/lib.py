@@ -1,5 +1,6 @@
 import yaml
 import os
+from slack_bolt import App
 import json
 import atexit
 import time
@@ -128,3 +129,40 @@ def persist_to_file(file_name, age=None):
             return cache[memk]
         return new_func
     return decorator
+
+app = App(token=os.environ.get("SLACK_BOT_TOKEN"))
+
+@persist_to_file("users.json")
+def list_users():
+    members = []
+    cid = None
+    while True:
+        try:
+            r = app.client.users_list(limit=500, cursor=cid)
+            print(len(r.data['members']))
+            members += r.data['members']
+            cid = r.data['response_metadata']['next_cursor']
+            if cid == "" or cid is None:
+                break
+
+        except KeyError:
+            break
+    return members
+
+
+@persist_to_file("channels.json")
+def list_channels():
+    channels = []
+    cid = None
+    while True:
+        try:
+            r = app.client.conversations_list(limit=500, cursor=cid)
+            print(len(r.data['channels']))
+            channels += r.data['channels']
+            cid = r.data['response_metadata']['next_cursor']
+            if cid == "" or cid is None:
+                break
+
+        except KeyError:
+            break
+    return channels

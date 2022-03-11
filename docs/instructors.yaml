@@ -1,6 +1,7 @@
 abretaud:
     name: Anthony Bretaudeau
-    affiliation: [inrae]
+    affiliation: [inrae, gallantries]
+    slack: U01FVTD0L1H
 
 afgane:
     name: Enis Afgan
@@ -77,7 +78,8 @@ beatrizserrano:
 
 bebatut:
     name: Bérénice Batut
-    affiliation: [freiburguni]
+    affiliation: [freiburguni, gallantries]
+    slack: U01FVR92F37
 
 bernt-matthias:
     name: Matthias Bernt
@@ -105,7 +107,7 @@ christinecucinotta:
 
 colineroyaux:
     name: Coline Royaux
-    affiliation: [cnrs]
+    affiliation: [cnrs, gallantries]
 
 combesf:
     name: Florence Combes
@@ -149,7 +151,7 @@ emmaleith:
 
 EngyNasr:
     name: Engy Nasr
-    affiliation: [freiburguni]
+    affiliation: [freiburguni, gallantries]
 
 ennovytje:
     name: Yvonne Hiltemann
@@ -165,6 +167,7 @@ foellmelanie:
 fpsom:
     name: Fotis E. Psomopoulos
     affiliation: [inab-certh]
+    slack: U01ENTS179V
 
 fubar2:
     name: Ross Lazarus
@@ -195,7 +198,7 @@ heylf:
 
 hexylena:
     name: Helena Rasche
-    affiliation: [erasmusmc, avans]
+    affiliation: [erasmusmc, avans, gallantries]
     email: helena.rasche@gmail.com
     slack: U01F7TAQXNG
 
@@ -222,6 +225,7 @@ khanteymoori:
 kxk302:
     name: Kaivan Kamali
     affiliation: [pennstate]
+    slack: U01N51L1NRJ
 
 kmurat1:
     name: Katarzyna Kamieniecka
@@ -323,7 +327,7 @@ rwinand:
 
 shiltemann:
     name: Saskia Hiltemann
-    affiliation: [erasmusmc]
+    affiliation: [erasmusmc, gallantries]
     email: saskiahiltemann@gmail.com
     slack: U01EDBVM04W
 
@@ -360,7 +364,8 @@ willemdek11:
 
 yvanlebras:
     name: Yvan Le Bras
-    affiliation: [mnhn]
+    affiliation: [mnhn, gallantries]
+    slack: U01N3MS3LSF
 
 yvesvdb:
     name: Yves Vandenbrouck

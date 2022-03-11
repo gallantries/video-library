@@ -1477,6 +1477,7 @@ statistics/classification_machinelearning/tutorial:
     are used to analyze the results after applying each classification algorithm.
     Hyperparameters of one of the classifiers are also optimised.
   faq: https://docs.google.com/document/d/e/2PACX-1vQS2fppEH7Kf6QCNOUozRu4reYkiASYk4ig6qUfqW3eewqdZ0fKEWLz9rT2iBxohXYYaiDOsto8Aa8V/pub
+  support_channel: 'machine_learning_classification'
   materials:
   - link: topics/statistics/tutorials/classification_machinelearning/tutorial.html
     type: Tutorial
