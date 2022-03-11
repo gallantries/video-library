@@ -99,6 +99,7 @@ program:
     description:
     trainings:
       - video: community/welcome
+      - video: dev/tool-from-scratch/tutorial
       - video: admin/interactive-tools
       - video: admin/upgrading/tutorial
       - video: admin/object-store/exercise
