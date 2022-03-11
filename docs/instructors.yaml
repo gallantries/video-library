@@ -185,6 +185,10 @@ galaxycommunity:
     name: The Global Galaxy Community
     photo: community.png
 
+gtn:
+    name: The Galaxy Training Network
+    photo: gtn.png
+
 heylf:
     name: Florian Heyl
     affiliation: [freiburguni]
