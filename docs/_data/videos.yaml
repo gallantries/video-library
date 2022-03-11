@@ -5,7 +5,6 @@ assembly/assembly-with-preprocessing:
     human sequenced reads, the goal is to enrich the data for SARS-CoV-2 reads by
     identifying and discarding reads of human origin before trying to assemble the
     viral genome sequence.
-  faq: https://docs.google.com/document/d/e/2PACX-1vRcBWHbIIo6t_vXtZiaW_6t2qIUYwjiptC2MRVUG5KC31rwPg8fO9yCma22HqIV6Hu1T3wJXaV-GwxU/pub
   materials:
   - link: topics/assembly/tutorials/assembly-with-preprocessing/slides.html
     type: Slides
@@ -26,7 +25,6 @@ assembly/assembly-with-preprocessing:
 assembly/chloroplast-assembly/tutorial:
   description: In this tutorial, you will assemble a chloroplast genome using a combination
     of short and long read data.
-  faq: https://docs.google.com/document/d/e/2PACX-1vTed-1_nZK1liUdm5IZn_Qas7LcJE700WwsMAgT282Q1jx0Nkk4lZzzN47P9aS1suUAeh0ljIUYgXpG/pub
   materials:
   - link: topics/assembly/tutorials/chloroplast-assembly/tutorial.html
     title: Chloroplast genome assembly
@@ -46,7 +44,6 @@ assembly/chloroplast-assembly/tutorial:
 assembly/general-introduction/slides:
   description: This lecture walks you through the basic concepts involved in assembling
     a genome from short-read sequencing data.
-  faq: https://docs.google.com/document/d/e/2PACX-1vTed-1_nZK1liUdm5IZn_Qas7LcJE700WwsMAgT282Q1jx0Nkk4lZzzN47P9aS1suUAeh0ljIUYgXpG/pub
   materials:
   - link: topics/assembly/tutorials/general-introduction/slides.html
     title: An Introduction to Genome Assembly
@@ -66,7 +63,6 @@ assembly/general-introduction/slides:
     - slugger70
 climate/fates/tutorial:
   description: This tutorial will walk you through a Galaxy analysis step by step
-  faq: https://docs.google.com/document/d/e/1PACX-1vS5ucF3H8v1V43JPtw35V-pgGfhTbrHtjjN6X0BddzWispwuRElPYw7sWN1e8R360mdHyC1NcOSqxiy/pub
   materials:
   - link: topics/climate/tutorials/fates/tutorial.html
     title: Functionally Assembled Terrestrial Ecosystem Simulator (FATES)
@@ -85,7 +81,6 @@ climate/fates/tutorial:
     - annefou
 climate/fates/slides:
   description: This lecture provides a brief overview of FATES
-  faq: https://docs.google.com/document/d/e/1PACX-1vS5ucF3H8v1V43JPtw35V-pgGfhTbrHtjjN6X0BddzWispwuRElPYw7sWN1e8R360mdHyC1NcOSqxiy/pub
   materials:
   - link: topics/climate/tutorials/fates/slides.html
     title: Functionally Assembled Terrestrial Ecosystem Simulator (FATES)
@@ -152,7 +147,6 @@ climate/pangeo-notebook/tutorial:
 community/welcome:
   description: This short video gives an overview of the worldwide Galaxy community,
     and different ways you can get involved! <strong>Video created by Beatriz Serrano-Solano</strong>.
-  faq: null
   materials:
   - external: true
     link: https://galaxyproject.org
@@ -238,7 +232,6 @@ computational-chemistry/htmd-analysis/tutorial:
     \ an introduction to using high-throughput molecular dynamics to study protein-ligand\
     \ interaction, as applied to the N-terminal domain of Hsp90 (heat shock protein\
     \ 90)."
-  faq: https://docs.google.com/document/d/e/2PACX-1vTqwxMLs0LfAJY77y9M2DFv9VixyFdtwU65AYpQoPn_0YmMEhOOp3jxhJ1tALWz3Vc2qp9Acctz2Lp3/pub
   materials:
   - link: topics/computational-chemistry/tutorials/htmd-analysis/tutorial.html
     title: High Throughput Molecular Dynamics and Analysis
@@ -260,7 +253,6 @@ computational-chemistry/htmd-analysis/tutorial:
 data-science/r-advanced/tutorial:
   description: An advanced tutorial covering downstream analysis of RNA-seq data using
     R.
-  faq: https://docs.google.com/document/d/e/2PACX-1vQuOJPPP2nosMG1gh1TuAFu479F4u2kGCCsICHuKvQE7lJGZCreVbXMQrhEORu3O1fV2hX_DZDE_Isk/pub
   materials:
   - link: topics/introduction/tutorials/r-advanced/tutorial.html
     title: Advanced R in Galaxy
@@ -281,7 +273,6 @@ data-science/r-advanced/tutorial:
 data-science/r-basics/tutorial:
   description: This tutorial will provide an introduction to using R with Rstudio
     in Galaxy.
-  faq: https://docs.google.com/document/d/e/2PACX-1vQuOJPPP2nosMG1gh1TuAFu479F4u2kGCCsICHuKvQE7lJGZCreVbXMQrhEORu3O1fV2hX_DZDE_Isk/pub
   materials:
   - link: topics/introduction/tutorials/r-basics/tutorial.html
     title: R basics in Galaxy
@@ -366,7 +357,6 @@ ecology/biodiversity-data-exploration/tutorial:
 epigenetics/atac-seq/slides:
   description: This lecture will introduce the basic concepts involved in ATAC-Seq
     analysis.
-  faq: https://docs.google.com/document/d/e/2PACX-1vQnEmZyZF3rLhU3mA-g5L8DVaTW8GHYTikxYnuvQG7sCT66owCIc-4KLLGw9S2nIo1XPPtV9Ledtm3n/pub
   materials:
   - link: topics/epigenetics/tutorials/atac-seq/slides.html
     type: Slides
@@ -384,7 +374,6 @@ epigenetics/atac-seq/slides:
     - lldelisle
 epigenetics/atac-seq/tutorial:
   description: This tutorial will walk you through a ATAC-Seq data analysis.
-  faq: https://docs.google.com/document/d/e/2PACX-1vQnEmZyZF3rLhU3mA-g5L8DVaTW8GHYTikxYnuvQG7sCT66owCIc-4KLLGw9S2nIo1XPPtV9Ledtm3n/pub
   materials:
   - link: topics/epigenetics/tutorials/atac-seq/tutorial.html
     title: ATAC-Seq data analysis
@@ -403,7 +392,6 @@ epigenetics/atac-seq/tutorial:
     - heylf
 galaxy-interface/collections/tutorial:
   description: null
-  faq: null
   materials:
   - link: topics/galaxy-interface/tutorials/collections/tutorial.html
     title: Using dataset collections
@@ -425,7 +413,6 @@ galaxy-interface/ncbi-sarf/slides:
     the cloud from SRA, as well as some accompanying metadata that can help you search
     and filter the data. This sessions is aimed specifically at SARS-CoV-2 runs in
     SRA.
-  faq: https://docs.google.com/document/u/2/d/e/2PACX-1vRxJV3rSohuzd3qjTCeuue4GkuCJM1qeX29SMOo56ZQcJWc1ht1PaiNWIlgeD4npAVBXS1b_OXIyHIr/pub
   materials:
   - link: topics/galaxy-interface/tutorials/ncbi-sarf/slides.html
     title: Introduction to SRA Aligned Read Format and Cloud Metadata for SARS-CoV-2
@@ -445,7 +432,6 @@ galaxy-interface/ncbi-sarf/slides:
 galaxy-interface/ncbi-sarf/tutorial:
   description: This tutorial will walk you through accessing and using SRA Aligned
     read format in Galaxy.
-  faq: https://docs.google.com/document/u/2/d/e/2PACX-1vRxJV3rSohuzd3qjTCeuue4GkuCJM1qeX29SMOo56ZQcJWc1ht1PaiNWIlgeD4npAVBXS1b_OXIyHIr/pub
   materials:
   - link: topics/galaxy-interface/tutorials/ncbi-sarf/tutorial.html
     title: SRA Aligned Read Formats to Speed Up SARS-CoV-2 data Analysis
@@ -470,7 +456,6 @@ galaxy-interface/upload-rules:
   description: Through a series of examples, this tutorial aims to familiarize the
     reader with building Galaxy collections from tabular data containing URLs, sample
     sheets, list of accessions or identifiers, etc..
-  faq: https://docs.google.com/document/d/1FtLwF3FLNVavVk4fRSka8YpDMHZJiScwT4rK0Ww4Ndw/pub
   materials:
   - link: topics/galaxy-interface/tutorials/upload-rules/tutorial.html
     type: Tutorial
@@ -492,7 +477,6 @@ galaxy-interface/upload-to-ena:
   title: Uploading data to ENA
   description: "So you\u2019ve used Galaxy workflows to analyze your SARS-CoV-2 samples?\
     \ Learn in this tutorial how to export results to your favorite datastore."
-  faq: null
   materials: null
   tags:
   - sars-cov2
@@ -509,7 +493,6 @@ galaxy-interface/workflow-automation:
   description: This is a more technical tutorial which will teach you how to run workflows
     from the command line and scale your analyses. If you are on Windows, you will
     need WSL/WSL2 setup before this session.
-  faq: https://docs.google.com/document/d/17FUV3YzInIMhDaTntZL3lb74AjhgKlPAXMOhJdX9DIE/pub
   materials:
   - link: https://docs.microsoft.com/en-us/windows/wsl/install-win10
     title: Installing WSL on Windows
@@ -532,7 +515,6 @@ galaxy/intro:
   title: A Very Short Introduction to Galaxy
   description: This video will introduce the Galaxy data analysis platform, and give
     a short demo on how to use it.
-  faq: https://docs.google.com/document/d/e/2PACX-1vQ1SZCsxEcRXp39J2BcFAjXyC3B20sWzI7IVgBgwe2pcC9b0cza417jzBPYJVqCRNbU0dD4rv_y6u6P/pub
   materials:
   - link: topics/introduction/tutorials/galaxy-intro-short/slides.html
     title: A Short Introduction to Galaxy
@@ -553,7 +535,6 @@ galaxy/intro:
 
 genome-annotation/crispr-screen/slides:
   description: This lecture will introduce the basic concepts involved in CRISPR screen analysis.
-  faq: https://training.galaxyproject.org/training-material/topics/genome-annotation/tutorials/crispr-screen/faqs/
   materials:
   - link: topics/genome-annotation/tutorials/crispr-screen/slides.html
     type: Slides
@@ -571,7 +552,6 @@ genome-annotation/crispr-screen/slides:
     - awspolly
 genome-annotation/crispr-screen/tutorial:
   description: This tutorial will walk you through a CRISPR screen analysis.
-  faq: https://training.galaxyproject.org/training-material/topics/genome-annotation/tutorials/crispr-screen/faqs/
   materials:
   - link: topics/genome-annotation/tutorials/crispr-screen/tutorial.html
     title: CRISPR screen analysis
@@ -593,7 +573,6 @@ introduction/galaxy-intro-101-everyone/tutorial:
   description: This video tutorial will provide a non-genomics based first look at
     the Galaxy platform, how to use it, and discusses how you can get support for
     your data analysis.
-  faq: https://docs.google.com/document/d/e/2PACX-1vToYVCisDQ8qDSKKmDvdlZ3e87HzfnO6KQkOReDd0LtHTNKDUDj2vpqWj73bj_2UelNStLZpoSpNlGj/pub
   materials:
   - link: topics/introduction/tutorials/galaxy-intro-101-everyone/tutorial.html
     title: Galaxy 101 for Everyone
@@ -616,7 +595,6 @@ galaxy/intro2:
   description: In this tutorial, we will walk you through your first (toy) analysis
     in Galaxy. This tutorial is aimed at familiarizing you with the Galaxy platform,
     and some basic NGS concepts.
-  faq: https://docs.google.com/document/u/2/d/1uFeeF2OwgzFFc8jbVF2elV5PQB5gbxMtE4pX2FOpXKM/pub
   materials:
   - external: true
     link: https://docs.google.com/presentation/d/1rOGp4o_Dc-QIHS4YT4HizdfXTVhJB1HwPPZkSDuMhig/edit#slide=id.gbc9627d000_0_346
@@ -646,7 +624,6 @@ genome-annotation/annotation-with-prokka/slides:
     of protein-coding genes, as well as other functional genome units such as structural
     RNAs, tRNAs, small RNAs, pseudogenes, control regions, direct and inverted repeats,
     insertion sequences, transposons and other mobile elements.
-  faq: https://docs.google.com/document/d/e/2PACX-1vSK-RjeRJC38_FSM9zC6SrfkvIz1W4uEMQkN95qk5OemvANuPF3aNEogVEvF6JEXeMomo-oMwi32Gv2/pub
   materials:
   - link: topics/genome-annotation/tutorials/annotation-with-prokka/slides.html
     type: Slides
@@ -668,7 +645,6 @@ genome-annotation/annotation-with-prokka/tutorial:
     i.e. tRNA, rRNA) present on on a sequence. Prokka can be used to annotate bacterial,
     archaeal and viral genomes quickly, generating standard output files in GenBank,
     EMBL and gff formats."
-  faq: https://docs.google.com/document/d/e/2PACX-1vSK-RjeRJC38_FSM9zC6SrfkvIz1W4uEMQkN95qk5OemvANuPF3aNEogVEvF6JEXeMomo-oMwi32Gv2/pub
   materials:
   - link: topics/genome-annotation/tutorials/annotation-with-prokka/tutorial.html
     type: Tutorial
@@ -686,7 +662,6 @@ genome-annotation/annotation-with-prokka/tutorial:
     - abretaud
 genome-annotation/apollo/slides:
   description: This lecture gives a quick overview of Apollo
-  faq: https://docs.google.com/document/d/e/2PACX-1vTm-7zB2tkAHKai6N0fSLqxuzFz1OPE3mow2jIMaEorgww3Z84jTwwXKt5qCAcNLrFqpb-Lh6wob_QB/pub
   materials:
   - link: topics/genome-annotation/tutorials/apollo/slides.html
     type: Slides
@@ -705,7 +680,6 @@ genome-annotation/apollo/slides:
 genome-annotation/apollo/tutorial:
   description: In this tutorial you will get some hands-on experience using Apollo
     in Galaxy
-  faq: https://docs.google.com/document/d/e/2PACX-1vTm-7zB2tkAHKai6N0fSLqxuzFz1OPE3mow2jIMaEorgww3Z84jTwwXKt5qCAcNLrFqpb-Lh6wob_QB/pub
   materials:
   - link: topics/genome-annotation/tutorials/apollo/tutorial.html
     type: Tutorial
@@ -767,7 +741,6 @@ genome-annotation/funannotate/tutorial:
 introduction/galaxy-intro-101/tutorial:
   description: This tutorial will introduce you to Galaxy. You will familiarize yourself
     with tools, workflows and histories. Those skills will be needed the next days
-  faq: null
   materials:
   - link: topics/introduction/tutorials/galaxy-intro-101/tutorial.html
     type: Tutorial
@@ -787,7 +760,6 @@ introduction/galaxy-intro-ngs-data-managment:
   description: In this demo video, we will show how to perform an NGS data analysis,
     using a SARS-CoV-2 example dataset. If you would like to run the full tutorial
     yourself, please find the link below (duration 1h-1.5h).
-  faq: https://docs.google.com/document/u/2/d/12w_KCVN7z9DKLSxX6aCRfr8__nfANoIxfLJeYM4UGQA/pub
   materials:
   - link: topics/introduction/tutorials/galaxy-intro-ngs-data-managment/tutorial.html
     title: NGS data logistics
@@ -809,7 +781,6 @@ metagenomics/clinical-applications:
   description: Nanopore Sequencing has many applications in a clinical setting. In
     this lecture, Astrid Heikema discusses how her group at the Erasmus Medical Center
     uses Nanopore for sequencing of bacterial Genomes.
-  faq: https://docs.google.com/document/d/e/2PACX-1vQlG_Onq011MQqyIu4D_erDqiLKAMLnduhHr5cDWwbXVqlU9VZhmm4OT_zphKqb8TEZprAFo8rdPXjO/pub
   materials: []
   tags:
   - metagenomics
@@ -826,7 +797,6 @@ metagenomics/clinical-applications:
 metagenomics/introduction/slides:
   description: This lecture briefly introduces 16S sequencing, a popular technique
     used for taxonomic profiling of microbial communities.
-  faq: https://docs.google.com/document/d/e/2PACX-1vRPPYdMfIA9R_w5y__jV9qdKbijJyOJiclx-2ACKFkAH8aIdlU3pY84xhivWEOmeEn_XQv8StFcjDLP/pub
   materials:
   - link: topics/metagenomics/slides/introduction.html
     title: Introduction to Metagenomics Analyses
@@ -851,7 +821,6 @@ metagenomics/metatranscriptomics:
     to the basic concepts and tools from the ASaiM-MT workflow. ASaiM-MT provides
     a curated collection of tools to explore and visualize taxonomic and functional
     information from metatranscriptomic sequences.
-  faq: https://docs.google.com/document/d/e/2PACX-1vRS1OnbS9qH6C7-p0NDoF9bQEyW8ICrqTEIrb55X9dVzMmu5_46FUx2uD0XHGLBQvqsZU66MP7_9seV/pub
   materials:
   - external: true
     link: https://drive.google.com/file/d/11TOrL7Kxgel71AT1rBc4DqjaUh3QB2G_/view?usp=sharing
@@ -880,7 +849,6 @@ metagenomics/metatranscriptomics:
 metagenomics/mothur-miseq-sop-short/tutorial:
   description: This lecture briefly introduces 16S sequencing, a popular technique
     used for taxonomic profiling of microbial communities.
-  faq: https://docs.google.com/document/d/e/2PACX-1vRPPYdMfIA9R_w5y__jV9qdKbijJyOJiclx-2ACKFkAH8aIdlU3pY84xhivWEOmeEn_XQv8StFcjDLP/pub
   materials:
   - link: topics/metagenomics/tutorials/mothur-miseq-sop-short/tutorial.html
     type: Tutorial
@@ -900,7 +868,6 @@ metagenomics/plasmid-metagenomics-nanopore/tutorial:
   description: This tutorial will guide you through the process of assembling your
     Nanopore-sequenced bacterial samples and determining the presence of antibiotic
     resistance genes.
-  faq: https://docs.google.com/document/d/e/2PACX-1vQlG_Onq011MQqyIu4D_erDqiLKAMLnduhHr5cDWwbXVqlU9VZhmm4OT_zphKqb8TEZprAFo8rdPXjO/pub
   materials:
   - link: topics/metagenomics/tutorials/plasmid-metagenomics-nanopore/tutorial.html
     title: Antibiotic resistance detection of plasmid data
@@ -930,7 +897,6 @@ proteomics/pandemic/external:
     \ of the workshop will get an in-depth knowledge of the Galaxy workflows that\
     \ detect SARS-CoV-2 peptides ([10.1186/s12014-021-09321-1)](https://doi.org/10.1186/s12014-021-09321-1))\
     \ and co-infecting pathogen peptides ([10.1021/acs.jproteome.0c00822](https://doi.org/10.1021/acs.jproteome.0c00822))."
-  faq: https://docs.google.com/document/d/e/2PACX-1vRQ-GVpA-btUnHv3PBDkD2vM5OYg_iPPOFPTH7VVxz-0pLFdi8ZN82zXEBGpk1rrRuOrRKiX8sy3_Yr/pub
   materials:
   - external: true
     link: https://drive.google.com/file/d/1anBPmGRWEVp9pBLZ_JInWV7iWrBpyCDs/view?usp=sharing
@@ -960,7 +926,6 @@ proteogenomics/introduction/slides:
     that make up this approach and will be detailed in the following tutorials. Some
     examples of research questions that benefit from a proteogenomics approach are
     also highlighted.
-  faq: https://docs.google.com/document/d/e/2PACX-1vTjQFq5wdkZeEFiQq-E8DkOTlLI9PChgWrwekHjPYBqndlb6kuAoXDiuiJaX5N09r63dWTyLPnnL8BK/pub
   materials:
   - external: true
     link: https://drive.google.com/file/d/1rqzf6Mrk9cMuQ2531tM6RpltPLrDCrgh/view?usp=sharing
@@ -980,7 +945,6 @@ proteogenomics/introduction/slides:
 
 proteomics/encyclopedia/slides:
   description: This lecture will introduce EncyclopeDIA.
-  faq: https://docs.google.com/document/d/e/2PACX-1vTgfPPgjsGSaYjcKaeJZPsav6Ck-EPWMDscR6KGUFX2X9gdmQcO93T7DFxgfj5hxWEfN3qnSoEpzORB/pub
   materials:
   - link: topics/proteomics/tutorials/encyclopedia/tutorial.html
     type: Tutorial
@@ -1000,7 +964,6 @@ proteomics/encyclopedia/slides:
 proteomics/encyclopedia/tutorial:
   description: This tutorial will walk you through an analysis with EncyclopeDIA step
     by step.
-  faq: https://docs.google.com/document/d/e/2PACX-1vTgfPPgjsGSaYjcKaeJZPsav6Ck-EPWMDscR6KGUFX2X9gdmQcO93T7DFxgfj5hxWEfN3qnSoEpzORB/pub
   materials:
   - link: topics/proteomics/tutorials/encyclopedia/tutorial.html
     type: Tutorial
@@ -1019,7 +982,6 @@ proteomics/encyclopedia/tutorial:
 proteomics/introduction/slides:
   description: "This lecture will provide an introduction to mass spectrometry (MS)\
     \ based proteomics analysis. <strong>Slides created by Melanie F\xF6ll</strong>."
-  faq: https://docs.google.com/document/d/e/2PACX-1vSYkfAT8PgEygCcqVhjzhioS23I1Tod0V2l6q60fbMkl6t21y09I62BYFrlWaSMO8p5_Y2JwilHSP5m/pub
   materials:
   - link: topics/proteomics/slides/introduction.html
     title: Introduction to proteomics, protein identification, quantification and
@@ -1042,7 +1004,6 @@ proteomics/metaproteomics/tutorial:
     which includes database search, seeking taxonomy information and functional analysis.
     Related metaproteomics and functional microbiome tools and GTN tutorials are also
     mentioned in this tutorial.
-  faq: https://docs.google.com/document/d/e/2PACX-1vTX6JQG4oAKXvQSJU52thudorwANPtzIedTiTQU1NbXQYYfrNkBheN-gHu0O91bCOIk5wQBpH1mIk7v/pub
   materials:
   - link: topics/proteomics/tutorials/metaproteomics/tutorial.html
     type: Tutorial
@@ -1065,7 +1026,6 @@ proteomics/proteogenomics-dbcreation/tutorial:
     and deletions (indels)and transcript assemblies (splicing variants). This database
     can then be used to identify protein sequence variants from the mass spectrometry
     data.
-  faq: https://docs.google.com/document/d/e/2PACX-1vTjQFq5wdkZeEFiQq-E8DkOTlLI9PChgWrwekHjPYBqndlb6kuAoXDiuiJaX5N09r63dWTyLPnnL8BK/pub
   materials:
   - link: topics/proteomics/tutorials/proteogenomics-dbcreation/tutorial.html
     type: Tutorial
@@ -1088,7 +1048,6 @@ proteomics/proteogenomics-dbsearch/tutorial:
     also isolate non-canonical peptides from the resulting data for further analysis.
     <strong> If you would like to view the results yourself, we provide example histories
     in the FAQ document</strong>
-  faq: https://docs.google.com/document/d/e/2PACX-1vTjQFq5wdkZeEFiQq-E8DkOTlLI9PChgWrwekHjPYBqndlb6kuAoXDiuiJaX5N09r63dWTyLPnnL8BK/pub
   materials:
   - link: topics/proteomics/tutorials/proteogenomics-dbsearch/tutorial.html
     type: Tutorial
@@ -1113,7 +1072,6 @@ proteomics/proteogenomics-novel-peptide-analysis/tutorial:
     that are absent in the reference database, annotate the novel peptides and visualize
     them using the Multi-omics Visualization Platform (MVP). <strong> If you would
     like to view the results yourself, we provide example histories in the FAQ document</strong>
-  faq: https://docs.google.com/document/d/e/2PACX-1vTjQFq5wdkZeEFiQq-E8DkOTlLI9PChgWrwekHjPYBqndlb6kuAoXDiuiJaX5N09r63dWTyLPnnL8BK/pub
   materials:
   - link: topics/proteomics/tutorials/proteogenomics-novel-peptide-analysis/tutorial.html
     type: Tutorial
@@ -1132,7 +1090,6 @@ proteomics/proteogenomics-novel-peptide-analysis/tutorial:
 proteomics/proteome_annotation/tutorial:
   description: This tutorial covers an annotation pipeline for a protein list identified
     by LC-MS/MS experiments.
-  faq: https://docs.google.com/document/d/e/2PACX-1vT7_ulDI8Mf4BpE8JPmvXYVqk1UmMGEFJ6Cj2ZvlxwLfP8riaaVicPtGR5HeFDAEmKMjaXPcub6cL1w/pub
   materials:
   - link: topics/proteomics/tutorials/proteome_annotation/tutorial.html
     title: Annotating a protein list identified by LC-MS/MS experiments
@@ -1158,7 +1115,6 @@ proteomics/maxquant-msstats-dda-lfq/tutorial:
     \ we will cover the full analysis workflow from label-free, data dependent acquisition\
     \ (DDA) raw data to statistical results. We\u2019ll use two popular quantitative\
     \ proteomics software: MaxQuant and MSstats."
-  faq: https://docs.google.com/document/d/e/2PACX-1vS4GuHPJrRcpGmNCXBTJ9wyUp6X33Xe6Ou8N_q0Ko5AJ-_rUy7ZsAu-x6R9yf7iRZLxK-t_e-O4Xoc6/pub
   materials:
   - link: topics/proteomics/tutorials/maxquant-msstats-dda-lfq/tutorial.html
     title: MaxQuant and MSstats for the analysis of label-free data
@@ -1184,7 +1140,6 @@ data-science/rstudio-galaxy:
   description: This tutorial will show you how you can start Rstudio from within Galaxy.
     This option is only available on Galaxy EU for the time being. If you are working
     on a different Galaxy server, you can use <strong>Rstudio Cloud (https://rstudio.cloud/)</strong>
-  faq: https://docs.google.com/document/d/e/2PACX-1vQuOJPPP2nosMG1gh1TuAFu479F4u2kGCCsICHuKvQE7lJGZCreVbXMQrhEORu3O1fV2hX_DZDE_Isk/pub
   materials:
   - link: https://rstudio.cloud/
     title: Try Rstudio Cloud instead
@@ -1206,7 +1161,6 @@ sars-cov2/usegalaxy-star-bot:
   description: "See in this demo how, on usegalaxy.*, we\u2019ve used Planemo and\
     \ Bioblend to build and operate an automated SARS-CoV-2 genome surveillance system\
     \ based on the Galaxy workflows for variant calling, consensus building and reporting."
-  faq: null
   materials: []
   tags:
   - sars-cov2
@@ -1223,7 +1177,6 @@ sars-cov2/using-galaxy:
   description: 'Get an overview of the workshop: production-ready Galaxy workflows
     for SARS-CoV-2 sequencing data, tools you should know to automate workflow execution,
     and how you combine all of it to turn Galaxy into a platform for genome-surveillance'
-  faq: null
   materials: []
   tags:
   - sars-cov2
@@ -1251,7 +1204,6 @@ variant-analysis/sars-cov-2-variant-discovery/tutorial:
 
 sequence-analysis/human-reads-removal/tutorial:
   description: null
-  faq: null
   materials:
   - link: topics/sequence-analysis/tutorials/human-reads-removal/tutorial.html
     title: Removal of human reads from SARS-CoV-2 sequencing data
@@ -1266,7 +1218,6 @@ sequence-analysis/human-reads-removal/tutorial:
 sequence-analysis/mapping/slides:
   description: This lecture covers the basic concepts involved in mapping sequencing
     reads to a reference genome.
-  faq: https://docs.google.com/document/d/e/2PACX-1vReZf8DGTSf6DlgBzg_g4_PhiH7glzRNTXGxK2_xM3aAFL5A3x0FdawNCrna3NkZ_vj986u7nhWh3Bb/pub
   materials:
   - link: topics/sequence-analysis/tutorials/mapping/slides.html
     title: Mapping
@@ -1286,7 +1237,6 @@ sequence-analysis/mapping/slides:
 sequence-analysis/mapping/tutorial:
   description: In this tutorial you will map sequencing data to a reference genome,
     and explore the mapped reads in a genome browser.
-  faq: https://docs.google.com/document/d/e/2PACX-1vReZf8DGTSf6DlgBzg_g4_PhiH7glzRNTXGxK2_xM3aAFL5A3x0FdawNCrna3NkZ_vj986u7nhWh3Bb/pub
   materials:
   - link: topics/sequence-analysis/tutorials/mapping/tutorial.html
     title: Mapping
@@ -1306,7 +1256,6 @@ sequence-analysis/mapping/tutorial:
 sequence-analysis/quality-control/slides:
   description: This lecture goes over the concepts involved in assessing the quality
     of your sequencing data.
-  faq: https://docs.google.com/document/d/e/2PACX-1vRXhvMQNVRc41Xsg7NLeCLSefaWMEhKgkENmqQqAJUfZAk782616svDQPBQhMKeOqMhiKSZDbmFqsfO/pub
   materials:
   - link: topics/sequence-analysis/tutorials/quality-control/slides.html
     title: Introduction to Quality Control
@@ -1328,7 +1277,6 @@ sequence-analysis/quality-control/slides:
 sequence-analysis/quality-control/tutorial:
   description: In this tutorial you will get some hand-on experience performing a
     quality assessment on sequencing data.
-  faq: https://docs.google.com/document/d/e/2PACX-1vRXhvMQNVRc41Xsg7NLeCLSefaWMEhKgkENmqQqAJUfZAk782616svDQPBQhMKeOqMhiKSZDbmFqsfO/pub
   materials:
   - link: topics/sequence-analysis/tutorials/quality-control/tutorial.html
     type: Tutorial
@@ -1351,7 +1299,6 @@ statistics/machine-learning/intro:
   description: The lecture explains introductory concepts in machine learning such
     as supervised and unsupervised learning, classification and regression, hyperparameter
     optimisation, cross-validation, train, test and validation sets.
-  faq: https://docs.google.com/document/d/e/2PACX-1vQUIonilhLMvaTlPaYvi5BeOwFsWsmd30tlo1PXYCpOXNUTXiYkm4fxZ23MoOSh_PqVSqmF0lSXeE1C/pub
   materials:
   - external: true
     link: https://docs.google.com/presentation/d/1RZtXFk8qz6wmPsIKnMte3Y4SvmI_nD2vIyeSEvYR6RA/edit?usp=sharing
@@ -1373,7 +1320,6 @@ statistics/machine-learning/intro:
 statistics/CNN:
   title: Convolutional Neural Networks (CNN)
   description: This hands-on tutorial covers Convolutional Neural Networks (CNN)
-  faq: https://docs.google.com/document/d/e/2PACX-1vTYyxANwg5BJXe6b9BwRnwBATU1GAYfOjLM-4SNBoPf5WQOucX9Hx-b2JiINpnAI4tRLAY_v8iXgnOy/pub
   materials:
   - link: topics/statistics/tutorials/CNN/slides.html
     title: Convolutional Neural Networks
@@ -1396,7 +1342,6 @@ statistics/CNN:
 statistics/FNN:
   title: Feedforward Neural Networks (FNN)
   description: This hands-on tutorial covers Feedforward Neural Networks (FNN)
-  faq: https://docs.google.com/document/d/e/2PACX-1vTYyxANwg5BJXe6b9BwRnwBATU1GAYfOjLM-4SNBoPf5WQOucX9Hx-b2JiINpnAI4tRLAY_v8iXgnOy/pub
   materials:
   - link: topics/statistics/tutorials/FNN/slides.html
     title: Feedforward Neural Networks
@@ -1419,7 +1364,6 @@ statistics/FNN:
 statistics/RNN:
   title: Recurrent Neural Networks (RNN)
   description: This hands-on tutorial covers Recurrenct Neural Networks (RNN)
-  faq: https://docs.google.com/document/d/e/2PACX-1vTYyxANwg5BJXe6b9BwRnwBATU1GAYfOjLM-4SNBoPf5WQOucX9Hx-b2JiINpnAI4tRLAY_v8iXgnOy/pub
   materials:
   - link: topics/statistics/tutorials/RNN/slides.html
     title: Recurrent Neural Networks
@@ -1476,7 +1420,6 @@ statistics/classification_machinelearning/tutorial:
     into one of two classes - biodegradable or non-biodegradable. Different visualisations
     are used to analyze the results after applying each classification algorithm.
     Hyperparameters of one of the classifiers are also optimised.
-  faq: https://docs.google.com/document/d/e/2PACX-1vQS2fppEH7Kf6QCNOUozRu4reYkiASYk4ig6qUfqW3eewqdZ0fKEWLz9rT2iBxohXYYaiDOsto8Aa8V/pub
   support_channel: 'machine_learning_classification'
   materials:
   - link: topics/statistics/tutorials/classification_machinelearning/tutorial.html
@@ -1512,7 +1455,6 @@ statistics/intro-to-ml-with-r/tutorial:
     \ be focusing on the mathematical foundation for each of the methods and approaches\
     \ we\u2019ll be discussing. There are many resources that can provide this context,\
     \ but for the purposes of this workshop we believe that they are beyond the scope."
-  faq: https://docs.google.com/document/d/e/2PACX-1vRtiyOfFPtBN5MVB_nopElfYYKtS595Nbx9XlXvfO_66six-ZMKA4iwI914P18XvzSHmS_ov72-53L3/pub
   materials:
   - link: topics/statistics/tutorials/intro-to-ml-with-r/tutorial.html
     title: Introduction to Machine Learning using R
@@ -1544,7 +1486,6 @@ statistics/regression_machinelearning/tutorial:
     are analyzed by machine learning algorithms to create an age prediction model.
     Multiple visualisations are also used to analyse the predictions made by simple
     and complex regressors and hyperparameters of one of the regressors also optimised.
-  faq: https://docs.google.com/document/d/e/2PACX-1vTUEQlhHqgV60mvPjZ1MzcNKDxwyftm76JNLzcI2XKqTaXnO1gPLEGoTXuNZHXpLY1jBSSm3oUJk1Vs/pub
   materials:
   - link: topics/statistics/tutorials/regression_machinelearning/tutorial.html
     type: Tutorial
@@ -1569,7 +1510,6 @@ transcriptomics/de-novo/tutorial:
     infer transcript structures from aligned reads. We will identify and quantify
     transcripts present in two different cell state and determine which transcripts
     are differentially expressed between the two states.
-  faq: https://docs.google.com/document/u/2/d/e/2PACX-1vT9HPChmFeBl8cQVp4OzTwYeKvXlUq_vnzj7BfWQ3G9HmiaIiX4ezLl2ciiyyK_ODrU1hyfIFoplmpW/pub
   materials:
   - link: topics/transcriptomics/tutorials/de-novo/tutorial.html
     type: Tutorial
@@ -1599,7 +1539,6 @@ transcriptomics/droplet-quantification-preprocessing/tutorial:
     \ data matrix in AnnData format. What\u2019s a data matrix, and what\u2019s AnnData\
     \ format? Well you\u2019ll find out! Importantly, this is the first step in processing\
     \ single cell data in order to start analysing it."
-  faq: https://docs.google.com/document/d/e/2PACX-1vT2mDOrH9L8oky-MG26vKjnRmV1zGNZd3vsOGFUjL-lhpBQi95vSYKgWYyqgTEPC4wz8LjGvTgfBi1Z/pub
   materials:
   - link: topics/transcriptomics/tutorials/droplet-quantification-preprocessing/tutorial.html
     type: Tutorial
@@ -1618,7 +1557,6 @@ transcriptomics/droplet-quantification-preprocessing/tutorial:
 transcriptomics/introduction/slides:
   description: RNA sequencing is used to assess the expression levels of genes. This
     video introduces the important concepts related to RNA-seq analysis.
-  faq: https://docs.google.com/document/d/e/2PACX-1vTOAKhYdmiiTucIarwlehmnPaxi0MXDmuCPdyZwB27xvBJPksDOLCOYMGdtEZAoz4WGxHGdDcBDdlM9/pub
   materials:
   - link: topics/transcriptomics/slides/introduction.html
     title: Introduction to Transcriptomics
@@ -1637,7 +1575,6 @@ transcriptomics/introduction/slides:
     speakers:
     - fpsom
 transcriptomics/mirna-target-finder/slides:
-  faq: https://docs.google.com/document/d/1MEbBmyDaH0mt65wL3_P7YMn-PZD1mYkAAfE6gY55_Wg/edit
   materials:
   - link: topics/transcriptomics/tutorials/mirna-target-finder/slides.html
     type: Slides
@@ -1662,7 +1599,6 @@ transcriptomics/mirna-target-finder/slides:
     speakers:
     - awspolly
 transcriptomics/mirna-target-finder/tutorial:
-  faq: https://docs.google.com/document/d/1MEbBmyDaH0mt65wL3_P7YMn-PZD1mYkAAfE6gY55_Wg/edit
   materials:
   - link: topics/transcriptomics/tutorials/mirna-target-finder/tutorial.html
     type: Tutorial
@@ -1682,7 +1618,6 @@ transcriptomics/ref-based/tutorial:
   description: In this tutorial we will walk you through the process of an RNA-seq
     analysis, comparing gene expression levels between different conditions and assessing
     impacted gene pathways.
-  faq: https://docs.google.com/document/d/e/2PACX-1vTOAKhYdmiiTucIarwlehmnPaxi0MXDmuCPdyZwB27xvBJPksDOLCOYMGdtEZAoz4WGxHGdDcBDdlM9/pub
   materials:
   - link: topics/transcriptomics/tutorials/ref-based/tutorial.html
     title: Reference-based RNA-Seq data analysis
@@ -1703,7 +1638,6 @@ transcriptomics/ref-based/tutorial:
 transcriptomics/rna-seq-counts-to-viz-in-r/tutorial:
   description: In this tutorial, we will visualize our RNA-seq analysis results using
     R.
-  faq: https://docs.google.com/document/d/e/2PACX-1vTRNzQHT9qyPr9kdWOM1l8HiD0A1xCRMW7bYnUCcLYmF5yJFytYSOVrq_JFtRvqnat-_41JBkQray2F/pub
   materials:
   - link: topics/transcriptomics/tutorials/rna-seq-counts-to-viz-in-r/tutorial.html
     title: RNA Seq Counts to Viz in R
@@ -1726,7 +1660,6 @@ transcriptomics/rna-seq-viz-with-volcanoplot-r/tutorial:
   description: The previous tutorial introduced volcano plots and showed how they
     can be generated with the Galaxy Volcano plot tool. In this tutorial we show how
     you can customise a plot using the R script output from the tool.
-  faq: https://docs.google.com/document/d/e/2PACX-1vRuH3ZhCKeLypPNA-BYueeKo2pPjluLzk9go6dLEmQjg1C_d59uzSV25TDRZo6zRWKMLtKCcsgzHyMq/pub
   materials:
   - link: topics/transcriptomics/tutorials/rna-seq-viz-with-volcanoplot-r/tutorial.html
     title: Customizing your Volcano plots using R in Galaxy
@@ -1748,7 +1681,6 @@ transcriptomics/rna-seq-viz-with-volcanoplot-r/tutorial:
 transcriptomics/rna-seq-viz-with-volcanoplot/tutorial:
   description: This tutorial will show you how you can create volcano plots from your
     RNA-Seq analysis results using Galaxy tools.
-  faq: https://docs.google.com/document/d/e/2PACX-1vRuH3ZhCKeLypPNA-BYueeKo2pPjluLzk9go6dLEmQjg1C_d59uzSV25TDRZo6zRWKMLtKCcsgzHyMq/pub
   materials:
   - link: topics/transcriptomics/tutorials/rna-seq-viz-with-volcanoplot/tutorial.html
     title: Visualization of RNA-Seq results with Volcano Plot
@@ -1808,7 +1740,6 @@ transcriptomics/scrna-JUPYTER-trajectories/tutorial:
     \ understanding the Python coding language. This is the beauty of Galaxy - all\
     \ the \u2018set-up\u2019 is identical across computers, because it\u2019s browser\
     \ based. So fear not!"
-  faq: https://docs.google.com/document/d/e/2PACX-1vQFtqSeiowtVHQHdNuJ8tjAhfSKtmfm0B_pfrbOhx0EVYxO4sbza3AKFcVEyrGtM3q5QNH82LaDKyki/pub
   materials:
   - link: topics/transcriptomics/tutorials/scrna-JUPYTER-trajectories/tutorial.html
     type: Tutorial
@@ -1832,7 +1763,6 @@ transcriptomics/scrna-intro/slides:
     cells. The cellular resolution and genome wide scope make it possible to draw
     new conclusions that are not otherwise possible with bulk RNA-seq. <strong>Slides
     created by Mehmet Tekman</strong>.
-  faq: https://docs.google.com/document/d/e/2PACX-1vSVFOV1C6hqMPGIpZ1qeOo6t-ubjaWbtsGSTMH9TwNlvfqZrP48i0_7_Xk5rxmY7g2CroOF1dNIyfMY/pub
   materials:
   - link: topics/transcriptomics/tutorials/scrna-intro/slides.html
     title: An introduction to scRNA-Seq data analysis
@@ -1854,7 +1784,6 @@ transcriptomics/scrna-intro/slides:
 transcriptomics/scrna-umis/tutorial:
   title: "Understanding Barcodes"
   description: This tutorial demonstrates the what barcodes in your sequencing data are, and how to handle them during analysis. Please work through the full tutorial yourself to get all the details.
-  faq: "https://docs.google.com/document/d/e/2PACX-1vRWe-8VHsJ4vbO8rwXemPDKUabWrKy1NRnxOKfIzEgj8RQ0tfG0W1kyUx30gVyWND_h4s12MtsV58Sh/pub"
   materials:
     - type: Tutorial
       link: topics/transcriptomics/tutorials/scrna-umis/tutorial.html
@@ -1874,7 +1803,6 @@ transcriptomics/scrna-umis/tutorial:
 transcriptomics/scrna-preprocessing-tenx/tutorial:
   title: "Pre-processing of 10X Single-Cell RNA Datasets"
   description: 10x genomics has provided not only a cost-effective high-throughput solution to understanding sample heterogeneity at the individual cell level, but has defined the standards of the field that many downstream analysis packages are now scrambling to accommodate. Please work through the full tutorial yourself to get all the details.
-  faq: "https://docs.google.com/document/d/e/2PACX-1vTuCzmNJlZSbS9-lIdfLgt8T7IJb7jWZ3gedtjNB4aKJ7pAi3apYS4NgfaCRh0_r5QbF4Pwl15Z0-mk/pub"
   type: Demo
   materials:
   - type: Tutorial
@@ -1895,7 +1823,6 @@ transcriptomics/scrna-preprocessing-tenx/tutorial:
 
 transcriptomics/scrna-scanpy-pbmc3k/tutorial:
   title: "Clustering 3K PBMCs with Scanpy"
-  faq: "https://docs.google.com/document/d/e/2PACX-1vTdqGjslXMxUjyjqwkNtidsXFl6SRULFKFug_2TYBl-dYXIDEnXb59nMyZ5qJc6bXI-fP5cPLfkXbHV/pub"
   type: Demo
   description: "In this tutorial, we will investigate clustering of single-cell data from 10x Genomics, including preprocessing, clustering and the identification of cell types via known marker genes, using Scanpy. It will be illustrated using a dataset of Peripheral Blood Mononuclear Cells (PBMC), containing 2,700 single cells. Please work through the full tutorial yourself to get all the details."
   tags:
@@ -1921,7 +1848,6 @@ transcriptomics/scrna-plant/tutorial:
     \ cells. The original paper used the Seurat analysis suite (Satija et al. 2015),\
     \ but here we will use the ScanPy analysis suite (Wolf et al. 2018) integrated\
     \ within the single-cell resources in Galaxy (Tekman et al. 2020)."
-  faq: https://docs.google.com/document/d/e/2PACX-1vS8qAPOQwMPlt16fFWQ-JPHNrzKT_46I1OHiFFaJ9r8oT6LZaelryrwnigWUPVPfsccQJkm3Q68TyHr/pub
   materials:
   - link: topics/transcriptomics/tutorials/scrna-plant/tutorial.html
     type: Tutorial
@@ -1945,7 +1871,6 @@ transcriptomics/scrna-seq-basic-pipeline/tutorial:
     \ cells, to reduce the many dimensions of data that make it difficult to work\
     \ with, and ultimately to try to define our clusters and to find our biological\
     \ meaning and insights!"
-  faq: https://docs.google.com/document/d/e/2PACX-1vTIorwkiFua1sXaJwKOsXPTugOZz_BzcfNnFgbsd2a6AjDuHbrj-KD023J25OHp9F_Dmql0luIMCN3N/pub
   materials:
   - link: topics/transcriptomics/tutorials/scrna-seq-basic-pipeline/tutorial.html
     type: Tutorial
@@ -1967,7 +1892,6 @@ variant-analysis/tb-variant-analysis/slides:
     \ Mycobacterium tuberculosis. According to the WHO, in 2018 there were 10.0 million\
     \ new cases of TB worldwide and 1.4 million deaths due to the disease, making\
     \ TB the world\u2019s most deadly infectious disease."
-  faq: https://docs.google.com/document/d/e/2PACX-1vTr2X-W-2-gronZbeEqj8OGTLyLqaUW2_7mCsHHgVMAVsOQt2faSNk5IaizQlYE_0vWU26v79Oqhyy3/pub
   materials:
   - external: true
     link: https://docs.google.com/presentation/d/16XTMh2fRrl73WVaezNAFWET0IIMXBv0MCI2engFtdQs/edit#slide=id.g6231f48ea2_0_34
@@ -1989,7 +1913,6 @@ variant-analysis/tb-variant-analysis/tutorial:
     changes in phenotype, for example drug resistance and virulence. It is also useful
     for outbreak investigation as the single nucleotide polymorphisms (SNPs) in a
     sample can be used to build a phylogeny.
-  faq: https://docs.google.com/document/d/e/2PACX-1vTr2X-W-2-gronZbeEqj8OGTLyLqaUW2_7mCsHHgVMAVsOQt2faSNk5IaizQlYE_0vWU26v79Oqhyy3/pub
   materials:
   - link: topics/variant-analysis/tutorials/tb-variant-analysis/tutorial.html
     type: Tutorial
@@ -2010,7 +1933,6 @@ variant-analysis/tb-variant-analysis/tutorial:
 visualisation/circos/slides:
   description: Circos is a popular tool for creating circular graphs to display genomic
     data. This video will introduce this tool and how to use it within Galaxy
-  faq: https://docs.google.com/document/d/e/2PACX-1vSx65Dr5sFCvzvJoRGVMU9i4NJZTkpQktvTEER3T_Pd8PSrR_x9GsUBYBAEnS6-qStu7F-bI_nj2mgT/pub
   materials:
   - link: topics/visualisation/tutorials/circos/slides.html
     type: Slides
@@ -2030,7 +1952,6 @@ visualisation/circos/slides:
 visualisation/circos/tutorial:
   description: Circos is a popular tool for creating circular graphs to display genomic
     data. This video will introduce this tool and how to use it within Galaxy
-  faq: https://docs.google.com/document/d/e/2PACX-1vSx65Dr5sFCvzvJoRGVMU9i4NJZTkpQktvTEER3T_Pd8PSrR_x9GsUBYBAEnS6-qStu7F-bI_nj2mgT/pub
   materials:
   - link: topics/visualisation/tutorials/circos/slides.html
     type: Slides
@@ -2135,7 +2056,6 @@ wetlab/miseq/demo:
   title: MinION Wetlab demo
   description: This video will show you the full process of sequencing a bacterial
     genome using the Oxford Nanopore MinION sequencer.
-  faq: https://docs.google.com/document/d/e/2PACX-1vQlG_Onq011MQqyIu4D_erDqiLKAMLnduhHr5cDWwbXVqlU9VZhmm4OT_zphKqb8TEZprAFo8rdPXjO/pub
   materials: []
   tags:
   - wetlab
@@ -2153,7 +2073,6 @@ wetlab/miseq/demo:
 course/welcome-admin:
   title: "Admin Training 2021: Welcome & Course Logistics"
   description: null
-  faq: null
   tags: [event]
   type: Tutorial
   versions:
@@ -2187,7 +2106,6 @@ course/welcome-gcc2021:
   title: "GCC2021 Training: Welcome & Course Logistics"
   description: Start here; we will go over all the important things to know to get
     the most out of this workshop
-  faq: null
   materials:
   - external: true
     link: https://docs.google.com/presentation/d/11iR7mjnyhl2OX9KDmeE6TrArYeEUwVnnV3cFMFWMBwI/edit?usp=sharing
@@ -2209,7 +2127,6 @@ course/welcome-gcc2021:
 admin/week-overview-slides:
   title: Admin Training Week Overview
   description: null
-  faq: null
   materials:
   - link: topics/admin/tutorials/ansible-galaxy/slides.html
     type: Week Overview Slides
@@ -2227,7 +2144,6 @@ admin/week-overview-slides:
     - hexylena
 admin/ansible-galaxy/tutorial:
   description: null
-  faq: null
   materials:
   - link: topics/admin/tutorials/ansible-galaxy/tutorial.html
     title: Tutorial (All Parts)
@@ -2265,7 +2181,6 @@ admin/ansible-galaxy/tutorial:
 
 admin/ansible/tutorial:
   description: null
-  faq: null
   materials:
   - link: topics/admin/tutorials/ansible/tutorial.html
     type: Tutorial
@@ -2282,7 +2197,6 @@ admin/ansible/tutorial:
     - martenson
 admin/ansible/slides:
   description: null
-  faq: null
   materials:
   - link: topics/admin/tutorials/ansible/slides.html
     type: Slides
@@ -2299,7 +2213,6 @@ admin/ansible/slides:
     - ic4f
 admin/connect-to-compute-cluster/combined:
   description: null
-  faq: null
   materials:
   - link: topics/admin/tutorials/connect-to-compute-cluster/slides.html
     type: Slides
@@ -2319,7 +2232,6 @@ admin/connect-to-compute-cluster/combined:
     - hexylena
 admin/cvmfs/slides:
   description: null
-  faq: null
   materials:
   - link: topics/admin/tutorials/cvmfs/slides.html
     type: Slides
@@ -2336,7 +2248,6 @@ admin/cvmfs/slides:
     - awspolly
 admin/cvmfs/tutorial:
   description: null
-  faq: null
   materials:
   - link: topics/admin/tutorials/cvmfs/tutorial.html
     type: Tutorial
@@ -2353,7 +2264,6 @@ admin/cvmfs/tutorial:
     - slugger70
 admin/data-library/tutorial:
   description: null
-  faq: null
   materials:
   - link: topics/admin/tutorials/data-library/tutorial.html
     type: Tutorial
@@ -2371,7 +2281,6 @@ admin/data-library/tutorial:
     - shiltemann
 admin/gxadmin/slides:
   description: null
-  faq: null
   materials:
   - link: topics/admin/tutorials/gxadmin/slides.html
     type: Slides
@@ -2390,7 +2299,6 @@ admin/gxadmin/slides:
     - awspolly
 admin/pulsar/slides:
   description: null
-  faq: null
   materials:
   - link: topics/admin/tutorials/heterogeneous-compute/slides.html
     type: Slides
@@ -2407,7 +2315,6 @@ admin/pulsar/slides:
     - slugger70
 admin/pulsar/tutorial:
   description: null
-  faq: null
   materials:
   - link: topics/admin/tutorials/heterogeneous-compute/tutorial.html
     type: Tutorial
@@ -2433,7 +2340,6 @@ admin/pulsar/tutorial:
     - slugger70
 admin/interactive-tools:
   description: null
-  faq: null
   materials:
   - link: topics/admin/tutorials/interactive-tools/slides.html
     type: Slides
@@ -2453,7 +2359,6 @@ admin/interactive-tools:
     - abretaud
 admin/job-destinations/tutorial:
   description: null
-  faq: null
   materials:
   - link: topics/admin/tutorials/job-destinations/tutorial.html
     type: Tutorial
@@ -2472,7 +2377,6 @@ admin/job-destinations/tutorial:
 admin/job-metrics/tutorial:
   title: Recording Job Metrics
   description: null
-  faq: null
   materials:
   - link: topics/admin/tutorials/job-metrics/tutorial.html
     type: Tutorial
@@ -2490,7 +2394,6 @@ admin/job-metrics/tutorial:
 
 admin/maintenance/slides:
   description: null
-  faq: null
   materials:
   - link: topics/admin/tutorials/maintenance/slides.html
     type: Slides
@@ -2507,7 +2410,6 @@ admin/maintenance/slides:
     - awspolly
 admin/monitoring/slides:
   description: null
-  faq: null
   materials:
   - link: topics/admin/tutorials/monitoring/slides.html
     type: Slides
@@ -2523,7 +2425,6 @@ admin/monitoring/slides:
     speakers: []
 admin/monitoring/tutorial:
   description: null
-  faq: null
   materials:
   - link: topics/admin/tutorials/monitoring/tutorial.html
     type: Tutorial
@@ -2540,7 +2441,6 @@ admin/monitoring/tutorial:
     speakers: []
 admin/object-store/exercise:
   description: null
-  faq: null
   materials:
   - link: topics/admin/tutorials/object-store/tutorial.html
     type: Exercise
@@ -2557,7 +2457,6 @@ admin/object-store/exercise:
     - gmauro
 admin/singularity/tutorial:
   description: Running jobs in Singularity
-  faq: null
   materials:
   - link: topics/admin/tutorials/singularity/tutorial.html
     type: Tutorial
@@ -2584,7 +2483,6 @@ admin/singularity/tutorial:
     - hexylena
 admin/tiaas/tutorial:
   description: null
-  faq: null
   materials:
   - link: topics/admin/tutorials/tiaas/tutorial.html
     type: Tutorial
@@ -2602,7 +2500,6 @@ admin/tiaas/tutorial:
     - hexylena
 admin/tool-management/slides:
   description: null
-  faq: null
   materials:
   - link: topics/admin/tutorials/tool-management/slides.html
     type: Slides
@@ -2621,7 +2518,6 @@ admin/tool-management/slides:
     - cat-bro
 admin/tool-management/tutorial:
   description: null
-  faq: null
   materials:
   - link: topics/admin/tutorials/tool-management/slides.html
     type: Slides
@@ -2648,7 +2544,6 @@ admin/tool-management/tutorial:
     - cat-bro
 admin/upgrading/tutorial:
   description: null
-  faq: null
   materials:
   - link: topics/admin/tutorials/upgrading/tutorial.html
     type: tutorial
@@ -2666,7 +2561,6 @@ admin/upgrading/tutorial:
     - slugger70
 admin/users-groups-quotas/slides:
   description: null
-  faq: null
   materials:
   - link: topics/admin/tutorials/users-groups-quotas/slides.html
     type: Slides
@@ -2685,7 +2579,6 @@ admin/users-groups-quotas/slides:
 contributing/gitpod/tutorial:
   description: This tutorial will show you how you can preview your contributions
     to the GTN online using GitPod.
-  faq: https://docs.google.com/document/d/1-B5DvLcaylpJKfW-1F6tRhbCbpLlRbu2c3kTMuBFNk4/pub
   materials:
   - link: topics/contributing/tutorials/gitpod/tutorial.html
     title: Running the GTN website online using GitPod
@@ -2711,7 +2604,6 @@ contributing/create-new-tutorial-slides/slides:
     than ever.
 
     '
-  faq: https://docs.google.com/document/d/1-B5DvLcaylpJKfW-1F6tRhbCbpLlRbu2c3kTMuBFNk4/pub
   materials:
   - link: topics/contributing/tutorials/create-new-tutorial-slides/slides.html
     title: Creating Slides for the GTN
@@ -2731,7 +2623,6 @@ contributing/create-new-tutorial-slides/slides:
 contributing/create-new-tutorial/tutorial:
   description: 'This tutorial will go through all of the steps of creating a simple
     tutorial and contributing it to the GTN.'
-  faq: https://docs.google.com/document/d/1-B5DvLcaylpJKfW-1F6tRhbCbpLlRbu2c3kTMuBFNk4/pub
   materials:
   - link: topics/contributing/tutorials/create-new-tutorial/tutorial.html
     title: Creating a new tutorial
@@ -2754,7 +2645,6 @@ contributing/create-new-tutorial/tutorial:
 dev/architecture/slides-ecosystem:
   title: "Galaxy Code Architecture: Galaxy Ecosystem"
   description: TODO
-  faq: https://docs.google.com/document/d/e/2PACX-1vQc9v1cfpXZFTha3EnP-9hWw_FH9T9QkGaBxnr2YJ_KEckHhNp8uiHNUR5aeM74Zgrb9mXeIZYIlMmP/pub
   materials:
   - link: topics/dev/tutorials/architecture/slides.html
     type: Slides
@@ -2779,7 +2669,6 @@ dev/architecture/slides-ecosystem:
 dev/architecture/slides-models-managers:
   title: "Galaxy Code Architecture: Models and Managers"
   description: TODO
-  faq: https://docs.google.com/document/d/e/2PACX-1vQc9v1cfpXZFTha3EnP-9hWw_FH9T9QkGaBxnr2YJ_KEckHhNp8uiHNUR5aeM74Zgrb9mXeIZYIlMmP/pub
   materials:
   - link: topics/dev/tutorials/architecture/slides.html
     type: Slides
@@ -2804,7 +2693,6 @@ dev/architecture/slides-models-managers:
 dev/architecture/slides-app-di:
   title: "Galaxy Code Architecture: app and Dependency Injection"
   description: TODO
-  faq: https://docs.google.com/document/d/e/2PACX-1vQc9v1cfpXZFTha3EnP-9hWw_FH9T9QkGaBxnr2YJ_KEckHhNp8uiHNUR5aeM74Zgrb9mXeIZYIlMmP/pub
   materials:
   - link: topics/dev/tutorials/architecture/slides.html
     type: Slides
@@ -2829,7 +2717,6 @@ dev/architecture/slides-app-di:
 dev/architecture/slides-project-management:
   title: "Galaxy Code Architecture: Project Management"
   description: TODO
-  faq: https://docs.google.com/document/d/e/2PACX-1vQc9v1cfpXZFTha3EnP-9hWw_FH9T9QkGaBxnr2YJ_KEckHhNp8uiHNUR5aeM74Zgrb9mXeIZYIlMmP/pub
   materials:
   - link: topics/dev/tutorials/architecture/slides.html
     type: Slides
@@ -2855,7 +2742,6 @@ dev/architecture/slides-project-management:
 dev/architecture/slides-web-client:
   title: "Galaxy Code Architecture: Web Client"
   description: TODO
-  faq: https://docs.google.com/document/d/e/2PACX-1vQc9v1cfpXZFTha3EnP-9hWw_FH9T9QkGaBxnr2YJ_KEckHhNp8uiHNUR5aeM74Zgrb9mXeIZYIlMmP/pub
   materials:
   - link: topics/dev/tutorials/architecture/slides.html
     type: Slides
@@ -2880,7 +2766,6 @@ dev/architecture/slides-web-client:
 dev/architecture/slides-pluggable-components:
   title: "Galaxy Code Architecture: Pluggable Components"
   description: TODO
-  faq: https://docs.google.com/document/d/e/2PACX-1vQc9v1cfpXZFTha3EnP-9hWw_FH9T9QkGaBxnr2YJ_KEckHhNp8uiHNUR5aeM74Zgrb9mXeIZYIlMmP/pub
   materials:
   - link: topics/dev/tutorials/architecture/slides.html
     type: Slides
@@ -2905,7 +2790,6 @@ dev/architecture/slides-pluggable-components:
 dev/architecture/slides-principles:
   title: "Galaxy Code Architecture: Principles"
   description: TODO
-  faq: https://docs.google.com/document/d/e/2PACX-1vQc9v1cfpXZFTha3EnP-9hWw_FH9T9QkGaBxnr2YJ_KEckHhNp8uiHNUR5aeM74Zgrb9mXeIZYIlMmP/pub
   materials:
   - link: topics/dev/tutorials/architecture/slides.html
     type: Slides
@@ -2930,7 +2814,6 @@ dev/architecture/slides-principles:
 dev/architecture/slides-web-requests:
   title: "Galaxy Code Architecture: Web Requests"
   description: TODO
-  faq: https://docs.google.com/document/d/e/2PACX-1vQc9v1cfpXZFTha3EnP-9hWw_FH9T9QkGaBxnr2YJ_KEckHhNp8uiHNUR5aeM74Zgrb9mXeIZYIlMmP/pub
   materials:
   - link: topics/dev/tutorials/architecture/slides.html
     type: Slides
@@ -2954,7 +2837,6 @@ dev/architecture/slides-web-requests:
 dev/architecture/slides-files-directories:
   title: "Galaxy Code Architecture: Files and Directories"
   description: TODO
-  faq: https://docs.google.com/document/d/e/2PACX-1vQc9v1cfpXZFTha3EnP-9hWw_FH9T9QkGaBxnr2YJ_KEckHhNp8uiHNUR5aeM74Zgrb9mXeIZYIlMmP/pub
   materials:
   - link: topics/dev/tutorials/architecture/slides.html
     type: Slides
@@ -2979,7 +2861,6 @@ dev/architecture/slides-files-directories:
 dev/debugging/tutorial/intro:
   title: Introduction
   description: 'This is the first video in the Debugging Galaxy series.'
-  faq: https://docs.google.com/document/d/e/2PACX-1vT3bgaeSbiZ0lofmUS-KB-2-OZkdxP8_OnWl1kOex5O7HSAR_Sj8Xmzz26lrh3k5aTzhjDNzt6cVa0S/pub
   materials:
   - link: topics/dev/tutorials/debugging/tutorial.html
     type: Tutorial
@@ -2997,7 +2878,6 @@ dev/debugging/tutorial/intro:
 dev/debugging/tutorial/client-unit-test:
   title: Client Unit Tests
   description: 'What to do when your client throws a unit test failure.'
-  faq: https://docs.google.com/document/d/e/2PACX-1vT3bgaeSbiZ0lofmUS-KB-2-OZkdxP8_OnWl1kOex5O7HSAR_Sj8Xmzz26lrh3k5aTzhjDNzt6cVa0S/pub
   materials:
   - link: topics/dev/tutorials/debugging/tutorial.html
     type: Tutorial
@@ -3015,7 +2895,6 @@ dev/debugging/tutorial/client-unit-test:
 dev/debugging/tutorial/summary:
   title: Debugging Wisdom
   description: 'A summary of wisdom to debug Galaxy with.'
-  faq: https://docs.google.com/document/d/e/2PACX-1vT3bgaeSbiZ0lofmUS-KB-2-OZkdxP8_OnWl1kOex5O7HSAR_Sj8Xmzz26lrh3k5aTzhjDNzt6cVa0S/pub
   materials:
   - link: topics/dev/tutorials/debugging/tutorial.html
     type: Tutorial
@@ -3033,7 +2912,6 @@ dev/debugging/tutorial/summary:
 dev/debugging/tutorial/api-test-failure:
   title: API tests
   description: 'What to do when an API test fails.'
-  faq: https://docs.google.com/document/d/e/2PACX-1vT3bgaeSbiZ0lofmUS-KB-2-OZkdxP8_OnWl1kOex5O7HSAR_Sj8Xmzz26lrh3k5aTzhjDNzt6cVa0S/pub
   materials:
   - link: topics/dev/tutorials/debugging/tutorial.html
     type: Tutorial
@@ -3052,7 +2930,6 @@ dev/debugging/tutorial/client-linter:
   title: Client Linting
   description: 'This video covers working through the client linting error hit in
     the previous tutorial.'
-  faq: https://docs.google.com/document/d/e/2PACX-1vT3bgaeSbiZ0lofmUS-KB-2-OZkdxP8_OnWl1kOex5O7HSAR_Sj8Xmzz26lrh3k5aTzhjDNzt6cVa0S/pub
   materials:
   - link: topics/dev/tutorials/debugging/tutorial.html
     type: Tutorial
@@ -3070,7 +2947,6 @@ dev/debugging/tutorial/client-linter:
 dev/debugging/tutorial/runtime-error:
   title: Runtime Errors
   description: 'How to fix a runtime error'
-  faq: https://docs.google.com/document/d/e/2PACX-1vT3bgaeSbiZ0lofmUS-KB-2-OZkdxP8_OnWl1kOex5O7HSAR_Sj8Xmzz26lrh3k5aTzhjDNzt6cVa0S/pub
   materials:
   - link: topics/dev/tutorials/debugging/tutorial.html
     type: Tutorial
@@ -3089,7 +2965,6 @@ dev/debugging/tutorial/selenium:
   title: Selenium
   description: 'Selenium is used to test Galaxy development.  Learn more about test
     failure and how to address them.'
-  faq: https://docs.google.com/document/d/e/2PACX-1vT3bgaeSbiZ0lofmUS-KB-2-OZkdxP8_OnWl1kOex5O7HSAR_Sj8Xmzz26lrh3k5aTzhjDNzt6cVa0S/pub
   materials:
   - link: topics/dev/tutorials/debugging/tutorial.html
     type: Tutorial
@@ -3111,7 +2986,6 @@ dev/debugging/tutorial/selenium:
 dev/debugging/tutorial/unit-test-failure:
   title: Unit Testing
   description: 'What to do when a unit test fails.'
-  faq: https://docs.google.com/document/d/e/2PACX-1vT3bgaeSbiZ0lofmUS-KB-2-OZkdxP8_OnWl1kOex5O7HSAR_Sj8Xmzz26lrh3k5aTzhjDNzt6cVa0S/pub
   materials:
   - link: topics/dev/tutorials/debugging/tutorial.html
     type: Tutorial
@@ -3177,7 +3051,6 @@ dev/tool-generators/tutorial:
     Making tools from command-line scripts with the ToolFactory.
     Introductory hands-on DIY tutorial - obtaining the Appliance and
     creating "hello world" tools using the ToolFactory'
-  faq: https://docs.google.com/document/d/1e2iuYoseNkPvUBfMczEtPNsKI2Nfbyn6pN9Nz1x6E1o/pub
   materials:
   - link: topics/dev/tutorials/tool-generators/tutorial.html
     type: Tutorial
@@ -3205,7 +3078,6 @@ dev/tool-generators/tutorial:
     abstract interfaces and why they matter, this talk is for you.
 
     '
-  faq: https://docs.google.com/document/d/1e2iuYoseNkPvUBfMczEtPNsKI2Nfbyn6pN9Nz1x6E1o/pub
   materials:
   - link: topics/dev/tutorials/tool-generators/tutorial.html
     type: Tutorial
@@ -3223,7 +3095,6 @@ dev/tool-generators/tutorial:
 dev/tool-generators-advanced/tutorial:
   description: 'Hands on demonstration for the Introductory tutorial. Create, run
     and update a "Hello World" tool in Galaxy'
-  faq: https://docs.google.com/document/d/1e2iuYoseNkPvUBfMczEtPNsKI2Nfbyn6pN9Nz1x6E1o/pub
   materials:
   - link: topics/dev/tutorials/tool-generators-advanced/tutorial.html
     title: 'ToolFactory: Generating Tools From More Complex Scripts'
