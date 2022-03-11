@@ -4,7 +4,6 @@
     "course/welcome-admin": {
       "title": "Admin Training 2021: Welcome & Course Logistics",
       "description": null,
-      "faq": null,
       "tags": [
         "event"
       ],
@@ -27,7 +26,6 @@
     "course/welcome-gcc2021": {
       "title": "GCC2021 Training: Welcome & Course Logistics",
       "description": "Start here; we will go over all the important things to know to get the most out of this workshop",
-      "faq": null,
       "materials": [
         {
           "external": true,

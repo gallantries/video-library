@@ -3,7 +3,6 @@
   "videos": {
     "epigenetics/atac-seq/slides": {
       "description": "This lecture will introduce the basic concepts involved in ATAC-Seq analysis.",
-      "faq": "https://docs.google.com/document/d/e/2PACX-1vQnEmZyZF3rLhU3mA-g5L8DVaTW8GHYTikxYnuvQG7sCT66owCIc-4KLLGw9S2nIo1XPPtV9Ledtm3n/pub",
       "materials": [
         {
           "link": "topics/epigenetics/tutorials/atac-seq/slides.html",
@@ -31,7 +30,6 @@
     },
     "epigenetics/atac-seq/tutorial": {
       "description": "This tutorial will walk you through a ATAC-Seq data analysis.",
-      "faq": "https://docs.google.com/document/d/e/2PACX-1vQnEmZyZF3rLhU3mA-g5L8DVaTW8GHYTikxYnuvQG7sCT66owCIc-4KLLGw9S2nIo1XPPtV9Ledtm3n/pub",
       "materials": [
         {
           "link": "topics/epigenetics/tutorials/atac-seq/tutorial.html",

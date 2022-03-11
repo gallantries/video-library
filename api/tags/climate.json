@@ -3,7 +3,6 @@
   "videos": {
     "climate/fates/tutorial": {
       "description": "This tutorial will walk you through a Galaxy analysis step by step",
-      "faq": "https://docs.google.com/document/d/e/1PACX-1vS5ucF3H8v1V43JPtw35V-pgGfhTbrHtjjN6X0BddzWispwuRElPYw7sWN1e8R360mdHyC1NcOSqxiy/pub",
       "materials": [
         {
           "link": "topics/climate/tutorials/fates/tutorial.html",
@@ -32,7 +31,6 @@
     },
     "climate/fates/slides": {
       "description": "This lecture provides a brief overview of FATES",
-      "faq": "https://docs.google.com/document/d/e/1PACX-1vS5ucF3H8v1V43JPtw35V-pgGfhTbrHtjjN6X0BddzWispwuRElPYw7sWN1e8R360mdHyC1NcOSqxiy/pub",
       "materials": [
         {
           "link": "topics/climate/tutorials/fates/slides.html",

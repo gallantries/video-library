@@ -3,7 +3,6 @@
   "videos": {
     "sequence-analysis/human-reads-removal/tutorial": {
       "description": null,
-      "faq": null,
       "materials": [
         {
           "link": "topics/sequence-analysis/tutorials/human-reads-removal/tutorial.html",
@@ -24,7 +23,6 @@
     },
     "sequence-analysis/mapping/slides": {
       "description": "This lecture covers the basic concepts involved in mapping sequencing reads to a reference genome.",
-      "faq": "https://docs.google.com/document/d/e/2PACX-1vReZf8DGTSf6DlgBzg_g4_PhiH7glzRNTXGxK2_xM3aAFL5A3x0FdawNCrna3NkZ_vj986u7nhWh3Bb/pub",
       "materials": [
         {
           "link": "topics/sequence-analysis/tutorials/mapping/slides.html",
@@ -53,7 +51,6 @@
     },
     "sequence-analysis/mapping/tutorial": {
       "description": "In this tutorial you will map sequencing data to a reference genome, and explore the mapped reads in a genome browser.",
-      "faq": "https://docs.google.com/document/d/e/2PACX-1vReZf8DGTSf6DlgBzg_g4_PhiH7glzRNTXGxK2_xM3aAFL5A3x0FdawNCrna3NkZ_vj986u7nhWh3Bb/pub",
       "materials": [
         {
           "link": "topics/sequence-analysis/tutorials/mapping/tutorial.html",
@@ -82,7 +79,6 @@
     },
     "sequence-analysis/quality-control/slides": {
       "description": "This lecture goes over the concepts involved in assessing the quality of your sequencing data.",
-      "faq": "https://docs.google.com/document/d/e/2PACX-1vRXhvMQNVRc41Xsg7NLeCLSefaWMEhKgkENmqQqAJUfZAk782616svDQPBQhMKeOqMhiKSZDbmFqsfO/pub",
       "materials": [
         {
           "link": "topics/sequence-analysis/tutorials/quality-control/slides.html",
@@ -113,7 +109,6 @@
     },
     "sequence-analysis/quality-control/tutorial": {
       "description": "In this tutorial you will get some hand-on experience performing a quality assessment on sequencing data.",
-      "faq": "https://docs.google.com/document/d/e/2PACX-1vRXhvMQNVRc41Xsg7NLeCLSefaWMEhKgkENmqQqAJUfZAk782616svDQPBQhMKeOqMhiKSZDbmFqsfO/pub",
       "materials": [
         {
           "link": "topics/sequence-analysis/tutorials/quality-control/tutorial.html",

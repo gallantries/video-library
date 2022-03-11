@@ -4,7 +4,6 @@
     "galaxy/intro": {
       "title": "A Very Short Introduction to Galaxy",
       "description": "This video will introduce the Galaxy data analysis platform, and give a short demo on how to use it.",
-      "faq": "https://docs.google.com/document/d/e/2PACX-1vQ1SZCsxEcRXp39J2BcFAjXyC3B20sWzI7IVgBgwe2pcC9b0cza417jzBPYJVqCRNbU0dD4rv_y6u6P/pub",
       "materials": [
         {
           "link": "topics/introduction/tutorials/galaxy-intro-short/slides.html",
@@ -35,7 +34,6 @@
     "galaxy/intro2": {
       "title": "Your First Galaxy Analysis",
       "description": "In this tutorial, we will walk you through your first (toy) analysis in Galaxy. This tutorial is aimed at familiarizing you with the Galaxy platform, and some basic NGS concepts.",
-      "faq": "https://docs.google.com/document/u/2/d/1uFeeF2OwgzFFc8jbVF2elV5PQB5gbxMtE4pX2FOpXKM/pub",
       "materials": [
         {
           "external": true,

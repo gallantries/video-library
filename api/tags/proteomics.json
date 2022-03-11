@@ -4,7 +4,6 @@
     "proteomics/pandemic/external": {
       "title": "Pandemics Research using Mass Spectrometry",
       "description": "The Coronavirus Disease 2019 (COVID-19) global pandemic has had a profound, lasting impact on the world's population. Accurate and timely diagnosis of COVID-19 infection is an important step for providing care and containing its further spread. In this tutorial, attendees will be introduced to two workflows – a) database search workflow and b) peptide validation workflow. Attendees of the workshop will get an in-depth knowledge of the Galaxy workflows that detect SARS-CoV-2 peptides ([10.1186/s12014-021-09321-1)](https://doi.org/10.1186/s12014-021-09321-1)) and co-infecting pathogen peptides ([10.1021/acs.jproteome.0c00822](https://doi.org/10.1021/acs.jproteome.0c00822)).",
-      "faq": "https://docs.google.com/document/d/e/2PACX-1vRQ-GVpA-btUnHv3PBDkD2vM5OYg_iPPOFPTH7VVxz-0pLFdi8ZN82zXEBGpk1rrRuOrRKiX8sy3_Yr/pub",
       "materials": [
         {
           "external": true,
@@ -41,7 +40,6 @@
     },
     "proteomics/encyclopedia/slides": {
       "description": "This lecture will introduce EncyclopeDIA.",
-      "faq": "https://docs.google.com/document/d/e/2PACX-1vTgfPPgjsGSaYjcKaeJZPsav6Ck-EPWMDscR6KGUFX2X9gdmQcO93T7DFxgfj5hxWEfN3qnSoEpzORB/pub",
       "materials": [
         {
           "link": "topics/proteomics/tutorials/encyclopedia/tutorial.html",
@@ -70,7 +68,6 @@
     },
     "proteomics/encyclopedia/tutorial": {
       "description": "This tutorial will walk you through an analysis with EncyclopeDIA step by step.",
-      "faq": "https://docs.google.com/document/d/e/2PACX-1vTgfPPgjsGSaYjcKaeJZPsav6Ck-EPWMDscR6KGUFX2X9gdmQcO93T7DFxgfj5hxWEfN3qnSoEpzORB/pub",
       "materials": [
         {
           "link": "topics/proteomics/tutorials/encyclopedia/tutorial.html",
@@ -98,7 +95,6 @@
     },
     "proteomics/introduction/slides": {
       "description": "This lecture will provide an introduction to mass spectrometry (MS) based proteomics analysis. <strong>Slides created by Melanie Föll</strong>.",
-      "faq": "https://docs.google.com/document/d/e/2PACX-1vSYkfAT8PgEygCcqVhjzhioS23I1Tod0V2l6q60fbMkl6t21y09I62BYFrlWaSMO8p5_Y2JwilHSP5m/pub",
       "materials": [
         {
           "link": "topics/proteomics/slides/introduction.html",
@@ -127,7 +123,6 @@
     },
     "proteomics/metaproteomics/tutorial": {
       "description": "In this tutorial, the basic workflow for metaproteomics is described, which includes database search, seeking taxonomy information and functional analysis. Related metaproteomics and functional microbiome tools and GTN tutorials are also mentioned in this tutorial.",
-      "faq": "https://docs.google.com/document/d/e/2PACX-1vTX6JQG4oAKXvQSJU52thudorwANPtzIedTiTQU1NbXQYYfrNkBheN-gHu0O91bCOIk5wQBpH1mIk7v/pub",
       "materials": [
         {
           "link": "topics/proteomics/tutorials/metaproteomics/tutorial.html",
@@ -155,7 +150,6 @@
     },
     "proteomics/proteogenomics-dbcreation/tutorial": {
       "description": "In this tutorial, we will provide a walkthrough on how to generate a customized protein sequence database using RNA-Seq data.  The resultant FASTA database contains sequences with single amino acid variants (SAVs), insertions and deletions (indels)and transcript assemblies (splicing variants). This database can then be used to identify protein sequence variants from the mass spectrometry data.",
-      "faq": "https://docs.google.com/document/d/e/2PACX-1vTjQFq5wdkZeEFiQq-E8DkOTlLI9PChgWrwekHjPYBqndlb6kuAoXDiuiJaX5N09r63dWTyLPnnL8BK/pub",
       "materials": [
         {
           "link": "topics/proteomics/tutorials/proteogenomics-dbcreation/tutorial.html",
@@ -183,7 +177,6 @@
     },
     "proteomics/proteogenomics-dbsearch/tutorial": {
       "description": "In this demonstration, we're continuing the process of proteogenomic analysis. Here, we search mass spectrometry data against a custom proteogenomics FASTA database to create peptide spectral matches (PSMs) for each dataset; we also isolate non-canonical peptides from the resulting data for further analysis. <strong> If you would like to view the results yourself, we provide example histories in the FAQ document</strong>",
-      "faq": "https://docs.google.com/document/d/e/2PACX-1vTjQFq5wdkZeEFiQq-E8DkOTlLI9PChgWrwekHjPYBqndlb6kuAoXDiuiJaX5N09r63dWTyLPnnL8BK/pub",
       "materials": [
         {
           "link": "topics/proteomics/tutorials/proteogenomics-dbsearch/tutorial.html",
@@ -216,7 +209,6 @@
     },
     "proteomics/proteogenomics-novel-peptide-analysis/tutorial": {
       "description": "In this demonstration, we will investigate the peptides that were identified during proteogenomics tutorial 2. We will identify the presence of novel proteoforms that are absent in the reference database, annotate the novel peptides and visualize them using the Multi-omics Visualization Platform (MVP). <strong> If you would like to view the results yourself, we provide example histories in the FAQ document</strong>",
-      "faq": "https://docs.google.com/document/d/e/2PACX-1vTjQFq5wdkZeEFiQq-E8DkOTlLI9PChgWrwekHjPYBqndlb6kuAoXDiuiJaX5N09r63dWTyLPnnL8BK/pub",
       "materials": [
         {
           "link": "topics/proteomics/tutorials/proteogenomics-novel-peptide-analysis/tutorial.html",
@@ -244,7 +236,6 @@
     },
     "proteomics/proteome_annotation/tutorial": {
       "description": "This tutorial covers an annotation pipeline for a protein list identified by LC-MS/MS experiments.",
-      "faq": "https://docs.google.com/document/d/e/2PACX-1vT7_ulDI8Mf4BpE8JPmvXYVqk1UmMGEFJ6Cj2ZvlxwLfP8riaaVicPtGR5HeFDAEmKMjaXPcub6cL1w/pub",
       "materials": [
         {
           "link": "topics/proteomics/tutorials/proteome_annotation/tutorial.html",
@@ -273,7 +264,6 @@
     },
     "proteomics/maxquant-msstats-dda-lfq/tutorial": {
       "description": "Modern mass spectrometry-based proteomics enables the identification and quantification of thousands of proteins. Therefore, quantitative mass spectrometry represents an indispensable technology for biological and clinical research. Statistical analyses are required for the unbiased answering of scientific questions and to uncover all important information in the proteomic data. In this training we will cover the full analysis workflow from label-free, data dependent acquisition (DDA) raw data to statistical results. We’ll use two popular quantitative proteomics software: MaxQuant and MSstats.",
-      "faq": "https://docs.google.com/document/d/e/2PACX-1vS4GuHPJrRcpGmNCXBTJ9wyUp6X33Xe6Ou8N_q0Ko5AJ-_rUy7ZsAu-x6R9yf7iRZLxK-t_e-O4Xoc6/pub",
       "materials": [
         {
           "link": "topics/proteomics/tutorials/maxquant-msstats-dda-lfq/tutorial.html",

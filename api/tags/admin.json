@@ -1,10 +1,41 @@
 {
   "url": "/video-library/api/tags/admin.json",
   "videos": {
+    "admin/welcome": {
+      "title": "Admin Welcome",
+      "description": "This supplementary welcome will give you additional details that are needed for the week.\n\nPlease note that when you use the mentioned /completed command, you do not need to specify a history URL. Just `/completed` is sufficient.\n",
+      "materials": [
+
+      ],
+      "support_channel": "event-gat",
+      "tags": [
+        "admin"
+      ],
+      "type": "Lecture",
+      "versions": [
+        {
+          "captions": [
+            "Helena Rasche"
+          ],
+          "date": "2021-02-15",
+          "galaxy_version": "21.01",
+          "length": "4M",
+          "link": "JN-C5UbHthY",
+          "speakers": [
+            "hexylena",
+            "martenson",
+            "slugger70",
+            "nsoranzo",
+            "shiltemann",
+            "gmauro",
+            "cat-bro"
+          ]
+        }
+      ]
+    },
     "admin/week-overview-slides": {
       "title": "Admin Training Week Overview",
       "description": null,
-      "faq": null,
       "materials": [
         {
           "link": "topics/admin/tutorials/ansible-galaxy/slides.html",
@@ -33,7 +64,6 @@
     },
     "admin/ansible-galaxy/tutorial": {
       "description": null,
-      "faq": null,
       "materials": [
         {
           "link": "topics/admin/tutorials/ansible-galaxy/tutorial.html",
@@ -91,7 +121,6 @@
     },
     "admin/ansible/tutorial": {
       "description": null,
-      "faq": null,
       "materials": [
         {
           "link": "topics/admin/tutorials/ansible/tutorial.html",
@@ -119,7 +148,6 @@
     },
     "admin/ansible/slides": {
       "description": null,
-      "faq": null,
       "materials": [
         {
           "link": "topics/admin/tutorials/ansible/slides.html",
@@ -147,7 +175,6 @@
     },
     "admin/connect-to-compute-cluster/combined": {
       "description": null,
-      "faq": null,
       "materials": [
         {
           "link": "topics/admin/tutorials/connect-to-compute-cluster/slides.html",
@@ -180,7 +207,6 @@
     },
     "admin/cvmfs/slides": {
       "description": null,
-      "faq": null,
       "materials": [
         {
           "link": "topics/admin/tutorials/cvmfs/slides.html",
@@ -208,7 +234,6 @@
     },
     "admin/cvmfs/tutorial": {
       "description": null,
-      "faq": null,
       "materials": [
         {
           "link": "topics/admin/tutorials/cvmfs/tutorial.html",
@@ -236,7 +261,6 @@
     },
     "admin/data-library/tutorial": {
       "description": null,
-      "faq": null,
       "materials": [
         {
           "link": "topics/admin/tutorials/data-library/tutorial.html",
@@ -265,7 +289,6 @@
     },
     "admin/gxadmin/slides": {
       "description": null,
-      "faq": null,
       "materials": [
         {
           "link": "topics/admin/tutorials/gxadmin/slides.html",
@@ -297,7 +320,6 @@
     },
     "admin/pulsar/slides": {
       "description": null,
-      "faq": null,
       "materials": [
         {
           "link": "topics/admin/tutorials/heterogeneous-compute/slides.html",
@@ -325,7 +347,6 @@
     },
     "admin/pulsar/tutorial": {
       "description": null,
-      "faq": null,
       "materials": [
         {
           "link": "topics/admin/tutorials/heterogeneous-compute/tutorial.html",
@@ -366,7 +387,6 @@
     },
     "admin/interactive-tools": {
       "description": null,
-      "faq": null,
       "materials": [
         {
           "link": "topics/admin/tutorials/interactive-tools/slides.html",
@@ -399,7 +419,6 @@
     },
     "admin/job-destinations/tutorial": {
       "description": null,
-      "faq": null,
       "materials": [
         {
           "link": "topics/admin/tutorials/job-destinations/tutorial.html",
@@ -428,7 +447,6 @@
     "admin/job-metrics/tutorial": {
       "title": "Recording Job Metrics",
       "description": null,
-      "faq": null,
       "materials": [
         {
           "link": "topics/admin/tutorials/job-metrics/tutorial.html",
@@ -456,7 +474,6 @@
     },
     "admin/maintenance/slides": {
       "description": null,
-      "faq": null,
       "materials": [
         {
           "link": "topics/admin/tutorials/maintenance/slides.html",
@@ -484,7 +501,6 @@
     },
     "admin/monitoring/slides": {
       "description": null,
-      "faq": null,
       "materials": [
         {
           "link": "topics/admin/tutorials/monitoring/slides.html",
@@ -512,7 +528,6 @@
     },
     "admin/monitoring/tutorial": {
       "description": null,
-      "faq": null,
       "materials": [
         {
           "link": "topics/admin/tutorials/monitoring/tutorial.html",
@@ -541,7 +556,6 @@
     },
     "admin/object-store/exercise": {
       "description": null,
-      "faq": null,
       "materials": [
         {
           "link": "topics/admin/tutorials/object-store/tutorial.html",
@@ -569,7 +583,6 @@
     },
     "admin/singularity/tutorial": {
       "description": "Running jobs in Singularity",
-      "faq": null,
       "materials": [
         {
           "link": "topics/admin/tutorials/singularity/tutorial.html",
@@ -611,7 +624,6 @@
     },
     "admin/tiaas/tutorial": {
       "description": null,
-      "faq": null,
       "materials": [
         {
           "link": "topics/admin/tutorials/tiaas/tutorial.html",
@@ -640,7 +652,6 @@
     },
     "admin/tool-management/slides": {
       "description": null,
-      "faq": null,
       "materials": [
         {
           "link": "topics/admin/tutorials/tool-management/slides.html",
@@ -672,7 +683,6 @@
     },
     "admin/tool-management/tutorial": {
       "description": null,
-      "faq": null,
       "materials": [
         {
           "link": "topics/admin/tutorials/tool-management/slides.html",
@@ -716,7 +726,6 @@
     },
     "admin/upgrading/tutorial": {
       "description": null,
-      "faq": null,
       "materials": [
         {
           "link": "topics/admin/tutorials/upgrading/tutorial.html",
@@ -745,7 +754,6 @@
     },
     "admin/users-groups-quotas/slides": {
       "description": null,
-      "faq": null,
       "materials": [
         {
           "link": "topics/admin/tutorials/users-groups-quotas/slides.html",

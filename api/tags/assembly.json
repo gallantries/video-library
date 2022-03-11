@@ -3,7 +3,6 @@
   "videos": {
     "assembly/assembly-with-preprocessing": {
       "description": "This tutorial guides you through the preprocessing of sequencing data of bronchoalveolar lavage fluid (BALF) samples obtained from early COVID-19 patients in China. Since such samples are expected to be contaminated signficantly with human sequenced reads, the goal is to enrich the data for SARS-CoV-2 reads by identifying and discarding reads of human origin before trying to assemble the viral genome sequence.",
-      "faq": "https://docs.google.com/document/d/e/2PACX-1vRcBWHbIIo6t_vXtZiaW_6t2qIUYwjiptC2MRVUG5KC31rwPg8fO9yCma22HqIV6Hu1T3wJXaV-GwxU/pub",
       "materials": [
         {
           "link": "topics/assembly/tutorials/assembly-with-preprocessing/slides.html",
@@ -35,7 +34,6 @@
     },
     "assembly/chloroplast-assembly/tutorial": {
       "description": "In this tutorial, you will assemble a chloroplast genome using a combination of short and long read data.",
-      "faq": "https://docs.google.com/document/d/e/2PACX-1vTed-1_nZK1liUdm5IZn_Qas7LcJE700WwsMAgT282Q1jx0Nkk4lZzzN47P9aS1suUAeh0ljIUYgXpG/pub",
       "materials": [
         {
           "link": "topics/assembly/tutorials/chloroplast-assembly/tutorial.html",
@@ -64,7 +62,6 @@
     },
     "assembly/general-introduction/slides": {
       "description": "This lecture walks you through the basic concepts involved in assembling a genome from short-read sequencing data.",
-      "faq": "https://docs.google.com/document/d/e/2PACX-1vTed-1_nZK1liUdm5IZn_Qas7LcJE700WwsMAgT282Q1jx0Nkk4lZzzN47P9aS1suUAeh0ljIUYgXpG/pub",
       "materials": [
         {
           "link": "topics/assembly/tutorials/general-introduction/slides.html",

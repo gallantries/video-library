@@ -3,7 +3,6 @@
   "videos": {
     "galaxy-interface/collections/tutorial": {
       "description": null,
-      "faq": null,
       "materials": [
         {
           "link": "topics/galaxy-interface/tutorials/collections/tutorial.html",
@@ -32,7 +31,6 @@
     },
     "galaxy-interface/ncbi-sarf/slides": {
       "description": "This lecture will introduce the SRA Aligned Read format available in the cloud from SRA, as well as some accompanying metadata that can help you search and filter the data. This sessions is aimed specifically at SARS-CoV-2 runs in SRA.",
-      "faq": "https://docs.google.com/document/u/2/d/e/2PACX-1vRxJV3rSohuzd3qjTCeuue4GkuCJM1qeX29SMOo56ZQcJWc1ht1PaiNWIlgeD4npAVBXS1b_OXIyHIr/pub",
       "materials": [
         {
           "link": "topics/galaxy-interface/tutorials/ncbi-sarf/slides.html",
@@ -61,7 +59,6 @@
     },
     "galaxy-interface/ncbi-sarf/tutorial": {
       "description": "This tutorial will walk you through accessing and using SRA Aligned read format in Galaxy.",
-      "faq": "https://docs.google.com/document/u/2/d/e/2PACX-1vRxJV3rSohuzd3qjTCeuue4GkuCJM1qeX29SMOo56ZQcJWc1ht1PaiNWIlgeD4npAVBXS1b_OXIyHIr/pub",
       "materials": [
         {
           "link": "topics/galaxy-interface/tutorials/ncbi-sarf/tutorial.html",
@@ -95,7 +92,6 @@
     },
     "galaxy-interface/upload-rules": {
       "description": "Through a series of examples, this tutorial aims to familiarize the reader with building Galaxy collections from tabular data containing URLs, sample sheets, list of accessions or identifiers, etc..",
-      "faq": "https://docs.google.com/document/d/1FtLwF3FLNVavVk4fRSka8YpDMHZJiScwT4rK0Ww4Ndw/pub",
       "materials": [
         {
           "link": "topics/galaxy-interface/tutorials/upload-rules/tutorial.html",
@@ -128,7 +124,6 @@
     "galaxy-interface/upload-to-ena": {
       "title": "Uploading data to ENA",
       "description": "So you’ve used Galaxy workflows to analyze your SARS-CoV-2 samples? Learn in this tutorial how to export results to your favorite datastore.",
-      "faq": null,
       "materials": null,
       "tags": [
         "sars-cov2",
@@ -149,7 +144,6 @@
     },
     "galaxy-interface/workflow-automation": {
       "description": "This is a more technical tutorial which will teach you how to run workflows from the command line and scale your analyses. If you are on Windows, you will need WSL/WSL2 setup before this session.",
-      "faq": "https://docs.google.com/document/d/17FUV3YzInIMhDaTntZL3lb74AjhgKlPAXMOhJdX9DIE/pub",
       "materials": [
         {
           "link": "https://docs.microsoft.com/en-us/windows/wsl/install-win10",
@@ -183,7 +177,6 @@
     "data-science/rstudio-galaxy": {
       "title": "Running RStudio on Galaxy",
       "description": "This tutorial will show you how you can start Rstudio from within Galaxy. This option is only available on Galaxy EU for the time being. If you are working on a different Galaxy server, you can use <strong>Rstudio Cloud (https://rstudio.cloud/)</strong>",
-      "faq": "https://docs.google.com/document/d/e/2PACX-1vQuOJPPP2nosMG1gh1TuAFu479F4u2kGCCsICHuKvQE7lJGZCreVbXMQrhEORu3O1fV2hX_DZDE_Isk/pub",
       "materials": [
         {
           "link": "https://rstudio.cloud/",

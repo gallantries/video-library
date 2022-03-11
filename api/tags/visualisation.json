@@ -3,7 +3,6 @@
   "videos": {
     "transcriptomics/rna-seq-viz-with-volcanoplot-r/tutorial": {
       "description": "The previous tutorial introduced volcano plots and showed how they can be generated with the Galaxy Volcano plot tool. In this tutorial we show how you can customise a plot using the R script output from the tool.",
-      "faq": "https://docs.google.com/document/d/e/2PACX-1vRuH3ZhCKeLypPNA-BYueeKo2pPjluLzk9go6dLEmQjg1C_d59uzSV25TDRZo6zRWKMLtKCcsgzHyMq/pub",
       "materials": [
         {
           "link": "topics/transcriptomics/tutorials/rna-seq-viz-with-volcanoplot-r/tutorial.html",
@@ -34,7 +33,6 @@
     },
     "transcriptomics/rna-seq-viz-with-volcanoplot/tutorial": {
       "description": "This tutorial will show you how you can create volcano plots from your RNA-Seq analysis results using Galaxy tools.",
-      "faq": "https://docs.google.com/document/d/e/2PACX-1vRuH3ZhCKeLypPNA-BYueeKo2pPjluLzk9go6dLEmQjg1C_d59uzSV25TDRZo6zRWKMLtKCcsgzHyMq/pub",
       "materials": [
         {
           "link": "topics/transcriptomics/tutorials/rna-seq-viz-with-volcanoplot/tutorial.html",
@@ -64,7 +62,6 @@
     },
     "visualisation/circos/slides": {
       "description": "Circos is a popular tool for creating circular graphs to display genomic data. This video will introduce this tool and how to use it within Galaxy",
-      "faq": "https://docs.google.com/document/d/e/2PACX-1vSx65Dr5sFCvzvJoRGVMU9i4NJZTkpQktvTEER3T_Pd8PSrR_x9GsUBYBAEnS6-qStu7F-bI_nj2mgT/pub",
       "materials": [
         {
           "link": "topics/visualisation/tutorials/circos/slides.html",
@@ -93,7 +90,6 @@
     },
     "visualisation/circos/tutorial": {
       "description": "Circos is a popular tool for creating circular graphs to display genomic data. This video will introduce this tool and how to use it within Galaxy",
-      "faq": "https://docs.google.com/document/d/e/2PACX-1vSx65Dr5sFCvzvJoRGVMU9i4NJZTkpQktvTEER3T_Pd8PSrR_x9GsUBYBAEnS6-qStu7F-bI_nj2mgT/pub",
       "materials": [
         {
           "link": "topics/visualisation/tutorials/circos/slides.html",

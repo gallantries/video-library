@@ -3,7 +3,6 @@
   "videos": {
     "transcriptomics/de-novo/tutorial": {
       "description": "In this tutorial, we will use de novo transcript reconstruction to infer transcript structures from aligned reads. We will identify and quantify transcripts present in two different cell state and determine which transcripts are differentially expressed between the two states.",
-      "faq": "https://docs.google.com/document/u/2/d/e/2PACX-1vT9HPChmFeBl8cQVp4OzTwYeKvXlUq_vnzj7BfWQ3G9HmiaIiX4ezLl2ciiyyK_ODrU1hyfIFoplmpW/pub",
       "materials": [
         {
           "link": "topics/transcriptomics/tutorials/de-novo/tutorial.html",
@@ -43,7 +42,6 @@
     },
     "transcriptomics/droplet-quantification-preprocessing/tutorial": {
       "description": "This tutorial will take you from raw FASTQ files to a cell x gene data matrix in AnnData format. What’s a data matrix, and what’s AnnData format? Well you’ll find out! Importantly, this is the first step in processing single cell data in order to start analysing it.",
-      "faq": "https://docs.google.com/document/d/e/2PACX-1vT2mDOrH9L8oky-MG26vKjnRmV1zGNZd3vsOGFUjL-lhpBQi95vSYKgWYyqgTEPC4wz8LjGvTgfBi1Z/pub",
       "materials": [
         {
           "link": "topics/transcriptomics/tutorials/droplet-quantification-preprocessing/tutorial.html",
@@ -71,7 +69,6 @@
     },
     "transcriptomics/introduction/slides": {
       "description": "RNA sequencing is used to assess the expression levels of genes. This video introduces the important concepts related to RNA-seq analysis.",
-      "faq": "https://docs.google.com/document/d/e/2PACX-1vTOAKhYdmiiTucIarwlehmnPaxi0MXDmuCPdyZwB27xvBJPksDOLCOYMGdtEZAoz4WGxHGdDcBDdlM9/pub",
       "materials": [
         {
           "link": "topics/transcriptomics/slides/introduction.html",
@@ -100,7 +97,6 @@
       ]
     },
     "transcriptomics/mirna-target-finder/slides": {
-      "faq": "https://docs.google.com/document/d/1MEbBmyDaH0mt65wL3_P7YMn-PZD1mYkAAfE6gY55_Wg/edit",
       "materials": [
         {
           "link": "topics/transcriptomics/tutorials/mirna-target-finder/slides.html",
@@ -139,7 +135,6 @@
       ]
     },
     "transcriptomics/mirna-target-finder/tutorial": {
-      "faq": "https://docs.google.com/document/d/1MEbBmyDaH0mt65wL3_P7YMn-PZD1mYkAAfE6gY55_Wg/edit",
       "materials": [
         {
           "link": "topics/transcriptomics/tutorials/mirna-target-finder/tutorial.html",
@@ -167,7 +162,6 @@
     },
     "transcriptomics/ref-based/tutorial": {
       "description": "In this tutorial we will walk you through the process of an RNA-seq analysis, comparing gene expression levels between different conditions and assessing impacted gene pathways.",
-      "faq": "https://docs.google.com/document/d/e/2PACX-1vTOAKhYdmiiTucIarwlehmnPaxi0MXDmuCPdyZwB27xvBJPksDOLCOYMGdtEZAoz4WGxHGdDcBDdlM9/pub",
       "materials": [
         {
           "link": "topics/transcriptomics/tutorials/ref-based/tutorial.html",
@@ -197,7 +191,6 @@
     },
     "transcriptomics/rna-seq-counts-to-viz-in-r/tutorial": {
       "description": "In this tutorial, we will visualize our RNA-seq analysis results using R.",
-      "faq": "https://docs.google.com/document/d/e/2PACX-1vTRNzQHT9qyPr9kdWOM1l8HiD0A1xCRMW7bYnUCcLYmF5yJFytYSOVrq_JFtRvqnat-_41JBkQray2F/pub",
       "materials": [
         {
           "link": "topics/transcriptomics/tutorials/rna-seq-counts-to-viz-in-r/tutorial.html",
@@ -228,7 +221,6 @@
     },
     "transcriptomics/rna-seq-viz-with-volcanoplot-r/tutorial": {
       "description": "The previous tutorial introduced volcano plots and showed how they can be generated with the Galaxy Volcano plot tool. In this tutorial we show how you can customise a plot using the R script output from the tool.",
-      "faq": "https://docs.google.com/document/d/e/2PACX-1vRuH3ZhCKeLypPNA-BYueeKo2pPjluLzk9go6dLEmQjg1C_d59uzSV25TDRZo6zRWKMLtKCcsgzHyMq/pub",
       "materials": [
         {
           "link": "topics/transcriptomics/tutorials/rna-seq-viz-with-volcanoplot-r/tutorial.html",
@@ -259,7 +251,6 @@
     },
     "transcriptomics/rna-seq-viz-with-volcanoplot/tutorial": {
       "description": "This tutorial will show you how you can create volcano plots from your RNA-Seq analysis results using Galaxy tools.",
-      "faq": "https://docs.google.com/document/d/e/2PACX-1vRuH3ZhCKeLypPNA-BYueeKo2pPjluLzk9go6dLEmQjg1C_d59uzSV25TDRZo6zRWKMLtKCcsgzHyMq/pub",
       "materials": [
         {
           "link": "topics/transcriptomics/tutorials/rna-seq-viz-with-volcanoplot/tutorial.html",
@@ -318,7 +309,6 @@
     },
     "transcriptomics/scrna-JUPYTER-trajectories/tutorial": {
       "description": "You’ve done all the hard work of preparing a single cell matrix, processing it, plotting it, interpreting it, finding lots of lovely genes, all within the glorious Galaxy interface. Now you want to infer trajectories, or relationships between cells… and you’ve been threatened with learning Python to do so! Well, fear not. If you can have a run-through of a basic python coding introduction, then that will help you make more sense of this tutorial, however you’ll be able to make and interpret glorious plots even without understanding the Python coding language. This is the beauty of Galaxy - all the ‘set-up’ is identical across computers, because it’s browser based. So fear not!",
-      "faq": "https://docs.google.com/document/d/e/2PACX-1vQFtqSeiowtVHQHdNuJ8tjAhfSKtmfm0B_pfrbOhx0EVYxO4sbza3AKFcVEyrGtM3q5QNH82LaDKyki/pub",
       "materials": [
         {
           "link": "topics/transcriptomics/tutorials/scrna-JUPYTER-trajectories/tutorial.html",
@@ -347,7 +337,6 @@
     },
     "transcriptomics/scrna-intro/slides": {
       "description": "Single-cell RNA-seq analysis is a rapidly evolving field at the forefront of transcriptomic research, used in high-throughput developmental studies and rare transcript studies to examine cell heterogeneity within a populations of cells. The cellular resolution and genome wide scope make it possible to draw new conclusions that are not otherwise possible with bulk RNA-seq. <strong>Slides created by Mehmet Tekman</strong>.",
-      "faq": "https://docs.google.com/document/d/e/2PACX-1vSVFOV1C6hqMPGIpZ1qeOo6t-ubjaWbtsGSTMH9TwNlvfqZrP48i0_7_Xk5rxmY7g2CroOF1dNIyfMY/pub",
       "materials": [
         {
           "link": "topics/transcriptomics/tutorials/scrna-intro/slides.html",
@@ -378,7 +367,6 @@
     "transcriptomics/scrna-umis/tutorial": {
       "title": "Understanding Barcodes",
       "description": "This tutorial demonstrates the what barcodes in your sequencing data are, and how to handle them during analysis. Please work through the full tutorial yourself to get all the details.",
-      "faq": "https://docs.google.com/document/d/e/2PACX-1vRWe-8VHsJ4vbO8rwXemPDKUabWrKy1NRnxOKfIzEgj8RQ0tfG0W1kyUx30gVyWND_h4s12MtsV58Sh/pub",
       "materials": [
         {
           "type": "Tutorial",
@@ -407,7 +395,6 @@
     "transcriptomics/scrna-preprocessing-tenx/tutorial": {
       "title": "Pre-processing of 10X Single-Cell RNA Datasets",
       "description": "10x genomics has provided not only a cost-effective high-throughput solution to understanding sample heterogeneity at the individual cell level, but has defined the standards of the field that many downstream analysis packages are now scrambling to accommodate. Please work through the full tutorial yourself to get all the details.",
-      "faq": "https://docs.google.com/document/d/e/2PACX-1vTuCzmNJlZSbS9-lIdfLgt8T7IJb7jWZ3gedtjNB4aKJ7pAi3apYS4NgfaCRh0_r5QbF4Pwl15Z0-mk/pub",
       "type": "Demo",
       "materials": [
         {
@@ -437,7 +424,6 @@
     },
     "transcriptomics/scrna-scanpy-pbmc3k/tutorial": {
       "title": "Clustering 3K PBMCs with Scanpy",
-      "faq": "https://docs.google.com/document/d/e/2PACX-1vTdqGjslXMxUjyjqwkNtidsXFl6SRULFKFug_2TYBl-dYXIDEnXb59nMyZ5qJc6bXI-fP5cPLfkXbHV/pub",
       "type": "Demo",
       "description": "In this tutorial, we will investigate clustering of single-cell data from 10x Genomics, including preprocessing, clustering and the identification of cell types via known marker genes, using Scanpy. It will be illustrated using a dataset of Peripheral Blood Mononuclear Cells (PBMC), containing 2,700 single cells. Please work through the full tutorial yourself to get all the details.",
       "tags": [
@@ -466,7 +452,6 @@
     },
     "transcriptomics/scrna-plant/tutorial": {
       "description": "This tutorial replicates the paper “Spatiotemporal Developmental Trajectories in the Arabidopsis Root Revealed Using High-Throughput Single-Cell RNA Sequencing” (Denyer et al. 2019), where the major plant cell types are recovered in the data as well as distinguishing between QC and meristematic cells. The original paper used the Seurat analysis suite (Satija et al. 2015), but here we will use the ScanPy analysis suite (Wolf et al. 2018) integrated within the single-cell resources in Galaxy (Tekman et al. 2020).",
-      "faq": "https://docs.google.com/document/d/e/2PACX-1vS8qAPOQwMPlt16fFWQ-JPHNrzKT_46I1OHiFFaJ9r8oT6LZaelryrwnigWUPVPfsccQJkm3Q68TyHr/pub",
       "materials": [
         {
           "link": "topics/transcriptomics/tutorials/scrna-plant/tutorial.html",
@@ -495,7 +480,6 @@
     },
     "transcriptomics/scrna-seq-basic-pipeline/tutorial": {
       "description": "You’ve done all the work to make a single cell matrix, with gene counts and mitochondrial counts and buckets of cell metadata from all your variables of interest, now it’s time to fully process our data, to remove low quality cells, to reduce the many dimensions of data that make it difficult to work with, and ultimately to try to define our clusters and to find our biological meaning and insights!",
-      "faq": "https://docs.google.com/document/d/e/2PACX-1vTIorwkiFua1sXaJwKOsXPTugOZz_BzcfNnFgbsd2a6AjDuHbrj-KD023J25OHp9F_Dmql0luIMCN3N/pub",
       "materials": [
         {
           "link": "topics/transcriptomics/tutorials/scrna-seq-basic-pipeline/tutorial.html",

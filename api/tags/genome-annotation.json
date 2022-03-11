@@ -3,7 +3,6 @@
   "videos": {
     "genome-annotation/annotation-with-prokka/slides": {
       "description": "Genome annotation is a multi-level process that includes prediction of protein-coding genes, as well as other functional genome units such as structural RNAs, tRNAs, small RNAs, pseudogenes, control regions, direct and inverted repeats, insertion sequences, transposons and other mobile elements.",
-      "faq": "https://docs.google.com/document/d/e/2PACX-1vSK-RjeRJC38_FSM9zC6SrfkvIz1W4uEMQkN95qk5OemvANuPF3aNEogVEvF6JEXeMomo-oMwi32Gv2/pub",
       "materials": [
         {
           "link": "topics/genome-annotation/tutorials/annotation-with-prokka/slides.html",
@@ -31,7 +30,6 @@
     },
     "genome-annotation/annotation-with-prokka/tutorial": {
       "description": "In this tutorial we will use Prokka to annotate a draft genome sequence. Prokka finds and annotates features (both protein coding regions and RNA genes, i.e. tRNA, rRNA) present on on a sequence. Prokka can be used to annotate bacterial, archaeal and viral genomes quickly, generating standard output files in GenBank, EMBL and gff formats.\"",
-      "faq": "https://docs.google.com/document/d/e/2PACX-1vSK-RjeRJC38_FSM9zC6SrfkvIz1W4uEMQkN95qk5OemvANuPF3aNEogVEvF6JEXeMomo-oMwi32Gv2/pub",
       "materials": [
         {
           "link": "topics/genome-annotation/tutorials/annotation-with-prokka/tutorial.html",
@@ -59,7 +57,6 @@
     },
     "genome-annotation/apollo/slides": {
       "description": "This lecture gives a quick overview of Apollo",
-      "faq": "https://docs.google.com/document/d/e/2PACX-1vTm-7zB2tkAHKai6N0fSLqxuzFz1OPE3mow2jIMaEorgww3Z84jTwwXKt5qCAcNLrFqpb-Lh6wob_QB/pub",
       "materials": [
         {
           "link": "topics/genome-annotation/tutorials/apollo/slides.html",
@@ -87,7 +84,6 @@
     },
     "genome-annotation/apollo/tutorial": {
       "description": "In this tutorial you will get some hands-on experience using Apollo in Galaxy",
-      "faq": "https://docs.google.com/document/d/e/2PACX-1vTm-7zB2tkAHKai6N0fSLqxuzFz1OPE3mow2jIMaEorgww3Z84jTwwXKt5qCAcNLrFqpb-Lh6wob_QB/pub",
       "materials": [
         {
           "link": "topics/genome-annotation/tutorials/apollo/tutorial.html",

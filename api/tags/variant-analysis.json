@@ -3,7 +3,6 @@
   "videos": {
     "variant-analysis/tb-variant-analysis/slides": {
       "description": "Tuberculosis (TB) is an infectious disease caused by the bacterium Mycobacterium tuberculosis. According to the WHO, in 2018 there were 10.0 million new cases of TB worldwide and 1.4 million deaths due to the disease, making TB the world’s most deadly infectious disease.",
-      "faq": "https://docs.google.com/document/d/e/2PACX-1vTr2X-W-2-gronZbeEqj8OGTLyLqaUW2_7mCsHHgVMAVsOQt2faSNk5IaizQlYE_0vWU26v79Oqhyy3/pub",
       "materials": [
         {
           "external": true,
@@ -32,7 +31,6 @@
     },
     "variant-analysis/tb-variant-analysis/tutorial": {
       "description": "Variation in the genome of M. tuberculosis (Mtb) is associated with changes in phenotype, for example drug resistance and virulence. It is also useful for outbreak investigation as the single nucleotide polymorphisms (SNPs) in a sample can be used to build a phylogeny.",
-      "faq": "https://docs.google.com/document/d/e/2PACX-1vTr2X-W-2-gronZbeEqj8OGTLyLqaUW2_7mCsHHgVMAVsOQt2faSNk5IaizQlYE_0vWU26v79Oqhyy3/pub",
       "materials": [
         {
           "link": "topics/variant-analysis/tutorials/tb-variant-analysis/tutorial.html",

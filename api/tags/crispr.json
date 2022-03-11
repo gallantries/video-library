@@ -3,7 +3,6 @@
   "videos": {
     "genome-annotation/crispr-screen/slides": {
       "description": "This lecture will introduce the basic concepts involved in CRISPR screen analysis.",
-      "faq": "https://training.galaxyproject.org/training-material/topics/genome-annotation/tutorials/crispr-screen/faqs/",
       "materials": [
         {
           "link": "topics/genome-annotation/tutorials/crispr-screen/slides.html",
@@ -31,7 +30,6 @@
     },
     "genome-annotation/crispr-screen/tutorial": {
       "description": "This tutorial will walk you through a CRISPR screen analysis.",
-      "faq": "https://training.galaxyproject.org/training-material/topics/genome-annotation/tutorials/crispr-screen/faqs/",
       "materials": [
         {
           "link": "topics/genome-annotation/tutorials/crispr-screen/tutorial.html",

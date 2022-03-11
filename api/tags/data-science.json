@@ -3,7 +3,6 @@
   "videos": {
     "data-science/r-advanced/tutorial": {
       "description": "An advanced tutorial covering downstream analysis of RNA-seq data using R.",
-      "faq": "https://docs.google.com/document/d/e/2PACX-1vQuOJPPP2nosMG1gh1TuAFu479F4u2kGCCsICHuKvQE7lJGZCreVbXMQrhEORu3O1fV2hX_DZDE_Isk/pub",
       "materials": [
         {
           "link": "topics/introduction/tutorials/r-advanced/tutorial.html",
@@ -33,7 +32,6 @@
     },
     "data-science/r-basics/tutorial": {
       "description": "This tutorial will provide an introduction to using R with Rstudio in Galaxy.",
-      "faq": "https://docs.google.com/document/d/e/2PACX-1vQuOJPPP2nosMG1gh1TuAFu479F4u2kGCCsICHuKvQE7lJGZCreVbXMQrhEORu3O1fV2hX_DZDE_Isk/pub",
       "materials": [
         {
           "link": "topics/introduction/tutorials/r-basics/tutorial.html",

@@ -3,7 +3,6 @@
   "videos": {
     "contributing/gitpod/tutorial": {
       "description": "This tutorial will show you how you can preview your contributions to the GTN online using GitPod.",
-      "faq": "https://docs.google.com/document/d/1-B5DvLcaylpJKfW-1F6tRhbCbpLlRbu2c3kTMuBFNk4/pub",
       "materials": [
         {
           "link": "topics/contributing/tutorials/gitpod/tutorial.html",
@@ -32,7 +31,6 @@
     },
     "contributing/create-new-tutorial-slides/slides": {
       "description": "This lecture goes through the process of how to create a slide deck, common things you should bear in mind while you're writing them, and how to enable the amazing slides-to-video features for your slide decks! This video itself was produced automatically from the GTN's slide decks, anyone making edits to these slides will cause them to be rebuilt, making organising videos for events easier than ever.\n",
-      "faq": "https://docs.google.com/document/d/1-B5DvLcaylpJKfW-1F6tRhbCbpLlRbu2c3kTMuBFNk4/pub",
       "materials": [
         {
           "link": "topics/contributing/tutorials/create-new-tutorial-slides/slides.html",
@@ -61,7 +59,6 @@
     },
     "contributing/create-new-tutorial/tutorial": {
       "description": "This tutorial will go through all of the steps of creating a simple tutorial and contributing it to the GTN.",
-      "faq": "https://docs.google.com/document/d/1-B5DvLcaylpJKfW-1F6tRhbCbpLlRbu2c3kTMuBFNk4/pub",
       "materials": [
         {
           "link": "topics/contributing/tutorials/create-new-tutorial/tutorial.html",
