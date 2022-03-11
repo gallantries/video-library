@@ -717,6 +717,27 @@ genome-annotation/repeatmasker/tutorial:
     speakers:
     - abretaud
 
+genome-annotation/funannotate/tutorial:
+  description: |
+    Genome annotation of eukaryotes is a little more complicated than for prokaryotes: eukaryotic genomes are usually larger than prokaryotes, with more genes. The sequences determining the beginning and the end of a gene are generally less conserved than the prokaryotic ones. Many genes also contain introns, and the limits of these introns (acceptor and donor sites) are not highly conserved.
+
+    In this tutorial we will use a software tool called Funannotate (Palmer and Stajich 2020) to annotate the genome sequence of a small eukaryote: Mucor mucedo (a fungal plant pathogen).
+  materials:
+  - link: topics/genome-annotation/tutorials/funannotate/tutorial.html
+    type: Tutorial
+  tags:
+  - genome-annotation
+  type: Tutorial
+  versions:
+  - captions:
+    - abretaud
+    date: '2022-03-03'
+    galaxy_version: '21.09'
+    length: 1H10M
+    link: r-wU6BhqIpk
+    speakers:
+    - abretaud
+
 introduction/galaxy-intro-101/tutorial:
   description: This tutorial will introduce you to Galaxy. You will familiarize yourself
     with tools, workflows and histories. Those skills will be needed the next days
