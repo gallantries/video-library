@@ -1301,6 +1301,20 @@
       ],
       "date": "2021-06-28",
       "galaxy_version": "21.05",
+      "length": "2H50M",
+      "link": "LPK8rP_qUiA",
+      "speakers": [
+        "natefoo",
+        "hexylena"
+      ]
+    },
+    {
+      "captions": [
+        "natefoo",
+        "hexylena"
+      ],
+      "date": "2021-06-28",
+      "galaxy_version": "21.05",
       "length": "2H47M",
       "link": "zT70luZqPOU",
       "speakers": [
@@ -1322,6 +1336,20 @@
     }
   ],
   "topics/admin/tutorials/database/slides.html": [
+    {
+      "captions": [
+        "natefoo",
+        "hexylena"
+      ],
+      "date": "2021-06-28",
+      "galaxy_version": "21.05",
+      "length": "2H50M",
+      "link": "LPK8rP_qUiA",
+      "speakers": [
+        "natefoo",
+        "hexylena"
+      ]
+    },
     {
       "captions": [
         "natefoo",
@@ -1357,6 +1385,20 @@
       ],
       "date": "2021-06-28",
       "galaxy_version": "21.05",
+      "length": "2H50M",
+      "link": "LPK8rP_qUiA",
+      "speakers": [
+        "natefoo",
+        "hexylena"
+      ]
+    },
+    {
+      "captions": [
+        "natefoo",
+        "hexylena"
+      ],
+      "date": "2021-06-28",
+      "galaxy_version": "21.05",
       "length": "2H47M",
       "link": "zT70luZqPOU",
       "speakers": [
@@ -1378,6 +1420,20 @@
     }
   ],
   "topics/admin/tutorials/production/slides.html": [
+    {
+      "captions": [
+        "natefoo",
+        "hexylena"
+      ],
+      "date": "2021-06-28",
+      "galaxy_version": "21.05",
+      "length": "2H50M",
+      "link": "LPK8rP_qUiA",
+      "speakers": [
+        "natefoo",
+        "hexylena"
+      ]
+    },
     {
       "captions": [
         "natefoo",
@@ -1614,6 +1670,20 @@
       "galaxy_version": "21.01",
       "length": "31M",
       "link": "qX8GjTJwnAk",
+      "speakers": [
+        "hexylena"
+      ]
+    }
+  ],
+  "topics/admin/tutorials/tus/tutorial.html": [
+    {
+      "captions": [
+        "hexylena"
+      ],
+      "date": "2022-03-11",
+      "galaxy_version": "22.01",
+      "length": "7M",
+      "link": "v5sbIqF_0qo",
       "speakers": [
         "hexylena"
       ]
