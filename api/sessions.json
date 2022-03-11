@@ -89,6 +89,14 @@
       "genome-annotation/apollo/tutorial"
     ]
   },
+  "genome-annotation/crispr-screen": {
+    "title": "CRISPR Screen Analysis",
+    "description": "This lecture will introduce the basic concepts involved in CRISPR screen analysis.",
+    "videos": [
+      "genome-annotation/crispr-screen/slides",
+      "genome-annotation/crispr-screen/tutorial"
+    ]
+  },
   "proteomics/encyclopedia": {
     "title": "EncyclopeDIA",
     "description": "Data independent acquisition (DIA) mass spectrometry is a powerful technique that is improving the\nreproducibility and throughput of proteomics studies. EncyclopeDIA is library search engine comprised of\nseveral algorithms for DIA data analysis and can search for peptides using either DDA-based spectrum libraries\nor DIA-based chromatogram libraries.\n",

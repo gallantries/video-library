@@ -340,6 +340,34 @@
       ]
     }
   ],
+  "topics/genome-annotation/tutorials/crispr-screen/slides.html": [
+    {
+      "captions": [
+        "mblue9"
+      ],
+      "date": "2022-03-10",
+      "galaxy_version": "21.09",
+      "length": "3M",
+      "link": "MNT9gB5_RMg",
+      "speakers": [
+        "awspolly"
+      ]
+    }
+  ],
+  "topics/genome-annotation/tutorials/crispr-screen/tutorial.html": [
+    {
+      "captions": [
+        "mblue9"
+      ],
+      "date": "2022-03-10",
+      "galaxy_version": "21.09",
+      "length": "45M",
+      "link": "wavAf_2ytWg",
+      "speakers": [
+        "mblue9"
+      ]
+    }
+  ],
   "topics/introduction/tutorials/galaxy-intro-101-everyone/tutorial.html": [
     {
       "captions": [
