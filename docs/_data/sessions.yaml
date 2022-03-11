@@ -91,6 +91,13 @@ genome-annotation/apollo:
     - genome-annotation/apollo/slides
     - genome-annotation/apollo/tutorial
 
+genome-annotation/crispr-screen:
+  title: CRISPR Screen Analysis
+  description: This lecture will introduce the basic concepts involved in CRISPR screen analysis.
+  videos:
+    - genome-annotation/crispr-screen/slides
+    - genome-annotation/crispr-screen/tutorial
+
 proteomics/encyclopedia:
   title: EncyclopeDIA
   description: |
