@@ -2934,6 +2934,33 @@
       }
     ]
   },
+  "course/welcome-smorg2022": {
+    "title": "Start Here! Welcome & Course Logistics",
+    "descripton": "Start here! We will go over all the important things you need to know about this week!",
+    "materials": [
+      {
+        "external": true,
+        "link": "https://docs.google.com/presentation/d/e/2PACX-1vQakH_LxLGS5PurJSrmPQH7VY8_UOKpAbUtwsUjpid42QQW5Ds2sH8uD2QQc8rfjH1D0OWpTeSBb8OT/pub?start=false&loop=false&delayms=3000",
+        "type": "Slides"
+      }
+    ],
+    "type": "Welcome",
+    "support_channel": "general",
+    "versions": [
+      {
+        "link": "dU8Cc8z64l0",
+        "date": "2022-03-10",
+        "length": "15M",
+        "captions": [
+          "shiltemann"
+        ],
+        "speakers": [
+          "shiltemann",
+          "hexylena"
+        ]
+      }
+    ]
+  },
   "course/welcome-gcc2021": {
     "title": "GCC2021 Training: Welcome & Course Logistics",
     "description": "Start here; we will go over all the important things to know to get the most out of this workshop",
