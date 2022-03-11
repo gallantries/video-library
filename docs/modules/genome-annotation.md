@@ -12,6 +12,7 @@ program:
       - session: genome-annotation/annotation-with-prokka
       - session: genome-annotation/apollo
       - video: genome-annotation/repeatmasker/tutorial
+      - video: genome-annotation/funannotate/tutorial
   viz:
     title: Visualisation
     trainings:
