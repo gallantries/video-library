@@ -26,6 +26,8 @@ program:
     title: Welcome & Setup (Start Here!)
     description: Practical information about this course and getting everything set up to follow this course.
     trainings:
+      - video: course/welcome-smorg2022
+      - video: admin/welcome
       - setup-gat
       - code-of-conduct
       - certificates

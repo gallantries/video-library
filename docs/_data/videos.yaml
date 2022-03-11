@@ -2124,6 +2124,32 @@ course/welcome-gcc2021:
     - hexylena
     - shiltemann
 
+admin/welcome:
+  title: Admin Welcome
+  description: |
+      This supplementary welcome will give you additional details that are needed for the week.
+
+      Please note that when you use the mentioned /completed command, you do not need to specify a history URL. Just `/completed` is sufficient.
+  materials: []
+  support_channel: 'event-gat'
+  tags: [admin]
+  type: Lecture
+  versions:
+  - captions:
+    - Helena Rasche
+    date: '2021-02-15'
+    galaxy_version: '21.01'
+    length: 4M
+    link: JN-C5UbHthY
+    speakers:
+    - hexylena
+    - martenson
+    - slugger70
+    - nsoranzo
+    - shiltemann
+    - gmauro
+    - cat-bro
+
 admin/week-overview-slides:
   title: Admin Training Week Overview
   description: null
