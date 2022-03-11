@@ -481,6 +481,20 @@
       ]
     }
   ],
+  "topics/genome-annotation/tutorials/funannotate/tutorial.html": [
+    {
+      "captions": [
+        "abretaud"
+      ],
+      "date": "2022-03-03",
+      "galaxy_version": "21.09",
+      "length": "1H10M",
+      "link": "r-wU6BhqIpk",
+      "speakers": [
+        "abretaud"
+      ]
+    }
+  ],
   "topics/introduction/tutorials/galaxy-intro-101/tutorial.html": [
     {
       "captions": [
