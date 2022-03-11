@@ -34,7 +34,7 @@ program:
           length: 13m
           author: Carla Cummins
       - video: sars-cov2/upload-ena
-      - video: galaxy-interface/upload-to-ena # Captions
+      - video: galaxy-interface/upload-to-ena
       - video: sars-cov2/viral-beacon/slides
       - video: sars-cov2/observablehq
 
