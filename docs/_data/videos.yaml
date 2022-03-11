@@ -1381,7 +1381,6 @@ statistics/CNN:
   - link: topics/statistics/tutorials/CNN/tutorial.html
     title: Convolutional Neural Networks
     type: Tutorial
-  support_channel: 'machine_learning_deep-neural-networks-demystified'
   tags:
   - statistics
   type: Tutorial
@@ -1405,7 +1404,6 @@ statistics/FNN:
   - link: topics/statistics/tutorials/FNN/tutorial.html
     title: Feedforward Neural Networks
     type: Tutorial
-  support_channel: 'machine_learning_deep-neural-networks-demystified'
   tags:
   - statistics
   type: Tutorial
@@ -1429,7 +1427,6 @@ statistics/RNN:
   - link: topics/statistics/tutorials/RNN/tutorial.html
     title: Recurrent Neural Networks
     type: Tutorial
-  support_channel: 'machine_learning_deep-neural-networks-demystified'
   tags:
   - statistics
   type: Tutorial
@@ -1487,7 +1484,6 @@ statistics/classification_machinelearning/tutorial:
     link: https://docs.google.com/presentation/d/1lAYCZ-g6y8cC1aH68FWL6gkRRI2srXSHuJwaaYAQZaU/edit?usp=sharing
     title: Classification in Machine Learning
     type: Slides
-  support_channel: 'machine_learning_classification'
   tags:
   - statistics
   type: Tutorial
