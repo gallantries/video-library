@@ -74,7 +74,7 @@
 
                         {% assign prefix = m.link | split:'/' | first %}
                         {% if prefix == "topics" %}
-                        {{ m.type }}:
+                        {{ m.title | default:m.type }}:
                         <a href="{{site.gtn}}/archive/{{archiveyear}}-{{archivemonth}}-01/{{m.link}}">Archived Version</a>
                         |
                         <a href="{{site.gtn}}/{{m.link}}">Latest Version</a>
@@ -84,7 +84,7 @@
                         <a href="{{site.gtn}}/{{faqpage}}">FAQs</a>
                         {% endif %}
                         {% else %}
-                        <a href="{% unless m.link contains 'http' %}{{site.gtn}}/{% endunless %}{{m.link}}">{{m.type}}</a>
+                        <a href="{% unless m.link contains 'http' %}{{site.gtn}}/{% endunless %}{{m.link}}">{{m.title | default:m.type}}</a>
                         {% endif %}
                     </li>
                 {% endfor %}
