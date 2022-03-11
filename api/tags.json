@@ -2072,7 +2072,6 @@
             "type": "Tutorial"
           }
         ],
-        "support_channel": "machine_learning_deep-neural-networks-demystified",
         "tags": [
           "statistics"
         ],
@@ -2108,7 +2107,6 @@
             "type": "Tutorial"
           }
         ],
-        "support_channel": "machine_learning_deep-neural-networks-demystified",
         "tags": [
           "statistics"
         ],
@@ -2144,7 +2142,6 @@
             "type": "Tutorial"
           }
         ],
-        "support_channel": "machine_learning_deep-neural-networks-demystified",
         "tags": [
           "statistics"
         ],
@@ -2198,6 +2195,7 @@
       "statistics/classification_machinelearning/tutorial": {
         "description": "The talk includes a lecture followed by a hands-on session to apply multiple classification algorithms on the Quantitative structure-activity relationship (QSAR) dataset to predict the biodegradable activity of chemical compounds. QSAR models attempt to predict the activity or property of chemicals based on their chemical structure. To achieve this, a database of compounds is collected for which the property of interest is known. For each compound, molecular descriptors are collected which describe the structure (for example - molecular weight, number of nitrogen atoms, number of carbon-carbon double bonds). Using these descriptors, a model is constructed which is capable of predicting the property of interest for a new, unknown molecule. In this tutorial, we will use a database assembled from experimental data of the Japanese Ministry of International Trade and Industry to create a classification model by applying simple and complex classifiers to learn the nature of biodegradation. We will use this model to classify new molecules into one of two classes - biodegradable or non-biodegradable. Different visualisations are used to analyze the results after applying each classification algorithm. Hyperparameters of one of the classifiers are also optimised.",
         "faq": "https://docs.google.com/document/d/e/2PACX-1vQS2fppEH7Kf6QCNOUozRu4reYkiASYk4ig6qUfqW3eewqdZ0fKEWLz9rT2iBxohXYYaiDOsto8Aa8V/pub",
+        "support_channel": "machine_learning_classification",
         "materials": [
           {
             "link": "topics/statistics/tutorials/classification_machinelearning/tutorial.html",
@@ -2210,7 +2208,6 @@
             "type": "Slides"
           }
         ],
-        "support_channel": "machine_learning_classification",
         "tags": [
           "statistics"
         ],
