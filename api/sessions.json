@@ -177,18 +177,6 @@
       "dev/debugging/tutorial/summary"
     ]
   },
-  "dev/tool-from-scratch/tutorial": {
-    "title": "Galaxy Tool Development: From Conda to Deployment",
-    "description": "This series of tutorials will walk you through the process of developing tools in Galaxy.",
-    "videos": [
-      "dev/tool-from-scratch/tutorial/conda",
-      "dev/tool-from-scratch/tutorial/planemo-init",
-      "dev/tool-from-scratch/tutorial/tool-wrapper",
-      "dev/tool-from-scratch/tutorial/shed-yml",
-      "dev/tool-from-scratch/tutorial/testing",
-      "dev/tool-from-scratch/tutorial/publish"
-    ]
-  },
   "galaxy/r": {
     "title": "Using R in Galaxy",
     "description": "Want a bit more control over your Analyses? You can run R in Rstudio directly within Galaxy",
