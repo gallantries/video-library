@@ -17,11 +17,11 @@
 
      {% if session.session %}
        {% assign s = site.data.sessions[session.session]  %}
-       {% include session.html session=s type='session' id=session.session instructors=instructors module=module_id %}
+       {% include session.html session=s type='session' id=session.session module=module_id %}
 
      {% elsif session.video %}
        {% assign s = site.data.videos[session.video] %}
-       {% include session.html session=s type='video' id=session.video instructors=instructors module=module_id %}
+       {% include session.html session=s type='video' id=session.video module=module_id %}
 
      {% elsif session.self-study %}
        {% assign title = site.data.gtn[session.self-study]%}
