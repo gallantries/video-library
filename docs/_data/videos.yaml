@@ -3129,123 +3129,52 @@ dev/debugging/tutorial/unit-test-failure:
     link: BiANBC78EXM
     speakers: [assuntad23, ic4f]
 
-dev/tool-from-scratch/tutorial/conda:
-  title: Conda
-  description: The first step to adding a tool to Galaxy, is to add it to (Bio)Conda.
-    This tutorial will show you how to do that.
-  faq: https://docs.google.com/document/d/1moSs0APNyhm4yZ9vPfpH0ErPONncNU-UCRzGvypc84I/pub
+
+
+
+dev/tool-from-scratch/tutorial:
+  title: Tools from Scratch
+  description:
+    1. The first step to adding a tool to Galaxy, is to add it to (Bio)Conda.
+       This tutorial will show you how to do that.
+    2. Planemo is the Galaxy tool development kit, and will make your tool
+       development process a lot easier! This tutorial will show you how to use
+       Planemo to start the tool wrapping process, and covers the general
+       structure of a Galaxy tool wrapper.
+    3. You are now ready to start writing your tool wrapper! This video will
+       show you how.
+    4. Each tool wrapper also needs a .shed.yml file, which contains some
+       metadata about the tool.
+    5. Here you will learn how to test Galaxy tools using Planemo.
+    6. Here you will learn how to publish tools in public tool repositories.
   materials:
   - link: topics/dev/tutorials/tool-from-scratch/tutorial.html
     type: Tutorial
   tags: [dev]
   type: null
   versions:
+  - captions:
+    - gallardoalba
+    date: '2022-03-11'
+    galaxy_version: '22.01'
+    length: 40M
+    link: 33L4B9ir0aQ
+    speakers:
+    - gallardoalba
   - captions:
     - davebx
+    - astrovsky01
+    - bernt-matthias
     date: '2021-02-15'
     galaxy_version: '21.01'
-    length: 8M
-    link: UtNErGKw8SI
+    length: 1H40M
+    link: videoseries?list=PLNFLKDpdM3B9GhA0FryVV2YX3YL35rENK
     speakers:
     - davebx
-dev/tool-from-scratch/tutorial/publish:
-  title: Publishing Tools
-  description: Here you will learn how to publish tools in public tool repositories.
-  faq: https://docs.google.com/document/d/1moSs0APNyhm4yZ9vPfpH0ErPONncNU-UCRzGvypc84I/pub
-  materials:
-  - link: topics/dev/tutorials/tool-from-scratch/tutorial.html
-    type: Tutorial
-  tags: [dev]
-  type: null
-  versions:
-  - captions:
-    - bernt-matthias
-    date: '2021-02-15'
-    galaxy_version: '21.01'
-    length: 30M
-    link: hg0YreA8W1I
-    speakers:
+    - astrovsky01
     - bernt-matthias
 
-dev/tool-from-scratch/tutorial/testing:
-  title: Tool Testing
-  description: Here you will learn how to test Galaxy tools using Planemo.
-  faq: https://docs.google.com/document/d/1moSs0APNyhm4yZ9vPfpH0ErPONncNU-UCRzGvypc84I/pub
-  materials:
-  - link: topics/dev/tutorials/tool-from-scratch/tutorial.html
-    type: Tutorial
-  tags: [dev]
-  type: null
-  versions:
-  - captions:
-    - bernt-matthias
-    date: '2021-02-15'
-    galaxy_version: '21.01'
-    length: 41M
-    link: 19mKUENz_i0
-    speakers:
-    - bernt-matthias
 
-dev/tool-from-scratch/tutorial/tool-wrapper:
-  title: Tool Wrappers
-  description: You are now ready to start writing your tool wrapper! This video will
-    show you how.
-  faq: https://docs.google.com/document/d/1moSs0APNyhm4yZ9vPfpH0ErPONncNU-UCRzGvypc84I/pub
-  materials:
-  - link: topics/dev/tutorials/tool-from-scratch/tutorial.html
-    type: Tutorial
-  tags: [dev]
-  type: null
-  versions:
-  - captions:
-    - astrovsky01
-    date: '2021-02-15'
-    galaxy_version: '21.01'
-    length: 17M
-    link: FdtD8vBLK5k
-    speakers:
-    - astrovsky01
-
-dev/tool-from-scratch/tutorial/planemo-init:
-  title: Planemo Init
-  description: Planemo is the Galaxy tool development kit, and will make your tool
-    development process a lot easier! This tutorial will show you how to use Planemo
-    to start the tool wrapping process, and covers the general structure of a Galaxy
-    tool wrapper.
-  faq: https://docs.google.com/document/d/1moSs0APNyhm4yZ9vPfpH0ErPONncNU-UCRzGvypc84I/pub
-  materials:
-  - link: topics/dev/tutorials/tool-from-scratch/tutorial.html
-    type: Tutorial
-  tags: [dev]
-  type: null
-  versions:
-  - captions:
-    - astrovsky01
-    date: '2021-02-15'
-    galaxy_version: '21.01'
-    length: 2M
-    link: a6XZgEy6hlg
-    speakers:
-    - astrovsky01
-dev/tool-from-scratch/tutorial/shed-yml:
-  title: Shed.yml
-  description: Each tool wrapper also needs a .shed.yml file, which contains some
-    metadata about the tool.
-  faq: https://docs.google.com/document/d/1moSs0APNyhm4yZ9vPfpH0ErPONncNU-UCRzGvypc84I/pub
-  materials:
-  - link: topics/dev/tutorials/tool-from-scratch/tutorial.html
-    type: Tutorial
-  tags: [dev]
-  type: null
-  versions:
-  - captions:
-    - astrovsky01
-    date: '2021-02-15'
-    galaxy_version: '21.01'
-    length: 1M
-    link: WFSQE8bq5qI
-    speakers:
-    - astrovsky01
 dev/tool-generators/tutorial:
   description: |
     Making tools from command-line scripts with the ToolFactory.
