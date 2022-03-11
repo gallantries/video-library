@@ -1,0 +1,1122 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  
+  <title>Galaxy Development</title>
+  
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <head profile="http://www.w3.org/2005/10/profile">
+  <link href="/video-library/assets/bootstrap-5.0.0-beta1.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+  <link rel="icon" type="image/png" href="/video-library/assets/images/favicon.png" />
+  <script src="/video-library/assets/js/bootstrap-5.0.0-beta1.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+  <script async defer data-domain="gallantries.github.io" src="https://plausible.galaxyproject.eu/js/plausible.js"></script>
+  <script src="/video-library/assets/js/lazysizes-5.2.2.min.js" async></script>
+  <!--
+	  we've replaced with the individual icons because we don't need that many icons.
+  <script src="https://kit.fontawesome.com/67b3f98409.js" crossorigin="anonymous"></script>
+  -->
+  <link rel="stylesheet" href="/video-library/assets/main.css">
+
+  <!-- updates for previews on social media etc -->
+  <meta name="description" content="The Galaxy for Developers module will teach you how Galaxy works internally
+(frontend and backend), how to add new features for Galaxy, how to build the
+best tools and visualisations, and more!
+" />
+  <meta property="og:title" content="Galaxy Development" />
+  <meta property="og:description" content="The Galaxy for Developers module will teach you how Galaxy works internally
+(frontend and backend), how to add new features for Galaxy, how to build the
+best tools and visualisations, and more!
+" />
+  <meta property="og:image" content="/video-library/assets/images/video_cover.png" />
+
+</head>
+<body>
+	<a class="visually-hidden visually-hidden-focusable" href="#content">Skip to main content</a><nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <div class="container-fluid" style="width: calc(1000px - (30px * 2)); padding-left:30px">
+    <a class="navbar-brand"
+        
+             href="/video-library/">GTN Video Library
+        
+    </a>
+
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <!--
+        <li class="nav-item">
+			<a class="nav-link" href="/video-library/">Home</a>
+        </li>
+        -->
+        <li class="nav-item">
+			<a class="nav-link" href="/video-library/events">Events</a>
+        </li>
+         <li class="nav-item">
+			<a class="nav-link" href="/video-library/modules">Training Modules</a>
+        </li>
+        <li class="nav-item">
+			<a class="nav-link" href="/video-library/library">Videos</a>
+        </li>
+        <!--
+        <li class="nav-item">
+			<a class="nav-link" href="/video-library/session-library">Sessions</a>
+        </li>
+        -->
+        <li class="nav-item">
+			<a class="nav-link" href="/video-library/course-builder">Course Builder</a>
+        </li>
+        <li class="nav-item">
+			<a class="nav-link" href="/video-library/instructors">Instructor Guide</a>
+        </li>
+
+        <li class="nav-item">
+			<a class="nav-link" href="https://github.com/gallantries/video-library" title="Github Repository"><img style="height: 1em" src="/video-library/assets/fa/github.svg" alt="assets/fa/github.svg" aria-hidden="true"/></a>
+        </li>
+
+	    <!-- Want to add more pages to the top menu bar? add them here.
+        <li class="nav-item">
+           <a class="nav-link " href="for-instructors.html">Instructors</a>
+        </li>
+        -->
+        <!--
+        <li class="nav-item">
+          <a class="nav-link " href="recording.html">recording</a>
+        </li>
+      -->
+      </ul>
+    </div>
+  </div>
+</nav>
+<main class="page-content" aria-label="Content" id="content">
+      <div class="wrapper" >
+        
+
+<h1>Module: Galaxy Development </h1>
+
+<p>The Galaxy for Developers module will teach you how Galaxy works internally
+(frontend and backend), how to add new features for Galaxy, how to build the
+best tools and visualisations, and more!</p>
+
+
+<p>
+
+
+</p>
+
+
+<!-- This will generate the course handbook; the collapsible sections with videos and all others resources for the training -->
+
+
+
+
+  
+  
+  
+  <h3 class="module-start">  </h3>
+  
+  <p class="module-description"> 
+ </p>
+  <div class="accordion" id="accordionintro">
+  
+     
+
+     
+       
+       
+
+
+
+
+
+
+
+
+
+
+
+<div class="accordion-item">
+  
+  <div class="accordion-header" id="headingintro0">
+   <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseintro0" aria-expanded="false" aria-controls="collapseintro0">
+        Tools from Scratch
+        
+   </button>
+  </div>
+
+  <div id="collapseintro0" class="accordion-collapse collapse " aria-labelledby="headingintro0" data-bs-parent="#accordionintro">
+
+    <div class="accordion-body">
+
+      <!-- Video -->
+      
+        
+           
+           <!-- session: {"title"=>"Tools from Scratch", "description"=>"1. The first step to adding a tool to Galaxy, is to add it to (Bio)Conda.\n   This tutorial will show you how to do that.\n2. Planemo is the Galaxy tool development kit, and will make your tool\n   development process a lot easier! This tutorial will show you how to use\n   Planemo to start the tool wrapping process, and covers the general\n   structure of a Galaxy tool wrapper.\n3. You are now ready to start writing your tool wrapper! This video will\n   show you how.\n4. Each tool wrapper also needs a .shed.yml file, which contains some\n   metadata about the tool.\n5. Here you will learn how to test Galaxy tools using Planemo.\n6. Here you will learn how to publish tools in public tool repositories.\n", "materials"=>[{"link"=>"topics/dev/tutorials/tool-from-scratch/tutorial.html", "type"=>"Tutorial"}], "tags"=>["dev"], "type"=>nil, "versions"=>[{"captions"=>["gallardoalba"], "date"=>"2022-03-11", "galaxy_version"=>"22.01", "length"=>"40M", "link"=>"33L4B9ir0aQ", "speakers"=>["gallardoalba"], "name"=>"Creating Galaxy tools from Conda Through Deployment"}, {"captions"=>["davebx", "astrovsky01", "bernt-matthias"], "date"=>"2021-02-15", "galaxy_version"=>"21.01", "length"=>"1H40M", "link"=>"videoseries?list=PLNFLKDpdM3B9GhA0FryVV2YX3YL35rENK", "speakers"=>["davebx", "astrovsky01", "bernt-matthias"], "name"=>"Creating Galaxy tools from Conda Through Deployment"}], "name"=>"Creating Galaxy tools from Conda Through Deployment"}<br><br> video: {"captions"=>["gallardoalba"], "date"=>"2022-03-11", "galaxy_version"=>"22.01", "length"=>"40M", "link"=>"33L4B9ir0aQ", "speakers"=>["gallardoalba"], "name"=>"Creating Galaxy tools from Conda Through Deployment"} -->
+
+
+
+
+
+<!-- determine the next archived version of tutorial -->
+
+
+
+
+<div class="flex-row" style="margin-top:1em;">
+ <div class="col-md-8">
+  <h3 class="session-section"> Video   </h3>
+  <div style="position:relative;padding-top:56.25%;">
+   <iframe style="position:absolute;top:0;left:0;width:100%;height:100%;"
+    
+    data-src="https://www.youtube.com/embed/33L4B9ir0aQ"
+    
+     class="lazyload"
+     loading="lazy"
+     frameborder="0"
+     title="YouTube Embedded Video of the Tutorial"
+     aria-label="YouTube Embedded Video of the Tutorial"
+     allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+     allowfullscreen>
+   </iframe>
+  </div>
+  <div style="margin-top:1em;" class="video-metadata">
+      <table>
+          
+          <tr>
+              <td><strong>Description:</strong></td>
+              <td><ol>
+  <li>The first step to adding a tool to Galaxy, is to add it to (Bio)Conda.
+This tutorial will show you how to do that.</li>
+  <li>Planemo is the Galaxy tool development kit, and will make your tool
+development process a lot easier! This tutorial will show you how to use
+Planemo to start the tool wrapping process, and covers the general
+structure of a Galaxy tool wrapper.</li>
+  <li>You are now ready to start writing your tool wrapper! This video will
+show you how.</li>
+  <li>Each tool wrapper also needs a .shed.yml file, which contains some
+metadata about the tool.</li>
+  <li>Here you will learn how to test Galaxy tools using Planemo.</li>
+  <li>Here you will learn how to publish tools in public tool repositories.</li>
+</ol>
+</td>
+          </tr>
+          
+          <tr>
+              <td><strong>Length:</strong></td>
+              <td>40 minutes</td>
+          </tr>
+   
+   
+          <tr>
+              <td><strong>Captions:</strong></td>
+              <td> <a href="/video-library/contributors/gallardoalba/">Cristóbal Gallardo</a></td>
+          </tr>
+   
+          
+          <tr>
+              <td><strong>Created:</strong></td>
+              <td>11 March 2022</td>
+          </tr>
+          
+          
+          <tr>
+              <td><strong>Materials:</strong></td>
+              <td>
+                <ul class="plain-text-list">
+                
+                    <li>
+                        
+                            <img style="height: 1em" src="/video-library/assets/fa/tutorial.svg" alt="assets/fa/tutorial.svg" aria-hidden="true"/>
+                        
+
+
+                        
+                        
+                        Tutorial:
+                        <a href="https://training.galaxyproject.org/archive/2022-04-01/topics/dev/tutorials/tool-from-scratch/tutorial.html">Archived Version</a>
+                        |
+                        <a href="https://training.galaxyproject.org/topics/dev/tutorials/tool-from-scratch/tutorial.html">Latest Version</a>
+                        
+                        |
+                        
+                        <a href="https://training.galaxyproject.org/topics/dev/tutorials/tool-from-scratch/faqs/">FAQs</a>
+                        
+                        
+                    </li>
+                
+                </ul>
+              </td>
+          </tr>
+          
+          <!-- this is for the embedded versions where they'll use their own1 support forum -->
+          
+          <tr>
+              <td><strong>Support:</strong></td>
+              <td>
+              <ul>
+                
+                
+                <li>Slack: <a href="https://gtnsmrgsbord.slack.com/archives/dev_tool-from-scratch">#dev_tool-from-scratch</a> (<a href="https://join.slack.com/t/gtnsmrgsbord/shared_invite/zt-x7vinbs1-BA~Kht6N86JBhDq0uTIVdQ">Slack Invite</a>)</li>
+                <li><a href="https://gitter.im/Galaxy-Training-Network/Lobby">Gitter</a></li>
+                <li><a href="https://help.galaxyproject.org">Galaxy Help Forum</a></li>
+              </ul>
+              </td>
+          </tr>
+          
+          
+          <tr>
+              <td><strong>Learning Objectives:</strong></td>
+              <td>
+                  <ul>
+                      
+                      <li>Learn how to make and deploy a conda package</li>
+                      
+                      <li>Understand how to write a Galaxy tool wrapper</li>
+                      
+                      <li>Be able to use a tool wrapper locally</li>
+                      
+                      <li>Be able to test the tool wrapper</li>
+                      
+                      <li>Learn how to add tools to the Galaxy toolshed and make them available to any user</li>
+                      
+                  </ul>
+              </td>
+          </tr>
+          
+          
+          <tr>
+              <td><strong>Finished this tutorial as part of GTN Tapas?</strong></td>
+              <td>
+              <ol>
+                
+                
+                <li><a href="https://training.galaxyproject.org/training-material/faqs/galaxy/histories_sharing.html">Share your history</a> (if applicable)</li>
+                <li>Copy the URL</li>
+                <li>Run the command <code>/completed</code> with the URL to your shared history, in <a href="https://gtnsmrgsbord.slack.com/archives/dev_tool-from-scratch">#dev_tool-from-scratch</a></li>
+              </ol>
+              </td>
+          </tr>
+          
+      </table>
+
+  </div>
+  
+  Go to the <a href="/video-library/videos/dev/tool-from-scratch/tutorial">video page</a> to see all versions.
+  
+ </div>
+ <!-- speaker(s) -->
+ 
+ 
+
+ <div class="col-md-3">
+  <center><h3 class="session-section">Speaker</h3></center>
+  
+
+
+
+
+
+
+
+<div class="hall-of-fame">
+    
+    
+    
+		<div class="hall-of-fame-hero" id="gallardoalba">
+			<a href="/video-library/contributors/gallardoalba/">
+            
+			<img src="https://avatars.githubusercontent.com/gallardoalba" alt="">
+            
+			<div class="name">
+				<b>Cristóbal Gallardo</b>
+			</div>
+			</a>
+			<div class="affil">
+				
+				<a href="https://uni-freiburg.de/">
+					Albert-Ludwigs-Universität Freiburg
+				</a>
+				
+			</div>
+		</div>
+	
+    
+</div>
+
+ </div>
+
+
+</div><!-- end video session -->
+
+
+
+        
+
+      
+
+
+      <!-- Instructors -->
+      
+
+      <!-- Supporting Servers -->
+
+      <!-- Resources -->
+
+    </div><!-- end accordion body -->
+  </div><!-- end collapse -->
+</div><!-- end accordion item (training session) -->
+
+
+
+
+     
+  
+     
+
+     
+       
+       
+
+
+
+
+
+
+
+
+
+
+
+<div class="accordion-item">
+  
+  <div class="accordion-header" id="headingintro1">
+   <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseintro1" aria-expanded="false" aria-controls="collapseintro1">
+        Running the GTN website online using GitPod
+        
+   </button>
+  </div>
+
+  <div id="collapseintro1" class="accordion-collapse collapse " aria-labelledby="headingintro1" data-bs-parent="#accordionintro">
+
+    <div class="accordion-body">
+
+      <!-- Video -->
+      
+        
+           
+           <!-- session: {"description"=>"This tutorial will show you how you can preview your contributions to the GTN online using GitPod.", "faq"=>"https://docs.google.com/document/d/1-B5DvLcaylpJKfW-1F6tRhbCbpLlRbu2c3kTMuBFNk4/pub", "materials"=>[{"link"=>"topics/contributing/tutorials/gitpod/tutorial.html", "title"=>"Running the GTN website online using GitPod", "type"=>"Tutorial"}], "tags"=>["contributing"], "type"=>"Tutorial", "versions"=>[{"captions"=>["shiltemann"], "date"=>"2021-02-15", "galaxy_version"=>"21.01", "length"=>"20M", "link"=>"_-wnsPttBCo", "speakers"=>["shiltemann"], "name"=>"Running the GTN website online using GitPod"}], "name"=>"Running the GTN website online using GitPod"}<br><br> video: {"captions"=>["shiltemann"], "date"=>"2021-02-15", "galaxy_version"=>"21.01", "length"=>"20M", "link"=>"_-wnsPttBCo", "speakers"=>["shiltemann"], "name"=>"Running the GTN website online using GitPod"} -->
+
+
+
+
+
+<!-- determine the next archived version of tutorial -->
+
+
+
+
+<div class="flex-row" style="margin-top:1em;">
+ <div class="col-md-8">
+  <h3 class="session-section">Tutorial Video   </h3>
+  <div style="position:relative;padding-top:56.25%;">
+   <iframe style="position:absolute;top:0;left:0;width:100%;height:100%;"
+    
+    data-src="https://www.youtube.com/embed/_-wnsPttBCo"
+    
+     class="lazyload"
+     loading="lazy"
+     frameborder="0"
+     title="YouTube Embedded Video of the Tutorial"
+     aria-label="YouTube Embedded Video of the Tutorial"
+     allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+     allowfullscreen>
+   </iframe>
+  </div>
+  <div style="margin-top:1em;" class="video-metadata">
+      <table>
+          
+          <tr>
+              <td><strong>Description:</strong></td>
+              <td><p>This tutorial will show you how you can preview your contributions to the GTN online using GitPod.</p>
+</td>
+          </tr>
+          
+          <tr>
+              <td><strong>Length:</strong></td>
+              <td>20 minutes</td>
+          </tr>
+   
+   
+          <tr>
+              <td><strong>Captions:</strong></td>
+              <td> <a href="/video-library/contributors/shiltemann/">Saskia Hiltemann</a></td>
+          </tr>
+   
+          
+          <tr>
+              <td><strong>Created:</strong></td>
+              <td>15 February 2021</td>
+          </tr>
+          
+          
+          <tr>
+              <td><strong>Materials:</strong></td>
+              <td>
+                <ul class="plain-text-list">
+                
+                    <li>
+                        
+                            <img style="height: 1em" src="/video-library/assets/fa/tutorial.svg" alt="assets/fa/tutorial.svg" aria-hidden="true"/>
+                        
+
+
+                        
+                        
+                        Running the GTN website online using GitPod:
+                        <a href="https://training.galaxyproject.org/archive/2021-03-01/topics/contributing/tutorials/gitpod/tutorial.html">Archived Version</a>
+                        |
+                        <a href="https://training.galaxyproject.org/topics/contributing/tutorials/gitpod/tutorial.html">Latest Version</a>
+                        
+                        |
+                        
+                        <a href="https://training.galaxyproject.org/topics/contributing/tutorials/gitpod/faqs/">FAQs</a>
+                        
+                        
+                    </li>
+                
+                </ul>
+              </td>
+          </tr>
+          
+          <!-- this is for the embedded versions where they'll use their own1 support forum -->
+          
+          <tr>
+              <td><strong>Support:</strong></td>
+              <td>
+              <ul>
+                
+                
+                <li>Slack: <a href="https://gtnsmrgsbord.slack.com/archives/gtn">#gtn</a> (<a href="https://join.slack.com/t/gtnsmrgsbord/shared_invite/zt-x7vinbs1-BA~Kht6N86JBhDq0uTIVdQ">Slack Invite</a>)</li>
+                <li><a href="https://gitter.im/Galaxy-Training-Network/Lobby">Gitter</a></li>
+                <li><a href="https://help.galaxyproject.org">Galaxy Help Forum</a></li>
+              </ul>
+              </td>
+          </tr>
+          
+          
+          <tr>
+              <td><strong>Learning Objectives:</strong></td>
+              <td>
+                  <ul>
+                      
+                      <li>Preview the GTN website online via GitPod</li>
+                      
+                      <li>Make changes to the GTN website and preview those changes</li>
+                      
+                  </ul>
+              </td>
+          </tr>
+          
+          
+          <tr>
+              <td><strong>Finished this tutorial as part of GTN Tapas?</strong></td>
+              <td>
+              <ol>
+                
+                
+                <li><a href="https://training.galaxyproject.org/training-material/faqs/galaxy/histories_sharing.html">Share your history</a> (if applicable)</li>
+                <li>Copy the URL</li>
+                <li>Run the command <code>/completed</code> with the URL to your shared history, in <a href="https://gtnsmrgsbord.slack.com/archives/gtn">#gtn</a></li>
+              </ol>
+              </td>
+          </tr>
+          
+      </table>
+
+  </div>
+  
+  Go to the <a href="/video-library/videos/contributing/gitpod/tutorial">video page</a> to see all versions.
+  
+ </div>
+ <!-- speaker(s) -->
+ 
+ 
+
+ <div class="col-md-3">
+  <center><h3 class="session-section">Speaker</h3></center>
+  
+
+
+
+
+
+
+
+<div class="hall-of-fame">
+    
+    
+    
+		<div class="hall-of-fame-hero" id="shiltemann">
+			<a href="/video-library/contributors/shiltemann/">
+            
+			<img src="https://avatars.githubusercontent.com/shiltemann" alt="">
+            
+			<div class="name">
+				<b>Saskia Hiltemann</b>
+			</div>
+			</a>
+			<div class="affil">
+				
+				<a href="https://erasmusmc.nl">
+					Erasmus Medical Center
+				</a>
+				
+			</div>
+		</div>
+	
+    
+</div>
+
+ </div>
+
+
+</div><!-- end video session -->
+
+
+
+        
+
+      
+
+
+      <!-- Instructors -->
+      
+
+      <!-- Supporting Servers -->
+
+      <!-- Resources -->
+
+    </div><!-- end accordion body -->
+  </div><!-- end collapse -->
+</div><!-- end accordion item (training session) -->
+
+
+
+
+     
+  
+     
+
+     
+       
+       
+
+
+
+
+
+
+
+
+
+
+
+<div class="accordion-item">
+  
+  <div class="accordion-header" id="headingintro2">
+   <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseintro2" aria-expanded="false" aria-controls="collapseintro2">
+        Creating a new tutorial
+        
+   </button>
+  </div>
+
+  <div id="collapseintro2" class="accordion-collapse collapse " aria-labelledby="headingintro2" data-bs-parent="#accordionintro">
+
+    <div class="accordion-body">
+
+      <!-- Video -->
+      
+        
+           
+           <!-- session: {"description"=>"This tutorial will go through all of the steps of creating a simple tutorial and contributing it to the GTN.", "faq"=>"https://docs.google.com/document/d/1-B5DvLcaylpJKfW-1F6tRhbCbpLlRbu2c3kTMuBFNk4/pub", "materials"=>[{"link"=>"topics/contributing/tutorials/create-new-tutorial/tutorial.html", "title"=>"Creating a new tutorial", "type"=>"Tutorial"}, {"link"=>"topics/contributing/tutorials/create-new-tutorial-content/tutorial.html", "title"=>"Creating content in Markdown", "type"=>"Related tutorial"}], "tags"=>["contributing"], "type"=>"Tutorial", "versions"=>[{"captions"=>["EngyNasr"], "date"=>"2021-02-15", "galaxy_version"=>"21.01", "length"=>"42M", "link"=>"Vw9h5kvRH2k", "speakers"=>["bebatut"], "name"=>"Creating a new tutorial"}], "name"=>"Creating a new tutorial"}<br><br> video: {"captions"=>["EngyNasr"], "date"=>"2021-02-15", "galaxy_version"=>"21.01", "length"=>"42M", "link"=>"Vw9h5kvRH2k", "speakers"=>["bebatut"], "name"=>"Creating a new tutorial"} -->
+
+
+
+
+
+<!-- determine the next archived version of tutorial -->
+
+
+
+
+<div class="flex-row" style="margin-top:1em;">
+ <div class="col-md-8">
+  <h3 class="session-section">Tutorial Video   </h3>
+  <div style="position:relative;padding-top:56.25%;">
+   <iframe style="position:absolute;top:0;left:0;width:100%;height:100%;"
+    
+    data-src="https://www.youtube.com/embed/Vw9h5kvRH2k"
+    
+     class="lazyload"
+     loading="lazy"
+     frameborder="0"
+     title="YouTube Embedded Video of the Tutorial"
+     aria-label="YouTube Embedded Video of the Tutorial"
+     allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+     allowfullscreen>
+   </iframe>
+  </div>
+  <div style="margin-top:1em;" class="video-metadata">
+      <table>
+          
+          <tr>
+              <td><strong>Description:</strong></td>
+              <td><p>This tutorial will go through all of the steps of creating a simple tutorial and contributing it to the GTN.</p>
+</td>
+          </tr>
+          
+          <tr>
+              <td><strong>Length:</strong></td>
+              <td>42 minutes</td>
+          </tr>
+   
+   
+          <tr>
+              <td><strong>Captions:</strong></td>
+              <td> <a href="/video-library/contributors/EngyNasr/">Engy Nasr</a></td>
+          </tr>
+   
+          
+          <tr>
+              <td><strong>Created:</strong></td>
+              <td>15 February 2021</td>
+          </tr>
+          
+          
+          <tr>
+              <td><strong>Materials:</strong></td>
+              <td>
+                <ul class="plain-text-list">
+                
+                    <li>
+                        
+                            <img style="height: 1em" src="/video-library/assets/fa/tutorial.svg" alt="assets/fa/tutorial.svg" aria-hidden="true"/>
+                        
+
+
+                        
+                        
+                        Creating a new tutorial:
+                        <a href="https://training.galaxyproject.org/archive/2021-03-01/topics/contributing/tutorials/create-new-tutorial/tutorial.html">Archived Version</a>
+                        |
+                        <a href="https://training.galaxyproject.org/topics/contributing/tutorials/create-new-tutorial/tutorial.html">Latest Version</a>
+                        
+                        |
+                        
+                        <a href="https://training.galaxyproject.org/topics/contributing/tutorials/create-new-tutorial/faqs/">FAQs</a>
+                        
+                        
+                    </li>
+                
+                    <li>
+                        
+
+
+                        
+                        
+                        Creating content in Markdown:
+                        <a href="https://training.galaxyproject.org/archive/2021-03-01/topics/contributing/tutorials/create-new-tutorial-content/tutorial.html">Archived Version</a>
+                        |
+                        <a href="https://training.galaxyproject.org/topics/contributing/tutorials/create-new-tutorial-content/tutorial.html">Latest Version</a>
+                        
+                        
+                    </li>
+                
+                </ul>
+              </td>
+          </tr>
+          
+          <!-- this is for the embedded versions where they'll use their own1 support forum -->
+          
+          <tr>
+              <td><strong>Support:</strong></td>
+              <td>
+              <ul>
+                
+                
+                <li>Slack: <a href="https://gtnsmrgsbord.slack.com/archives/gtn">#gtn</a> (<a href="https://join.slack.com/t/gtnsmrgsbord/shared_invite/zt-x7vinbs1-BA~Kht6N86JBhDq0uTIVdQ">Slack Invite</a>)</li>
+                <li><a href="https://gitter.im/Galaxy-Training-Network/Lobby">Gitter</a></li>
+                <li><a href="https://help.galaxyproject.org">Galaxy Help Forum</a></li>
+              </ul>
+              </td>
+          </tr>
+          
+          
+          <tr>
+              <td><strong>Learning Objectives:</strong></td>
+              <td>
+                  <ul>
+                      
+                      <li>Create a tutorial from scratch</li>
+                      
+                      <li>Link a tutorial to a topic</li>
+                      
+                      <li>Create hands-on</li>
+                      
+                      <li>Add technical support for a tutorial</li>
+                      
+                  </ul>
+              </td>
+          </tr>
+          
+          
+          <tr>
+              <td><strong>Finished this tutorial as part of GTN Tapas?</strong></td>
+              <td>
+              <ol>
+                
+                
+                <li><a href="https://training.galaxyproject.org/training-material/faqs/galaxy/histories_sharing.html">Share your history</a> (if applicable)</li>
+                <li>Copy the URL</li>
+                <li>Run the command <code>/completed</code> with the URL to your shared history, in <a href="https://gtnsmrgsbord.slack.com/archives/gtn">#gtn</a></li>
+              </ol>
+              </td>
+          </tr>
+          
+      </table>
+
+  </div>
+  
+  Go to the <a href="/video-library/videos/contributing/create-new-tutorial/tutorial">video page</a> to see all versions.
+  
+ </div>
+ <!-- speaker(s) -->
+ 
+ 
+
+ <div class="col-md-3">
+  <center><h3 class="session-section">Speaker</h3></center>
+  
+
+
+
+
+
+
+
+<div class="hall-of-fame">
+    
+    
+    
+		<div class="hall-of-fame-hero" id="bebatut">
+			<a href="/video-library/contributors/bebatut/">
+            
+			<img src="https://avatars.githubusercontent.com/bebatut" alt="">
+            
+			<div class="name">
+				<b>Bérénice Batut</b>
+			</div>
+			</a>
+			<div class="affil">
+				
+				<a href="https://uni-freiburg.de/">
+					Albert-Ludwigs-Universität Freiburg
+				</a>
+				
+			</div>
+		</div>
+	
+    
+</div>
+
+ </div>
+
+
+</div><!-- end video session -->
+
+
+
+        
+
+      
+
+
+      <!-- Instructors -->
+      
+
+      <!-- Supporting Servers -->
+
+      <!-- Resources -->
+
+    </div><!-- end accordion body -->
+  </div><!-- end collapse -->
+</div><!-- end accordion item (training session) -->
+
+
+
+
+     
+  
+     
+
+     
+       
+       
+
+
+
+
+
+
+
+
+
+
+
+<div class="accordion-item">
+  
+  <div class="accordion-header" id="headingintro3">
+   <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseintro3" aria-expanded="false" aria-controls="collapseintro3">
+        Creating Slides
+        
+   </button>
+  </div>
+
+  <div id="collapseintro3" class="accordion-collapse collapse " aria-labelledby="headingintro3" data-bs-parent="#accordionintro">
+
+    <div class="accordion-body">
+
+      <!-- Video -->
+      
+        
+           
+           <!-- session: {"description"=>"This lecture goes through the process of how to create a slide deck, common things you should bear in mind while you're writing them, and how to enable the amazing slides-to-video features for your slide decks! This video itself was produced automatically from the GTN's slide decks, anyone making edits to these slides will cause them to be rebuilt, making organising videos for events easier than ever.\n", "faq"=>"https://docs.google.com/document/d/1-B5DvLcaylpJKfW-1F6tRhbCbpLlRbu2c3kTMuBFNk4/pub", "materials"=>[{"link"=>"topics/contributing/tutorials/create-new-tutorial-slides/slides.html", "title"=>"Creating Slides for the GTN", "type"=>"Slides"}], "tags"=>["contributing"], "type"=>"Lecture", "versions"=>[{"captions"=>["galaxycommunity"], "date"=>"2021-02-15", "galaxy_version"=>"21.01", "length"=>"5M", "link"=>"Gm1MKAwuLxg", "speakers"=>["awspolly"], "name"=>"Creating Slides"}], "name"=>"Creating Slides"}<br><br> video: {"captions"=>["galaxycommunity"], "date"=>"2021-02-15", "galaxy_version"=>"21.01", "length"=>"5M", "link"=>"Gm1MKAwuLxg", "speakers"=>["awspolly"], "name"=>"Creating Slides"} -->
+
+
+
+
+
+<!-- determine the next archived version of tutorial -->
+
+
+
+
+<div class="flex-row" style="margin-top:1em;">
+ <div class="col-md-8">
+  <h3 class="session-section">Lecture Video   </h3>
+  <div style="position:relative;padding-top:56.25%;">
+   <iframe style="position:absolute;top:0;left:0;width:100%;height:100%;"
+    
+    data-src="https://www.youtube.com/embed/Gm1MKAwuLxg"
+    
+     class="lazyload"
+     loading="lazy"
+     frameborder="0"
+     title="YouTube Embedded Video of the Tutorial"
+     aria-label="YouTube Embedded Video of the Tutorial"
+     allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+     allowfullscreen>
+   </iframe>
+  </div>
+  <div style="margin-top:1em;" class="video-metadata">
+      <table>
+          
+          <tr>
+              <td><strong>Description:</strong></td>
+              <td><p>This lecture goes through the process of how to create a slide deck, common things you should bear in mind while you’re writing them, and how to enable the amazing slides-to-video features for your slide decks! This video itself was produced automatically from the GTN’s slide decks, anyone making edits to these slides will cause them to be rebuilt, making organising videos for events easier than ever.</p>
+</td>
+          </tr>
+          
+          <tr>
+              <td><strong>Length:</strong></td>
+              <td>5 minutes</td>
+          </tr>
+   
+   
+          <tr>
+              <td><strong>Captions:</strong></td>
+              <td> <a href="/video-library/contributors/galaxycommunity/">The Global Galaxy Community</a></td>
+          </tr>
+   
+          
+          <tr>
+              <td><strong>Created:</strong></td>
+              <td>15 February 2021</td>
+          </tr>
+          
+          
+          <tr>
+              <td><strong>Materials:</strong></td>
+              <td>
+                <ul class="plain-text-list">
+                
+                    <li>
+                        
+                            <img style="height: 1em" src="/video-library/assets/fa/slides.svg" alt="assets/fa/slides.svg" aria-hidden="true"/>
+                        
+
+
+                        
+                        
+                        Creating Slides for the GTN:
+                        <a href="https://training.galaxyproject.org/archive/2021-03-01/topics/contributing/tutorials/create-new-tutorial-slides/slides.html">Archived Version</a>
+                        |
+                        <a href="https://training.galaxyproject.org/topics/contributing/tutorials/create-new-tutorial-slides/slides.html">Latest Version</a>
+                        
+                        
+                    </li>
+                
+                </ul>
+              </td>
+          </tr>
+          
+          <!-- this is for the embedded versions where they'll use their own1 support forum -->
+          
+          <tr>
+              <td><strong>Support:</strong></td>
+              <td>
+              <ul>
+                
+                
+                <li>Slack: <a href="https://gtnsmrgsbord.slack.com/archives/gtn">#gtn</a> (<a href="https://join.slack.com/t/gtnsmrgsbord/shared_invite/zt-x7vinbs1-BA~Kht6N86JBhDq0uTIVdQ">Slack Invite</a>)</li>
+                <li><a href="https://gitter.im/Galaxy-Training-Network/Lobby">Gitter</a></li>
+                <li><a href="https://help.galaxyproject.org">Galaxy Help Forum</a></li>
+              </ul>
+              </td>
+          </tr>
+          
+          
+          <tr>
+              <td><strong>Learning Objectives:</strong></td>
+              <td>
+                  <ul>
+                      
+                      <li>Create a new set of slides</li>
+                      
+                      <li>Add presenter comments</li>
+                      
+                  </ul>
+              </td>
+          </tr>
+          
+          
+          <tr>
+              <td><strong>Finished this tutorial as part of GTN Tapas?</strong></td>
+              <td>
+              <ol>
+                
+                
+                <li><a href="https://training.galaxyproject.org/training-material/faqs/galaxy/histories_sharing.html">Share your history</a> (if applicable)</li>
+                <li>Copy the URL</li>
+                <li>Run the command <code>/completed</code> with the URL to your shared history, in <a href="https://gtnsmrgsbord.slack.com/archives/gtn">#gtn</a></li>
+              </ol>
+              </td>
+          </tr>
+          
+      </table>
+
+  </div>
+  
+  Go to the <a href="/video-library/videos/contributing/create-new-tutorial-slides/slides">video page</a> to see all versions.
+  
+ </div>
+ <!-- speaker(s) -->
+ 
+ 
+
+ <div class="col-md-3">
+  <center><h3 class="session-section">Speaker</h3></center>
+  
+
+
+
+
+
+
+
+<div class="hall-of-fame">
+    
+    
+    
+		<div class="hall-of-fame-hero" id="awspolly">
+			<a href="/video-library/contributors/awspolly/">
+            
+            <img src="/video-library/assets/images/instructors/polly.png" alt="">
+            
+			<div class="name">
+				<b>These slides are narrated by AWS Polly.</b>
+			</div>
+			</a>
+			<div class="affil">
+				
+			</div>
+		</div>
+	
+    
+</div>
+
+ </div>
+
+
+</div><!-- end video session -->
+
+
+
+        
+
+      
+
+
+      <!-- Instructors -->
+      
+
+      <!-- Supporting Servers -->
+
+      <!-- Resources -->
+
+    </div><!-- end accordion body -->
+  </div><!-- end collapse -->
+</div><!-- end accordion item (training session) -->
+
+
+
+
+     
+  
+  </div>
+
+
+
+
+
+      </div>
+    </main><footer class="site-footer h-card">
+  <data class="u-url" href="/video-library/"></data>
+
+  <div class="wrapper">
+
+    <div class="row">
+        <div class="col-md-4">
+            <h2 class="footer-heading">
+             <img src="/video-library/assets/images/logos/gallantries.png" alt="Logo for the Gallantries project"  width="30em"/>
+             GTN Video Library
+            </h2>
+        </div>
+        <div class="col-md-4">
+          <p>Everyone participating is expected to abide by the <a href="https://galaxyproject.org/community/coc/">Code of Conduct</a></p>
+        </div>
+        <div class="col-md-4">
+            <img src="/video-library/assets/images/logos/erasmusplus.jpg" alt="european flag with text: With the support of the Erasmus+ Programme of the European Union."/>
+                    </div>
+    </div>
+	This project (<a href="https://ec.europa.eu/programmes/erasmus-plus/projects/eplus-project-details/#project/2020-1-NL01-KA203-064717">2020-1-NL01-KA203-064717</a>) is funded with the support of the Erasmus+ programme of the European Union.
+
+  </div>
+
+</footer>
+</body>
+
+
+</html>
