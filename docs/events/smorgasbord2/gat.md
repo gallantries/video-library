@@ -74,7 +74,7 @@ program:
     description:
     trainings:
       - video: admin/singularity/tutorial
-      # TODO: TUS
+      - video: admin/tus/tutorial
       - session: admin/tool-management
       - video: admin/users-groups-quotas/slides
       - session: admin/cvmfs
