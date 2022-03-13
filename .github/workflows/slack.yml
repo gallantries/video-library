@@ -1,5 +1,9 @@
 name: Update Slack.
 
+concurrency:
+  group: slack
+  cancel-in-progress: true
+
 on:
   workflow_dispatch:
   push:
