@@ -14,6 +14,10 @@ cost: free
 contacts: [hexylena]
 institutions: [biocommons, jetstream2, gallantries, erasmusmc, elixir, gtn]
 
+setup:
+  slack:
+    event_channel:
+      name: event-gat
 certificates:
   deadline: 2022-04-01
   certbot: true
@@ -104,6 +108,7 @@ program:
       - video: admin/upgrading/tutorial
       - video: admin/object-store/exercise
       - self-study: admin/jenkins
+        support_channel: event-gat
       - self-study: admin/ftp
       - self-study: admin/advanced-galaxy-customisation
       - self-study: admin/troubleshooting
