@@ -713,7 +713,9 @@
         "type": "Lecture & Tutorial",
         "versions": [
           {
-            "captions": null,
+            "captions": [
+              "hexylena"
+            ],
             "date": "2021-08-09",
             "length": "10M",
             "link": "-5U0sINjoig",
@@ -800,7 +802,9 @@
         "type": "Lecture & Tutorial",
         "versions": [
           {
-            "captions": null,
+            "captions": [
+              "hexylena"
+            ],
             "date": "2021-08-09",
             "length": "10M",
             "link": "-5U0sINjoig",
@@ -822,7 +826,9 @@
         "type": "Demo",
         "versions": [
           {
-            "captions": null,
+            "captions": [
+              "hexylena"
+            ],
             "date": "2021-08-09",
             "length": "40M",
             "link": "IRxja8bZ-MU",
@@ -852,6 +858,84 @@
             "link": "luxFraFJTc4",
             "speakers": [
               "wm75"
+            ]
+          }
+        ]
+      },
+      "sars-cov2/viral-beacon/slides": {
+        "title": "Introduction to viral Beacon",
+        "description": "How to visualize tens of thousands of SARS-CoV-2 analysis results? Learn about the Viral Beacon project’s solution!\n",
+        "materials": [
+          {
+            "link": "https://drive.google.com/file/d/1yCHOi1EGKpkH-3XpKTKNKpFjwYAWKSVx/preview"
+          }
+        ],
+        "tags": [
+          "sars-cov2"
+        ],
+        "type": "Demo",
+        "versions": [
+          {
+            "captions": [
+              "assuntad23"
+            ],
+            "date": "2021-12-08",
+            "galaxy_version": "21.01",
+            "length": "24M",
+            "link": "R_4yUMPk7eY",
+            "speakers": [
+              "babitasingh"
+            ]
+          }
+        ]
+      },
+      "sars-cov2/observablehq": {
+        "title": "Using and Customising ObservableHQ",
+        "description": "In this demo you will get to know the ObservableHQ platform for interactive data visualization. You will see how covid19.galaxyproject.org uses it to build a dashboard for their SARS-CoV-2 analysis efforts and will learn how to customize this solution to fit your own purposes.\n",
+        "materials": [
+
+        ],
+        "tags": [
+          "sars-cov2"
+        ],
+        "type": "Demo",
+        "versions": [
+          {
+            "captions": [
+              "assuntad23"
+            ],
+            "date": "2021-12-08",
+            "galaxy_version": "21.01",
+            "length": "15M",
+            "link": "owZ8AToX4sE",
+            "speakers": [
+              "sergeipond"
+            ]
+          }
+        ]
+      },
+      "sars-cov2/upload-ena": {
+        "title": null,
+        "description": "",
+        "materials": [
+
+        ],
+        "tags": [
+          "sars-cov2"
+        ],
+        "type": "Demo",
+        "versions": [
+          {
+            "captions": [
+              "mariipia10",
+              "assuntad23"
+            ],
+            "date": "2021-12-08",
+            "galaxy_version": "21.01",
+            "length": "10M",
+            "link": "sEjhWAtmAn4",
+            "speakers": [
+              "miguelroncoroni"
             ]
           }
         ]
@@ -3153,9 +3237,7 @@
         "type": "Webinar",
         "versions": [
           {
-            "captions": [
-
-            ],
+            "captions": null,
             "date": "2021-05-12",
             "length": "1H5M",
             "link": "MdQyltMAocg",
@@ -4289,9 +4371,7 @@
         "type": "Lecture",
         "versions": [
           {
-            "captions": [
-
-            ],
+            "captions": null,
             "date": "2021-02-15",
             "galaxy_version": "21.01",
             "length": "25M",
@@ -4328,9 +4408,7 @@
         "type": "Lecture",
         "versions": [
           {
-            "captions": [
-
-            ],
+            "captions": null,
             "date": "2021-02-15",
             "galaxy_version": "21.01",
             "length": "15M",
@@ -4367,9 +4445,7 @@
         "type": "Lecture",
         "versions": [
           {
-            "captions": [
-
-            ],
+            "captions": null,
             "date": "2021-02-15",
             "galaxy_version": "21.01",
             "length": "15M",
@@ -4445,9 +4521,7 @@
         "type": "Lecture",
         "versions": [
           {
-            "captions": [
-
-            ],
+            "captions": null,
             "date": "2021-02-15",
             "galaxy_version": "21.01",
             "length": "15M",
@@ -4484,9 +4558,7 @@
         "type": "Lecture",
         "versions": [
           {
-            "captions": [
-
-            ],
+            "captions": null,
             "date": "2021-02-15",
             "galaxy_version": "21.01",
             "length": "45M",
@@ -4562,9 +4634,7 @@
         "type": "Lecture",
         "versions": [
           {
-            "captions": [
-
-            ],
+            "captions": null,
             "date": "2021-02-15",
             "galaxy_version": "21.01",
             "length": "35M",
@@ -4601,9 +4671,7 @@
         "type": "Lecture Series",
         "versions": [
           {
-            "captions": [
-
-            ],
+            "captions": null,
             "date": "2021-02-15",
             "galaxy_version": "21.01",
             "length": "17M",

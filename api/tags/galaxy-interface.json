@@ -132,7 +132,9 @@
       "type": "Lecture & Tutorial",
       "versions": [
         {
-          "captions": null,
+          "captions": [
+            "hexylena"
+          ],
           "date": "2021-08-09",
           "length": "10M",
           "link": "-5U0sINjoig",
