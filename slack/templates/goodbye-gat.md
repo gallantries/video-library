@@ -39,18 +39,18 @@ Enjoying Galaxy? Want to become part of the community? Check out [the community 
 **Community Fora**
 
 1. GalaxyProject Home: https://galaxyproject.org
-2. Galaxy servers: [Find a Galaxy server near you](https://galaxyproject.org/use/?utm_source=smorgasbord&utm_medium=website&utm_campaign=smorgasbord2021)!
-3. Galaxy Training Network: [Start learning Galaxy](https://training.galaxyproject.org/?utm_source=smorgasbord&utm_medium=website&utm_campaign=smorgasbord2021)
-4. Support: [Galaxy Help Forum](https://help.galaxyproject.org/?utm_source=smorgasbord&utm_medium=website&utm_campaign=smorgasbord2021)
-5. Galaxy Publications: [Zotero](https://www.zotero.org/groups/1732893/galaxy?utm_source=smorgasbord&utm_medium=website&utm_campaign=smorgasbord2021)
-6. Galaxy Communities: [Find and Join a community](https://galaxyproject.org/community/?utm_source=smorgasbord&utm_medium=website&utm_campaign=smorgasbord2021)
-7. Events: [Galaxy Event Horizon](https://galaxyproject.org/events/?utm_source=smorgasbord&utm_medium=website&utm_campaign=smorgasbord2021)
-8. Galaxy Working Groups: [Find and join a WG](https://galaxyproject.org/community/wg/?utm_source=smorgasbord&utm_medium=website&utm_campaign=smorgasbord2021)
-9. GitHub: [galaxyproject](https://github.com/galaxyproject?utm_source=smorgasbord&utm_medium=website&utm_campaign=smorgasbord2021)
-10. Gitter Chat: [Start talking with the Galaxy Community!](https://gitter.im/galaxyproject/Lobby?utm_source=smorgasbord&utm_medium=website&utm_campaign=smorgasbord2021)
-11. GTN Gitter: [Join the training discussion here!](https://gitter.im/Galaxy-Training-Network/Lobby?utm_source=smorgasbord&utm_medium=website&utm_campaign=smorgasbord2021)
-12. PaperCuts: [Monthly Collaboration Fest](https://galaxyproject.org/events/2021-02-papercuts/?utm_source=smorgasbord&utm_medium=website&utm_campaign=smorgasbord2021)
-13. GTN CoFest: [Everybody Welcome!](https://github.com/galaxyproject/training-material/issues/1712?utm_source=smorgasbord&utm_medium=website&utm_campaign=smorgasbord2021)
+2. Galaxy servers: [Find a Galaxy server near you](https://galaxyproject.org/use/?utm_source=smorgasbord&utm_medium=website&utm_campaign=smorgasbord2022)!
+3. Galaxy Training Network: [Start learning Galaxy](https://training.galaxyproject.org/?utm_source=smorgasbord&utm_medium=website&utm_campaign=smorgasbord2022)
+4. Support: [Galaxy Help Forum](https://help.galaxyproject.org/?utm_source=smorgasbord&utm_medium=website&utm_campaign=smorgasbord2022)
+5. Galaxy Publications: [Zotero](https://www.zotero.org/groups/1732893/galaxy?utm_source=smorgasbord&utm_medium=website&utm_campaign=smorgasbord2022)
+6. Galaxy Communities: [Find and Join a community](https://galaxyproject.org/community/?utm_source=smorgasbord&utm_medium=website&utm_campaign=smorgasbord2022)
+7. Events: [Galaxy Event Horizon](https://galaxyproject.org/events/?utm_source=smorgasbord&utm_medium=website&utm_campaign=smorgasbord2022)
+8. Galaxy Working Groups: [Find and join a WG](https://galaxyproject.org/community/wg/?utm_source=smorgasbord&utm_medium=website&utm_campaign=smorgasbord2022)
+9. GitHub: [galaxyproject](https://github.com/galaxyproject?utm_source=smorgasbord&utm_medium=website&utm_campaign=smorgasbord2022)
+10. Gitter Chat: [Start talking with the Galaxy Community!](https://gitter.im/galaxyproject/Lobby?utm_source=smorgasbord&utm_medium=website&utm_campaign=smorgasbord2022)
+11. GTN Gitter: [Join the training discussion here!](https://gitter.im/Galaxy-Training-Network/Lobby?utm_source=smorgasbord&utm_medium=website&utm_campaign=smorgasbord2022)
+12. PaperCuts: [Monthly Collaboration Fest](https://galaxyproject.org/events/2021-02-papercuts/?utm_source=smorgasbord&utm_medium=website&utm_campaign=smorgasbord2022)
+13. GTN CoFest: [Everybody Welcome!](https://github.com/galaxyproject/training-material/issues/1712?utm_source=smorgasbord&utm_medium=website&utm_campaign=smorgasbord2022)
 14. Twitter: follow [@galaxyproject](https://twitter.com/galaxyproject), [@gxytraining](https://twitter.com/gxytraining)
 15. Video: [Watch it on YouTube](https://youtu.be//-1MPdxmRs8U)
 16. [Ask an instructor](https://shiltemann.github.io/global-galaxy-course/workshop) - Have question about the training? Did you run into a problem? Just wanna chat? Ask away on Slack!
