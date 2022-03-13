@@ -9,7 +9,7 @@ instructors: [hexylena, natefoo, slugger70, nsoranzo, mvdbeek, cat-bro]
 date:
   start: 2022-03-14
   end: 2022-03-18
-registration: "https://docs.google.com/forms/d/e/1FAIpQLSeoBxpkddbCXQps6p71lWit09Tt3qBQ1ewWraz4k0XmaX4_yg/viewform?usp=sf_link"
+#registration: "https://docs.google.com/forms/d/e/1FAIpQLSeoBxpkddbCXQps6p71lWit09Tt3qBQ1ewWraz4k0XmaX4_yg/viewform?usp=sf_link"
 cost: free
 contacts: [hexylena]
 institutions: [biocommons, jetstream2, gallantries, erasmusmc, elixir, gtn]
