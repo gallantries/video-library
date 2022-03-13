@@ -166,6 +166,33 @@
           ]
         }
       ]
+    },
+    "genome-annotation/tnseq-lecture": {
+      "title": "Essential genes detection with Transposon insertion sequencing (Lecture)",
+      "description": "This lecture talks about the basics of TnSeq analysis\n",
+      "materials": [
+        {
+          "external": true,
+          "link": "https://www.dropbox.com/sh/ayix345v11n69es/AABJerasUhiD4JfSgS3g0kS7a?dl=0&preview=TnSeq-GTapas-2022.pdf",
+          "type": "Non-GTN Lecture"
+        }
+      ],
+      "tags": [
+        "genome-annotation"
+      ],
+      "type": "Lecture",
+      "versions": [
+        {
+          "captions": null,
+          "date": "2022-03-10",
+          "galaxy_version": "21.09",
+          "length": "10M",
+          "link": "ehqObidPhcE",
+          "speakers": [
+            "delphine-l"
+          ]
+        }
+      ]
     }
   }
 }
