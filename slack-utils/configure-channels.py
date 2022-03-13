@@ -32,6 +32,11 @@ def find_channel_by_name(channel):
     else:
         return None
 
+def nonesafe(value):
+    if value is None:
+        return []
+    return vaue
+
 
 for k, v in data.items():
     override = v.get('support_channel', None)
@@ -50,7 +55,7 @@ for k, v in data.items():
         time.sleep(5)
 
         # Invite all of the gallantries users by default
-        contributors = [y.get('captions', []) + y.get('speakers', []) for y in v['versions']]
+        contributors = [nonesafe(y.get('captions', [])) + nonesafe(y.get('speakers', [])) for y in v['versions']]
         contributors = [item for sublist in contributors for item in sublist]
         contributors = list(set(contributors))
         contributors_slack = [INSTRUCTORS_WITH_SLACK.get(x) for x in contributors]
