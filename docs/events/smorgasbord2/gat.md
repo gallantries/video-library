@@ -49,8 +49,8 @@ program:
           title: "Wednesday Icebreaker"
           channel: social
         - prompt: |
-            1. If you could meet one person from history, who would it be and why? <br>
-            2. Or: what is your favorite thing about the course so far?
+            1. What is one fun hobby, passion, skill or talent you have? <br>
+            2. What is your favorite thing about the course so far?
           title: "Thursday Icebreaker"
           channel: social
         - prompt: "What is your favorite book, film, tv show or game you've enjoyed recently?"
