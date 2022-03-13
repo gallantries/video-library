@@ -35,7 +35,7 @@ def find_channel_by_name(channel):
 def nonesafe(value):
     if value is None:
         return []
-    return vaue
+    return value
 
 
 for k, v in data.items():
