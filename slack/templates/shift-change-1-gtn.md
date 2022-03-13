@@ -12,6 +12,12 @@ Head over to <SOCIAL_CHANNEL> and let us know the answer to this important quest
 
 ---
 
+**Useful Links**
+
+- [Course Webpage](https://gallantries.github.io/video-library/events/smorgasbord2/tapas.html)
+- [Using the Certificate Bot](https://gallantries.github.io/video-library/certbot)
+- [Troubleshooting Galaxy problems](https://training.galaxyproject.org/training-material/faqs/galaxy/analysis_troubleshooting.html)
+
 **Servers**
 
 Get Registered on your closest Galaxy server.
@@ -23,4 +29,6 @@ Get Registered on your closest Galaxy server.
 Click this link to join the training event group on your server! It makes your jobs go faster, but you *only* need to click it if you're using that specific server.
 
 <TIAAS>
+
+
 
