@@ -24,7 +24,7 @@ Head over to <SOCIAL_CHANNEL> and let us know the answer to this important quest
 
 :arrow_forward: **Welcome & Course Logistics** :arrow_forward:
 
-We have a welcome video on the [course webpage]((https://gallantries.github.io/video-library/events/smorgasbord2/tapas.html) which will go over all of the logisitics for this week. Give it a watch and let us know if you have any questions!
+We have a welcome video on the [course webpage](https://gallantries.github.io/video-library/events/smorgasbord2/tapas.html) which will go over all of the logisitics for this week. Give it a watch and let us know if you have any questions!
 
 
 :computer: **Doing the tutorials** :computer:
