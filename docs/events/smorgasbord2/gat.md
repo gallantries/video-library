@@ -2,7 +2,7 @@
 layout: event
 id: 'tapas-gat'
 title: "Galaxy Admin Training @ GTN Tapas"
-status: draft # draft, final (default)
+status: final # draft, final (default)
 description: "Free, Global, Online Week of Galaxy Admin Training"
 location: Online
 instructors: [hexylena, natefoo, slugger70, nsoranzo, mvdbeek, cat-bro]
