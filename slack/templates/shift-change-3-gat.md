@@ -8,4 +8,6 @@ We hope it's going well for you so far! Please let us know if you have any quest
 
 Let us know the answer to this important question:
 
-> **If you could meet one person from history, who would it be and why?** Or **what is your favorite thing about the course so far?**
+> 1. **What is one fun hobby, passion, skill or talent you have?**
+> 2. **What is your favorite thing about the course so far?**
+

@@ -51,9 +51,7 @@ earliest_zone = zones[0]
 start = datetime.strptime(args.start, '%Y-%m-%dT%H:%M:%S')
 
 if args.days > 2:
-    posts = [
-        (f'pre-{args.course}.md', start - timedelta(days=3), earliest_zone),
-    ]
+    posts = []
 
     for tz in zones:
         posts.append(
