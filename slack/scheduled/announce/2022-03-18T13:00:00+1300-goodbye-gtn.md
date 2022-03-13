@@ -24,6 +24,13 @@ We'll be sending you a survey (also linked to from the last item in the program)
 
 Instructors might be around, but, less so than before. Feel free to keep using Slack, but you can also ask any training quesions in the [GTN Gitter Channel](https://gitter.im/Galaxy-Training-Network/Lobby), or the [Galaxy Help Forum](https://help.galaxyproject.org/?utm_source=smorgasbord&utm_medium=website&utm_campaign=smorgasbord2021)
 
+
+**Continute your Galaxy adventure**
+All the materials from this week will stay online. Forever. You can keep learning, and keep asking your questions (here or in [Gitter](https://gitter.im/Galaxy-Training-Network/Lobby)).
+
+Please also consider joining the [Galaxy Community Conference](https://galaxyproject.org/events/gcc2022/) this summer (with lots of training!), or signing up for the [Galaxy Mentoring Program](https://galaxy-mentor-network.netlify.app/) to get personalized guidance around Galaxy!
+
+
 **Community**
 
 Enjoying Galaxy? Want to become part of the community? Check out [the community video](https://youtu.be/-1MPdxmRs8U) and join us!
