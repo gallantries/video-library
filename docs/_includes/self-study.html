@@ -25,5 +25,22 @@ This is a self-study session. Please work through the materials on your own, and
     {% endif %}
     </td>
  </tr>
+
+ <tr>
+  <td><strong>Support:</strong></td>
+  <td>
+   <ul>
+     {% capture channel %}{{ include.config.support_channel | default: page.setup.slack.event_channel.name | default: site.support.general_channel}}{% endcapture %}
+     <li>Slack: <a href="https://gtnsmrgsbord.slack.com/archives/{{ channel }}">#{{ channel }}</a> (<a href="{{site.support.join_link}}">Slack Invite</a>)</li>
+     <li><a href="{{site.gitter}}">Gitter</a></li>
+     <li><a href="https://help.galaxyproject.org">Galaxy Help Forum</a></li>
+    </ul>
+   </td>
+ </tr>
+
+ <tr>
+   <td><strong>Tutorial:</strong></td>
+   <td>{{ site.data.gtn[include.config.self-study] }}</td>
+ </tr>
  </table>
 </div>
