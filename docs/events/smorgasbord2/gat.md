@@ -53,8 +53,6 @@ program:
           title: "Friday Icebreaker"
           channel: social
 
-
-
   galaxyintro:
     title: Introduction to Galaxy
     description: "Start here if you are new to Galaxy. These videos will introduce you to the Galaxy platform, and walk you through your first analyses"
