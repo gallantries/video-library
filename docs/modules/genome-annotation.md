@@ -17,7 +17,7 @@ program:
     title: Visualisation
     trainings:
       - session: visualisation/circos
-  gtp:
+  vgp:
     title: Vertebrate Genome Project
     trainings:
       - video: assembly/vgp_genome_assembly-demo
