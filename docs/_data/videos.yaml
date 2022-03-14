@@ -62,28 +62,28 @@ assembly/general-introduction/slides:
     speakers:
     - slugger70
 
-#assembly/vgp_genome_assembly-workflow:
-#  title: Running the VGP Genome Assembly workflows
-#  description: |
-#    This demo walks you through running the VGP Genome Assembly workflows, rather than the whole tutorial (as most GTN Tapas videos do)
-#  materials:
-#  - link: topics/assembly/tutorials/vgp_genome_assembly/tutorial.html
-#    title: Full Tutorial (Step-by-step, not workflow-based like video)
-#    type: Tutorial
-#  - external: true
-#    link: "https://www.dropbox.com/sh/ayix345v11n69es/AABJerasUhiD4JfSgS3g0kS7a?dl=0&preview=VGP-Gtapas-2022.pdf"
-#    type: Non-GTN Lecture
-#  tags:
-#  - assembly
-#  type: Demo
-#  versions:
-#  - captions: null
-#    date: '2022-03-13'
-#    galaxy_version: '21.09'
-#    length: 10M
-#    link: "0EoBDiyd-84"
-#    speakers:
-#    - delphine-l
+assembly/vgp_genome_assembly-workflow:
+  title: Running the VGP Genome Assembly workflows
+  description: |
+    This demo walks you through running the VGP Genome Assembly workflows, rather than the whole tutorial (as most GTN Tapas videos do)
+  materials:
+  - link: topics/assembly/tutorials/vgp_genome_assembly/tutorial.html
+    title: Full Tutorial (Step-by-step, not workflow-based like video)
+    type: Tutorial
+  - external: true
+    link: "https://www.dropbox.com/sh/ayix345v11n69es/AABJerasUhiD4JfSgS3g0kS7a?dl=0&preview=VGP-Gtapas-2022.pdf"
+    type: Non-GTN Lecture
+  tags:
+  - assembly
+  type: Demo
+  versions:
+  - captions: null
+    date: '2022-03-13'
+    galaxy_version: '21.09'
+    length: 10M
+    link: "0EoBDiyd-84"
+    speakers:
+    - delphine-l
 
 
 climate/fates/tutorial:
@@ -765,25 +765,25 @@ genome-annotation/funannotate/tutorial:
     speakers:
     - abretaud
 
-#genome-annotation/tnseq-lecture:
-#  title: Essential genes detection with Transposon insertion sequencing (Lecture)
-#  description: |
-#    This lecture talks about the basics of TnSeq analysis
-#  materials:
-#  - external: true
-#    link: "https://www.dropbox.com/sh/ayix345v11n69es/AABJerasUhiD4JfSgS3g0kS7a?dl=0&preview=TnSeq-GTapas-2022.pdf"
-#    type: Non-GTN Lecture
-#  tags:
-#  - genome-annotation
-#  type: Lecture
-#  versions:
-#  - captions: null
-#    date: '2022-03-10'
-#    galaxy_version: '21.09'
-#    length: 10M
-#    link: ehqObidPhcE
-#    speakers:
-#    - delphine-l
+genome-annotation/tnseq-lecture:
+  title: Essential genes detection with Transposon insertion sequencing (Lecture)
+  description: |
+    This lecture talks about the basics of TnSeq analysis
+  materials:
+  - external: true
+    link: "https://www.dropbox.com/sh/ayix345v11n69es/AABJerasUhiD4JfSgS3g0kS7a?dl=0&preview=TnSeq-GTapas-2022.pdf"
+    type: Non-GTN Lecture
+  tags:
+  - genome-annotation
+  type: Lecture
+  versions:
+  - captions: null
+    date: '2022-03-10'
+    galaxy_version: '21.09'
+    length: 10M
+    link: ehqObidPhcE
+    speakers:
+    - delphine-l
 
 introduction/galaxy-intro-101/tutorial:
   description: This tutorial will introduce you to Galaxy. You will familiarize yourself

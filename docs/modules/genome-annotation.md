@@ -17,15 +17,14 @@ program:
     title: Visualisation
     trainings:
       - session: visualisation/circos
-# Pending Subtitles.
-#  vgp:
-#    title: Vertebrate Genome Project
-#    trainings:
-#      - video: assembly/vgp_genome_assembly-demo
-#      - self-study: assembly/vgp_genome_assembly
-#  tnseq:
-#    title: TnSeq
-#    trainings:
-#      - video: genome-annotation/tnseq-lecture
-#      - self-study: genome-annotation/tnseq
+  vgp:
+    title: Vertebrate Genome Project
+    trainings:
+      - video: assembly/vgp_genome_assembly-demo
+      - self-study: assembly/vgp_genome_assembly
+  tnseq:
+    title: TnSeq
+    trainings:
+      - video: genome-annotation/tnseq-lecture
+      - self-study: genome-annotation/tnseq
 ---
