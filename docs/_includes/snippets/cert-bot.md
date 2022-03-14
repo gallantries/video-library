@@ -6,12 +6,12 @@
     - [Instructions](https://training.galaxyproject.org/training-material/faqs/galaxy/histories_sharing.html)
     - The history URL will look something like: `https://usegalaxy.xx/u/saskia/h/my-history-name`
   2. **Submit your history URL** to the bot using the command:
-    - `/completed{% unless include.gat %} <your history URL>{% endunless %}`
+    - /completed{% unless include.gat %} <your history URL>{% endunless %}
     - In the **tutorial Slack channel** (link below video)
   3. **Write a short message** in the channel letting us know what you thought of the tutorial, and/or thanking the instructors!
 <br><br>
 - **Want to check your submissions?**
-  - At any time, use the `/transcript` command to see what you have already submitted
+  - At any time, use the /transcript command to see what you have already submitted
   - In **any channel**, or a message to [@GTN Certificate Bot](https://gtnsmrgsbord.slack.com/app_redirect?channel=U02EWBWKWKT)
 <br><br>
 - **Finished with the event?**
