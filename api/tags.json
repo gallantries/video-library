@@ -3629,7 +3629,7 @@
         "tags": [
           "admin"
         ],
-        "type": "Lecture",
+        "type": "Tutorial",
         "versions": [
           {
             "captions": [
@@ -3656,7 +3656,7 @@
         "tags": [
           "admin"
         ],
-        "type": "Tutorial",
+        "type": "Lecture",
         "versions": [
           {
             "captions": [
