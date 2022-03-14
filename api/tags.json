@@ -437,7 +437,7 @@
         "description": "This tutorial will provide an introduction to using R with Rstudio in Galaxy.",
         "materials": [
           {
-            "link": "topics/introduction/tutorials/r-basics/tutorial.html",
+            "link": "topics/data-science/tutorials/r-basics/tutorial.html",
             "title": "R basics in Galaxy",
             "type": "Tutorial"
           }
