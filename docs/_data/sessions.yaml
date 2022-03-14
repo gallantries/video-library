@@ -209,8 +209,8 @@ admin/ansible:
   title: Ansible
   description: Here you'll learn the basics of Ansible
   videos:
-  - admin/ansible/tutorial
   - admin/ansible/slides
+  - admin/ansible/tutorial
 admin/cvmfs:
   title: CVMFS
   description: Reference data management is easier than ever with CVMFS

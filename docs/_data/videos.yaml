@@ -2327,7 +2327,7 @@ admin/ansible/tutorial:
   - link: topics/admin/tutorials/ansible/tutorial.html
     type: Tutorial
   tags: [admin]
-  type: Lecture
+  type: Tutorial
   versions:
   - captions:
     - martenson
@@ -2343,7 +2343,7 @@ admin/ansible/slides:
   - link: topics/admin/tutorials/ansible/slides.html
     type: Slides
   tags: [admin]
-  type: Tutorial
+  type: Lecture
   versions:
   - captions:
     - martenson
