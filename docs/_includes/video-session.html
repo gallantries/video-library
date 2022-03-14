@@ -77,16 +77,16 @@
                         {% assign prefix = m.link | split:'/' | first %}
                         {% if prefix == "topics" %}
                         {{ m.title | default:m.type }}:
-                        <a href="{{site.gtn}}/archive/{{archiveyear}}-{{archivemonth}}-01/{{m.link}}">Archived Version</a>
+                        <a href="{{site.gtn}}/archive/{{archiveyear}}-{{archivemonth}}-01/{{m.link}}?utm_source=schedule&utm_medium=click&utm_campaign=smorgasbord2">Archived Version</a>
                         |
-                        <a href="{{site.gtn}}/{{m.link}}">Latest Version</a>
+                        <a href="{{site.gtn}}/{{m.link}}?utm_source=schedule&utm_medium=click&utm_campaign=smorgasbord2">Latest Version</a>
                         {% if m.type == "Tutorial" %}
                         |
                         {% assign faqpage = m.link | remove: "tutorial.html" | append: "faqs/" %}
-                        <a href="{{site.gtn}}/{{faqpage}}">FAQs</a>
+                        <a href="{{site.gtn}}/{{faqpage}}?utm_source=schedule&utm_medium=click&utm_campaign=smorgasbord2">FAQs</a>
                         {% endif %}
                         {% else %}
-                        <a href="{% unless m.link contains 'http' %}{{site.gtn}}/{% endunless %}{{m.link}}">{{m.title | default:m.type}}</a>
+                        <a href="{% unless m.link contains 'http' %}{{site.gtn}}/{% endunless %}{{m.link}}?utm_source=schedule&utm_medium=click&utm_campaign=smorgasbord2">{{m.title | default:m.type}}</a>
                         {% endif %}
                     </li>
                 {% endfor %}
@@ -128,7 +128,7 @@
               <ol>
                 {% capture predicted_channel_name %}{{ include.id | slack_channel_name }}{% endcapture %}
                 {% capture channel %}{{ include.session.support_channel | default: predicted_channel_name | default: site.support.general_channel}}{% endcapture %}
-                <li><a href="https://training.galaxyproject.org/training-material/faqs/galaxy/histories_sharing.html">Share your history</a> (if applicable)</li>
+                <li><a href="https://training.galaxyproject.org/training-material/faqs/galaxy/histories_sharing.html?utm_source=schedule&utm_medium=click&utm_campaign=smorgasbord2">Share your history</a> (if applicable)</li>
                 <li>Copy the URL</li>
                 <li>Run the command <code>/completed</code> with the URL to your shared history, in <a href="https://gtnsmrgsbord.slack.com/archives/{{ channel }}">#{{ channel }}</a></li>
               </ol>
