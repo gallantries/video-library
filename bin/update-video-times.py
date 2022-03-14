@@ -29,7 +29,8 @@ def convertTime(n):
 for k, v in data.items():
     if len(v.get('versions', [])):
         for video in v['versions']:
-            if video['length'] is None or len(video['length'].strip()) == 0:
+            print(k, video)
+            if True: # video['length'] is None or len(video['length'].strip()) == 0:
                 print(video['link'])
                 out = subprocess.check_output(['youtube-dl', '-j', '--', video['link']]).decode('utf-8')
                 out = json.loads(out)
