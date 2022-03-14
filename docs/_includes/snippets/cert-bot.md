@@ -5,9 +5,10 @@
   1. **Share your Galaxy history** via URL
     - [Instructions](https://training.galaxyproject.org/training-material/faqs/galaxy/histories_sharing.html)
     - The history URL will look something like: `https://usegalaxy.xx/u/saskia/h/my-history-name`
-  2. **Submit your history URL** to the bot using the command:
-    - /completed{% unless include.gat %} <your history URL>{% endunless %}
-    - In the **tutorial Slack channel** (link below video)
+  2. **Open the Slack channel for the tutorial** you finished
+     - Link to this channel is listed below the video
+  2. **Submit your history URL** to the bot  in this channel using the command:
+    - /completed {% unless include.gat %}https://link_to_your_history{% endunless %}
   3. **Write a short message** in the channel letting us know what you thought of the tutorial, and/or thanking the instructors!
 <br><br>
 - **Want to check your submissions?**
