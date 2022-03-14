@@ -24,3 +24,8 @@
   - We will review your Galaxy histories, and send you your personalised certificate
     - We aim to do this within 2 weeks of the certificate deadline
 
+<video controls width="100%">
+    <source src="{% link assets/images/certbot.mp4 %}"
+            type="video/mp4">
+    Sorry, your browser doesn't support embedded videos.
+</video>
