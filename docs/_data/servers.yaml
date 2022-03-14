@@ -10,6 +10,14 @@ us:
   name: Galaxy US
   url: "https://usegalaxy.org"
 
+be:
+  name: Galaxy Belgium
+  url: "https://usegalaxy.be"
+
+fr:
+  name: Galaxy France (French language support only)
+  url: "https://usegalaxy.fr"
+
 galaxy-p:
   name: Galaxy-P
   url: "https://proteomics.usegalaxy.eu"
