@@ -58,15 +58,17 @@
               <td>{{include.video.date | date: "%-d %B %Y" }}</td>
           </tr>
           {% endif %}
+          {% assign hastutorial = "no" %}
           {% if materials %}
           <tr>
               <td><strong>Materials:</strong></td>
               <td>
                 <ul class="plain-text-list">
-                {% for m in materials %}
+                                {% for m in materials %}
                     <li>
                         {% if m.type == "Tutorial" %}
                             {% icon tutorial %}
+                            {% assign hastutorial = "yes" %}
                         {% elsif m.type == "Slides" %}
                             {% icon slides %}
                         {% endif %}
@@ -93,8 +95,7 @@
           </tr>
           {% endif %}
           <!-- this is for the embedded versions where they'll use their own1 support forum -->
-          {% unless include.hidesupport %}
-          <tr>
+          {% unless include.hidesupport %}          <tr>
               <td><strong>Support:</strong></td>
               <td>
               <ul>
@@ -120,6 +121,7 @@
           </tr>
           {% endif %}
           {% unless include.hidesupport %}
+          {% if hastutorial == "yes" %}
           <tr>
               <td><strong>Finished this tutorial as part of GTN Tapas?</strong></td>
               <td>
@@ -132,7 +134,7 @@
               </ol>
               </td>
           </tr>
-          {% endunless %}
+          {% endif %}{% endunless %}
       </table>
 
   </div>
