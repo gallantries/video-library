@@ -14,8 +14,9 @@
   - At any time, use the /transcript command to see what you have already submitted
   - In **any channel**, or a message to [@GTN Certificate Bot](https://gtnsmrgsbord.slack.com/app_redirect?channel=U02EWBWKWKT)
 <br><br>
-- **Finished with the event?**
-  - Use the command `/request-certificate <Your Full Name>` to request a certificate for the course.
+- **Finished with the event?** Use the command:
+  - /request-certificate <Your Full Name>
+    - to request a certificate for the course.
     - Enter your name as you would like it to appear on the Certificate
   - In **any channel**, or a message to [@GTN Certificate Bot](https://gtnsmrgsbord.slack.com/app_redirect?channel=U02EWBWKWKT)
   {%- if include.config.deadline -%}- Deadline: {{include.config.deadline | date_to_long_string }}{% endif %}
