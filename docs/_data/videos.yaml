@@ -1276,7 +1276,7 @@ sars-cov2/observablehq:
     - sergeipond
 
 sars-cov2/upload-ena:
-  title:
+  title: "Upload to ENA"
   description: |
   materials: []
   tags:
