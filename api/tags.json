@@ -947,7 +947,7 @@
         ]
       },
       "sars-cov2/upload-ena": {
-        "title": null,
+        "title": "Upload to ENA",
         "description": "",
         "materials": [
 
