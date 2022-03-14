@@ -56,6 +56,18 @@
       ]
     }
   ],
+  "topics/assembly/tutorials/vgp_genome_assembly/tutorial.html": [
+    {
+      "captions": null,
+      "date": "2022-03-13",
+      "galaxy_version": "21.09",
+      "length": "10M",
+      "link": "0EoBDiyd-84",
+      "speakers": [
+        "delphine-l"
+      ]
+    }
+  ],
   "topics/climate/tutorials/fates/tutorial.html": [
     {
       "captions": [
