@@ -28,10 +28,10 @@ SERVERS = [
 ]
 
 TIAAS = [
-    ("https://usegalaxy.eu/join-training/event-tapas/", "Join EU TIaaS :earth_africa:"),
-    ("https://usegalaxy.org/join-training/event-tapas/", "Join US TIaaS :earth_americas:"),
-    ("https://usegalaxy.org.au/join-training/event-tapas/", "Join AU TIaaS :earth_asia:"),
-    ("https://usegalaxy.fr/join-training/event-tapas/", "Join FR TIaaS :flag-fr:"),
+    ("https://usegalaxy.eu/join-training/gtn-tapas/", "Join EU TIaaS :earth_africa:"),
+    ("https://usegalaxy.org/join-training/gtn-tapas/", "Join US TIaaS :earth_americas:"),
+    ("https://usegalaxy.org.au/join-training/gtn-tapas/", "Join AU TIaaS :earth_asia:"),
+    ("https://usegalaxy.fr/join-training/gtn-tapas/", "Join FR TIaaS :flag-fr:"),
 ]
 
 
