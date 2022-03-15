@@ -75,8 +75,8 @@ program:
     title: Tuesday
     description:
     trainings:
-      - video: admin/singularity/tutorial
       - video: admin/tus/tutorial
+      - video: admin/singularity/tutorial
       - session: admin/tool-management
       - video: admin/users-groups-quotas/slides
       - session: admin/cvmfs
