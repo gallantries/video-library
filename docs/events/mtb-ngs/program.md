@@ -209,6 +209,10 @@ program:
           description: Learning how to do clustering analysis and interpret drug resistance patterns
           length: 2h
           video: todo
+          other:
+            - label: Tutorial
+              link: https://training.galaxyproject.org/training-material/topics/evolution/tutorials/mtb_transmission/tutorial.html
+
       - external:
           title: Q&A
           description: Discussion with the experts
@@ -225,6 +229,9 @@ program:
           author: Christoph Stritt
           length: 1h
           video: todo
+          other:
+             - label: Tutorial
+               link: https://training.galaxyproject.org/training-material/topics/evolution/tutorials/mtb_phylogeny/tutorial.html
       - external:
           title: Q&A
           author: Galo A. Goig & Christoph Stritt
