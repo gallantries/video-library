@@ -80,6 +80,8 @@
  </tr>
  {% endif %}
  </table>
-
+ {% if include.config.note %}
+ <p> {{include.config.note | markdownify }} </p><br>
+ {% endif %}
  <p class="text-muted"> Note: This is a training session outside of the GTN. Please contact the authors if you have questions.</p>
 </div>
