@@ -10,6 +10,7 @@ description: |
 
 certbot: false
 instructors: [dbrites,cstritt,andreacabibbe,annalenaguske, andreaspitaleri,GaloGS,arashghodousi,liliana-rutaihwa]
+
 setup:
   servers:
     - server: eu
@@ -24,16 +25,18 @@ program:
   prelim:
     title: Welcome & Setup
     trainings:
-      - setup
-      - code-of-conduct
-       - external:
+
+      - external:
           title: Live Welcome session (optional)
           description: We would like to welcome you to this trainning, to present ourselves and to clarify any organizational question you might have.
-          Time:21st March, 10:30am-11:00am 
           other:
-            - label: Zoom 
+            - label: Time
+              value: 21st March, 10:30am-11:00am
+            - label: Zoom
               link: https://swisstph.zoom.us/j/84656236451
-    
+
+      - code-of-conduct
+      - setup
 
   day1:
     title: "Day 1: Overview of NGS technologies & TB specific NGS solutions"
@@ -62,30 +65,36 @@ program:
           description: |
             This webinar will introduce different sequencing technologies and what applies best to what
             kind of problem.
-          video:https://youtu.be/BcfBjCJRmUs 
+          video: BcfBjCJRmUs
           length: 1h10m
           author: Andrea Cabibbe
-          Finished watching the webinar as part of the Mtb NGS event?: Share your thoughts with us here "https://docs.google.com/document/d/1EfgttagZ8hBfjQiRznsCgDYVpzi3CF55cHqjarYa97o/edit#heading=h.e69aqv1nq3gw"
-          *The completion of this assessment is a requirement for the certificate of attendance.*
+          note: |
+            **Finished watching the webinar as part of the Mtb NGS event?** Share your thoughts with us [here](https://docs.google.com/document/d/1EfgttagZ8hBfjQiRznsCgDYVpzi3CF55cHqjarYa97o/edit#heading=h.e69aqv1nq3gw)
+
+            *The completion of this assessment is a requirement for the certificate of attendance.*
       - external:
           title: "Webinar: Implementation of NGS for TB- WHO documents and other considerations"
           author: Andrea Cabibbe
-          video: https://youtu.be/eSWnPange8w 
+          video: eSWnPange8w
           description: |
             This webinar will summarize the recommendations and considerations available from the WHO
             documents on the use of NGS for TB
-           length: 1h
-           Finished watching the webinar as part of the Mtb NGS training event?: Share your thoughts with us here "https://docs.google.com/document/d/1yCSyBnC1D5-czrW8xUi8sS2ffk_igB7quqhbHr7PE-U/edit#"
-             *The completion of this assessment is a requirement for the certificate of attendance.*
+          length: 1h
+          note: |
+            **Finished watching the webinar as part of the Mtb NGS training event?** Share your thoughts with us [here](https://docs.google.com/document/d/1yCSyBnC1D5-czrW8xUi8sS2ffk_igB7quqhbHr7PE-U/edit#)
+
+            *The completion of this assessment is a requirement for the certificate of attendance.*
       - external:
           title: Q&A session
-          description: If you are part of the Mtb NGS training event we would like to hear your opinion on the following questions and promote discussion in this Q&A session. Please let us know your thoughts on one or more of the following questions in the shared notes; 1) How do I choose the right sequencing technology for my samples? 2) What is needed for NGS? 3) Why is NGS better for drug resistance and outbreak analysis? Also take the chance to ask us or write down in the shared notes other questions you might have.
-          *The completion of this assessment is a requirement for the certificate of attendance.*
+          description: |
+            If you are part of the Mtb NGS training event we would like to hear your opinion on the following questions and promote discussion in this Q&A session. Please let us know your thoughts on one or more of the following questions in the shared notes; 1) How do I choose the right sequencing technology for my samples? 2) What is needed for NGS? 3) Why is NGS better for drug resistance and outbreak analysis? Also take the chance to ask us or write down in the shared notes other questions you might have.
+
+            *The completion of this assessment is a requirement for the certificate of attendance.*
           other:
             - label: Time
               value: "14:00 -16:00 CET"
             - label: Shared notes
-              link:https://docs.google.com/document/d/1VtGho4Zz0qFp5tzqD8rl7NU83xtYb4tCkLDitC3DrhQ/edit#
+              link: https://docs.google.com/document/d/1VtGho4Zz0qFp5tzqD8rl7NU83xtYb4tCkLDitC3DrhQ/edit#
             - label: Zoom
               link: https://swisstph.zoom.us/j/84656236451
 
@@ -159,11 +168,13 @@ program:
           description: Main bioinformatics steps involved in mapping and variant calling from Illumina short reads applied to MTBC
           video: todo
           length: 45m
-          video: https://youtu.be/38GUBKwWXv8
+          video: 38GUBKwWXv8
           author: Daniela Brites
-         Finished watching the webinar as part of the Mtb NGS training event?: Share your thoughts with us here "https://docs.google.com/document/d/18y0PScnbA0GuLKjITzIr01wyLVWH6RYPAE5RWkwlfNA/edit#heading=h.bs9dcv9mioqd"
-             *The completion of this assessment is a requirement for the certificate of attendance.*
-          
+          note: |
+            **Finished watching the webinar as part of the Mtb NGS training event?** Share your thoughts with us [here](https://docs.google.com/document/d/18y0PScnbA0GuLKjITzIr01wyLVWH6RYPAE5RWkwlfNA/edit#heading=h.bs9dcv9mioqd)
+
+            *The completion of this assessment is a requirement for the certificate of attendance.*
+
       - external:
           title: Q&A session
           description: Meet the the experts
@@ -201,40 +212,46 @@ program:
           author: Galo A. Goig
           description: Principles of drug resistance detection from genomic data
           length: 20m
-          video: https://youtu.be/Ddwt-_gQR2M
-          Finished watching the webinar as part of the Mtb NGS training event?: Share your thoughts with us here "https://docs.google.com/document/d/1WnvgYtTUOJGxTUEQCL0-HOlHNkqo293LaqaGB9EKojM/edit#heading=h.bs9dcv9mioqd"
-             *The completion of this assessment is a requirement for the certificate of attendance.*
-          
+          video: Ddwt-_gQR2M
+          note: |
+            **Finished watching the webinar as part of the Mtb NGS training event?** Share your thoughts with us [here](https://docs.google.com/document/d/1WnvgYtTUOJGxTUEQCL0-HOlHNkqo293LaqaGB9EKojM/edit#heading=h.bs9dcv9mioqd)
+
+            *The completion of this assessment is a requirement for the certificate of attendance.*
+
       - external:
-          title: "Webinar: "Phylogenetic" and mutations"
+          title: "Webinar: Phylogenetic and mutations"
           author: Galo A. Goig
           description: |
             This video will introduce two types of mutations to take into account when studying
             drug resistance patterns
           length: 15m
-          video: https://youtu.be/1ps_o5rpnmw
-          Finished watching as part of the Mtb NGS training event?: Share your thoughts with us here "https://docs.google.com/document/d/1I341zrHJdAn5BEtrtc1KmJZ_x_lez_EWA75iTFBq-R4/edit#"
-          *The completion of this assessment is a requirement for the certificate of attendance.*
+          video: 1ps_o5rpnmw
+          note: |
+            **Finished watching as part of the Mtb NGS training event?** Share your thoughts with us [here](https://docs.google.com/document/d/1I341zrHJdAn5BEtrtc1KmJZ_x_lez_EWA75iTFBq-R4/edit#)
+
+            *The completion of this assessment is a requirement for the certificate of attendance.*
       - external:
           title: "Webinar: The concept of clustering"
           author: Galo A. Goig
           description: Main aspects of clustering analysis to infer transmission in MTBC
           length: 15m
-          video:https://youtu.be/l4cPUECJ7VU
+          video: l4cPUECJ7VU
       - external:
           title: "Webinar: Genetic distance thresholds"
           author: Galo A. Goig
           description: Clustering as an approximation to infer transmission
           length: 15m
-          video:https://youtu.be/kKNgmpy1N94
-          Finished watching as part of the Mtb NGS training event?: Share your thoughts with us here "https://docs.google.com/document/d/1Q4mw-y3FZrGvmz3VNQrLkLslsi5QoTgDxwhAYYYdvjI/edit#"
-          *The completion of this assessment is a requirement for the certificate of attendance.*
+          video: kKNgmpy1N94
+          note: |
+            **Finished watching as part of the Mtb NGS training event?** Share your thoughts with us [here](https://docs.google.com/document/d/1Q4mw-y3FZrGvmz3VNQrLkLslsi5QoTgDxwhAYYYdvjI/edit#)
+
+            *The completion of this assessment is a requirement for the certificate of attendance.*
       - external:
           title: "Hands-on: Performing clustering analysis & drug resistance prediction"
           author: Galo A. Goig
           description: Learning how to do clustering analysis and interpret drug resistance patterns
           length: 2h
-          hands-on:https://training.galaxyproject.org/training-material/topics/evolution/tutorials/mtb_transmission/tutorial.html
+          hands-on: https://training.galaxyproject.org/training-material/topics/evolution/tutorials/mtb_transmission/tutorial.html
       - external:
           title: Q&A
           description: Discussion with the experts
@@ -277,27 +294,29 @@ program:
       interpret the results.
     trainings:
       - icebreaker:
-        - prompt: "What is a book, film, tv show or game that you've enjoyed recently?
+        - prompt: "What is a book, film, tv show or game that you've enjoyed recently?"
           channel: event-mtb-ngs
       - external:
           title: "Webinar: Web tools for analysis of MTBC sequenced data"
           author: Arash Ghodousi
           description: Introduction to most common web tools for fast identification of bacterial species from raw sequencing reads
           length: 50m
-          video: https://youtu.be/HVQaq2GXCAc
-          Finished watching as part of the Mtb NGS training event?: Share your thoughts with us here "https://docs.google.com/document/d/1jdp61AFeyd_fK8XWZ348k7aok779feiCQ3q2uz1RPF0/edit#"
-          *The completion of this assessment is a requirement for the certificate of attendance.*
+          video: HVQaq2GXCAc
+          note: |
+            **Finished watching as part of the Mtb NGS training event?** Share your thoughts with us [here](https://docs.google.com/document/d/1jdp61AFeyd_fK8XWZ348k7aok779feiCQ3q2uz1RPF0/edit#)
+
+            *The completion of this assessment is a requirement for the certificate of attendance.*
       - external:
           title: "Webinar: Introduction to the MTBseq pipeline"
           author: Arash Ghodousi
           description: Introduction to MTBseq pipeline, an automated pipeline for mapping, variant calling and detection of resistance mediating and phylogenetic variants from whole genome sequence data of MTBC
           length: 30m
-          video: https://youtu.be/ob29WYXwLxo
-   
+          video: ob29WYXwLxo
+
       - external:
           title: Q&A
           description: Meet the the experts
-          author:Andrea Spitaleri
+          author: Andrea Spitaleri
           other:
             - label: Time
               value: "11:30-12:30 CET"
@@ -332,19 +351,19 @@ program:
           author: Andrea Spitaleri
           description: "Introduction to Linux OS: installation and usage"
           length: 35m
-          video: https://youtu.be/N8rW07ByQOE
+          video: N8rW07ByQOE
       - external:
           title: "Webinar: How to run programs (Python, Docker, Singularity)"
           author: Andrea Spitaleri
           description: Learning how to install and use programs to analyze data
           length: 35m
-          video: https://youtu.be/feYweAQNGS8
+          video: feYweAQNGS8
       - external:
           title: "Webinar: Demo on how to run the Linux command line"
           author: Andrea Spitaleri
           description:   Demo video on how to use the shell commands
           length: 20m
-          video: https://www.youtube.com/watch?v=7V7LCjUEg1c
+          video: 7V7LCjUEg1c
       - external:
           title: "Hands-on: The Unix Shell"
           author: The Carpentries
