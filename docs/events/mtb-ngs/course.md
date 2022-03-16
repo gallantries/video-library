@@ -102,7 +102,7 @@ Topic | Speaker  | Description | Duration
 --- | --- | --- | ---
 Overview of NGS technologies & TB specific NGS solutions | Andrea Cabibbe  | __Webinar:__ This webinar will introduce different sequencing technologies and what applies best to what kind of problem. | 1h10m
 Implementation of NGS for TB- WHO documents and other  considerations  | Andrea Cabibbe | __Webinar:__ This webinar will summarize the recommendations and considerations available from the WHO documents on the use of NGS for TB| 62m
-Live Discussion [here] (https://swisstph.zoom.us/j/84656236451)  (**14:00 -16:00 CET**) | Andrea Cabibbe & Liliana Rutaihwa |__Q&A session:__  How do I choose the right sequencing technology for my samples? What is needed for NGS? Why is NGS better for drug resistance and outbreak analysis? | 2h
+Live Discussion [here](https://swisstph.zoom.us/j/84656236451)  (**14:00 -16:00 CET**) | Andrea Cabibbe & Liliana Rutaihwa |__Q&A session:__  How do I choose the right sequencing technology for my samples? What is needed for NGS? Why is NGS better for drug resistance and outbreak analysis? | 2h
 
 <br>
 
@@ -132,7 +132,7 @@ Phylogenetic and compensatory mutations | Galo A. Goig | __Webinar:__ This video
 The concept of clustering | Galo A. Goig | __Webinar:__ Main aspects of clustering analysis to infer transmission in MTBC | 15m
 Genetic distance thresholds | Galo A. Goig | __Webinar:__ Clustering as an approximation to infer transmission| 25m
 Performing clustering analysis & drug resistance prediction | Galo A. Goig  | __Hands-on:__ Learning how to do clustering analysis and interpret drug resistance patterns | 2h
-Live discussion [here](https://swisstph.zoom.us/j/84656236451)(**11:30-12:30 CET**)| Galo A. Goig & Christop Stritt  |**Q&A Live session**| 1h
+Live discussion [here](https://swisstph.zoom.us/j/84656236451) (**11:30-12:30 CET**)| Galo A. Goig & Christop Stritt  |**Q&A Live session**| 1h
 Introduction to phylogenetics | EMBL-EBI| __Recommended hands-on:__ https://www.ebi.ac.uk/training/online/courses/introduction-to-phylogenetics/ | 1h
 Inference of phylogenetic trees | Christoph Stritt |  __Hands-on:__ Main principles of phylogenetic inference, tree interpretation | 1h
 Live discussion [here](https://swisstph.zoom.us/j/84656236451) (**16:30-17:30 CET**) |  Christop Stritt & Galo A. Goig  |  **Q&A Live session**| 1h
@@ -148,7 +148,7 @@ Topic | Speaker  | Description | Duration
 Web tools for analysis of MTBC sequenced data | Arash Ghodousi | __Webinar:__ This video will introduce web tools designed for analysis of MTBC sequenced data |  50m
 Introduction to the MTBseq pipeline  | Arash Ghodousi  | __Webinar:__ Introduction the MTBseq pipeline, an automated pipeline for mapping, variant calling and detection of resistance mediating and phylogenetic variants in MTBC | 30m
 Demonstration of data analysis using the webtools| Arash Ghodousi |__Webinar:__  Learning how to analyze and interpret sequenced data by webtools| 45m
-Live discussion [here](https://swisstph.zoom.us/j/84656236451)(**11:30-12:30 CET**)| Andrea Spitaleri| **Q&A Live session**| 1h
+Live discussion [here](https://swisstph.zoom.us/j/84656236451) (**11:30-12:30 CET**)| Andrea Spitaleri| **Q&A Live session**| 1h
 Introduction to linux | Andrea Spitaleri | __Webinar:__ Introduction to Linux OS: installation and usage | 30m
 How to run programs (Python, Docker, Singularity) |  Andrea Spitaleri  |  __Webinar:__ Learning how to install and use programs to analyze data| 30m
 Demo video on how to use the shell commands | Andrea Spitaleri |__Webinar:__  Demo video on how to use the shell commands | 25m
