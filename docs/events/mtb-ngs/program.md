@@ -14,12 +14,13 @@ instructors: [dbrites,cstritt,andreacabibbe,annalenaguske, andreaspitaleri,GaloG
 setup:
   servers:
     - server: eu
-      tiaas: mtb-ngs
+      tiaas: mtuberculosisngs
 
   slack:
     event_channel:
-      name: "#event-mtb-ngs"
+      name: event-mtb-ngs
       link: "https://gtnsmrgsbord.slack.com/archives/C035Q01UA2F"
+      useforall: true
 
 program:
   prelim:
@@ -184,7 +185,9 @@ program:
               value: "11:30-12:30 CET"
             - label: Zoom Link
               link: https://swisstph.zoom.us/j/84656236451
-      - session: variant-analysis/tb-variant-analysis
+      - self-study: variant-analysis/tb-variant-analysis
+        description: Variation in the genome of M. tuberculosis (Mtb) is associated with changes in phenotype, for example drug resistance and virulence. It is also useful for outbreak investigation as the single nucleotide polymorphisms (SNPs) in a sample can be used to build a phylogeny.
+        prefix: "Hands-on: "
       - external:
           title: Q&A session
           description: Meet the the experts
@@ -246,12 +249,11 @@ program:
             **Finished watching as part of the Mtb NGS training event?** Share your thoughts with us [here](https://docs.google.com/document/d/1Q4mw-y3FZrGvmz3VNQrLkLslsi5QoTgDxwhAYYYdvjI/edit#)
 
             *The completion of this assessment is a requirement for the certificate of attendance.*
-      - external:
-          title: "Hands-on: Performing clustering analysis & drug resistance prediction"
-          author: Galo A. Goig
-          description: Learning how to do clustering analysis and interpret drug resistance patterns
-          length: 2h
-          hands-on: https://training.galaxyproject.org/training-material/topics/evolution/tutorials/mtb_transmission/tutorial.html
+
+      - self-study: evolution/mtb_transmission
+        description: Learning how to do clustering analysis and interpret drug resistance patterns
+        prefix: "Hands-on: "
+
       - external:
           title: Q&A
           description: Discussion with the experts
@@ -262,12 +264,10 @@ program:
             - label: Zoom
               link: https://swisstph.zoom.us/j/84656236451
 
-      - external:
-          title: "Hands-on: Inference of phylogenetic trees"
-          description: Main principles of phylogenetic inference, tree interpretation
-          author: Christoph Stritt
-          length: 1h
-          hands-on: https://training.galaxyproject.org/training-material/topics/evolution/tutorials/mtb_phylogeny/tutorial.html
+      - self-study: evolution/mtb_phylogeny
+        description: Main principles of phylogenetic inference, tree interpretation
+        prefix: "Hands-on: "
+
       - external:
           title: Q&A
           author: Galo A. Goig & Christoph Stritt

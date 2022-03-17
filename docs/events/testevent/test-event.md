@@ -73,6 +73,8 @@ program:
       - self-study: climate/fates
         type: [slides]
       - self-study: assembly/mrsa-nanopore  # default type is tutorial only
+        description: This tutorial will cover X  # add a description
+        prefix: "Hands-on: "                     # prefix for the session title
       - external:                   # if you want to include something outside of the GTN? No problem!
           title: My External Session
           description: This is a training that is not in the GTN, but it will teach you about XYZ
