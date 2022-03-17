@@ -23,7 +23,7 @@ andreacabibbe:
 
 andreaspitaleri:
     name: Andrea Spitaleri
-    affiliation: irccs
+    affiliation: [irccs, uni-san-raffaele]
     photo: spitaleri_andrea.jpg
 
 andrewr:
@@ -50,7 +50,7 @@ anuprulez:
 
 arashghodousi:
     name: Arash Ghodousi
-    affiliation: irccs
+    affiliation: [irccs,uni-san-raffaele]
 
 assuntad23:
     name: Assunta DeSanto
