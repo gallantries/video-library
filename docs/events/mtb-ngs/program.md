@@ -395,7 +395,7 @@ program:
     title: Day 5
     description: |
       Today all experts will  be available to answer your questions and discuss any
-      of the tutorials, webinars or questions related to your own data. Meet with us at the
+      of the tutorials, webinars, or questions related to your own data. Meet with us at the
       zoom link!
     trainings:
       - external:
