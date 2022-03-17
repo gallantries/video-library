@@ -19,9 +19,11 @@
     </p>
 
     {% endunless %}
+    {% if include.config.deadline %}
     <p class="card-text">
       <strong>Deadline: </strong> no later than <strong>{{include.config.deadline | date_to_long_string }}</strong>.
     </p>
+    {% endif %}
    </div>
   </div>
  </div>
