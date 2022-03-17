@@ -21,6 +21,16 @@ setup:
       name: event-mtb-ngs
       link: "https://gtnsmrgsbord.slack.com/archives/C035Q01UA2F"
       useforall: true
+    notes: |
+      **Be active on Slack!**
+        - Join the Slack channel every day
+        - Talk about the session you just attended! Got stuck? Have a question about the science? Want to discuss anything? Want to thank your instructors? Do it in Slack!
+        - Enjoyed a hands-on tutorial? Take a moment to thank your (volunteer) instructors and speakers on Slack
+        - And please, feel free to help other participants on Slack if you know the answer!"
+
+certificates:
+  request_form: "https://forms.gle/X2qgMQeobygH4orB8"
+  certbot: false
 
 program:
   prelim:
@@ -38,6 +48,7 @@ program:
 
       - code-of-conduct
       - setup
+      - certificates
 
   day1:
     title: "Day 1: Overview of NGS technologies & TB specific NGS solutions"
