@@ -79,14 +79,14 @@ program:
             kind of problem.
           video: BcfBjCJRmUs
           length: 1h10m
-          author: Andrea Cabibbe
+          author: andreacabibbe
           note: |
             **Finished watching the webinar as part of the Mtb NGS event?** Share your thoughts with us [here](https://docs.google.com/document/d/1EfgttagZ8hBfjQiRznsCgDYVpzi3CF55cHqjarYa97o/edit#heading=h.e69aqv1nq3gw)
 
             *The completion of this assessment is a requirement for the certificate of attendance.*
       - external:
           title: "Webinar: Implementation of NGS for TB- WHO documents and other considerations"
-          author: Andrea Cabibbe
+          author: andreacabibbe
           video: eSWnPange8w
           description: |
             This webinar will summarize the recommendations and considerations available from the WHO
@@ -181,7 +181,7 @@ program:
           video: todo
           length: 45m
           video: 38GUBKwWXv8
-          author: Daniela Brites
+          author: dbrites
           note: |
             **Finished watching the webinar as part of the Mtb NGS training event?** Share your thoughts with us [here](https://docs.google.com/document/d/18y0PScnbA0GuLKjITzIr01wyLVWH6RYPAE5RWkwlfNA/edit#heading=h.bs9dcv9mioqd)
 
@@ -190,7 +190,7 @@ program:
       - external:
           title: Q&A session
           description: Meet the the experts
-          author: Daniela Brites & Galo A. Goig
+          author: [dbrites, GaloGS]
           other:
             - label: Time
               value: "11:30-12:30 CET"
@@ -202,7 +202,7 @@ program:
       - external:
           title: Q&A session
           description: Meet the the experts
-          author: Daniela Brites & Galo A. Goig
+          author: [dbrites,GaloGS]
           other:
             - label: Time
               value: "16:30-17:30 CET"
@@ -223,7 +223,7 @@ program:
           channel: event-mtb-ngs
       - external:
           title: "Webinar: Drug resistance prediction"
-          author: Galo A. Goig
+          author: GaloGS
           description: Principles of drug resistance detection from genomic data
           length: 20m
           video: Ddwt-_gQR2M
@@ -234,7 +234,7 @@ program:
 
       - external:
           title: "Webinar: Phylogenetic and mutations"
-          author: Galo A. Goig
+          author: GaloGS
           description: |
             This video will introduce two types of mutations to take into account when studying
             drug resistance patterns
@@ -246,13 +246,13 @@ program:
             *The completion of this assessment is a requirement for the certificate of attendance.*
       - external:
           title: "Webinar: The concept of clustering"
-          author: Galo A. Goig
+          author: GaloGS
           description: Main aspects of clustering analysis to infer transmission in MTBC
           length: 15m
           video: l4cPUECJ7VU
       - external:
           title: "Webinar: Genetic distance thresholds"
-          author: Galo A. Goig
+          author: GaloGS
           description: Clustering as an approximation to infer transmission
           length: 15m
           video: kKNgmpy1N94
@@ -268,7 +268,7 @@ program:
       - external:
           title: Q&A
           description: Discussion with the experts
-          author: Galo A. Goig & Christoph Stritt
+          author: [GaloGS,cstritt]
           other:
             - label: Time
               value: "11:30-12:30 CET"
@@ -281,7 +281,7 @@ program:
 
       - external:
           title: Q&A
-          author: Galo A. Goig & Christoph Stritt
+          author: [GaloGS,cstritt]
           description: Discussion with the experts
           other:
             - label: Time
@@ -309,7 +309,7 @@ program:
           channel: event-mtb-ngs
       - external:
           title: "Webinar: Web tools for analysis of MTBC sequenced data"
-          author: Arash Ghodousi
+          author: arashghodousi
           description: Introduction to most common web tools for fast identification of bacterial species from raw sequencing reads
           length: 50m
           video: HVQaq2GXCAc
@@ -319,7 +319,7 @@ program:
             *The completion of this assessment is a requirement for the certificate of attendance.*
       - external:
           title: "Webinar: Introduction to the MTBseq pipeline"
-          author: Arash Ghodousi
+          author: arashghodousi
           description: Introduction to MTBseq pipeline, an automated pipeline for mapping, variant calling and detection of resistance mediating and phylogenetic variants from whole genome sequence data of MTBC
           length: 30m
           video: ob29WYXwLxo
@@ -327,7 +327,7 @@ program:
       - external:
           title: Q&A
           description: Meet the the experts
-          author: Andrea Spitaleri
+          author: andreaspitaleri
           other:
             - label: Time
               value: "11:30-12:30 CET"
@@ -359,19 +359,19 @@ program:
     trainings:
       - external:
           title: "Webinar: Introduction to Linux"
-          author: Andrea Spitaleri
+          author: andreaspitaleri
           description: "Introduction to Linux OS: installation and usage"
           length: 35m
           video: N8rW07ByQOE
       - external:
           title: "Webinar: How to run programs (Python, Docker, Singularity)"
-          author: Andrea Spitaleri
+          author: andreaspitaleri
           description: Learning how to install and use programs to analyze data
           length: 35m
           video: feYweAQNGS8
       - external:
           title: "Webinar: Demo on how to run the Linux command line"
-          author: Andrea Spitaleri
+          author: andreaspitaleri
           description:   Demo video on how to use the shell commands
           length: 20m
           video: 7V7LCjUEg1c
@@ -384,7 +384,7 @@ program:
       - external:
           title: Q&A
           description: Discussion with the experts
-          author: Arash Ghodousi & Andrea Spitaleri
+          author: [arashghodousi,andreaspitaleri]
           other:
             - label: Time
               value: "16:30-17:30 CET"
@@ -401,7 +401,7 @@ program:
       - external:
           title: Q&A
           description: Discussion with the experts
-          author: All
+          author: [dbrites,cstritt,andreacabibbe,annalenaguske, andreaspitaleri,GaloGS,arashghodousi,liliana-rutaihwa]
           other:
             - label: Time
               value: "10:00-12:30 CET"

@@ -1,6 +1,8 @@
 
 
 
+<div class="flex-row" style="margin-top:1em;">
+ <div class="col-md-8">
 
 <h3 class="session-section">{{include.config.title}}</h3>
 <p>{{include.config.description}}</p>
@@ -76,12 +78,27 @@
  {% if include.config.author %}
  <tr>
    <td><strong>Author(s):</strong></td>
-   <td> {{ include.config.author }} </td>
+   <td> {% for a in include.config.author %}{{ site.data.instructors[a].name }}{% unless forloop.last %}, {% endunless %}{% endfor %} </td>
  </tr>
  {% endif %}
  </table>
  {% if include.config.note %}
  <p> {{include.config.note | markdownify }} </p><br>
  {% endif %}
- <p class="text-muted"> Note: This is a training session outside of the GTN. Please contact the authors if you have questions.</p>
-</div>
+  </div>
+ </div>
+
+<!-- speaker(s) -->
+ {% assign s = include.config.author %}
+ {% assign numspeakers = include.video.speakers.size %}
+
+ <div class="col-md-3">
+  <center><h3 class="session-section">Speaker{%if numspeakers>1%}s{%endif%}</h3></center>
+  {% include speakers.html speakers=s border="yes"%}
+ </div>
+
+
+<p class="text-muted"> Note: This is a training session outside of the GTN. Please contact the authors if you have questions.</p>
+
+
+</div> <!-- end external session -->
