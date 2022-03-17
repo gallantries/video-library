@@ -89,6 +89,7 @@
  </div>
 
 <!-- speaker(s) -->
+ {% if include.config.author %}
  {% assign s = include.config.author %}
  {% assign numspeakers = include.video.speakers.size %}
 
@@ -96,7 +97,7 @@
   <center><h3 class="session-section">Speaker{%if numspeakers>1%}s{%endif%}</h3></center>
   {% include speakers.html speakers=s border="yes"%}
  </div>
-
+ {% endif %}
 
 <p class="text-muted"> Note: This is a training session outside of the GTN. Please contact the authors if you have questions.</p>
 
