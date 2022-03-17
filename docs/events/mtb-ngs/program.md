@@ -405,4 +405,9 @@ program:
             - label: Zoom
               link: https://swisstph.zoom.us/j/84656236451
 
+  wrapup:
+    title: Wrap-up
+    trainings:
+      - certificates
+
 ---
