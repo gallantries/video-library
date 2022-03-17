@@ -36,7 +36,7 @@ program:
   prelim:
     title: Welcome & Setup
     trainings:
-
+      - setup
       - external:
           title: Live Welcome session (optional)
           description: We would like to welcome you to this trainning, to present ourselves and to clarify any organizational question you might have.
@@ -47,8 +47,6 @@ program:
               link: https://swisstph.zoom.us/j/84656236451
 
       - code-of-conduct
-      - setup
-      - certificates
 
   day1:
     title: "Day 1: Overview of NGS technologies & TB specific NGS solutions"
@@ -81,7 +79,7 @@ program:
           length: 1h10m
           author: andreacabibbe
           note: |
-            **Finished watching the webinar as part of the Mtb NGS event?** Share your thoughts with us [here](https://docs.google.com/document/d/1EfgttagZ8hBfjQiRznsCgDYVpzi3CF55cHqjarYa97o/edit#heading=h.e69aqv1nq3gw)
+            **Finished watching the webinar as part of the Mtb NGS training event?** Share your thoughts with us [here](https://docs.google.com/document/d/1EfgttagZ8hBfjQiRznsCgDYVpzi3CF55cHqjarYa97o/edit#heading=h.e69aqv1nq3gw)
 
             *The completion of this assessment is a requirement for the certificate of attendance.*
       - external:
@@ -101,7 +99,6 @@ program:
           description: |
             If you are part of the Mtb NGS training event we would like to hear your opinion on the following questions and promote discussion in this Q&A session. Please let us know your thoughts on one or more of the following questions in the shared notes; 1) How do I choose the right sequencing technology for my samples? 2) What is needed for NGS? 3) Why is NGS better for drug resistance and outbreak analysis? Also take the chance to ask us or write down in the shared notes other questions you might have.
 
-            *The completion of this assessment is a requirement for the certificate of attendance.*
           other:
             - label: Time
               value: "14:00 -16:00 CET"
@@ -109,10 +106,10 @@ program:
               link: https://docs.google.com/document/d/1VtGho4Zz0qFp5tzqD8rl7NU83xtYb4tCkLDitC3DrhQ/edit#
             - label: Zoom
               link: https://swisstph.zoom.us/j/84656236451
-
-
+          note: |
+            *The completion of this assessment is a requirement for the certificate of attendance.*
   day2:
-    title: Mapping and Variant calling in MTBC
+    title: "Mapping and Variant calling in MTBC"
     description: |
       The 20 strains isolated in your country have been sequenced with Illumina technology
       to obtain whole-genome sequences. In this part of the workshop you will learn how to
@@ -159,7 +156,7 @@ program:
       we are interested in determining to what genes they belong, to what pathways or for
       instance if they are likely to disrupt protein function. This procedure is called
       annotation. Once we have gone through each of these steps we are ready to analyse drug
-      resistant patterns, draw phylogenetic relationships or identify recent transmission of M.
+      resistant patterns, draw phylogenetic relationships or identify clusters of transmission M.
       tuberculosis.
 
       You are now ready for performing bioinformatic analysis in Galaxy. Before we start we
@@ -233,8 +230,8 @@ program:
             *The completion of this assessment is a requirement for the certificate of attendance.*
 
       - external:
-          title: "Webinar: Phylogenetic and mutations"
-          author: GaloGS
+          title: 'Webinar: "Phylogenetic" mutations'
+          author: Galo A. Goig
           description: |
             This video will introduce two types of mutations to take into account when studying
             drug resistance patterns
