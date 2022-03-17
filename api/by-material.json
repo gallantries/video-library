@@ -1120,7 +1120,7 @@
       ]
     }
   ],
-  "topics/transcriptomics/tutorials/scrna-JUPYTER-trajectories/tutorial.html": [
+  "topics/transcriptomics/tutorials/bulk-music/tutorial.html": [
     {
       "captions": [
         "mtekman",
@@ -1133,7 +1133,9 @@
       "speakers": [
         "nomadscientist"
       ]
-    },
+    }
+  ],
+  "topics/transcriptomics/tutorials/scrna-JUPYTER-trajectories/tutorial.html": [
     {
       "captions": [
         "nomadscientist"

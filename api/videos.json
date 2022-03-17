@@ -2487,7 +2487,7 @@
     "description": "Bulk RNA-seq data contains a mixture of transcript signatures from\nseveral types of cells. We wish to deconvolve this mixture to obtain\nestimates of the proportions of cell types within the bulk sample. To\ndo this, we can use single cell RNA-seq data as a reference for\nestimating the cell type proportions within the bulk data.\n\nIn this tutorial, we will use bulk and single-cell RNA-seq data, including\nmatrices of similar tissues from different sources, to illustrate how to infer\ncell type abundances from bulk RNA-seq.\n",
     "materials": [
       {
-        "link": "topics/transcriptomics/tutorials/scrna-JUPYTER-trajectories/tutorial.html",
+        "link": "topics/transcriptomics/tutorials/bulk-music/tutorial.html",
         "type": "Tutorial"
       }
     ],
