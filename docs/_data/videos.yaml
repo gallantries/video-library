@@ -1817,7 +1817,7 @@ transcriptomics/bulk-music/tutorial:
         matrices of similar tissues from different sources, to illustrate how to infer
         cell type abundances from bulk RNA-seq.
   materials:
-  - link: topics/transcriptomics/tutorials/scrna-JUPYTER-trajectories/tutorial.html
+  - link: topics/transcriptomics/tutorials/bulk-music/tutorial.html
     type: Tutorial
   tags:
   - transcriptomics
