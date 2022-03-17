@@ -21,7 +21,7 @@ layout: default
 				{% for affil in contributors[page.contributor].affiliation %}
 				<a href="{{ site.data.affiliations[affil].link }}">
 					{{ site.data.affiliations[affil].name }}
-				</a>
+				</a>{% unless forloop.last %} & {% endunless %}
 				{% endfor %}
 			</div>
 		</div>
