@@ -9,17 +9,28 @@ description: |
   <br><br>
 
 certbot: false
-instructors: [dbrites,cstritt,andreacabibbe,annalenaguske, andreaspitaleri,GaloGS,arashghodousi,liliana-rutaihwa]
+instructors: [dbrites,cstritt,andreacabibbe,annalenaguske, andreaspitaleri,GaloGS,arashghodousi,liliana-rutaihwa,pvanheus]
 
 setup:
   servers:
     - server: eu
-      tiaas: mtb-ngs
+      tiaas: mtuberculosisngs
 
   slack:
     event_channel:
-      name: "#event-mtb-ngs"
+      name: event-mtb-ngs
       link: "https://gtnsmrgsbord.slack.com/archives/C035Q01UA2F"
+      useforall: true
+    notes: |
+      **Be active on Slack!**
+        - Join the Slack channel every day
+        - Talk about the session you just attended! Got stuck? Have a question about the science? Want to discuss anything? Want to thank your instructors? Do it in Slack!
+        - Enjoyed a hands-on tutorial? Take a moment to thank your (volunteer) instructors and speakers on Slack
+        - And please, feel free to help other participants on Slack if you know the answer!"
+
+certificates:
+  request_form: "https://forms.gle/X2qgMQeobygH4orB8"
+  certbot: false
 
 program:
   prelim:
@@ -36,7 +47,6 @@ program:
               link: https://swisstph.zoom.us/j/84656236451
 
       - code-of-conduct
-
 
   day1:
     title: "Day 1: Overview of NGS technologies & TB specific NGS solutions"
@@ -67,14 +77,14 @@ program:
             kind of problem.
           video: BcfBjCJRmUs
           length: 1h10m
-          author: Andrea Cabibbe
+          author: andreacabibbe
           note: |
             **Finished watching the webinar as part of the Mtb NGS training event?** Share your thoughts with us [here](https://docs.google.com/document/d/1EfgttagZ8hBfjQiRznsCgDYVpzi3CF55cHqjarYa97o/edit#heading=h.e69aqv1nq3gw)
 
             *The completion of this assessment is a requirement for the certificate of attendance.*
       - external:
           title: "Webinar: Implementation of NGS for TB- WHO documents and other considerations"
-          author: Andrea Cabibbe
+          author: andreacabibbe
           video: eSWnPange8w
           description: |
             This webinar will summarize the recommendations and considerations available from the WHO
@@ -168,7 +178,7 @@ program:
           video: todo
           length: 45m
           video: 38GUBKwWXv8
-          author: Daniela Brites
+          author: dbrites
           note: |
             **Finished watching the webinar as part of the Mtb NGS training event?** Share your thoughts with us [here](https://docs.google.com/document/d/18y0PScnbA0GuLKjITzIr01wyLVWH6RYPAE5RWkwlfNA/edit#heading=h.bs9dcv9mioqd)
 
@@ -177,17 +187,19 @@ program:
       - external:
           title: Q&A session
           description: Meet the the experts
-          author: Daniela Brites & Galo A. Goig
+          author: [dbrites, GaloGS]
           other:
             - label: Time
               value: "11:30-12:30 CET"
             - label: Zoom Link
               link: https://swisstph.zoom.us/j/84656236451
-      - session: variant-analysis/tb-variant-analysis
+      - self-study: variant-analysis/tb-variant-analysis
+        description: Variation in the genome of M. tuberculosis (Mtb) is associated with changes in phenotype, for example drug resistance and virulence. It is also useful for outbreak investigation as the single nucleotide polymorphisms (SNPs) in a sample can be used to build a phylogeny.
+        prefix: "Hands-on: "
       - external:
           title: Q&A session
           description: Meet the the experts
-          author: Daniela Brites & Galo A. Goig
+          author: [dbrites,GaloGS]
           other:
             - label: Time
               value: "16:30-17:30 CET"
@@ -208,7 +220,7 @@ program:
           channel: event-mtb-ngs
       - external:
           title: "Webinar: Drug resistance prediction"
-          author: Galo A. Goig
+          author: GaloGS
           description: Principles of drug resistance detection from genomic data
           length: 20m
           video: Ddwt-_gQR2M
@@ -231,13 +243,13 @@ program:
             *The completion of this assessment is a requirement for the certificate of attendance.*
       - external:
           title: "Webinar: The concept of clustering"
-          author: Galo A. Goig
+          author: GaloGS
           description: Main aspects of clustering analysis to infer transmission in MTBC
           length: 15m
           video: l4cPUECJ7VU
       - external:
           title: "Webinar: Genetic distance thresholds"
-          author: Galo A. Goig
+          author: GaloGS
           description: Clustering as an approximation to infer transmission
           length: 15m
           video: kKNgmpy1N94
@@ -245,31 +257,28 @@ program:
             **Finished watching as part of the Mtb NGS training event?** Share your thoughts with us [here](https://docs.google.com/document/d/1Q4mw-y3FZrGvmz3VNQrLkLslsi5QoTgDxwhAYYYdvjI/edit#)
 
             *The completion of this assessment is a requirement for the certificate of attendance.*
-      - external:
-          title: "Hands-on: Performing clustering analysis & drug resistance prediction"
-          author: Galo A. Goig
-          description: Learning how to do clustering analysis and interpret drug resistance patterns
-          length: 2h
-          hands-on: https://training.galaxyproject.org/training-material/topics/evolution/tutorials/mtb_transmission/tutorial.html
+
+      - self-study: evolution/mtb_transmission
+        description: Learning how to do clustering analysis and interpret drug resistance patterns
+        prefix: "Hands-on: "
+
       - external:
           title: Q&A
           description: Discussion with the experts
-          author: Galo A. Goig & Christoph Stritt
+          author: [GaloGS,cstritt]
           other:
             - label: Time
               value: "11:30-12:30 CET"
             - label: Zoom
               link: https://swisstph.zoom.us/j/84656236451
 
-      - external:
-          title: "Hands-on: Inference of phylogenetic trees"
-          description: Main principles of phylogenetic inference, tree interpretation
-          author: Christoph Stritt
-          length: 1h
-          hands-on: https://training.galaxyproject.org/training-material/topics/evolution/tutorials/mtb_phylogeny/tutorial.html
+      - self-study: evolution/mtb_phylogeny
+        description: Main principles of phylogenetic inference, tree interpretation
+        prefix: "Hands-on: "
+
       - external:
           title: Q&A
-          author: Galo A. Goig & Christoph Stritt
+          author: [GaloGS,cstritt]
           description: Discussion with the experts
           other:
             - label: Time
@@ -297,7 +306,7 @@ program:
           channel: event-mtb-ngs
       - external:
           title: "Webinar: Web tools for analysis of MTBC sequenced data"
-          author: Arash Ghodousi
+          author: arashghodousi
           description: Introduction to most common web tools for fast identification of bacterial species from raw sequencing reads
           length: 50m
           video: HVQaq2GXCAc
@@ -307,7 +316,7 @@ program:
             *The completion of this assessment is a requirement for the certificate of attendance.*
       - external:
           title: "Webinar: Introduction to the MTBseq pipeline"
-          author: Arash Ghodousi
+          author: arashghodousi
           description: Introduction to MTBseq pipeline, an automated pipeline for mapping, variant calling and detection of resistance mediating and phylogenetic variants from whole genome sequence data of MTBC
           length: 30m
           video: ob29WYXwLxo
@@ -315,7 +324,7 @@ program:
       - external:
           title: Q&A
           description: Meet the the experts
-          author: Andrea Spitaleri
+          author: andreaspitaleri
           other:
             - label: Time
               value: "11:30-12:30 CET"
@@ -347,19 +356,19 @@ program:
     trainings:
       - external:
           title: "Webinar: Introduction to Linux"
-          author: Andrea Spitaleri
+          author: andreaspitaleri
           description: "Introduction to Linux OS: installation and usage"
           length: 35m
           video: N8rW07ByQOE
       - external:
           title: "Webinar: How to run programs (Python, Docker, Singularity)"
-          author: Andrea Spitaleri
+          author: andreaspitaleri
           description: Learning how to install and use programs to analyze data
           length: 35m
           video: feYweAQNGS8
       - external:
           title: "Webinar: Demo on how to run the Linux command line"
-          author: Andrea Spitaleri
+          author: andreaspitaleri
           description:   Demo video on how to use the shell commands
           length: 20m
           video: 7V7LCjUEg1c
@@ -372,7 +381,7 @@ program:
       - external:
           title: Q&A
           description: Discussion with the experts
-          author: Arash Ghodousi & Andrea Spitaleri
+          author: [arashghodousi,andreaspitaleri]
           other:
             - label: Time
               value: "16:30-17:30 CET"
@@ -383,13 +392,13 @@ program:
     title: Day 5
     description: |
       Today all experts will  be available to answer your questions and discuss any
-      of the tutorials, webinars or questions related to your own data. Meet with us at the
+      of the tutorials, webinars, or questions related to your own data. Meet with us at the
       zoom link!
     trainings:
       - external:
           title: Q&A
           description: Discussion with the experts
-          author: All
+          author: [dbrites,cstritt,andreacabibbe,annalenaguske, andreaspitaleri,GaloGS,arashghodousi,liliana-rutaihwa]
           other:
             - label: Time
               value: "10:00-12:30 CET"

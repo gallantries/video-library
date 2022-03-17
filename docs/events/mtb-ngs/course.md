@@ -37,12 +37,14 @@ instructors:
   - GaloGS
   - arashghodousi
   - liliana-rutaihwa
+  - pvanheus
 
 institutions:
   - swiss-tph
   - irccs
   - linq
   - find
+  - uni-san-raffaele
 
 ---
 
@@ -88,10 +90,10 @@ This workshop is virtual and asynchronous. Training sessions are pre-recorded an
 ### Day 1 - **WELCOME! And Practical Information**
 *{{"2022-03-21" | date: "%-d %B %Y" }}*
 
-Topic | Speaker | Duration
+Topic | Speaker | Time/Duration
 --- | ---  | ---
-Welcome and course information | All instructors | 5m
-Get ready for the course |  | 5m
+Welcome and course information [here](https://swisstph.zoom.us/j/84656236451) | All instructors | 10:30-11:00am CET
+Get ready for the course | - | 5-10m
 
 <br>
 
@@ -101,7 +103,7 @@ Get ready for the course |  | 5m
 Topic | Speaker  | Description | Duration
 --- | --- | --- | ---
 Overview of NGS technologies & TB specific NGS solutions | Andrea Cabibbe  | __Webinar:__ This webinar will introduce different sequencing technologies and what applies best to what kind of problem. | 1h10m
-Implementation of NGS for TB- WHO documents and other  considerations  | Andrea Cabibbe | __Webinar:__ This webinar will summarize the recommendations and considerations available from the WHO documents on the use of NGS for TB| 62m
+Implementation of NGS for TB- WHO documents and other  considerations  | Andrea Cabibbe | __Webinar:__ This webinar will summarize the recommendations and considerations available from the WHO documents on the use of NGS for TB| 1h
 Live Discussion [here](https://swisstph.zoom.us/j/84656236451)  (**14:00 -16:00 CET**) | Andrea Cabibbe & Liliana Rutaihwa |__Q&A session:__  How do I choose the right sequencing technology for my samples? What is needed for NGS? Why is NGS better for drug resistance and outbreak analysis? | 2h
 
 <br>
@@ -116,7 +118,7 @@ Galaxy 101 | Anton Nekrutenko | __Hands-on:__ *This tutorial will introduce you 
 Mapping and Variant calling  | Daniela Brites | __Video:__ llumina sequencing principles.  __Webinar:__ Main bioinformatics steps involved in mapping and variant calling from Illumina short reads applied to MTBC | 45m
 Live discussion [here](https://swisstph.zoom.us/j/84656236451) (**11:30-12:30 CET**) | Daniela Brites & Galo Goig | **Q&A session**| 1h
 Mapping & Variant Calling | Peter van Heusden |  __Hands-on:__ Learn how to manipulate and process short reads obtained from MTBC isolates. Get familiar with quality control, mapping and NGS filetypes| 2h
-Live discussion [here](https://swisstph.zoom.us/j/84656236451)| Daniela Brites & Galo Goig  | **Q&A Live session**  | 1h
+Live discussion [here](https://swisstph.zoom.us/j/84656236451) (**16:30-17:30 CET**) | Daniela Brites & Galo Goig  | **Q&A Live session**  | 1h
 {:.table.table-striped}
 
 <br>
@@ -127,31 +129,29 @@ Live discussion [here](https://swisstph.zoom.us/j/84656236451)| Daniela Brites &
 
 Topic | Speaker | Description | Duration
 --- | --- | --- | ---
-Drug resistance prediction  | Galo A. Goig | __Webinar:__ This video will introduce principles of drug resistance detection from genomic data | 15m
-Phylogenetic and compensatory mutations | Galo A. Goig | __Webinar:__ This video will introduce two types of mutations to take into account when studying drug resistance patterns | 15m
+Drug resistance prediction  | Galo A. Goig | __Webinar:__ This video will introduce principles of drug resistance detection from genomic data | 20m
+"Phylogenetic" mutations | Galo A. Goig | __Webinar:__ This video will introduce two types of mutations to take into account when studying drug resistance patterns | 15m
 The concept of clustering | Galo A. Goig | __Webinar:__ Main aspects of clustering analysis to infer transmission in MTBC | 15m
-Genetic distance thresholds | Galo A. Goig | __Webinar:__ Clustering as an approximation to infer transmission| 25m
+Genetic distance thresholds | Galo A. Goig | __Webinar:__ Clustering as an approximation to infer transmission| 15m
 Performing clustering analysis & drug resistance prediction | Galo A. Goig  | __Hands-on:__ Learning how to do clustering analysis and interpret drug resistance patterns | 2h
 Live discussion [here](https://swisstph.zoom.us/j/84656236451) (**11:30-12:30 CET**)| Galo A. Goig & Christop Stritt  |**Q&A Live session**| 1h
-Introduction to phylogenetics | EMBL-EBI| __Recommended hands-on:__ https://www.ebi.ac.uk/training/online/courses/introduction-to-phylogenetics/ | 1h
 Inference of phylogenetic trees | Christoph Stritt |  __Hands-on:__ Main principles of phylogenetic inference, tree interpretation | 1h
 Live discussion [here](https://swisstph.zoom.us/j/84656236451) (**16:30-17:30 CET**) |  Christop Stritt & Galo A. Goig  |  **Q&A Live session**| 1h
 {:.table.table-striped}
 
 <br>
 
-### Day 4 - **Webtools dedicated to MTBC bioinformatics & Be a bioinformatician in the jungle**
+### Day 4 - **Webtools dedicated to MTBC bioinformatics & Be a bioinformatician in the jungle (optional)**
 *{{"2022-03-24" | date: "%-d %B %Y" }}*
 
 Topic | Speaker  | Description | Duration
 --- | --- | --- | ---
 Web tools for analysis of MTBC sequenced data | Arash Ghodousi | __Webinar:__ This video will introduce web tools designed for analysis of MTBC sequenced data |  50m
 Introduction to the MTBseq pipeline  | Arash Ghodousi  | __Webinar:__ Introduction the MTBseq pipeline, an automated pipeline for mapping, variant calling and detection of resistance mediating and phylogenetic variants in MTBC | 30m
-Demonstration of data analysis using the webtools| Arash Ghodousi |__Webinar:__  Learning how to analyze and interpret sequenced data by webtools| 45m
 Live discussion [here](https://swisstph.zoom.us/j/84656236451) (**11:30-12:30 CET**)| Andrea Spitaleri| **Q&A Live session**| 1h
 Introduction to linux | Andrea Spitaleri | __Webinar:__ Introduction to Linux OS: installation and usage | 30m
 How to run programs (Python, Docker, Singularity) |  Andrea Spitaleri  |  __Webinar:__ Learning how to install and use programs to analyze data| 30m
-Demo video on how to use the shell commands | Andrea Spitaleri |__Webinar:__  Demo video on how to use the shell commands | 25m
+Demo video on how to use the shell commands | Andrea Spitaleri |__Webinar:__  Demo video on how to use the shell commands | 20m
 The Unix Shell (optional) | Software carpentries  |  Recommended **hands-on** tutorial from software carpentries| 4h
 Live discussion [here](https://swisstph.zoom.us/j/84656236451) (**16:30-17:30 CET**)| Andrea Spitaleri & Arash Ghodousi |  **Q&A Live session**| 1h
 
@@ -162,7 +162,7 @@ Live discussion [here](https://swisstph.zoom.us/j/84656236451) (**16:30-17:30 CE
 ### Day 5 - Live Discussion (optional)
 *{{"2022-03-25" | date: "%-d %B %Y" }}*
 
-All instructors available from **10:00h-12:30** CET [here](https://swisstph.zoom.us/j/84656236451)
+All instructors available live from **10:00h-12:30 am** CET [here](https://swisstph.zoom.us/j/84656236451)
 
 <br>
 

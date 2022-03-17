@@ -24,7 +24,7 @@
        {% include session.html session=s type='video' id=session.video module=module_id %}
 
      {% elsif session.self-study %}
-       {% assign title = site.data.gtn[session.self-study]%}
+       {% capture title %}{{session.prefix}} {{site.data.gtn[session.self-study]}}{% endcapture %}
        {% include custom-session.html type="self-study" config=session title=title %}
 
      {% elsif session.external %}

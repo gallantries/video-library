@@ -32,6 +32,7 @@ setup:
     event_channel:
       name: "#event-testevent"
       link: "https://gtnsmrgsbord.slack.com/archives/C01EDBVMHBQ"
+      useforall: true  # set this if you want all questions to go here, rather than the individual tutorial channels
 
 certificates:  # optional. If you provide certificates for your event, which participants should request
   request_form: "https://feedbackform.example.com"
@@ -73,6 +74,8 @@ program:
       - self-study: climate/fates
         type: [slides]
       - self-study: assembly/mrsa-nanopore  # default type is tutorial only
+        description: This tutorial will cover X  # add a description
+        prefix: "Hands-on: "                     # prefix for the session title
       - external:                   # if you want to include something outside of the GTN? No problem!
           title: My External Session
           description: This is a training that is not in the GTN, but it will teach you about XYZ

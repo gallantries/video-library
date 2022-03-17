@@ -8,7 +8,10 @@
   2. **Open the Slack channel for the tutorial** you finished
      - The link to this channel is listed below the video
   2. **Submit your history URL** in this channel using the command:
-    - /completed {% unless include.gat %}https://link_to_your_history{% endunless %}
+
+     /completed {% unless include.gat %}https://link_to_your_history{% endunless %}
+
+    - **NOTE:** Your message must START with /completed, you cannot write this in the middle or end of the message.
     - **NOTE:** If a tutorial results in mulltiple histories, you can submit them all in the same command:
           - example: `/completed history1_url history2_url`
   3. **Write a short message** in the channel letting us know what you thought of the tutorial, and/or thanking the instructors!

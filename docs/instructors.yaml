@@ -23,7 +23,7 @@ andreacabibbe:
 
 andreaspitaleri:
     name: Andrea Spitaleri
-    affiliation: irccs
+    affiliation: [irccs, uni-san-raffaele]
     photo: spitaleri_andrea.jpg
 
 andrewr:
@@ -50,7 +50,8 @@ anuprulez:
 
 arashghodousi:
     name: Arash Ghodousi
-    affiliation: irccs
+    affiliation: [irccs,uni-san-raffaele]
+    photo: arash.jpeg
 
 assuntad23:
     name: Assunta DeSanto
@@ -121,6 +122,7 @@ dbrites:
     name: Daniela Brites
     email: d.brites@swisstph.ch
     affiliation: swiss-tph
+    photo: daniela_brites.jpeg
 
 dannon:
     name: Dannon Baker
@@ -243,6 +245,7 @@ ksuderman:
 liliana-rutaihwa:
     name: Liliana Rutaihwa
     affiliation: find
+    photo: liliana_r.jpeg
 
 lldelisle:
     name: Lucille Delisle
