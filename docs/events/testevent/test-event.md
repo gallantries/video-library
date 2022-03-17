@@ -32,6 +32,7 @@ setup:
     event_channel:
       name: "#event-testevent"
       link: "https://gtnsmrgsbord.slack.com/archives/C01EDBVMHBQ"
+      useforall: true  # set this if you want all questions to go here, rather than the individual tutorial channels
 
 certificates:  # optional. If you provide certificates for your event, which participants should request
   request_form: "https://feedbackform.example.com"
