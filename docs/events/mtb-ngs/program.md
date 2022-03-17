@@ -36,7 +36,7 @@ program:
               link: https://swisstph.zoom.us/j/84656236451
 
       - code-of-conduct
-      
+
 
   day1:
     title: "Day 1: Overview of NGS technologies & TB specific NGS solutions"
@@ -96,8 +96,8 @@ program:
               link: https://docs.google.com/document/d/1VtGho4Zz0qFp5tzqD8rl7NU83xtYb4tCkLDitC3DrhQ/edit#
             - label: Zoom
               link: https://swisstph.zoom.us/j/84656236451
-              
-              *The completion of this assessment is a requirement for the certificate of attendance.*
+          note: |
+            *The completion of this assessment is a requirement for the certificate of attendance.*
   day2:
     title: "Mapping and Variant calling in MTBC"
     description: |
@@ -218,7 +218,7 @@ program:
             *The completion of this assessment is a requirement for the certificate of attendance.*
 
       - external:
-          title: "Webinar: "Phylogenetic" mutations"
+          title: 'Webinar: "Phylogenetic" mutations'
           author: Galo A. Goig
           description: |
             This video will introduce two types of mutations to take into account when studying
