@@ -37,12 +37,14 @@ instructors:
   - GaloGS
   - arashghodousi
   - liliana-rutaihwa
+  - pvanheus
 
 institutions:
   - swiss-tph
   - irccs
   - linq
   - find
+  - uni-san-raffaele
 
 ---
 
