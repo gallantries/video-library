@@ -24,6 +24,7 @@
   - /request-certificate <Your Full Name>
     - to request a certificate for the course.
     - Enter your name as you would like it to appear on the Certificate
+        - example: `/request-certificate Saskia Hiltemann`
   - In **any channel**, or a message to [@GTN Certificate Bot](https://gtnsmrgsbord.slack.com/app_redirect?channel=U02EWBWKWKT)
   {%- if include.config.deadline -%}- Deadline: {{include.config.deadline | date_to_long_string }}{% endif %}
   - We will review your Galaxy histories, and send you your personalised certificate
