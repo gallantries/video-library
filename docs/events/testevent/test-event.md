@@ -88,7 +88,7 @@ program:
               link: "https://galaxyproject.org/"
             - label: Time
               value: "11:30-12:30 CET"
-          author: "External Person X"
+          author: [shiltemann, hexylena]  # refers to id's in contributors.yaml
 
 
 
