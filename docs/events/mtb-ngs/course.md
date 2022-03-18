@@ -171,8 +171,8 @@ All instructors available live from **10:00h-12:30 am** CET [here](https://swiss
 Please feel free to hang around in Slack and talk to us and the rest of the Galaxy community! Thanks for joining!!
 
 
-- Feedback Survey
-- Certificates
+- [Feedback Survey](https://forms.gle/6Xn8WudBvr3NMC3W7)
+- [Certificate Request From](https://forms.gle/X2qgMQeobygH4orB8)
 
 ## After the Course
 All these materials will remain online, so you can continue working on them for as long as you want. The only difference will be that you should ask your questions on the [GTN Gitter channel](https://gitter.im/Galaxy-Training-Network/Lobby), instead of Slack.

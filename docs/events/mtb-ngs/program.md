@@ -9,7 +9,7 @@ description: |
   <br><br>
 
 certbot: false
-instructors: [dbrites,cstritt,andreacabibbe,annalenaguske, andreaspitaleri,GaloGS,arashghodousi,liliana-rutaihwa,pvanheus]
+instructors: [dbrites, cstritt, andreacabibbe, annalenaguske, andreaspitaleri, GaloGS, arashghodousi, liliana-rutaihwa, pvanheus]
 
 setup:
   servers:
@@ -31,6 +31,10 @@ setup:
 certificates:
   request_form: "https://forms.gle/X2qgMQeobygH4orB8"
   certbot: false
+  deadline: 2022-04-01
+
+feedback:
+  form: "https://forms.gle/6Xn8WudBvr3NMC3W7"
 
 program:
   prelim:
@@ -45,11 +49,10 @@ program:
               value: 21st March, 10:30am-11:00am
             - label: Zoom
               link: https://swisstph.zoom.us/j/84656236451
-
       - code-of-conduct
 
   day1:
-    title:"Day 1"
+    title: "Day 1"
     description: |
       There were unusually high rates of TB cases in your country this year. To characterize the underlying
       bacterial factors driving the epidemic, isolates have been sent for whole-genome sequencing.  Doctors and public
@@ -63,15 +66,15 @@ program:
         - Do we have on-going transmission?
 
       We hope that at the end of the different training sessions you can answer this question on your own!
-   
-   day1-1:
+
+  day1-1:
     title: "Overview of NGS technologies & TB specific NGS solutions"
     subday: true
 
     trainings:
       - icebreaker:
-         - prompt: "Introduce yourself and tell us one fun fact about yourself!"
-           channel: "event-mtb-ngs"
+          - prompt: "Introduce yourself and tell us one fun fact about yourself!"
+            channel: "event-mtb-ngs"
       - external:
           title: "Webinar: Overview of NGS technologies & TB specific NGS solutions"
           description: |
@@ -81,8 +84,8 @@ program:
           length: 1h10m
           author: andreacabibbe
           other:
-            -label:Assessment
-             value:"**Finished watching the webinar as part of the Mtb NGS training event?** Share your thoughts with us [here](https://docs.google.com/document/d/1EfgttagZ8hBfjQiRznsCgDYVpzi3CF55cHqjarYa97o/edit#heading=h.e69aqv1nq3gw)"
+            - label: Assessment
+              value: "Finished watching the webinar as part of the Mtb NGS training event? Share your thoughts with us [here](https://docs.google.com/document/d/1EfgttagZ8hBfjQiRznsCgDYVpzi3CF55cHqjarYa97o/edit#heading=h.e69aqv1nq3gw)"
           note: |
             *The completion of this assessment is a requirement for the certificate of attendance.*
       - external:
@@ -94,11 +97,11 @@ program:
             documents on the use of NGS for TB
           length: 1h
           other:
-            -label:Assessment
-             value:"**Finished watching the webinar as part of the Mtb NGS training event?** Share your thoughts with us [here](https://docs.google.com/document/d/1yCSyBnC1D5-czrW8xUi8sS2ffk_igB7quqhbHr7PE-U/edit#)"
+            - label: Assessment
+              value: "Finished watching the webinar as part of the Mtb NGS training event? Share your thoughts with us [here](https://docs.google.com/document/d/1yCSyBnC1D5-czrW8xUi8sS2ffk_igB7quqhbHr7PE-U/edit#)"
           note: |
             *The completion of this assessment is a requirement for the certificate of attendance.*
-            
+
       - external:
           title: Q&A session
           description: |
@@ -114,7 +117,7 @@ program:
           note: |
             *The completion of this assessment is a requirement for the certificate of attendance.*
   day2:
-    title: "Day 2" 
+    title: "Day 2"
     description: |
       The 20 strains isolated in your country have been sequenced with Illumina technology
       to obtain whole-genome sequences. In this part of the workshop you will learn how to
@@ -138,8 +141,8 @@ program:
       own analysis with your own data.
     trainings:
       - icebreaker:
-        - prompt: "What is the coolest, most mind blowing fact (nature/people/animal etc.) you know?"
-          channel: event-mtb-ngs
+          - prompt: "What is the coolest, most mind blowing fact (nature/people/animal etc.) you know?"
+            channel: event-mtb-ngs
 
   day2-1:
     title: "Session 1: Learning Galaxy"
@@ -180,13 +183,12 @@ program:
       - external:
           title: "Webinar: Mapping and Variant calling"
           description: Main bioinformatics steps involved in mapping and variant calling from Illumina short reads applied to MTBC
-          video: todo
           length: 45m
           video: 38GUBKwWXv8
           author: dbrites
-           other:
-            -label:Assessment
-             value:"**Finished watching the webinar as part of the Mtb NGS training event?** Share your thoughts with us [here](https://docs.google.com/document/d/18y0PScnbA0GuLKjITzIr01wyLVWH6RYPAE5RWkwlfNA/edit#heading=h.bs9dcv9mioqd)"
+          other:
+            - label: Assessment
+              value: "Finished watching the webinar as part of the Mtb NGS training event? Share your thoughts with us [here](https://docs.google.com/document/d/18y0PScnbA0GuLKjITzIr01wyLVWH6RYPAE5RWkwlfNA/edit#heading=h.bs9dcv9mioqd)"
           note: |
             *The completion of this assessment is a requirement for the certificate of attendance.*
 
@@ -205,7 +207,7 @@ program:
       - external:
           title: Q&A session
           description: Meet the the experts
-          author: [dbrites,GaloGS]
+          author: [dbrites, GaloGS]
           other:
             - label: Time
               value: "16:30-17:30 CET"
@@ -220,22 +222,21 @@ program:
       delving into the analysis of the genomes we would like to share with you some notions
       important to the inference of direct transmission and to the interpretation of drug
       resistant patterns.
-    day3-1:
-      title: "Evolutionary epidemiology: using phylogenetics to understand DR emergence and Mtb transmission"
+  day3-1:
+    title: "Evolutionary epidemiology: using phylogenetics to understand DR emergence and Mtb transmission"
     trainings:
       - icebreaker:
-        - prompt: "What is your favorite dish (food or drink)? Bonus points for recipes!"
-          channel: event-mtb-ngs
+          - prompt: "What is your favorite dish (food or drink)? Bonus points for recipes!"
+            channel: event-mtb-ngs
       - external:
           title: "Webinar: Drug resistance prediction"
           author: GaloGS
           description: Principles of drug resistance detection from genomic data
           length: 20m
           video: Ddwt-_gQR2M
-          
           other:
-            -label:Assessment
-             value:"**Finished watching the webinar as part of the Mtb NGS training event?** Share your thoughts with us [here](https://docs.google.com/document/d/1WnvgYtTUOJGxTUEQCL0-HOlHNkqo293LaqaGB9EKojM/edit#heading=h.bs9dcv9mioqd)"
+            - label: Assessment
+              value: "Finished watching the webinar as part of the Mtb NGS training event? Share your thoughts with us [here](https://docs.google.com/document/d/1WnvgYtTUOJGxTUEQCL0-HOlHNkqo293LaqaGB9EKojM/edit#heading=h.bs9dcv9mioqd)"
           note: |
             *The completion of this assessment is a requirement for the certificate of attendance.*
 
@@ -248,9 +249,9 @@ program:
           length: 15m
           video: 1ps_o5rpnmw
           other:
-            -label:Assessment
-             value:"**Finished watching as part of the Mtb NGS training event?** Share your thoughts with us [here](https://docs.google.com/document/d/1I341zrHJdAn5BEtrtc1KmJZ_x_lez_EWA75iTFBq-R4/edit#)"
-           note: |
+            - label: Assessment
+              value: "Finished watching as part of the Mtb NGS training event? Share your thoughts with us [here](https://docs.google.com/document/d/1I341zrHJdAn5BEtrtc1KmJZ_x_lez_EWA75iTFBq-R4/edit#)"
+          note: |
             *The completion of this assessment is a requirement for the certificate of attendance.*
       - external:
           title: "Webinar: The concept of clustering"
@@ -265,8 +266,8 @@ program:
           length: 15m
           video: kKNgmpy1N94
           other:
-            -label:Assessment
-             value:"**Finished watching as part of the Mtb NGS training event?** Share your thoughts with us [here](https://docs.google.com/document/d/1Q4mw-y3FZrGvmz3VNQrLkLslsi5QoTgDxwhAYYYdvjI/edit#)                      
+            - label: Assessment
+              value: "Finished watching as part of the Mtb NGS training event? Share your thoughts with us [here](https://docs.google.com/document/d/1Q4mw-y3FZrGvmz3VNQrLkLslsi5QoTgDxwhAYYYdvjI/edit#)"
           note: |
             *The completion of this assessment is a requirement for the certificate of attendance.*
 
@@ -283,27 +284,28 @@ program:
               value: "11:30-12:30 CET"
             - label: Zoom
               link: https://swisstph.zoom.us/j/84656236451
-     
-     -external:
-          Title:"Introduction to phylogenetics"
+
+      - external:
+          Title: "Introduction to phylogenetics"
           author: "EMBL-EBI"
           description: "Recommended to those wanting to learn more about phylogenetics"
           length: 1h
-          tutorial:"https://www.ebi.ac.uk/training/online/courses/introduction-to-phylogenetics/"
+          tutorial: "https://www.ebi.ac.uk/training/online/courses/introduction-to-phylogenetics/"
 
       - self-study: evolution/mtb_phylogeny
         description: Main principles of phylogenetic inference, tree interpretation
         prefix: "Hands-on: "
-        
-     - external:
+
+      - external:
           title: "Check what you have learnt!"
-          description:"We hope that you are enjoying the training, and that many things that you are learning will be useful for your research! We would like you to answer some questions, so both you and us, can assess whether the main concepts covered in the hands-on tutorials on Mtb NGS data analysis were understood. For that please follow the link bellow. If you are interested in knowing what we think about these questions join us on Day 5"
-            -label: Assessment
-             link: https://docs.google.com/document/d/1mT6z84iA2-E2D834lH1B6fJrWwfXYBKDkPrKCFAdwqk/edit#
-          note:
+          description: "We hope that you are enjoying the training, and that many things that you are learning will be useful for your research! We would like you to answer some questions, so both you and us, can assess whether the main concepts covered in the hands-on tutorials on Mtb NGS data analysis were understood. For that please follow the link bellow. If you are interested in knowing what we think about these questions join us on Day 5"
+          other:
+            - label: Assessment
+              link: https://docs.google.com/document/d/1mT6z84iA2-E2D834lH1B6fJrWwfXYBKDkPrKCFAdwqk/edit#
+          note: |
             *The completion of this assessment is a requirement for the certificate of attendance.*
-             
-             
+
+
       - external:
           title: Q&A
           author: [GaloGS,cstritt]
@@ -339,9 +341,9 @@ program:
           length: 50m
           video: HVQaq2GXCAc
           other:
-            -label:Assessment
-             value:"**Finished watching as part of the Mtb NGS training event?** Share your thoughts with us [here](https://docs.google.com/document/d/1jdp61AFeyd_fK8XWZ348k7aok779feiCQ3q2uz1RPF0/edit#)#"
-          note: |         
+            - label: Assessment
+              value: "Finished watching as part of the Mtb NGS training event? Share your thoughts with us [here](https://docs.google.com/document/d/1jdp61AFeyd_fK8XWZ348k7aok779feiCQ3q2uz1RPF0/edit#)#"
+          note: |
             *The completion of this assessment is a requirement for the certificate of attendance.*
       - external:
           title: "Webinar: Introduction to the MTBseq pipeline"
@@ -437,6 +439,7 @@ program:
   wrapup:
     title: Wrap-up
     trainings:
+      - feedback
       - certificates
 
 ---
