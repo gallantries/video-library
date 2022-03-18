@@ -1,7 +1,7 @@
 ---
 layout: event
 id: mtb-ngs
-status: draft
+status: final
 title: "Mycobacterium tuberculosis complex NGS made easy: data analysis step-by-step"
 description: |
   ![banner](images/TBCAPT_NGS_Training_banner.jpg)
