@@ -1,6 +1,7 @@
 ---
 layout: program
 module: false
+status: final
 title: "Mycobacterium tuberculosis NGS made easy: data analysis step-by-step"
 description: |
   ![banner](images/TBCAPT_NGS_Training_banner.jpg)
