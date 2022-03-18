@@ -77,7 +77,7 @@
                         {% assign prefix = m.link | split:'/' | first %}
                         {% if prefix == "topics" %}
                         {{ m.title | default:m.type }}:
-                        <a href="{{site.gtn}}/archive/{{archiveyear}}-{{archivemonth}}-01/{{m.link}}?utm_source=schedule&utm_medium=click&utm_campaign=smorgasbord2">Archived Version</a>
+                        <a href="{{site.gtn}}/archive/{{archiveyear}}-{{archivemonth}}-01/{{m.link}}?utm_source=schedule&utm_medium=click&utm_campaign=smorgasbord2">Version in Video</a>
                         |
                         <a href="{{site.gtn}}/{{m.link}}?utm_source=schedule&utm_medium=click&utm_campaign=smorgasbord2">Latest Version</a>
                         {% if m.type == "Tutorial" %}
