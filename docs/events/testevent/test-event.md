@@ -42,7 +42,7 @@ certificates:  # optional. If you provide certificates for your event, which par
 
 feedback:  # optional. If you have a feedback survey for your course
   form: "https://feedback.example.com"
-
+  slack_channel: my-channel  # if useforall: true is set above, will default to the event channel
 
 program:
   preliminary:   # you can define various sections (e.g. days) here

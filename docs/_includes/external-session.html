@@ -69,7 +69,7 @@
    <td> <a href="{{ mat.link }}">link </a> </td>
    {% endif %}
    {% if mat.value %}
-   <td> {{mat.value}} </td>
+   <td> {{mat.value | markdownify }} </td>
    {% endif %}
  </tr>
  {% endfor %}

@@ -18,7 +18,11 @@
      {% endif %}
 
       <li><strong>About the Materials (slides, training manuals):</strong> use the feedback forms at the end of the tutorial on the GTN website. </li>
-      <li><strong>Anything else?</strong> - Let us know in Slack ( <a href="{{site.feedback_link}}">#feedback</a> )</li>
+      {% if page.setup.slack.event_channel.useforall %}{% assign feedback_channel = page.setup.slack.event_channel.name %}
+      {% else %}
+        {% assign feedback_channel = page.feedback.channel | default: "feedback" %}
+      {% endif %}
+      <li><strong>Anything else?</strong> - Let us know in Slack (<a href="https://gtnsmrgsbord.slack.com/archives/{{feedback_channel}}">#{{feedback_channel}}</a> )</li>
      </ul>
     </p>
    </div>
