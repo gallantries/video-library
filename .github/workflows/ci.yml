@@ -1,6 +1,10 @@
 name: Test Video Library
 
-on: [pull_request]
+on:
+  pull_request:
+  push:
+    branches:
+      - main
 
 jobs:
   deploy:
@@ -34,3 +38,6 @@ jobs:
             cd docs/
             make test
 
+      - name: Check Slack messages
+        run: |
+            find scheduled -type f | xargs -n 1 -I'{}' python3 markdown2mrkdwn.py '{}' > /dev/null
