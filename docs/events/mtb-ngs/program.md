@@ -49,10 +49,10 @@ program:
       - code-of-conduct
 
   day1:
-    title: "Day 1: Overview of NGS technologies & TB specific NGS solutions"
+    title:"Day 1"
     description: |
       There were unusually high rates of TB cases in your country this year. To characterize the underlying
-      bacterial factors driving the epidemic, isolates been sent for whole-genome sequencing.  Doctors and public
+      bacterial factors driving the epidemic, isolates have been sent for whole-genome sequencing.  Doctors and public
       health authorities request information in order to take decisions. In this course it will be demonstrated how
       you would make use of NGS to answer several questions relevant for patient and public health system management
       such as:
@@ -61,10 +61,12 @@ program:
         - Is there evidence of de novo emergence of resistance?
         - Are there multiple infections per patient?
         - Do we have on-going transmission?
-        - Are there imported cases?
-        - Can we say that we have ancestral strains infecting patients in our population?
 
       We hope that at the end of the different training sessions you can answer this question on your own!
+   
+   day1-1:
+    title: "Overview of NGS technologies & TB specific NGS solutions"
+    subday: true
 
     trainings:
       - icebreaker:
@@ -78,9 +80,10 @@ program:
           video: BcfBjCJRmUs
           length: 1h10m
           author: andreacabibbe
+          other:
+            -label:Assessment
+             value:"**Finished watching the webinar as part of the Mtb NGS training event?** Share your thoughts with us [here](https://docs.google.com/document/d/1EfgttagZ8hBfjQiRznsCgDYVpzi3CF55cHqjarYa97o/edit#heading=h.e69aqv1nq3gw)"
           note: |
-            **Finished watching the webinar as part of the Mtb NGS training event?** Share your thoughts with us [here](https://docs.google.com/document/d/1EfgttagZ8hBfjQiRznsCgDYVpzi3CF55cHqjarYa97o/edit#heading=h.e69aqv1nq3gw)
-
             *The completion of this assessment is a requirement for the certificate of attendance.*
       - external:
           title: "Webinar: Implementation of NGS for TB- WHO documents and other considerations"
@@ -90,10 +93,12 @@ program:
             This webinar will summarize the recommendations and considerations available from the WHO
             documents on the use of NGS for TB
           length: 1h
+          other:
+            -label:Assessment
+             value:"**Finished watching the webinar as part of the Mtb NGS training event?** Share your thoughts with us [here](https://docs.google.com/document/d/1yCSyBnC1D5-czrW8xUi8sS2ffk_igB7quqhbHr7PE-U/edit#)"
           note: |
-            **Finished watching the webinar as part of the Mtb NGS training event?** Share your thoughts with us [here](https://docs.google.com/document/d/1yCSyBnC1D5-czrW8xUi8sS2ffk_igB7quqhbHr7PE-U/edit#)
-
             *The completion of this assessment is a requirement for the certificate of attendance.*
+            
       - external:
           title: Q&A session
           description: |
@@ -109,7 +114,7 @@ program:
           note: |
             *The completion of this assessment is a requirement for the certificate of attendance.*
   day2:
-    title: "Mapping and Variant calling in MTBC"
+    title: "Day 2" 
     description: |
       The 20 strains isolated in your country have been sequenced with Illumina technology
       to obtain whole-genome sequences. In this part of the workshop you will learn how to
@@ -179,9 +184,10 @@ program:
           length: 45m
           video: 38GUBKwWXv8
           author: dbrites
+           other:
+            -label:Assessment
+             value:"**Finished watching the webinar as part of the Mtb NGS training event?** Share your thoughts with us [here](https://docs.google.com/document/d/18y0PScnbA0GuLKjITzIr01wyLVWH6RYPAE5RWkwlfNA/edit#heading=h.bs9dcv9mioqd)"
           note: |
-            **Finished watching the webinar as part of the Mtb NGS training event?** Share your thoughts with us [here](https://docs.google.com/document/d/18y0PScnbA0GuLKjITzIr01wyLVWH6RYPAE5RWkwlfNA/edit#heading=h.bs9dcv9mioqd)
-
             *The completion of this assessment is a requirement for the certificate of attendance.*
 
       - external:
@@ -207,13 +213,15 @@ program:
               link: https://swisstph.zoom.us/j/84656236451
 
   day3:
-    title: "Day 3: Evolutionary epidemiology: using phylogenetics to understand DR emergence and Mtb transmission"
+    title: "Day 3"
     description: |
       We are ready to analyse drug resistant patterns, draw phylogenetic relationships or
       identify recent transmission among the isolates we have sampled in our population. Before
       delving into the analysis of the genomes we would like to share with you some notions
       important to the inference of direct transmission and to the interpretation of drug
       resistant patterns.
+    day3-1:
+      title: "Evolutionary epidemiology: using phylogenetics to understand DR emergence and Mtb transmission"
     trainings:
       - icebreaker:
         - prompt: "What is your favorite dish (food or drink)? Bonus points for recipes!"
@@ -224,22 +232,25 @@ program:
           description: Principles of drug resistance detection from genomic data
           length: 20m
           video: Ddwt-_gQR2M
+          
+          other:
+            -label:Assessment
+             value:"**Finished watching the webinar as part of the Mtb NGS training event?** Share your thoughts with us [here](https://docs.google.com/document/d/1WnvgYtTUOJGxTUEQCL0-HOlHNkqo293LaqaGB9EKojM/edit#heading=h.bs9dcv9mioqd)"
           note: |
-            **Finished watching the webinar as part of the Mtb NGS training event?** Share your thoughts with us [here](https://docs.google.com/document/d/1WnvgYtTUOJGxTUEQCL0-HOlHNkqo293LaqaGB9EKojM/edit#heading=h.bs9dcv9mioqd)
-
             *The completion of this assessment is a requirement for the certificate of attendance.*
 
       - external:
           title: 'Webinar: "Phylogenetic" mutations'
           author: Galo A. Goig
           description: |
-            This video will introduce two types of mutations to take into account when studying
+            This video will introduce one special type of mutations to take into account when studying
             drug resistance patterns
           length: 15m
           video: 1ps_o5rpnmw
-          note: |
-            **Finished watching as part of the Mtb NGS training event?** Share your thoughts with us [here](https://docs.google.com/document/d/1I341zrHJdAn5BEtrtc1KmJZ_x_lez_EWA75iTFBq-R4/edit#)
-
+          other:
+            -label:Assessment
+             value:"**Finished watching as part of the Mtb NGS training event?** Share your thoughts with us [here](https://docs.google.com/document/d/1I341zrHJdAn5BEtrtc1KmJZ_x_lez_EWA75iTFBq-R4/edit#)"
+           note: |
             *The completion of this assessment is a requirement for the certificate of attendance.*
       - external:
           title: "Webinar: The concept of clustering"
@@ -253,9 +264,10 @@ program:
           description: Clustering as an approximation to infer transmission
           length: 15m
           video: kKNgmpy1N94
+          other:
+            -label:Assessment
+             value:"**Finished watching as part of the Mtb NGS training event?** Share your thoughts with us [here](https://docs.google.com/document/d/1Q4mw-y3FZrGvmz3VNQrLkLslsi5QoTgDxwhAYYYdvjI/edit#)                      
           note: |
-            **Finished watching as part of the Mtb NGS training event?** Share your thoughts with us [here](https://docs.google.com/document/d/1Q4mw-y3FZrGvmz3VNQrLkLslsi5QoTgDxwhAYYYdvjI/edit#)
-
             *The completion of this assessment is a requirement for the certificate of attendance.*
 
       - self-study: evolution/mtb_transmission
@@ -271,11 +283,27 @@ program:
               value: "11:30-12:30 CET"
             - label: Zoom
               link: https://swisstph.zoom.us/j/84656236451
+     
+     -external:
+          Title:"Introduction to phylogenetics"
+          author: "EMBL-EBI"
+          description: "Recommended to those wanting to learn more about phylogenetics"
+          length: 1h
+          tutorial:"https://www.ebi.ac.uk/training/online/courses/introduction-to-phylogenetics/"
 
       - self-study: evolution/mtb_phylogeny
         description: Main principles of phylogenetic inference, tree interpretation
         prefix: "Hands-on: "
-
+        
+     - external:
+          title: "Check what you have learnt!"
+          description:"We hope that you are enjoying the training, and that many things that you are learning will be useful for your research! We would like you to answer some questions, so both you and us, can assess whether the main concepts covered in the hands-on tutorials on Mtb NGS data analysis were understood. For that please follow the link bellow. If you are interested in knowing what we think about these questions join us on Day 5"
+            -label: Assessment
+             link: https://docs.google.com/document/d/1mT6z84iA2-E2D834lH1B6fJrWwfXYBKDkPrKCFAdwqk/edit#
+          note:
+            *The completion of this assessment is a requirement for the certificate of attendance.*
+             
+             
       - external:
           title: Q&A
           author: [GaloGS,cstritt]
@@ -310,9 +338,10 @@ program:
           description: Introduction to most common web tools for fast identification of bacterial species from raw sequencing reads
           length: 50m
           video: HVQaq2GXCAc
-          note: |
-            **Finished watching as part of the Mtb NGS training event?** Share your thoughts with us [here](https://docs.google.com/document/d/1jdp61AFeyd_fK8XWZ348k7aok779feiCQ3q2uz1RPF0/edit#)
-
+          other:
+            -label:Assessment
+             value:"**Finished watching as part of the Mtb NGS training event?** Share your thoughts with us [here](https://docs.google.com/document/d/1jdp61AFeyd_fK8XWZ348k7aok779feiCQ3q2uz1RPF0/edit#)#"
+          note: |         
             *The completion of this assessment is a requirement for the certificate of attendance.*
       - external:
           title: "Webinar: Introduction to the MTBseq pipeline"
@@ -361,7 +390,7 @@ program:
           length: 35m
           video: N8rW07ByQOE
       - external:
-          title: "Webinar: How to run programs (Python, Docker, Singularity)"
+          title: "Webinar: How to run programs (Python, Docker, Nextflow)"
           author: andreaspitaleri
           description: Learning how to install and use programs to analyze data
           length: 35m
