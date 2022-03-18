@@ -286,7 +286,7 @@ program:
               link: https://swisstph.zoom.us/j/84656236451
 
       - external:
-          Title: "Introduction to phylogenetics"
+          title: "Introduction to phylogenetics"
           author: "EMBL-EBI"
           description: "Recommended to those wanting to learn more about phylogenetics"
           length: 1h
