@@ -75,6 +75,15 @@
  {% endfor %}
  {% endif %}
 
+ {% if include.config.video %}
+ <tr>
+          <td><strong>Video</strong></td>
+          <td>
+          <a href="{% if include.config.video contains 'http' %}{{include.config.video}}{% else %}https://www.youtube.com/embed/{{include.config.video}}{% endif %}">link</a>
+          </td>
+          </tr>
+ {% endif %}
+
  {% if include.config.author %}
  <tr>
    <td><strong>Author(s):</strong></td>
