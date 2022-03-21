@@ -6,8 +6,12 @@ title: "Mycobacterium tuberculosis NGS made easy: data analysis step-by-step"
 description: |
   ![banner](images/TBCAPT_NGS_Training_banner.jpg)
 
-  Below you will find everything you need to follow this course! (Back to [Course Overview Page](./course.html))
-  <br><br>
+  - Back to [Course Overview Page](./course.html)
+  - [YouTube Playlist](https://www.youtube.com/channel/UCVE9hc3WYKce2LPP1xQJuzg)
+
+  Below you will find everything you need to follow this course!
+
+  <br>
 
 certbot: false
 instructors: [dbrites, cstritt, andreacabibbe, annalenaguske, andreaspitaleri, GaloGS, arashghodousi, liliana-rutaihwa, pvanheus]
