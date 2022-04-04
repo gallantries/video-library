@@ -161,6 +161,11 @@ sciensano:
   logo: sciensano.jpg
   mouseover: "Belgian National Public Health Institute."
 
+seq4amr:
+  name: Seq4AMR
+  link: "https://www.jpiamr.eu/projects/seq4amr/"
+  logo: Seq4AMR.png
+
 slu:
   name: Swedish University of Agricultural Sciences
   link: "https://www.slu.se"
