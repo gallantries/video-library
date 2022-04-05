@@ -7,18 +7,19 @@ module Jekyll
       eval(duration.gsub(/H/, ' * 3600 + ').gsub(/M/, ' * 60 + ').gsub(/S/, ' + ') + " 0")
     end
 
-    def generate(site)
-      puts "[VideoLibrary/API] Videos"
-      page2 = PageWithoutAFile.new(site, "", "api/", "videos.json")
-      page2.content = JSON.pretty_generate(site.data['videos'])
+    def write_api_json(site, path, data)
+      page2 = PageWithoutAFile.new(site, "", "api/", path)
+      page2.content = JSON.pretty_generate(data)
       page2.data["layout"] = nil
       site.pages << page2
+    end
 
-      puts "[VideoLibrary/API] Sessions"
-      page2 = PageWithoutAFile.new(site, "", "api/", "sessions.json")
-      page2.content = JSON.pretty_generate(site.data['sessions'])
-      page2.data["layout"] = nil
-      site.pages << page2
+    def generate(site)
+      puts "[VideoLibrary/API] Videos & Sessisons"
+      write_api_json(site, "videos.json", site.data['videos'])
+      write_api_json(site, "sessions.json", site.data['sessions'])
+      write_api_json(site, "gtn.json", site.data['gtn'])
+      write_api_json(site, "studyload.json", site.data['studyload'])
 
       by_tags = Hash.new { |hash, key| hash[key] = Hash.new }
       site.data['videos'].each{|k, v|
@@ -35,11 +36,10 @@ module Jekyll
 
       site.data['by_tags'] = by_tags
       by_tags.each{ |tag, data|
-        page2 = PageWithoutAFile.new(site, "", "api/", "tags/#{tag}.json")
-        page2.content = JSON.pretty_generate(data)
-        page2.data["layout"] = nil
-        site.pages << page2
+        write_api_json(site, "tags/#{tag}.json", data)
       }
+
+      by_youtube = Hash.new
 
       by_material = Hash.new { |hash, key| hash[key] = Array.new }
       site.data['videos'].each{|k, v|
@@ -52,25 +52,23 @@ module Jekyll
                 }
               end
             end
+
+          }
+        end
+
+        if v['versions']
+          v['versions'].each{|vid|
+            by_youtube[vid['link']] = k
           }
         end
       }
 
       by_material.each{ |tag, data|
-        page2 = PageWithoutAFile.new(site, "", "api/", "by-material/#{tag}.json")
-        page2.content = JSON.pretty_generate(data)
-        page2.data["layout"] = nil
-        site.pages << page2
+        write_api_json(site, "by-material/#{tag}.json", data)
       }
-      page2 = PageWithoutAFile.new(site, "", "api/", "by-material.json")
-      page2.content = JSON.pretty_generate(by_material)
-      page2.data["layout"] = nil
-      site.pages << page2
-
-      page2 = PageWithoutAFile.new(site, "", "api/", "tags.json")
-      page2.content = JSON.pretty_generate(by_tags)
-      page2.data["layout"] = nil
-      site.pages << page2
+      write_api_json(site, "by-material.json", by_material)
+      write_api_json(site, "by-youtube.json", by_youtube)
+      write_api_json(site, "tags.json", by_tags)
 
       # Stats
       durations = Hash.new { 0 }
