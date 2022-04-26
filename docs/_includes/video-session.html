@@ -76,12 +76,15 @@
 
                         {% assign prefix = m.link | split:'/' | first %}
                         {% if prefix == "topics" %}
-                        {{ m.title | default:m.type }}:
+                        {{ m.type }}:
+
                         <a href="{{site.gtn}}/archive/{{archiveyear}}-{{archivemonth}}-01/{{m.link}}?utm_source=schedule&utm_medium=click&utm_campaign=smorgasbord2">Version in Video</a>
                         |
                         <a href="{{site.gtn}}/{{m.link}}?utm_source=schedule&utm_medium=click&utm_campaign=smorgasbord2">Latest Version</a>
+
                         {% if m.type == "Tutorial" %}
-                        |
+                        <br>
+                        {% icon faq %}
                         {% assign faqpage = m.link | remove: "tutorial.html" | append: "faqs/" %}
                         <a href="{{site.gtn}}/{{faqpage}}?utm_source=schedule&utm_medium=click&utm_campaign=smorgasbord2">FAQs</a>
                         {% endif %}
@@ -101,7 +104,7 @@
               <ul>
                 {% capture predicted_channel_name %}{{ include.id | slack_channel_name }}{% endcapture %}
                 {% capture channel %}{% if page.setup.slack.event_channel.useforall %}{{page.setup.slack.event_channel.name }}{% else %}{{ include.session.support_channel | default: predicted_channel_name | default: site.support.general_channel}}{% endif %}{% endcapture %}
-                <li>Slack: <a href="https://gtnsmrgsbord.slack.com/archives/{{ channel }}">#{{ channel }}</a> (<a href="{{site.support.join_link}}">Slack Invite</a>)</li>
+                <li>Slack: <a href="https://gtnsmrgsbord.slack.com/archives/{{ channel }}">#{{ channel }}</a> <ul><li><a href="{{site.support.join_link}}">Slack Invite</a></li></ul></li>
                 <li><a href="{{site.gitter}}">Gitter</a></li>
                 <li><a href="https://help.galaxyproject.org">Galaxy Help Forum</a></li>
               </ul>
@@ -120,6 +123,7 @@
               </td>
           </tr>
           {% endif %}
+          <!--
           {% unless include.hidesupport %}
           {% if hastutorial == "yes" %}
           <tr>
@@ -135,6 +139,7 @@
               </td>
           </tr>
           {% endif %}{% endunless %}
+          -->
       </table>
 
   </div>
