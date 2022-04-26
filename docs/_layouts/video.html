@@ -21,7 +21,7 @@ Below are video tutorials for this GTN material, created for various (past) even
 {% for vid in v.versions %}{% assign allversions = allversions | push: vid %}{% endfor %}
 {% assign sortedversions = allversions | sort: 'date' | reverse %}
 {% assign latestvideo = sortedversions[0] %}
-{% include video-session.html vsession=v video=latestvideo %}
+{% include video-session.html vsession=v id=name video=latestvideo %}
 
 {% assign numversions = v.versions | size %}
 
@@ -34,7 +34,7 @@ Below are video tutorials for this GTN material, created for various (past) even
 {% for version in sortedversions %}
 {% unless forloop.first %}
 
-{% include video-session.html vsession=v video=version %}
+{% include video-session.html vsession=v id=name video=version %}
 
 {% endunless %}
 {% endfor %}
