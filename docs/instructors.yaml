@@ -94,6 +94,14 @@ blankenberg:
     name: Daniel Blankenberg
     affiliation: [clevelandclinic]
 
+breakthewall:
+    name: Joan Hérisson
+    email: joan.herisson@univ-evry.fr
+    orcid: 0000-0001-9741-0847
+    gitter: breakthewall
+    linkedin: joanherisson
+    affiliation: [uni-evry, inrae, cnrs, cea]
+
 cat-bro:
     name: Catherine Bromhead
     affiliation: [melbourneuni]
@@ -220,6 +228,9 @@ jmchilton:
 jj-umn:
     name: James Johnson
     affiliation: [minnesotauni]
+
+kenza12:
+    name: Kenza Bazi-Kabbaj
 
 khanteymoori:
     name: Alireza Khanteymoori

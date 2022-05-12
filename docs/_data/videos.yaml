@@ -1293,6 +1293,19 @@ sars-cov2/upload-ena:
     speakers:
     - miguelroncoroni
 
+synthetic-biology/basic_assembly_analysis/demo:
+  title: Designing plasmids encoding predicted pathways by using the BASIC assembly method
+  type: Demo
+  versions:
+    - link: 0ItpHuSM7t0
+      date: '2022-05-11'
+      length: 3M
+      speakers:
+       - breakthewall
+      captions:
+       - kenza12
+
+
 variant-analysis/sars-cov-2-variant-discovery/tutorial:
   materials:
     - link: topics/variant-analysis/tutorials/sars-cov-2-variant-discovery/tutorial.html

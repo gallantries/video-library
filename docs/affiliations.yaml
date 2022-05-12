@@ -13,6 +13,12 @@ bradforduni:
   link: "https://www.bradford.ac.uk/"
   logo: bradforduni.jpg
 
+cea:
+  name: CEA
+  name-long: Le Commissariat à l’énergie atomique et aux énergies alternatives
+  link: "https://www.cea.fr/"
+  logo: cea.png
+
 clevelandclinic:
   name: Cleveland Clinic
   link: "https://my.clevelandclinic.org/"
@@ -24,7 +30,8 @@ cineca:
   logo: 01_CINECA_logo.png
 
 cnrs:
-  name: "Le Centre national de la recherche Scientifique"
+  name: CNRS
+  long-name: "Le Centre national de la recherche Scientifique"
   link: "https://www.cnrs.fr/"
   logo: cnrs.svg
 
@@ -199,6 +206,11 @@ UniQuilmes:
    name: Universidad Nacional de Quilmes/CONICET
    link: "http://www.unq.edu.ar/"
    logo: uni-quilmes-conicet.png
+
+uni-evry:
+   name: Université d'Évry / Paris-Saclay
+   link: "http://www.univ-evry.fr/"
+   logo: uni-evry.png
 
 pu:
   name: Pondicherry University
