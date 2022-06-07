@@ -1,0 +1,101 @@
+---
+layout: event
+id: tapas
+title: "GCC 2022: Online Training Day"
+description: "Free, global, training day ahead of the Galaxy Community Conference 2022. This day is meant to get you up to speed with the basics, so that you can get the most out of the training sessions at the GCC2022 conference!
+
+
+This day is meant for attendees of GCC, however anybody is free to join if you just want the opportunity to learn about Galaxy!"
+location: Online
+instructors: [gtn]
+date:
+  start: 2022-07-08
+  end: 2022-07-09
+registration: "https://galaxyproject.org/events/gcc2022/"
+cost: Free
+format: Asynchronous (no live sessions, pre-recorded videos, support via Slack, YOU decide your schedule)
+contacts: [shiltemann, hexylena]
+institutions: [gtn, gallantries, erasmusmc]
+
+setup:
+  servers:
+    - server: eu
+      tiaas: GCC2022
+    - server: au
+      tiaas: GCC2022
+    - server: us
+      tiaas: GCC2022
+
+  slack:
+    event_channel:
+      name: "#event-tapas"
+      link: "https://gtnsmrgsbord.slack.com/archives/C032C2MRHAS"
+
+program:
+  day1:
+    title: Welcome & Setup (Start Here!)
+    description: Practical information about this course and getting everything set up to follow this course.
+    trainings:
+      - video: course/welcome-smorg2022
+      - setup
+      - code-of-conduct
+      - icebreaker:
+        - prompt: Introduce yourself and tell us one fun fact about yourself!
+          title: "Icebreaker"
+          channel: social
+
+
+formatting_lang: html
+
+---
+
+<h2 class="section-header"> Choose your Adventure </h2>
+<p> Depending on your knowledge of Galaxy, and the training sessions you will attend at GCC2022, we offer several modules for you to choose from today:</p>
+
+
+<h3 class="section-header"> Learn Galaxy </h3>
+<p><strong>New to Galaxy?</strong> please start with of the two introductory modules. </p>
+
+<p><strong>Explore the Galaxy</strong> and deepen your knowledge of the Galaxy platform with the tutorials in the 'Advanced Galaxy Features' section </p>
+
+{% include module_button.html link="galaxy-intro" colour="red" label="Intro to Galaxy" buttonsize="large"  %}
+
+{% include module_button.html link="galaxy-intro-nongenomics" colour="orange" label="Intro to Galaxy (Non Genomics)" buttonsize="large"  %}
+
+{% include module_button.html link="galaxy-advanced-features" colour="yellow" label="Advanced Galaxy Features" buttonsize="large"  %}
+
+
+
+<h3 class="section-header"> Sequence Analysis Basics </h3>
+
+<p> This module covers some common steps in -omics analysis, such as <strong>quality control, mapping to a reference genome,</strong> and <strong>genome assembly.</strong> </p>
+
+
+{% include module_button.html link="sequence-analysis-basics" colour="green" label="Sequence Analysis Basics" buttonsize="large" %}
+
+
+<h3 class="section-header"> Admin Training Introduction </h3>
+
+<p>Attending the Admin Training session at GCC? Do you run a Galaxy server or would you like to learn how to do so? This module will help you get up to speed with everything you need to know to get the most out of the Admin Training sessions at the conference. </p>
+
+
+{% include module_button.html link="gat-intro" colour="blue" label="Admin Training Basics" buttonsize="large" %}
+
+
+
+<h2 class="section-header"> Wrap-up </h2>
+
+<p>Done for the week? Please take a moment to <strong>thank your volunteer instructors</strong> in Slack, and give us some <strong>feedback</strong> so that we can improve this event in the future. </p>
+
+<p><strong>Thank you</strong> for joining and we hope you have a great time at GCC2022 next week! </p>
+
+<div class="accordion" id="accordionwrapup">
+{% assign accordion_id = "accordionwrapup"%}
+{% assign module_id = "feeback" %}
+
+{% include custom-session.html type="feedback" config=page.feedback title="Give us your Feedback!" %}
+{% assign s = site.data.videos['community/welcome'] %}
+{% include session.html session=s type='video' id='community/welcome' instructors=instructors module=wrapup %}
+</div>
+
+
