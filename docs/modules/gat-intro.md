@@ -12,7 +12,7 @@ program:
       - video: introduction/galaxy-intro-101-everyone/tutorial
 
   day1:
-    title: Monday
+    title: Admin Training Basics
     description:
     trainings:
       - session: admin/ansible
