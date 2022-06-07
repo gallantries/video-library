@@ -12,7 +12,7 @@
         <ul>
          <li>Join Slack: <a href="{{include.config.slack.join_link | default: site.support.join_link}}">Invite link</a></li>
          {% if include.config.slack.event_channel %}
-         <li>Join Channel: <a href="{{include.config.slack.event_channel.link}}">{{include.config.slack.event_channel.name}}</a> (and say Hi!)</li> {% endif %}
+         <li>Join Channel: <a href="{{site.support.link}}channels/{{include.config.slack.event_channel.name | replace: '#', '' }}">#{{include.config.slack.event_channel.name | replace: '#', '' }}</a> (and say Hi!)</li> {% endif %}
 
         </ul>
         {% unless page.setup.slack.event_channel.useforall %}
