@@ -1,0 +1,612 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  
+  <title>Proteomics Basics</title>
+  
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <head profile="http://www.w3.org/2005/10/profile">
+  <link href="/video-library/assets/bootstrap-5.0.0-beta1.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+  <link rel="icon" type="image/png" href="/video-library/assets/images/favicon.png" />
+  <script src="/video-library/assets/js/bootstrap-5.0.0-beta1.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+  <script async defer data-domain="gallantries.github.io" src="https://plausible.galaxyproject.eu/js/plausible.js"></script>
+  <script src="/video-library/assets/js/lazysizes-5.2.2.min.js" async></script>
+  <!--
+	  we've replaced with the individual icons because we don't need that many icons.
+  <script src="https://kit.fontawesome.com/67b3f98409.js" crossorigin="anonymous"></script>
+  -->
+  <link rel="stylesheet" href="/video-library/assets/main.css">
+
+  <!-- updates for previews on social media etc -->
+  <meta name="description" content="Get up to speed with the basics of proteomics in Galaxy to get the most out of the GCC2022 proteomics training sessions!" />
+  <meta property="og:title" content="Proteomics Basics" />
+  <meta property="og:description" content="Get up to speed with the basics of proteomics in Galaxy to get the most out of the GCC2022 proteomics training sessions!" />
+  <meta property="og:image" content="/video-library/assets/images/video_cover.png" />
+
+</head>
+<body>
+	<a class="visually-hidden visually-hidden-focusable" href="#content">Skip to main content</a><nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <div class="container-fluid" style="width: calc(1000px - (30px * 2)); padding-left:30px">
+    <a class="navbar-brand"
+        
+             href="/video-library/">GTN Video Library
+        
+    </a>
+
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <!--
+        <li class="nav-item">
+			<a class="nav-link" href="/video-library/">Home</a>
+        </li>
+        -->
+        <li class="nav-item">
+			<a class="nav-link" href="/video-library/events">Events</a>
+        </li>
+         <li class="nav-item">
+			<a class="nav-link" href="/video-library/modules">Training Modules</a>
+        </li>
+        <li class="nav-item">
+			<a class="nav-link" href="/video-library/library">Videos</a>
+        </li>
+        <!--
+        <li class="nav-item">
+			<a class="nav-link" href="/video-library/session-library">Sessions</a>
+        </li>
+        -->
+        <li class="nav-item">
+			<a class="nav-link" href="/video-library/course-builder">Course Builder</a>
+        </li>
+        <li class="nav-item">
+			<a class="nav-link" href="/video-library/instructors">Instructor Guide</a>
+        </li>
+
+        <li class="nav-item">
+			<a class="nav-link" href="https://github.com/gallantries/video-library" title="Github Repository"><img style="height: 1em" src="/video-library/assets/fa/github.svg" alt="assets/fa/github.svg" aria-hidden="true"/></a>
+        </li>
+
+	    <!-- Want to add more pages to the top menu bar? add them here.
+        <li class="nav-item">
+           <a class="nav-link " href="for-instructors.html">Instructors</a>
+        </li>
+        -->
+        <!--
+        <li class="nav-item">
+          <a class="nav-link " href="recording.html">recording</a>
+        </li>
+      -->
+      </ul>
+    </div>
+  </div>
+</nav>
+<main class="page-content" aria-label="Content" id="content">
+      <div class="wrapper" >
+        
+
+<h1>Module: Proteomics Basics </h1>
+
+<p>Get up to speed with the basics of proteomics in Galaxy to get the most out of the GCC2022 proteomics training sessions!</p>
+
+
+<p>
+
+
+</p>
+
+
+<!-- This will generate the course handbook; the collapsible sections with videos and all others resources for the training -->
+
+
+
+
+  
+  
+  
+  <h3 class="module-start">  </h3>
+  
+  <p class="module-description"> 
+ </p>
+  <div class="accordion" id="accordionintro">
+  
+     
+
+     
+       
+       
+
+
+
+
+
+
+
+
+
+
+
+<div class="accordion-item">
+  
+  <div class="accordion-header" id="headingintro0">
+   <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseintro0" aria-expanded="false" aria-controls="collapseintro0">
+        Introduction to proteomics, protein identification, quantification and statistical modelling
+        
+   </button>
+  </div>
+
+  <div id="collapseintro0" class="accordion-collapse collapse " aria-labelledby="headingintro0" data-bs-parent="#accordionintro">
+
+    <div class="accordion-body">
+
+      <!-- Video -->
+      
+        
+           
+           <!-- session: {"description"=>"This lecture will provide an introduction to mass spectrometry (MS) based proteomics analysis. <strong>Slides created by Melanie Föll</strong>.", "materials"=>[{"link"=>"topics/proteomics/slides/introduction.html", "title"=>"Introduction to proteomics, protein identification, quantification and statistical modelling", "type"=>"Slides"}], "tags"=>["proteomics"], "type"=>"Lecture", "versions"=>[{"captions"=>["foellmelanie"], "date"=>"2021-02-15", "galaxy_version"=>"21.01", "length"=>"20M", "link"=>"2C96AvrFT38", "speakers"=>["awspolly"], "name"=>"Introduction to proteomics, protein identification, quantification and statistical modelling"}], "name"=>"Introduction to proteomics, protein identification, quantification and statistical modelling"}<br><br> video: {"captions"=>["foellmelanie"], "date"=>"2021-02-15", "galaxy_version"=>"21.01", "length"=>"20M", "link"=>"2C96AvrFT38", "speakers"=>["awspolly"], "name"=>"Introduction to proteomics, protein identification, quantification and statistical modelling"} -->
+
+
+
+
+
+<!-- determine the next archived version of tutorial -->
+
+
+
+
+<div class="flex-row" style="margin-top:1em;">
+ <div class="col-md-8">
+  <h3 class="session-section">Lecture Video   </h3>
+  <div style="position:relative;padding-top:56.25%;">
+   <iframe style="position:absolute;top:0;left:0;width:100%;height:100%;"
+    
+    data-src="https://www.youtube.com/embed/2C96AvrFT38"
+    
+     class="lazyload"
+     loading="lazy"
+     frameborder="0"
+     title="YouTube Embedded Video of the Tutorial"
+     aria-label="YouTube Embedded Video of the Tutorial"
+     allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+     allowfullscreen>
+   </iframe>
+  </div>
+  <div style="margin-top:1em;" class="video-metadata">
+      <table>
+          
+          <tr>
+              <td><strong>Description:</strong></td>
+              <td><p>This lecture will provide an introduction to mass spectrometry (MS) based proteomics analysis. <strong>Slides created by Melanie Föll</strong>.</p>
+</td>
+          </tr>
+          
+          <tr>
+              <td><strong>Length:</strong></td>
+              <td>20 minutes</td>
+          </tr>
+   
+   
+          <tr>
+              <td><strong>Captions:</strong></td>
+              <td> <a href="/video-library/contributors/foellmelanie/">Melanie Föll</a></td>
+          </tr>
+   
+          
+          <tr>
+              <td><strong>Created:</strong></td>
+              <td>15 February 2021</td>
+          </tr>
+          
+          
+          
+          <tr>
+              <td><strong>Materials:</strong></td>
+              <td>
+                <ul class="plain-text-list">
+                                
+                    <li>
+                        
+                            <img style="height: 1em" src="/video-library/assets/fa/slides.svg" alt="assets/fa/slides.svg" aria-hidden="true"/>
+                        
+
+
+                        
+                        
+                        Slides:
+
+                        <a href="https://training.galaxyproject.org/archive/2021-03-01/topics/proteomics/slides/introduction.html?utm_source=schedule&utm_medium=click&utm_campaign=smorgasbord2">Version in Video</a>
+                        |
+                        <a href="https://training.galaxyproject.org/topics/proteomics/slides/introduction.html?utm_source=schedule&utm_medium=click&utm_campaign=smorgasbord2">Latest Version</a>
+
+                        
+                        
+                    </li>
+                
+                </ul>
+              </td>
+          </tr>
+          
+          <!-- this is for the embedded versions where they'll use their own1 support forum -->
+                    <tr>
+              <td><strong>Support:</strong></td>
+              <td>
+              <ul>
+                
+                
+                <li>Slack: <a href="https://gtnsmrgsbord.slack.com/archives/proteomics_introduction">#proteomics_introduction</a> <ul><li><a href="https://join.slack.com/t/gtnsmrgsbord/shared_invite/zt-x7vinbs1-BA~Kht6N86JBhDq0uTIVdQ">Slack Invite</a></li></ul></li>
+                <li><a href="https://gitter.im/Galaxy-Training-Network/Lobby">Gitter</a></li>
+                <li><a href="https://help.galaxyproject.org">Galaxy Help Forum</a></li>
+              </ul>
+              </td>
+          </tr>
+          
+          
+          <tr>
+              <td><strong>Learning Objectives:</strong></td>
+              <td>
+                  <ul>
+                      
+                  </ul>
+              </td>
+          </tr>
+          
+          <!--
+          
+          
+          -->
+      </table>
+
+  </div>
+  
+  Go to the <a href="/video-library/videos/proteomics/introduction/slides">video page</a> to see all versions.
+  
+ </div>
+ <!-- speaker(s) -->
+ 
+ 
+
+ <div class="col-md-3">
+  <center><h3 class="session-section">Speaker</h3></center>
+  
+
+
+
+
+
+
+
+<div class="hall-of-fame">
+    
+    
+    
+		<div class="hall-of-fame-hero" id="awspolly">
+			<a href="/video-library/contributors/awspolly/">
+            
+            <img src="/video-library/assets/images/instructors/polly.png" alt="">
+            
+			<div class="name">
+				<b>These slides are narrated by AWS Polly.</b>
+			</div>
+			</a>
+			<div class="affil">
+				
+			</div>
+		</div>
+	
+    
+</div>
+
+ </div>
+
+
+</div><!-- end video session -->
+
+
+
+        
+
+      
+
+
+      <!-- Instructors -->
+      
+
+      <!-- Supporting Servers -->
+
+      <!-- Resources -->
+
+    </div><!-- end accordion body -->
+  </div><!-- end collapse -->
+</div><!-- end accordion item (training session) -->
+
+
+
+
+     
+  
+     
+
+     
+       
+       
+
+
+
+
+
+
+
+
+
+
+
+<div class="accordion-item">
+  
+  <div class="accordion-header" id="headingintro1">
+   <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseintro1" aria-expanded="false" aria-controls="collapseintro1">
+        MaxQuant and MSstats for the analysis of label-free data
+        
+   </button>
+  </div>
+
+  <div id="collapseintro1" class="accordion-collapse collapse " aria-labelledby="headingintro1" data-bs-parent="#accordionintro">
+
+    <div class="accordion-body">
+
+      <!-- Video -->
+      
+        
+           
+           <!-- session: {"description"=>"Modern mass spectrometry-based proteomics enables the identification and quantification of thousands of proteins. Therefore, quantitative mass spectrometry represents an indispensable technology for biological and clinical research. Statistical analyses are required for the unbiased answering of scientific questions and to uncover all important information in the proteomic data. In this training we will cover the full analysis workflow from label-free, data dependent acquisition (DDA) raw data to statistical results. We’ll use two popular quantitative proteomics software: MaxQuant and MSstats.", "materials"=>[{"link"=>"topics/proteomics/tutorials/maxquant-msstats-dda-lfq/tutorial.html", "title"=>"MaxQuant and MSstats for the analysis of label-free data", "type"=>"Tutorial"}, {"external"=>true, "link"=>"https://usegalaxy.eu/u/melanie-foell/h/maxquant-and-msstats-label-free-proteomics-training", "title"=>"Galaxy History of this tutorial", "type"=>"Example History"}], "tags"=>["proteomics"], "type"=>"Tutorial", "versions"=>[{"captions"=>["foellmelanie"], "date"=>"2021-02-15", "galaxy_version"=>"21.01", "length"=>"1H", "link"=>"IXdLAt2PAT4", "speakers"=>["foellmelanie"], "name"=>"MaxQuant and MSstats for the analysis of label-free data"}], "name"=>"MaxQuant and MSstats for the analysis of label-free data"}<br><br> video: {"captions"=>["foellmelanie"], "date"=>"2021-02-15", "galaxy_version"=>"21.01", "length"=>"1H", "link"=>"IXdLAt2PAT4", "speakers"=>["foellmelanie"], "name"=>"MaxQuant and MSstats for the analysis of label-free data"} -->
+
+
+
+
+
+<!-- determine the next archived version of tutorial -->
+
+
+
+
+<div class="flex-row" style="margin-top:1em;">
+ <div class="col-md-8">
+  <h3 class="session-section">Tutorial Video   </h3>
+  <div style="position:relative;padding-top:56.25%;">
+   <iframe style="position:absolute;top:0;left:0;width:100%;height:100%;"
+    
+    data-src="https://www.youtube.com/embed/IXdLAt2PAT4"
+    
+     class="lazyload"
+     loading="lazy"
+     frameborder="0"
+     title="YouTube Embedded Video of the Tutorial"
+     aria-label="YouTube Embedded Video of the Tutorial"
+     allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+     allowfullscreen>
+   </iframe>
+  </div>
+  <div style="margin-top:1em;" class="video-metadata">
+      <table>
+          
+          <tr>
+              <td><strong>Description:</strong></td>
+              <td><p>Modern mass spectrometry-based proteomics enables the identification and quantification of thousands of proteins. Therefore, quantitative mass spectrometry represents an indispensable technology for biological and clinical research. Statistical analyses are required for the unbiased answering of scientific questions and to uncover all important information in the proteomic data. In this training we will cover the full analysis workflow from label-free, data dependent acquisition (DDA) raw data to statistical results. We’ll use two popular quantitative proteomics software: MaxQuant and MSstats.</p>
+</td>
+          </tr>
+          
+          <tr>
+              <td><strong>Length:</strong></td>
+              <td>1 hour</td>
+          </tr>
+   
+   
+          <tr>
+              <td><strong>Captions:</strong></td>
+              <td> <a href="/video-library/contributors/foellmelanie/">Melanie Föll</a></td>
+          </tr>
+   
+          
+          <tr>
+              <td><strong>Created:</strong></td>
+              <td>15 February 2021</td>
+          </tr>
+          
+          
+          
+          <tr>
+              <td><strong>Materials:</strong></td>
+              <td>
+                <ul class="plain-text-list">
+                                
+                    <li>
+                        
+                            <img style="height: 1em" src="/video-library/assets/fa/tutorial.svg" alt="assets/fa/tutorial.svg" aria-hidden="true"/>
+                            
+                        
+
+
+                        
+                        
+                        Tutorial:
+
+                        <a href="https://training.galaxyproject.org/archive/2021-03-01/topics/proteomics/tutorials/maxquant-msstats-dda-lfq/tutorial.html?utm_source=schedule&utm_medium=click&utm_campaign=smorgasbord2">Version in Video</a>
+                        |
+                        <a href="https://training.galaxyproject.org/topics/proteomics/tutorials/maxquant-msstats-dda-lfq/tutorial.html?utm_source=schedule&utm_medium=click&utm_campaign=smorgasbord2">Latest Version</a>
+
+                        
+                        <br>
+                        <img style="height: 1em" src="/video-library/assets/fa/circle-question-regular.svg" alt="assets/fa/circle-question-regular.svg" aria-hidden="true"/>
+                        
+                        <a href="https://training.galaxyproject.org/topics/proteomics/tutorials/maxquant-msstats-dda-lfq/faqs/?utm_source=schedule&utm_medium=click&utm_campaign=smorgasbord2">FAQs</a>
+                        
+                        
+                    </li>
+                
+                    <li>
+                        
+
+
+                        
+                        
+                        <a href="https://usegalaxy.eu/u/melanie-foell/h/maxquant-and-msstats-label-free-proteomics-training?utm_source=schedule&utm_medium=click&utm_campaign=smorgasbord2">Galaxy History of this tutorial</a>
+                        
+                    </li>
+                
+                </ul>
+              </td>
+          </tr>
+          
+          <!-- this is for the embedded versions where they'll use their own1 support forum -->
+                    <tr>
+              <td><strong>Support:</strong></td>
+              <td>
+              <ul>
+                
+                
+                <li>Slack: <a href="https://gtnsmrgsbord.slack.com/archives/proteomics_maxquant-msstats-dda-lfq">#proteomics_maxquant-msstats-dda-lfq</a> <ul><li><a href="https://join.slack.com/t/gtnsmrgsbord/shared_invite/zt-x7vinbs1-BA~Kht6N86JBhDq0uTIVdQ">Slack Invite</a></li></ul></li>
+                <li><a href="https://gitter.im/Galaxy-Training-Network/Lobby">Gitter</a></li>
+                <li><a href="https://help.galaxyproject.org">Galaxy Help Forum</a></li>
+              </ul>
+              </td>
+          </tr>
+          
+          
+          <tr>
+              <td><strong>Learning Objectives:</strong></td>
+              <td>
+                  <ul>
+                      
+                      <li>Learn how to use MaxQuant and MSstats for the analysis of label-free shotgun (DDA) data</li>
+                      
+                  </ul>
+              </td>
+          </tr>
+          
+          <!--
+          
+          
+          <tr>
+              <td><strong>Finished this tutorial as part of GTN Tapas?</strong></td>
+              <td>
+              <ol>
+                
+                
+                <li><a href="https://training.galaxyproject.org/training-material/faqs/galaxy/histories_sharing.html?utm_source=schedule&utm_medium=click&utm_campaign=smorgasbord2">Share your history</a> (if applicable)</li>
+                <li>Copy the URL</li>
+                <li>Run the command <code>/completed</code> with the URL to your shared history, in <a href="https://gtnsmrgsbord.slack.com/archives/proteomics_maxquant-msstats-dda-lfq">#proteomics_maxquant-msstats-dda-lfq</a></li>
+              </ol>
+              </td>
+          </tr>
+          
+          -->
+      </table>
+
+  </div>
+  
+  Go to the <a href="/video-library/videos/proteomics/maxquant-msstats-dda-lfq/tutorial">video page</a> to see all versions.
+  
+ </div>
+ <!-- speaker(s) -->
+ 
+ 
+
+ <div class="col-md-3">
+  <center><h3 class="session-section">Speaker</h3></center>
+  
+
+
+
+
+
+
+
+<div class="hall-of-fame">
+    
+    
+    
+		<div class="hall-of-fame-hero" id="foellmelanie">
+			<a href="/video-library/contributors/foellmelanie/">
+            
+			<img src="https://avatars.githubusercontent.com/foellmelanie" alt="">
+            
+			<div class="name">
+				<b>Melanie Föll</b>
+			</div>
+			</a>
+			<div class="affil">
+				
+				<a href="https://www.uniklinik-freiburg.de/pathologie-en.html">
+					Institute of Surgical Pathology - Universitätsklinikum Freiburg
+				</a>
+				
+			</div>
+		</div>
+	
+    
+</div>
+
+ </div>
+
+
+</div><!-- end video session -->
+
+
+
+        
+
+      
+
+
+      <!-- Instructors -->
+      
+
+      <!-- Supporting Servers -->
+
+      <!-- Resources -->
+
+    </div><!-- end accordion body -->
+  </div><!-- end collapse -->
+</div><!-- end accordion item (training session) -->
+
+
+
+
+     
+  
+  </div>
+
+
+
+
+
+      </div>
+    </main><footer class="site-footer h-card">
+  <data class="u-url" href="/video-library/"></data>
+
+  <div class="wrapper">
+
+    <div class="row">
+        <div class="col-md-4">
+            <h2 class="footer-heading">
+             <img src="/video-library/assets/images/logos/gallantries.png" alt="Logo for the Gallantries project"  width="30em"/>
+             GTN Video Library
+            </h2>
+        </div>
+        <div class="col-md-4">
+          <p>Everyone participating is expected to abide by the <a href="https://galaxyproject.org/community/coc/">Code of Conduct</a></p>
+        </div>
+        <div class="col-md-4">
+            <img src="/video-library/assets/images/logos/erasmusplus.jpg" alt="european flag with text: With the support of the Erasmus+ Programme of the European Union."/>
+                    </div>
+    </div>
+	This project (<a href="https://ec.europa.eu/programmes/erasmus-plus/projects/eplus-project-details/#project/2020-1-NL01-KA203-064717">2020-1-NL01-KA203-064717</a>) is funded with the support of the Erasmus+ programme of the European Union.
+
+  </div>
+
+</footer>
+</body>
+
+
+</html>
