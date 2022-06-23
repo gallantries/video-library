@@ -1793,11 +1793,46 @@
   "synthetic-biology/basic_assembly_analysis/demo": {
     "title": "Designing plasmids encoding predicted pathways by using the BASIC assembly method",
     "type": "Demo",
+    "tags": [
+      "synthetic-biology"
+    ],
+    "materials": [
+      {
+        "link": "topics/synthetic-biology/tutorials/basic_assembly_analysis/tutorial.html",
+        "type": "Tutorial"
+      }
+    ],
     "versions": [
       {
         "link": "0ItpHuSM7t0",
         "date": "2022-05-11",
         "length": "3M",
+        "speakers": [
+          "breakthewall"
+        ],
+        "captions": [
+          "kenza12"
+        ]
+      }
+    ]
+  },
+  "synthetic-biology/retrosynthesis_analysis/demo": {
+    "title": "Generating theoretical possible pathways for the production of Lycopene in E.Coli using Retrosynthesis tools.",
+    "type": "Demo",
+    "materials": [
+      {
+        "link": "topics/synthetic-biology/tutorials/retrosynthesis_analysis/tutorial.html",
+        "type": "Tutorial"
+      }
+    ],
+    "tags": [
+      "synthetic-biology"
+    ],
+    "versions": [
+      {
+        "link": "nnE3Ip94D8I",
+        "date": "2022-06-23",
+        "length": "5M",
         "speakers": [
           "breakthewall"
         ],
@@ -1815,6 +1850,9 @@
       }
     ],
     "type": "Tutorial",
+    "tags": [
+      "variant-analysis"
+    ],
     "versions": [
       {
         "captions": [

@@ -751,6 +751,32 @@
       ]
     }
   ],
+  "topics/synthetic-biology/tutorials/basic_assembly_analysis/tutorial.html": [
+    {
+      "link": "0ItpHuSM7t0",
+      "date": "2022-05-11",
+      "length": "3M",
+      "speakers": [
+        "breakthewall"
+      ],
+      "captions": [
+        "kenza12"
+      ]
+    }
+  ],
+  "topics/synthetic-biology/tutorials/retrosynthesis_analysis/tutorial.html": [
+    {
+      "link": "nnE3Ip94D8I",
+      "date": "2022-06-23",
+      "length": "5M",
+      "speakers": [
+        "breakthewall"
+      ],
+      "captions": [
+        "kenza12"
+      ]
+    }
+  ],
   "topics/variant-analysis/tutorials/sars-cov-2-variant-discovery/tutorial.html": [
     {
       "captions": [
