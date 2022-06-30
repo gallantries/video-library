@@ -376,6 +376,7 @@ tklingstrom:
 
 thecarpentries:
     name: The Carpentries
+    affiliation: carpentries
     photo: carpentries.svg
 
 tnabtaf:
