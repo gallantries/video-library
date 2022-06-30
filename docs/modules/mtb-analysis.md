@@ -21,9 +21,9 @@ program:
 
   day1:
     title: "Part 1 - Overview of NGS technologies & TB specific NGS solutions"
-    
+
   day1-1:
-    title: 
+    title:
     subday: true
 
     trainings:
@@ -35,7 +35,7 @@ program:
           video: BcfBjCJRmUs
           length: 1h10m
           author: andreacabibbe
-          feedback:https://docs.google.com/document/d/1Jl9mm5u91_ayub7RPnE4pL2vobgaMDDa3UaD4nFH-aQ/edit#
+          feedback: https://docs.google.com/document/d/1Jl9mm5u91_ayub7RPnE4pL2vobgaMDDa3UaD4nFH-aQ/edit#
           other:
       - external:
           title: "Webinar: Implementation of NGS for TB- WHO documents and other considerations"
@@ -45,9 +45,14 @@ program:
             This webinar will summarize the recommendations and considerations available from the WHO
             documents on the use of NGS for TB
           length: 1h
-          Feedback:https://docs.google.com/document/d/10z_XWJ8Q4j8PHZe2KHmRnfLrjjAC07aRDy-aD5SOIAE/edit#heading=h.bs9dcv9mioqd
-      - external: 
-          title:"FAQ" https://docs.google.com/document/d/1PyFY80m05tiqBbEhW6H-VRZdXPjkA2rFfsPey5ujzy4/edit?usp=sharing
+          feedback: https://docs.google.com/document/d/10z_XWJ8Q4j8PHZe2KHmRnfLrjjAC07aRDy-aD5SOIAE/edit#heading=h.bs9dcv9mioqd
+      - external:
+           title: "FAQs"
+           table: "no"
+           description: |
+             For a list of frequently asked questions, please refer to [this document](https://docs.google.com/document/d/1PyFY80m05tiqBbEhW6H-VRZdXPjkA2rFfsPey5ujzy4/edit?usp=sharing)
+
+
   day2:
     title: "Part 2 - Mapping and Variant calling of short MTBC reads "
     description: |
@@ -114,12 +119,17 @@ program:
           length: 45m
           video: 38GUBKwWXv8
           author: dbrites
-          feedback:https://docs.google.com/document/d/1ofjUVvfA1j1sCbIQKyiZAfYvB8JDo16MAgQ7xLV_eD0/edit#
+          feedback: https://docs.google.com/document/d/1ofjUVvfA1j1sCbIQKyiZAfYvB8JDo16MAgQ7xLV_eD0/edit#
       - external:
-           title:"FAQs" https://docs.google.com/document/d/1bfzkxrgDUu-knISuyklwqqAo7B2uPTpWCfAN7AbawhE/edit?usp=sharing
+           title: "FAQs"
+           table: "no"
+           description: |
+             For a list of frequently asked questions, please refer to [this document](https://docs.google.com/document/d/1bfzkxrgDUu-knISuyklwqqAo7B2uPTpWCfAN7AbawhE/edit?usp=sharing)
 
       - self-study: variant-analysis/tb-variant-analysis
-        description: Variation in the genome of M. tuberculosis (Mtb) is associated with changes in phenotype, for example drug resistance and virulence. It is also useful for outbreak investigation as the single nucleotide polymorphisms (SNPs) in a sample can be used to build a phylogeny.
+        description: |
+          Variation in the genome of M. tuberculosis (Mtb) is associated with changes in phenotype, for example drug resistance and virulence.
+          It is also useful for outbreak investigation as the single nucleotide polymorphisms (SNPs) in a sample can be used to build a phylogeny.
         prefix: "Hands-on: "
 
   day3:
@@ -131,7 +141,7 @@ program:
       important to the inference of direct transmission and to the interpretation of drug
       resistant patterns.
   day3-1:
-    title: 
+    title:
     trainings:
       - external:
           title: "Webinar: Drug resistance prediction"
@@ -139,17 +149,17 @@ program:
           description: Principles of drug resistance detection from genomic data
           length: 20m
           video: Ddwt-_gQR2M
-          feedback:https://docs.google.com/document/d/1FM1CBF1wEMyTU9KHSG_3wSEM5zCY3R_GqPRCmtvW18g/edit?usp=sharing
+          feedback: https://docs.google.com/document/d/1FM1CBF1wEMyTU9KHSG_3wSEM5zCY3R_GqPRCmtvW18g/edit?usp=sharing
 
       - external:
           title: 'Webinar: "Phylogenetic" mutations'
           author: Galo A. Goig
           description: |
            This video will introduce one special type of mutations to take into account when studying
-            drug resistance patterns
+           drug resistance patterns
           length: 15m
           video: 1ps_o5rpnmw
-          feedback:https://docs.google.com/document/d/1_g-S-Qb19_DUAIfBETJ8V6Yt43-h3dpIq7Crr7upxZY/edit?usp=sharing
+          feedback: https://docs.google.com/document/d/1_g-S-Qb19_DUAIfBETJ8V6Yt43-h3dpIq7Crr7upxZY/edit?usp=sharing
       - external:
           title: "Webinar: The concept of clustering"
           author: GaloGS
@@ -162,7 +172,7 @@ program:
           description: Clustering as an approximation to infer transmission
           length: 15m
           video: kKNgmpy1N94
-          feedback:https://docs.google.com/document/d/1XZdRSHvLdxX-KKirgVhNoAV8cD416s18FTEh-Nz5JIQ/edit?usp=sharing
+          feedback: https://docs.google.com/document/d/1XZdRSHvLdxX-KKirgVhNoAV8cD416s18FTEh-Nz5JIQ/edit?usp=sharing
 
       - self-study: evolution/mtb_transmission
         description: Learning how to do clustering analysis and interpret drug resistance patterns
@@ -178,16 +188,19 @@ program:
       - self-study: evolution/mtb_phylogeny
         description: Main principles of phylogenetic inference, tree interpretation
         prefix: "Hands-on: "
-        
+
       - external:
-          title:"FAQs" https://docs.google.com/document/d/1QRdTSVdXQm8Fafnl3fqf2ZKJxJZiAdeZOUCT0dTRmx4/edit?usp=sharing
+          title: "FAQs"
+          table: "no"
+          description: |
+            For a list of Frequently Asked Quetions, please refer to [this document](https://docs.google.com/document/d/1QRdTSVdXQm8Fafnl3fqf2ZKJxJZiAdeZOUCT0dTRmx4/edit?usp=sharing)
 
 
   day4:
     title: Part 4 -Webtools dedicated to MTBC bioinformatics
 
   day4-1:
-    title: 
+    title:
     subday: true
     description: |
       The use of whole-genome sequencing (WGS) for antibiotic resistance prediction and routine
@@ -204,7 +217,7 @@ program:
           description: Introduction to most common web tools for fast identification of bacterial species from raw sequencing reads
           length: 50m
           video: HVQaq2GXCAc
-          feedback:https://docs.google.com/document/d/1SxLlaN5Bg6PhV2cz6VLr1ptEP5kjNK1stjIVVCrSqSw/edit?usp=sharing
+          feedback: https://docs.google.com/document/d/1SxLlaN5Bg6PhV2cz6VLr1ptEP5kjNK1stjIVVCrSqSw/edit?usp=sharing
       - external:
           title: "Webinar: Introduction to the MTBseq pipeline"
           author: arashghodousi
@@ -212,58 +225,60 @@ program:
           length: 30m
           video: ob29WYXwLxo
       - external:
-          title:"FAQs"           
-          FAQs https://docs.google.com/document/d/1rl4ZAmTXiEVNIKIwomAAoi-EMcRmulat_S0KPrlI3aw/edit?usp=sharing
-       
-day5:
-    title: Part 5 -Be a bioinformatician in the jungle 
-  day5-1:
-    title: 
-    subday: true
-    description: |
-      On parts 2 and 3 of this training you have learned how you could use galaxy for analysing your own data.
-      Establishing your own workflows in galaxy would allow you combining different tools and
-      build your own pipeline without having to know how to program. If you are not so
-      interested in having your own pipeline, webtools for WGS analysis can be very useful, as
-      we have shown in part 4.
+          title: "FAQs"
+          table: "no"
+          description: |
+            For frequently asked questions, please see [this document](https://docs.google.com/document/d/1rl4ZAmTXiEVNIKIwomAAoi-EMcRmulat_S0KPrlI3aw/edit?usp=sharing)
 
-      However, in this last part of the training we would like to convey to you what it would
-      take if would want to run Linux via the command line.  The Linux operating system will be
-      introduced, how to perform basic tasks using the Unix shell and how to install and run
-      pipelines on the command line. You will learn the power of the Unix shell in performing
-      complex and powerful tasks, often with just a few keystrokes or lines of code. In fact,
-      Unix shell helps users automate repetitive tasks and easily combine smaller tasks into
-      larger, more powerful workflows (i.e. pipelines). Use of the shell is fundamental to a
-      wide range of advanced computing tasks, including high-performance computing. These
-      webinars will introduce you to this powerful tool. Which approach to choose, Galaxy
-      workflows, Webtools or native Linux depends on your needs, your interests and what
-      computer resources you have available.
+  day5:
+    title: Part 5 -Be a bioinformatician in the jungle
+    day5-1:
+      title:
+      subday: true
+      description: |
+        On parts 2 and 3 of this training you have learned how you could use galaxy for analysing your own data.
+        Establishing your own workflows in galaxy would allow you combining different tools and
+        build your own pipeline without having to know how to program. If you are not so
+        interested in having your own pipeline, webtools for WGS analysis can be very useful, as
+        we have shown in part 4.
 
-    trainings:
-      - external:
-          title: "Webinar: Introduction to Linux"
-          author: andreaspitaleri
-          description: "Introduction to Linux OS: installation and usage"
-          length: 35m
-          video: N8rW07ByQOE
-      - external:
-          title: "Webinar: How to run programs (Python, Docker, Nextflow)"
-          author: andreaspitaleri
-          description: Learning how to install and use programs to analyze data
-          length: 35m
-          video: feYweAQNGS8
-      - external:
-          title: "Webinar: Demo on how to run the Linux command line"
-          author: andreaspitaleri
-          description:   Demo video on how to use the shell commands
-          length: 20m
-          video: 7V7LCjUEg1c
-      - external:
-          title: "Hands-on: The Unix Shell"
-          author: The Carpentries
-          description: Recommended tutorial from software carpentries to those wanting to learn Linux.
-          length: 4h
-          tutorial: "https://swcarpentry.github.io/shell-novice/"
+        However, in this last part of the training we would like to convey to you what it would
+        take if would want to run Linux via the command line.  The Linux operating system will be
+        introduced, how to perform basic tasks using the Unix shell and how to install and run
+        pipelines on the command line. You will learn the power of the Unix shell in performing
+        complex and powerful tasks, often with just a few keystrokes or lines of code. In fact,
+        Unix shell helps users automate repetitive tasks and easily combine smaller tasks into
+        larger, more powerful workflows (i.e. pipelines). Use of the shell is fundamental to a
+        wide range of advanced computing tasks, including high-performance computing. These
+        webinars will introduce you to this powerful tool. Which approach to choose, Galaxy
+        workflows, Webtools or native Linux depends on your needs, your interests and what
+        computer resources you have available.
+
+      trainings:
+        - external:
+            title: "Webinar: Introduction to Linux"
+            author: andreaspitaleri
+            description: "Introduction to Linux OS: installation and usage"
+            length: 35m
+            video: N8rW07ByQOE
+        - external:
+            title: "Webinar: How to run programs (Python, Docker, Nextflow)"
+            author: andreaspitaleri
+            description: Learning how to install and use programs to analyze data
+            length: 35m
+            video: feYweAQNGS8
+        - external:
+            title: "Webinar: Demo on how to run the Linux command line"
+            author: andreaspitaleri
+            description:   Demo video on how to use the shell commands
+            length: 20m
+            video: 7V7LCjUEg1c
+        - external:
+            title: "Hands-on: The Unix Shell"
+            author: The Carpentries
+            description: Recommended tutorial from software carpentries to those wanting to learn Linux.
+            length: 4h
+            tutorial: "https://swcarpentry.github.io/shell-novice/"
 
 
 ---
