@@ -153,7 +153,7 @@ program:
 
       - external:
           title: 'Webinar: "Phylogenetic" mutations'
-          author: Galo A. Goig
+          author: GaloGS
           description: |
            This video will introduce one special type of mutations to take into account when studying
            drug resistance patterns
@@ -180,7 +180,7 @@ program:
 
       - external:
           title: "Introduction to phylogenetics"
-          author: "EMBL-EBI"
+          author: embl-ebi
           description: "Recommended to those wanting to learn more about phylogenetics"
           length: 1h
           tutorial: "https://www.ebi.ac.uk/training/online/courses/introduction-to-phylogenetics/"
@@ -275,7 +275,7 @@ program:
             video: 7V7LCjUEg1c
         - external:
             title: "Hands-on: The Unix Shell"
-            author: The Carpentries
+            author: thecarpentries
             description: Recommended tutorial from software carpentries to those wanting to learn Linux.
             length: 4h
             tutorial: "https://swcarpentry.github.io/shell-novice/"
