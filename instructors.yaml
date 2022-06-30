@@ -156,6 +156,11 @@ eancelet:
     name: Estelle Ancelet
     affiliation: [inrae]
 
+embl-ebi:
+  name: EMBL-EBI
+  affiliation: ebi
+  photo: embl-ebi.png
+
 emmaleith:
     name: Emma Leith
     affiliation: [minnesotauni]
@@ -368,6 +373,11 @@ timothygriffin:
 tklingstrom:
     name: Tomas Klingström
     affiliation: [slu]
+
+thecarpentries:
+    name: The Carpentries
+    affiliation: carpentries
+    photo: carpentries.svg
 
 tnabtaf:
     name: Dave Clements
