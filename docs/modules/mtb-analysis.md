@@ -1,6 +1,6 @@
 ---
 layout: module
-title: Mycobacterium tuberculosis NGS made easy: data analysis step-by-step
+title: "Mycobacterium tuberculosis NGS made easy: data analysis step-by-step"
 description: "Webinars and hands-on tutorials on several aspects related to NGS in Tuberculosis"
 
 
