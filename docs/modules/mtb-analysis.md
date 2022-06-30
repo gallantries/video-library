@@ -232,53 +232,50 @@ program:
 
   day5:
     title: Part 5 -Be a bioinformatician in the jungle
-    day5-1:
-      title:
-      subday: true
-      description: |
-        On parts 2 and 3 of this training you have learned how you could use galaxy for analysing your own data.
-        Establishing your own workflows in galaxy would allow you combining different tools and
-        build your own pipeline without having to know how to program. If you are not so
-        interested in having your own pipeline, webtools for WGS analysis can be very useful, as
-        we have shown in part 4.
+    description: |
+      On parts 2 and 3 of this training you have learned how you could use galaxy for analysing your own data.
+      Establishing your own workflows in galaxy would allow you combining different tools and
+      build your own pipeline without having to know how to program. If you are not so
+      interested in having your own pipeline, webtools for WGS analysis can be very useful, as
+      we have shown in part 4.
 
-        However, in this last part of the training we would like to convey to you what it would
-        take if would want to run Linux via the command line.  The Linux operating system will be
-        introduced, how to perform basic tasks using the Unix shell and how to install and run
-        pipelines on the command line. You will learn the power of the Unix shell in performing
-        complex and powerful tasks, often with just a few keystrokes or lines of code. In fact,
-        Unix shell helps users automate repetitive tasks and easily combine smaller tasks into
-        larger, more powerful workflows (i.e. pipelines). Use of the shell is fundamental to a
-        wide range of advanced computing tasks, including high-performance computing. These
-        webinars will introduce you to this powerful tool. Which approach to choose, Galaxy
-        workflows, Webtools or native Linux depends on your needs, your interests and what
-        computer resources you have available.
+      However, in this last part of the training we would like to convey to you what it would
+      take if would want to run Linux via the command line.  The Linux operating system will be
+      introduced, how to perform basic tasks using the Unix shell and how to install and run
+      pipelines on the command line. You will learn the power of the Unix shell in performing
+      complex and powerful tasks, often with just a few keystrokes or lines of code. In fact,
+      Unix shell helps users automate repetitive tasks and easily combine smaller tasks into
+      larger, more powerful workflows (i.e. pipelines). Use of the shell is fundamental to a
+      wide range of advanced computing tasks, including high-performance computing. These
+      webinars will introduce you to this powerful tool. Which approach to choose, Galaxy
+      workflows, Webtools or native Linux depends on your needs, your interests and what
+      computer resources you have available.
 
-      trainings:
-        - external:
-            title: "Webinar: Introduction to Linux"
-            author: andreaspitaleri
-            description: "Introduction to Linux OS: installation and usage"
-            length: 35m
-            video: N8rW07ByQOE
-        - external:
-            title: "Webinar: How to run programs (Python, Docker, Nextflow)"
-            author: andreaspitaleri
-            description: Learning how to install and use programs to analyze data
-            length: 35m
-            video: feYweAQNGS8
-        - external:
-            title: "Webinar: Demo on how to run the Linux command line"
-            author: andreaspitaleri
-            description:   Demo video on how to use the shell commands
-            length: 20m
-            video: 7V7LCjUEg1c
-        - external:
-            title: "Hands-on: The Unix Shell"
-            author: thecarpentries
-            description: Recommended tutorial from software carpentries to those wanting to learn Linux.
-            length: 4h
-            tutorial: "https://swcarpentry.github.io/shell-novice/"
+    trainings:
+      - external:
+          title: "Webinar: Introduction to Linux"
+          author: andreaspitaleri
+          description: "Introduction to Linux OS: installation and usage"
+          length: 35m
+          video: N8rW07ByQOE
+      - external:
+          title: "Webinar: How to run programs (Python, Docker, Nextflow)"
+          author: andreaspitaleri
+          description: Learning how to install and use programs to analyze data
+          length: 35m
+          video: feYweAQNGS8
+      - external:
+          title: "Webinar: Demo on how to run the Linux command line"
+          author: andreaspitaleri
+          description:   Demo video on how to use the shell commands
+          length: 20m
+          video: 7V7LCjUEg1c
+      - external:
+          title: "Hands-on: The Unix Shell"
+          author: thecarpentries
+          description: Recommended tutorial from software carpentries to those wanting to learn Linux.
+          length: 4h
+          tutorial: "https://swcarpentry.github.io/shell-novice/"
 
 
 ---
