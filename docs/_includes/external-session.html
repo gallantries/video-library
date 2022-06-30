@@ -5,7 +5,7 @@
  <div class="col-md-8">
 
 <h3 class="session-section">{{include.config.title}}</h3>
-<p>{{include.config.description}}</p>
+<p>{{include.config.description | markdownify }}</p>
 
 
 {% if include.config.video %}
@@ -31,6 +31,7 @@
   </div>
 {% endif %}
 {% endif %}
+{% unless include.config.table == "no" %}
 <div style="margin-top:1em;" class="video-metadata">
  <table>
   <tr>
@@ -95,6 +96,8 @@
  <p> {{include.config.note | markdownify }} </p><br>
  {% endif %}
   </div>
+  {% endunless %}
+
  </div>
 
 <!-- speaker(s) -->

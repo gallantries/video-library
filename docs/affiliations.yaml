@@ -19,6 +19,11 @@ cea:
   link: "https://www.cea.fr/"
   logo: cea.png
 
+carpentries:
+  name: The Carpentries
+  link: "https://carpentries.org/"
+  logo: carpentries.svg
+
 clevelandclinic:
   name: Cleveland Clinic
   link: "https://my.clevelandclinic.org/"
