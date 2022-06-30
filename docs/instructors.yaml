@@ -159,6 +159,7 @@ eancelet:
 embl-ebi:
   name: EMBL-EBI
   affiliation: ebi
+  photo: embl-ebi.png
 
 emmaleith:
     name: Emma Leith
@@ -375,6 +376,7 @@ tklingstrom:
 
 thecarpentries:
     name: The Carpentries
+    photo: carpentries.svg
 
 tnabtaf:
     name: Dave Clements
