@@ -62,19 +62,6 @@
    <td> <a href="{{ include.config.tutorial }}">link</a> </td>
  </tr>
  {% endif %}
-{% if include.config.other %}
-{% for mat in include.config.other %}
- <tr>
-   <td><strong>{{mat.label}}</strong></td>
-   {% if mat.link %}
-   <td> <a href="{{ mat.link }}">link </a> </td>
-   {% endif %}
-   {% if mat.value %}
-   <td> {{mat.value | markdownify }} </td>
-   {% endif %}
- </tr>
- {% endfor %}
- {% endif %}
 
  {% if include.config.video %}
  <tr>
@@ -91,6 +78,20 @@
    <td> {% for a in include.config.author %}{{ site.data.instructors[a].name }}{% unless forloop.last %}, {% endunless %}{% endfor %} </td>
  </tr>
  {% endif %}
+ {% if include.config.other %}
+{% for mat in include.config.other %}
+ <tr>
+   <td><strong>{{mat.label}}</strong></td>
+   {% if mat.link %}
+   <td> <a href="{{ mat.link }}">link </a> </td>
+   {% endif %}
+   {% if mat.value %}
+   <td> {{mat.value | markdownify }} </td>
+   {% endif %}
+ </tr>
+ {% endfor %}
+ {% endif %}
+
  </table>
  {% if include.config.note %}
  <p> {{include.config.note | markdownify }} </p><br>

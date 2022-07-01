@@ -5,7 +5,9 @@ description: "Webinars and hands-on tutorials on several aspects related to NGS 
 
 
 program:
-  description: |
+  intro:
+    title: Introduction
+    description: |
       There were unusually high rates of TB cases in your country this year. To characterize the underlying
       bacterial factors driving the epidemic, isolates have been sent for whole-genome sequencing.  Doctors and public
       health authorities request information in order to take decisions. In this course it will be demonstrated how
@@ -37,6 +39,8 @@ program:
           author: andreacabibbe
           feedback: https://docs.google.com/document/d/1Jl9mm5u91_ayub7RPnE4pL2vobgaMDDa3UaD4nFH-aQ/edit#
           other:
+            - label: Feedback
+              link: "https://docs.google.com/document/d/1Jl9mm5u91_ayub7RPnE4pL2vobgaMDDa3UaD4nFH-aQ/edit#"
       - external:
           title: "Webinar: Implementation of NGS for TB- WHO documents and other considerations"
           author: andreacabibbe
@@ -45,7 +49,9 @@ program:
             This webinar will summarize the recommendations and considerations available from the WHO
             documents on the use of NGS for TB
           length: 1h
-          feedback: https://docs.google.com/document/d/10z_XWJ8Q4j8PHZe2KHmRnfLrjjAC07aRDy-aD5SOIAE/edit#heading=h.bs9dcv9mioqd
+          other:
+           - label: Feedback
+             link: https://docs.google.com/document/d/10z_XWJ8Q4j8PHZe2KHmRnfLrjjAC07aRDy-aD5SOIAE/edit#heading=h.bs9dcv9mioqd
       - external:
            title: "FAQs"
            table: "no"
@@ -119,7 +125,9 @@ program:
           length: 45m
           video: 38GUBKwWXv8
           author: dbrites
-          feedback: https://docs.google.com/document/d/1ofjUVvfA1j1sCbIQKyiZAfYvB8JDo16MAgQ7xLV_eD0/edit#
+          other:
+            - label: Feedback
+              link: https://docs.google.com/document/d/1ofjUVvfA1j1sCbIQKyiZAfYvB8JDo16MAgQ7xLV_eD0/edit#
       - external:
            title: "FAQs"
            table: "no"
@@ -149,7 +157,9 @@ program:
           description: Principles of drug resistance detection from genomic data
           length: 20m
           video: Ddwt-_gQR2M
-          feedback: https://docs.google.com/document/d/1FM1CBF1wEMyTU9KHSG_3wSEM5zCY3R_GqPRCmtvW18g/edit?usp=sharing
+          other:
+            - label: Feedback
+              link: https://docs.google.com/document/d/1FM1CBF1wEMyTU9KHSG_3wSEM5zCY3R_GqPRCmtvW18g/edit?usp=sharing
 
       - external:
           title: 'Webinar: "Phylogenetic" mutations'
@@ -159,7 +169,9 @@ program:
            drug resistance patterns
           length: 15m
           video: 1ps_o5rpnmw
-          feedback: https://docs.google.com/document/d/1_g-S-Qb19_DUAIfBETJ8V6Yt43-h3dpIq7Crr7upxZY/edit?usp=sharing
+          other:
+            - label: Feedback
+              link: https://docs.google.com/document/d/1_g-S-Qb19_DUAIfBETJ8V6Yt43-h3dpIq7Crr7upxZY/edit?usp=sharing
       - external:
           title: "Webinar: The concept of clustering"
           author: GaloGS
@@ -172,7 +184,9 @@ program:
           description: Clustering as an approximation to infer transmission
           length: 15m
           video: kKNgmpy1N94
-          feedback: https://docs.google.com/document/d/1XZdRSHvLdxX-KKirgVhNoAV8cD416s18FTEh-Nz5JIQ/edit?usp=sharing
+          other:
+            - label: Feedback
+              link: https://docs.google.com/document/d/1XZdRSHvLdxX-KKirgVhNoAV8cD416s18FTEh-Nz5JIQ/edit?usp=sharing
 
       - self-study: evolution/mtb_transmission
         description: Learning how to do clustering analysis and interpret drug resistance patterns
@@ -197,7 +211,7 @@ program:
 
 
   day4:
-    title: Part 4 -Webtools dedicated to MTBC bioinformatics
+    title: Part 4 - Webtools dedicated to MTBC bioinformatics
 
   day4-1:
     title:
@@ -217,7 +231,9 @@ program:
           description: Introduction to most common web tools for fast identification of bacterial species from raw sequencing reads
           length: 50m
           video: HVQaq2GXCAc
-          feedback: https://docs.google.com/document/d/1SxLlaN5Bg6PhV2cz6VLr1ptEP5kjNK1stjIVVCrSqSw/edit?usp=sharing
+          other:
+            - label: Feedback
+              link: https://docs.google.com/document/d/1SxLlaN5Bg6PhV2cz6VLr1ptEP5kjNK1stjIVVCrSqSw/edit?usp=sharing
       - external:
           title: "Webinar: Introduction to the MTBseq pipeline"
           author: arashghodousi
@@ -231,7 +247,7 @@ program:
             For frequently asked questions, please see [this document](https://docs.google.com/document/d/1rl4ZAmTXiEVNIKIwomAAoi-EMcRmulat_S0KPrlI3aw/edit?usp=sharing)
 
   day5:
-    title: Part 5 -Be a bioinformatician in the jungle
+    title: Part 5 - Be a bioinformatician in the jungle
     description: |
       On parts 2 and 3 of this training you have learned how you could use galaxy for analysing your own data.
       Establishing your own workflows in galaxy would allow you combining different tools and

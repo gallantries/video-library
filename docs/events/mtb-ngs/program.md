@@ -59,7 +59,7 @@ program:
   day1:
     title: "Day 1"
     description: |
-      There were unusually high rates of TB cases in your country this year. To characterize the underlying
+      "There were unusually high rates of TB cases in your country this year. To characterize the underlying
       bacterial factors driving the epidemic, isolates have been sent for whole-genome sequencing.  Doctors and public
       health authorities request information in order to take decisions. In this course it will be demonstrated how
       you would make use of NGS to answer several questions relevant for patient and public health system management
@@ -70,7 +70,7 @@ program:
         - Are there multiple infections per patient?
         - Do we have on-going transmission?
 
-      We hope that at the end of the different training sessions you can answer this question on your own!
+      We hope that at the end of the different training sessions you can answer this question on your own!"
 
   day1-1:
     title: "Overview of NGS technologies & TB specific NGS solutions"
