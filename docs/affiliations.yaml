@@ -14,8 +14,7 @@ bradforduni:
   logo: bradforduni.jpg
 
 cea:
-  name: CEA
-  name-long: Le Commissariat à l’énergie atomique et aux énergies alternatives
+  name: Le Commissariat à l’énergie atomique et aux énergies alternatives (CEA)
   link: "https://www.cea.fr/"
   logo: cea.png
 
@@ -35,8 +34,7 @@ cineca:
   logo: 01_CINECA_logo.png
 
 cnrs:
-  name: CNRS
-  long-name: "Le Centre national de la recherche Scientifique"
+  name: "Le Centre national de la recherche Scientifique (CNRS)"
   link: "https://www.cnrs.fr/"
   logo: cnrs.svg
 
@@ -188,6 +186,10 @@ swiss-tph:
   link: https://www.swisstph.ch/en/
   logo: swiss-tph.png
 
+tamu:
+  name: Texas A&M University
+  link: "https://www.tamu.edu/"
+
 ei:
     name: Earlham Institute
     link: "https://www.earlham.ac.uk/"
@@ -231,3 +233,11 @@ biocommons:
   name: Australian Biocommons
   link: https://www.biocommons.org.au/galaxy-australia
   logo: biocommons.png
+
+uba:
+  name: University of Buenos Aires
+  link: https://www.uba.ar
+
+ou:
+  name: The Open University
+  link: https://www.open.ac.uk/

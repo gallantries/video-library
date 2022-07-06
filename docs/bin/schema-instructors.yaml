@@ -7,6 +7,16 @@ mapping:
             name:
                 type: str
                 required: true
+            slack:
+                type: str
+            email:
+                type: str
+            orcid:
+                type: str
+            gitter:
+                type: str
+            linkedin:
+                type: str
             affiliation:
                 type: seq
                 required: false
