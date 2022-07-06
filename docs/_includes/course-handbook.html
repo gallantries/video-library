@@ -33,10 +33,10 @@
      {% elsif session.custom %}
        {% include custom-session.html type="custom" config=session.custom title=session.custom.title %}
 
-     {% elsif session == "setup" %}
+     {% elsif session.basics == "setup" %}
         {% include custom-session.html type="setup" config=page.setup title="Get set up for the Course" %}
 
-     {% elsif session == "setup-gat" %}
+     {% elsif session.basics == "setup-gat" %}
         {% include custom-session.html type="setup-gat" config=page.setup title="Get set up for the Course" %}
 
      {% elsif session.icebreaker %}
@@ -44,13 +44,13 @@
         {% else %}{% assign t = "Icebreaker Question" %}{% endif %}
         {% include custom-session.html type="icebreaker" config=session.icebreaker title=t %}
 
-     {% elsif session == "certificates" %}
+     {% elsif session.basics == "certificates" %}
        {% include custom-session.html type="certificates" config=page.certificates title="About Certificates" %}
 
-     {% elsif session == "code-of-conduct" %}
+     {% elsif session.basics == "code-of-conduct" %}
        {% include custom-session.html type="code-of-conduct" config=page title="Code of Conduct" %}
 
-     {% elsif session == "feedback" %}
+     {% elsif session.basics == "feedback" %}
        {% include custom-session.html type="feedback" config=page.feedback title="Give us your Feedback!" %}
 
      {% endif %}
