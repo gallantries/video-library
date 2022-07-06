@@ -8,5 +8,5 @@ program:
     trainings:
       - video: galaxy-interface/collections/tutorial
       - video: galaxy-interface/upload-rules
-
+      - video: galaxy-interface/workflow-reports/tutorial
 ---

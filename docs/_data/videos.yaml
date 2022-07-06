@@ -415,6 +415,25 @@ epigenetics/atac-seq/tutorial:
     link: Zc-bl6ZfcX4
     speakers:
     - heylf
+
+galaxy-interface/workflow-reports/tutorial:
+  description: Learn how to view, customize and share Galaxy workflow reports
+  materials:
+  - link: topics/galaxy-interface/tutorials/workflow-reports/tutorial.html
+    title: Workflow Reports
+    type: Tutorial
+  tags:
+  - galaxy-interface
+  type: Tutorial
+  versions:
+  - link: hrZhpsiGaPM
+    captions:
+    - shiltemann
+    date: '2022-07-06'
+    length: 30M
+    speakers:
+    - shiltemann
+
 galaxy-interface/collections/tutorial:
   description: null
   materials:
