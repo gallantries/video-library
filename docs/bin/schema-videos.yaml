@@ -6,16 +6,15 @@ mapping:
         mapping:
             name:
                 type: str
-                required: false
             title:
                 type: str
-                required: false
             description:
                 type: str
-                required: false
             faq:
                 type: str
                 pattern: /https:\/\/docs.google.com\/.*/
+            force_archive_materials:
+                type: bool
             materials:
                 type: seq
                 sequence:
@@ -36,7 +35,7 @@ mapping:
                 pattern: /^[a-z0-9_-]*$/
             type:
                 type: str
-                pattern: /^(Webinar|Demo|Lecture|Lecture & Demo|Tutorial|Lecture & Tutorial|Lecture Series)$/
+                pattern: /^(Welcome|Webinar|Demo|Lecture|Lecture & Demo|Tutorial|Lecture & Tutorial|Lecture Series)$/
             tags:
                 type: seq
                 sequence:
@@ -60,6 +59,9 @@ mapping:
                         - introduction
                         - metagenomics
                         - proteomics
+                        - crispr
+                        - single-cell
+                        - synthetic-biology
                         - proteogenomics
                         - sars-cov2
                         - sequence-analysis

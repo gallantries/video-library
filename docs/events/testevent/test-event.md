@@ -48,9 +48,9 @@ program:
   preliminary:   # you can define various sections (e.g. days) here
     title: Before you start
     trainings:
-      - setup
-      - code-of-conduct
-      - certificates               # a predefined "session" explaining about certificates
+      - basics: setup
+      - basics: code-of-conduct
+      - basics: certificates               # a predefined "session" explaining about certificates
       - video: community/welcome   # this points to a video in our video library
   day1:
     title: Day 1
@@ -96,6 +96,6 @@ program:
     title: Wrap-up
     description: Thanks for joining this course!
     trainings:
-      - feedback        # predifind section, this will link to the survey form you defined above.
-      - certificates
+      - basics: feedback        # predifind section, this will link to the survey form you defined above.
+      - basics: certificates
 ---

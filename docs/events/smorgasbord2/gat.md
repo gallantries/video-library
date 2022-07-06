@@ -32,9 +32,9 @@ program:
     trainings:
       - video: course/welcome-smorg2022
       - video: admin/welcome
-      - setup-gat
-      - code-of-conduct
-      - certificates
+      - basics: setup-gat
+      - basics: code-of-conduct
+      - basics: certificates
       - icebreaker:
         - prompt: |
             1. Introduce yourself and tell us one fun fact about yourself! <br>

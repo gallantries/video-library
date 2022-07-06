@@ -2232,7 +2232,7 @@ course/welcome-admin:
 
 course/welcome-smorg2022:
   title: "Start Here! Welcome & Course Logistics"
-  descripton: Start here! We will go over all the important things you need to know
+  description: Start here! We will go over all the important things you need to know
     about this week!
   materials:
   - external: true
