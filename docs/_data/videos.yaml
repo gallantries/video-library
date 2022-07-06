@@ -2313,6 +2313,7 @@ admin/week-overview-slides:
     link: JN-C5UbHthY
     speakers:
     - hexylena
+
 admin/ansible-galaxy/tutorial:
   description: null
   materials:
@@ -2330,6 +2331,7 @@ admin/ansible-galaxy/tutorial:
     type: Slides
   tags: [admin]
   type: Tutorial
+  force_archive_materials: true
   versions:
   - captions:
     - natefoo
