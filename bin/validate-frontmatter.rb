@@ -7,6 +7,7 @@ require 'kwalify'
 
 # Schemas
 EVENT_SCHEMA = YAML.load_file('bin/schema-event.yaml')
+VIDEO_SCHEMA = YAML.load_file('bin/schema-videos.yaml')
 
 # Contributors
 CONTRIBUTORS = YAML.load_file('_data/instructors.yaml')

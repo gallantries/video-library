@@ -3048,7 +3048,7 @@
   },
   "course/welcome-smorg2022": {
     "title": "Start Here! Welcome & Course Logistics",
-    "descripton": "Start here! We will go over all the important things you need to know about this week!",
+    "description": "Start here! We will go over all the important things you need to know about this week!",
     "materials": [
       {
         "external": true,
@@ -3193,13 +3193,14 @@
       "admin"
     ],
     "type": "Tutorial",
+    "force_archive_materials": true,
     "versions": [
       {
         "captions": [
           "natefoo",
           "hexylena"
         ],
-        "date": "2021-06-28",
+        "date": "2022-03-01",
         "galaxy_version": "21.05",
         "length": "2H50M",
         "link": "LPK8rP_qUiA",
