@@ -18,7 +18,7 @@ ales-ibt:
 
 andreacabibbe:
     name: Andrea Cabibbe
-    affiliation: irccs
+    affiliation: [irccs]
     photo: Andrea_Cabibbe.jpg
 
 andreaspitaleri:
@@ -33,7 +33,7 @@ andrewr:
 
 annalenaguske:
     name: Anna-Lena Guske
-    affiliation: linq
+    affiliation: [linq]
     photo: AnnaLena.jfif
 
 annasyme:
@@ -124,12 +124,12 @@ combesf:
 
 cstritt:
     name: Christoph Stritt
-    affiliation: swiss-tph
+    affiliation: [swiss-tph]
 
 dbrites:
     name: Daniela Brites
     email: d.brites@swisstph.ch
-    affiliation: swiss-tph
+    affiliation: [swiss-tph]
     photo: daniela_brites.jpeg
 
 dannon:
@@ -158,7 +158,7 @@ eancelet:
 
 embl-ebi:
   name: EMBL-EBI
-  affiliation: ebi
+  affiliation: [ebi]
   photo: embl-ebi.png
 
 emmaleith:
@@ -194,7 +194,7 @@ gallardoalba:
 
 GaloGS:
     name: Galo Adrián Goig
-    affiliation: swiss-tph
+    affiliation: [swiss-tph]
 
 gmauro:
     name: Gianmauro Cuccuru
@@ -260,7 +260,7 @@ ksuderman:
 
 liliana-rutaihwa:
     name: Liliana Rutaihwa
-    affiliation: find
+    affiliation: [find]
     photo: liliana_r.jpeg
 
 lldelisle:
@@ -376,7 +376,7 @@ tklingstrom:
 
 thecarpentries:
     name: The Carpentries
-    affiliation: carpentries
+    affiliation: [carpentries]
     photo: carpentries.svg
 
 tnabtaf:
@@ -420,7 +420,7 @@ jrr-cpt:
 
 Lgallegovillar:
     name: Lorena Gallego Villar
-    affiliation: [UnikFreiberg]
+    affiliation: [freiburguni]
 
 mtbernardi:
   name: María Bernardi
