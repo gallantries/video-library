@@ -3,6 +3,7 @@
 {% assign session-type = include.session.type | default: include.vsession.type | default: include.video.type %}
 {% assign description = include.vsession.description | default: include.session.description | default: include.video.description %}
 {% assign materials = include.session.materials | default: include.vsession.materials | default: include.video.materials %}
+{% assign force_archive_materials = include.session.force_archive_materials | default: include.vsession.force_archive_materials | default: include.video.force_archive_materials | default: false %}
 
 <!-- determine the next archived version of tutorial -->
 {% assign archivemonth = include.video.date | date: "%m" | plus: 1 | modulo: 12 | prepend: '00' | slice: -2, 2 %}
@@ -78,18 +79,21 @@
                         {% if prefix == "topics" %}
                         {{ m.type }}:
 
-                        <a href="{{site.gtn}}/archive/{{archiveyear}}-{{archivemonth}}-01/{{m.link}}?utm_source=schedule&utm_medium=click&utm_campaign=smorgasbord2">Version in Video</a>
+                        <a href="{{site.gtn}}/archive/{{archiveyear}}-{{archivemonth}}-01/{{m.link}}?utm_source=schedule&utm_medium=click&utm_campaign=video-library">Version in Video</a>
+			<!-- We allow overriding specific materials to their archival versions, hiding the "current" link. -->
+			{% unless force_archive_materials %}
                         |
-                        <a href="{{site.gtn}}/{{m.link}}?utm_source=schedule&utm_medium=click&utm_campaign=smorgasbord2">Latest Version</a>
+                        <a href="{{site.gtn}}/{{m.link}}?utm_source=schedule&utm_medium=click&utm_campaign=video-library">Latest Version</a>
+			{% endunless %}
 
                         {% if m.type == "Tutorial" %}
                         <br>
                         {% icon faq %}
                         {% assign faqpage = m.link | remove: "tutorial.html" | append: "faqs/" %}
-                        <a href="{{site.gtn}}/{{faqpage}}?utm_source=schedule&utm_medium=click&utm_campaign=smorgasbord2">FAQs</a>
+                        <a href="{{site.gtn}}/{{faqpage}}?utm_source=schedule&utm_medium=click&utm_campaign=video-library">FAQs</a>
                         {% endif %}
                         {% else %}
-                        <a href="{% unless m.link contains 'http' %}{{site.gtn}}/{% endunless %}{{m.link}}?utm_source=schedule&utm_medium=click&utm_campaign=smorgasbord2">{{m.title | default:m.type}}</a>
+                        <a href="{% unless m.link contains 'http' %}{{site.gtn}}/{% endunless %}{{m.link}}?utm_source=schedule&utm_medium=click&utm_campaign=video-library">{{m.title | default:m.type}}</a>
                         {% endif %}
                     </li>
                 {% endfor %}
@@ -132,7 +136,7 @@
               <ol>
                 {% capture predicted_channel_name %}{{ include.id | slack_channel_name }}{% endcapture %}
                 {% capture channel %}{{ include.session.support_channel | default: predicted_channel_name | default: site.support.general_channel}}{% endcapture %}
-                <li><a href="https://training.galaxyproject.org/training-material/faqs/galaxy/histories_sharing.html?utm_source=schedule&utm_medium=click&utm_campaign=smorgasbord2">Share your history</a> (if applicable)</li>
+                <li><a href="https://training.galaxyproject.org/training-material/faqs/galaxy/histories_sharing.html?utm_source=schedule&utm_medium=click&utm_campaign=video-library">Share your history</a> (if applicable)</li>
                 <li>Copy the URL</li>
                 <li>Run the command <code>/completed</code> with the URL to your shared history, in <a href="https://gtnsmrgsbord.slack.com/archives/{{ channel }}">#{{ channel }}</a></li>
               </ol>
