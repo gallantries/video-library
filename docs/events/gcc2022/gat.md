@@ -33,19 +33,8 @@ program:
         title: "Icebreaker"
         channel: event-gat
 
-  galaxyintro:
-    title: Introduction to Galaxy
-    description: "Start here if you are new to Galaxy. These videos will introduce you to the Galaxy platform, and walk you through your first analyses"
-    trainings:
-      - video: galaxy/intro
-      - video: introduction/galaxy-intro-101-everyone/tutorial
-
-  day1:
-    title: Admin Training Basics
-    description:
-    trainings:
-      - session: admin/ansible
-      - video: admin/ansible-galaxy/tutorial
-
 ---
 
+<p><strong>Attending the Admin Training session at GCC?</strong> Do you run a Galaxy server or would you like to learn how to do so? This module will help you get up to speed with everything you need to know to get the most out of the Admin Training sessions at the conference. </p>
+
+{% include module_button.html link="gcc2022/gat-intro" colour="purple" label="Admin Training Basics" buttonsize="large" %}
