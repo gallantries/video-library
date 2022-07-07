@@ -1,3 +1,5 @@
+{% assign galaxies_size = include.galaxies | size %}
+{% if galaxies_size > 0 %}
  <!-- Register a Galaxy Account -->
    <div class="card" style="width: 100%">
     <div class="row no-gutters">
@@ -25,4 +27,4 @@
      </div>
     </div>
    </div><!-- end Galaxy registration card -->
-
+{% endif %}
