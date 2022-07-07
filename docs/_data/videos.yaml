@@ -665,6 +665,19 @@ galaxy/intro2:
     link: 1UPCrQxGwcU
     speakers:
     - tnabtaf
+galaxy/interactive-tools:
+  title: Interactive Tools
+  description: This demo videos shows you how you can run Interactive tools such as RStudio and Jupyter notebooks within Galaxy.
+  versions:
+    - link: 21Eo3QlKuoA
+      captions:
+      - shiltemann
+      date: "2022-07-07"
+      length: 15M
+      speakers:
+      - hexylena
+  type: Demo
+
 genome-annotation/annotation-with-prokka/slides:
   description: Genome annotation is a multi-level process that includes prediction
     of protein-coding genes, as well as other functional genome units such as structural
