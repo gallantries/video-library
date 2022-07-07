@@ -70,7 +70,12 @@ if args.days > 2:
             (f'goodbye-{args.course}.md', start + timedelta(days=args.days - 1, hours=4), tz)
         )
 else:
-    raise Exception()
+    posts = []
+
+    for tz in zones:
+        posts.append(
+            (f'welcome-{args.course}.md', start, tz),
+        )
 
 
 for post in posts:
