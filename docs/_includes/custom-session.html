@@ -45,6 +45,9 @@
     {% include sessions/code-of-conduct.html config=include.config %}
   {% endif %}
 
+  {% if include.type == "logistics" %}
+    {% include sessions/logistics.html config=include.config %}
+  {% endif %}
   </div>
  </div>
 </div> <!-- end session -->
