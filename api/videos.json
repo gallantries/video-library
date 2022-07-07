@@ -933,7 +933,7 @@
       }
     ]
   },
-  "galaxy/interactive-tools": {
+  "galaxy-interface/interactive-tools": {
     "title": "Interactive Tools",
     "description": "This demo videos shows you how you can run Interactive tools such as RStudio and Jupyter notebooks within Galaxy.",
     "versions": [
