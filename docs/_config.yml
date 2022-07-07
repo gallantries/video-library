@@ -30,6 +30,14 @@ video:
   platform: YouTube
   url_prefix: "https://youtu.be/" # this will be prepended to the video ids you put in the schedule
 
+default_galaxies:
+- server: eu
+  tiaas: gtn-tapas
+- server: au
+  tiaas: gtn-tapas
+- server: us
+  tiaas: gtn-tapas
+
 
 
 # Build settings

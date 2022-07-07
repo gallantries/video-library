@@ -1,13 +1,14 @@
-{% assign galaxies_default = "eu,au,us" | split: ","%}
-{% assign galaxies = include.config.servers | default: galaxies_default  %}
+{% assign galaxies = include.config.servers | default: site.default_galaxies   %}
 
 <!-- Register on a Galaxy server -->
+{% if include.config.servers != "disabled" %}
 {% include sessions/register.html s=s galaxies=galaxies %}
 </br></br>
 
 <!--Join TIaaS  -->
 {% include sessions/tiaas.html s=s galaxies=galaxies %}
 <br/><br/>
+{% endif %}
 
 <!-- Slack -->
 {% unless include.setup.slack == false %}
