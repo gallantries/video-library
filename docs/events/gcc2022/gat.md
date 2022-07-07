@@ -19,7 +19,8 @@ setup:
   slack:
     event_channel:
       name: event-gat
-  servers: "disabled"
+  servers:
+  - disabled: true
 
 program:
   setup:

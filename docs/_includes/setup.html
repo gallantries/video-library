@@ -1,7 +1,7 @@
 {% assign galaxies = include.config.servers | default: site.default_galaxies   %}
 
 
-{% if include.config.servers != "disabled"  %}
+{% if include.config.servers[0].disabled != true %}
 <!-- Register on a Galaxy server -->
 {% include sessions/register.html config=include.config galaxies=galaxies %} </br>
 

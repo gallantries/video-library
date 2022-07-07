@@ -129,6 +129,8 @@ mapping:
                                   - fr
                           tiaas:
                               type: str
+                          disabled:
+                              type: bool
                           custom:
                               type: map
                               mapping:
