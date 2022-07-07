@@ -17,20 +17,20 @@ def buttonify(links):
 
 SERVERS = [
     ("https://usegalaxy.eu/", "Galaxy Europe :earth_africa:"),
-    ("https://usegalaxy.be/", "Galaxy Belgium :flag-be:"),
-    ("https://usegalaxy.fr/", "Galaxy France :flag-fr:"),
+    # ("https://usegalaxy.be/", "Galaxy Belgium :flag-be:"),
+    # ("https://usegalaxy.fr/", "Galaxy France :flag-fr:"),
     ("https://usegalaxy.org/", "Galaxy US :earth_americas:"),
     ("https://usegalaxy.org.au/", "Galaxy Australia :earth_asia:"),
 ]
 
 TIAAS = [
-    ("https://usegalaxy.eu/join-training/gtn-tapas/", "Join EU TIaaS :earth_africa:"),
+    ("https://usegalaxy.eu/join-training/gcc2022/", "Join EU TIaaS :earth_africa:"),
     (
-        "https://usegalaxy.org/join-training/gtn-tapas/",
+        "https://usegalaxy.org/join-training/gcc2022/",
         "Join US TIaaS :earth_americas:",
     ),
-    ("https://usegalaxy.org.au/join-training/gtn-tapas/", "Join AU TIaaS :earth_asia:"),
-    ("https://usegalaxy.fr/join-training/gtn-tapas/", "Join FR TIaaS :flag-fr:"),
+    ("https://usegalaxy.org.au/join-training/gcc2022/", "Join AU TIaaS :earth_asia:"),
+    # ("https://usegalaxy.fr/join-training/gcc2022/", "Join FR TIaaS :flag-fr:"),
 ]
 
 
