@@ -22,5 +22,5 @@ program:
   analysis:
     title: Analysis
     trainings:
-      - video: galaxy/interactive-tools
+      - video: galaxy-interface/interactive-tools
 ---
