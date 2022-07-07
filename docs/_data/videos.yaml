@@ -416,6 +416,24 @@ epigenetics/atac-seq/tutorial:
     speakers:
     - heylf
 
+galaxy-interface/workflow-parameters/tutorial:
+  description: To make a workflow reusable with slightly different settings you can define and use workflow parameters.
+  materials:
+  - link: topics/galaxy-interface/tutorials/workflow-parameters/tutorial.html
+    title: Workflow Parameters
+    type: Tutorial
+  tags:
+  - galaxy-interface
+  type: Tutorial
+  versions:
+  - link: otvEuDlCye0
+    captions:
+    - mvdbeek
+    date: '2022-07-06'
+    length: 30M
+    speakers:
+    - mvdbeek
+
 galaxy-interface/workflow-reports/tutorial:
   description: Learn how to view, customize and share Galaxy workflow reports
   materials:

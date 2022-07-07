@@ -16,7 +16,7 @@ program:
     title: Workflows
     trainings:
       - self-study: galaxy-interface/workflow-editor
-      - self-study: galaxy-interface/workflow-parameters
+      - video: galaxy-interface/workflow-parameters/tutorial
       - video: galaxy-interface/workflow-reports/tutorial
 
   analysis:
