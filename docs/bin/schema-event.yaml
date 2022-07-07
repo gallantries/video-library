@@ -161,6 +161,7 @@ mapping:
                                         - code-of-conduct
                                         - certificates
                                         - feedback
+                                        - logistics
                                   video:
                                       type: str
                                       enum: VIDEOS
