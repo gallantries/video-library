@@ -16,8 +16,6 @@ module Jekyll
 
     def generate(site)
       puts "[VideoLibrary/API] Videos & Sessisons"
-      write_api_json(site, "videos.json", site.data['videos'])
-      write_api_json(site, "sessions.json", site.data['sessions'])
       write_api_json(site, "gtn.json", site.data['gtn'])
       write_api_json(site, "studyload.json", site.data['studyload'])
 
@@ -49,6 +47,9 @@ module Jekyll
           }
         end
       }
+
+      write_api_json(site, "videos.json", site.data['videos'])
+      write_api_json(site, "sessions.json", site.data['sessions'])
 
       site.data['by_tags'] = by_tags
       by_tags.each{ |tag, data|
