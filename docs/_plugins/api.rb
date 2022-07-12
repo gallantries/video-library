@@ -37,6 +37,14 @@ module Jekyll
               v['title'] = v.fetch('name', site.data['gtn'].fetch(gtn_id, k))
             end
 
+            if v.fetch('versions', []).length > 0
+              if v['versions'][0]['captions'].nil? then
+                v['captioned'] = false
+              else
+                v['captioned'] = v['versions'][0].fetch('captions', []).length > 0
+              end
+            end
+
             by_tags[tag]['videos'][k] = v
           }
         end
