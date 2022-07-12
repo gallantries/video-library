@@ -30,7 +30,10 @@
             "gallardoalba"
           ]
         }
-      ]
+      ],
+      "gtn_id": "assembly/assembly-with-preprocessing",
+      "title": "Unicycler assembly of SARS-CoV-2 genome with preprocessing to remove human genome reads",
+      "captioned": true
     },
     "assembly/chloroplast-assembly/tutorial": {
       "description": "In this tutorial, you will assemble a chloroplast genome using a combination of short and long read data.",
@@ -58,7 +61,10 @@
             "annasyme"
           ]
         }
-      ]
+      ],
+      "gtn_id": "assembly/chloroplast-assembly",
+      "title": "Chloroplast genome assembly",
+      "captioned": true
     },
     "assembly/general-introduction/slides": {
       "description": "This lecture walks you through the basic concepts involved in assembling a genome from short-read sequencing data.",
@@ -87,7 +93,10 @@
             "slugger70"
           ]
         }
-      ]
+      ],
+      "gtn_id": "assembly/general-introduction",
+      "title": "An Introduction to Genome Assembly",
+      "captioned": true
     },
     "assembly/vgp_genome_assembly-workflow": {
       "title": "Running the VGP Genome Assembly workflows",
@@ -119,7 +128,9 @@
             "delphine-l"
           ]
         }
-      ]
+      ],
+      "gtn_id": "assembly/vgp_genome_assembly-workflow",
+      "captioned": false
     }
   }
 }

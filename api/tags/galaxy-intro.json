@@ -29,7 +29,9 @@
             "nekrut"
           ]
         }
-      ]
+      ],
+      "gtn_id": "galaxy/intro",
+      "captioned": true
     },
     "galaxy/intro2": {
       "title": "Your First Galaxy Analysis",
@@ -70,7 +72,9 @@
             "tnabtaf"
           ]
         }
-      ]
+      ],
+      "gtn_id": "galaxy/intro2",
+      "captioned": true
     }
   }
 }

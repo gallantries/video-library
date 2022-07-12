@@ -31,7 +31,9 @@
             "cat-bro"
           ]
         }
-      ]
+      ],
+      "gtn_id": "admin/welcome",
+      "captioned": true
     },
     "admin/week-overview-slides": {
       "title": "Admin Training Week Overview",
@@ -60,7 +62,9 @@
             "hexylena"
           ]
         }
-      ]
+      ],
+      "gtn_id": "admin/week-overview-slides",
+      "captioned": true
     },
     "admin/ansible-galaxy/tutorial": {
       "description": null,
@@ -132,7 +136,10 @@
             "hexylena"
           ]
         }
-      ]
+      ],
+      "gtn_id": "admin/ansible-galaxy",
+      "title": "Galaxy Installation with Ansible",
+      "captioned": true
     },
     "admin/ansible/tutorial": {
       "description": null,
@@ -159,7 +166,10 @@
             "martenson"
           ]
         }
-      ]
+      ],
+      "gtn_id": "admin/ansible",
+      "title": "Ansible",
+      "captioned": true
     },
     "admin/ansible/slides": {
       "description": null,
@@ -186,7 +196,10 @@
             "ic4f"
           ]
         }
-      ]
+      ],
+      "gtn_id": "admin/ansible",
+      "title": "Ansible",
+      "captioned": true
     },
     "admin/connect-to-compute-cluster/combined": {
       "description": null,
@@ -218,7 +231,10 @@
             "hexylena"
           ]
         }
-      ]
+      ],
+      "gtn_id": "admin/connect-to-compute-cluster",
+      "title": "Connecting Galaxy to a compute cluster",
+      "captioned": true
     },
     "admin/cvmfs/slides": {
       "description": null,
@@ -245,7 +261,10 @@
             "awspolly"
           ]
         }
-      ]
+      ],
+      "gtn_id": "admin/cvmfs",
+      "title": "Reference Data with CVMFS",
+      "captioned": true
     },
     "admin/cvmfs/tutorial": {
       "description": null,
@@ -272,7 +291,10 @@
             "slugger70"
           ]
         }
-      ]
+      ],
+      "gtn_id": "admin/cvmfs",
+      "title": "Reference Data with CVMFS",
+      "captioned": true
     },
     "admin/data-library/tutorial": {
       "description": null,
@@ -300,7 +322,10 @@
             "shiltemann"
           ]
         }
-      ]
+      ],
+      "gtn_id": "admin/data-library",
+      "title": "Data Libraries",
+      "captioned": true
     },
     "admin/gxadmin/slides": {
       "description": null,
@@ -331,7 +356,10 @@
             "awspolly"
           ]
         }
-      ]
+      ],
+      "gtn_id": "admin/gxadmin",
+      "title": "Galaxy Monitoring with gxadmin",
+      "captioned": true
     },
     "admin/pulsar/slides": {
       "description": null,
@@ -358,7 +386,10 @@
             "slugger70"
           ]
         }
-      ]
+      ],
+      "gtn_id": "admin/pulsar",
+      "title": "Running Jobs on Remote Resources with Pulsar",
+      "captioned": true
     },
     "admin/pulsar/tutorial": {
       "description": null,
@@ -398,7 +429,10 @@
             "slugger70"
           ]
         }
-      ]
+      ],
+      "gtn_id": "admin/pulsar",
+      "title": "Running Jobs on Remote Resources with Pulsar",
+      "captioned": true
     },
     "admin/interactive-tools": {
       "description": null,
@@ -430,7 +464,10 @@
             "abretaud"
           ]
         }
-      ]
+      ],
+      "gtn_id": "admin/interactive-tools",
+      "title": "Galaxy Interactive Tools",
+      "captioned": true
     },
     "admin/job-destinations/tutorial": {
       "description": null,
@@ -457,7 +494,10 @@
             "hexylena"
           ]
         }
-      ]
+      ],
+      "gtn_id": "admin/job-destinations",
+      "title": "Mapping Jobs to Destinations",
+      "captioned": true
     },
     "admin/tus/tutorial": {
       "description": "Here you’ll learn to setup TUS an open source resumable file upload server to process uploads for Galaxy. We use an external process here to offload the main Galaxy processes for more important work and not impact the entire system during periods of heavy uploading.\n",
@@ -484,7 +524,10 @@
             "hexylena"
           ]
         }
-      ]
+      ],
+      "gtn_id": "admin/tus",
+      "title": "Performant Uploads with TUS",
+      "captioned": true
     },
     "admin/job-metrics/tutorial": {
       "title": "Recording Job Metrics",
@@ -512,7 +555,9 @@
             "hexylena"
           ]
         }
-      ]
+      ],
+      "gtn_id": "admin/job-metrics",
+      "captioned": true
     },
     "admin/maintenance/slides": {
       "description": null,
@@ -539,7 +584,10 @@
             "awspolly"
           ]
         }
-      ]
+      ],
+      "gtn_id": "admin/maintenance",
+      "title": "Server Maintenance and Backups",
+      "captioned": true
     },
     "admin/monitoring/slides": {
       "description": null,
@@ -566,7 +614,10 @@
 
           ]
         }
-      ]
+      ],
+      "gtn_id": "admin/monitoring",
+      "title": "Galaxy Monitoring with Telegraf and Grafana",
+      "captioned": true
     },
     "admin/monitoring/tutorial": {
       "description": null,
@@ -594,7 +645,10 @@
 
           ]
         }
-      ]
+      ],
+      "gtn_id": "admin/monitoring",
+      "title": "Galaxy Monitoring with Telegraf and Grafana",
+      "captioned": true
     },
     "admin/object-store/exercise": {
       "description": null,
@@ -621,7 +675,10 @@
             "gmauro"
           ]
         }
-      ]
+      ],
+      "gtn_id": "admin/object-store",
+      "title": "Distributed Object Storage",
+      "captioned": true
     },
     "admin/singularity/tutorial": {
       "description": "Running jobs in Singularity",
@@ -662,7 +719,10 @@
             "hexylena"
           ]
         }
-      ]
+      ],
+      "gtn_id": "admin/singularity",
+      "title": "Use Singularity containers for running Galaxy jobs",
+      "captioned": true
     },
     "admin/tiaas/tutorial": {
       "description": null,
@@ -690,7 +750,10 @@
             "hexylena"
           ]
         }
-      ]
+      ],
+      "gtn_id": "admin/tiaas",
+      "title": "Training Infrastructure as a Service (TIaaS)",
+      "captioned": true
     },
     "admin/tool-management/slides": {
       "description": null,
@@ -721,7 +784,10 @@
             "cat-bro"
           ]
         }
-      ]
+      ],
+      "gtn_id": "admin/tool-management",
+      "title": "Galaxy Tool Management with Ephemeris",
+      "captioned": true
     },
     "admin/tool-management/tutorial": {
       "description": null,
@@ -764,7 +830,10 @@
             "cat-bro"
           ]
         }
-      ]
+      ],
+      "gtn_id": "admin/tool-management",
+      "title": "Galaxy Tool Management with Ephemeris",
+      "captioned": true
     },
     "admin/upgrading/tutorial": {
       "description": null,
@@ -792,7 +861,10 @@
             "slugger70"
           ]
         }
-      ]
+      ],
+      "gtn_id": "admin/upgrading",
+      "title": "Upgrading Galaxy",
+      "captioned": true
     },
     "admin/users-groups-quotas/slides": {
       "description": null,
@@ -819,7 +891,10 @@
             "awspolly"
           ]
         }
-      ]
+      ],
+      "gtn_id": "admin/users-groups-quotas",
+      "title": "User, Role, Group and Quota managment",
+      "captioned": true
     }
   }
 }

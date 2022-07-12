@@ -24,7 +24,10 @@
             "wm75"
           ]
         }
-      ]
+      ],
+      "gtn_id": "variant-analysis/sars-cov-2-variant-discovery",
+      "title": "Mutation calling, viral genome reconstruction and lineage/clade assignment from SARS-CoV-2 sequencing data",
+      "captioned": true
     },
     "variant-analysis/tb-variant-analysis/slides": {
       "description": "Tuberculosis (TB) is an infectious disease caused by the bacterium Mycobacterium tuberculosis. According to the WHO, in 2018 there were 10.0 million new cases of TB worldwide and 1.4 million deaths due to the disease, making TB the world’s most deadly infectious disease.",
@@ -52,7 +55,10 @@
             "pvanheus"
           ]
         }
-      ]
+      ],
+      "gtn_id": "variant-analysis/tb-variant-analysis",
+      "title": "M. tuberculosis Variant Analysis",
+      "captioned": true
     },
     "variant-analysis/tb-variant-analysis/tutorial": {
       "description": "Variation in the genome of M. tuberculosis (Mtb) is associated with changes in phenotype, for example drug resistance and virulence. It is also useful for outbreak investigation as the single nucleotide polymorphisms (SNPs) in a sample can be used to build a phylogeny.",
@@ -81,7 +87,10 @@
             "pvanheus"
           ]
         }
-      ]
+      ],
+      "gtn_id": "variant-analysis/tb-variant-analysis",
+      "title": "M. tuberculosis Variant Analysis",
+      "captioned": true
     }
   }
 }

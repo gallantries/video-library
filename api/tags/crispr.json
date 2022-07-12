@@ -26,7 +26,10 @@
             "awspolly"
           ]
         }
-      ]
+      ],
+      "gtn_id": "genome-annotation/crispr-screen",
+      "title": "CRISPR screen analysis",
+      "captioned": true
     },
     "genome-annotation/crispr-screen/tutorial": {
       "description": "This tutorial will walk you through a CRISPR screen analysis.",
@@ -54,7 +57,10 @@
             "mblue9"
           ]
         }
-      ]
+      ],
+      "gtn_id": "genome-annotation/crispr-screen",
+      "title": "CRISPR screen analysis",
+      "captioned": true
     }
   }
 }

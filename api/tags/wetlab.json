@@ -23,7 +23,9 @@
             "miaomiaozhou88"
           ]
         }
-      ]
+      ],
+      "gtn_id": "wetlab/miseq",
+      "captioned": true
     }
   }
 }

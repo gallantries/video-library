@@ -26,7 +26,10 @@
             "colineroyaux"
           ]
         }
-      ]
+      ],
+      "gtn_id": "ecology/PAMPA-toolsuite-tutorial",
+      "title": "Compute and analyze biodiversity metrics with PAMPA toolsuite",
+      "captioned": true
     },
     "ecology/Obitools-metabarcoding/tutorial": {
       "description": "Based on this OBITools official tutorial, you will learn here how to\nanalyze DNA metabarcoding data produced on Illumina sequencers\n",
@@ -53,7 +56,10 @@
             "yvanlebras"
           ]
         }
-      ]
+      ],
+      "gtn_id": "ecology/Obitools-metabarcoding",
+      "title": "Metabarcoding/eDNA through Obitools",
+      "captioned": true
     },
     "ecology/biodiversity-data-exploration/tutorial": {
       "description": "",
@@ -80,7 +86,10 @@
             "onorvez"
           ]
         }
-      ]
+      ],
+      "gtn_id": "ecology/biodiversity-data-exploration",
+      "title": "Biodiversity data exploration",
+      "captioned": true
     }
   }
 }

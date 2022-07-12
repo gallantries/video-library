@@ -26,7 +26,9 @@
             "lldelisle"
           ]
         }
-      ]
+      ],
+      "gtn_id": "webinar/admins",
+      "captioned": false
     },
     "webinar/educators": {
       "materials": [
@@ -58,7 +60,9 @@
             "bebatut"
           ]
         }
-      ]
+      ],
+      "gtn_id": "webinar/educators",
+      "captioned": true
     },
     "webinar/researchers": {
       "description": "Wondering how to get started, or how to do a particular type of analysis, or how to scale to thousands of datasets? This webinar will highlight how to find the resources and help you need for each of these questions and more.",
@@ -85,7 +89,9 @@
             "tnabtaf"
           ]
         }
-      ]
+      ],
+      "gtn_id": "webinar/researchers",
+      "captioned": false
     },
     "webinar/tooldevs": {
       "materials": [
@@ -113,7 +119,9 @@
             "petrnovak"
           ]
         }
-      ]
+      ],
+      "gtn_id": "webinar/tooldevs",
+      "captioned": false
     }
   }
 }

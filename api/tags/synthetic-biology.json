@@ -25,7 +25,9 @@
             "kenza12"
           ]
         }
-      ]
+      ],
+      "gtn_id": "synthetic-biology/basic_assembly_analysis",
+      "captioned": true
     },
     "synthetic-biology/retrosynthesis_analysis/demo": {
       "title": "Generating theoretical possible pathways for the production of Lycopene in E.Coli using Retrosynthesis tools.",
@@ -51,7 +53,9 @@
             "kenza12"
           ]
         }
-      ]
+      ],
+      "gtn_id": "synthetic-biology/retrosynthesis_analysis",
+      "captioned": true
     }
   }
 }

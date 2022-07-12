@@ -29,7 +29,10 @@
             "nekrut"
           ]
         }
-      ]
+      ],
+      "gtn_id": "introduction/galaxy-intro-101",
+      "title": "Galaxy 101",
+      "captioned": true
     },
     "introduction/galaxy-intro-ngs-data-managment": {
       "description": "In this demo video, we will show how to perform an NGS data analysis, using a SARS-CoV-2 example dataset. If you would like to run the full tutorial yourself, please find the link below (duration 1h-1.5h).",
@@ -57,7 +60,10 @@
             "nekrut"
           ]
         }
-      ]
+      ],
+      "gtn_id": "introduction/galaxy-intro-ngs-data-managment",
+      "title": "NGS data logistics",
+      "captioned": true
     }
   }
 }

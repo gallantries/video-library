@@ -29,7 +29,10 @@
             "mblue9"
           ]
         }
-      ]
+      ],
+      "gtn_id": "transcriptomics/rna-seq-viz-with-volcanoplot-r",
+      "title": "Visualization of RNA-Seq results with Volcano Plot in R",
+      "captioned": true
     },
     "transcriptomics/rna-seq-viz-with-volcanoplot/tutorial": {
       "description": "This tutorial will show you how you can create volcano plots from your RNA-Seq analysis results using Galaxy tools.",
@@ -58,7 +61,10 @@
             "mblue9"
           ]
         }
-      ]
+      ],
+      "gtn_id": "transcriptomics/rna-seq-viz-with-volcanoplot",
+      "title": "Visualization of RNA-Seq results with Volcano Plot",
+      "captioned": true
     },
     "visualisation/circos/slides": {
       "description": "Circos is a popular tool for creating circular graphs to display genomic data. This video will introduce this tool and how to use it within Galaxy",
@@ -86,7 +92,10 @@
             "hexylena"
           ]
         }
-      ]
+      ],
+      "gtn_id": "visualisation/circos",
+      "title": "Visualisation with Circos",
+      "captioned": true
     },
     "visualisation/circos/tutorial": {
       "description": "Circos is a popular tool for creating circular graphs to display genomic data. This video will introduce this tool and how to use it within Galaxy",
@@ -121,7 +130,10 @@
             "hexylena"
           ]
         }
-      ]
+      ],
+      "gtn_id": "visualisation/circos",
+      "title": "Visualisation with Circos",
+      "captioned": true
     }
   }
 }

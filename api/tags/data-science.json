@@ -28,7 +28,10 @@
             "fpsom"
           ]
         }
-      ]
+      ],
+      "gtn_id": "data-science/r-advanced",
+      "title": "Advanced R in Galaxy",
+      "captioned": true
     },
     "data-science/r-basics/tutorial": {
       "description": "This tutorial will provide an introduction to using R with Rstudio in Galaxy.",
@@ -58,7 +61,10 @@
             "fpsom"
           ]
         }
-      ]
+      ],
+      "gtn_id": "data-science/r-basics",
+      "title": "R basics in Galaxy",
+      "captioned": true
     }
   }
 }

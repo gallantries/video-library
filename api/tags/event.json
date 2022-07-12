@@ -21,7 +21,9 @@
             "hexylena"
           ]
         }
-      ]
+      ],
+      "gtn_id": "course/welcome-admin",
+      "captioned": true
     },
     "course/welcome-gcc2021": {
       "title": "GCC2021 Training: Welcome & Course Logistics",
@@ -52,7 +54,9 @@
             "shiltemann"
           ]
         }
-      ]
+      ],
+      "gtn_id": "course/welcome-gcc2021",
+      "captioned": true
     }
   }
 }

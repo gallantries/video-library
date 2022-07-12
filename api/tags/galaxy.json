@@ -29,7 +29,9 @@
             "nekrut"
           ]
         }
-      ]
+      ],
+      "gtn_id": "galaxy/intro",
+      "captioned": true
     },
     "introduction/galaxy-intro-101-everyone/tutorial": {
       "description": "This video tutorial will provide a non-genomics based first look at the Galaxy platform, how to use it, and discusses how you can get support for your data analysis.",
@@ -58,7 +60,10 @@
             "rwinand"
           ]
         }
-      ]
+      ],
+      "gtn_id": "introduction/galaxy-intro-101-everyone",
+      "title": "Galaxy 101 for everyone",
+      "captioned": true
     },
     "galaxy/intro2": {
       "title": "Your First Galaxy Analysis",
@@ -99,7 +104,9 @@
             "tnabtaf"
           ]
         }
-      ]
+      ],
+      "gtn_id": "galaxy/intro2",
+      "captioned": true
     }
   }
 }

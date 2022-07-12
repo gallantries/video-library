@@ -27,7 +27,10 @@
             "shiltemann"
           ]
         }
-      ]
+      ],
+      "gtn_id": "contributing/gitpod",
+      "title": "Running the GTN website online using GitPod",
+      "captioned": true
     },
     "contributing/create-new-tutorial-slides/slides": {
       "description": "This lecture goes through the process of how to create a slide deck, common things you should bear in mind while you're writing them, and how to enable the amazing slides-to-video features for your slide decks! This video itself was produced automatically from the GTN's slide decks, anyone making edits to these slides will cause them to be rebuilt, making organising videos for events easier than ever.\n",
@@ -55,7 +58,10 @@
             "awspolly"
           ]
         }
-      ]
+      ],
+      "gtn_id": "contributing/create-new-tutorial-slides",
+      "title": "Creating Slides",
+      "captioned": true
     },
     "contributing/create-new-tutorial/tutorial": {
       "description": "This tutorial will go through all of the steps of creating a simple tutorial and contributing it to the GTN.",
@@ -88,7 +94,10 @@
             "bebatut"
           ]
         }
-      ]
+      ],
+      "gtn_id": "contributing/create-new-tutorial",
+      "title": "Creating a new tutorial",
+      "captioned": true
     }
   }
 }

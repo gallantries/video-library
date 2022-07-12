@@ -26,7 +26,10 @@
             "lldelisle"
           ]
         }
-      ]
+      ],
+      "gtn_id": "epigenetics/atac-seq",
+      "title": "ATAC-Seq data analysis",
+      "captioned": true
     },
     "epigenetics/atac-seq/tutorial": {
       "description": "This tutorial will walk you through a ATAC-Seq data analysis.",
@@ -54,7 +57,10 @@
             "heylf"
           ]
         }
-      ]
+      ],
+      "gtn_id": "epigenetics/atac-seq",
+      "title": "ATAC-Seq data analysis",
+      "captioned": true
     }
   }
 }

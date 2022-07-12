@@ -36,7 +36,9 @@
             "jmchilton"
           ]
         }
-      ]
+      ],
+      "gtn_id": "dev/architecture",
+      "captioned": false
     },
     "dev/architecture/slides-models-managers": {
       "title": "Galaxy Code Architecture: Models and Managers",
@@ -73,7 +75,9 @@
             "jmchilton"
           ]
         }
-      ]
+      ],
+      "gtn_id": "dev/architecture",
+      "captioned": false
     },
     "dev/architecture/slides-app-di": {
       "title": "Galaxy Code Architecture: app and Dependency Injection",
@@ -110,7 +114,9 @@
             "jmchilton"
           ]
         }
-      ]
+      ],
+      "gtn_id": "dev/architecture",
+      "captioned": false
     },
     "dev/architecture/slides-project-management": {
       "title": "Galaxy Code Architecture: Project Management",
@@ -149,7 +155,9 @@
             "jmchilton"
           ]
         }
-      ]
+      ],
+      "gtn_id": "dev/architecture",
+      "captioned": true
     },
     "dev/architecture/slides-web-client": {
       "title": "Galaxy Code Architecture: Web Client",
@@ -186,7 +194,9 @@
             "jmchilton"
           ]
         }
-      ]
+      ],
+      "gtn_id": "dev/architecture",
+      "captioned": false
     },
     "dev/architecture/slides-pluggable-components": {
       "title": "Galaxy Code Architecture: Pluggable Components",
@@ -223,7 +233,9 @@
             "jmchilton"
           ]
         }
-      ]
+      ],
+      "gtn_id": "dev/architecture",
+      "captioned": false
     },
     "dev/architecture/slides-principles": {
       "title": "Galaxy Code Architecture: Principles",
@@ -262,7 +274,9 @@
             "jmchilton"
           ]
         }
-      ]
+      ],
+      "gtn_id": "dev/architecture",
+      "captioned": true
     },
     "dev/architecture/slides-web-requests": {
       "title": "Galaxy Code Architecture: Web Requests",
@@ -299,7 +313,9 @@
             "jmchilton"
           ]
         }
-      ]
+      ],
+      "gtn_id": "dev/architecture",
+      "captioned": false
     },
     "dev/architecture/slides-files-directories": {
       "title": "Galaxy Code Architecture: Files and Directories",
@@ -336,7 +352,9 @@
             "jmchilton"
           ]
         }
-      ]
+      ],
+      "gtn_id": "dev/architecture",
+      "captioned": false
     },
     "dev/debugging/tutorial/intro": {
       "title": "Introduction",
@@ -365,7 +383,9 @@
             "ic4f"
           ]
         }
-      ]
+      ],
+      "gtn_id": "dev/debugging",
+      "captioned": true
     },
     "dev/debugging/tutorial/client-unit-test": {
       "title": "Client Unit Tests",
@@ -394,7 +414,9 @@
             "ic4f"
           ]
         }
-      ]
+      ],
+      "gtn_id": "dev/debugging",
+      "captioned": true
     },
     "dev/debugging/tutorial/summary": {
       "title": "Debugging Wisdom",
@@ -423,7 +445,9 @@
             "ic4f"
           ]
         }
-      ]
+      ],
+      "gtn_id": "dev/debugging",
+      "captioned": true
     },
     "dev/debugging/tutorial/api-test-failure": {
       "title": "API tests",
@@ -452,7 +476,9 @@
             "ic4f"
           ]
         }
-      ]
+      ],
+      "gtn_id": "dev/debugging",
+      "captioned": true
     },
     "dev/debugging/tutorial/client-linter": {
       "title": "Client Linting",
@@ -481,7 +507,9 @@
             "ic4f"
           ]
         }
-      ]
+      ],
+      "gtn_id": "dev/debugging",
+      "captioned": true
     },
     "dev/debugging/tutorial/runtime-error": {
       "title": "Runtime Errors",
@@ -509,7 +537,9 @@
             "ic4f"
           ]
         }
-      ]
+      ],
+      "gtn_id": "dev/debugging",
+      "captioned": true
     },
     "dev/debugging/tutorial/selenium": {
       "title": "Selenium",
@@ -540,7 +570,9 @@
             "assuntad23"
           ]
         }
-      ]
+      ],
+      "gtn_id": "dev/debugging",
+      "captioned": true
     },
     "dev/debugging/tutorial/unit-test-failure": {
       "title": "Unit Testing",
@@ -569,7 +601,9 @@
             "ic4f"
           ]
         }
-      ]
+      ],
+      "gtn_id": "dev/debugging",
+      "captioned": true
     },
     "dev/tool-from-scratch/tutorial": {
       "title": "Tools from Scratch",
@@ -613,7 +647,9 @@
             "bernt-matthias"
           ]
         }
-      ]
+      ],
+      "gtn_id": "dev/tool-from-scratch",
+      "captioned": true
     },
     "dev/tool-generators/tutorial": {
       "description": "ToolFactory Presentation: Abstract tool interface code that wraps simple scripts can be generated using a Galaxy tool.\nIf you haven't already decided that the GTN tutorials linked below might be useful for your work, or if want to hear Ross's opinions on tools,\nabstract interfaces and why they matter, this talk is for you.\n",
@@ -640,7 +676,10 @@
             "fubar2"
           ]
         }
-      ]
+      ],
+      "gtn_id": "dev/tool-generators",
+      "title": "ToolFactory: Generating Tools From Simple Scripts",
+      "captioned": true
     },
     "dev/tool-generators-advanced/tutorial": {
       "description": "Hands on demonstration for the Introductory tutorial. Create, run and update a \"Hello World\" tool in Galaxy",
@@ -668,7 +707,10 @@
             "fubar2"
           ]
         }
-      ]
+      ],
+      "gtn_id": "dev/tool-generators-advanced",
+      "title": "ToolFactory: Generating Tools From More Complex Scripts",
+      "captioned": true
     }
   }
 }

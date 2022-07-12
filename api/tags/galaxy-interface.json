@@ -26,7 +26,10 @@
             "mvdbeek"
           ]
         }
-      ]
+      ],
+      "gtn_id": "galaxy-interface/workflow-parameters",
+      "title": "Using Workflow Parameters",
+      "captioned": true
     },
     "galaxy-interface/workflow-reports/tutorial": {
       "description": "Learn how to view, customize and share Galaxy workflow reports",
@@ -53,7 +56,10 @@
             "shiltemann"
           ]
         }
-      ]
+      ],
+      "gtn_id": "galaxy-interface/workflow-reports",
+      "title": "Workflow Reports",
+      "captioned": true
     },
     "galaxy-interface/collections/tutorial": {
       "description": null,
@@ -81,7 +87,10 @@
             "nekrut"
           ]
         }
-      ]
+      ],
+      "gtn_id": "galaxy-interface/collections",
+      "title": "Using dataset collections",
+      "captioned": true
     },
     "galaxy-interface/ncbi-sarf/slides": {
       "description": "This lecture will introduce the SRA Aligned Read format available in the cloud from SRA, as well as some accompanying metadata that can help you search and filter the data. This sessions is aimed specifically at SARS-CoV-2 runs in SRA.",
@@ -109,7 +118,10 @@
             "prodromus"
           ]
         }
-      ]
+      ],
+      "gtn_id": "galaxy-interface/ncbi-sarf",
+      "title": "SRA Aligned Read Format to Speed Up SARS-CoV-2 data Analysis",
+      "captioned": true
     },
     "galaxy-interface/ncbi-sarf/tutorial": {
       "description": "This tutorial will walk you through accessing and using SRA Aligned read format in Galaxy.",
@@ -142,7 +154,10 @@
             "prodromus"
           ]
         }
-      ]
+      ],
+      "gtn_id": "galaxy-interface/ncbi-sarf",
+      "title": "SRA Aligned Read Format to Speed Up SARS-CoV-2 data Analysis",
+      "captioned": true
     },
     "galaxy-interface/upload-rules": {
       "description": "Through a series of examples, this tutorial aims to familiarize the reader with building Galaxy collections from tabular data containing URLs, sample sheets, list of accessions or identifiers, etc..",
@@ -173,7 +188,10 @@
             "assuntad23"
           ]
         }
-      ]
+      ],
+      "gtn_id": "galaxy-interface/upload-rules",
+      "title": "Rule Based Uploader",
+      "captioned": true
     },
     "galaxy-interface/upload-to-ena": {
       "title": "Uploading data to ENA",
@@ -196,7 +214,9 @@
             "wm75"
           ]
         }
-      ]
+      ],
+      "gtn_id": "galaxy-interface/upload-to-ena",
+      "captioned": true
     },
     "galaxy-interface/workflow-automation": {
       "description": "This is a more technical tutorial which will teach you how to run workflows from the command line and scale your analyses. If you are on Windows, you will need WSL/WSL2 setup before this session.",
@@ -228,7 +248,10 @@
             "simonbray"
           ]
         }
-      ]
+      ],
+      "gtn_id": "galaxy-interface/workflow-automation",
+      "title": "Automating Galaxy workflows using the command line",
+      "captioned": true
     },
     "data-science/rstudio-galaxy": {
       "title": "Running RStudio on Galaxy",
@@ -257,7 +280,9 @@
             "fpsom"
           ]
         }
-      ]
+      ],
+      "gtn_id": "data-science/rstudio-galaxy",
+      "captioned": true
     }
   }
 }

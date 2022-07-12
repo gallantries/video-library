@@ -36,7 +36,9 @@
             "pratikdjagtap"
           ]
         }
-      ]
+      ],
+      "gtn_id": "proteomics/pandemic",
+      "captioned": true
     },
     "proteomics/encyclopedia/slides": {
       "description": "This lecture will introduce EncyclopeDIA.",
@@ -64,7 +66,10 @@
             "pratikdjagtap"
           ]
         }
-      ]
+      ],
+      "gtn_id": "proteomics/encyclopedia",
+      "title": "EncyclopeDIA",
+      "captioned": true
     },
     "proteomics/encyclopedia/tutorial": {
       "description": "This tutorial will walk you through an analysis with EncyclopeDIA step by step.",
@@ -91,7 +96,10 @@
             "emmaleith"
           ]
         }
-      ]
+      ],
+      "gtn_id": "proteomics/encyclopedia",
+      "title": "EncyclopeDIA",
+      "captioned": true
     },
     "proteomics/introduction/slides": {
       "description": "This lecture will provide an introduction to mass spectrometry (MS) based proteomics analysis. <strong>Slides created by Melanie Föll</strong>.",
@@ -119,7 +127,10 @@
             "awspolly"
           ]
         }
-      ]
+      ],
+      "gtn_id": "proteomics/introduction",
+      "title": "Introduction to proteomics, protein identification, quantification and statistical modelling",
+      "captioned": true
     },
     "proteomics/metaproteomics/tutorial": {
       "description": "In this tutorial, the basic workflow for metaproteomics is described, which includes database search, seeking taxonomy information and functional analysis. Related metaproteomics and functional microbiome tools and GTN tutorials are also mentioned in this tutorial.",
@@ -146,7 +157,10 @@
             "pratikdjagtap"
           ]
         }
-      ]
+      ],
+      "gtn_id": "proteomics/metaproteomics",
+      "title": "Metaproteomics tutorial",
+      "captioned": true
     },
     "proteomics/proteogenomics-dbcreation/tutorial": {
       "description": "In this tutorial, we will provide a walkthrough on how to generate a customized protein sequence database using RNA-Seq data.  The resultant FASTA database contains sequences with single amino acid variants (SAVs), insertions and deletions (indels)and transcript assemblies (splicing variants). This database can then be used to identify protein sequence variants from the mass spectrometry data.",
@@ -173,7 +187,10 @@
             "jj-umn"
           ]
         }
-      ]
+      ],
+      "gtn_id": "proteomics/proteogenomics-dbcreation",
+      "title": "Proteogenomics 1: Database Creation",
+      "captioned": true
     },
     "proteomics/proteogenomics-dbsearch/tutorial": {
       "description": "In this demonstration, we're continuing the process of proteogenomic analysis. Here, we search mass spectrometry data against a custom proteogenomics FASTA database to create peptide spectral matches (PSMs) for each dataset; we also isolate non-canonical peptides from the resulting data for further analysis. <strong> If you would like to view the results yourself, we provide example histories in the FAQ document</strong>",
@@ -205,7 +222,10 @@
             "andrewr"
           ]
         }
-      ]
+      ],
+      "gtn_id": "proteomics/proteogenomics-dbsearch",
+      "title": "Proteogenomics 2: Database Search",
+      "captioned": true
     },
     "proteomics/proteogenomics-novel-peptide-analysis/tutorial": {
       "description": "In this demonstration, we will investigate the peptides that were identified during proteogenomics tutorial 2. We will identify the presence of novel proteoforms that are absent in the reference database, annotate the novel peptides and visualize them using the Multi-omics Visualization Platform (MVP). <strong> If you would like to view the results yourself, we provide example histories in the FAQ document</strong>",
@@ -232,7 +252,10 @@
             "subinamehta"
           ]
         }
-      ]
+      ],
+      "gtn_id": "proteomics/proteogenomics-novel-peptide-analysis",
+      "title": "Proteogenomics 3: Novel peptide analysis",
+      "captioned": true
     },
     "proteomics/proteome_annotation/tutorial": {
       "description": "This tutorial covers an annotation pipeline for a protein list identified by LC-MS/MS experiments.",
@@ -260,7 +283,10 @@
             "yvesvdb"
           ]
         }
-      ]
+      ],
+      "gtn_id": "proteomics/proteome_annotation",
+      "title": "Annotating a protein list identified by LC-MS/MS experiments",
+      "captioned": true
     },
     "proteomics/maxquant-msstats-dda-lfq/tutorial": {
       "description": "Modern mass spectrometry-based proteomics enables the identification and quantification of thousands of proteins. Therefore, quantitative mass spectrometry represents an indispensable technology for biological and clinical research. Statistical analyses are required for the unbiased answering of scientific questions and to uncover all important information in the proteomic data. In this training we will cover the full analysis workflow from label-free, data dependent acquisition (DDA) raw data to statistical results. We’ll use two popular quantitative proteomics software: MaxQuant and MSstats.",
@@ -294,7 +320,10 @@
             "foellmelanie"
           ]
         }
-      ]
+      ],
+      "gtn_id": "proteomics/maxquant-msstats-dda-lfq",
+      "title": "MaxQuant and MSstats for the analysis of label-free data",
+      "captioned": true
     }
   }
 }

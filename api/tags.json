@@ -31,7 +31,10 @@
               "gallardoalba"
             ]
           }
-        ]
+        ],
+        "gtn_id": "assembly/assembly-with-preprocessing",
+        "title": "Unicycler assembly of SARS-CoV-2 genome with preprocessing to remove human genome reads",
+        "captioned": true
       },
       "assembly/chloroplast-assembly/tutorial": {
         "description": "In this tutorial, you will assemble a chloroplast genome using a combination of short and long read data.",
@@ -59,7 +62,10 @@
               "annasyme"
             ]
           }
-        ]
+        ],
+        "gtn_id": "assembly/chloroplast-assembly",
+        "title": "Chloroplast genome assembly",
+        "captioned": true
       },
       "assembly/general-introduction/slides": {
         "description": "This lecture walks you through the basic concepts involved in assembling a genome from short-read sequencing data.",
@@ -88,7 +94,10 @@
               "slugger70"
             ]
           }
-        ]
+        ],
+        "gtn_id": "assembly/general-introduction",
+        "title": "An Introduction to Genome Assembly",
+        "captioned": true
       },
       "assembly/vgp_genome_assembly-workflow": {
         "title": "Running the VGP Genome Assembly workflows",
@@ -120,7 +129,9 @@
               "delphine-l"
             ]
           }
-        ]
+        ],
+        "gtn_id": "assembly/vgp_genome_assembly-workflow",
+        "captioned": false
       }
     }
   },
@@ -153,7 +164,10 @@
               "annefou"
             ]
           }
-        ]
+        ],
+        "gtn_id": "climate/fates",
+        "title": "Functionally Assembled Terrestrial Ecosystem Simulator (FATES)",
+        "captioned": true
       },
       "climate/fates/slides": {
         "description": "This lecture provides a brief overview of FATES",
@@ -181,7 +195,10 @@
               "awspolly"
             ]
           }
-        ]
+        ],
+        "gtn_id": "climate/fates",
+        "title": "Functionally Assembled Terrestrial Ecosystem Simulator (FATES)",
+        "captioned": true
       },
       "climate/pangeo/tutorial": {
         "description": "In this tutorial, you will learn how to manipulate netCDF data files using Xarray Galaxy Tools. NetCDF stands for network Common Data Form and is one of the most popular file format in climate science. It is used for storing multidimensional scientific data variables such as temperature or humidity, and metadata can be added to facilitate sharing of netCDF data. netCDF is widely used outside the Climate Science community and each community has its own set of conventions, especially for metadata. The Climate and Forecast metadata convention, also called CF-convention is used by the Climate community and is designed to promote the processing and sharing of netCDF files.\n",
@@ -209,7 +226,10 @@
               "annefou"
             ]
           }
-        ]
+        ],
+        "gtn_id": "climate/pangeo",
+        "title": "Pangeo ecosystem 101 for everyone - Introduction to Xarray Galaxy Tools",
+        "captioned": true
       },
       "climate/pangeo-notebook/tutorial": {
         "description": "In this tutorial, we will learn about Xarray, one of the most used Python\nlibrary from the Pangeo ecosystem.\n\nWe will be using data from Copernicus Atmosphere Monitoring Service and\nmore precisely PM2.5 (Particle Matter < 2.5 μm) 4 days forecast from\nDecember, 22 2021. Parallel data analysis with Pangeo is not covered in\nthis tutorial.\n",
@@ -237,7 +257,10 @@
               "annefou"
             ]
           }
-        ]
+        ],
+        "gtn_id": "climate/pangeo-notebook",
+        "title": "Pangeo Notebook in Galaxy - Introduction to Xarray",
+        "captioned": true
       }
     }
   },
@@ -363,7 +386,9 @@
               "galaxycommunity"
             ]
           }
-        ]
+        ],
+        "gtn_id": "community/welcome",
+        "captioned": true
       }
     }
   },
@@ -397,7 +422,10 @@
               "chrisbarnettster"
             ]
           }
-        ]
+        ],
+        "gtn_id": "computational-chemistry/htmd-analysis",
+        "title": "High Throughput Molecular Dynamics and Analysis",
+        "captioned": true
       }
     }
   },
@@ -431,7 +459,10 @@
               "fpsom"
             ]
           }
-        ]
+        ],
+        "gtn_id": "data-science/r-advanced",
+        "title": "Advanced R in Galaxy",
+        "captioned": true
       },
       "data-science/r-basics/tutorial": {
         "description": "This tutorial will provide an introduction to using R with Rstudio in Galaxy.",
@@ -461,7 +492,10 @@
               "fpsom"
             ]
           }
-        ]
+        ],
+        "gtn_id": "data-science/r-basics",
+        "title": "R basics in Galaxy",
+        "captioned": true
       }
     }
   },
@@ -493,7 +527,10 @@
               "colineroyaux"
             ]
           }
-        ]
+        ],
+        "gtn_id": "ecology/PAMPA-toolsuite-tutorial",
+        "title": "Compute and analyze biodiversity metrics with PAMPA toolsuite",
+        "captioned": true
       },
       "ecology/Obitools-metabarcoding/tutorial": {
         "description": "Based on this OBITools official tutorial, you will learn here how to\nanalyze DNA metabarcoding data produced on Illumina sequencers\n",
@@ -520,7 +557,10 @@
               "yvanlebras"
             ]
           }
-        ]
+        ],
+        "gtn_id": "ecology/Obitools-metabarcoding",
+        "title": "Metabarcoding/eDNA through Obitools",
+        "captioned": true
       },
       "ecology/biodiversity-data-exploration/tutorial": {
         "description": "",
@@ -547,7 +587,10 @@
               "onorvez"
             ]
           }
-        ]
+        ],
+        "gtn_id": "ecology/biodiversity-data-exploration",
+        "title": "Biodiversity data exploration",
+        "captioned": true
       }
     }
   },
@@ -579,7 +622,10 @@
               "lldelisle"
             ]
           }
-        ]
+        ],
+        "gtn_id": "epigenetics/atac-seq",
+        "title": "ATAC-Seq data analysis",
+        "captioned": true
       },
       "epigenetics/atac-seq/tutorial": {
         "description": "This tutorial will walk you through a ATAC-Seq data analysis.",
@@ -607,7 +653,10 @@
               "heylf"
             ]
           }
-        ]
+        ],
+        "gtn_id": "epigenetics/atac-seq",
+        "title": "ATAC-Seq data analysis",
+        "captioned": true
       }
     }
   },
@@ -639,7 +688,10 @@
               "mvdbeek"
             ]
           }
-        ]
+        ],
+        "gtn_id": "galaxy-interface/workflow-parameters",
+        "title": "Using Workflow Parameters",
+        "captioned": true
       },
       "galaxy-interface/workflow-reports/tutorial": {
         "description": "Learn how to view, customize and share Galaxy workflow reports",
@@ -666,7 +718,10 @@
               "shiltemann"
             ]
           }
-        ]
+        ],
+        "gtn_id": "galaxy-interface/workflow-reports",
+        "title": "Workflow Reports",
+        "captioned": true
       },
       "galaxy-interface/collections/tutorial": {
         "description": null,
@@ -694,7 +749,10 @@
               "nekrut"
             ]
           }
-        ]
+        ],
+        "gtn_id": "galaxy-interface/collections",
+        "title": "Using dataset collections",
+        "captioned": true
       },
       "galaxy-interface/ncbi-sarf/slides": {
         "description": "This lecture will introduce the SRA Aligned Read format available in the cloud from SRA, as well as some accompanying metadata that can help you search and filter the data. This sessions is aimed specifically at SARS-CoV-2 runs in SRA.",
@@ -722,7 +780,10 @@
               "prodromus"
             ]
           }
-        ]
+        ],
+        "gtn_id": "galaxy-interface/ncbi-sarf",
+        "title": "SRA Aligned Read Format to Speed Up SARS-CoV-2 data Analysis",
+        "captioned": true
       },
       "galaxy-interface/ncbi-sarf/tutorial": {
         "description": "This tutorial will walk you through accessing and using SRA Aligned read format in Galaxy.",
@@ -755,7 +816,10 @@
               "prodromus"
             ]
           }
-        ]
+        ],
+        "gtn_id": "galaxy-interface/ncbi-sarf",
+        "title": "SRA Aligned Read Format to Speed Up SARS-CoV-2 data Analysis",
+        "captioned": true
       },
       "galaxy-interface/upload-rules": {
         "description": "Through a series of examples, this tutorial aims to familiarize the reader with building Galaxy collections from tabular data containing URLs, sample sheets, list of accessions or identifiers, etc..",
@@ -786,7 +850,10 @@
               "assuntad23"
             ]
           }
-        ]
+        ],
+        "gtn_id": "galaxy-interface/upload-rules",
+        "title": "Rule Based Uploader",
+        "captioned": true
       },
       "galaxy-interface/upload-to-ena": {
         "title": "Uploading data to ENA",
@@ -809,7 +876,9 @@
               "wm75"
             ]
           }
-        ]
+        ],
+        "gtn_id": "galaxy-interface/upload-to-ena",
+        "captioned": true
       },
       "galaxy-interface/workflow-automation": {
         "description": "This is a more technical tutorial which will teach you how to run workflows from the command line and scale your analyses. If you are on Windows, you will need WSL/WSL2 setup before this session.",
@@ -841,7 +910,10 @@
               "simonbray"
             ]
           }
-        ]
+        ],
+        "gtn_id": "galaxy-interface/workflow-automation",
+        "title": "Automating Galaxy workflows using the command line",
+        "captioned": true
       },
       "data-science/rstudio-galaxy": {
         "title": "Running RStudio on Galaxy",
@@ -870,7 +942,9 @@
               "fpsom"
             ]
           }
-        ]
+        ],
+        "gtn_id": "data-science/rstudio-galaxy",
+        "captioned": true
       }
     }
   },
@@ -898,7 +972,9 @@
               "wm75"
             ]
           }
-        ]
+        ],
+        "gtn_id": "galaxy-interface/upload-to-ena",
+        "captioned": true
       },
       "sars-cov2/usegalaxy-star-bot": {
         "title": "The usegalaxy.* SARS-CoV-2 Bot in Action",
@@ -922,7 +998,9 @@
               "wm75"
             ]
           }
-        ]
+        ],
+        "gtn_id": "sars-cov2/usegalaxy-star-bot",
+        "captioned": true
       },
       "sars-cov2/using-galaxy": {
         "title": "SARS-CoV-2 Monitoring and Analysis with Galaxy",
@@ -946,7 +1024,9 @@
               "wm75"
             ]
           }
-        ]
+        ],
+        "gtn_id": "sars-cov2/using-galaxy",
+        "captioned": true
       },
       "sars-cov2/viral-beacon/slides": {
         "title": "Introduction to viral Beacon",
@@ -973,7 +1053,9 @@
               "babitasingh"
             ]
           }
-        ]
+        ],
+        "gtn_id": "sars-cov2/viral-beacon",
+        "captioned": true
       },
       "sars-cov2/observablehq": {
         "title": "Using and Customising ObservableHQ",
@@ -998,7 +1080,9 @@
               "sergeipond"
             ]
           }
-        ]
+        ],
+        "gtn_id": "sars-cov2/observablehq",
+        "captioned": true
       },
       "sars-cov2/upload-ena": {
         "title": "Upload to ENA",
@@ -1024,7 +1108,9 @@
               "miguelroncoroni"
             ]
           }
-        ]
+        ],
+        "gtn_id": "sars-cov2/upload-ena",
+        "captioned": true
       }
     }
   },
@@ -1059,7 +1145,9 @@
               "nekrut"
             ]
           }
-        ]
+        ],
+        "gtn_id": "galaxy/intro",
+        "captioned": true
       },
       "galaxy/intro2": {
         "title": "Your First Galaxy Analysis",
@@ -1100,7 +1188,9 @@
               "tnabtaf"
             ]
           }
-        ]
+        ],
+        "gtn_id": "galaxy/intro2",
+        "captioned": true
       }
     }
   },
@@ -1135,7 +1225,9 @@
               "nekrut"
             ]
           }
-        ]
+        ],
+        "gtn_id": "galaxy/intro",
+        "captioned": true
       },
       "introduction/galaxy-intro-101-everyone/tutorial": {
         "description": "This video tutorial will provide a non-genomics based first look at the Galaxy platform, how to use it, and discusses how you can get support for your data analysis.",
@@ -1164,7 +1256,10 @@
               "rwinand"
             ]
           }
-        ]
+        ],
+        "gtn_id": "introduction/galaxy-intro-101-everyone",
+        "title": "Galaxy 101 for everyone",
+        "captioned": true
       },
       "galaxy/intro2": {
         "title": "Your First Galaxy Analysis",
@@ -1205,7 +1300,9 @@
               "tnabtaf"
             ]
           }
-        ]
+        ],
+        "gtn_id": "galaxy/intro2",
+        "captioned": true
       }
     }
   },
@@ -1237,7 +1334,10 @@
               "awspolly"
             ]
           }
-        ]
+        ],
+        "gtn_id": "genome-annotation/crispr-screen",
+        "title": "CRISPR screen analysis",
+        "captioned": true
       },
       "genome-annotation/crispr-screen/tutorial": {
         "description": "This tutorial will walk you through a CRISPR screen analysis.",
@@ -1265,7 +1365,10 @@
               "mblue9"
             ]
           }
-        ]
+        ],
+        "gtn_id": "genome-annotation/crispr-screen",
+        "title": "CRISPR screen analysis",
+        "captioned": true
       }
     }
   },
@@ -1297,7 +1400,10 @@
               "awspolly"
             ]
           }
-        ]
+        ],
+        "gtn_id": "genome-annotation/annotation-with-prokka",
+        "title": "Genome annotation with Prokka",
+        "captioned": true
       },
       "genome-annotation/annotation-with-prokka/tutorial": {
         "description": "In this tutorial we will use Prokka to annotate a draft genome sequence. Prokka finds and annotates features (both protein coding regions and RNA genes, i.e. tRNA, rRNA) present on on a sequence. Prokka can be used to annotate bacterial, archaeal and viral genomes quickly, generating standard output files in GenBank, EMBL and gff formats.\"",
@@ -1324,7 +1430,10 @@
               "abretaud"
             ]
           }
-        ]
+        ],
+        "gtn_id": "genome-annotation/annotation-with-prokka",
+        "title": "Genome annotation with Prokka",
+        "captioned": true
       },
       "genome-annotation/apollo/slides": {
         "description": "This lecture gives a quick overview of Apollo",
@@ -1351,7 +1460,10 @@
               "awspolly"
             ]
           }
-        ]
+        ],
+        "gtn_id": "genome-annotation/apollo",
+        "title": "Refining Genome Annotations with Apollo",
+        "captioned": true
       },
       "genome-annotation/apollo/tutorial": {
         "description": "In this tutorial you will get some hands-on experience using Apollo in Galaxy",
@@ -1382,7 +1494,10 @@
               "abretaud"
             ]
           }
-        ]
+        ],
+        "gtn_id": "genome-annotation/apollo",
+        "title": "Refining Genome Annotations with Apollo",
+        "captioned": true
       },
       "genome-annotation/repeatmasker/tutorial": {
         "description": "The aim of repeat masking is to identify the location of all repeated elements along a genome sequence. Other tools (like annotation pipelines) can then take this information into account when producing their results.\n",
@@ -1409,7 +1524,10 @@
               "abretaud"
             ]
           }
-        ]
+        ],
+        "gtn_id": "genome-annotation/repeatmasker",
+        "title": "Masking repeats with RepeatMasker",
+        "captioned": true
       },
       "genome-annotation/funannotate/tutorial": {
         "description": "Genome annotation of eukaryotes is a little more complicated than for prokaryotes: eukaryotic genomes are usually larger than prokaryotes, with more genes. The sequences determining the beginning and the end of a gene are generally less conserved than the prokaryotic ones. Many genes also contain introns, and the limits of these introns (acceptor and donor sites) are not highly conserved.\n\nIn this tutorial we will use a software tool called Funannotate (Palmer and Stajich 2020) to annotate the genome sequence of a small eukaryote: Mucor mucedo (a fungal plant pathogen).\n",
@@ -1436,7 +1554,10 @@
               "abretaud"
             ]
           }
-        ]
+        ],
+        "gtn_id": "genome-annotation/funannotate",
+        "title": "Genome annotation with Funannotate",
+        "captioned": true
       },
       "genome-annotation/tnseq-lecture": {
         "title": "Essential genes detection with Transposon insertion sequencing (Lecture)",
@@ -1463,7 +1584,9 @@
               "delphine-l"
             ]
           }
-        ]
+        ],
+        "gtn_id": "genome-annotation/tnseq-lecture",
+        "captioned": false
       }
     }
   },
@@ -1498,7 +1621,10 @@
               "nekrut"
             ]
           }
-        ]
+        ],
+        "gtn_id": "introduction/galaxy-intro-101",
+        "title": "Galaxy 101",
+        "captioned": true
       },
       "introduction/galaxy-intro-ngs-data-managment": {
         "description": "In this demo video, we will show how to perform an NGS data analysis, using a SARS-CoV-2 example dataset. If you would like to run the full tutorial yourself, please find the link below (duration 1h-1.5h).",
@@ -1526,7 +1652,10 @@
               "nekrut"
             ]
           }
-        ]
+        ],
+        "gtn_id": "introduction/galaxy-intro-ngs-data-managment",
+        "title": "NGS data logistics",
+        "captioned": true
       }
     }
   },
@@ -1556,7 +1685,9 @@
               "aheikema"
             ]
           }
-        ]
+        ],
+        "gtn_id": "metagenomics/clinical-applications",
+        "captioned": true
       },
       "metagenomics/introduction/slides": {
         "description": "This lecture briefly introduces 16S sequencing, a popular technique used for taxonomic profiling of microbial communities.",
@@ -1584,7 +1715,10 @@
               "shiltemann"
             ]
           }
-        ]
+        ],
+        "gtn_id": "metagenomics/introduction",
+        "title": "Introduction to metagenomics",
+        "captioned": true
       },
       "metagenomics/metatranscriptomics": {
         "description": "Metatranscriptomics analysis examines how the microbiome responds to the environment by studying the taxonomic composition and functional analysis of genes expressed by the microbiome, using microbial community RNASeq data and subsequent metatranscriptomics workflows. This workshop will introduce researchers to the basic concepts and tools from the ASaiM-MT workflow. ASaiM-MT provides a curated collection of tools to explore and visualize taxonomic and functional information from metatranscriptomic sequences.",
@@ -1625,7 +1759,10 @@
               "shiltemann"
             ]
           }
-        ]
+        ],
+        "gtn_id": "metagenomics/metatranscriptomics",
+        "title": "Metatranscriptomics analysis using microbiome RNA-seq data",
+        "captioned": true
       },
       "metagenomics/mothur-miseq-sop-short/tutorial": {
         "description": "This lecture briefly introduces 16S sequencing, a popular technique used for taxonomic profiling of microbial communities.",
@@ -1652,7 +1789,10 @@
               "shiltemann"
             ]
           }
-        ]
+        ],
+        "gtn_id": "metagenomics/mothur-miseq-sop-short",
+        "title": "16S Microbial Analysis with mothur (short)",
+        "captioned": true
       },
       "metagenomics/plasmid-metagenomics-nanopore/tutorial": {
         "description": "This tutorial will guide you through the process of assembling your Nanopore-sequenced bacterial samples and determining the presence of antibiotic resistance genes.",
@@ -1685,7 +1825,10 @@
               "willemdek11"
             ]
           }
-        ]
+        ],
+        "gtn_id": "metagenomics/plasmid-metagenomics-nanopore",
+        "title": "Antibiotic resistance detection",
+        "captioned": true
       }
     }
   },
@@ -1727,7 +1870,9 @@
               "pratikdjagtap"
             ]
           }
-        ]
+        ],
+        "gtn_id": "proteomics/pandemic",
+        "captioned": true
       },
       "proteomics/encyclopedia/slides": {
         "description": "This lecture will introduce EncyclopeDIA.",
@@ -1755,7 +1900,10 @@
               "pratikdjagtap"
             ]
           }
-        ]
+        ],
+        "gtn_id": "proteomics/encyclopedia",
+        "title": "EncyclopeDIA",
+        "captioned": true
       },
       "proteomics/encyclopedia/tutorial": {
         "description": "This tutorial will walk you through an analysis with EncyclopeDIA step by step.",
@@ -1782,7 +1930,10 @@
               "emmaleith"
             ]
           }
-        ]
+        ],
+        "gtn_id": "proteomics/encyclopedia",
+        "title": "EncyclopeDIA",
+        "captioned": true
       },
       "proteomics/introduction/slides": {
         "description": "This lecture will provide an introduction to mass spectrometry (MS) based proteomics analysis. <strong>Slides created by Melanie Föll</strong>.",
@@ -1810,7 +1961,10 @@
               "awspolly"
             ]
           }
-        ]
+        ],
+        "gtn_id": "proteomics/introduction",
+        "title": "Introduction to proteomics, protein identification, quantification and statistical modelling",
+        "captioned": true
       },
       "proteomics/metaproteomics/tutorial": {
         "description": "In this tutorial, the basic workflow for metaproteomics is described, which includes database search, seeking taxonomy information and functional analysis. Related metaproteomics and functional microbiome tools and GTN tutorials are also mentioned in this tutorial.",
@@ -1837,7 +1991,10 @@
               "pratikdjagtap"
             ]
           }
-        ]
+        ],
+        "gtn_id": "proteomics/metaproteomics",
+        "title": "Metaproteomics tutorial",
+        "captioned": true
       },
       "proteomics/proteogenomics-dbcreation/tutorial": {
         "description": "In this tutorial, we will provide a walkthrough on how to generate a customized protein sequence database using RNA-Seq data.  The resultant FASTA database contains sequences with single amino acid variants (SAVs), insertions and deletions (indels)and transcript assemblies (splicing variants). This database can then be used to identify protein sequence variants from the mass spectrometry data.",
@@ -1864,7 +2021,10 @@
               "jj-umn"
             ]
           }
-        ]
+        ],
+        "gtn_id": "proteomics/proteogenomics-dbcreation",
+        "title": "Proteogenomics 1: Database Creation",
+        "captioned": true
       },
       "proteomics/proteogenomics-dbsearch/tutorial": {
         "description": "In this demonstration, we're continuing the process of proteogenomic analysis. Here, we search mass spectrometry data against a custom proteogenomics FASTA database to create peptide spectral matches (PSMs) for each dataset; we also isolate non-canonical peptides from the resulting data for further analysis. <strong> If you would like to view the results yourself, we provide example histories in the FAQ document</strong>",
@@ -1896,7 +2056,10 @@
               "andrewr"
             ]
           }
-        ]
+        ],
+        "gtn_id": "proteomics/proteogenomics-dbsearch",
+        "title": "Proteogenomics 2: Database Search",
+        "captioned": true
       },
       "proteomics/proteogenomics-novel-peptide-analysis/tutorial": {
         "description": "In this demonstration, we will investigate the peptides that were identified during proteogenomics tutorial 2. We will identify the presence of novel proteoforms that are absent in the reference database, annotate the novel peptides and visualize them using the Multi-omics Visualization Platform (MVP). <strong> If you would like to view the results yourself, we provide example histories in the FAQ document</strong>",
@@ -1923,7 +2086,10 @@
               "subinamehta"
             ]
           }
-        ]
+        ],
+        "gtn_id": "proteomics/proteogenomics-novel-peptide-analysis",
+        "title": "Proteogenomics 3: Novel peptide analysis",
+        "captioned": true
       },
       "proteomics/proteome_annotation/tutorial": {
         "description": "This tutorial covers an annotation pipeline for a protein list identified by LC-MS/MS experiments.",
@@ -1951,7 +2117,10 @@
               "yvesvdb"
             ]
           }
-        ]
+        ],
+        "gtn_id": "proteomics/proteome_annotation",
+        "title": "Annotating a protein list identified by LC-MS/MS experiments",
+        "captioned": true
       },
       "proteomics/maxquant-msstats-dda-lfq/tutorial": {
         "description": "Modern mass spectrometry-based proteomics enables the identification and quantification of thousands of proteins. Therefore, quantitative mass spectrometry represents an indispensable technology for biological and clinical research. Statistical analyses are required for the unbiased answering of scientific questions and to uncover all important information in the proteomic data. In this training we will cover the full analysis workflow from label-free, data dependent acquisition (DDA) raw data to statistical results. We’ll use two popular quantitative proteomics software: MaxQuant and MSstats.",
@@ -1985,7 +2154,10 @@
               "foellmelanie"
             ]
           }
-        ]
+        ],
+        "gtn_id": "proteomics/maxquant-msstats-dda-lfq",
+        "title": "MaxQuant and MSstats for the analysis of label-free data",
+        "captioned": true
       }
     }
   },
@@ -2019,7 +2191,9 @@
               "timothygriffin"
             ]
           }
-        ]
+        ],
+        "gtn_id": "proteogenomics/introduction",
+        "captioned": true
       }
     }
   },
@@ -2050,7 +2224,9 @@
               "kenza12"
             ]
           }
-        ]
+        ],
+        "gtn_id": "synthetic-biology/basic_assembly_analysis",
+        "captioned": true
       },
       "synthetic-biology/retrosynthesis_analysis/demo": {
         "title": "Generating theoretical possible pathways for the production of Lycopene in E.Coli using Retrosynthesis tools.",
@@ -2076,7 +2252,9 @@
               "kenza12"
             ]
           }
-        ]
+        ],
+        "gtn_id": "synthetic-biology/retrosynthesis_analysis",
+        "captioned": true
       }
     }
   },
@@ -2106,7 +2284,10 @@
               "wm75"
             ]
           }
-        ]
+        ],
+        "gtn_id": "variant-analysis/sars-cov-2-variant-discovery",
+        "title": "Mutation calling, viral genome reconstruction and lineage/clade assignment from SARS-CoV-2 sequencing data",
+        "captioned": true
       },
       "variant-analysis/tb-variant-analysis/slides": {
         "description": "Tuberculosis (TB) is an infectious disease caused by the bacterium Mycobacterium tuberculosis. According to the WHO, in 2018 there were 10.0 million new cases of TB worldwide and 1.4 million deaths due to the disease, making TB the world’s most deadly infectious disease.",
@@ -2134,7 +2315,10 @@
               "pvanheus"
             ]
           }
-        ]
+        ],
+        "gtn_id": "variant-analysis/tb-variant-analysis",
+        "title": "M. tuberculosis Variant Analysis",
+        "captioned": true
       },
       "variant-analysis/tb-variant-analysis/tutorial": {
         "description": "Variation in the genome of M. tuberculosis (Mtb) is associated with changes in phenotype, for example drug resistance and virulence. It is also useful for outbreak investigation as the single nucleotide polymorphisms (SNPs) in a sample can be used to build a phylogeny.",
@@ -2163,7 +2347,10 @@
               "pvanheus"
             ]
           }
-        ]
+        ],
+        "gtn_id": "variant-analysis/tb-variant-analysis",
+        "title": "M. tuberculosis Variant Analysis",
+        "captioned": true
       }
     }
   },
@@ -2188,7 +2375,9 @@
         "tags": [
           "sequence-analysis"
         ],
-        "type": "Tutorial"
+        "type": "Tutorial",
+        "gtn_id": "sequence-analysis/human-reads-removal",
+        "title": "Removal of human reads from SARS-CoV-2 sequencing data"
       },
       "sequence-analysis/mapping/slides": {
         "description": "This lecture covers the basic concepts involved in mapping sequencing reads to a reference genome.",
@@ -2216,7 +2405,10 @@
               "pvanheus"
             ]
           }
-        ]
+        ],
+        "gtn_id": "sequence-analysis/mapping",
+        "title": "Mapping",
+        "captioned": true
       },
       "sequence-analysis/mapping/tutorial": {
         "description": "In this tutorial you will map sequencing data to a reference genome, and explore the mapped reads in a genome browser.",
@@ -2244,7 +2436,10 @@
               "pvanheus"
             ]
           }
-        ]
+        ],
+        "gtn_id": "sequence-analysis/mapping",
+        "title": "Mapping",
+        "captioned": true
       },
       "sequence-analysis/quality-control/slides": {
         "description": "This lecture goes over the concepts involved in assessing the quality of your sequencing data.",
@@ -2274,7 +2469,10 @@
               "heylf"
             ]
           }
-        ]
+        ],
+        "gtn_id": "sequence-analysis/quality-control",
+        "title": "Quality Control",
+        "captioned": true
       },
       "sequence-analysis/quality-control/tutorial": {
         "description": "In this tutorial you will get some hand-on experience performing a quality assessment on sequencing data.",
@@ -2303,7 +2501,10 @@
               "heylf"
             ]
           }
-        ]
+        ],
+        "gtn_id": "sequence-analysis/quality-control",
+        "title": "Quality Control",
+        "captioned": true
       }
     }
   },
@@ -2339,7 +2540,9 @@
               "anuprulez"
             ]
           }
-        ]
+        ],
+        "gtn_id": "statistics/machine-learning",
+        "captioned": true
       },
       "statistics/CNN": {
         "title": "Convolutional Neural Networks (CNN)",
@@ -2373,7 +2576,9 @@
               "kxk302"
             ]
           }
-        ]
+        ],
+        "gtn_id": "statistics/CNN",
+        "captioned": true
       },
       "statistics/FNN": {
         "title": "Feedforward Neural Networks (FNN)",
@@ -2407,7 +2612,9 @@
               "kxk302"
             ]
           }
-        ]
+        ],
+        "gtn_id": "statistics/FNN",
+        "captioned": true
       },
       "statistics/RNN": {
         "title": "Recurrent Neural Networks (RNN)",
@@ -2441,7 +2648,9 @@
               "kxk302"
             ]
           }
-        ]
+        ],
+        "gtn_id": "statistics/RNN",
+        "captioned": true
       },
       "statistics/fruit_360": {
         "description": "The classification of fruits and vegetables offers many useful applications such as automated harvesting by robots, building up stocks for supermarkets, effective detection of specific defects, and determining fruit ripeness (Duong et al. 2020, Naranjo-Torres et al. 2020, Iswari et al. 2017). Machine Learning (ML) techniques such as Deep Learning (DL) are commonly used for image classification problems in various domains, including in agriculture (Kamilaris and Prenafeta-Boldú 2018). DL is a technique inspired by how a human brain operates. Due to the increased availability of compute capacity and training data, DL techniques have become very popular in recent years. In this tutorial, we will use Galaxy’s ML toolkit to build a DL model to classify fruit and vegetable images. Our DL model is trained and evaluated on Fruit 360 dataset (Mureşan and Oltean 2018)\n",
@@ -2472,7 +2681,10 @@
               "kxk302"
             ]
           }
-        ]
+        ],
+        "gtn_id": "statistics/fruit_360",
+        "title": "Image classification in Galaxy with fruit 360 dataset",
+        "captioned": true
       },
       "statistics/classification_machinelearning/tutorial": {
         "description": "The talk includes a lecture followed by a hands-on session to apply multiple classification algorithms on the Quantitative structure-activity relationship (QSAR) dataset to predict the biodegradable activity of chemical compounds. QSAR models attempt to predict the activity or property of chemicals based on their chemical structure. To achieve this, a database of compounds is collected for which the property of interest is known. For each compound, molecular descriptors are collected which describe the structure (for example - molecular weight, number of nitrogen atoms, number of carbon-carbon double bonds). Using these descriptors, a model is constructed which is capable of predicting the property of interest for a new, unknown molecule. In this tutorial, we will use a database assembled from experimental data of the Japanese Ministry of International Trade and Industry to create a classification model by applying simple and complex classifiers to learn the nature of biodegradation. We will use this model to classify new molecules into one of two classes - biodegradable or non-biodegradable. Different visualisations are used to analyze the results after applying each classification algorithm. Hyperparameters of one of the classifiers are also optimised.",
@@ -2506,7 +2718,10 @@
               "anuprulez"
             ]
           }
-        ]
+        ],
+        "gtn_id": "statistics/classification_machinelearning",
+        "title": "Classification in Machine Learning",
+        "captioned": true
       },
       "statistics/intro-to-ml-with-r/tutorial": {
         "description": "This is an Introduction to Machine Learning in R, in which you’ll learn the basics of unsupervised learning for pattern recognition and supervised learning for prediction. At the end of this workshop, we hope that you will   - appreciate the importance of performing exploratory data analysis (or EDA) before starting to model your data.   - understand the basics of unsupervised learning and know the examples of principal component analysis (PCA) and k-means clustering.   - understand the basics of supervised learning for prediction and the differences between classification and regression.   - understand modern machine learning techniques and principles, such as test train split, k-fold cross validation and regularization.   - be able to write code to implement the above techniques and methodologies using R, caret and glmnet.  We will not be focusing on the mathematical foundation for each of the methods and approaches we’ll be discussing. There are many resources that can provide this context, but for the purposes of this workshop we believe that they are beyond the scope.",
@@ -2534,7 +2749,10 @@
               "fpsom"
             ]
           }
-        ]
+        ],
+        "gtn_id": "statistics/intro-to-ml-with-r",
+        "title": "Introduction to Machine Learning using R",
+        "captioned": true
       },
       "statistics/regression_machinelearning/tutorial": {
         "description": "The talk includes a lecture followed by a hands-on session to apply multiple regression algorithms on the DNA-methylation dataset to predict biological age. In this tutorial, we will build a regression model for chronological age prediction, based on DNA methylation. This is based on the work of Jana Naue et al. 2017, in which biomarkers are examined to predict the chronological age of humans by analyzing the DNA methylation patterns. Different machine learning algorithms are used in this study to make an age prediction. It has been recognized that within each individual, the level of DNA methylation changes with age. This knowledge is used to select useful biomarkers from DNA methylation datasets. The CpG sites with the highest correlation to age are selected as the biomarkers (and therefore features for building a regression model). In this tutorial, specific biomarkers are analyzed by machine learning algorithms to create an age prediction model. Multiple visualisations are also used to analyse the predictions made by simple and complex regressors and hyperparameters of one of the regressors also optimised.",
@@ -2567,7 +2785,10 @@
               "anuprulez"
             ]
           }
-        ]
+        ],
+        "gtn_id": "statistics/regression_machinelearning",
+        "title": "Regression in Machine Learning",
+        "captioned": true
       }
     }
   },
@@ -2611,7 +2832,10 @@
               "malloryfreeberg"
             ]
           }
-        ]
+        ],
+        "gtn_id": "transcriptomics/de-novo",
+        "title": "De novo transcriptome reconstruction with RNA-Seq",
+        "captioned": true
       },
       "transcriptomics/droplet-quantification-preprocessing/tutorial": {
         "description": "This tutorial will take you from raw FASTQ files to a cell x gene data matrix in AnnData format. What’s a data matrix, and what’s AnnData format? Well you’ll find out! Importantly, this is the first step in processing single cell data in order to start analysing it.",
@@ -2638,7 +2862,10 @@
               "nomadscientist"
             ]
           }
-        ]
+        ],
+        "gtn_id": "transcriptomics/droplet-quantification-preprocessing",
+        "title": "Generating a single cell matrix using Alevin",
+        "captioned": true
       },
       "transcriptomics/introduction/slides": {
         "description": "RNA sequencing is used to assess the expression levels of genes. This video introduces the important concepts related to RNA-seq analysis.",
@@ -2667,7 +2894,10 @@
               "fpsom"
             ]
           }
-        ]
+        ],
+        "gtn_id": "transcriptomics/introduction",
+        "title": "Introduction to Transcriptomics",
+        "captioned": true
       },
       "transcriptomics/mirna-target-finder/slides": {
         "materials": [
@@ -2705,7 +2935,10 @@
               "awspolly"
             ]
           }
-        ]
+        ],
+        "gtn_id": "transcriptomics/mirna-target-finder",
+        "title": "Whole transcriptome analysis of Arabidopsis thaliana",
+        "captioned": true
       },
       "transcriptomics/mirna-target-finder/tutorial": {
         "materials": [
@@ -2731,7 +2964,10 @@
               "gallardoalba"
             ]
           }
-        ]
+        ],
+        "gtn_id": "transcriptomics/mirna-target-finder",
+        "title": "Whole transcriptome analysis of Arabidopsis thaliana",
+        "captioned": true
       },
       "transcriptomics/ref-based/tutorial": {
         "description": "In this tutorial we will walk you through the process of an RNA-seq analysis, comparing gene expression levels between different conditions and assessing impacted gene pathways.",
@@ -2760,7 +2996,10 @@
               "bebatut"
             ]
           }
-        ]
+        ],
+        "gtn_id": "transcriptomics/ref-based",
+        "title": "Reference-based RNA-Seq data analysis",
+        "captioned": true
       },
       "transcriptomics/rna-seq-counts-to-viz-in-r/tutorial": {
         "description": "In this tutorial, we will visualize our RNA-seq analysis results using R.",
@@ -2790,7 +3029,10 @@
               "fpsom"
             ]
           }
-        ]
+        ],
+        "gtn_id": "transcriptomics/rna-seq-counts-to-viz-in-r",
+        "title": "RNA Seq Counts to Viz in R",
+        "captioned": true
       },
       "transcriptomics/rna-seq-viz-with-volcanoplot-r/tutorial": {
         "description": "The previous tutorial introduced volcano plots and showed how they can be generated with the Galaxy Volcano plot tool. In this tutorial we show how you can customise a plot using the R script output from the tool.",
@@ -2820,7 +3062,10 @@
               "mblue9"
             ]
           }
-        ]
+        ],
+        "gtn_id": "transcriptomics/rna-seq-viz-with-volcanoplot-r",
+        "title": "Visualization of RNA-Seq results with Volcano Plot in R",
+        "captioned": true
       },
       "transcriptomics/rna-seq-viz-with-volcanoplot/tutorial": {
         "description": "This tutorial will show you how you can create volcano plots from your RNA-Seq analysis results using Galaxy tools.",
@@ -2849,7 +3094,10 @@
               "mblue9"
             ]
           }
-        ]
+        ],
+        "gtn_id": "transcriptomics/rna-seq-viz-with-volcanoplot",
+        "title": "Visualization of RNA-Seq results with Volcano Plot",
+        "captioned": true
       },
       "transcriptomics/bulk-music/tutorial": {
         "description": "Bulk RNA-seq data contains a mixture of transcript signatures from\nseveral types of cells. We wish to deconvolve this mixture to obtain\nestimates of the proportions of cell types within the bulk sample. To\ndo this, we can use single cell RNA-seq data as a reference for\nestimating the cell type proportions within the bulk data.\n\nIn this tutorial, we will use bulk and single-cell RNA-seq data, including\nmatrices of similar tissues from different sources, to illustrate how to infer\ncell type abundances from bulk RNA-seq.\n",
@@ -2878,7 +3126,10 @@
               "nomadscientist"
             ]
           }
-        ]
+        ],
+        "gtn_id": "transcriptomics/bulk-music",
+        "title": "Bulk RNA Deconvolution with MuSiC",
+        "captioned": true
       },
       "transcriptomics/scrna-JUPYTER-trajectories/tutorial": {
         "description": "You’ve done all the hard work of preparing a single cell matrix, processing it, plotting it, interpreting it, finding lots of lovely genes, all within the glorious Galaxy interface. Now you want to infer trajectories, or relationships between cells… and you’ve been threatened with learning Python to do so! Well, fear not. If you can have a run-through of a basic python coding introduction, then that will help you make more sense of this tutorial, however you’ll be able to make and interpret glorious plots even without understanding the Python coding language. This is the beauty of Galaxy - all the ‘set-up’ is identical across computers, because it’s browser based. So fear not!",
@@ -2906,7 +3157,10 @@
               "nomadscientist"
             ]
           }
-        ]
+        ],
+        "gtn_id": "transcriptomics/scrna-JUPYTER-trajectories",
+        "title": "Trajectory Analysis using Python (Jupyter Notebook) in Galaxy",
+        "captioned": true
       },
       "transcriptomics/scrna-intro/slides": {
         "description": "Single-cell RNA-seq analysis is a rapidly evolving field at the forefront of transcriptomic research, used in high-throughput developmental studies and rare transcript studies to examine cell heterogeneity within a populations of cells. The cellular resolution and genome wide scope make it possible to draw new conclusions that are not otherwise possible with bulk RNA-seq. <strong>Slides created by Mehmet Tekman</strong>.",
@@ -2935,7 +3189,10 @@
               "awspolly"
             ]
           }
-        ]
+        ],
+        "gtn_id": "transcriptomics/scrna-intro",
+        "title": "An introduction to scRNA-seq data analysis",
+        "captioned": true
       },
       "transcriptomics/scrna-umis/tutorial": {
         "title": "Understanding Barcodes",
@@ -2963,7 +3220,9 @@
               "nomadscientist"
             ]
           }
-        ]
+        ],
+        "gtn_id": "transcriptomics/scrna-umis",
+        "captioned": true
       },
       "transcriptomics/scrna-preprocessing-tenx/tutorial": {
         "title": "Pre-processing of 10X Single-Cell RNA Datasets",
@@ -2993,7 +3252,9 @@
               "nomadscientist"
             ]
           }
-        ]
+        ],
+        "gtn_id": "transcriptomics/scrna-preprocessing-tenx",
+        "captioned": true
       },
       "transcriptomics/scrna-scanpy-pbmc3k/tutorial": {
         "title": "Clustering 3K PBMCs with Scanpy",
@@ -3021,7 +3282,9 @@
             "type": "Tutorial",
             "link": "topics/transcriptomics/tutorials/scrna-scanpy-pbmc3k/tutorial.html"
           }
-        ]
+        ],
+        "gtn_id": "transcriptomics/scrna-scanpy-pbmc3k",
+        "captioned": true
       },
       "transcriptomics/scrna-plant/tutorial": {
         "description": "This tutorial replicates the paper “Spatiotemporal Developmental Trajectories in the Arabidopsis Root Revealed Using High-Throughput Single-Cell RNA Sequencing” (Denyer et al. 2019), where the major plant cell types are recovered in the data as well as distinguishing between QC and meristematic cells. The original paper used the Seurat analysis suite (Satija et al. 2015), but here we will use the ScanPy analysis suite (Wolf et al. 2018) integrated within the single-cell resources in Galaxy (Tekman et al. 2020).",
@@ -3049,7 +3312,10 @@
               "mtekman"
             ]
           }
-        ]
+        ],
+        "gtn_id": "transcriptomics/scrna-plant",
+        "title": "Analysis of plant scRNA-Seq Data with Scanpy",
+        "captioned": true
       },
       "transcriptomics/scrna-seq-basic-pipeline/tutorial": {
         "description": "You’ve done all the work to make a single cell matrix, with gene counts and mitochondrial counts and buckets of cell metadata from all your variables of interest, now it’s time to fully process our data, to remove low quality cells, to reduce the many dimensions of data that make it difficult to work with, and ultimately to try to define our clusters and to find our biological meaning and insights!",
@@ -3077,7 +3343,10 @@
               "nomadscientist"
             ]
           }
-        ]
+        ],
+        "gtn_id": "transcriptomics/scrna-seq-basic-pipeline",
+        "title": "Filter, Plot and Explore Single-cell RNA-seq Data",
+        "captioned": true
       }
     }
   },
@@ -3112,7 +3381,10 @@
               "mblue9"
             ]
           }
-        ]
+        ],
+        "gtn_id": "transcriptomics/rna-seq-viz-with-volcanoplot-r",
+        "title": "Visualization of RNA-Seq results with Volcano Plot in R",
+        "captioned": true
       },
       "transcriptomics/rna-seq-viz-with-volcanoplot/tutorial": {
         "description": "This tutorial will show you how you can create volcano plots from your RNA-Seq analysis results using Galaxy tools.",
@@ -3141,7 +3413,10 @@
               "mblue9"
             ]
           }
-        ]
+        ],
+        "gtn_id": "transcriptomics/rna-seq-viz-with-volcanoplot",
+        "title": "Visualization of RNA-Seq results with Volcano Plot",
+        "captioned": true
       },
       "visualisation/circos/slides": {
         "description": "Circos is a popular tool for creating circular graphs to display genomic data. This video will introduce this tool and how to use it within Galaxy",
@@ -3169,7 +3444,10 @@
               "hexylena"
             ]
           }
-        ]
+        ],
+        "gtn_id": "visualisation/circos",
+        "title": "Visualisation with Circos",
+        "captioned": true
       },
       "visualisation/circos/tutorial": {
         "description": "Circos is a popular tool for creating circular graphs to display genomic data. This video will introduce this tool and how to use it within Galaxy",
@@ -3204,7 +3482,10 @@
               "hexylena"
             ]
           }
-        ]
+        ],
+        "gtn_id": "visualisation/circos",
+        "title": "Visualisation with Circos",
+        "captioned": true
       }
     }
   },
@@ -3238,7 +3519,10 @@
               "nomadscientist"
             ]
           }
-        ]
+        ],
+        "gtn_id": "transcriptomics/bulk-music",
+        "title": "Bulk RNA Deconvolution with MuSiC",
+        "captioned": true
       },
       "transcriptomics/scrna-JUPYTER-trajectories/tutorial": {
         "description": "You’ve done all the hard work of preparing a single cell matrix, processing it, plotting it, interpreting it, finding lots of lovely genes, all within the glorious Galaxy interface. Now you want to infer trajectories, or relationships between cells… and you’ve been threatened with learning Python to do so! Well, fear not. If you can have a run-through of a basic python coding introduction, then that will help you make more sense of this tutorial, however you’ll be able to make and interpret glorious plots even without understanding the Python coding language. This is the beauty of Galaxy - all the ‘set-up’ is identical across computers, because it’s browser based. So fear not!",
@@ -3266,7 +3550,10 @@
               "nomadscientist"
             ]
           }
-        ]
+        ],
+        "gtn_id": "transcriptomics/scrna-JUPYTER-trajectories",
+        "title": "Trajectory Analysis using Python (Jupyter Notebook) in Galaxy",
+        "captioned": true
       },
       "transcriptomics/scrna-intro/slides": {
         "description": "Single-cell RNA-seq analysis is a rapidly evolving field at the forefront of transcriptomic research, used in high-throughput developmental studies and rare transcript studies to examine cell heterogeneity within a populations of cells. The cellular resolution and genome wide scope make it possible to draw new conclusions that are not otherwise possible with bulk RNA-seq. <strong>Slides created by Mehmet Tekman</strong>.",
@@ -3295,7 +3582,10 @@
               "awspolly"
             ]
           }
-        ]
+        ],
+        "gtn_id": "transcriptomics/scrna-intro",
+        "title": "An introduction to scRNA-seq data analysis",
+        "captioned": true
       },
       "transcriptomics/scrna-preprocessing-tenx/tutorial": {
         "title": "Pre-processing of 10X Single-Cell RNA Datasets",
@@ -3325,7 +3615,9 @@
               "nomadscientist"
             ]
           }
-        ]
+        ],
+        "gtn_id": "transcriptomics/scrna-preprocessing-tenx",
+        "captioned": true
       },
       "transcriptomics/scrna-scanpy-pbmc3k/tutorial": {
         "title": "Clustering 3K PBMCs with Scanpy",
@@ -3353,7 +3645,9 @@
             "type": "Tutorial",
             "link": "topics/transcriptomics/tutorials/scrna-scanpy-pbmc3k/tutorial.html"
           }
-        ]
+        ],
+        "gtn_id": "transcriptomics/scrna-scanpy-pbmc3k",
+        "captioned": true
       },
       "transcriptomics/scrna-plant/tutorial": {
         "description": "This tutorial replicates the paper “Spatiotemporal Developmental Trajectories in the Arabidopsis Root Revealed Using High-Throughput Single-Cell RNA Sequencing” (Denyer et al. 2019), where the major plant cell types are recovered in the data as well as distinguishing between QC and meristematic cells. The original paper used the Seurat analysis suite (Satija et al. 2015), but here we will use the ScanPy analysis suite (Wolf et al. 2018) integrated within the single-cell resources in Galaxy (Tekman et al. 2020).",
@@ -3381,7 +3675,10 @@
               "mtekman"
             ]
           }
-        ]
+        ],
+        "gtn_id": "transcriptomics/scrna-plant",
+        "title": "Analysis of plant scRNA-Seq Data with Scanpy",
+        "captioned": true
       },
       "transcriptomics/scrna-seq-basic-pipeline/tutorial": {
         "description": "You’ve done all the work to make a single cell matrix, with gene counts and mitochondrial counts and buckets of cell metadata from all your variables of interest, now it’s time to fully process our data, to remove low quality cells, to reduce the many dimensions of data that make it difficult to work with, and ultimately to try to define our clusters and to find our biological meaning and insights!",
@@ -3409,7 +3706,10 @@
               "nomadscientist"
             ]
           }
-        ]
+        ],
+        "gtn_id": "transcriptomics/scrna-seq-basic-pipeline",
+        "title": "Filter, Plot and Explore Single-cell RNA-seq Data",
+        "captioned": true
       }
     }
   },
@@ -3441,7 +3741,9 @@
               "lldelisle"
             ]
           }
-        ]
+        ],
+        "gtn_id": "webinar/admins",
+        "captioned": false
       },
       "webinar/educators": {
         "materials": [
@@ -3473,7 +3775,9 @@
               "bebatut"
             ]
           }
-        ]
+        ],
+        "gtn_id": "webinar/educators",
+        "captioned": true
       },
       "webinar/researchers": {
         "description": "Wondering how to get started, or how to do a particular type of analysis, or how to scale to thousands of datasets? This webinar will highlight how to find the resources and help you need for each of these questions and more.",
@@ -3500,7 +3804,9 @@
               "tnabtaf"
             ]
           }
-        ]
+        ],
+        "gtn_id": "webinar/researchers",
+        "captioned": false
       },
       "webinar/tooldevs": {
         "materials": [
@@ -3528,7 +3834,9 @@
               "petrnovak"
             ]
           }
-        ]
+        ],
+        "gtn_id": "webinar/tooldevs",
+        "captioned": false
       }
     }
   },
@@ -3557,7 +3865,9 @@
               "miaomiaozhou88"
             ]
           }
-        ]
+        ],
+        "gtn_id": "wetlab/miseq",
+        "captioned": true
       }
     }
   },
@@ -3584,7 +3894,9 @@
               "hexylena"
             ]
           }
-        ]
+        ],
+        "gtn_id": "course/welcome-admin",
+        "captioned": true
       },
       "course/welcome-gcc2021": {
         "title": "GCC2021 Training: Welcome & Course Logistics",
@@ -3615,7 +3927,9 @@
               "shiltemann"
             ]
           }
-        ]
+        ],
+        "gtn_id": "course/welcome-gcc2021",
+        "captioned": true
       }
     }
   },
@@ -3652,7 +3966,9 @@
               "cat-bro"
             ]
           }
-        ]
+        ],
+        "gtn_id": "admin/welcome",
+        "captioned": true
       },
       "admin/week-overview-slides": {
         "title": "Admin Training Week Overview",
@@ -3681,7 +3997,9 @@
               "hexylena"
             ]
           }
-        ]
+        ],
+        "gtn_id": "admin/week-overview-slides",
+        "captioned": true
       },
       "admin/ansible-galaxy/tutorial": {
         "description": null,
@@ -3753,7 +4071,10 @@
               "hexylena"
             ]
           }
-        ]
+        ],
+        "gtn_id": "admin/ansible-galaxy",
+        "title": "Galaxy Installation with Ansible",
+        "captioned": true
       },
       "admin/ansible/tutorial": {
         "description": null,
@@ -3780,7 +4101,10 @@
               "martenson"
             ]
           }
-        ]
+        ],
+        "gtn_id": "admin/ansible",
+        "title": "Ansible",
+        "captioned": true
       },
       "admin/ansible/slides": {
         "description": null,
@@ -3807,7 +4131,10 @@
               "ic4f"
             ]
           }
-        ]
+        ],
+        "gtn_id": "admin/ansible",
+        "title": "Ansible",
+        "captioned": true
       },
       "admin/connect-to-compute-cluster/combined": {
         "description": null,
@@ -3839,7 +4166,10 @@
               "hexylena"
             ]
           }
-        ]
+        ],
+        "gtn_id": "admin/connect-to-compute-cluster",
+        "title": "Connecting Galaxy to a compute cluster",
+        "captioned": true
       },
       "admin/cvmfs/slides": {
         "description": null,
@@ -3866,7 +4196,10 @@
               "awspolly"
             ]
           }
-        ]
+        ],
+        "gtn_id": "admin/cvmfs",
+        "title": "Reference Data with CVMFS",
+        "captioned": true
       },
       "admin/cvmfs/tutorial": {
         "description": null,
@@ -3893,7 +4226,10 @@
               "slugger70"
             ]
           }
-        ]
+        ],
+        "gtn_id": "admin/cvmfs",
+        "title": "Reference Data with CVMFS",
+        "captioned": true
       },
       "admin/data-library/tutorial": {
         "description": null,
@@ -3921,7 +4257,10 @@
               "shiltemann"
             ]
           }
-        ]
+        ],
+        "gtn_id": "admin/data-library",
+        "title": "Data Libraries",
+        "captioned": true
       },
       "admin/gxadmin/slides": {
         "description": null,
@@ -3952,7 +4291,10 @@
               "awspolly"
             ]
           }
-        ]
+        ],
+        "gtn_id": "admin/gxadmin",
+        "title": "Galaxy Monitoring with gxadmin",
+        "captioned": true
       },
       "admin/pulsar/slides": {
         "description": null,
@@ -3979,7 +4321,10 @@
               "slugger70"
             ]
           }
-        ]
+        ],
+        "gtn_id": "admin/pulsar",
+        "title": "Running Jobs on Remote Resources with Pulsar",
+        "captioned": true
       },
       "admin/pulsar/tutorial": {
         "description": null,
@@ -4019,7 +4364,10 @@
               "slugger70"
             ]
           }
-        ]
+        ],
+        "gtn_id": "admin/pulsar",
+        "title": "Running Jobs on Remote Resources with Pulsar",
+        "captioned": true
       },
       "admin/interactive-tools": {
         "description": null,
@@ -4051,7 +4399,10 @@
               "abretaud"
             ]
           }
-        ]
+        ],
+        "gtn_id": "admin/interactive-tools",
+        "title": "Galaxy Interactive Tools",
+        "captioned": true
       },
       "admin/job-destinations/tutorial": {
         "description": null,
@@ -4078,7 +4429,10 @@
               "hexylena"
             ]
           }
-        ]
+        ],
+        "gtn_id": "admin/job-destinations",
+        "title": "Mapping Jobs to Destinations",
+        "captioned": true
       },
       "admin/tus/tutorial": {
         "description": "Here you’ll learn to setup TUS an open source resumable file upload server to process uploads for Galaxy. We use an external process here to offload the main Galaxy processes for more important work and not impact the entire system during periods of heavy uploading.\n",
@@ -4105,7 +4459,10 @@
               "hexylena"
             ]
           }
-        ]
+        ],
+        "gtn_id": "admin/tus",
+        "title": "Performant Uploads with TUS",
+        "captioned": true
       },
       "admin/job-metrics/tutorial": {
         "title": "Recording Job Metrics",
@@ -4133,7 +4490,9 @@
               "hexylena"
             ]
           }
-        ]
+        ],
+        "gtn_id": "admin/job-metrics",
+        "captioned": true
       },
       "admin/maintenance/slides": {
         "description": null,
@@ -4160,7 +4519,10 @@
               "awspolly"
             ]
           }
-        ]
+        ],
+        "gtn_id": "admin/maintenance",
+        "title": "Server Maintenance and Backups",
+        "captioned": true
       },
       "admin/monitoring/slides": {
         "description": null,
@@ -4187,7 +4549,10 @@
 
             ]
           }
-        ]
+        ],
+        "gtn_id": "admin/monitoring",
+        "title": "Galaxy Monitoring with Telegraf and Grafana",
+        "captioned": true
       },
       "admin/monitoring/tutorial": {
         "description": null,
@@ -4215,7 +4580,10 @@
 
             ]
           }
-        ]
+        ],
+        "gtn_id": "admin/monitoring",
+        "title": "Galaxy Monitoring with Telegraf and Grafana",
+        "captioned": true
       },
       "admin/object-store/exercise": {
         "description": null,
@@ -4242,7 +4610,10 @@
               "gmauro"
             ]
           }
-        ]
+        ],
+        "gtn_id": "admin/object-store",
+        "title": "Distributed Object Storage",
+        "captioned": true
       },
       "admin/singularity/tutorial": {
         "description": "Running jobs in Singularity",
@@ -4283,7 +4654,10 @@
               "hexylena"
             ]
           }
-        ]
+        ],
+        "gtn_id": "admin/singularity",
+        "title": "Use Singularity containers for running Galaxy jobs",
+        "captioned": true
       },
       "admin/tiaas/tutorial": {
         "description": null,
@@ -4311,7 +4685,10 @@
               "hexylena"
             ]
           }
-        ]
+        ],
+        "gtn_id": "admin/tiaas",
+        "title": "Training Infrastructure as a Service (TIaaS)",
+        "captioned": true
       },
       "admin/tool-management/slides": {
         "description": null,
@@ -4342,7 +4719,10 @@
               "cat-bro"
             ]
           }
-        ]
+        ],
+        "gtn_id": "admin/tool-management",
+        "title": "Galaxy Tool Management with Ephemeris",
+        "captioned": true
       },
       "admin/tool-management/tutorial": {
         "description": null,
@@ -4385,7 +4765,10 @@
               "cat-bro"
             ]
           }
-        ]
+        ],
+        "gtn_id": "admin/tool-management",
+        "title": "Galaxy Tool Management with Ephemeris",
+        "captioned": true
       },
       "admin/upgrading/tutorial": {
         "description": null,
@@ -4413,7 +4796,10 @@
               "slugger70"
             ]
           }
-        ]
+        ],
+        "gtn_id": "admin/upgrading",
+        "title": "Upgrading Galaxy",
+        "captioned": true
       },
       "admin/users-groups-quotas/slides": {
         "description": null,
@@ -4440,7 +4826,10 @@
               "awspolly"
             ]
           }
-        ]
+        ],
+        "gtn_id": "admin/users-groups-quotas",
+        "title": "User, Role, Group and Quota managment",
+        "captioned": true
       }
     }
   },
@@ -4473,7 +4862,10 @@
               "shiltemann"
             ]
           }
-        ]
+        ],
+        "gtn_id": "contributing/gitpod",
+        "title": "Running the GTN website online using GitPod",
+        "captioned": true
       },
       "contributing/create-new-tutorial-slides/slides": {
         "description": "This lecture goes through the process of how to create a slide deck, common things you should bear in mind while you're writing them, and how to enable the amazing slides-to-video features for your slide decks! This video itself was produced automatically from the GTN's slide decks, anyone making edits to these slides will cause them to be rebuilt, making organising videos for events easier than ever.\n",
@@ -4501,7 +4893,10 @@
               "awspolly"
             ]
           }
-        ]
+        ],
+        "gtn_id": "contributing/create-new-tutorial-slides",
+        "title": "Creating Slides",
+        "captioned": true
       },
       "contributing/create-new-tutorial/tutorial": {
         "description": "This tutorial will go through all of the steps of creating a simple tutorial and contributing it to the GTN.",
@@ -4534,7 +4929,10 @@
               "bebatut"
             ]
           }
-        ]
+        ],
+        "gtn_id": "contributing/create-new-tutorial",
+        "title": "Creating a new tutorial",
+        "captioned": true
       }
     }
   },
@@ -4576,7 +4974,9 @@
               "jmchilton"
             ]
           }
-        ]
+        ],
+        "gtn_id": "dev/architecture",
+        "captioned": false
       },
       "dev/architecture/slides-models-managers": {
         "title": "Galaxy Code Architecture: Models and Managers",
@@ -4613,7 +5013,9 @@
               "jmchilton"
             ]
           }
-        ]
+        ],
+        "gtn_id": "dev/architecture",
+        "captioned": false
       },
       "dev/architecture/slides-app-di": {
         "title": "Galaxy Code Architecture: app and Dependency Injection",
@@ -4650,7 +5052,9 @@
               "jmchilton"
             ]
           }
-        ]
+        ],
+        "gtn_id": "dev/architecture",
+        "captioned": false
       },
       "dev/architecture/slides-project-management": {
         "title": "Galaxy Code Architecture: Project Management",
@@ -4689,7 +5093,9 @@
               "jmchilton"
             ]
           }
-        ]
+        ],
+        "gtn_id": "dev/architecture",
+        "captioned": true
       },
       "dev/architecture/slides-web-client": {
         "title": "Galaxy Code Architecture: Web Client",
@@ -4726,7 +5132,9 @@
               "jmchilton"
             ]
           }
-        ]
+        ],
+        "gtn_id": "dev/architecture",
+        "captioned": false
       },
       "dev/architecture/slides-pluggable-components": {
         "title": "Galaxy Code Architecture: Pluggable Components",
@@ -4763,7 +5171,9 @@
               "jmchilton"
             ]
           }
-        ]
+        ],
+        "gtn_id": "dev/architecture",
+        "captioned": false
       },
       "dev/architecture/slides-principles": {
         "title": "Galaxy Code Architecture: Principles",
@@ -4802,7 +5212,9 @@
               "jmchilton"
             ]
           }
-        ]
+        ],
+        "gtn_id": "dev/architecture",
+        "captioned": true
       },
       "dev/architecture/slides-web-requests": {
         "title": "Galaxy Code Architecture: Web Requests",
@@ -4839,7 +5251,9 @@
               "jmchilton"
             ]
           }
-        ]
+        ],
+        "gtn_id": "dev/architecture",
+        "captioned": false
       },
       "dev/architecture/slides-files-directories": {
         "title": "Galaxy Code Architecture: Files and Directories",
@@ -4876,7 +5290,9 @@
               "jmchilton"
             ]
           }
-        ]
+        ],
+        "gtn_id": "dev/architecture",
+        "captioned": false
       },
       "dev/debugging/tutorial/intro": {
         "title": "Introduction",
@@ -4905,7 +5321,9 @@
               "ic4f"
             ]
           }
-        ]
+        ],
+        "gtn_id": "dev/debugging",
+        "captioned": true
       },
       "dev/debugging/tutorial/client-unit-test": {
         "title": "Client Unit Tests",
@@ -4934,7 +5352,9 @@
               "ic4f"
             ]
           }
-        ]
+        ],
+        "gtn_id": "dev/debugging",
+        "captioned": true
       },
       "dev/debugging/tutorial/summary": {
         "title": "Debugging Wisdom",
@@ -4963,7 +5383,9 @@
               "ic4f"
             ]
           }
-        ]
+        ],
+        "gtn_id": "dev/debugging",
+        "captioned": true
       },
       "dev/debugging/tutorial/api-test-failure": {
         "title": "API tests",
@@ -4992,7 +5414,9 @@
               "ic4f"
             ]
           }
-        ]
+        ],
+        "gtn_id": "dev/debugging",
+        "captioned": true
       },
       "dev/debugging/tutorial/client-linter": {
         "title": "Client Linting",
@@ -5021,7 +5445,9 @@
               "ic4f"
             ]
           }
-        ]
+        ],
+        "gtn_id": "dev/debugging",
+        "captioned": true
       },
       "dev/debugging/tutorial/runtime-error": {
         "title": "Runtime Errors",
@@ -5049,7 +5475,9 @@
               "ic4f"
             ]
           }
-        ]
+        ],
+        "gtn_id": "dev/debugging",
+        "captioned": true
       },
       "dev/debugging/tutorial/selenium": {
         "title": "Selenium",
@@ -5080,7 +5508,9 @@
               "assuntad23"
             ]
           }
-        ]
+        ],
+        "gtn_id": "dev/debugging",
+        "captioned": true
       },
       "dev/debugging/tutorial/unit-test-failure": {
         "title": "Unit Testing",
@@ -5109,7 +5539,9 @@
               "ic4f"
             ]
           }
-        ]
+        ],
+        "gtn_id": "dev/debugging",
+        "captioned": true
       },
       "dev/tool-from-scratch/tutorial": {
         "title": "Tools from Scratch",
@@ -5153,7 +5585,9 @@
               "bernt-matthias"
             ]
           }
-        ]
+        ],
+        "gtn_id": "dev/tool-from-scratch",
+        "captioned": true
       },
       "dev/tool-generators/tutorial": {
         "description": "ToolFactory Presentation: Abstract tool interface code that wraps simple scripts can be generated using a Galaxy tool.\nIf you haven't already decided that the GTN tutorials linked below might be useful for your work, or if want to hear Ross's opinions on tools,\nabstract interfaces and why they matter, this talk is for you.\n",
@@ -5180,7 +5614,10 @@
               "fubar2"
             ]
           }
-        ]
+        ],
+        "gtn_id": "dev/tool-generators",
+        "title": "ToolFactory: Generating Tools From Simple Scripts",
+        "captioned": true
       },
       "dev/tool-generators-advanced/tutorial": {
         "description": "Hands on demonstration for the Introductory tutorial. Create, run and update a \"Hello World\" tool in Galaxy",
@@ -5208,7 +5645,10 @@
               "fubar2"
             ]
           }
-        ]
+        ],
+        "gtn_id": "dev/tool-generators-advanced",
+        "title": "ToolFactory: Generating Tools From More Complex Scripts",
+        "captioned": true
       }
     }
   }

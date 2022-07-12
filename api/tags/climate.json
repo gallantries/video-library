@@ -27,7 +27,10 @@
             "annefou"
           ]
         }
-      ]
+      ],
+      "gtn_id": "climate/fates",
+      "title": "Functionally Assembled Terrestrial Ecosystem Simulator (FATES)",
+      "captioned": true
     },
     "climate/fates/slides": {
       "description": "This lecture provides a brief overview of FATES",
@@ -55,7 +58,10 @@
             "awspolly"
           ]
         }
-      ]
+      ],
+      "gtn_id": "climate/fates",
+      "title": "Functionally Assembled Terrestrial Ecosystem Simulator (FATES)",
+      "captioned": true
     },
     "climate/pangeo/tutorial": {
       "description": "In this tutorial, you will learn how to manipulate netCDF data files using Xarray Galaxy Tools. NetCDF stands for network Common Data Form and is one of the most popular file format in climate science. It is used for storing multidimensional scientific data variables such as temperature or humidity, and metadata can be added to facilitate sharing of netCDF data. netCDF is widely used outside the Climate Science community and each community has its own set of conventions, especially for metadata. The Climate and Forecast metadata convention, also called CF-convention is used by the Climate community and is designed to promote the processing and sharing of netCDF files.\n",
@@ -83,7 +89,10 @@
             "annefou"
           ]
         }
-      ]
+      ],
+      "gtn_id": "climate/pangeo",
+      "title": "Pangeo ecosystem 101 for everyone - Introduction to Xarray Galaxy Tools",
+      "captioned": true
     },
     "climate/pangeo-notebook/tutorial": {
       "description": "In this tutorial, we will learn about Xarray, one of the most used Python\nlibrary from the Pangeo ecosystem.\n\nWe will be using data from Copernicus Atmosphere Monitoring Service and\nmore precisely PM2.5 (Particle Matter < 2.5 μm) 4 days forecast from\nDecember, 22 2021. Parallel data analysis with Pangeo is not covered in\nthis tutorial.\n",
@@ -111,7 +120,10 @@
             "annefou"
           ]
         }
-      ]
+      ],
+      "gtn_id": "climate/pangeo-notebook",
+      "title": "Pangeo Notebook in Galaxy - Introduction to Xarray",
+      "captioned": true
     }
   }
 }

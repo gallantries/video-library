@@ -28,7 +28,10 @@
             "chrisbarnettster"
           ]
         }
-      ]
+      ],
+      "gtn_id": "computational-chemistry/htmd-analysis",
+      "title": "High Throughput Molecular Dynamics and Analysis",
+      "captioned": true
     }
   }
 }

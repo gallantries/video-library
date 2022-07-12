@@ -22,7 +22,9 @@
             "wm75"
           ]
         }
-      ]
+      ],
+      "gtn_id": "galaxy-interface/upload-to-ena",
+      "captioned": true
     },
     "sars-cov2/usegalaxy-star-bot": {
       "title": "The usegalaxy.* SARS-CoV-2 Bot in Action",
@@ -46,7 +48,9 @@
             "wm75"
           ]
         }
-      ]
+      ],
+      "gtn_id": "sars-cov2/usegalaxy-star-bot",
+      "captioned": true
     },
     "sars-cov2/using-galaxy": {
       "title": "SARS-CoV-2 Monitoring and Analysis with Galaxy",
@@ -70,7 +74,9 @@
             "wm75"
           ]
         }
-      ]
+      ],
+      "gtn_id": "sars-cov2/using-galaxy",
+      "captioned": true
     },
     "sars-cov2/viral-beacon/slides": {
       "title": "Introduction to viral Beacon",
@@ -97,7 +103,9 @@
             "babitasingh"
           ]
         }
-      ]
+      ],
+      "gtn_id": "sars-cov2/viral-beacon",
+      "captioned": true
     },
     "sars-cov2/observablehq": {
       "title": "Using and Customising ObservableHQ",
@@ -122,7 +130,9 @@
             "sergeipond"
           ]
         }
-      ]
+      ],
+      "gtn_id": "sars-cov2/observablehq",
+      "captioned": true
     },
     "sars-cov2/upload-ena": {
       "title": "Upload to ENA",
@@ -148,7 +158,9 @@
             "miguelroncoroni"
           ]
         }
-      ]
+      ],
+      "gtn_id": "sars-cov2/upload-ena",
+      "captioned": true
     }
   }
 }
