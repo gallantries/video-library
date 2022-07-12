@@ -29,6 +29,14 @@ module Jekyll
             if by_tags[tag]['videos'].nil?
               by_tags[tag]['videos'] = Hash.new
             end
+
+            gtn_id = k.split('/')[0..1].join('/')
+            v['gtn_id'] = gtn_id
+
+            if ! v.has_key?("title")
+              v['title'] = v.fetch('name', site.data['gtn'].fetch(gtn_id, k))
+            end
+
             by_tags[tag]['videos'][k] = v
           }
         end
