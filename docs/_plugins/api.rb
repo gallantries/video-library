@@ -149,7 +149,7 @@ module Jekyll
         pd = page.data.dup
         pd['content'] = '{% raw %}\n' + page.content + '{% endraw %}'
         if pd.has_key?('url') then
-          delete pd['url']
+          pd.delete('url')
         end
         page2.content = JSON.pretty_generate(pd)
         page2.data["layout"] = nil
