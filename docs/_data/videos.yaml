@@ -240,7 +240,6 @@ community/welcome:
   title: Meet & Join the Galaxy Community!
   tags:
   - community
-  - community
   type: null
   versions:
   - captions:
@@ -687,6 +686,7 @@ galaxy/intro2:
 galaxy-interface/interactive-tools:
   title: Interactive Tools
   description: This demo videos shows you how you can run Interactive tools such as RStudio and Jupyter notebooks within Galaxy.
+  tags: [galaxy-intro, galaxy]
   versions:
     - link: 21Eo3QlKuoA
       captions:
@@ -2285,6 +2285,7 @@ course/welcome-smorg2022:
   title: "Start Here! Welcome & Course Logistics"
   description: Start here! We will go over all the important things you need to know
     about this week!
+  tags: [event]
   materials:
   - external: true
     link: "https://docs.google.com/presentation/d/e/2PACX-1vQakH_LxLGS5PurJSrmPQH7VY8_UOKpAbUtwsUjpid42QQW5Ds2sH8uD2QQc8rfjH1D0OWpTeSBb8OT/pub?start=false&loop=false&delayms=3000"

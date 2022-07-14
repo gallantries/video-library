@@ -38,6 +38,7 @@ mapping:
                 pattern: /^(Welcome|Webinar|Demo|Lecture|Lecture & Demo|Tutorial|Lecture & Tutorial|Lecture Series)$/
             tags:
                 type: seq
+                required: true
                 sequence:
                   - type: str
                     enum:
