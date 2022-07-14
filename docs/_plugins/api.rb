@@ -147,7 +147,9 @@ module Jekyll
         fn = p.split('/')[-1]
         puts "#{path} | #{fn}"
         page2 = PageWithoutAFile.new(site, "", path.join('/'), fn)
-        page2.content = JSON.pretty_generate(page.data)
+        pd = page.data.dup
+        pd['content'] = '{% raw %}\n' + page.content + '{% endraw %}'
+        page2.content = JSON.pretty_generate(pd)
         page2.data["layout"] = nil
         site.pages << page2
       }
