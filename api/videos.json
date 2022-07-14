@@ -356,7 +356,6 @@
     ],
     "title": "Meet & Join the Galaxy Community!",
     "tags": [
-      "community",
       "community"
     ],
     "type": null,
@@ -1048,6 +1047,10 @@
   "galaxy-interface/interactive-tools": {
     "title": "Interactive Tools",
     "description": "This demo videos shows you how you can run Interactive tools such as RStudio and Jupyter notebooks within Galaxy.",
+    "tags": [
+      "galaxy-intro",
+      "galaxy"
+    ],
     "versions": [
       {
         "link": "21Eo3QlKuoA",
@@ -1061,7 +1064,9 @@
         ]
       }
     ],
-    "type": "Demo"
+    "type": "Demo",
+    "gtn_id": "galaxy-interface/interactive-tools",
+    "captioned": true
   },
   "genome-annotation/annotation-with-prokka/slides": {
     "description": "Genome annotation is a multi-level process that includes prediction of protein-coding genes, as well as other functional genome units such as structural RNAs, tRNAs, small RNAs, pseudogenes, control regions, direct and inverted repeats, insertion sequences, transposons and other mobile elements.",
@@ -3402,6 +3407,9 @@
   "course/welcome-smorg2022": {
     "title": "Start Here! Welcome & Course Logistics",
     "description": "Start here! We will go over all the important things you need to know about this week!",
+    "tags": [
+      "event"
+    ],
     "materials": [
       {
         "external": true,
@@ -3424,7 +3432,9 @@
           "hexylena"
         ]
       }
-    ]
+    ],
+    "gtn_id": "course/welcome-smorg2022",
+    "captioned": true
   },
   "course/welcome-gcc2021": {
     "title": "GCC2021 Training: Welcome & Course Logistics",
