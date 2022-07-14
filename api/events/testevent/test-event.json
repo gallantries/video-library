@@ -1,0 +1,182 @@
+{
+  "layout": "event",
+  "id": "test",
+  "title": "My Awesome Event (Example)",
+  "description": "Best training since sliced bread lessons",
+  "location": "The North Pole",
+  "format": "Asynchronous with some live Q&A sessions",
+  "instructors": [
+    "fpsom",
+    "shiltemann",
+    "bebatut",
+    "abretaud",
+    "yvanlebras",
+    "hexylena"
+  ],
+  "institutions": [
+    "gtn",
+    "gallantries"
+  ],
+  "date": {
+    "start": "2021-11-15",
+    "end": "2021-11-18"
+  },
+  "registration": "https://example.com/registration",
+  "cost": "free",
+  "contacts": [
+    "shiltemann",
+    "hexylena"
+  ],
+  "practical": [
+    {
+      "name": "My custom Info",
+      "text": "Anything else you want to list in practical info section"
+    }
+  ],
+  "example": true,
+  "setup": {
+    "servers": [
+      {
+        "server": "eu",
+        "tiaas": "smorg2021"
+      },
+      {
+        "server": "au"
+      },
+      {
+        "custom": {
+          "name": "My custom Galaxy server",
+          "url": "https://galaxy.example.com"
+        }
+      }
+    ],
+    "slack": {
+      "event_channel": {
+        "name": "#event-testevent",
+        "link": "https://gtnsmrgsbord.slack.com/archives/C01EDBVMHBQ",
+        "useforall": true
+      }
+    }
+  },
+  "certificates": {
+    "request_form": "https://feedbackform.example.com",
+    "deadline": "2022-07-24",
+    "notes": {
+      "snippet": "snippets/cert-requirements-smorg.html"
+    }
+  },
+  "feedback": {
+    "form": "https://feedback.example.com",
+    "slack_channel": "my-channel"
+  },
+  "program": {
+    "preliminary": {
+      "title": "Before you start",
+      "trainings": [
+        {
+          "basics": "setup"
+        },
+        {
+          "basics": "code-of-conduct"
+        },
+        {
+          "basics": "certificates"
+        },
+        {
+          "video": "community/welcome"
+        }
+      ]
+    },
+    "day1": {
+      "title": "Day 1",
+      "description": "your first intro",
+      "trainings": [
+        {
+          "icebreaker": [
+            {
+              "prompt": "Introduce yourself and tell us your favorite science fun fact!",
+              "channel": "mychannel",
+              "certificate": false
+            }
+          ]
+        },
+        {
+          "session": "webinars"
+        },
+        {
+          "session": "sequence-analysis/quality-control"
+        }
+      ]
+    },
+    "module2": {
+      "title": "Day 2",
+      "description": "deeper dive",
+      "trainings": [
+        {
+          "session": "webinars",
+          "instructors": [
+            "hexylena",
+            "bebatut"
+          ]
+        },
+        {
+          "session": "sequence-analysis/quality-control"
+        },
+        {
+          "self-study": "climate/fates",
+          "type": [
+            "slides",
+            "tutorial"
+          ]
+        },
+        {
+          "self-study": "climate/fates",
+          "type": [
+            "slides"
+          ]
+        },
+        {
+          "self-study": "assembly/mrsa-nanopore",
+          "description": "This tutorial will cover X",
+          "prefix": "Hands-on: "
+        },
+        {
+          "external": {
+            "title": "My External Session",
+            "description": "This is a training that is not in the GTN, but it will teach you about XYZ",
+            "video": "oAVjF_7ensg",
+            "length": "1h35m",
+            "slides": "https://galaxyproject.org/",
+            "tutorial": "https://galaxyproject.org/",
+            "other": [
+              {
+                "label": "Home Page",
+                "link": "https://galaxyproject.org/"
+              },
+              {
+                "label": "Time",
+                "value": "11:30-12:30 CET"
+              }
+            ],
+            "author": [
+              "shiltemann",
+              "hexylena"
+            ]
+          }
+        }
+      ]
+    },
+    "wrapup": {
+      "title": "Wrap-up",
+      "description": "Thanks for joining this course!",
+      "trainings": [
+        {
+          "basics": "feedback"
+        },
+        {
+          "basics": "certificates"
+        }
+      ]
+    }
+  }
+}

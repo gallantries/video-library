@@ -1,0 +1,44 @@
+{
+  "layout": "event",
+  "id": "mtb-ngs",
+  "status": "final",
+  "title": "Mycobacterium tuberculosis complex NGS made easy: data analysis step-by-step",
+  "description": "![banner](images/TBCAPT_NGS_Training_banner.jpg)\n",
+  "date": {
+    "start": "2022-03-21",
+    "end": "2022-03-25"
+  },
+  "audience": "Open for all, but target audience is clinicians and researchers\nusing MTBC sequencing data.\n",
+  "location": "Online",
+  "cost": "Free",
+  "format": "Asynchronous; all training sessions are pre-recorded and\nprovided in advance.\n",
+  "support": "**Live support in Slack** ([invite link](https://join.slack.com/t/gtnsmrgsbord/shared_invite/zt-x7vinbs1-BA~Kht6N86JBhDq0uTIVdQ), channel: [#event-mtb-ngs](https://gtnsmrgsbord.slack.com/channels/event-mtb-ngs)), in which experts will answer questions on a peer-to-peer basis. **Real-Time Q&A sessions**  See the schedule below to know when you can join us live! [Zoom Link](https://swisstph.zoom.us/j/84656236451)",
+  "practical": [
+    {
+      "name": "Infastructure",
+      "text": "[European Galaxy server](https://usegalaxy.eu) and the [Galaxy Training Material](https://training.galaxyproject.org). Both will stay accessible and open after the training."
+    }
+  ],
+  "contacts": [
+    "dbrites"
+  ],
+  "instructors": [
+    "dbrites",
+    "cstritt",
+    "andreacabibbe",
+    "annalenaguske",
+    "andreaspitaleri",
+    "GaloGS",
+    "arashghodousi",
+    "liliana-rutaihwa",
+    "pvanheus"
+  ],
+  "institutions": [
+    "swiss-tph",
+    "irccs",
+    "linq",
+    "find",
+    "uni-san-raffaele"
+  ],
+  "url": "/events/mtb-ngs/course.html"
+}

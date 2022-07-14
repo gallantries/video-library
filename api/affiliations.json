@@ -1,0 +1,246 @@
+{
+  "avans": {
+    "name": "Avans Hogeschool",
+    "link": "https://avans.nl",
+    "logo": "avans.jpeg"
+  },
+  "barharbourinn": {
+    "name": "Harbour Cottage Inn",
+    "link": "https://harbourcottageinn.com/",
+    "logo": "harbourcottage.jpg"
+  },
+  "bradforduni": {
+    "name": "University of Bradford",
+    "link": "https://www.bradford.ac.uk/",
+    "logo": "bradforduni.jpg"
+  },
+  "cea": {
+    "name": "Le Commissariat à l’énergie atomique et aux énergies alternatives (CEA)",
+    "link": "https://www.cea.fr/",
+    "logo": "cea.png"
+  },
+  "carpentries": {
+    "name": "The Carpentries",
+    "link": "https://carpentries.org/",
+    "logo": "carpentries.svg"
+  },
+  "clevelandclinic": {
+    "name": "Cleveland Clinic",
+    "link": "https://my.clevelandclinic.org/",
+    "logo": "clevelandclinic.jpg"
+  },
+  "cineca": {
+    "name": "The CINECA Project",
+    "link": "https://www.cineca-project.eu/",
+    "logo": "01_CINECA_logo.png"
+  },
+  "cnrs": {
+    "name": "Le Centre national de la recherche Scientifique (CNRS)",
+    "link": "https://www.cnrs.fr/",
+    "logo": "cnrs.svg"
+  },
+  "ebi": {
+    "name": "EMBL-EBI",
+    "link": "https://www.ebi.ac.uk/",
+    "logo": "embl-ebi.png"
+  },
+  "elixir": {
+    "name": "ELIXIR Europe",
+    "link": "https://elixir-europe.org/",
+    "logo": "88_elixir_logo_white_background-300x226.png"
+  },
+  "eoscnordic": {
+    "name": "EOSC-Nordic",
+    "link": "https://www.eosc-nordic.eu/",
+    "logo": "eosc_nordic.png"
+  },
+  "epfl": {
+    "name": "Swiss Federal Institute of Technology Lausanne",
+    "link": "https://www.epfl.ch/en/",
+    "logo": "epfl.jpg"
+  },
+  "erasmusmc": {
+    "name": "Erasmus Medical Center",
+    "link": "https://erasmusmc.nl",
+    "logo": "03_erasmusmc.png"
+  },
+  "find": {
+    "name": "FIND",
+    "link": "https://www.finddx.org/",
+    "logo": "find.png"
+  },
+  "fmi": {
+    "name": "Friedrich Miescher Institute",
+    "link": "https://www.fmi.ch/",
+    "logo": "fmi.png"
+  },
+  "fredhutch": {
+    "name": "Fred Hutchinson Cancer Research Center",
+    "link": "https://www.fredhutch.org"
+  },
+  "freiburguni": {
+    "name": "Albert-Ludwigs-Universität Freiburg",
+    "link": "https://uni-freiburg.de/",
+    "logo": "04_unifreiburg.png"
+  },
+  "freiburg-uniklinik-surgpathol": {
+    "name": "Institute of Surgical Pathology - Universitätsklinikum Freiburg",
+    "link": "https://www.uniklinik-freiburg.de/pathologie-en.html",
+    "logo": "06_uniklikik.png"
+  },
+  "gallantries": {
+    "name": "The Gallantries Project",
+    "link": "https://gallantries.github.io",
+    "logo": "gallantries.png"
+  },
+  "gtn": {
+    "name": "The Galaxy Training Network",
+    "link": "https://training.galaxyproject.org/hall-of-fame",
+    "logo": "00_GTNLogo300.png"
+  },
+  "ifb": {
+    "name": "French Institute of Bioinformatics",
+    "link": "https://www.france-bioinformatique.fr",
+    "logo": "ifb.jpg"
+  },
+  "inab-certh": {
+    "name": "INAB|CERTH",
+    "link": "https://www.inab.certh.gr/",
+    "logo": "05_inab.jpg"
+  },
+  "inrae": {
+    "name": "INRAE",
+    "link": "https://www.inrae.fr/",
+    "logo": "inrae.svg"
+  },
+  "iocb": {
+    "name": "Institute of Organic Chemistry and Biochemistry, Prague",
+    "link": "https://www.uochb.cz/en"
+  },
+  "irccs": {
+    "name": "IRCCS Ospedale San Raffaele",
+    "link": "https://www.hsr.it/",
+    "logo": "irccs.jpg"
+  },
+  "johnshopkins": {
+    "name": "Johns Hopkins University",
+    "link": "https://www.jhu.edu/",
+    "logo": "hopkins.png"
+  },
+  "linq": {
+    "name": "LINQ",
+    "link": "https://linq-management.com/",
+    "logo": "linq.jpg"
+  },
+  "melbourneuni": {
+    "name": "University of Melbourne",
+    "link": "https://www.unimelb.edu.au/",
+    "logo": "unimelbourne.jpg"
+  },
+  "minnesotauni": {
+    "name": "University of Minnesota",
+    "link": "https://twin-cities.umn.edu/",
+    "logo": "minnesotauni.png"
+  },
+  "mnhn": {
+    "name": "Muséum National d’Histoire Naturelle ",
+    "link": "https://www.mnhn.fr/en",
+    "logo": "mnhn.jpg"
+  },
+  "ncbi": {
+    "name": "National Center for Biotechnology Information",
+    "link": "https://www.ncbi.nlm.nih.gov/",
+    "logo": "ncbi.png"
+  },
+  "pennstate": {
+    "name": "Penn State University",
+    "link": "https://www.psu.edu/",
+    "logo": "pennstate.png"
+  },
+  "petermac": {
+    "name": "Peter MacCallum Cancer Centre",
+    "link": "https://www.petermac.org/"
+  },
+  "sanbi": {
+    "name": "SANBI/UWC",
+    "link": "https://www.sanbi.org/",
+    "logo": "sanbi.png",
+    "mouseover": "South African National Bioinformatics Institute, South African MRC Bioinformatics Unit, University of the Western Cape, Bellville, 7535, South Africa"
+  },
+  "sciensano": {
+    "name": "Sciensano",
+    "link": "https://www.sciensano.be",
+    "logo": "sciensano.jpg",
+    "mouseover": "Belgian National Public Health Institute."
+  },
+  "seq4amr": {
+    "name": "Seq4AMR",
+    "link": "https://www.jpiamr.eu/projects/seq4amr/",
+    "logo": "Seq4AMR.png"
+  },
+  "slu": {
+    "name": "Swedish University of Agricultural Sciences",
+    "link": "https://www.slu.se",
+    "logo": "slu.png"
+  },
+  "swiss-tph": {
+    "name": "Swiss Tropical and Public Health Institute",
+    "link": "https://www.swisstph.ch/en/",
+    "logo": "swiss-tph.png"
+  },
+  "tamu": {
+    "name": "Texas A&M University",
+    "link": "https://www.tamu.edu/"
+  },
+  "ei": {
+    "name": "Earlham Institute",
+    "link": "https://www.earlham.ac.uk/"
+  },
+  "uct": {
+    "name": "University of Cape Town",
+    "link": "https://www.uct.ac.za/",
+    "logo": "UCTlogo.png"
+  },
+  "ufz": {
+    "name": "UFZ - Helmholtz Centre for Environmental Research",
+    "link": "https://www.ufz.de/",
+    "logo": "ufz.png"
+  },
+  "uni-san-raffaele": {
+    "name": "Università Vita-Salute San Raffaele",
+    "link": "https://www.unisr.it/",
+    "logo": "uni_san_raffaele.svg"
+  },
+  "UniQuilmes": {
+    "name": "Universidad Nacional de Quilmes/CONICET",
+    "link": "http://www.unq.edu.ar/",
+    "logo": "uni-quilmes-conicet.png"
+  },
+  "uni-evry": {
+    "name": "Université d'Évry / Paris-Saclay",
+    "link": "http://www.univ-evry.fr/",
+    "logo": "uni-evry.png"
+  },
+  "pu": {
+    "name": "Pondicherry University",
+    "link": "https://www.pondiuni.edu.in/home"
+  },
+  "jetstream2": {
+    "name": "JetStream2",
+    "link": "https://jetstream-cloud.org/",
+    "logo": "jetstream2.png"
+  },
+  "biocommons": {
+    "name": "Australian Biocommons",
+    "link": "https://www.biocommons.org.au/galaxy-australia",
+    "logo": "biocommons.png"
+  },
+  "uba": {
+    "name": "University of Buenos Aires",
+    "link": "https://www.uba.ar"
+  },
+  "ou": {
+    "name": "The Open University",
+    "link": "https://www.open.ac.uk/"
+  }
+}
