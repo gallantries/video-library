@@ -18,6 +18,8 @@ module Jekyll
       puts "[VideoLibrary/API] Videos & Sessisons"
       write_api_json(site, "gtn.json", site.data['gtn'])
       write_api_json(site, "studyload.json", site.data['studyload'])
+      write_api_json(site, "instructors.json", site.data['instructors'])
+      write_api_json(site, "affiliations.json", site.data['affiliations'])
 
       by_tags = Hash.new { |hash, key| hash[key] = Hash.new }
       site.data['videos'].each{|k, v|
@@ -137,6 +139,17 @@ module Jekyll
           end
           site.data['sessions_bytag'][tag][k] = site.data['sessions'][k]
         }
+      }
+
+      site.pages.select{|p| p['layout'] == 'event'}.each{|page|
+        p = page.path.gsub(/.md/, '.json')
+        path = ['api'] + p.split('/')[0..-2]
+        fn = p.split('/')[-1]
+        puts "#{path} | #{fn}"
+        page2 = PageWithoutAFile.new(site, "", path.join('/'), fn)
+        page2.content = JSON.pretty_generate(page.data)
+        page2.data["layout"] = nil
+        site.pages << page2
       }
     end
   end

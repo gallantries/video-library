@@ -22,7 +22,6 @@ module Jekyll
         return 'general'
       elsif path_parts[0] == 'course'
         # These are specific to their events
-        puts
         return ['event', path_parts[1].gsub(/welcome-/, '')].join('-')
       elsif path_parts[0] == 'contributing'
         return 'gtn'

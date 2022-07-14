@@ -38,6 +38,8 @@ default_galaxies:
 - server: us
   tiaas: gtn-tapas
 
+exclude:
+- course-builder/
 
 
 # Build settings
@@ -52,3 +54,7 @@ icon-tag:
     tutorial: assets/fa/tutorial.svg
     external-link: assets/fa/external-link.svg
     faq: assets/fa/circle-question-regular.svg
+
+webrick:
+  headers:
+    Access-Control-Allow-Origin: "*"
