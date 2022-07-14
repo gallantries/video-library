@@ -145,10 +145,12 @@ module Jekyll
         p = page.path.gsub(/.md/, '.json')
         path = ['api'] + p.split('/')[0..-2]
         fn = p.split('/')[-1]
-        puts "#{path} | #{fn}"
         page2 = PageWithoutAFile.new(site, "", path.join('/'), fn)
         pd = page.data.dup
         pd['content'] = '{% raw %}\n' + page.content + '{% endraw %}'
+        if pd.has_key?('url') then
+          delete pd['url']
+        end
         page2.content = JSON.pretty_generate(pd)
         page2.data["layout"] = nil
         site.pages << page2
