@@ -576,12 +576,6 @@
       "ifb"
     ]
   },
-  "ic4f": {
-    "name": "Sergey Golitsynskiy",
-    "affiliation": [
-      "johnshopkins"
-    ]
-  },
   "npalopoli": {
     "name": "Nicolás Palopoli",
     "affiliation": [
@@ -664,6 +658,12 @@
     "name": "Miguel Roncoroni",
     "affiliation": [
 
+    ]
+  },
+  "jdavcs": {
+    "name": "John Davis",
+    "affiliation": [
+      "johnshopkins"
     ]
   }
 }
