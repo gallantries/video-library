@@ -2445,7 +2445,7 @@ admin/ansible/slides:
     length: 5M
     link: KFpbfmN0OTE
     speakers:
-    - ic4f
+    - jdavcs
 admin/connect-to-compute-cluster/combined:
   description: null
   materials:
@@ -3126,7 +3126,7 @@ dev/debugging/tutorial/intro:
     galaxy_version: '21.01'
     length: 11M
     link: FlFF3TPEfC8
-    speakers: [assuntad23, ic4f]
+    speakers: [assuntad23, jdavcs]
 
 dev/debugging/tutorial/client-unit-test:
   title: Client Unit Tests
@@ -3143,7 +3143,7 @@ dev/debugging/tutorial/client-unit-test:
     galaxy_version: '21.01'
     length: 6M
     link: A6LSTCb-rGg
-    speakers: [assuntad23, ic4f]
+    speakers: [assuntad23]
 
 dev/debugging/tutorial/summary:
   title: Debugging Wisdom
@@ -3160,7 +3160,7 @@ dev/debugging/tutorial/summary:
     galaxy_version: '21.01'
     length: 3M
     link: _sH1uTKf4ec
-    speakers: [assuntad23, ic4f]
+    speakers: [assuntad23, jdavcs]
 
 dev/debugging/tutorial/api-test-failure:
   title: API tests
@@ -3172,12 +3172,12 @@ dev/debugging/tutorial/api-test-failure:
   type: Tutorial
   versions:
   - captions:
-    - ic4f
+    - jdavcs
     date: '2021-02-15'
     galaxy_version: '21.01'
     length: 23M
     link: vYFiFcEuLI0
-    speakers: [assuntad23, ic4f]
+    speakers: [jdavcs]
 
 dev/debugging/tutorial/client-linter:
   title: Client Linting
@@ -3195,7 +3195,7 @@ dev/debugging/tutorial/client-linter:
     galaxy_version: '21.01'
     length: 6M
     link: YKyP5Y4Y4js
-    speakers: [assuntad23, ic4f]
+    speakers: [assuntad23]
 
 dev/debugging/tutorial/runtime-error:
   title: Runtime Errors
@@ -3207,12 +3207,12 @@ dev/debugging/tutorial/runtime-error:
   type: Tutorial
   versions:
   - captions:
-    - ic4f
+    - jdavcs
     date: '2021-02-15'
     galaxy_version: '21.01'
     length: 40M
     link: S7N1WvYGJik
-    speakers: [ic4f]
+    speakers: [jdavcs]
 
 dev/debugging/tutorial/selenium:
   title: Selenium
@@ -3226,7 +3226,7 @@ dev/debugging/tutorial/selenium:
   versions:
   - captions:
     - assuntad23
-    - ic4f
+    - jdavcs
     - tnabtaf
     - beatrizserrano
     date: '2021-02-15'
@@ -3246,12 +3246,12 @@ dev/debugging/tutorial/unit-test-failure:
   type: Tutorial
   versions:
   - captions:
-    - ic4f
+    - jdavcs
     date: '2021-02-15'
     galaxy_version: '21.01'
     length: 14M
     link: BiANBC78EXM
-    speakers: [assuntad23, ic4f]
+    speakers: [jdavcs]
 
 
 

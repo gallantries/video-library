@@ -396,10 +396,6 @@ yvesvdb:
     name: Yves Vandenbrouck
     affiliation: [ifb]
 
-ic4f:
-    name: Sergey Golitsynskiy
-    affiliation: [johnshopkins]
-
 npalopoli:
     name: Nicolás Palopoli
     affiliation: [UniQuilmes]
@@ -459,3 +455,7 @@ sergeipond:
 miguelroncoroni:
     name: Miguel Roncoroni
     affiliation: []
+
+jdavcs:
+    name: John Davis
+    affiliation: [johnshopkins]
