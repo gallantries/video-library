@@ -2302,6 +2302,34 @@
         ],
         "gtn_id": "synthetic-biology/retrosynthesis_analysis",
         "captioned": true
+      },
+      "synthetic-biology/pathway_analysis/demo": {
+        "title": "Evaluating and ranking a set of pathways based on multiple metrics",
+        "type": "Demo",
+        "materials": [
+          {
+            "link": "topics/synthetic-biology/tutorials/pathway_analysis/tutorial.html",
+            "type": "Tutorial"
+          }
+        ],
+        "tags": [
+          "synthetic-biology"
+        ],
+        "versions": [
+          {
+            "link": "240oxe8unnU",
+            "date": "2022-09-26",
+            "length": "5M",
+            "speakers": [
+              "breakthewall"
+            ],
+            "captions": [
+              "kenza12"
+            ]
+          }
+        ],
+        "gtn_id": "synthetic-biology/pathway_analysis",
+        "captioned": true
       }
     }
   },
