@@ -31,8 +31,10 @@ module Jekyll
       }
 
       site.pages.select{|p| p['layout'] == 'event'}.each do |event|
-        event.data['instructors'].each do |person|
-          events_by_author[person].push(event)
+        if event.data.key?("instructors") then
+          event.data['instructors'].each do |person|
+            events_by_author[person].push(event)
+          end
         end
       end
 
