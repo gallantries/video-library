@@ -39,6 +39,9 @@ instructors:
   - liliana-rutaihwa
   - pvanheus
 
+organisers:
+  - dbrites
+
 institutions:
   - swiss-tph
   - irccs

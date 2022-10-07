@@ -53,8 +53,13 @@ layout: default
 	<dd>{{ p.text | markdownify }}</dd>
 	{% endfor %}
 
+    {% if page.organisers %}
+    <dt>Organizer(s):</dt>
+    <dd>{% for i in page.organisers %}<a href="mailto:{{site.data.instructors[i].email}}">{{site.data.instructors[i].name}}</a>{% unless forloop.last %}, {% endunless %}{% endfor %}</dd>
+    {% endif %}
+
     {% if page.institutions %}
-    <dt>Organized by:</dt>
+    <dt>Supporting Institutions:</dt>
     <dd>{% for i in page.institutions %}<a href="{{site.data.affiliations[i].link}}">{{site.data.affiliations[i].name}}</a>{% unless forloop.last %}, {% endunless %}{% endfor %}</dd>
     {% endif %}
 
