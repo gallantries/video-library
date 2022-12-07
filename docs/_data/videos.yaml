@@ -211,7 +211,7 @@ admin/job-destinations/tutorial:
 admin/job-metrics/tutorial:
   description: null
   materials:
-  - link: topics/admin/tutorials/job-metrics/tutorial.html
+  - link: topics/admin/tutorials/connect-to-compute-cluster/tutorial.html
     type: Tutorial
   tags:
   - admin
@@ -296,7 +296,7 @@ admin/object-store/exercise:
 admin/pulsar/slides:
   description: null
   materials:
-  - link: topics/admin/tutorials/heterogeneous-compute/slides.html
+  - link: topics/admin/tutorials/pulsar/slides-plain.html
     type: Slides
   tags:
   - admin
@@ -313,7 +313,7 @@ admin/pulsar/slides:
 admin/pulsar/tutorial:
   description: null
   materials:
-  - link: topics/admin/tutorials/heterogeneous-compute/tutorial.html
+  - link: topics/admin/tutorials/pulsar/tutorial.html
     type: Tutorial
   tags:
   - admin
@@ -936,7 +936,7 @@ data-science/r-advanced/tutorial:
   description: An advanced tutorial covering downstream analysis of RNA-seq data using
     R.
   materials:
-  - link: topics/introduction/tutorials/r-advanced/tutorial.html
+  - link: topics/data-science/tutorials/r-advanced/tutorial.html
     title: Advanced R in Galaxy
     type: Tutorial
   tags:
@@ -2852,7 +2852,7 @@ transcriptomics/bulk-music/tutorial:
 
     '
   materials:
-  - link: topics/transcriptomics/tutorials/bulk-music/tutorial.html
+  - link: topics/single-cell/tutorials/bulk-music/tutorial.html
     type: Tutorial
   tags:
   - transcriptomics
@@ -2903,7 +2903,7 @@ transcriptomics/droplet-quantification-preprocessing/tutorial:
     \ format? Well you\u2019ll find out! Importantly, this is the first step in processing\
     \ single cell data in order to start analysing it."
   materials:
-  - link: topics/transcriptomics/tutorials/droplet-quantification-preprocessing/tutorial.html
+  - link: topics/single-cell/tutorials/scrna-case_alevin/tutorial.html
     type: Tutorial
   tags:
   - transcriptomics
@@ -3073,7 +3073,7 @@ transcriptomics/scrna-JUPYTER-trajectories/tutorial:
     \ the \u2018set-up\u2019 is identical across computers, because it\u2019s browser\
     \ based. So fear not!"
   materials:
-  - link: topics/transcriptomics/tutorials/scrna-JUPYTER-trajectories/tutorial.html
+  - link: topics/single-cell/tutorials/scrna-case_JUPYTER-trajectories/tutorial.html
     type: Tutorial
   tags:
   - transcriptomics
@@ -3096,7 +3096,7 @@ transcriptomics/scrna-intro/slides:
     new conclusions that are not otherwise possible with bulk RNA-seq. <strong>Slides
     created by Mehmet Tekman</strong>.
   materials:
-  - link: topics/transcriptomics/tutorials/scrna-intro/slides.html
+  - link: topics/single-cell/tutorials/scrna-intro/slides-plain.html
     title: An introduction to scRNA-Seq data analysis
     type: Slides
   tags:
@@ -3121,7 +3121,7 @@ transcriptomics/scrna-plant/tutorial:
     \ but here we will use the ScanPy analysis suite (Wolf et al. 2018) integrated\
     \ within the single-cell resources in Galaxy (Tekman et al. 2020)."
   materials:
-  - link: topics/transcriptomics/tutorials/scrna-plant/tutorial.html
+  - link: topics/single-cell/tutorials/scrna-plant/tutorial.html
     type: Tutorial
   tags:
   - transcriptomics
@@ -3143,7 +3143,7 @@ transcriptomics/scrna-preprocessing-tenx/tutorial:
     are now scrambling to accommodate. Please work through the full tutorial yourself
     to get all the details.
   materials:
-  - link: topics/transcriptomics/tutorials/scrna-preprocessing-tenx/tutorial.html
+  - link: topics/single-cell/tutorials/scrna-preprocessing-tenx/tutorial.html
     title: Pre-processing of 10X Single-Cell RNA Datasets
     type: Tutorial
   tags:
@@ -3167,7 +3167,7 @@ transcriptomics/scrna-scanpy-pbmc3k/tutorial:
     a dataset of Peripheral Blood Mononuclear Cells (PBMC), containing 2,700 single
     cells. Please work through the full tutorial yourself to get all the details.
   materials:
-  - link: topics/transcriptomics/tutorials/scrna-scanpy-pbmc3k/tutorial.html
+  - link: topics/single-cell/tutorials/scrna-scanpy-pbmc3k/tutorial.html
     type: Tutorial
   tags:
   - transcriptomics
@@ -3190,7 +3190,7 @@ transcriptomics/scrna-seq-basic-pipeline/tutorial:
     \ with, and ultimately to try to define our clusters and to find our biological\
     \ meaning and insights!"
   materials:
-  - link: topics/transcriptomics/tutorials/scrna-seq-basic-pipeline/tutorial.html
+  - link: topics/single-cell/tutorials/scrna-case_basic-pipeline/tutorial.html
     type: Tutorial
   tags:
   - transcriptomics
@@ -3210,7 +3210,7 @@ transcriptomics/scrna-umis/tutorial:
     are, and how to handle them during analysis. Please work through the full tutorial
     yourself to get all the details.
   materials:
-  - link: topics/transcriptomics/tutorials/scrna-umis/tutorial.html
+  - link: topics/single-cell/tutorials/scrna-umis/tutorial.html
     type: Tutorial
   tags:
   - transcriptomics
