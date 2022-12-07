@@ -60,6 +60,11 @@ mapping:
         type: str
     support:
         type: str
+    organisers:
+        type: seq
+        sequence:
+            - type: str
+              enum: CONTRIBUTORS
     institutions:
         type: seq
         sequence:

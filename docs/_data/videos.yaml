@@ -775,7 +775,7 @@ community/welcome:
   tags:
   - community
   title: Meet & Join the Galaxy Community!
-  type: Community
+  type: Welcome
   versions:
   - captions:
     - shiltemann
