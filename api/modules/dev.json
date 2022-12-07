@@ -1,0 +1,23 @@
+{
+  "layout": "module",
+  "title": "Galaxy Development",
+  "description": "The Galaxy for Developers module will teach you how Galaxy works internally\n(frontend and backend), how to add new features for Galaxy, how to build the\nbest tools and visualisations, and more!\n",
+  "program": {
+    "intro": {
+      "trainings": [
+        {
+          "video": "dev/tool-from-scratch/tutorial"
+        },
+        {
+          "video": "contributing/gitpod/tutorial"
+        },
+        {
+          "video": "contributing/create-new-tutorial/tutorial"
+        },
+        {
+          "video": "contributing/create-new-tutorial-slides/slides"
+        }
+      ]
+    }
+  }
+}

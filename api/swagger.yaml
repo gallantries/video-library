@@ -97,3 +97,30 @@ paths:
             application/json:
               schema:
                 type: object
+  /modules.json:
+    get:
+      summary: Get the database of available modules
+      responses:
+        200:
+          description: successful operation
+          content:
+            application/json:
+              schema:
+                type: object
+  /modules/{module}.json:
+    get:
+      summary: Get the details about a specific module (probably not a useful route, all info is in /modules.json)
+      parameters:
+      - name: module
+        in: path
+        description: ID of the module
+        required: true
+        schema:
+          type: string
+      responses:
+        200:
+          description: successful operation
+          content:
+            application/json:
+              schema:
+                type: object
