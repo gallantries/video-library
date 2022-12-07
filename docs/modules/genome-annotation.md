@@ -20,7 +20,7 @@ program:
   vgp:
     title: Vertebrate Genome Project
     trainings:
-      - video: assembly/vgp_genome_assembly-demo
+      - video: assembly/vgp_genome_assembly-workflow
       - self-study: assembly/vgp_genome_assembly
   tnseq:
     title: TnSeq

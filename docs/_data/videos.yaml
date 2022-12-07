@@ -240,7 +240,7 @@ community/welcome:
   title: Meet & Join the Galaxy Community!
   tags:
   - community
-  type: null
+  type: Community
   versions:
   - captions:
     - shiltemann
@@ -262,7 +262,7 @@ computational-chemistry/htmd-analysis/tutorial:
     type: Tutorial
   tags:
   - computational-chemistry
-  type: null
+  type: Tutorial
   versions:
   - captions:
     - simonbray
@@ -538,7 +538,7 @@ galaxy-interface/upload-to-ena:
   title: Uploading data to ENA
   description: "So you\u2019ve used Galaxy workflows to analyze your SARS-CoV-2 samples?\
     \ Learn in this tutorial how to export results to your favorite datastore."
-  materials: null
+  materials: []
   tags:
   - sars-cov2
   - galaxy-interface
@@ -559,6 +559,7 @@ galaxy-interface/workflow-automation:
   - link: https://docs.microsoft.com/en-us/windows/wsl/install-win10
     title: Installing WSL on Windows
     type: Get Set Up (Windows)
+    external: true
   - link: topics/galaxy-interface/tutorials/workflow-automation/tutorial.html
     type: Tutorial
   tags:
@@ -762,6 +763,7 @@ genome-annotation/apollo/tutorial:
   - link: topics/genome-annotation/tutorials/apollo/tutorial.html
     type: Tutorial
   - link: https://genomearchitect.readthedocs.io/en/latest/UsersGuide.html
+    external: true
     type: Apollo User's Guide
   tags:
   - genome-annotation
@@ -844,6 +846,7 @@ introduction/galaxy-intro-101/tutorial:
     type: Tutorial
   - link: https://usegalaxy.eu/u/wolfgang-maier/h/galaxy-101
     type: History on GalaxyEU
+    external: true
   tags:
   - introduction
   type: Tutorial
@@ -1242,6 +1245,7 @@ data-science/rstudio-galaxy:
   - link: https://rstudio.cloud/
     title: Try Rstudio Cloud instead
     type: Rstudio in Galaxy not available?
+    external: True
   tags:
   - galaxy-interface
   type: Demo
@@ -1294,7 +1298,8 @@ sars-cov2/viral-beacon/slides:
   description: |
     How to visualize tens of thousands of SARS-CoV-2 analysis results? Learn about the Viral Beacon project’s solution!
   materials:
-    - link: "https://drive.google.com/file/d/1yCHOi1EGKpkH-3XpKTKNKpFjwYAWKSVx/preview"
+  - link: "https://drive.google.com/file/d/1yCHOi1EGKpkH-3XpKTKNKpFjwYAWKSVx/preview"
+    external: true
   tags:
   - sars-cov2
   type: Demo
@@ -1676,7 +1681,7 @@ statistics/intro-to-ml-with-r/tutorial:
     type: Tutorial
   tags:
   - statistics
-  type: null
+  type: Tutorial
   versions:
   - captions:
     - MariaTsayo
@@ -1710,7 +1715,7 @@ statistics/regression_machinelearning/tutorial:
     type: Slides
   tags:
   - statistics
-  type: null
+  type: Lecture & Tutorial
   versions:
   - captions:
     - anuprulez
@@ -3294,7 +3299,7 @@ dev/tool-from-scratch/tutorial:
   - link: topics/dev/tutorials/tool-from-scratch/tutorial.html
     type: Tutorial
   tags: [dev]
-  type: null
+  type: Tutorial
   versions:
   - captions:
     - gallardoalba
