@@ -141,6 +141,24 @@ module Jekyll
         }
       }
 
+      # Modules
+      modules = Hash.new
+      site.pages.select{|p| p['layout'] == 'module'}
+        .select{|p| p.path =~ /module/} # Not fully sure why we need this
+        .each{|page|
+
+        p = page.path.gsub(/.md/, '.json')
+        fn = p.split('/')[-1].gsub(/.json/, '')
+        modules[fn] = page.data.dup
+        modules[fn]['url'] = site.config['url'] + site.config['baseurl'] + '/api/' + p
+
+        write_api_json(site, p, page.data)
+
+      }
+      write_api_json(site, "modules.json", modules)
+
+
+      # Events
       site.pages.select{|p| p['layout'] == 'event'}.each{|page|
         p = page.path.gsub(/.md/, '.json')
         path = ['api'] + p.split('/')[0..-2]
