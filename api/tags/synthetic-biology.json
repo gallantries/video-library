@@ -2,64 +2,34 @@
   "url": "/video-library/api/tags/synthetic-biology.json",
   "videos": {
     "synthetic-biology/basic_assembly_analysis/demo": {
-      "title": "Designing plasmids encoding predicted pathways by using the BASIC assembly method",
-      "type": "Demo",
-      "tags": [
-        "synthetic-biology"
-      ],
       "materials": [
         {
           "link": "topics/synthetic-biology/tutorials/basic_assembly_analysis/tutorial.html",
           "type": "Tutorial"
         }
       ],
+      "tags": [
+        "synthetic-biology"
+      ],
+      "title": "Designing plasmids encoding predicted pathways by using the BASIC assembly method",
+      "type": "Demo",
       "versions": [
         {
-          "link": "0ItpHuSM7t0",
-          "date": "2022-05-11",
-          "length": "3M",
-          "speakers": [
-            "breakthewall"
-          ],
           "captions": [
             "kenza12"
+          ],
+          "date": "2022-05-11",
+          "length": "3M",
+          "link": "0ItpHuSM7t0",
+          "speakers": [
+            "breakthewall"
           ]
         }
       ],
       "gtn_id": "synthetic-biology/basic_assembly_analysis",
       "captioned": true
     },
-    "synthetic-biology/retrosynthesis_analysis/demo": {
-      "title": "Generating theoretical possible pathways for the production of Lycopene in E.Coli using Retrosynthesis tools.",
-      "type": "Demo",
-      "materials": [
-        {
-          "link": "topics/synthetic-biology/tutorials/retrosynthesis_analysis/tutorial.html",
-          "type": "Tutorial"
-        }
-      ],
-      "tags": [
-        "synthetic-biology"
-      ],
-      "versions": [
-        {
-          "link": "nnE3Ip94D8I",
-          "date": "2022-06-23",
-          "length": "5M",
-          "speakers": [
-            "breakthewall"
-          ],
-          "captions": [
-            "kenza12"
-          ]
-        }
-      ],
-      "gtn_id": "synthetic-biology/retrosynthesis_analysis",
-      "captioned": true
-    },
     "synthetic-biology/pathway_analysis/demo": {
-      "title": "Evaluating and ranking a set of pathways based on multiple metrics",
-      "type": "Demo",
       "materials": [
         {
           "link": "topics/synthetic-biology/tutorials/pathway_analysis/tutorial.html",
@@ -69,20 +39,50 @@
       "tags": [
         "synthetic-biology"
       ],
+      "title": "Evaluating and ranking a set of pathways based on multiple metrics",
+      "type": "Demo",
       "versions": [
         {
-          "link": "240oxe8unnU",
-          "date": "2022-09-26",
-          "length": "5M",
-          "speakers": [
-            "breakthewall"
-          ],
           "captions": [
             "kenza12"
+          ],
+          "date": "2022-09-26",
+          "length": "5M",
+          "link": "240oxe8unnU",
+          "speakers": [
+            "breakthewall"
           ]
         }
       ],
       "gtn_id": "synthetic-biology/pathway_analysis",
+      "captioned": true
+    },
+    "synthetic-biology/retrosynthesis_analysis/demo": {
+      "materials": [
+        {
+          "link": "topics/synthetic-biology/tutorials/retrosynthesis_analysis/tutorial.html",
+          "type": "Tutorial"
+        }
+      ],
+      "tags": [
+        "synthetic-biology"
+      ],
+      "title": "Generating theoretical possible pathways for the production of Lycopene in E.Coli using Retrosynthesis tools.",
+      "type": "Demo",
+      "versions": [
+        {
+          "captions": [
+            "kenza12"
+          ],
+          "date": "2022-06-23",
+          "length": "5M",
+          "link": "nnE3Ip94D8I",
+          "speakers": [
+            "breakthewall"
+          ]
+        }
+      ],
+      "gtn_id": "synthetic-biology/retrosynthesis_analysis",
       "captioned": true
     }
   }

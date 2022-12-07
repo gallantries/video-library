@@ -2,13 +2,15 @@
   "url": "/video-library/api/tags/sars-cov2.json",
   "videos": {
     "galaxy-interface/upload-to-ena": {
-      "title": "Uploading data to ENA",
       "description": "So you’ve used Galaxy workflows to analyze your SARS-CoV-2 samples? Learn in this tutorial how to export results to your favorite datastore.",
-      "materials": null,
+      "materials": [
+
+      ],
       "tags": [
         "sars-cov2",
         "galaxy-interface"
       ],
+      "title": "Uploading data to ENA",
       "type": "Lecture & Tutorial",
       "versions": [
         {
@@ -26,89 +28,7 @@
       "gtn_id": "galaxy-interface/upload-to-ena",
       "captioned": true
     },
-    "sars-cov2/usegalaxy-star-bot": {
-      "title": "The usegalaxy.* SARS-CoV-2 Bot in Action",
-      "description": "See in this demo how, on usegalaxy.*, we’ve used Planemo and Bioblend to build and operate an automated SARS-CoV-2 genome surveillance system based on the Galaxy workflows for variant calling, consensus building and reporting.",
-      "materials": [
-
-      ],
-      "tags": [
-        "sars-cov2"
-      ],
-      "type": "Demo",
-      "versions": [
-        {
-          "captions": [
-            "hexylena"
-          ],
-          "date": "2021-08-09",
-          "length": "40M",
-          "link": "IRxja8bZ-MU",
-          "speakers": [
-            "wm75"
-          ]
-        }
-      ],
-      "gtn_id": "sars-cov2/usegalaxy-star-bot",
-      "captioned": true
-    },
-    "sars-cov2/using-galaxy": {
-      "title": "SARS-CoV-2 Monitoring and Analysis with Galaxy",
-      "description": "Get an overview of the workshop: production-ready Galaxy workflows for SARS-CoV-2 sequencing data, tools you should know to automate workflow execution, and how you combine all of it to turn Galaxy into a platform for genome-surveillance",
-      "materials": [
-
-      ],
-      "tags": [
-        "sars-cov2"
-      ],
-      "type": "Tutorial",
-      "versions": [
-        {
-          "captions": [
-            "mariipia10"
-          ],
-          "date": "2021-08-09",
-          "length": "13M",
-          "link": "luxFraFJTc4",
-          "speakers": [
-            "wm75"
-          ]
-        }
-      ],
-      "gtn_id": "sars-cov2/using-galaxy",
-      "captioned": true
-    },
-    "sars-cov2/viral-beacon/slides": {
-      "title": "Introduction to viral Beacon",
-      "description": "How to visualize tens of thousands of SARS-CoV-2 analysis results? Learn about the Viral Beacon project’s solution!\n",
-      "materials": [
-        {
-          "link": "https://drive.google.com/file/d/1yCHOi1EGKpkH-3XpKTKNKpFjwYAWKSVx/preview"
-        }
-      ],
-      "tags": [
-        "sars-cov2"
-      ],
-      "type": "Demo",
-      "versions": [
-        {
-          "captions": [
-            "assuntad23"
-          ],
-          "date": "2021-12-08",
-          "galaxy_version": "21.01",
-          "length": "24M",
-          "link": "R_4yUMPk7eY",
-          "speakers": [
-            "babitasingh"
-          ]
-        }
-      ],
-      "gtn_id": "sars-cov2/viral-beacon",
-      "captioned": true
-    },
     "sars-cov2/observablehq": {
-      "title": "Using and Customising ObservableHQ",
       "description": "In this demo you will get to know the ObservableHQ platform for interactive data visualization. You will see how covid19.galaxyproject.org uses it to build a dashboard for their SARS-CoV-2 analysis efforts and will learn how to customize this solution to fit your own purposes.\n",
       "materials": [
 
@@ -116,6 +36,7 @@
       "tags": [
         "sars-cov2"
       ],
+      "title": "Using and Customising ObservableHQ",
       "type": "Demo",
       "versions": [
         {
@@ -135,7 +56,6 @@
       "captioned": true
     },
     "sars-cov2/upload-ena": {
-      "title": "Upload to ENA",
       "description": "",
       "materials": [
 
@@ -143,6 +63,7 @@
       "tags": [
         "sars-cov2"
       ],
+      "title": "Upload to ENA",
       "type": "Demo",
       "versions": [
         {
@@ -160,6 +81,88 @@
         }
       ],
       "gtn_id": "sars-cov2/upload-ena",
+      "captioned": true
+    },
+    "sars-cov2/usegalaxy-star-bot": {
+      "description": "See in this demo how, on usegalaxy.*, we’ve used Planemo and Bioblend to build and operate an automated SARS-CoV-2 genome surveillance system based on the Galaxy workflows for variant calling, consensus building and reporting.",
+      "materials": [
+
+      ],
+      "tags": [
+        "sars-cov2"
+      ],
+      "title": "The usegalaxy.* SARS-CoV-2 Bot in Action",
+      "type": "Demo",
+      "versions": [
+        {
+          "captions": [
+            "hexylena"
+          ],
+          "date": "2021-08-09",
+          "length": "40M",
+          "link": "IRxja8bZ-MU",
+          "speakers": [
+            "wm75"
+          ]
+        }
+      ],
+      "gtn_id": "sars-cov2/usegalaxy-star-bot",
+      "captioned": true
+    },
+    "sars-cov2/using-galaxy": {
+      "description": "Get an overview of the workshop: production-ready Galaxy workflows for SARS-CoV-2 sequencing data, tools you should know to automate workflow execution, and how you combine all of it to turn Galaxy into a platform for genome-surveillance",
+      "materials": [
+
+      ],
+      "tags": [
+        "sars-cov2"
+      ],
+      "title": "SARS-CoV-2 Monitoring and Analysis with Galaxy",
+      "type": "Tutorial",
+      "versions": [
+        {
+          "captions": [
+            "mariipia10"
+          ],
+          "date": "2021-08-09",
+          "length": "13M",
+          "link": "luxFraFJTc4",
+          "speakers": [
+            "wm75"
+          ]
+        }
+      ],
+      "gtn_id": "sars-cov2/using-galaxy",
+      "captioned": true
+    },
+    "sars-cov2/viral-beacon/slides": {
+      "description": "How to visualize tens of thousands of SARS-CoV-2 analysis results? Learn about the Viral Beacon project’s solution!\n",
+      "materials": [
+        {
+          "external": true,
+          "link": "https://drive.google.com/file/d/1yCHOi1EGKpkH-3XpKTKNKpFjwYAWKSVx/preview"
+        }
+      ],
+      "tags": [
+        "sars-cov2"
+      ],
+      "title": "Introduction to viral Beacon",
+      "type": "Demo",
+      "versions": [
+        {
+          "captions": [
+            "assuntad23"
+          ],
+          "date": "2021-12-08",
+          "galaxy_version": "21.01",
+          "length": "24M",
+          "link": "R_4yUMPk7eY",
+          "speakers": [
+            "babitasingh"
+          ]
+        }
+      ],
+      "gtn_id": "sars-cov2/viral-beacon",
       "captioned": true
     }
   }

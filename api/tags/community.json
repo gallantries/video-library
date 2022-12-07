@@ -101,11 +101,11 @@
           "type": "GTN Twitter"
         }
       ],
-      "title": "Meet & Join the Galaxy Community!",
       "tags": [
         "community"
       ],
-      "type": null,
+      "title": "Meet & Join the Galaxy Community!",
+      "type": "Welcome",
       "versions": [
         {
           "captions": [

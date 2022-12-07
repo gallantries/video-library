@@ -1,6 +1,38 @@
 {
   "url": "/video-library/api/tags/transcriptomics.json",
   "videos": {
+    "transcriptomics/bulk-music/tutorial": {
+      "description": "Bulk RNA-seq data contains a mixture of transcript signatures from\nseveral types of cells. We wish to deconvolve this mixture to obtain\nestimates of the proportions of cell types within the bulk sample. To\ndo this, we can use single cell RNA-seq data as a reference for\nestimating the cell type proportions within the bulk data.\n\nIn this tutorial, we will use bulk and single-cell RNA-seq data, including\nmatrices of similar tissues from different sources, to illustrate how to infer\ncell type abundances from bulk RNA-seq.\n",
+      "materials": [
+        {
+          "link": "topics/single-cell/tutorials/bulk-music/tutorial.html",
+          "type": "Tutorial"
+        }
+      ],
+      "tags": [
+        "transcriptomics",
+        "single-cell"
+      ],
+      "type": "Tutorial",
+      "versions": [
+        {
+          "captions": [
+            "mtekman",
+            "nomadscientist"
+          ],
+          "date": "2021-03-08",
+          "galaxy_version": "21.09",
+          "length": "20M",
+          "link": "nfAUXP3W-jM",
+          "speakers": [
+            "nomadscientist"
+          ]
+        }
+      ],
+      "gtn_id": "transcriptomics/bulk-music",
+      "title": "Bulk RNA Deconvolution with MuSiC",
+      "captioned": true
+    },
     "transcriptomics/de-novo/tutorial": {
       "description": "In this tutorial, we will use de novo transcript reconstruction to infer transcript structures from aligned reads. We will identify and quantify transcripts present in two different cell state and determine which transcripts are differentially expressed between the two states.",
       "materials": [
@@ -47,7 +79,7 @@
       "description": "This tutorial will take you from raw FASTQ files to a cell x gene data matrix in AnnData format. What’s a data matrix, and what’s AnnData format? Well you’ll find out! Importantly, this is the first step in processing single cell data in order to start analysing it.",
       "materials": [
         {
-          "link": "topics/transcriptomics/tutorials/droplet-quantification-preprocessing/tutorial.html",
+          "link": "topics/single-cell/tutorials/scrna-case_alevin/tutorial.html",
           "type": "Tutorial"
         }
       ],
@@ -305,43 +337,11 @@
       "title": "Visualization of RNA-Seq results with Volcano Plot",
       "captioned": true
     },
-    "transcriptomics/bulk-music/tutorial": {
-      "description": "Bulk RNA-seq data contains a mixture of transcript signatures from\nseveral types of cells. We wish to deconvolve this mixture to obtain\nestimates of the proportions of cell types within the bulk sample. To\ndo this, we can use single cell RNA-seq data as a reference for\nestimating the cell type proportions within the bulk data.\n\nIn this tutorial, we will use bulk and single-cell RNA-seq data, including\nmatrices of similar tissues from different sources, to illustrate how to infer\ncell type abundances from bulk RNA-seq.\n",
-      "materials": [
-        {
-          "link": "topics/transcriptomics/tutorials/bulk-music/tutorial.html",
-          "type": "Tutorial"
-        }
-      ],
-      "tags": [
-        "transcriptomics",
-        "single-cell"
-      ],
-      "type": "Tutorial",
-      "versions": [
-        {
-          "captions": [
-            "mtekman",
-            "nomadscientist"
-          ],
-          "date": "2021-03-08",
-          "galaxy_version": "21.09",
-          "length": "20M",
-          "link": "nfAUXP3W-jM",
-          "speakers": [
-            "nomadscientist"
-          ]
-        }
-      ],
-      "gtn_id": "transcriptomics/bulk-music",
-      "title": "Bulk RNA Deconvolution with MuSiC",
-      "captioned": true
-    },
     "transcriptomics/scrna-JUPYTER-trajectories/tutorial": {
       "description": "You’ve done all the hard work of preparing a single cell matrix, processing it, plotting it, interpreting it, finding lots of lovely genes, all within the glorious Galaxy interface. Now you want to infer trajectories, or relationships between cells… and you’ve been threatened with learning Python to do so! Well, fear not. If you can have a run-through of a basic python coding introduction, then that will help you make more sense of this tutorial, however you’ll be able to make and interpret glorious plots even without understanding the Python coding language. This is the beauty of Galaxy - all the ‘set-up’ is identical across computers, because it’s browser based. So fear not!",
       "materials": [
         {
-          "link": "topics/transcriptomics/tutorials/scrna-JUPYTER-trajectories/tutorial.html",
+          "link": "topics/single-cell/tutorials/scrna-case_JUPYTER-trajectories/tutorial.html",
           "type": "Tutorial"
         }
       ],
@@ -372,7 +372,7 @@
       "description": "Single-cell RNA-seq analysis is a rapidly evolving field at the forefront of transcriptomic research, used in high-throughput developmental studies and rare transcript studies to examine cell heterogeneity within a populations of cells. The cellular resolution and genome wide scope make it possible to draw new conclusions that are not otherwise possible with bulk RNA-seq. <strong>Slides created by Mehmet Tekman</strong>.",
       "materials": [
         {
-          "link": "topics/transcriptomics/tutorials/scrna-intro/slides.html",
+          "link": "topics/single-cell/tutorials/scrna-intro/slides-plain.html",
           "title": "An introduction to scRNA-Seq data analysis",
           "type": "Slides"
         }
@@ -400,103 +400,11 @@
       "title": "An introduction to scRNA-seq data analysis",
       "captioned": true
     },
-    "transcriptomics/scrna-umis/tutorial": {
-      "title": "Understanding Barcodes",
-      "description": "This tutorial demonstrates the what barcodes in your sequencing data are, and how to handle them during analysis. Please work through the full tutorial yourself to get all the details.",
-      "materials": [
-        {
-          "type": "Tutorial",
-          "link": "topics/transcriptomics/tutorials/scrna-umis/tutorial.html"
-        }
-      ],
-      "tags": [
-        "transcriptomics"
-      ],
-      "type": "Demo",
-      "versions": [
-        {
-          "link": "AJ17BicjmYU",
-          "date": "2021-03-18",
-          "galaxy_version": "21.01",
-          "length": "10M",
-          "captions": [
-            "khanteymoori"
-          ],
-          "speakers": [
-            "nomadscientist"
-          ]
-        }
-      ],
-      "gtn_id": "transcriptomics/scrna-umis",
-      "captioned": true
-    },
-    "transcriptomics/scrna-preprocessing-tenx/tutorial": {
-      "title": "Pre-processing of 10X Single-Cell RNA Datasets",
-      "description": "10x genomics has provided not only a cost-effective high-throughput solution to understanding sample heterogeneity at the individual cell level, but has defined the standards of the field that many downstream analysis packages are now scrambling to accommodate. Please work through the full tutorial yourself to get all the details.",
-      "type": "Demo",
-      "materials": [
-        {
-          "type": "Tutorial",
-          "link": "topics/transcriptomics/tutorials/scrna-preprocessing-tenx/tutorial.html",
-          "title": "Pre-processing of 10X Single-Cell RNA Datasets"
-        }
-      ],
-      "tags": [
-        "transcriptomics",
-        "single-cell"
-      ],
-      "versions": [
-        {
-          "link": "vNBNFkF0L4U",
-          "date": "2021-03-18",
-          "galaxy_version": "21.01",
-          "length": "5M",
-          "captions": [
-            "khanteymoori"
-          ],
-          "speakers": [
-            "nomadscientist"
-          ]
-        }
-      ],
-      "gtn_id": "transcriptomics/scrna-preprocessing-tenx",
-      "captioned": true
-    },
-    "transcriptomics/scrna-scanpy-pbmc3k/tutorial": {
-      "title": "Clustering 3K PBMCs with Scanpy",
-      "type": "Demo",
-      "description": "In this tutorial, we will investigate clustering of single-cell data from 10x Genomics, including preprocessing, clustering and the identification of cell types via known marker genes, using Scanpy. It will be illustrated using a dataset of Peripheral Blood Mononuclear Cells (PBMC), containing 2,700 single cells. Please work through the full tutorial yourself to get all the details.",
-      "tags": [
-        "transcriptomics",
-        "single-cell"
-      ],
-      "versions": [
-        {
-          "link": "nefB35Bi1l4",
-          "length": "45M",
-          "captions": [
-            "hrhotz"
-          ],
-          "speakers": [
-            "nomadscientist"
-          ],
-          "date": "2021-03-18"
-        }
-      ],
-      "materials": [
-        {
-          "type": "Tutorial",
-          "link": "topics/transcriptomics/tutorials/scrna-scanpy-pbmc3k/tutorial.html"
-        }
-      ],
-      "gtn_id": "transcriptomics/scrna-scanpy-pbmc3k",
-      "captioned": true
-    },
     "transcriptomics/scrna-plant/tutorial": {
       "description": "This tutorial replicates the paper “Spatiotemporal Developmental Trajectories in the Arabidopsis Root Revealed Using High-Throughput Single-Cell RNA Sequencing” (Denyer et al. 2019), where the major plant cell types are recovered in the data as well as distinguishing between QC and meristematic cells. The original paper used the Seurat analysis suite (Satija et al. 2015), but here we will use the ScanPy analysis suite (Wolf et al. 2018) integrated within the single-cell resources in Galaxy (Tekman et al. 2020).",
       "materials": [
         {
-          "link": "topics/transcriptomics/tutorials/scrna-plant/tutorial.html",
+          "link": "topics/single-cell/tutorials/scrna-plant/tutorial.html",
           "type": "Tutorial"
         }
       ],
@@ -523,11 +431,73 @@
       "title": "Analysis of plant scRNA-Seq Data with Scanpy",
       "captioned": true
     },
+    "transcriptomics/scrna-preprocessing-tenx/tutorial": {
+      "description": "10x genomics has provided not only a cost-effective high-throughput solution to understanding sample heterogeneity at the individual cell level, but has defined the standards of the field that many downstream analysis packages are now scrambling to accommodate. Please work through the full tutorial yourself to get all the details.",
+      "materials": [
+        {
+          "link": "topics/single-cell/tutorials/scrna-preprocessing-tenx/tutorial.html",
+          "title": "Pre-processing of 10X Single-Cell RNA Datasets",
+          "type": "Tutorial"
+        }
+      ],
+      "tags": [
+        "transcriptomics",
+        "single-cell"
+      ],
+      "title": "Pre-processing of 10X Single-Cell RNA Datasets",
+      "type": "Demo",
+      "versions": [
+        {
+          "captions": [
+            "khanteymoori"
+          ],
+          "date": "2021-03-18",
+          "galaxy_version": "21.01",
+          "length": "5M",
+          "link": "vNBNFkF0L4U",
+          "speakers": [
+            "nomadscientist"
+          ]
+        }
+      ],
+      "gtn_id": "transcriptomics/scrna-preprocessing-tenx",
+      "captioned": true
+    },
+    "transcriptomics/scrna-scanpy-pbmc3k/tutorial": {
+      "description": "In this tutorial, we will investigate clustering of single-cell data from 10x Genomics, including preprocessing, clustering and the identification of cell types via known marker genes, using Scanpy. It will be illustrated using a dataset of Peripheral Blood Mononuclear Cells (PBMC), containing 2,700 single cells. Please work through the full tutorial yourself to get all the details.",
+      "materials": [
+        {
+          "link": "topics/single-cell/tutorials/scrna-scanpy-pbmc3k/tutorial.html",
+          "type": "Tutorial"
+        }
+      ],
+      "tags": [
+        "transcriptomics",
+        "single-cell"
+      ],
+      "title": "Clustering 3K PBMCs with Scanpy",
+      "type": "Demo",
+      "versions": [
+        {
+          "captions": [
+            "hrhotz"
+          ],
+          "date": "2021-03-18",
+          "length": "45M",
+          "link": "nefB35Bi1l4",
+          "speakers": [
+            "nomadscientist"
+          ]
+        }
+      ],
+      "gtn_id": "transcriptomics/scrna-scanpy-pbmc3k",
+      "captioned": true
+    },
     "transcriptomics/scrna-seq-basic-pipeline/tutorial": {
       "description": "You’ve done all the work to make a single cell matrix, with gene counts and mitochondrial counts and buckets of cell metadata from all your variables of interest, now it’s time to fully process our data, to remove low quality cells, to reduce the many dimensions of data that make it difficult to work with, and ultimately to try to define our clusters and to find our biological meaning and insights!",
       "materials": [
         {
-          "link": "topics/transcriptomics/tutorials/scrna-seq-basic-pipeline/tutorial.html",
+          "link": "topics/single-cell/tutorials/scrna-case_basic-pipeline/tutorial.html",
           "type": "Tutorial"
         }
       ],
@@ -552,6 +522,36 @@
       ],
       "gtn_id": "transcriptomics/scrna-seq-basic-pipeline",
       "title": "Filter, Plot and Explore Single-cell RNA-seq Data",
+      "captioned": true
+    },
+    "transcriptomics/scrna-umis/tutorial": {
+      "description": "This tutorial demonstrates the what barcodes in your sequencing data are, and how to handle them during analysis. Please work through the full tutorial yourself to get all the details.",
+      "materials": [
+        {
+          "link": "topics/single-cell/tutorials/scrna-umis/tutorial.html",
+          "type": "Tutorial"
+        }
+      ],
+      "tags": [
+        "transcriptomics"
+      ],
+      "title": "Understanding Barcodes",
+      "type": "Demo",
+      "versions": [
+        {
+          "captions": [
+            "khanteymoori"
+          ],
+          "date": "2021-03-18",
+          "galaxy_version": "21.01",
+          "length": "10M",
+          "link": "AJ17BicjmYU",
+          "speakers": [
+            "nomadscientist"
+          ]
+        }
+      ],
+      "gtn_id": "transcriptomics/scrna-umis",
       "captioned": true
     }
   }

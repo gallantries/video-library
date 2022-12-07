@@ -99,6 +99,7 @@
           "type": "Tutorial"
         },
         {
+          "external": true,
           "link": "https://genomearchitect.readthedocs.io/en/latest/UsersGuide.html",
           "type": "Apollo User's Guide"
         }
@@ -123,36 +124,6 @@
       ],
       "gtn_id": "genome-annotation/apollo",
       "title": "Refining Genome Annotations with Apollo",
-      "captioned": true
-    },
-    "genome-annotation/repeatmasker/tutorial": {
-      "description": "The aim of repeat masking is to identify the location of all repeated elements along a genome sequence. Other tools (like annotation pipelines) can then take this information into account when producing their results.\n",
-      "materials": [
-        {
-          "link": "topics/genome-annotation/tutorials/repeatmasker/tutorial.html",
-          "type": "Tutorial"
-        }
-      ],
-      "tags": [
-        "genome-annotation"
-      ],
-      "type": "Tutorial",
-      "versions": [
-        {
-          "captions": [
-            "abretaud"
-          ],
-          "date": "2022-03-03",
-          "galaxy_version": "21.09",
-          "length": "16M",
-          "link": "AYAvjwm4cnM",
-          "speakers": [
-            "abretaud"
-          ]
-        }
-      ],
-      "gtn_id": "genome-annotation/repeatmasker",
-      "title": "Masking repeats with RepeatMasker",
       "captioned": true
     },
     "genome-annotation/funannotate/tutorial": {
@@ -185,8 +156,37 @@
       "title": "Genome annotation with Funannotate",
       "captioned": true
     },
+    "genome-annotation/repeatmasker/tutorial": {
+      "description": "The aim of repeat masking is to identify the location of all repeated elements along a genome sequence. Other tools (like annotation pipelines) can then take this information into account when producing their results.\n",
+      "materials": [
+        {
+          "link": "topics/genome-annotation/tutorials/repeatmasker/tutorial.html",
+          "type": "Tutorial"
+        }
+      ],
+      "tags": [
+        "genome-annotation"
+      ],
+      "type": "Tutorial",
+      "versions": [
+        {
+          "captions": [
+            "abretaud"
+          ],
+          "date": "2022-03-03",
+          "galaxy_version": "21.09",
+          "length": "16M",
+          "link": "AYAvjwm4cnM",
+          "speakers": [
+            "abretaud"
+          ]
+        }
+      ],
+      "gtn_id": "genome-annotation/repeatmasker",
+      "title": "Masking repeats with RepeatMasker",
+      "captioned": true
+    },
     "genome-annotation/tnseq-lecture": {
-      "title": "Essential genes detection with Transposon insertion sequencing (Lecture)",
       "description": "This lecture talks about the basics of TnSeq analysis\n",
       "materials": [
         {
@@ -198,6 +198,7 @@
       "tags": [
         "genome-annotation"
       ],
+      "title": "Essential genes detection with Transposon insertion sequencing (Lecture)",
       "type": "Lecture",
       "versions": [
         {

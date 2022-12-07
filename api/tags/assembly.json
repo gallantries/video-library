@@ -99,7 +99,6 @@
       "captioned": true
     },
     "assembly/vgp_genome_assembly-workflow": {
-      "title": "Running the VGP Genome Assembly workflows",
       "description": "This demo walks you through running the VGP Genome Assembly workflows, rather than the whole tutorial (as most GTN Tapas videos do)\n",
       "materials": [
         {
@@ -116,6 +115,7 @@
       "tags": [
         "assembly"
       ],
+      "title": "Running the VGP Genome Assembly workflows",
       "type": "Demo",
       "versions": [
         {

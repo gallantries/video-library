@@ -1,41 +1,7 @@
 {
   "url": "/video-library/api/tags/statistics.json",
   "videos": {
-    "statistics/machine-learning/intro": {
-      "title": "Introduction to Machine Learning",
-      "description": "The lecture explains introductory concepts in machine learning such as supervised and unsupervised learning, classification and regression, hyperparameter optimisation, cross-validation, train, test and validation sets.",
-      "materials": [
-        {
-          "external": true,
-          "link": "https://docs.google.com/presentation/d/1RZtXFk8qz6wmPsIKnMte3Y4SvmI_nD2vIyeSEvYR6RA/edit?usp=sharing",
-          "title": "Introduction to Machine Learning",
-          "type": "Slides"
-        }
-      ],
-      "support_channel": "machine_learning_introduction",
-      "tags": [
-        "statistics"
-      ],
-      "type": "Lecture",
-      "versions": [
-        {
-          "captions": [
-            "anuprulez"
-          ],
-          "date": "2021-02-15",
-          "galaxy_version": "21.01",
-          "length": "15M",
-          "link": "ix58oj8n8nA",
-          "speakers": [
-            "anuprulez"
-          ]
-        }
-      ],
-      "gtn_id": "statistics/machine-learning",
-      "captioned": true
-    },
     "statistics/CNN": {
-      "title": "Convolutional Neural Networks (CNN)",
       "description": "This hands-on tutorial covers Convolutional Neural Networks (CNN)",
       "materials": [
         {
@@ -52,6 +18,7 @@
       "tags": [
         "statistics"
       ],
+      "title": "Convolutional Neural Networks (CNN)",
       "type": "Tutorial",
       "versions": [
         {
@@ -71,7 +38,6 @@
       "captioned": true
     },
     "statistics/FNN": {
-      "title": "Feedforward Neural Networks (FNN)",
       "description": "This hands-on tutorial covers Feedforward Neural Networks (FNN)",
       "materials": [
         {
@@ -88,6 +54,7 @@
       "tags": [
         "statistics"
       ],
+      "title": "Feedforward Neural Networks (FNN)",
       "type": "Tutorial",
       "versions": [
         {
@@ -107,7 +74,6 @@
       "captioned": true
     },
     "statistics/RNN": {
-      "title": "Recurrent Neural Networks (RNN)",
       "description": "This hands-on tutorial covers Recurrenct Neural Networks (RNN)",
       "materials": [
         {
@@ -124,6 +90,7 @@
       "tags": [
         "statistics"
       ],
+      "title": "Recurrent Neural Networks (RNN)",
       "type": "Tutorial",
       "versions": [
         {
@@ -140,6 +107,43 @@
         }
       ],
       "gtn_id": "statistics/RNN",
+      "captioned": true
+    },
+    "statistics/classification_machinelearning/tutorial": {
+      "description": "The talk includes a lecture followed by a hands-on session to apply multiple classification algorithms on the Quantitative structure-activity relationship (QSAR) dataset to predict the biodegradable activity of chemical compounds. QSAR models attempt to predict the activity or property of chemicals based on their chemical structure. To achieve this, a database of compounds is collected for which the property of interest is known. For each compound, molecular descriptors are collected which describe the structure (for example - molecular weight, number of nitrogen atoms, number of carbon-carbon double bonds). Using these descriptors, a model is constructed which is capable of predicting the property of interest for a new, unknown molecule. In this tutorial, we will use a database assembled from experimental data of the Japanese Ministry of International Trade and Industry to create a classification model by applying simple and complex classifiers to learn the nature of biodegradation. We will use this model to classify new molecules into one of two classes - biodegradable or non-biodegradable. Different visualisations are used to analyze the results after applying each classification algorithm. Hyperparameters of one of the classifiers are also optimised.",
+      "materials": [
+        {
+          "link": "topics/statistics/tutorials/classification_machinelearning/tutorial.html",
+          "type": "Tutorial"
+        },
+        {
+          "external": true,
+          "link": "https://docs.google.com/presentation/d/1lAYCZ-g6y8cC1aH68FWL6gkRRI2srXSHuJwaaYAQZaU/edit?usp=sharing",
+          "title": "Classification in Machine Learning",
+          "type": "Slides"
+        }
+      ],
+      "support_channel": "machine_learning_classification",
+      "tags": [
+        "statistics"
+      ],
+      "type": "Tutorial",
+      "versions": [
+        {
+          "captions": [
+            "anuprulez"
+          ],
+          "date": "2021-02-15",
+          "galaxy_version": "21.01",
+          "length": "1H50M",
+          "link": "Gz2OdRPS2Nk",
+          "speakers": [
+            "anuprulez"
+          ]
+        }
+      ],
+      "gtn_id": "statistics/classification_machinelearning",
+      "title": "Classification in Machine Learning",
       "captioned": true
     },
     "statistics/fruit_360": {
@@ -176,43 +180,6 @@
       "title": "Image classification in Galaxy with fruit 360 dataset",
       "captioned": true
     },
-    "statistics/classification_machinelearning/tutorial": {
-      "description": "The talk includes a lecture followed by a hands-on session to apply multiple classification algorithms on the Quantitative structure-activity relationship (QSAR) dataset to predict the biodegradable activity of chemical compounds. QSAR models attempt to predict the activity or property of chemicals based on their chemical structure. To achieve this, a database of compounds is collected for which the property of interest is known. For each compound, molecular descriptors are collected which describe the structure (for example - molecular weight, number of nitrogen atoms, number of carbon-carbon double bonds). Using these descriptors, a model is constructed which is capable of predicting the property of interest for a new, unknown molecule. In this tutorial, we will use a database assembled from experimental data of the Japanese Ministry of International Trade and Industry to create a classification model by applying simple and complex classifiers to learn the nature of biodegradation. We will use this model to classify new molecules into one of two classes - biodegradable or non-biodegradable. Different visualisations are used to analyze the results after applying each classification algorithm. Hyperparameters of one of the classifiers are also optimised.",
-      "support_channel": "machine_learning_classification",
-      "materials": [
-        {
-          "link": "topics/statistics/tutorials/classification_machinelearning/tutorial.html",
-          "type": "Tutorial"
-        },
-        {
-          "external": true,
-          "link": "https://docs.google.com/presentation/d/1lAYCZ-g6y8cC1aH68FWL6gkRRI2srXSHuJwaaYAQZaU/edit?usp=sharing",
-          "title": "Classification in Machine Learning",
-          "type": "Slides"
-        }
-      ],
-      "tags": [
-        "statistics"
-      ],
-      "type": "Tutorial",
-      "versions": [
-        {
-          "captions": [
-            "anuprulez"
-          ],
-          "date": "2021-02-15",
-          "galaxy_version": "21.01",
-          "length": "1H50M",
-          "link": "Gz2OdRPS2Nk",
-          "speakers": [
-            "anuprulez"
-          ]
-        }
-      ],
-      "gtn_id": "statistics/classification_machinelearning",
-      "title": "Classification in Machine Learning",
-      "captioned": true
-    },
     "statistics/intro-to-ml-with-r/tutorial": {
       "description": "This is an Introduction to Machine Learning in R, in which you’ll learn the basics of unsupervised learning for pattern recognition and supervised learning for prediction. At the end of this workshop, we hope that you will   - appreciate the importance of performing exploratory data analysis (or EDA) before starting to model your data.   - understand the basics of unsupervised learning and know the examples of principal component analysis (PCA) and k-means clustering.   - understand the basics of supervised learning for prediction and the differences between classification and regression.   - understand modern machine learning techniques and principles, such as test train split, k-fold cross validation and regularization.   - be able to write code to implement the above techniques and methodologies using R, caret and glmnet.  We will not be focusing on the mathematical foundation for each of the methods and approaches we’ll be discussing. There are many resources that can provide this context, but for the purposes of this workshop we believe that they are beyond the scope.",
       "materials": [
@@ -225,7 +192,7 @@
       "tags": [
         "statistics"
       ],
-      "type": null,
+      "type": "Tutorial",
       "versions": [
         {
           "captions": [
@@ -242,6 +209,39 @@
       ],
       "gtn_id": "statistics/intro-to-ml-with-r",
       "title": "Introduction to Machine Learning using R",
+      "captioned": true
+    },
+    "statistics/machine-learning/intro": {
+      "description": "The lecture explains introductory concepts in machine learning such as supervised and unsupervised learning, classification and regression, hyperparameter optimisation, cross-validation, train, test and validation sets.",
+      "materials": [
+        {
+          "external": true,
+          "link": "https://docs.google.com/presentation/d/1RZtXFk8qz6wmPsIKnMte3Y4SvmI_nD2vIyeSEvYR6RA/edit?usp=sharing",
+          "title": "Introduction to Machine Learning",
+          "type": "Slides"
+        }
+      ],
+      "support_channel": "machine_learning_introduction",
+      "tags": [
+        "statistics"
+      ],
+      "title": "Introduction to Machine Learning",
+      "type": "Lecture",
+      "versions": [
+        {
+          "captions": [
+            "anuprulez"
+          ],
+          "date": "2021-02-15",
+          "galaxy_version": "21.01",
+          "length": "15M",
+          "link": "ix58oj8n8nA",
+          "speakers": [
+            "anuprulez"
+          ]
+        }
+      ],
+      "gtn_id": "statistics/machine-learning",
       "captioned": true
     },
     "statistics/regression_machinelearning/tutorial": {
@@ -261,7 +261,7 @@
       "tags": [
         "statistics"
       ],
-      "type": null,
+      "type": "Lecture & Tutorial",
       "versions": [
         {
           "captions": [

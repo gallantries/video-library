@@ -1,8 +1,31 @@
 {
   "url": "/video-library/api/tags/galaxy-intro.json",
   "videos": {
+    "galaxy-interface/interactive-tools": {
+      "description": "This demo videos shows you how you can run Interactive tools such as RStudio and Jupyter notebooks within Galaxy.",
+      "tags": [
+        "galaxy-intro",
+        "galaxy"
+      ],
+      "title": "Interactive Tools",
+      "type": "Demo",
+      "versions": [
+        {
+          "captions": [
+            "shiltemann"
+          ],
+          "date": "2022-07-07",
+          "length": "15M",
+          "link": "21Eo3QlKuoA",
+          "speakers": [
+            "hexylena"
+          ]
+        }
+      ],
+      "gtn_id": "galaxy-interface/interactive-tools",
+      "captioned": true
+    },
     "galaxy/intro": {
-      "title": "A Very Short Introduction to Galaxy",
       "description": "This video will introduce the Galaxy data analysis platform, and give a short demo on how to use it.",
       "materials": [
         {
@@ -15,6 +38,7 @@
         "galaxy-intro",
         "galaxy"
       ],
+      "title": "A Very Short Introduction to Galaxy",
       "type": "Lecture & Demo",
       "versions": [
         {
@@ -34,7 +58,6 @@
       "captioned": true
     },
     "galaxy/intro2": {
-      "title": "Your First Galaxy Analysis",
       "description": "In this tutorial, we will walk you through your first (toy) analysis in Galaxy. This tutorial is aimed at familiarizing you with the Galaxy platform, and some basic NGS concepts.",
       "materials": [
         {
@@ -58,6 +81,7 @@
         "galaxy-intro",
         "galaxy"
       ],
+      "title": "Your First Galaxy Analysis",
       "type": "Tutorial",
       "versions": [
         {
@@ -74,30 +98,6 @@
         }
       ],
       "gtn_id": "galaxy/intro2",
-      "captioned": true
-    },
-    "galaxy-interface/interactive-tools": {
-      "title": "Interactive Tools",
-      "description": "This demo videos shows you how you can run Interactive tools such as RStudio and Jupyter notebooks within Galaxy.",
-      "tags": [
-        "galaxy-intro",
-        "galaxy"
-      ],
-      "versions": [
-        {
-          "link": "21Eo3QlKuoA",
-          "captions": [
-            "shiltemann"
-          ],
-          "date": "2022-07-07",
-          "length": "15M",
-          "speakers": [
-            "hexylena"
-          ]
-        }
-      ],
-      "type": "Demo",
-      "gtn_id": "galaxy-interface/interactive-tools",
       "captioned": true
     }
   }

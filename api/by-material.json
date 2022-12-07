@@ -1,1379 +1,4 @@
 {
-  "topics/assembly/tutorials/assembly-with-preprocessing/slides.html": [
-    {
-      "captions": [
-        "mtekman"
-      ],
-      "date": "2021-02-15",
-      "galaxy_version": "21.01",
-      "length": "25M",
-      "link": "jNFLYhjgJPs",
-      "speakers": [
-        "gallardoalba"
-      ]
-    }
-  ],
-  "topics/assembly/tutorials/assembly-with-preprocessing/tutorial.html": [
-    {
-      "captions": [
-        "mtekman"
-      ],
-      "date": "2021-02-15",
-      "galaxy_version": "21.01",
-      "length": "25M",
-      "link": "jNFLYhjgJPs",
-      "speakers": [
-        "gallardoalba"
-      ]
-    }
-  ],
-  "topics/assembly/tutorials/chloroplast-assembly/tutorial.html": [
-    {
-      "captions": [
-        "annasyme"
-      ],
-      "date": "2021-02-15",
-      "galaxy_version": "21.01",
-      "length": "35M",
-      "link": "eyfCyINTD_E",
-      "speakers": [
-        "annasyme"
-      ]
-    }
-  ],
-  "topics/assembly/tutorials/general-introduction/slides.html": [
-    {
-      "captions": [
-        "shiltemann",
-        "hexylena"
-      ],
-      "date": "2021-02-15",
-      "galaxy_version": "21.01",
-      "length": "25M",
-      "link": "-EX_G1griZE",
-      "speakers": [
-        "slugger70"
-      ]
-    }
-  ],
-  "topics/assembly/tutorials/vgp_genome_assembly/tutorial.html": [
-    {
-      "captions": null,
-      "date": "2022-03-13",
-      "galaxy_version": "21.09",
-      "length": "10M",
-      "link": "0EoBDiyd-84",
-      "speakers": [
-        "delphine-l"
-      ]
-    }
-  ],
-  "topics/climate/tutorials/fates/tutorial.html": [
-    {
-      "captions": [
-        "s3by01"
-      ],
-      "date": "2021-02-15",
-      "galaxy_version": "21.01",
-      "length": "1H20M",
-      "link": "0LsEx11eLiI",
-      "speakers": [
-        "annefou"
-      ]
-    }
-  ],
-  "topics/climate/tutorials/fates/slides.html": [
-    {
-      "captions": [
-        "annefou"
-      ],
-      "date": "2021-02-15",
-      "galaxy_version": "21.01",
-      "length": "7M",
-      "link": "Z57C7MQG95s",
-      "speakers": [
-        "awspolly"
-      ]
-    }
-  ],
-  "topics/climate/tutorials/pangeo/tutorial.html": [
-    {
-      "captions": [
-        "annefou"
-      ],
-      "date": "2022-03-03",
-      "galaxy_version": "21.09",
-      "length": "1H20M",
-      "link": "V43jEJfa6hY",
-      "speakers": [
-        "annefou"
-      ]
-    }
-  ],
-  "topics/climate/tutorials/pangeo-notebook/tutorial.html": [
-    {
-      "captions": [
-        "annefou"
-      ],
-      "date": "2022-03-03",
-      "galaxy_version": "21.09",
-      "length": "17M",
-      "link": "XFF2yRcYGp0",
-      "speakers": [
-        "annefou"
-      ]
-    }
-  ],
-  "topics/computational-chemistry/tutorials/htmd-analysis/tutorial.html": [
-    {
-      "captions": [
-        "simonbray"
-      ],
-      "date": "2021-02-15",
-      "galaxy_version": "21.01",
-      "length": "1H40M",
-      "link": "LjW3nES04bI",
-      "speakers": [
-        "simonbray",
-        "chrisbarnettster"
-      ]
-    }
-  ],
-  "topics/introduction/tutorials/r-advanced/tutorial.html": [
-    {
-      "captions": [
-        "ksuderman",
-        "nagoue"
-      ],
-      "date": "2021-02-15",
-      "galaxy_version": "21.01",
-      "length": "1H",
-      "link": "_hWBGdlICqg",
-      "speakers": [
-        "fpsom"
-      ]
-    }
-  ],
-  "topics/data-science/tutorials/r-basics/tutorial.html": [
-    {
-      "captions": [
-        "s3by01",
-        "annefou",
-        "kxk302"
-      ],
-      "date": "2021-02-15",
-      "galaxy_version": "21.01",
-      "length": "50M",
-      "link": "MKkQDh5Nguc",
-      "speakers": [
-        "fpsom"
-      ]
-    }
-  ],
-  "topics/ecology/tutorials/PAMPA-toolsuite-tutorial/tutorial.html": [
-    {
-      "captions": [
-        "colineroyaux"
-      ],
-      "date": "2022-03-03",
-      "galaxy_version": "21.09",
-      "length": "2H",
-      "link": "leMPC2Ckehc",
-      "speakers": [
-        "colineroyaux"
-      ]
-    }
-  ],
-  "topics/ecology/tutorials/Obitools-metabarcoding/tutorial.html": [
-    {
-      "captions": [
-        "yvanlebras"
-      ],
-      "date": "2022-03-03",
-      "galaxy_version": "21.09",
-      "length": "1H15M",
-      "link": "o2cUvb_lmLs",
-      "speakers": [
-        "yvanlebras"
-      ]
-    }
-  ],
-  "topics/ecology/tutorials/biodiversity-data-exploration/tutorial.html": [
-    {
-      "captions": [
-        "onorvez"
-      ],
-      "date": "2022-03-03",
-      "galaxy_version": "21.09",
-      "length": "1H",
-      "link": "rWfPr-5F3GQ",
-      "speakers": [
-        "onorvez"
-      ]
-    }
-  ],
-  "topics/epigenetics/tutorials/atac-seq/slides.html": [
-    {
-      "captions": [
-        "lldelisle"
-      ],
-      "date": "2021-02-15",
-      "galaxy_version": "21.01",
-      "length": "15M",
-      "link": "2jPNNd5YJNM",
-      "speakers": [
-        "lldelisle"
-      ]
-    }
-  ],
-  "topics/epigenetics/tutorials/atac-seq/tutorial.html": [
-    {
-      "captions": [
-        "hrhotz"
-      ],
-      "date": "2021-02-15",
-      "galaxy_version": "21.01",
-      "length": "1H50M",
-      "link": "Zc-bl6ZfcX4",
-      "speakers": [
-        "heylf"
-      ]
-    }
-  ],
-  "topics/galaxy-interface/tutorials/workflow-parameters/tutorial.html": [
-    {
-      "link": "otvEuDlCye0",
-      "captions": [
-        "mvdbeek"
-      ],
-      "date": "2022-07-06",
-      "length": "30M",
-      "speakers": [
-        "mvdbeek"
-      ]
-    }
-  ],
-  "topics/galaxy-interface/tutorials/workflow-reports/tutorial.html": [
-    {
-      "link": "hrZhpsiGaPM",
-      "captions": [
-        "shiltemann"
-      ],
-      "date": "2022-07-06",
-      "length": "30M",
-      "speakers": [
-        "shiltemann"
-      ]
-    }
-  ],
-  "topics/galaxy-interface/tutorials/collections/tutorial.html": [
-    {
-      "captions": [
-        "annefou",
-        "mariipia10"
-      ],
-      "date": "2021-08-09",
-      "length": "11M",
-      "link": "uZUt9XIHUQo",
-      "speakers": [
-        "nekrut"
-      ]
-    }
-  ],
-  "topics/galaxy-interface/tutorials/ncbi-sarf/slides.html": [
-    {
-      "captions": [
-        "prodromus"
-      ],
-      "date": "2021-02-15",
-      "galaxy_version": "21.01",
-      "length": "15M",
-      "link": "siLP71B9gm4",
-      "speakers": [
-        "prodromus"
-      ]
-    }
-  ],
-  "topics/galaxy-interface/tutorials/ncbi-sarf/tutorial.html": [
-    {
-      "captions": [
-        "prodromus"
-      ],
-      "date": "2021-02-15",
-      "galaxy_version": "21.01",
-      "length": "40M",
-      "link": "ogu-NBTP-DM",
-      "speakers": [
-        "prodromus"
-      ]
-    }
-  ],
-  "topics/variant-analysis/tutorials/sars-cov-2/tutorial.html": [
-    {
-      "captions": [
-        "prodromus"
-      ],
-      "date": "2021-02-15",
-      "galaxy_version": "21.01",
-      "length": "40M",
-      "link": "ogu-NBTP-DM",
-      "speakers": [
-        "prodromus"
-      ]
-    }
-  ],
-  "topics/galaxy-interface/tutorials/upload-rules/tutorial.html": [
-    {
-      "captions": [
-        "assuntad23"
-      ],
-      "date": "2021-02-15",
-      "galaxy_version": "21.01",
-      "length": "22M",
-      "link": "1MWHVRWXpyA",
-      "speakers": [
-        "assuntad23"
-      ]
-    }
-  ],
-  "topics/galaxy-interface/tutorials/upload-rules-advanced/tutorial.html": [
-    {
-      "captions": [
-        "assuntad23"
-      ],
-      "date": "2021-02-15",
-      "galaxy_version": "21.01",
-      "length": "22M",
-      "link": "1MWHVRWXpyA",
-      "speakers": [
-        "assuntad23"
-      ]
-    }
-  ],
-  "topics/galaxy-interface/tutorials/workflow-automation/tutorial.html": [
-    {
-      "captions": [
-        "simonbray"
-      ],
-      "date": "2021-02-15",
-      "galaxy_version": "21.01",
-      "length": "30M",
-      "link": "o39QjVnLG68",
-      "speakers": [
-        "simonbray"
-      ]
-    }
-  ],
-  "topics/introduction/tutorials/galaxy-intro-short/slides.html": [
-    {
-      "captions": [
-        "nekrut"
-      ],
-      "date": "2021-02-15",
-      "galaxy_version": "21.01",
-      "length": "10M",
-      "link": "VZoz3k5EehI",
-      "speakers": [
-        "nekrut"
-      ]
-    }
-  ],
-  "topics/genome-annotation/tutorials/crispr-screen/slides.html": [
-    {
-      "captions": [
-        "mblue9"
-      ],
-      "date": "2022-03-10",
-      "galaxy_version": "21.09",
-      "length": "3M",
-      "link": "MNT9gB5_RMg",
-      "speakers": [
-        "awspolly"
-      ]
-    }
-  ],
-  "topics/genome-annotation/tutorials/crispr-screen/tutorial.html": [
-    {
-      "captions": [
-        "mblue9"
-      ],
-      "date": "2022-03-10",
-      "galaxy_version": "21.09",
-      "length": "45M",
-      "link": "wavAf_2ytWg",
-      "speakers": [
-        "mblue9"
-      ]
-    }
-  ],
-  "topics/introduction/tutorials/galaxy-intro-101-everyone/tutorial.html": [
-    {
-      "captions": [
-        "tnabtaf"
-      ],
-      "date": "2021-02-15",
-      "galaxy_version": "21.01",
-      "length": "1H15M",
-      "link": "dguN6Xw2Azs",
-      "speakers": [
-        "annefou",
-        "rwinand"
-      ]
-    }
-  ],
-  "topics/introduction/tutorials/galaxy-intro-strands/tutorial.html": [
-    {
-      "captions": [
-        "tnabtaf"
-      ],
-      "date": "2021-02-15",
-      "galaxy_version": "21.01",
-      "length": "1H30M",
-      "link": "1UPCrQxGwcU",
-      "speakers": [
-        "tnabtaf"
-      ]
-    }
-  ],
-  "topics/galaxy-interface/tutorials/history-to-workflow/tutorial.html": [
-    {
-      "captions": [
-        "tnabtaf"
-      ],
-      "date": "2021-02-15",
-      "galaxy_version": "21.01",
-      "length": "1H30M",
-      "link": "1UPCrQxGwcU",
-      "speakers": [
-        "tnabtaf"
-      ]
-    }
-  ],
-  "topics/genome-annotation/tutorials/annotation-with-prokka/slides.html": [
-    {
-      "captions": [
-        "abretaud"
-      ],
-      "date": "2021-02-15",
-      "galaxy_version": "21.01",
-      "length": "3M",
-      "link": "eqHy-Cc7k4Q",
-      "speakers": [
-        "awspolly"
-      ]
-    }
-  ],
-  "topics/genome-annotation/tutorials/annotation-with-prokka/tutorial.html": [
-    {
-      "captions": [
-        "abretaud"
-      ],
-      "date": "2021-02-15",
-      "galaxy_version": "21.01",
-      "length": "20M",
-      "link": "B8pIQZPf21Y",
-      "speakers": [
-        "abretaud"
-      ]
-    }
-  ],
-  "topics/genome-annotation/tutorials/apollo/slides.html": [
-    {
-      "captions": [
-        "abretaud"
-      ],
-      "date": "2021-02-15",
-      "galaxy_version": "21.01",
-      "length": "5M",
-      "link": "ailUycRVHtE",
-      "speakers": [
-        "awspolly"
-      ]
-    }
-  ],
-  "topics/genome-annotation/tutorials/apollo/tutorial.html": [
-    {
-      "captions": [
-        "abretaud"
-      ],
-      "date": "2021-02-15",
-      "galaxy_version": "21.01",
-      "length": "1H",
-      "link": "ywK1fhM-QFU",
-      "speakers": [
-        "abretaud"
-      ]
-    }
-  ],
-  "topics/genome-annotation/tutorials/repeatmasker/tutorial.html": [
-    {
-      "captions": [
-        "abretaud"
-      ],
-      "date": "2022-03-03",
-      "galaxy_version": "21.09",
-      "length": "16M",
-      "link": "AYAvjwm4cnM",
-      "speakers": [
-        "abretaud"
-      ]
-    }
-  ],
-  "topics/genome-annotation/tutorials/funannotate/tutorial.html": [
-    {
-      "captions": [
-        "abretaud"
-      ],
-      "date": "2022-03-03",
-      "galaxy_version": "21.09",
-      "length": "1H10M",
-      "link": "r-wU6BhqIpk",
-      "speakers": [
-        "abretaud"
-      ]
-    }
-  ],
-  "topics/introduction/tutorials/galaxy-intro-101/tutorial.html": [
-    {
-      "captions": [
-        "shiltemann"
-      ],
-      "date": "2021-07-21",
-      "length": "13M",
-      "link": "D5HgJWdfOWw",
-      "speakers": [
-        "nekrut"
-      ]
-    }
-  ],
-  "topics/introduction/tutorials/galaxy-intro-ngs-data-managment/tutorial.html": [
-    {
-      "captions": [
-        "nekrut"
-      ],
-      "date": "2021-02-15",
-      "galaxy_version": "21.01",
-      "length": "15M",
-      "link": "9mIL0tIfZ_o",
-      "speakers": [
-        "nekrut"
-      ]
-    }
-  ],
-  "topics/metagenomics/slides/introduction.html": [
-    {
-      "captions": [
-        "shiltemann"
-      ],
-      "date": "2021-02-15",
-      "galaxy_version": "21.01",
-      "length": "15M",
-      "link": "9OY1mklWuK0",
-      "speakers": [
-        "shiltemann"
-      ]
-    }
-  ],
-  "topics/metagenomics/tutorials/metatranscriptomics/slides.html": [
-    {
-      "captions": [
-        "EngyNasr",
-        "shiltemann"
-      ],
-      "date": "2021-02-15",
-      "galaxy_version": "21.01",
-      "length": "1H30M",
-      "link": "EMaos5u1_a8",
-      "speakers": [
-        "pratikdjagtap",
-        "timothygriffin",
-        "subinamehta",
-        "shiltemann"
-      ]
-    }
-  ],
-  "topics/metagenomics/tutorials/metatranscriptomics/tutorial.html": [
-    {
-      "captions": [
-        "EngyNasr",
-        "shiltemann"
-      ],
-      "date": "2021-02-15",
-      "galaxy_version": "21.01",
-      "length": "1H30M",
-      "link": "EMaos5u1_a8",
-      "speakers": [
-        "pratikdjagtap",
-        "timothygriffin",
-        "subinamehta",
-        "shiltemann"
-      ]
-    }
-  ],
-  "topics/metagenomics/tutorials/mothur-miseq-sop-short/tutorial.html": [
-    {
-      "captions": [
-        "shiltemann"
-      ],
-      "date": "2021-02-15",
-      "galaxy_version": "21.01",
-      "length": "1H40M",
-      "link": "mto4Nl-q7Kk",
-      "speakers": [
-        "shiltemann"
-      ]
-    }
-  ],
-  "topics/metagenomics/tutorials/plasmid-metagenomics-nanopore/tutorial.html": [
-    {
-      "captions": [
-        "bebatut"
-      ],
-      "date": "2021-02-15",
-      "galaxy_version": "21.01",
-      "length": "45M",
-      "link": "ECIl8ZU1Wko",
-      "speakers": [
-        "willemdek11"
-      ]
-    }
-  ],
-  "topics/metagenomics/tutorials/nanopore-16S-metagenomics/tutorial.html": [
-    {
-      "captions": [
-        "bebatut"
-      ],
-      "date": "2021-02-15",
-      "galaxy_version": "21.01",
-      "length": "45M",
-      "link": "ECIl8ZU1Wko",
-      "speakers": [
-        "willemdek11"
-      ]
-    }
-  ],
-  "topics/proteomics/tutorials/encyclopedia/tutorial.html": [
-    {
-      "captions": [
-        "emmaleith"
-      ],
-      "date": "2021-06-25",
-      "galaxy_version": "21.01",
-      "length": "20M",
-      "link": "EGWTFWeI5gg",
-      "speakers": [
-        "jj-umn",
-        "pratikdjagtap"
-      ]
-    },
-    {
-      "captions": [
-        "mtekman"
-      ],
-      "date": "2021-06-25",
-      "galaxy_version": "21.01",
-      "length": "30M",
-      "link": "eCEjHtbZLVg",
-      "speakers": [
-        "emmaleith"
-      ]
-    }
-  ],
-  "topics/proteomics/slides/introduction.html": [
-    {
-      "captions": [
-        "foellmelanie"
-      ],
-      "date": "2021-02-15",
-      "galaxy_version": "21.01",
-      "length": "20M",
-      "link": "2C96AvrFT38",
-      "speakers": [
-        "awspolly"
-      ]
-    }
-  ],
-  "topics/proteomics/tutorials/metaproteomics/tutorial.html": [
-    {
-      "captions": [
-        "emmaleith"
-      ],
-      "date": "2021-02-15",
-      "galaxy_version": "21.01",
-      "length": "1H",
-      "link": "3_yaPp-RCFw",
-      "speakers": [
-        "pratikdjagtap"
-      ]
-    }
-  ],
-  "topics/proteomics/tutorials/proteogenomics-dbcreation/tutorial.html": [
-    {
-      "captions": [
-        "emmaleith"
-      ],
-      "date": "2021-02-15",
-      "galaxy_version": "21.01",
-      "length": "40M",
-      "link": "b_kZf8mXHdo",
-      "speakers": [
-        "jj-umn"
-      ]
-    }
-  ],
-  "topics/proteomics/tutorials/proteogenomics-dbsearch/tutorial.html": [
-    {
-      "captions": [
-        "emmaleith"
-      ],
-      "date": "2021-02-15",
-      "galaxy_version": "21.01",
-      "length": "30M",
-      "link": "q1OjmTcbvBA",
-      "speakers": [
-        "andrewr"
-      ]
-    }
-  ],
-  "topics/proteomics/tutorials/proteogenomics-novel-peptide-analysis/tutorial.html": [
-    {
-      "captions": [
-        "subinamehta"
-      ],
-      "date": "2021-02-15",
-      "galaxy_version": "21.01",
-      "length": "40M",
-      "link": "Ku274KwFh1Y",
-      "speakers": [
-        "subinamehta"
-      ]
-    }
-  ],
-  "topics/proteomics/tutorials/proteome_annotation/tutorial.html": [
-    {
-      "captions": [
-        "combesf"
-      ],
-      "date": "2021-02-15",
-      "galaxy_version": "21.01",
-      "length": "30M",
-      "link": "qG7GZc6BeGY",
-      "speakers": [
-        "yvesvdb"
-      ]
-    }
-  ],
-  "topics/proteomics/tutorials/maxquant-msstats-dda-lfq/tutorial.html": [
-    {
-      "captions": [
-        "foellmelanie"
-      ],
-      "date": "2021-02-15",
-      "galaxy_version": "21.01",
-      "length": "1H",
-      "link": "IXdLAt2PAT4",
-      "speakers": [
-        "foellmelanie"
-      ]
-    }
-  ],
-  "topics/synthetic-biology/tutorials/basic_assembly_analysis/tutorial.html": [
-    {
-      "link": "0ItpHuSM7t0",
-      "date": "2022-05-11",
-      "length": "3M",
-      "speakers": [
-        "breakthewall"
-      ],
-      "captions": [
-        "kenza12"
-      ]
-    }
-  ],
-  "topics/synthetic-biology/tutorials/retrosynthesis_analysis/tutorial.html": [
-    {
-      "link": "nnE3Ip94D8I",
-      "date": "2022-06-23",
-      "length": "5M",
-      "speakers": [
-        "breakthewall"
-      ],
-      "captions": [
-        "kenza12"
-      ]
-    }
-  ],
-  "topics/synthetic-biology/tutorials/pathway_analysis/tutorial.html": [
-    {
-      "link": "240oxe8unnU",
-      "date": "2022-09-26",
-      "length": "5M",
-      "speakers": [
-        "breakthewall"
-      ],
-      "captions": [
-        "kenza12"
-      ]
-    }
-  ],
-  "topics/variant-analysis/tutorials/sars-cov-2-variant-discovery/tutorial.html": [
-    {
-      "captions": [
-        "hexylena"
-      ],
-      "date": "2021-08-09",
-      "length": "1H30M",
-      "link": "vnFQ2fR_fzw",
-      "speakers": [
-        "wm75"
-      ]
-    }
-  ],
-  "topics/sequence-analysis/tutorials/mapping/slides.html": [
-    {
-      "captions": [
-        "blankenberg"
-      ],
-      "date": "2021-02-15",
-      "galaxy_version": "21.01",
-      "length": "10M",
-      "link": "7FhHb8EV3EU",
-      "speakers": [
-        "pvanheus"
-      ]
-    }
-  ],
-  "topics/sequence-analysis/tutorials/mapping/tutorial.html": [
-    {
-      "captions": [
-        "shiltemann"
-      ],
-      "date": "2021-02-15",
-      "galaxy_version": "21.01",
-      "length": "20M",
-      "link": "1wm-62E2NkY",
-      "speakers": [
-        "pvanheus"
-      ]
-    }
-  ],
-  "topics/sequence-analysis/tutorials/quality-control/slides.html": [
-    {
-      "captions": [
-        "ennovytje",
-        "nagoue",
-        "hexylena"
-      ],
-      "date": "2021-02-15",
-      "galaxy_version": "21.01",
-      "length": "40M",
-      "link": "BWonTPS4zB8",
-      "speakers": [
-        "heylf"
-      ]
-    }
-  ],
-  "topics/sequence-analysis/tutorials/quality-control/tutorial.html": [
-    {
-      "captions": [
-        "bebatut",
-        "nagoue",
-        "shiltemann"
-      ],
-      "date": "2021-02-15",
-      "galaxy_version": "21.01",
-      "length": "1H10M",
-      "link": "QJRlX2hWDKM",
-      "speakers": [
-        "heylf"
-      ]
-    }
-  ],
-  "topics/statistics/tutorials/CNN/slides.html": [
-    {
-      "captions": [
-        "FilipposZ"
-      ],
-      "date": "2021-02-15",
-      "galaxy_version": "21.01",
-      "length": "1H",
-      "link": "P1NVYOJrv_4",
-      "speakers": [
-        "kxk302"
-      ]
-    }
-  ],
-  "topics/statistics/tutorials/CNN/tutorial.html": [
-    {
-      "captions": [
-        "FilipposZ"
-      ],
-      "date": "2021-02-15",
-      "galaxy_version": "21.01",
-      "length": "1H",
-      "link": "P1NVYOJrv_4",
-      "speakers": [
-        "kxk302"
-      ]
-    }
-  ],
-  "topics/statistics/tutorials/FNN/slides.html": [
-    {
-      "captions": [
-        "kxk302"
-      ],
-      "date": "2021-02-15",
-      "galaxy_version": "21.01",
-      "length": "1H10M",
-      "link": "VbzJDkyPL4A",
-      "speakers": [
-        "kxk302"
-      ]
-    }
-  ],
-  "topics/statistics/tutorials/FNN/tutorial.html": [
-    {
-      "captions": [
-        "kxk302"
-      ],
-      "date": "2021-02-15",
-      "galaxy_version": "21.01",
-      "length": "1H10M",
-      "link": "VbzJDkyPL4A",
-      "speakers": [
-        "kxk302"
-      ]
-    }
-  ],
-  "topics/statistics/tutorials/RNN/slides.html": [
-    {
-      "captions": [
-        "kxk302"
-      ],
-      "date": "2021-02-15",
-      "galaxy_version": "21.01",
-      "length": "50M",
-      "link": "1dwzEhjOAmw",
-      "speakers": [
-        "kxk302"
-      ]
-    }
-  ],
-  "topics/statistics/tutorials/RNN/tutorial.html": [
-    {
-      "captions": [
-        "kxk302"
-      ],
-      "date": "2021-02-15",
-      "galaxy_version": "21.01",
-      "length": "50M",
-      "link": "1dwzEhjOAmw",
-      "speakers": [
-        "kxk302"
-      ]
-    }
-  ],
-  "topics/statistics/tutorials/fruit_360/slides.html": [
-    {
-      "captions": [
-        "kxk302"
-      ],
-      "date": "2022-01-19",
-      "galaxy_version": "21.09",
-      "length": "1H",
-      "link": "EX8gZ1lxhNY",
-      "speakers": [
-        "kxk302"
-      ]
-    }
-  ],
-  "topics/statistics/tutorials/fruit_360/tutorial.html": [
-    {
-      "captions": [
-        "kxk302"
-      ],
-      "date": "2022-01-19",
-      "galaxy_version": "21.09",
-      "length": "1H",
-      "link": "EX8gZ1lxhNY",
-      "speakers": [
-        "kxk302"
-      ]
-    }
-  ],
-  "topics/statistics/tutorials/classification_machinelearning/tutorial.html": [
-    {
-      "captions": [
-        "anuprulez"
-      ],
-      "date": "2021-02-15",
-      "galaxy_version": "21.01",
-      "length": "1H50M",
-      "link": "Gz2OdRPS2Nk",
-      "speakers": [
-        "anuprulez"
-      ]
-    }
-  ],
-  "topics/statistics/tutorials/intro-to-ml-with-r/tutorial.html": [
-    {
-      "captions": [
-        "MariaTsayo"
-      ],
-      "date": "2021-02-15",
-      "galaxy_version": "21.01",
-      "length": "1H30M",
-      "link": "RT-g6KyAGdE",
-      "speakers": [
-        "fpsom"
-      ]
-    }
-  ],
-  "topics/statistics/tutorials/regression_machinelearning/tutorial.html": [
-    {
-      "captions": [
-        "anuprulez"
-      ],
-      "date": "2021-02-15",
-      "galaxy_version": "21.01",
-      "length": "1H29M",
-      "link": "qxaWQjtEOzM",
-      "speakers": [
-        "anuprulez"
-      ]
-    }
-  ],
-  "topics/transcriptomics/tutorials/de-novo/tutorial.html": [
-    {
-      "captions": [
-        "malloryfreeberg"
-      ],
-      "date": "2021-02-15",
-      "galaxy_version": "21.01",
-      "length": "48M",
-      "link": "WrOIpCxba78",
-      "speakers": [
-        "malloryfreeberg"
-      ]
-    }
-  ],
-  "topics/transcriptomics/tutorials/droplet-quantification-preprocessing/tutorial.html": [
-    {
-      "captions": [
-        "nomadscientist"
-      ],
-      "date": "2021-02-15",
-      "galaxy_version": "21.01",
-      "length": "30M",
-      "link": "3ytm2AU6QUc",
-      "speakers": [
-        "nomadscientist"
-      ]
-    }
-  ],
-  "topics/transcriptomics/slides/introduction.html": [
-    {
-      "captions": [
-        "nagoue",
-        "shiltemann"
-      ],
-      "date": "2021-02-15",
-      "galaxy_version": "21.01",
-      "length": "30M",
-      "link": "qKkS_tztw_Q",
-      "speakers": [
-        "fpsom"
-      ]
-    }
-  ],
-  "topics/transcriptomics/tutorials/mirna-target-finder/slides.html": [
-    {
-      "captions": [
-        "galaxycommunity"
-      ],
-      "date": "2021-04-20",
-      "galaxy_version": "21.01",
-      "length": "10M",
-      "link": "FNmZoo2OXTU",
-      "speakers": [
-        "awspolly"
-      ]
-    },
-    {
-      "captions": [
-        "gallardoalba"
-      ],
-      "date": "2021-02-15",
-      "galaxy_version": "21.01",
-      "length": "10M",
-      "link": "7t0Gr1Jklqs",
-      "speakers": [
-        "awspolly"
-      ]
-    }
-  ],
-  "topics/transcriptomics/tutorials/mirna-target-finder/tutorial.html": [
-    {
-      "captions": [
-        "gallardoalba"
-      ],
-      "date": "2021-07-25",
-      "galaxy_version": "21.05",
-      "length": "1H10M",
-      "link": "wS1X_0Mgw7M",
-      "speakers": [
-        "gallardoalba"
-      ]
-    }
-  ],
-  "topics/transcriptomics/tutorials/ref-based/tutorial.html": [
-    {
-      "captions": [
-        "hexylena",
-        "shiltemann"
-      ],
-      "date": "2021-02-15",
-      "galaxy_version": "21.01",
-      "length": "2H30M",
-      "link": "j4onRSN650A",
-      "speakers": [
-        "bebatut"
-      ]
-    }
-  ],
-  "topics/transcriptomics/tutorials/rna-seq-counts-to-viz-in-r/tutorial.html": [
-    {
-      "captions": [
-        "hexylena",
-        "shiltemann",
-        "fpsom"
-      ],
-      "date": "2021-02-15",
-      "galaxy_version": "21.01",
-      "length": "30M",
-      "link": "rJWgnLgA2BE",
-      "speakers": [
-        "fpsom"
-      ]
-    }
-  ],
-  "topics/transcriptomics/tutorials/rna-seq-viz-with-volcanoplot-r/tutorial.html": [
-    {
-      "captions": [
-        "mblue9"
-      ],
-      "date": "2021-02-15",
-      "galaxy_version": "21.01",
-      "length": "15M",
-      "link": "4dspgiwkuxk",
-      "speakers": [
-        "mblue9"
-      ]
-    }
-  ],
-  "topics/transcriptomics/tutorials/rna-seq-viz-with-volcanoplot/tutorial.html": [
-    {
-      "captions": [
-        "mblue9"
-      ],
-      "date": "2021-02-15",
-      "galaxy_version": "21.01",
-      "length": "10M",
-      "link": "uNGXIcEGZwA",
-      "speakers": [
-        "mblue9"
-      ]
-    }
-  ],
-  "topics/transcriptomics/tutorials/bulk-music/tutorial.html": [
-    {
-      "captions": [
-        "mtekman",
-        "nomadscientist"
-      ],
-      "date": "2021-03-08",
-      "galaxy_version": "21.09",
-      "length": "20M",
-      "link": "nfAUXP3W-jM",
-      "speakers": [
-        "nomadscientist"
-      ]
-    }
-  ],
-  "topics/transcriptomics/tutorials/scrna-JUPYTER-trajectories/tutorial.html": [
-    {
-      "captions": [
-        "nomadscientist"
-      ],
-      "date": "2021-02-15",
-      "galaxy_version": "21.01",
-      "length": "10M",
-      "link": "VEyTmwDIgPI",
-      "speakers": [
-        "nomadscientist"
-      ]
-    }
-  ],
-  "topics/transcriptomics/tutorials/scrna-intro/slides.html": [
-    {
-      "captions": [
-        "mtekman"
-      ],
-      "date": "2021-02-15",
-      "galaxy_version": "21.01",
-      "length": "20M",
-      "link": "D3qvYWZMFa0",
-      "speakers": [
-        "awspolly"
-      ]
-    }
-  ],
-  "topics/transcriptomics/tutorials/scrna-umis/tutorial.html": [
-    {
-      "link": "AJ17BicjmYU",
-      "date": "2021-03-18",
-      "galaxy_version": "21.01",
-      "length": "10M",
-      "captions": [
-        "khanteymoori"
-      ],
-      "speakers": [
-        "nomadscientist"
-      ]
-    }
-  ],
-  "topics/transcriptomics/tutorials/scrna-preprocessing-tenx/tutorial.html": [
-    {
-      "link": "vNBNFkF0L4U",
-      "date": "2021-03-18",
-      "galaxy_version": "21.01",
-      "length": "5M",
-      "captions": [
-        "khanteymoori"
-      ],
-      "speakers": [
-        "nomadscientist"
-      ]
-    }
-  ],
-  "topics/transcriptomics/tutorials/scrna-scanpy-pbmc3k/tutorial.html": [
-    {
-      "link": "nefB35Bi1l4",
-      "length": "45M",
-      "captions": [
-        "hrhotz"
-      ],
-      "speakers": [
-        "nomadscientist"
-      ],
-      "date": "2021-03-18"
-    }
-  ],
-  "topics/transcriptomics/tutorials/scrna-plant/tutorial.html": [
-    {
-      "captions": [
-        "mtekman"
-      ],
-      "date": "2021-02-15",
-      "galaxy_version": "21.01",
-      "length": "55M",
-      "link": "yKlJ5ESri7o",
-      "speakers": [
-        "mtekman"
-      ]
-    }
-  ],
-  "topics/transcriptomics/tutorials/scrna-seq-basic-pipeline/tutorial.html": [
-    {
-      "captions": [
-        "nomadscientist"
-      ],
-      "date": "2021-02-15",
-      "galaxy_version": "21.01",
-      "length": "30M",
-      "link": "M6iepSJh0EQ",
-      "speakers": [
-        "nomadscientist"
-      ]
-    }
-  ],
-  "topics/variant-analysis/tutorials/tb-variant-analysis/tutorial.html": [
-    {
-      "captions": [
-        "pvanheus",
-        "nagoue",
-        "hexylena"
-      ],
-      "date": "2021-02-15",
-      "galaxy_version": "21.01",
-      "length": "40M",
-      "link": "G1DmquX6Wh8",
-      "speakers": [
-        "pvanheus"
-      ]
-    }
-  ],
-  "topics/visualisation/tutorials/circos/slides.html": [
-    {
-      "captions": [
-        "assuntad23",
-        "shiltemann"
-      ],
-      "date": "2021-02-15",
-      "galaxy_version": "21.01",
-      "length": "6M",
-      "link": "KCtI5KLp05k",
-      "speakers": [
-        "hexylena"
-      ]
-    },
-    {
-      "captions": [
-        "beatrizserrano",
-        "hexylena",
-        "shiltemann",
-        "khanteymoori"
-      ],
-      "date": "2021-02-15",
-      "galaxy_version": "21.01",
-      "length": "50M",
-      "link": "tbqeUP67w-Y",
-      "speakers": [
-        "hexylena"
-      ]
-    }
-  ],
-  "topics/visualisation/tutorials/circos/tutorial.html": [
-    {
-      "captions": [
-        "beatrizserrano",
-        "hexylena",
-        "shiltemann",
-        "khanteymoori"
-      ],
-      "date": "2021-02-15",
-      "galaxy_version": "21.01",
-      "length": "50M",
-      "link": "tbqeUP67w-Y",
-      "speakers": [
-        "hexylena"
-      ]
-    }
-  ],
-  "topics/admin/tutorials/ansible-galaxy/slides.html": [
-    {
-      "captions": [
-        "shiltemann"
-      ],
-      "date": "2021-02-15",
-      "galaxy_version": "21.01",
-      "length": "4M",
-      "link": "JN-C5UbHthY",
-      "speakers": [
-        "hexylena"
-      ]
-    }
-  ],
   "topics/admin/tutorials/ansible-galaxy/tutorial.html": [
     {
       "captions": [
@@ -1542,20 +167,6 @@
       ]
     }
   ],
-  "topics/admin/tutorials/ansible/tutorial.html": [
-    {
-      "captions": [
-        "martenson"
-      ],
-      "date": "2021-02-15",
-      "galaxy_version": "21.01",
-      "length": "61M",
-      "link": "2KdT0sYKUeE",
-      "speakers": [
-        "martenson"
-      ]
-    }
-  ],
   "topics/admin/tutorials/ansible/slides.html": [
     {
       "captions": [
@@ -1567,6 +178,20 @@
       "link": "KFpbfmN0OTE",
       "speakers": [
         "jdavcs"
+      ]
+    }
+  ],
+  "topics/admin/tutorials/ansible/tutorial.html": [
+    {
+      "captions": [
+        "martenson"
+      ],
+      "date": "2021-02-15",
+      "galaxy_version": "21.01",
+      "length": "61M",
+      "link": "2KdT0sYKUeE",
+      "speakers": [
+        "martenson"
       ]
     }
   ],
@@ -1595,6 +220,18 @@
       "galaxy_version": "21.01",
       "length": "31M",
       "link": "R0NbHscL3jA",
+      "speakers": [
+        "hexylena"
+      ]
+    },
+    {
+      "captions": [
+        "beatrizserrano"
+      ],
+      "date": "2021-02-15",
+      "galaxy_version": "21.01",
+      "length": "6M",
+      "link": "7CYI5yw9MN8",
       "speakers": [
         "hexylena"
       ]
@@ -1671,47 +308,6 @@
       ]
     }
   ],
-  "topics/admin/tutorials/heterogeneous-compute/slides.html": [
-    {
-      "captions": [
-        "shiltemann"
-      ],
-      "date": "2021-02-15",
-      "galaxy_version": "21.01",
-      "length": "14M",
-      "link": "M1-Z_2tuQPI",
-      "speakers": [
-        "slugger70"
-      ]
-    }
-  ],
-  "topics/admin/tutorials/heterogeneous-compute/tutorial.html": [
-    {
-      "captions": [
-        "hexylena"
-      ],
-      "date": "2021-06-28",
-      "galaxy_version": "21.05",
-      "length": "1H28M",
-      "link": "f0QdF8NDhsM",
-      "speakers": [
-        "slugger70"
-      ]
-    },
-    {
-      "captions": [
-        "simonbray",
-        "slugger70"
-      ],
-      "date": "2021-02-15",
-      "galaxy_version": "21.01",
-      "length": "57M",
-      "link": "a7fKJT4Fs9k",
-      "speakers": [
-        "slugger70"
-      ]
-    }
-  ],
   "topics/admin/tutorials/interactive-tools/slides.html": [
     {
       "captions": [
@@ -1751,34 +347,6 @@
       "galaxy_version": "21.01",
       "length": "31M",
       "link": "qX8GjTJwnAk",
-      "speakers": [
-        "hexylena"
-      ]
-    }
-  ],
-  "topics/admin/tutorials/tus/tutorial.html": [
-    {
-      "captions": [
-        "hexylena"
-      ],
-      "date": "2022-03-11",
-      "galaxy_version": "22.01",
-      "length": "7M",
-      "link": "v5sbIqF_0qo",
-      "speakers": [
-        "hexylena"
-      ]
-    }
-  ],
-  "topics/admin/tutorials/job-metrics/tutorial.html": [
-    {
-      "captions": [
-        "beatrizserrano"
-      ],
-      "date": "2021-02-15",
-      "galaxy_version": "21.01",
-      "length": "6M",
-      "link": "7CYI5yw9MN8",
       "speakers": [
         "hexylena"
       ]
@@ -1838,6 +406,47 @@
       "link": "Hv2bvjk5sjE",
       "speakers": [
         "gmauro"
+      ]
+    }
+  ],
+  "topics/admin/tutorials/pulsar/slides-plain.html": [
+    {
+      "captions": [
+        "shiltemann"
+      ],
+      "date": "2021-02-15",
+      "galaxy_version": "21.01",
+      "length": "14M",
+      "link": "M1-Z_2tuQPI",
+      "speakers": [
+        "slugger70"
+      ]
+    }
+  ],
+  "topics/admin/tutorials/pulsar/tutorial.html": [
+    {
+      "captions": [
+        "hexylena"
+      ],
+      "date": "2021-06-28",
+      "galaxy_version": "21.05",
+      "length": "1H28M",
+      "link": "f0QdF8NDhsM",
+      "speakers": [
+        "slugger70"
+      ]
+    },
+    {
+      "captions": [
+        "simonbray",
+        "slugger70"
+      ],
+      "date": "2021-02-15",
+      "galaxy_version": "21.01",
+      "length": "57M",
+      "link": "a7fKJT4Fs9k",
+      "speakers": [
+        "slugger70"
       ]
     }
   ],
@@ -1960,6 +569,20 @@
       ]
     }
   ],
+  "topics/admin/tutorials/tus/tutorial.html": [
+    {
+      "captions": [
+        "hexylena"
+      ],
+      "date": "2022-03-11",
+      "galaxy_version": "22.01",
+      "length": "7M",
+      "link": "v5sbIqF_0qo",
+      "speakers": [
+        "hexylena"
+      ]
+    }
+  ],
   "topics/admin/tutorials/upgrading/tutorial.html": [
     {
       "captions": [
@@ -1989,17 +612,157 @@
       ]
     }
   ],
-  "topics/contributing/tutorials/gitpod/tutorial.html": [
+  "topics/admin/tutorials/ansible-galaxy/slides.html": [
     {
       "captions": [
         "shiltemann"
       ],
       "date": "2021-02-15",
       "galaxy_version": "21.01",
-      "length": "20M",
-      "link": "_-wnsPttBCo",
+      "length": "4M",
+      "link": "JN-C5UbHthY",
       "speakers": [
-        "shiltemann"
+        "hexylena"
+      ]
+    }
+  ],
+  "topics/assembly/tutorials/assembly-with-preprocessing/slides.html": [
+    {
+      "captions": [
+        "mtekman"
+      ],
+      "date": "2021-02-15",
+      "galaxy_version": "21.01",
+      "length": "25M",
+      "link": "jNFLYhjgJPs",
+      "speakers": [
+        "gallardoalba"
+      ]
+    }
+  ],
+  "topics/assembly/tutorials/assembly-with-preprocessing/tutorial.html": [
+    {
+      "captions": [
+        "mtekman"
+      ],
+      "date": "2021-02-15",
+      "galaxy_version": "21.01",
+      "length": "25M",
+      "link": "jNFLYhjgJPs",
+      "speakers": [
+        "gallardoalba"
+      ]
+    }
+  ],
+  "topics/assembly/tutorials/chloroplast-assembly/tutorial.html": [
+    {
+      "captions": [
+        "annasyme"
+      ],
+      "date": "2021-02-15",
+      "galaxy_version": "21.01",
+      "length": "35M",
+      "link": "eyfCyINTD_E",
+      "speakers": [
+        "annasyme"
+      ]
+    }
+  ],
+  "topics/assembly/tutorials/general-introduction/slides.html": [
+    {
+      "captions": [
+        "shiltemann",
+        "hexylena"
+      ],
+      "date": "2021-02-15",
+      "galaxy_version": "21.01",
+      "length": "25M",
+      "link": "-EX_G1griZE",
+      "speakers": [
+        "slugger70"
+      ]
+    }
+  ],
+  "topics/assembly/tutorials/vgp_genome_assembly/tutorial.html": [
+    {
+      "captions": null,
+      "date": "2022-03-13",
+      "galaxy_version": "21.09",
+      "length": "10M",
+      "link": "0EoBDiyd-84",
+      "speakers": [
+        "delphine-l"
+      ]
+    }
+  ],
+  "topics/climate/tutorials/fates/slides.html": [
+    {
+      "captions": [
+        "annefou"
+      ],
+      "date": "2021-02-15",
+      "galaxy_version": "21.01",
+      "length": "7M",
+      "link": "Z57C7MQG95s",
+      "speakers": [
+        "awspolly"
+      ]
+    }
+  ],
+  "topics/climate/tutorials/fates/tutorial.html": [
+    {
+      "captions": [
+        "s3by01"
+      ],
+      "date": "2021-02-15",
+      "galaxy_version": "21.01",
+      "length": "1H20M",
+      "link": "0LsEx11eLiI",
+      "speakers": [
+        "annefou"
+      ]
+    }
+  ],
+  "topics/climate/tutorials/pangeo-notebook/tutorial.html": [
+    {
+      "captions": [
+        "annefou"
+      ],
+      "date": "2022-03-03",
+      "galaxy_version": "21.09",
+      "length": "17M",
+      "link": "XFF2yRcYGp0",
+      "speakers": [
+        "annefou"
+      ]
+    }
+  ],
+  "topics/climate/tutorials/pangeo/tutorial.html": [
+    {
+      "captions": [
+        "annefou"
+      ],
+      "date": "2022-03-03",
+      "galaxy_version": "21.09",
+      "length": "1H20M",
+      "link": "V43jEJfa6hY",
+      "speakers": [
+        "annefou"
+      ]
+    }
+  ],
+  "topics/computational-chemistry/tutorials/htmd-analysis/tutorial.html": [
+    {
+      "captions": [
+        "simonbray"
+      ],
+      "date": "2021-02-15",
+      "galaxy_version": "21.01",
+      "length": "1H40M",
+      "link": "LjW3nES04bI",
+      "speakers": [
+        "simonbray",
+        "chrisbarnettster"
       ]
     }
   ],
@@ -2045,13 +808,78 @@
       ]
     }
   ],
+  "topics/contributing/tutorials/gitpod/tutorial.html": [
+    {
+      "captions": [
+        "shiltemann"
+      ],
+      "date": "2021-02-15",
+      "galaxy_version": "21.01",
+      "length": "20M",
+      "link": "_-wnsPttBCo",
+      "speakers": [
+        "shiltemann"
+      ]
+    }
+  ],
+  "topics/data-science/tutorials/r-advanced/tutorial.html": [
+    {
+      "captions": [
+        "ksuderman",
+        "nagoue"
+      ],
+      "date": "2021-02-15",
+      "galaxy_version": "21.01",
+      "length": "1H",
+      "link": "_hWBGdlICqg",
+      "speakers": [
+        "fpsom"
+      ]
+    }
+  ],
+  "topics/data-science/tutorials/r-basics/tutorial.html": [
+    {
+      "captions": [
+        "s3by01",
+        "annefou",
+        "kxk302"
+      ],
+      "date": "2021-02-15",
+      "galaxy_version": "21.01",
+      "length": "50M",
+      "link": "MKkQDh5Nguc",
+      "speakers": [
+        "fpsom"
+      ]
+    }
+  ],
   "topics/dev/tutorials/architecture/slides.html": [
+    {
+      "captions": null,
+      "date": "2021-02-15",
+      "galaxy_version": "21.01",
+      "length": "15M",
+      "link": "Yjl4MIo95nY",
+      "speakers": [
+        "jmchilton"
+      ]
+    },
     {
       "captions": null,
       "date": "2021-02-15",
       "galaxy_version": "21.01",
       "length": "25M",
       "link": "WbC2NorVKr0",
+      "speakers": [
+        "jmchilton"
+      ]
+    },
+    {
+      "captions": null,
+      "date": "2021-02-15",
+      "galaxy_version": "21.01",
+      "length": "17M",
+      "link": "Nrk0o4EIeUU",
       "speakers": [
         "jmchilton"
       ]
@@ -2070,8 +898,20 @@
       "captions": null,
       "date": "2021-02-15",
       "galaxy_version": "21.01",
-      "length": "15M",
-      "link": "Yjl4MIo95nY",
+      "length": "45M",
+      "link": "wiKv9MDNjA4",
+      "speakers": [
+        "jmchilton"
+      ]
+    },
+    {
+      "captions": [
+        "shiltemann"
+      ],
+      "date": "2021-02-15",
+      "galaxy_version": "21.01",
+      "length": "5M",
+      "link": "TKs4IF4ZbeQ",
       "speakers": [
         "jmchilton"
       ]
@@ -2102,40 +942,8 @@
       "captions": null,
       "date": "2021-02-15",
       "galaxy_version": "21.01",
-      "length": "45M",
-      "link": "wiKv9MDNjA4",
-      "speakers": [
-        "jmchilton"
-      ]
-    },
-    {
-      "captions": [
-        "shiltemann"
-      ],
-      "date": "2021-02-15",
-      "galaxy_version": "21.01",
-      "length": "5M",
-      "link": "TKs4IF4ZbeQ",
-      "speakers": [
-        "jmchilton"
-      ]
-    },
-    {
-      "captions": null,
-      "date": "2021-02-15",
-      "galaxy_version": "21.01",
       "length": "35M",
       "link": "vwsxkDMiA10",
-      "speakers": [
-        "jmchilton"
-      ]
-    },
-    {
-      "captions": null,
-      "date": "2021-02-15",
-      "galaxy_version": "21.01",
-      "length": "17M",
-      "link": "Nrk0o4EIeUU",
       "speakers": [
         "jmchilton"
       ]
@@ -2146,8 +954,28 @@
       "captions": null,
       "date": "2021-02-15",
       "galaxy_version": "21.01",
+      "length": "15M",
+      "link": "Yjl4MIo95nY",
+      "speakers": [
+        "jmchilton"
+      ]
+    },
+    {
+      "captions": null,
+      "date": "2021-02-15",
+      "galaxy_version": "21.01",
       "length": "25M",
       "link": "WbC2NorVKr0",
+      "speakers": [
+        "jmchilton"
+      ]
+    },
+    {
+      "captions": null,
+      "date": "2021-02-15",
+      "galaxy_version": "21.01",
+      "length": "17M",
+      "link": "Nrk0o4EIeUU",
       "speakers": [
         "jmchilton"
       ]
@@ -2166,8 +994,20 @@
       "captions": null,
       "date": "2021-02-15",
       "galaxy_version": "21.01",
-      "length": "15M",
-      "link": "Yjl4MIo95nY",
+      "length": "45M",
+      "link": "wiKv9MDNjA4",
+      "speakers": [
+        "jmchilton"
+      ]
+    },
+    {
+      "captions": [
+        "shiltemann"
+      ],
+      "date": "2021-02-15",
+      "galaxy_version": "21.01",
+      "length": "5M",
+      "link": "TKs4IF4ZbeQ",
       "speakers": [
         "jmchilton"
       ]
@@ -2198,84 +1038,14 @@
       "captions": null,
       "date": "2021-02-15",
       "galaxy_version": "21.01",
-      "length": "45M",
-      "link": "wiKv9MDNjA4",
-      "speakers": [
-        "jmchilton"
-      ]
-    },
-    {
-      "captions": [
-        "shiltemann"
-      ],
-      "date": "2021-02-15",
-      "galaxy_version": "21.01",
-      "length": "5M",
-      "link": "TKs4IF4ZbeQ",
-      "speakers": [
-        "jmchilton"
-      ]
-    },
-    {
-      "captions": null,
-      "date": "2021-02-15",
-      "galaxy_version": "21.01",
       "length": "35M",
       "link": "vwsxkDMiA10",
-      "speakers": [
-        "jmchilton"
-      ]
-    },
-    {
-      "captions": null,
-      "date": "2021-02-15",
-      "galaxy_version": "21.01",
-      "length": "17M",
-      "link": "Nrk0o4EIeUU",
       "speakers": [
         "jmchilton"
       ]
     }
   ],
   "topics/dev/tutorials/debugging/tutorial.html": [
-    {
-      "captions": [
-        "tnabtaf"
-      ],
-      "date": "2021-02-15",
-      "galaxy_version": "21.01",
-      "length": "11M",
-      "link": "FlFF3TPEfC8",
-      "speakers": [
-        "assuntad23",
-        "jdavcs"
-      ]
-    },
-    {
-      "captions": [
-        "beatrizserrano"
-      ],
-      "date": "2021-02-15",
-      "galaxy_version": "21.01",
-      "length": "6M",
-      "link": "A6LSTCb-rGg",
-      "speakers": [
-        "assuntad23"
-      ]
-    },
-    {
-      "captions": [
-        "tnabtaf"
-      ],
-      "date": "2021-02-15",
-      "galaxy_version": "21.01",
-      "length": "3M",
-      "link": "_sH1uTKf4ec",
-      "speakers": [
-        "assuntad23",
-        "jdavcs"
-      ]
-    },
     {
       "captions": [
         "jdavcs"
@@ -2298,6 +1068,31 @@
       "link": "YKyP5Y4Y4js",
       "speakers": [
         "assuntad23"
+      ]
+    },
+    {
+      "captions": [
+        "beatrizserrano"
+      ],
+      "date": "2021-02-15",
+      "galaxy_version": "21.01",
+      "length": "6M",
+      "link": "A6LSTCb-rGg",
+      "speakers": [
+        "assuntad23"
+      ]
+    },
+    {
+      "captions": [
+        "tnabtaf"
+      ],
+      "date": "2021-02-15",
+      "galaxy_version": "21.01",
+      "length": "11M",
+      "link": "FlFF3TPEfC8",
+      "speakers": [
+        "assuntad23",
+        "jdavcs"
       ]
     },
     {
@@ -2325,6 +1120,19 @@
       "link": "5AAHjxEZb-Y",
       "speakers": [
         "assuntad23"
+      ]
+    },
+    {
+      "captions": [
+        "tnabtaf"
+      ],
+      "date": "2021-02-15",
+      "galaxy_version": "21.01",
+      "length": "3M",
+      "link": "_sH1uTKf4ec",
+      "speakers": [
+        "assuntad23",
+        "jdavcs"
       ]
     },
     {
@@ -2370,6 +1178,20 @@
       ]
     }
   ],
+  "topics/dev/tutorials/tool-generators-advanced/tutorial.html": [
+    {
+      "captions": [
+        "fubar2"
+      ],
+      "date": "2021-02-15",
+      "galaxy_version": "21.01",
+      "length": "7M",
+      "link": "DK1eKz5TRs4",
+      "speakers": [
+        "fubar2"
+      ]
+    }
+  ],
   "topics/dev/tutorials/tool-generators/tutorial.html": [
     {
       "captions": [
@@ -2384,17 +1206,1193 @@
       ]
     }
   ],
-  "topics/dev/tutorials/tool-generators-advanced/tutorial.html": [
+  "topics/ecology/tutorials/Obitools-metabarcoding/tutorial.html": [
     {
       "captions": [
-        "fubar2"
+        "yvanlebras"
+      ],
+      "date": "2022-03-03",
+      "galaxy_version": "21.09",
+      "length": "1H15M",
+      "link": "o2cUvb_lmLs",
+      "speakers": [
+        "yvanlebras"
+      ]
+    }
+  ],
+  "topics/ecology/tutorials/PAMPA-toolsuite-tutorial/tutorial.html": [
+    {
+      "captions": [
+        "colineroyaux"
+      ],
+      "date": "2022-03-03",
+      "galaxy_version": "21.09",
+      "length": "2H",
+      "link": "leMPC2Ckehc",
+      "speakers": [
+        "colineroyaux"
+      ]
+    }
+  ],
+  "topics/ecology/tutorials/biodiversity-data-exploration/tutorial.html": [
+    {
+      "captions": [
+        "onorvez"
+      ],
+      "date": "2022-03-03",
+      "galaxy_version": "21.09",
+      "length": "1H",
+      "link": "rWfPr-5F3GQ",
+      "speakers": [
+        "onorvez"
+      ]
+    }
+  ],
+  "topics/epigenetics/tutorials/atac-seq/slides.html": [
+    {
+      "captions": [
+        "lldelisle"
       ],
       "date": "2021-02-15",
       "galaxy_version": "21.01",
-      "length": "7M",
-      "link": "DK1eKz5TRs4",
+      "length": "15M",
+      "link": "2jPNNd5YJNM",
       "speakers": [
-        "fubar2"
+        "lldelisle"
+      ]
+    }
+  ],
+  "topics/epigenetics/tutorials/atac-seq/tutorial.html": [
+    {
+      "captions": [
+        "hrhotz"
+      ],
+      "date": "2021-02-15",
+      "galaxy_version": "21.01",
+      "length": "1H50M",
+      "link": "Zc-bl6ZfcX4",
+      "speakers": [
+        "heylf"
+      ]
+    }
+  ],
+  "topics/galaxy-interface/tutorials/collections/tutorial.html": [
+    {
+      "captions": [
+        "annefou",
+        "mariipia10"
+      ],
+      "date": "2021-08-09",
+      "length": "11M",
+      "link": "uZUt9XIHUQo",
+      "speakers": [
+        "nekrut"
+      ]
+    }
+  ],
+  "topics/galaxy-interface/tutorials/ncbi-sarf/slides.html": [
+    {
+      "captions": [
+        "prodromus"
+      ],
+      "date": "2021-02-15",
+      "galaxy_version": "21.01",
+      "length": "15M",
+      "link": "siLP71B9gm4",
+      "speakers": [
+        "prodromus"
+      ]
+    }
+  ],
+  "topics/galaxy-interface/tutorials/ncbi-sarf/tutorial.html": [
+    {
+      "captions": [
+        "prodromus"
+      ],
+      "date": "2021-02-15",
+      "galaxy_version": "21.01",
+      "length": "40M",
+      "link": "ogu-NBTP-DM",
+      "speakers": [
+        "prodromus"
+      ]
+    }
+  ],
+  "topics/variant-analysis/tutorials/sars-cov-2/tutorial.html": [
+    {
+      "captions": [
+        "prodromus"
+      ],
+      "date": "2021-02-15",
+      "galaxy_version": "21.01",
+      "length": "40M",
+      "link": "ogu-NBTP-DM",
+      "speakers": [
+        "prodromus"
+      ]
+    }
+  ],
+  "topics/galaxy-interface/tutorials/upload-rules/tutorial.html": [
+    {
+      "captions": [
+        "assuntad23"
+      ],
+      "date": "2021-02-15",
+      "galaxy_version": "21.01",
+      "length": "22M",
+      "link": "1MWHVRWXpyA",
+      "speakers": [
+        "assuntad23"
+      ]
+    }
+  ],
+  "topics/galaxy-interface/tutorials/upload-rules-advanced/tutorial.html": [
+    {
+      "captions": [
+        "assuntad23"
+      ],
+      "date": "2021-02-15",
+      "galaxy_version": "21.01",
+      "length": "22M",
+      "link": "1MWHVRWXpyA",
+      "speakers": [
+        "assuntad23"
+      ]
+    }
+  ],
+  "topics/galaxy-interface/tutorials/workflow-automation/tutorial.html": [
+    {
+      "captions": [
+        "simonbray"
+      ],
+      "date": "2021-02-15",
+      "galaxy_version": "21.01",
+      "length": "30M",
+      "link": "o39QjVnLG68",
+      "speakers": [
+        "simonbray"
+      ]
+    }
+  ],
+  "topics/galaxy-interface/tutorials/workflow-parameters/tutorial.html": [
+    {
+      "captions": [
+        "mvdbeek"
+      ],
+      "date": "2022-07-06",
+      "length": "30M",
+      "link": "otvEuDlCye0",
+      "speakers": [
+        "mvdbeek"
+      ]
+    }
+  ],
+  "topics/galaxy-interface/tutorials/workflow-reports/tutorial.html": [
+    {
+      "captions": [
+        "shiltemann"
+      ],
+      "date": "2022-07-06",
+      "length": "30M",
+      "link": "hrZhpsiGaPM",
+      "speakers": [
+        "shiltemann"
+      ]
+    }
+  ],
+  "topics/introduction/tutorials/galaxy-intro-short/slides.html": [
+    {
+      "captions": [
+        "nekrut"
+      ],
+      "date": "2021-02-15",
+      "galaxy_version": "21.01",
+      "length": "10M",
+      "link": "VZoz3k5EehI",
+      "speakers": [
+        "nekrut"
+      ]
+    }
+  ],
+  "topics/introduction/tutorials/galaxy-intro-strands/tutorial.html": [
+    {
+      "captions": [
+        "tnabtaf"
+      ],
+      "date": "2021-02-15",
+      "galaxy_version": "21.01",
+      "length": "1H30M",
+      "link": "1UPCrQxGwcU",
+      "speakers": [
+        "tnabtaf"
+      ]
+    }
+  ],
+  "topics/galaxy-interface/tutorials/history-to-workflow/tutorial.html": [
+    {
+      "captions": [
+        "tnabtaf"
+      ],
+      "date": "2021-02-15",
+      "galaxy_version": "21.01",
+      "length": "1H30M",
+      "link": "1UPCrQxGwcU",
+      "speakers": [
+        "tnabtaf"
+      ]
+    }
+  ],
+  "topics/genome-annotation/tutorials/annotation-with-prokka/slides.html": [
+    {
+      "captions": [
+        "abretaud"
+      ],
+      "date": "2021-02-15",
+      "galaxy_version": "21.01",
+      "length": "3M",
+      "link": "eqHy-Cc7k4Q",
+      "speakers": [
+        "awspolly"
+      ]
+    }
+  ],
+  "topics/genome-annotation/tutorials/annotation-with-prokka/tutorial.html": [
+    {
+      "captions": [
+        "abretaud"
+      ],
+      "date": "2021-02-15",
+      "galaxy_version": "21.01",
+      "length": "20M",
+      "link": "B8pIQZPf21Y",
+      "speakers": [
+        "abretaud"
+      ]
+    }
+  ],
+  "topics/genome-annotation/tutorials/apollo/slides.html": [
+    {
+      "captions": [
+        "abretaud"
+      ],
+      "date": "2021-02-15",
+      "galaxy_version": "21.01",
+      "length": "5M",
+      "link": "ailUycRVHtE",
+      "speakers": [
+        "awspolly"
+      ]
+    }
+  ],
+  "topics/genome-annotation/tutorials/apollo/tutorial.html": [
+    {
+      "captions": [
+        "abretaud"
+      ],
+      "date": "2021-02-15",
+      "galaxy_version": "21.01",
+      "length": "1H",
+      "link": "ywK1fhM-QFU",
+      "speakers": [
+        "abretaud"
+      ]
+    }
+  ],
+  "topics/genome-annotation/tutorials/crispr-screen/slides.html": [
+    {
+      "captions": [
+        "mblue9"
+      ],
+      "date": "2022-03-10",
+      "galaxy_version": "21.09",
+      "length": "3M",
+      "link": "MNT9gB5_RMg",
+      "speakers": [
+        "awspolly"
+      ]
+    }
+  ],
+  "topics/genome-annotation/tutorials/crispr-screen/tutorial.html": [
+    {
+      "captions": [
+        "mblue9"
+      ],
+      "date": "2022-03-10",
+      "galaxy_version": "21.09",
+      "length": "45M",
+      "link": "wavAf_2ytWg",
+      "speakers": [
+        "mblue9"
+      ]
+    }
+  ],
+  "topics/genome-annotation/tutorials/funannotate/tutorial.html": [
+    {
+      "captions": [
+        "abretaud"
+      ],
+      "date": "2022-03-03",
+      "galaxy_version": "21.09",
+      "length": "1H10M",
+      "link": "r-wU6BhqIpk",
+      "speakers": [
+        "abretaud"
+      ]
+    }
+  ],
+  "topics/genome-annotation/tutorials/repeatmasker/tutorial.html": [
+    {
+      "captions": [
+        "abretaud"
+      ],
+      "date": "2022-03-03",
+      "galaxy_version": "21.09",
+      "length": "16M",
+      "link": "AYAvjwm4cnM",
+      "speakers": [
+        "abretaud"
+      ]
+    }
+  ],
+  "topics/introduction/tutorials/galaxy-intro-101-everyone/tutorial.html": [
+    {
+      "captions": [
+        "tnabtaf"
+      ],
+      "date": "2021-02-15",
+      "galaxy_version": "21.01",
+      "length": "1H15M",
+      "link": "dguN6Xw2Azs",
+      "speakers": [
+        "annefou",
+        "rwinand"
+      ]
+    }
+  ],
+  "topics/introduction/tutorials/galaxy-intro-101/tutorial.html": [
+    {
+      "captions": [
+        "shiltemann"
+      ],
+      "date": "2021-07-21",
+      "length": "13M",
+      "link": "D5HgJWdfOWw",
+      "speakers": [
+        "nekrut"
+      ]
+    }
+  ],
+  "topics/introduction/tutorials/galaxy-intro-ngs-data-managment/tutorial.html": [
+    {
+      "captions": [
+        "nekrut"
+      ],
+      "date": "2021-02-15",
+      "galaxy_version": "21.01",
+      "length": "15M",
+      "link": "9mIL0tIfZ_o",
+      "speakers": [
+        "nekrut"
+      ]
+    }
+  ],
+  "topics/metagenomics/slides/introduction.html": [
+    {
+      "captions": [
+        "shiltemann"
+      ],
+      "date": "2021-02-15",
+      "galaxy_version": "21.01",
+      "length": "15M",
+      "link": "9OY1mklWuK0",
+      "speakers": [
+        "shiltemann"
+      ]
+    }
+  ],
+  "topics/metagenomics/tutorials/metatranscriptomics/slides.html": [
+    {
+      "captions": [
+        "EngyNasr",
+        "shiltemann"
+      ],
+      "date": "2021-02-15",
+      "galaxy_version": "21.01",
+      "length": "1H30M",
+      "link": "EMaos5u1_a8",
+      "speakers": [
+        "pratikdjagtap",
+        "timothygriffin",
+        "subinamehta",
+        "shiltemann"
+      ]
+    }
+  ],
+  "topics/metagenomics/tutorials/metatranscriptomics/tutorial.html": [
+    {
+      "captions": [
+        "EngyNasr",
+        "shiltemann"
+      ],
+      "date": "2021-02-15",
+      "galaxy_version": "21.01",
+      "length": "1H30M",
+      "link": "EMaos5u1_a8",
+      "speakers": [
+        "pratikdjagtap",
+        "timothygriffin",
+        "subinamehta",
+        "shiltemann"
+      ]
+    }
+  ],
+  "topics/metagenomics/tutorials/mothur-miseq-sop-short/tutorial.html": [
+    {
+      "captions": [
+        "shiltemann"
+      ],
+      "date": "2021-02-15",
+      "galaxy_version": "21.01",
+      "length": "1H40M",
+      "link": "mto4Nl-q7Kk",
+      "speakers": [
+        "shiltemann"
+      ]
+    }
+  ],
+  "topics/metagenomics/tutorials/plasmid-metagenomics-nanopore/tutorial.html": [
+    {
+      "captions": [
+        "bebatut"
+      ],
+      "date": "2021-02-15",
+      "galaxy_version": "21.01",
+      "length": "45M",
+      "link": "ECIl8ZU1Wko",
+      "speakers": [
+        "willemdek11"
+      ]
+    }
+  ],
+  "topics/metagenomics/tutorials/nanopore-16S-metagenomics/tutorial.html": [
+    {
+      "captions": [
+        "bebatut"
+      ],
+      "date": "2021-02-15",
+      "galaxy_version": "21.01",
+      "length": "45M",
+      "link": "ECIl8ZU1Wko",
+      "speakers": [
+        "willemdek11"
+      ]
+    }
+  ],
+  "topics/proteomics/tutorials/encyclopedia/tutorial.html": [
+    {
+      "captions": [
+        "emmaleith"
+      ],
+      "date": "2021-06-25",
+      "galaxy_version": "21.01",
+      "length": "20M",
+      "link": "EGWTFWeI5gg",
+      "speakers": [
+        "jj-umn",
+        "pratikdjagtap"
+      ]
+    },
+    {
+      "captions": [
+        "mtekman"
+      ],
+      "date": "2021-06-25",
+      "galaxy_version": "21.01",
+      "length": "30M",
+      "link": "eCEjHtbZLVg",
+      "speakers": [
+        "emmaleith"
+      ]
+    }
+  ],
+  "topics/proteomics/slides/introduction.html": [
+    {
+      "captions": [
+        "foellmelanie"
+      ],
+      "date": "2021-02-15",
+      "galaxy_version": "21.01",
+      "length": "20M",
+      "link": "2C96AvrFT38",
+      "speakers": [
+        "awspolly"
+      ]
+    }
+  ],
+  "topics/proteomics/tutorials/maxquant-msstats-dda-lfq/tutorial.html": [
+    {
+      "captions": [
+        "foellmelanie"
+      ],
+      "date": "2021-02-15",
+      "galaxy_version": "21.01",
+      "length": "1H",
+      "link": "IXdLAt2PAT4",
+      "speakers": [
+        "foellmelanie"
+      ]
+    }
+  ],
+  "topics/proteomics/tutorials/metaproteomics/tutorial.html": [
+    {
+      "captions": [
+        "emmaleith"
+      ],
+      "date": "2021-02-15",
+      "galaxy_version": "21.01",
+      "length": "1H",
+      "link": "3_yaPp-RCFw",
+      "speakers": [
+        "pratikdjagtap"
+      ]
+    }
+  ],
+  "topics/proteomics/tutorials/proteogenomics-dbcreation/tutorial.html": [
+    {
+      "captions": [
+        "emmaleith"
+      ],
+      "date": "2021-02-15",
+      "galaxy_version": "21.01",
+      "length": "40M",
+      "link": "b_kZf8mXHdo",
+      "speakers": [
+        "jj-umn"
+      ]
+    }
+  ],
+  "topics/proteomics/tutorials/proteogenomics-dbsearch/tutorial.html": [
+    {
+      "captions": [
+        "emmaleith"
+      ],
+      "date": "2021-02-15",
+      "galaxy_version": "21.01",
+      "length": "30M",
+      "link": "q1OjmTcbvBA",
+      "speakers": [
+        "andrewr"
+      ]
+    }
+  ],
+  "topics/proteomics/tutorials/proteogenomics-novel-peptide-analysis/tutorial.html": [
+    {
+      "captions": [
+        "subinamehta"
+      ],
+      "date": "2021-02-15",
+      "galaxy_version": "21.01",
+      "length": "40M",
+      "link": "Ku274KwFh1Y",
+      "speakers": [
+        "subinamehta"
+      ]
+    }
+  ],
+  "topics/proteomics/tutorials/proteome_annotation/tutorial.html": [
+    {
+      "captions": [
+        "combesf"
+      ],
+      "date": "2021-02-15",
+      "galaxy_version": "21.01",
+      "length": "30M",
+      "link": "qG7GZc6BeGY",
+      "speakers": [
+        "yvesvdb"
+      ]
+    }
+  ],
+  "topics/sequence-analysis/tutorials/mapping/slides.html": [
+    {
+      "captions": [
+        "blankenberg"
+      ],
+      "date": "2021-02-15",
+      "galaxy_version": "21.01",
+      "length": "10M",
+      "link": "7FhHb8EV3EU",
+      "speakers": [
+        "pvanheus"
+      ]
+    }
+  ],
+  "topics/sequence-analysis/tutorials/mapping/tutorial.html": [
+    {
+      "captions": [
+        "shiltemann"
+      ],
+      "date": "2021-02-15",
+      "galaxy_version": "21.01",
+      "length": "20M",
+      "link": "1wm-62E2NkY",
+      "speakers": [
+        "pvanheus"
+      ]
+    }
+  ],
+  "topics/sequence-analysis/tutorials/quality-control/slides.html": [
+    {
+      "captions": [
+        "ennovytje",
+        "nagoue",
+        "hexylena"
+      ],
+      "date": "2021-02-15",
+      "galaxy_version": "21.01",
+      "length": "40M",
+      "link": "BWonTPS4zB8",
+      "speakers": [
+        "heylf"
+      ]
+    }
+  ],
+  "topics/sequence-analysis/tutorials/quality-control/tutorial.html": [
+    {
+      "captions": [
+        "bebatut",
+        "nagoue",
+        "shiltemann"
+      ],
+      "date": "2021-02-15",
+      "galaxy_version": "21.01",
+      "length": "1H10M",
+      "link": "QJRlX2hWDKM",
+      "speakers": [
+        "heylf"
+      ]
+    }
+  ],
+  "topics/statistics/tutorials/CNN/slides.html": [
+    {
+      "captions": [
+        "FilipposZ"
+      ],
+      "date": "2021-02-15",
+      "galaxy_version": "21.01",
+      "length": "1H",
+      "link": "P1NVYOJrv_4",
+      "speakers": [
+        "kxk302"
+      ]
+    }
+  ],
+  "topics/statistics/tutorials/CNN/tutorial.html": [
+    {
+      "captions": [
+        "FilipposZ"
+      ],
+      "date": "2021-02-15",
+      "galaxy_version": "21.01",
+      "length": "1H",
+      "link": "P1NVYOJrv_4",
+      "speakers": [
+        "kxk302"
+      ]
+    }
+  ],
+  "topics/statistics/tutorials/FNN/slides.html": [
+    {
+      "captions": [
+        "kxk302"
+      ],
+      "date": "2021-02-15",
+      "galaxy_version": "21.01",
+      "length": "1H10M",
+      "link": "VbzJDkyPL4A",
+      "speakers": [
+        "kxk302"
+      ]
+    }
+  ],
+  "topics/statistics/tutorials/FNN/tutorial.html": [
+    {
+      "captions": [
+        "kxk302"
+      ],
+      "date": "2021-02-15",
+      "galaxy_version": "21.01",
+      "length": "1H10M",
+      "link": "VbzJDkyPL4A",
+      "speakers": [
+        "kxk302"
+      ]
+    }
+  ],
+  "topics/statistics/tutorials/RNN/slides.html": [
+    {
+      "captions": [
+        "kxk302"
+      ],
+      "date": "2021-02-15",
+      "galaxy_version": "21.01",
+      "length": "50M",
+      "link": "1dwzEhjOAmw",
+      "speakers": [
+        "kxk302"
+      ]
+    }
+  ],
+  "topics/statistics/tutorials/RNN/tutorial.html": [
+    {
+      "captions": [
+        "kxk302"
+      ],
+      "date": "2021-02-15",
+      "galaxy_version": "21.01",
+      "length": "50M",
+      "link": "1dwzEhjOAmw",
+      "speakers": [
+        "kxk302"
+      ]
+    }
+  ],
+  "topics/statistics/tutorials/classification_machinelearning/tutorial.html": [
+    {
+      "captions": [
+        "anuprulez"
+      ],
+      "date": "2021-02-15",
+      "galaxy_version": "21.01",
+      "length": "1H50M",
+      "link": "Gz2OdRPS2Nk",
+      "speakers": [
+        "anuprulez"
+      ]
+    }
+  ],
+  "topics/statistics/tutorials/fruit_360/slides.html": [
+    {
+      "captions": [
+        "kxk302"
+      ],
+      "date": "2022-01-19",
+      "galaxy_version": "21.09",
+      "length": "1H",
+      "link": "EX8gZ1lxhNY",
+      "speakers": [
+        "kxk302"
+      ]
+    }
+  ],
+  "topics/statistics/tutorials/fruit_360/tutorial.html": [
+    {
+      "captions": [
+        "kxk302"
+      ],
+      "date": "2022-01-19",
+      "galaxy_version": "21.09",
+      "length": "1H",
+      "link": "EX8gZ1lxhNY",
+      "speakers": [
+        "kxk302"
+      ]
+    }
+  ],
+  "topics/statistics/tutorials/intro-to-ml-with-r/tutorial.html": [
+    {
+      "captions": [
+        "MariaTsayo"
+      ],
+      "date": "2021-02-15",
+      "galaxy_version": "21.01",
+      "length": "1H30M",
+      "link": "RT-g6KyAGdE",
+      "speakers": [
+        "fpsom"
+      ]
+    }
+  ],
+  "topics/statistics/tutorials/regression_machinelearning/tutorial.html": [
+    {
+      "captions": [
+        "anuprulez"
+      ],
+      "date": "2021-02-15",
+      "galaxy_version": "21.01",
+      "length": "1H29M",
+      "link": "qxaWQjtEOzM",
+      "speakers": [
+        "anuprulez"
+      ]
+    }
+  ],
+  "topics/synthetic-biology/tutorials/basic_assembly_analysis/tutorial.html": [
+    {
+      "captions": [
+        "kenza12"
+      ],
+      "date": "2022-05-11",
+      "length": "3M",
+      "link": "0ItpHuSM7t0",
+      "speakers": [
+        "breakthewall"
+      ]
+    }
+  ],
+  "topics/synthetic-biology/tutorials/pathway_analysis/tutorial.html": [
+    {
+      "captions": [
+        "kenza12"
+      ],
+      "date": "2022-09-26",
+      "length": "5M",
+      "link": "240oxe8unnU",
+      "speakers": [
+        "breakthewall"
+      ]
+    }
+  ],
+  "topics/synthetic-biology/tutorials/retrosynthesis_analysis/tutorial.html": [
+    {
+      "captions": [
+        "kenza12"
+      ],
+      "date": "2022-06-23",
+      "length": "5M",
+      "link": "nnE3Ip94D8I",
+      "speakers": [
+        "breakthewall"
+      ]
+    }
+  ],
+  "topics/single-cell/tutorials/bulk-music/tutorial.html": [
+    {
+      "captions": [
+        "mtekman",
+        "nomadscientist"
+      ],
+      "date": "2021-03-08",
+      "galaxy_version": "21.09",
+      "length": "20M",
+      "link": "nfAUXP3W-jM",
+      "speakers": [
+        "nomadscientist"
+      ]
+    }
+  ],
+  "topics/transcriptomics/tutorials/de-novo/tutorial.html": [
+    {
+      "captions": [
+        "malloryfreeberg"
+      ],
+      "date": "2021-02-15",
+      "galaxy_version": "21.01",
+      "length": "48M",
+      "link": "WrOIpCxba78",
+      "speakers": [
+        "malloryfreeberg"
+      ]
+    }
+  ],
+  "topics/single-cell/tutorials/scrna-case_alevin/tutorial.html": [
+    {
+      "captions": [
+        "nomadscientist"
+      ],
+      "date": "2021-02-15",
+      "galaxy_version": "21.01",
+      "length": "30M",
+      "link": "3ytm2AU6QUc",
+      "speakers": [
+        "nomadscientist"
+      ]
+    }
+  ],
+  "topics/transcriptomics/slides/introduction.html": [
+    {
+      "captions": [
+        "nagoue",
+        "shiltemann"
+      ],
+      "date": "2021-02-15",
+      "galaxy_version": "21.01",
+      "length": "30M",
+      "link": "qKkS_tztw_Q",
+      "speakers": [
+        "fpsom"
+      ]
+    }
+  ],
+  "topics/transcriptomics/tutorials/mirna-target-finder/slides.html": [
+    {
+      "captions": [
+        "galaxycommunity"
+      ],
+      "date": "2021-04-20",
+      "galaxy_version": "21.01",
+      "length": "10M",
+      "link": "FNmZoo2OXTU",
+      "speakers": [
+        "awspolly"
+      ]
+    },
+    {
+      "captions": [
+        "gallardoalba"
+      ],
+      "date": "2021-02-15",
+      "galaxy_version": "21.01",
+      "length": "10M",
+      "link": "7t0Gr1Jklqs",
+      "speakers": [
+        "awspolly"
+      ]
+    }
+  ],
+  "topics/transcriptomics/tutorials/mirna-target-finder/tutorial.html": [
+    {
+      "captions": [
+        "gallardoalba"
+      ],
+      "date": "2021-07-25",
+      "galaxy_version": "21.05",
+      "length": "1H10M",
+      "link": "wS1X_0Mgw7M",
+      "speakers": [
+        "gallardoalba"
+      ]
+    }
+  ],
+  "topics/transcriptomics/tutorials/ref-based/tutorial.html": [
+    {
+      "captions": [
+        "hexylena",
+        "shiltemann"
+      ],
+      "date": "2021-02-15",
+      "galaxy_version": "21.01",
+      "length": "2H30M",
+      "link": "j4onRSN650A",
+      "speakers": [
+        "bebatut"
+      ]
+    }
+  ],
+  "topics/transcriptomics/tutorials/rna-seq-counts-to-viz-in-r/tutorial.html": [
+    {
+      "captions": [
+        "hexylena",
+        "shiltemann",
+        "fpsom"
+      ],
+      "date": "2021-02-15",
+      "galaxy_version": "21.01",
+      "length": "30M",
+      "link": "rJWgnLgA2BE",
+      "speakers": [
+        "fpsom"
+      ]
+    }
+  ],
+  "topics/transcriptomics/tutorials/rna-seq-viz-with-volcanoplot-r/tutorial.html": [
+    {
+      "captions": [
+        "mblue9"
+      ],
+      "date": "2021-02-15",
+      "galaxy_version": "21.01",
+      "length": "15M",
+      "link": "4dspgiwkuxk",
+      "speakers": [
+        "mblue9"
+      ]
+    }
+  ],
+  "topics/transcriptomics/tutorials/rna-seq-viz-with-volcanoplot/tutorial.html": [
+    {
+      "captions": [
+        "mblue9"
+      ],
+      "date": "2021-02-15",
+      "galaxy_version": "21.01",
+      "length": "10M",
+      "link": "uNGXIcEGZwA",
+      "speakers": [
+        "mblue9"
+      ]
+    }
+  ],
+  "topics/single-cell/tutorials/scrna-case_JUPYTER-trajectories/tutorial.html": [
+    {
+      "captions": [
+        "nomadscientist"
+      ],
+      "date": "2021-02-15",
+      "galaxy_version": "21.01",
+      "length": "10M",
+      "link": "VEyTmwDIgPI",
+      "speakers": [
+        "nomadscientist"
+      ]
+    }
+  ],
+  "topics/single-cell/tutorials/scrna-intro/slides-plain.html": [
+    {
+      "captions": [
+        "mtekman"
+      ],
+      "date": "2021-02-15",
+      "galaxy_version": "21.01",
+      "length": "20M",
+      "link": "D3qvYWZMFa0",
+      "speakers": [
+        "awspolly"
+      ]
+    }
+  ],
+  "topics/single-cell/tutorials/scrna-plant/tutorial.html": [
+    {
+      "captions": [
+        "mtekman"
+      ],
+      "date": "2021-02-15",
+      "galaxy_version": "21.01",
+      "length": "55M",
+      "link": "yKlJ5ESri7o",
+      "speakers": [
+        "mtekman"
+      ]
+    }
+  ],
+  "topics/single-cell/tutorials/scrna-preprocessing-tenx/tutorial.html": [
+    {
+      "captions": [
+        "khanteymoori"
+      ],
+      "date": "2021-03-18",
+      "galaxy_version": "21.01",
+      "length": "5M",
+      "link": "vNBNFkF0L4U",
+      "speakers": [
+        "nomadscientist"
+      ]
+    }
+  ],
+  "topics/single-cell/tutorials/scrna-scanpy-pbmc3k/tutorial.html": [
+    {
+      "captions": [
+        "hrhotz"
+      ],
+      "date": "2021-03-18",
+      "length": "45M",
+      "link": "nefB35Bi1l4",
+      "speakers": [
+        "nomadscientist"
+      ]
+    }
+  ],
+  "topics/single-cell/tutorials/scrna-case_basic-pipeline/tutorial.html": [
+    {
+      "captions": [
+        "nomadscientist"
+      ],
+      "date": "2021-02-15",
+      "galaxy_version": "21.01",
+      "length": "30M",
+      "link": "M6iepSJh0EQ",
+      "speakers": [
+        "nomadscientist"
+      ]
+    }
+  ],
+  "topics/single-cell/tutorials/scrna-umis/tutorial.html": [
+    {
+      "captions": [
+        "khanteymoori"
+      ],
+      "date": "2021-03-18",
+      "galaxy_version": "21.01",
+      "length": "10M",
+      "link": "AJ17BicjmYU",
+      "speakers": [
+        "nomadscientist"
+      ]
+    }
+  ],
+  "topics/variant-analysis/tutorials/sars-cov-2-variant-discovery/tutorial.html": [
+    {
+      "captions": [
+        "hexylena"
+      ],
+      "date": "2021-08-09",
+      "length": "1H30M",
+      "link": "vnFQ2fR_fzw",
+      "speakers": [
+        "wm75"
+      ]
+    }
+  ],
+  "topics/variant-analysis/tutorials/tb-variant-analysis/tutorial.html": [
+    {
+      "captions": [
+        "pvanheus",
+        "nagoue",
+        "hexylena"
+      ],
+      "date": "2021-02-15",
+      "galaxy_version": "21.01",
+      "length": "40M",
+      "link": "G1DmquX6Wh8",
+      "speakers": [
+        "pvanheus"
+      ]
+    }
+  ],
+  "topics/visualisation/tutorials/circos/slides.html": [
+    {
+      "captions": [
+        "assuntad23",
+        "shiltemann"
+      ],
+      "date": "2021-02-15",
+      "galaxy_version": "21.01",
+      "length": "6M",
+      "link": "KCtI5KLp05k",
+      "speakers": [
+        "hexylena"
+      ]
+    },
+    {
+      "captions": [
+        "beatrizserrano",
+        "hexylena",
+        "shiltemann",
+        "khanteymoori"
+      ],
+      "date": "2021-02-15",
+      "galaxy_version": "21.01",
+      "length": "50M",
+      "link": "tbqeUP67w-Y",
+      "speakers": [
+        "hexylena"
+      ]
+    }
+  ],
+  "topics/visualisation/tutorials/circos/tutorial.html": [
+    {
+      "captions": [
+        "beatrizserrano",
+        "hexylena",
+        "shiltemann",
+        "khanteymoori"
+      ],
+      "date": "2021-02-15",
+      "galaxy_version": "21.01",
+      "length": "50M",
+      "link": "tbqeUP67w-Y",
+      "speakers": [
+        "hexylena"
       ]
     }
   ]

@@ -5,7 +5,7 @@
       "description": "An advanced tutorial covering downstream analysis of RNA-seq data using R.",
       "materials": [
         {
-          "link": "topics/introduction/tutorials/r-advanced/tutorial.html",
+          "link": "topics/data-science/tutorials/r-advanced/tutorial.html",
           "title": "Advanced R in Galaxy",
           "type": "Tutorial"
         }

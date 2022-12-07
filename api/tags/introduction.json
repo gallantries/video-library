@@ -9,6 +9,7 @@
           "type": "Tutorial"
         },
         {
+          "external": true,
           "link": "https://usegalaxy.eu/u/wolfgang-maier/h/galaxy-101",
           "type": "History on GalaxyEU"
         }

@@ -1,64 +1,36 @@
 {
   "url": "/video-library/api/tags/galaxy-interface.json",
   "videos": {
-    "galaxy-interface/workflow-parameters/tutorial": {
-      "description": "To make a workflow reusable with slightly different settings you can define and use workflow parameters.",
+    "data-science/rstudio-galaxy": {
+      "description": "This tutorial will show you how you can start Rstudio from within Galaxy. This option is only available on Galaxy EU for the time being. If you are working on a different Galaxy server, you can use <strong>Rstudio Cloud (https://rstudio.cloud/)</strong>",
       "materials": [
         {
-          "link": "topics/galaxy-interface/tutorials/workflow-parameters/tutorial.html",
-          "title": "Workflow Parameters",
-          "type": "Tutorial"
+          "external": true,
+          "link": "https://rstudio.cloud/",
+          "title": "Try Rstudio Cloud instead",
+          "type": "Rstudio in Galaxy not available?"
         }
       ],
       "tags": [
         "galaxy-interface"
       ],
-      "type": "Tutorial",
+      "title": "Running RStudio on Galaxy",
+      "type": "Demo",
       "versions": [
         {
-          "link": "otvEuDlCye0",
-          "captions": [
-            "mvdbeek"
-          ],
-          "date": "2022-07-06",
-          "length": "30M",
-          "speakers": [
-            "mvdbeek"
-          ]
-        }
-      ],
-      "gtn_id": "galaxy-interface/workflow-parameters",
-      "title": "Using Workflow Parameters",
-      "captioned": true
-    },
-    "galaxy-interface/workflow-reports/tutorial": {
-      "description": "Learn how to view, customize and share Galaxy workflow reports",
-      "materials": [
-        {
-          "link": "topics/galaxy-interface/tutorials/workflow-reports/tutorial.html",
-          "title": "Workflow Reports",
-          "type": "Tutorial"
-        }
-      ],
-      "tags": [
-        "galaxy-interface"
-      ],
-      "type": "Tutorial",
-      "versions": [
-        {
-          "link": "hrZhpsiGaPM",
           "captions": [
             "shiltemann"
           ],
-          "date": "2022-07-06",
-          "length": "30M",
+          "date": "2021-02-15",
+          "galaxy_version": "21.01",
+          "length": "20M",
+          "link": "vN14K74nFZc",
           "speakers": [
-            "shiltemann"
+            "fpsom"
           ]
         }
       ],
-      "gtn_id": "galaxy-interface/workflow-reports",
-      "title": "Workflow Reports",
+      "gtn_id": "data-science/rstudio-galaxy",
       "captioned": true
     },
     "galaxy-interface/collections/tutorial": {
@@ -194,13 +166,15 @@
       "captioned": true
     },
     "galaxy-interface/upload-to-ena": {
-      "title": "Uploading data to ENA",
       "description": "So you’ve used Galaxy workflows to analyze your SARS-CoV-2 samples? Learn in this tutorial how to export results to your favorite datastore.",
-      "materials": null,
+      "materials": [
+
+      ],
       "tags": [
         "sars-cov2",
         "galaxy-interface"
       ],
+      "title": "Uploading data to ENA",
       "type": "Lecture & Tutorial",
       "versions": [
         {
@@ -222,6 +196,7 @@
       "description": "This is a more technical tutorial which will teach you how to run workflows from the command line and scale your analyses. If you are on Windows, you will need WSL/WSL2 setup before this session.",
       "materials": [
         {
+          "external": true,
           "link": "https://docs.microsoft.com/en-us/windows/wsl/install-win10",
           "title": "Installing WSL on Windows",
           "type": "Get Set Up (Windows)"
@@ -253,35 +228,64 @@
       "title": "Automating Galaxy workflows using the command line",
       "captioned": true
     },
-    "data-science/rstudio-galaxy": {
-      "title": "Running RStudio on Galaxy",
-      "description": "This tutorial will show you how you can start Rstudio from within Galaxy. This option is only available on Galaxy EU for the time being. If you are working on a different Galaxy server, you can use <strong>Rstudio Cloud (https://rstudio.cloud/)</strong>",
+    "galaxy-interface/workflow-parameters/tutorial": {
+      "description": "To make a workflow reusable with slightly different settings you can define and use workflow parameters.",
       "materials": [
         {
-          "link": "https://rstudio.cloud/",
-          "title": "Try Rstudio Cloud instead",
-          "type": "Rstudio in Galaxy not available?"
+          "link": "topics/galaxy-interface/tutorials/workflow-parameters/tutorial.html",
+          "title": "Workflow Parameters",
+          "type": "Tutorial"
         }
       ],
       "tags": [
         "galaxy-interface"
       ],
-      "type": "Demo",
+      "type": "Tutorial",
+      "versions": [
+        {
+          "captions": [
+            "mvdbeek"
+          ],
+          "date": "2022-07-06",
+          "length": "30M",
+          "link": "otvEuDlCye0",
+          "speakers": [
+            "mvdbeek"
+          ]
+        }
+      ],
+      "gtn_id": "galaxy-interface/workflow-parameters",
+      "title": "Using Workflow Parameters",
+      "captioned": true
+    },
+    "galaxy-interface/workflow-reports/tutorial": {
+      "description": "Learn how to view, customize and share Galaxy workflow reports",
+      "materials": [
+        {
+          "link": "topics/galaxy-interface/tutorials/workflow-reports/tutorial.html",
+          "title": "Workflow Reports",
+          "type": "Tutorial"
+        }
+      ],
+      "tags": [
+        "galaxy-interface"
+      ],
+      "type": "Tutorial",
       "versions": [
         {
           "captions": [
             "shiltemann"
           ],
-          "date": "2021-02-15",
-          "galaxy_version": "21.01",
-          "length": "20M",
-          "link": "vN14K74nFZc",
+          "date": "2022-07-06",
+          "length": "30M",
+          "link": "hrZhpsiGaPM",
           "speakers": [
-            "fpsom"
+            "shiltemann"
           ]
         }
       ],
-      "gtn_id": "data-science/rstudio-galaxy",
+      "gtn_id": "galaxy-interface/workflow-reports",
+      "title": "Workflow Reports",
       "captioned": true
     }
   }
