@@ -416,15 +416,15 @@ program:
           tutorial: "https://swcarpentry.github.io/shell-novice/"
       - external:
           title: Q&A
-          description:If you have questions about web tools or what is the best way to become a bioinformatian, or if there are aspects of the webinars and tutorial that you would like to discuss in with the experts, please join the Q&A session. Fill free to write down in the shared notes those questions as well as that can help the experts to struture the discussion.
+          description: If you have questions about web tools or what is the best way to become a bioinformatian, or if there are aspects of the webinars and tutorial that you would like to discuss in with the experts, please join the Q&A session. Fill free to write down in the shared notes those questions as well as that can help the experts to struture the discussion.
           author: [arashghodousi,federicodimarco]
           other:
            - label: Shared notes
-              link: https://docs.google.com/document/d/1FbjtNZOkND1ziRPr7KCumqryeQJ76ZZx-ZAgjydCZho/edit?usp=sharing
-            - label: Time
-              value: "16:30-17:30 CET"
-            - label: Zoom
-              link: https://swisstph.zoom.us/j/84656236451
+             link: https://docs.google.com/document/d/1FbjtNZOkND1ziRPr7KCumqryeQJ76ZZx-ZAgjydCZho/edit?usp=sharing
+           - label: Time
+             value: "16:30-17:30 CET"
+           - label: Zoom
+             link: https://swisstph.zoom.us/j/84656236451
 
   day5:
     title: Day 5
