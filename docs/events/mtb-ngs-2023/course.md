@@ -38,6 +38,8 @@ instructors:
   - arashghodousi
   - liliana-rutaihwa
   - pvanheus
+  - federicodimarco
+  - carolinestohr
 
 organisers:
   - dbrites
