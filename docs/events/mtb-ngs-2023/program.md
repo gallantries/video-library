@@ -14,7 +14,7 @@ description: |
   <br>
 
 certbot: false
-instructors: [dbrites, cstritt, andreacabibbe, annalenaguske, andreaspitaleri, GaloGS, arashghodousi, liliana-rutaihwa, pvanheus]
+instructors: [dbrites, cstritt, andreacabibbe, federicodimarco, andreaspitaleri, GaloGS, arashghodousi, liliana-rutaihwa, pvanheus]
 
 setup:
   servers:
@@ -59,8 +59,8 @@ program:
   day1:
     title: "Day 1"
     description: |
-      "There were unusually high rates of TB cases in your country this year. To characterize the underlying
-      bacterial factors driving the epidemic, isolates have been sent for whole-genome sequencing.  Doctors and public
+      There were unusually high rates of TB cases in your country this year. To characterize the underlying
+      bacterial strains driving the epidemic, isolates have been sent for whole-genome sequencing.  Doctors and public
       health authorities request information in order to take decisions. In this course it will be demonstrated how
       you would make use of NGS to answer several questions relevant for patient and public health system management
       such as:
@@ -70,7 +70,7 @@ program:
         - Are there multiple infections per patient?
         - Do we have on-going transmission?
 
-      We hope that at the end of the different training sessions you can answer this question on your own!"
+      We hope that at the end of the different training sessions you can answer this question on your own and can apply what you have learnt to your own data!
 
   day1-1:
     title: "Overview of NGS technologies & TB specific NGS solutions"
@@ -146,7 +146,7 @@ program:
       own analysis with your own data.
     trainings:
       - icebreaker:
-          - prompt: "What is the coolest, most mind blowing fact (nature/people/animal etc.) you know?"
+          - prompt: "What is your favorite dish (food or drink)? Bonus points for recipes!"
             channel: event-mtb-ngs
 
   day2-1:
@@ -160,16 +160,16 @@ program:
     title: "Session 2: Mapping and Variant calling of short MTBC reads"
     subday: true
     description: |
-      Once you have received your sequences, the first step is to assess the quality of
+      Let us imagine that you have received the sequences of the 20 strains, the first step is to assess the quality of
       sequencing. Once we are sure that the sequencing worked well, we typically compare our
       sequencing results to a reference genome (re-sequencing approach) by using a
       bioinformatics procedure usually called mapping. After, we will identify the genomic
       variants in our sequences with respect to the reference genome, a bioinformatics procedure
       called, variant calling. Once we are certain of the variants we have identified, usually
-      we are interested in determining to what genes they belong, to what pathways or for
+      we are interested in determining to what genes they belong, to what pathways, or for
       instance if they are likely to disrupt protein function. This procedure is called
       annotation. Once we have gone through each of these steps we are ready to analyse drug
-      resistant patterns, draw phylogenetic relationships or identify clusters of transmission M.
+      resistant patterns, draw phylogenetic relationships or identify clusters of transmission of M.
       tuberculosis.
 
       You are now ready for performing bioinformatic analysis in Galaxy. Before we start we
@@ -200,7 +200,7 @@ program:
       - external:
           title: Q&A session
           description: Meet the the experts
-          author: [dbrites, GaloGS]
+          author: [dbrites, GaloGS,pvanheus]
           other:
             - label: Time
               value: "11:30-12:30 CET"
@@ -212,7 +212,7 @@ program:
       - external:
           title: Q&A session
           description: Meet the the experts
-          author: [dbrites, GaloGS]
+          author: [dbrites, GaloGS,pvanheus]
           other:
             - label: Time
               value: "16:30-17:30 CET"
@@ -231,7 +231,7 @@ program:
     title: "Evolutionary epidemiology: using phylogenetics to understand DR emergence and Mtb transmission"
     trainings:
       - icebreaker:
-          - prompt: "What is your favorite dish (food or drink)? Bonus points for recipes!"
+          - prompt: "What is the coolest, most mind blowing fact (nature/people/animal etc.) you know?"
             channel: event-mtb-ngs
       - external:
           title: "Webinar: Drug resistance prediction"
@@ -283,7 +283,7 @@ program:
       - external:
           title: Q&A
           description: Discussion with the experts
-          author: [GaloGS,cstritt]
+          author: [GaloGS,dbrites]
           other:
             - label: Time
               value: "11:30-12:30 CET"
@@ -313,7 +313,7 @@ program:
 
       - external:
           title: Q&A
-          author: [GaloGS,cstritt]
+          author: [GaloGS,dbrites]
           description: Discussion with the experts
           other:
             - label: Time
@@ -360,7 +360,7 @@ program:
       - external:
           title: Q&A
           description: Meet the the experts
-          author: andreaspitaleri
+          author: [arashghodousi,federicodimarco]
           other:
             - label: Time
               value: "11:30-12:30 CET"
@@ -416,13 +416,15 @@ program:
           tutorial: "https://swcarpentry.github.io/shell-novice/"
       - external:
           title: Q&A
-          description: Discussion with the experts
-          author: [arashghodousi,andreaspitaleri]
+          description: If you have questions about web tools or what is the best way to become a bioinformatian, or if there are aspects of the webinars and tutorial that you would like to discuss in with the experts, please join the Q&A session. Fill free to write down in the shared notes those questions as well as that can help the experts to struture the discussion.
+          author: [arashghodousi,federicodimarco]
           other:
-            - label: Time
-              value: "16:30-17:30 CET"
-            - label: Zoom
-              link: https://swisstph.zoom.us/j/84656236451
+           - label: Shared notes
+             link: https://docs.google.com/document/d/1FbjtNZOkND1ziRPr7KCumqryeQJ76ZZx-ZAgjydCZho/edit?usp=sharing
+           - label: Time
+             value: "16:30-17:30 CET"
+           - label: Zoom
+             link: https://swisstph.zoom.us/j/84656236451
 
   day5:
     title: Day 5
@@ -434,7 +436,7 @@ program:
       - external:
           title: Q&A
           description: Discussion with the experts
-          author: [dbrites,cstritt,andreacabibbe,annalenaguske, andreaspitaleri,GaloGS,arashghodousi,liliana-rutaihwa]
+          author: [dbrites,pvanheus,andreacabibbe,federicodimarco,GaloGS,arashghodousi,liliana-rutaihwa]
           other:
             - label: Time
               value: "10:00-12:30 CET"

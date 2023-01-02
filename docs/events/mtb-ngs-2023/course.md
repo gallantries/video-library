@@ -84,7 +84,7 @@ This workshop is virtual and asynchronous. Training sessions are pre-recorded an
 
 ## LET'S GET STARTED!
 
-{% include button.html link="/events/mtb-ngs/program.html" label="Start the Course!" colour="yellow" buttonsize="large" %}
+{% include button.html link="/events/mtb-ngs-2023/program.html" label="Start the Course!" colour="yellow" buttonsize="large" %}
 
 <br>
 
