@@ -2,7 +2,7 @@
 layout: program
 module: false
 status: final
-title: "Mycobacterium tuberculosis NGS made easy: data analysis step-by-step"
+title: "Mycobacterium tuberculosis NGS made easy: data analysis step-by-step [2023]"
 description: |
   ![banner](images/TBCAPT_NGS_Training_banner.jpg)
 
@@ -19,7 +19,7 @@ instructors: [dbrites, cstritt, andreacabibbe, federicodimarco, andreaspitaleri,
 setup:
   servers:
     - server: eu
-      tiaas: mtuberculosisngs
+      tiaas: mtbngs
 
   slack:
     event_channel:
@@ -45,7 +45,8 @@ program:
   prelim:
     title: Welcome & Setup
     trainings:
-      - setup
+      - basics: setup
+      - basics: code-of-conduct
       - external:
           title: Live Welcome session (optional)
           description: We would like to welcome you to this trainning, to present ourselves and to clarify any organizational question you might have.
