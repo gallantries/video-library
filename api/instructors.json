@@ -153,7 +153,9 @@
   "carolinestohr": {
     "name": "Caroline Stöhr",
     "photo": "Caroline.jpg",
-    "affiliation": "linq"
+    "affiliation": [
+      "linq"
+    ]
   },
   "cat-bro": {
     "name": "Catherine Bromhead",
@@ -262,7 +264,9 @@
   },
   "federicodimarco": {
     "name": "Federico DiMarco",
-    "affiliation": "irccs",
+    "affiliation": [
+      "irccs"
+    ],
     "photo": "Federico.jpg"
   },
   "FilipposZ": {
