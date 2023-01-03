@@ -36,7 +36,7 @@ setup:
 certificates:
   request_form: "https://forms.gle/X2qgMQeobygH4orB8"
   certbot: false
-  deadline: 2022-04-01
+  deadline: 2023-02-01
 
 feedback:
   form: "https://forms.gle/6Xn8WudBvr3NMC3W7"
@@ -54,7 +54,7 @@ program:
             - label: Time
               value: 21st March, 10:30am-11:00am
             - label: Zoom
-              link: https://swisstph.zoom.us/j/84656236451
+              link: https://swisstph.zoom.us/j/88614333103?pwd=OVVjeG04a2lVMXB0THUxMXoxNUNkdz09
       - code-of-conduct
 
   day1:
@@ -119,7 +119,7 @@ program:
             - label: Shared notes
               link: https://docs.google.com/document/d/1VtGho4Zz0qFp5tzqD8rl7NU83xtYb4tCkLDitC3DrhQ/edit#
             - label: Zoom
-              link: https://swisstph.zoom.us/j/84656236451
+              link: https://swisstph.zoom.us/j/88614333103?pwd=OVVjeG04a2lVMXB0THUxMXoxNUNkdz09
           note: |
             *The completion of this assessment is a requirement for the certificate of attendance.*
   day2:
@@ -206,7 +206,7 @@ program:
             - label: Time
               value: "11:30-12:30 CET"
             - label: Zoom Link
-              link: https://swisstph.zoom.us/j/84656236451
+              link: https://swisstph.zoom.us/j/88614333103?pwd=OVVjeG04a2lVMXB0THUxMXoxNUNkdz09
       - self-study: variant-analysis/tb-variant-analysis
         description: Variation in the genome of M. tuberculosis (Mtb) is associated with changes in phenotype, for example drug resistance and virulence. It is also useful for outbreak investigation as the single nucleotide polymorphisms (SNPs) in a sample can be used to build a phylogeny.
         prefix: "Hands-on: "
@@ -218,7 +218,7 @@ program:
             - label: Time
               value: "16:30-17:30 CET"
             - label: Zoom Link
-              link: https://swisstph.zoom.us/j/84656236451
+              link: https://swisstph.zoom.us/j/88614333103?pwd=OVVjeG04a2lVMXB0THUxMXoxNUNkdz09
 
   day3:
     title: "Day 3"
@@ -289,7 +289,7 @@ program:
             - label: Time
               value: "11:30-12:30 CET"
             - label: Zoom
-              link: https://swisstph.zoom.us/j/84656236451
+              link: https://swisstph.zoom.us/j/88614333103?pwd=OVVjeG04a2lVMXB0THUxMXoxNUNkdz09
 
       - external:
           title: "Introduction to phylogenetics"
@@ -320,7 +320,7 @@ program:
             - label: Time
               value: "16:30-17:30 CET"
             - label: Zoom
-              link: https://swisstph.zoom.us/j/84656236451
+              link: https://swisstph.zoom.us/j/88614333103?pwd=OVVjeG04a2lVMXB0THUxMXoxNUNkdz09
 
   day4:
     title: Day 4
@@ -366,7 +366,7 @@ program:
             - label: Time
               value: "11:30-12:30 CET"
             - label: Zoom
-              link: https://swisstph.zoom.us/j/84656236451
+              link: https://swisstph.zoom.us/j/88614333103?pwd=OVVjeG04a2lVMXB0THUxMXoxNUNkdz09
 
   day4-2:
     title: "Session 2: Be a bioinformatician in the jungle (optional)"
@@ -425,7 +425,7 @@ program:
            - label: Time
              value: "16:30-17:30 CET"
            - label: Zoom
-             link: https://swisstph.zoom.us/j/84656236451
+             link: https://swisstph.zoom.us/j/88614333103?pwd=OVVjeG04a2lVMXB0THUxMXoxNUNkdz09
 
   day5:
     title: Day 5
@@ -442,7 +442,7 @@ program:
             - label: Time
               value: "10:00-12:30 CET"
             - label: Zoom
-              link: https://swisstph.zoom.us/j/84656236451
+              link: https://swisstph.zoom.us/j/88614333103?pwd=OVVjeG04a2lVMXB0THUxMXoxNUNkdz09
 
   wrapup:
     title: Wrap-up

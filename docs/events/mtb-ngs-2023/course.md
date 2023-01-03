@@ -7,8 +7,8 @@ description: |
   ![banner](images/TBCAPT_NGS_Training_banner.jpg)
 
 date:
-  start: 2023-01-15
-  end: 2023-01-17
+  start: 2023-01-09
+  end: 2023-01-13
 audience: |
   Open for all, but target audience is clinicians and researchers
   using MTBC sequencing data.
@@ -18,7 +18,8 @@ format: |
   Asynchronous; all training sessions are pre-recorded and
   provided in advance.
 
-support: "**Live support in Slack** ([invite link](https://join.slack.com/t/gtnsmrgsbord/shared_invite/zt-x7vinbs1-BA~Kht6N86JBhDq0uTIVdQ), channel: [#event-mtb-ngs](https://gtnsmrgsbord.slack.com/channels/event-mtb-ngs)), in which experts will answer questions on a peer-to-peer basis. **Real-Time Q&A sessions**  See the schedule below to know when you can join us live! [Zoom Link](https://swisstph.zoom.us/j/84656236451)"
+support: "**Live support in Slack** ([invite link](https://join.slack.com/t/gtnsmrgsbord/shared_invite/zt-x7vinbs1-BA~Kht6N86JBhDq0uTIVdQ), channel: [#event-mtb-ngs](https://gtnsmrgsbord.slack.com/channels/event-mtb-ngs)), in which experts will answer questions on a peer-to-peer basis. **Real-Time Q&A sessions**  See the schedule below to know when you can join us live! [Zoom Link](
+https://swisstph.zoom.us/j/88614333103?pwd=OVVjeG04a2lVMXB0THUxMXoxNUNkdz09)"
 
 
 practical:
