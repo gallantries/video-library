@@ -52,7 +52,7 @@ program:
           description: We would like to welcome you to this trainning, to present ourselves and to clarify any organizational question you might have.
           other:
             - label: Time
-              value: 21st March, 10:30am-11:00am
+              value: 10:30am-11:00am
             - label: Zoom
               link: https://swisstph.zoom.us/j/88614333103?pwd=OVVjeG04a2lVMXB0THUxMXoxNUNkdz09
       - code-of-conduct
