@@ -39,6 +39,18 @@ Please check the [draft of the modules to be presented](https://docs.google.com/
 
 Modules lacking a volunteer may be removed.
 
+## Help us Advertise!
+
+Please feel free to add this image to your email signature (if you like)
+
+![GTN Smorgasbord 3, gxy.io/smorgasbord3 a free galaxy training event, online, from may 22-26 2023. Topics covered include SARS-CoV-2, RNA-Seq, Single Cell, Proteomics, Machine Learning, Annotation, Climate, Ecology, and more! An EU flag in the corner indicates that this event is made possible with the support of the european union. A waterman butterfly projection map adorns the other corner suggesting a world wide event.](https://gallantries.github.io/assets/images/smorgasbord3/png/banner-email.png)
+
+Or a banner to tweet or toot about
+
+![GTN Smorgasbord 3, gxy.io/smorgasbord3 a free galaxy training event, online, from may 22-26 2023. Topics covered include SARS-CoV-2, RNA-Seq, Single Cell, Proteomics, Machine Learning, Annotation, Climate, Ecology, and more! An EU flag in the corner indicates that this event is made possible with the support of the european union. A waterman butterfly projection map adorns the other corner suggesting a world wide event.](https://gallantries.github.io/assets/images/smorgasbord3/png/banner-1000.png)
+
+We have written alt-text for both of these images and would **strongly** encourage you to include this alt-text wherever you display the image!
+
 ## Workflow
 
 This year we have an updated workflow and we want to break that down for you.
