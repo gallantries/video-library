@@ -125,7 +125,7 @@ Did you organise this? Request TIaaS on:
 
 {% assign organiser = page.contacts[0] %}
 {%- capture urlparams -%}
-?name={{ site.data['instructors'][organiser].name | uri_escape}}&email={{ site.data['instructors'][organiser].email | uri_escape }}&title={{ page.title | uri_escape }}&description={{ page.description | uri_escape }}start={{ page.date.start }}&end={{ page.date.end }}&website={{ site.url }}{{ site.baseurl }}{{ page.url }}&use_gtn=true&gtn_links={{ 'See course page' | uri_escape }}&training_identifier={{ page.id | uri_escape }}
+?name={{ site.data['instructors'][organiser].name | uri_escape}}&email={{ site.data['instructors'][organiser].email | uri_escape }}&title={{ page.title | uri_escape }}&description={{ page.description | uri_escape }}&start={{ page.date.start }}&end={{ page.date.end }}&website={{ site.url }}{{ site.baseurl }}{{ page.url }}&use_gtn=true&gtn_links={{ 'See course page' | uri_escape }}&training_identifier={{ page.id | uri_escape }}
 {%- endcapture -%}
 <ul>
 	<li><a href="https://usegalaxy.eu/tiaas/new/{{ urlparams }}">UseGalaxy.eu</a></li>
