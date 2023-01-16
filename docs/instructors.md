@@ -142,7 +142,7 @@ program:
             If you witness any violations, report it in the
             [#instructors](https://gtnsmrgsbord.slack.com/archives/C01ES97MZBN) channel on
             Slack, and one of the members of the
-            [CoC committee](https://galaxyproject.org/community/coc/#reporting-issues) will
+            [CoC committee](https://galaxyproject.org/community/coc/#reporting) will
             handle it further.
 
   after:
