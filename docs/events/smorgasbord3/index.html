@@ -1,0 +1,182 @@
+---
+layout: event
+id: tapas
+title: "Smörgåsbord 2023"
+description: "Free, Global, Online Week of Galaxy Training"
+location: Online
+instructors: [gtn]
+date:
+  start: 2023-05-22
+  end: 2023-05-26
+registration: "https://example.com/TODO"
+cost: Free
+format: Asynchronous (no live sessions, pre-recorded videos, support via Slack, YOU decide your schedule)
+contacts: [shiltemann, hexylena]
+institutions: [gallantries, cineca, erasmusmc, elixir, gtn, seq4amr]
+
+setup:
+  servers:
+    - server: eu
+      tiaas: gtn-tapas
+    - server: au
+      tiaas: gtn-tapas
+    - server: us
+      tiaas: gtn-tapas
+    - server: be
+    - server: fr
+
+  slack:
+    event_channel:
+      name: "#event-tapas"
+      link: "https://gtnsmrgsbord.slack.com/archives/C032C2MRHAS"
+
+certificates:
+  request_form: "https://example.com/TODO"
+  deadline: 2023-06-14
+  certbot: true
+  notes:
+    snippet: "snippets/cert-requirements-smorg.html"
+
+feedback:
+  form: "https://example.com/TODO"
+
+program:
+  day1:
+    title: Welcome & Setup (Start Here!)
+    description: Practical information about this course and getting everything set up to follow this course.
+    trainings:
+      - video: course/welcome-smorg2022
+      - basics: setup
+      - basics: code-of-conduct
+      - basics: certificates
+      - icebreaker:
+        - prompt: |
+            1. Introduce yourself and tell us one fun fact about yourself! <br>
+            2. What are you hoping to learn this week?
+          title: "Monday Icebreaker"
+          channel: social
+          certificate: true
+        - prompt: "What is the coolest, most mind blowing fact (nature/people/animal etc.) you know? "
+          title: "Tuesday Icebreaker"
+          channel: social
+        - prompt: "What is your favorite dish (food or drink)? Bonus points for recipes!"
+          title: "Wednesday Icebreaker"
+          channel: social
+        - prompt: |
+            1. What is one fun hobby, passion, skill or talent you have? <br>
+            2. What is your favorite thing about the course so far?
+          title: "Thursday Icebreaker"
+          channel: social
+        - prompt: "What is your favorite book, film, tv show or game you've enjoyed recently?"
+          title: "Friday Icebreaker"
+          channel: social
+
+
+formatting_lang: html
+
+---
+
+<h2 class="section-header"> Day 1: Introduction </h2>
+<p> Today we recommend you start by learning about the Galaxy platform (but nothing is mandatory!). </p>
+
+
+<h3 class="section-header"> Learn Galaxy </h3>
+<p><strong>New to Galaxy?</strong> please choose one of the two introductory modules. <strong>Already familiar with Galaxy?</strong> Deepen your knowledge of the Galaxy platform with the tutorials in the 'Advanced Galaxy Features' section </p>
+
+{% include module_button.html link="galaxy-intro" colour="red" label="Intro to Galaxy" buttonsize="large"  %}
+
+{% include module_button.html link="galaxy-intro-nongenomics" colour="orange" label="Intro to Galaxy (Non Genomics)" buttonsize="large"  %}
+
+{% include module_button.html link="galaxy-advanced-features" colour="yellow" label="Advanced Galaxy Features" buttonsize="large"  %}
+
+
+
+<h3 class="section-header"> Sequence Analysis Basics </h3>
+
+<p> This module covers some common steps in -omics analysis, such as <strong>quality control, mapping to a reference genome,</strong> and <strong>genome assembly.</strong> </p>
+
+
+{% include module_button.html link="sequence-analysis-basics" colour="green" label="Sequence Analysis Basics" buttonsize="large" %}
+
+
+<h2 class="section-header"> Day 2-5: YOU decide! </h2>
+<p> The schedule for this week is up to YOU. You can do <strong>as many or as few tutorials as you want</strong>, and YOU decide which topics you learn about! We have <strong>defined some training modules</strong> to help you choose your program this week. </p>
+
+
+
+<h2 class="section-header"> Browse by Analysis Type </h2>
+<p> I'm interested in... </p>
+
+
+{% include module_button.html link="genomics" colour="lightgreen" label="Genomics" buttonsize="large" %}
+
+{% include module_button.html link="transcriptomics" colour="lightblue" label="Transcriptomics" buttonsize="large" %}
+
+{% include module_button.html link="proteomics" colour="blue" label="Proteomics" buttonsize="large" %}
+
+{% include module_button.html link="single-cell" colour="purple" label="Single-Cell Analysis" buttonsize="large" %}
+
+{% include module_button.html link="meta-omics" colour="pink" label="Meta -omics" buttonsize="large" %}
+
+{% include module_button.html link="genome-annotation" colour="red" label="Genome Annotation" buttonsize="large" %}
+
+{% include module_button.html link="machine-learning" colour="orange" label="Machine Learning" buttonsize="large" %}
+
+<h2 class="section-header"> Browse by Sample Type </h2>
+
+<p> I want to analyze... </p>
+
+{% include module_button.html link="covid-analysis" colour="yellow" label="SARS-CoV-2 Data" buttonsize="large" %}
+
+{% include module_button.html link="plants" colour="green" label="Plants" buttonsize="large" %}
+
+{% include module_button.html link="microbial" colour="blue" label="Microbial Samples" buttonsize="large" %}
+
+
+
+<h2 class="section-header"> Non-Genomics modules </h2>
+
+<p> I want to learn about... </p>
+
+{% include module_button.html link="ecology" colour="lightgreen" label="Ecology" buttonsize="large" %}
+
+{% include module_button.html link="climate" colour="lightblue" label="Climate" buttonsize="large" %}
+
+{% include module_button.html link="computational-chemistry" colour="purple" label="Computational Chemistry" buttonsize="large" %}
+
+
+
+<h2 class="section-header"> I'm new to Bioinformatics and unsure what to choose! </h2>
+<p><strong>No problem!</strong> If you are unsure what you want to do, or just want to learn more about bioinformatics in general, we have defined a week's schedule for you, the <strong>Bioinformatics Buffet!</strong></p>
+
+{% include module_button.html link="bioinformatics-buffet" colour="pink" label="Bioinformatics Buffet" buttonsize="large" %}
+
+
+<h2 class="section-header"> Looking for Something Else? </h2>
+
+{% include button.html link="/library" colour="red" label="Browse All Videos" buttonsize="large" %}
+
+{% include button.html link="https://training.galaxyproject.org" colour="orange" label="Browse All GTN Tutorials" buttonsize="large" %}
+
+{% include module_button.html link="dev" colour="yellow" label="Galaxy Tool &amp; GTN Development" buttonsize="large" %}
+
+<p>Or ask us for recommendations in Slack!</p>
+
+<h2 class="section-header"> Wrap-up </h2>
+
+<p>Done for the week? Please take a moment to <strong>thank your volunteer instructors</strong> in Slack, and give us some <strong>feedback</strong> so that we can improve this event in the future. </p>
+
+<p><strong>Thank you</strong> for joining and we hope to keep seeing you around the Galaxy Community! </p>
+
+<div class="accordion" id="accordionwrapup">
+{% assign accordion_id = "accordionwrapup"%}
+{% assign module_id = "feeback" %}
+
+{% include custom-session.html type="feedback" config=page.feedback title="Give us your Feedback!" %}
+{% assign module_id = "certs" %}
+{% include custom-session.html type="certificates" config=page.certificates title="About Certificates" %}
+{% assign s = site.data.videos['community/welcome'] %}
+{% include session.html session=s type='video' id='community/welcome' instructors=instructors module=wrapup %}
+</div>
+
+
