@@ -1,11 +1,13 @@
 ---
 layout: default
-title: "Presenter Welcome"
+title: "Smörgåsbord 2023: Presenter Welcome"
 author: hexylena
 date:
   start: 2023-05-22
   end: 2023-05-26
 ---
+
+## Presenter Information
 
 Welcome presenters! We're so glad you want to be involved in [GTN Smörgåsbord 3]({{site.baseurl}}/events/smorgasbord3/index.html) There are lots of ways to be involved but if you want to show a video or have a tutorial be included then you're in the right place. This page contains some basic information that is useful for you as a speaker, and please don't hesitate to contact [`wg-goats`](https://gitter.im/galaxyproject/wg-goat) if you have any further questions!
 
@@ -51,6 +53,12 @@ Or a banner to tweet or toot about
 
 We have written alt-text for both of these images and would **strongly** encourage you to include this alt-text wherever you display the image!
 
+## Join The Smörganisational meetings!
+
+These are mostly co-ocurring with the WG-GOATS meetings to simplify planning.
+
+![Smörganisational meeting notes](https://docs.google.com/document/d/10g_mye33xmvG0Iv1h0QanOj7uwq2_LWyNlpfoyL0WCM/edit#)
+
 ## Workflow
 
 This year we have an updated workflow and we want to break that down for you.
@@ -64,7 +72,8 @@ This year we have an updated workflow and we want to break that down for you.
 
 ## Check the schedule
 
-Please check the [draft of the modules to be presented](https://docs.google.com/document/d/1oobKOsr-P5kludyWxiuNYmHbPTuuMdXbJj4oZUdezss/edit#)
+
+Please check the [draft of the modules to be presented](https://docs.google.com/document/d/10g_mye33xmvG0Iv1h0QanOj7uwq2_LWyNlpfoyL0WCM/edit#)
 
 - Do you want a whole new module (e.g. "Climate")? *Add it!*
 - Do you think the proposed tutorials are in the wrong order? *fix it!*
