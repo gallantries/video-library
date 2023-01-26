@@ -8,8 +8,8 @@ program:
     trainings:
       - session: single-cell/scrna-intro
       - video: single-cell/scrna-umis/tutorial
-      - video: single-cell/droplet-quantification-preprocessing/tutorial
-      - video: single-cell/scrna-seq-basic-pipeline/tutorial
+      - video: single-cell/scrna-case_alevin/tutorial
+      - video: single-cell/scrna-case_basic-pipeline/tutorial
       - video: single-cell/bulk-music/tutorial
 
 ---
