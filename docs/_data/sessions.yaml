@@ -60,7 +60,7 @@ single-cell/scrna-intro:
        of transcriptomic research, used in high-throughput developmental studies
   videos:
     - single-cell/scrna-intro/slides
-    - single-cell/scrna-seq-basic-pipeline/tutorial
+    - single-cell/scrna-case_basic-pipeline/tutorial
 
 transcriptomics/mirna-target-finder:
   title: Whole transcriptome analysis of Arabidopsis thaliana
