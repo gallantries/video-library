@@ -6,10 +6,10 @@ description: This module will guide you through single-cell transcriptomics anal
 program:
   intro:
     trainings:
-      - session: transcriptomics/scrna-intro
-      - video: transcriptomics/scrna-umis/tutorial
-      - video: transcriptomics/droplet-quantification-preprocessing/tutorial
-      - video: transcriptomics/scrna-seq-basic-pipeline/tutorial
-      - video: transcriptomics/bulk-music/tutorial
+      - session: single-cell/scrna-intro
+      - video: single-cell/scrna-umis/tutorial
+      - video: single-cell/droplet-quantification-preprocessing/tutorial
+      - video: single-cell/scrna-seq-basic-pipeline/tutorial
+      - video: single-cell/bulk-music/tutorial
 
 ---

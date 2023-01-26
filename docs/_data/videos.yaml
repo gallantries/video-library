@@ -2832,7 +2832,7 @@ synthetic-biology/retrosynthesis_analysis/demo:
     link: nnE3Ip94D8I
     speakers:
     - breakthewall
-transcriptomics/bulk-music/tutorial:
+single-cell/bulk-music/tutorial:
   description: 'Bulk RNA-seq data contains a mixture of transcript signatures from
 
     several types of cells. We wish to deconvolve this mixture to obtain
@@ -2897,7 +2897,7 @@ transcriptomics/de-novo/tutorial:
     link: WrOIpCxba78
     speakers:
     - malloryfreeberg
-transcriptomics/droplet-quantification-preprocessing/tutorial:
+single-cell/droplet-quantification-preprocessing/tutorial:
   description: "This tutorial will take you from raw FASTQ files to a cell x gene\
     \ data matrix in AnnData format. What\u2019s a data matrix, and what\u2019s AnnData\
     \ format? Well you\u2019ll find out! Importantly, this is the first step in processing\
@@ -3061,7 +3061,7 @@ transcriptomics/rna-seq-viz-with-volcanoplot/tutorial:
     link: uNGXIcEGZwA
     speakers:
     - mblue9
-transcriptomics/scrna-JUPYTER-trajectories/tutorial:
+single-cell/scrna-JUPYTER-trajectories/tutorial:
   description: "You\u2019ve done all the hard work of preparing a single cell matrix,\
     \ processing it, plotting it, interpreting it, finding lots of lovely genes, all\
     \ within the glorious Galaxy interface. Now you want to infer trajectories, or\
@@ -3088,7 +3088,7 @@ transcriptomics/scrna-JUPYTER-trajectories/tutorial:
     link: VEyTmwDIgPI
     speakers:
     - nomadscientist
-transcriptomics/scrna-intro/slides:
+single-cell/scrna-intro/slides:
   description: Single-cell RNA-seq analysis is a rapidly evolving field at the forefront
     of transcriptomic research, used in high-throughput developmental studies and
     rare transcript studies to examine cell heterogeneity within a populations of
@@ -3112,7 +3112,7 @@ transcriptomics/scrna-intro/slides:
     link: D3qvYWZMFa0
     speakers:
     - awspolly
-transcriptomics/scrna-plant/tutorial:
+single-cell/scrna-plant/tutorial:
   description: "This tutorial replicates the paper \u201CSpatiotemporal Developmental\
     \ Trajectories in the Arabidopsis Root Revealed Using High-Throughput Single-Cell\
     \ RNA Sequencing\u201D (Denyer et al. 2019), where the major plant cell types\
@@ -3136,7 +3136,7 @@ transcriptomics/scrna-plant/tutorial:
     link: yKlJ5ESri7o
     speakers:
     - mtekman
-transcriptomics/scrna-preprocessing-tenx/tutorial:
+single-cell/scrna-preprocessing-tenx/tutorial:
   description: 10x genomics has provided not only a cost-effective high-throughput
     solution to understanding sample heterogeneity at the individual cell level, but
     has defined the standards of the field that many downstream analysis packages
@@ -3160,7 +3160,7 @@ transcriptomics/scrna-preprocessing-tenx/tutorial:
     link: vNBNFkF0L4U
     speakers:
     - nomadscientist
-transcriptomics/scrna-scanpy-pbmc3k/tutorial:
+single-cell/scrna-scanpy-pbmc3k/tutorial:
   description: In this tutorial, we will investigate clustering of single-cell data
     from 10x Genomics, including preprocessing, clustering and the identification
     of cell types via known marker genes, using Scanpy. It will be illustrated using
@@ -3182,7 +3182,7 @@ transcriptomics/scrna-scanpy-pbmc3k/tutorial:
     link: nefB35Bi1l4
     speakers:
     - nomadscientist
-transcriptomics/scrna-seq-basic-pipeline/tutorial:
+single-cell/scrna-seq-basic-pipeline/tutorial:
   description: "You\u2019ve done all the work to make a single cell matrix, with gene\
     \ counts and mitochondrial counts and buckets of cell metadata from all your variables\
     \ of interest, now it\u2019s time to fully process our data, to remove low quality\
@@ -3205,7 +3205,7 @@ transcriptomics/scrna-seq-basic-pipeline/tutorial:
     link: M6iepSJh0EQ
     speakers:
     - nomadscientist
-transcriptomics/scrna-umis/tutorial:
+single-cell/scrna-umis/tutorial:
   description: This tutorial demonstrates the what barcodes in your sequencing data
     are, and how to handle them during analysis. Please work through the full tutorial
     yourself to get all the details.
