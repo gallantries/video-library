@@ -1183,19 +1183,19 @@
       "intro": {
         "trainings": [
           {
-            "session": "transcriptomics/scrna-intro"
+            "session": "single-cell/scrna-intro"
           },
           {
-            "video": "transcriptomics/scrna-umis/tutorial"
+            "video": "single-cell/scrna-umis/tutorial"
           },
           {
-            "video": "transcriptomics/droplet-quantification-preprocessing/tutorial"
+            "video": "single-cell/droplet-quantification-preprocessing/tutorial"
           },
           {
-            "video": "transcriptomics/scrna-seq-basic-pipeline/tutorial"
+            "video": "single-cell/scrna-seq-basic-pipeline/tutorial"
           },
           {
-            "video": "transcriptomics/bulk-music/tutorial"
+            "video": "single-cell/bulk-music/tutorial"
           }
         ]
       }

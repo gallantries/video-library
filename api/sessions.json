@@ -49,12 +49,12 @@
       "epigenetics/atac-seq/tutorial"
     ]
   },
-  "transcriptomics/scrna-intro": {
+  "single-cell/scrna-intro": {
     "title": "Introduction to Single-Cell RNA-seq Data Analysis",
     "description": "Single-cell RNA-seq analysis is a rapidly evolving field at the forefront\nof transcriptomic research, used in high-throughput developmental studies\n",
     "videos": [
-      "transcriptomics/scrna-intro/slides",
-      "transcriptomics/scrna-seq-basic-pipeline/tutorial"
+      "single-cell/scrna-intro/slides",
+      "single-cell/scrna-seq-basic-pipeline/tutorial"
     ]
   },
   "transcriptomics/mirna-target-finder": {
