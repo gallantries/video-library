@@ -54,7 +54,7 @@
     "description": "Single-cell RNA-seq analysis is a rapidly evolving field at the forefront\nof transcriptomic research, used in high-throughput developmental studies\n",
     "videos": [
       "single-cell/scrna-intro/slides",
-      "single-cell/scrna-seq-basic-pipeline/tutorial"
+      "single-cell/scrna-case_basic-pipeline/tutorial"
     ]
   },
   "transcriptomics/mirna-target-finder": {

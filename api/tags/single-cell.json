@@ -33,7 +33,7 @@
       "title": "single-cell/bulk-music/tutorial",
       "captioned": true
     },
-    "single-cell/scrna-JUPYTER-trajectories/tutorial": {
+    "single-cell/scrna-case_JUPYTER-trajectories/tutorial": {
       "description": "You’ve done all the hard work of preparing a single cell matrix, processing it, plotting it, interpreting it, finding lots of lovely genes, all within the glorious Galaxy interface. Now you want to infer trajectories, or relationships between cells… and you’ve been threatened with learning Python to do so! Well, fear not. If you can have a run-through of a basic python coding introduction, then that will help you make more sense of this tutorial, however you’ll be able to make and interpret glorious plots even without understanding the Python coding language. This is the beauty of Galaxy - all the ‘set-up’ is identical across computers, because it’s browser based. So fear not!",
       "materials": [
         {
@@ -60,8 +60,8 @@
           ]
         }
       ],
-      "gtn_id": "single-cell/scrna-JUPYTER-trajectories",
-      "title": "single-cell/scrna-JUPYTER-trajectories/tutorial",
+      "gtn_id": "single-cell/scrna-case_JUPYTER-trajectories",
+      "title": "single-cell/scrna-case_JUPYTER-trajectories/tutorial",
       "captioned": true
     },
     "single-cell/scrna-intro/slides": {
@@ -189,7 +189,7 @@
       "gtn_id": "single-cell/scrna-scanpy-pbmc3k",
       "captioned": true
     },
-    "single-cell/scrna-seq-basic-pipeline/tutorial": {
+    "single-cell/scrna-case_basic-pipeline/tutorial": {
       "description": "You’ve done all the work to make a single cell matrix, with gene counts and mitochondrial counts and buckets of cell metadata from all your variables of interest, now it’s time to fully process our data, to remove low quality cells, to reduce the many dimensions of data that make it difficult to work with, and ultimately to try to define our clusters and to find our biological meaning and insights!",
       "materials": [
         {
@@ -216,8 +216,8 @@
           ]
         }
       ],
-      "gtn_id": "single-cell/scrna-seq-basic-pipeline",
-      "title": "single-cell/scrna-seq-basic-pipeline/tutorial",
+      "gtn_id": "single-cell/scrna-case_basic-pipeline",
+      "title": "single-cell/scrna-case_basic-pipeline/tutorial",
       "captioned": true
     }
   }
