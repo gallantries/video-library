@@ -30,7 +30,7 @@
         }
       ],
       "gtn_id": "single-cell/bulk-music",
-      "title": "single-cell/bulk-music/tutorial",
+      "title": "Bulk RNA Deconvolution with MuSiC",
       "captioned": true
     },
     "single-cell/scrna-case_JUPYTER-trajectories/tutorial": {
@@ -61,7 +61,7 @@
         }
       ],
       "gtn_id": "single-cell/scrna-case_JUPYTER-trajectories",
-      "title": "single-cell/scrna-case_JUPYTER-trajectories/tutorial",
+      "title": "Inferring Trajectories using Python (Jupyter Notebook) in Galaxy",
       "captioned": true
     },
     "single-cell/scrna-intro/slides": {
@@ -93,7 +93,7 @@
         }
       ],
       "gtn_id": "single-cell/scrna-intro",
-      "title": "single-cell/scrna-intro/slides",
+      "title": "An introduction to scRNA-seq data analysis",
       "captioned": true
     },
     "single-cell/scrna-plant/tutorial": {
@@ -124,7 +124,7 @@
         }
       ],
       "gtn_id": "single-cell/scrna-plant",
-      "title": "single-cell/scrna-plant/tutorial",
+      "title": "Analysis of plant scRNA-Seq Data with Scanpy",
       "captioned": true
     },
     "single-cell/scrna-preprocessing-tenx/tutorial": {
@@ -217,7 +217,7 @@
         }
       ],
       "gtn_id": "single-cell/scrna-case_basic-pipeline",
-      "title": "single-cell/scrna-case_basic-pipeline/tutorial",
+      "title": "Filter, Plot and Explore Single-cell RNA-seq Data",
       "captioned": true
     }
   }

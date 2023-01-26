@@ -88,7 +88,7 @@
         }
       ],
       "gtn_id": "genome-annotation/apollo",
-      "title": "Refining Genome Annotations with Apollo",
+      "title": "Refining Genome Annotations with Apollo (prokaryotes)",
       "captioned": true
     },
     "genome-annotation/apollo/tutorial": {
@@ -123,7 +123,7 @@
         }
       ],
       "gtn_id": "genome-annotation/apollo",
-      "title": "Refining Genome Annotations with Apollo",
+      "title": "Refining Genome Annotations with Apollo (prokaryotes)",
       "captioned": true
     },
     "genome-annotation/funannotate/tutorial": {
