@@ -39,8 +39,8 @@ jobs:
         env:
           SLACK_BOT_TOKEN: ${{ secrets.slack_bot_token }}
 
-     # - name: Update Bookmarks for Managed Channels
-     #   run: |
-     #       python slack-utils/bookmarks-update.py
-     #   env:
-     #     SLACK_BOT_TOKEN: ${{ secrets.slack_bot_token }}
+      - name: Update Bookmarks for Managed Channels
+        run: |
+            python slack-utils/bookmarks-update.py
+        env:
+          SLACK_BOT_TOKEN: ${{ secrets.slack_bot_token }}
