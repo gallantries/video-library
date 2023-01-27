@@ -1154,6 +1154,16 @@
     },
     "url": "https://gallantries.github.io/video-library/api/modules/proteomics.json"
   },
+  "ro-crate": {
+    "layout": "module",
+    "title": "FAIR data and provenance with RO-Crate and Galaxy",
+    "program": {
+      "intro": {
+        "title": "This module is currently under development, content will appear here as it is completed"
+      }
+    },
+    "url": "https://gallantries.github.io/video-library/api/modules/ro-crate.json"
+  },
   "sequence-analysis-basics": {
     "layout": "module",
     "title": "Sequence Analysis Basics",
