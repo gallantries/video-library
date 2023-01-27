@@ -63,11 +63,11 @@ And some possible announcement text:
 >
 > It will once again be free, online, self-paced, and choose-your-own-adventure style. It will feature all the content of previous editions, plus lots more!
 >
-> The preliminary program can be found on the course website.  (Several modules are still in development, so check back regularly for the updated program!)
+> The preliminary program can be found on the [course website](https://gallantries.github.io/video-library/events/smorgasbord3/).  (Several modules are still in development, so check back regularly for the updated program!)
 >
 > :date: May 22-26, 2023 \\
 > :arrow_right: Course webpage: https://gxy.io/smorgasbord3 \\
-> :writing_hand: Registration is now open! \\
+> :writing_hand: [Registration](https://docs.google.com/forms/d/e/1FAIpQLSclNKwmjclGeOZuZgc19cRjovB61PNLxUZAym2UX0vOKfRLeA/viewform) is now open! \\
 > :money_with_wings: Free
 >
 > Hope to see you all in May!
