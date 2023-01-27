@@ -13,6 +13,10 @@ bradforduni:
   link: "https://www.bradford.ac.uk/"
   logo: bradforduni.jpg
 
+by-covid:
+  name: BY-COVID
+  link: "https://by-covid.eu/"
+  logo: bycovid.svg
 cea:
   name: Le Commissariat à l’énergie atomique et aux énergies alternatives (CEA)
   link: "https://www.cea.fr/"
