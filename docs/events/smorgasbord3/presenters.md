@@ -53,7 +53,7 @@ Or a banner to tweet or toot about
 
 Here is some alt-text for both of these images and would **strongly** encourage you to include this alt-text wherever you display the image!
 
-> GTN Smorgasbord 3, gxy.io/smorgasbord3 a free galaxy training event, online, from may 22-26 2023. Topics covered include SARS-CoV-2, RNA-Seq, Single Cell, Proteomics, Machine Learning, Annotation, Climate, Ecology, Cancer, RO-Crates, and more! An EU flag in the corner indicates that this event is made possible with the support of the european union. A waterman butterfly projection map adorns the other corner suggesting a world wide event. Links are included to @gtn@mstdn.science @gallantries@mstdn.science, and two twitter urls @gxyTraining and @gallantries_eu
+> The Gallantries, Galaxy Training Network & Galaxy Community are happy to announce: GTN Smorgasbord 3, gxy.io/smorgasbord3 a free galaxy training event, online, from may 22-26 2023. Topics covered include SARS-CoV-2, RNA-Seq, Single Cell, Proteomics, Machine Learning, Annotation, Climate, Ecology, Cancer, RO-Crates, and more! An EU flag in the corner indicates that this event is made possible with the support of the european union. A waterman butterfly projection map adorns the other corner suggesting a world wide event. Links are included to @gtn@mstdn.science @gallantries@mstdn.science, and two twitter urls @gxyTraining and @gallantries_eu
 
 ## Join The Smörganisational meetings!
 
