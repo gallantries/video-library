@@ -43,7 +43,7 @@ Modules lacking a volunteer may be removed.
 
 ## Help us Advertise!
 
-Please feel free to add this image to your email signature (if you like)
+Please feel free to use this image for dissemination, or add it to your email signature:
 
 ![GTN Smorgasbord 3, gxy.io/smorgasbord3 a free galaxy training event, online, from may 22-26 2023. Topics covered include SARS-CoV-2, RNA-Seq, Single Cell, Proteomics, Machine Learning, Annotation, Climate, Ecology, Cancer, RO-Crates,, and more! An EU flag in the corner indicates that this event is made possible with the support of the european union. A waterman butterfly projection map adorns the other corner suggesting a world wide event. Links are included to @gtn@mstdn.science @gallantries@mstdn.science, and two twitter urls @gxyTraining and @gallantries_eu](https://gallantries.github.io/assets/images/smorgasbord3/png/banner-email.png)
 
@@ -54,6 +54,24 @@ Or a banner to tweet or toot about
 Here is some alt-text for both of these images and would **strongly** encourage you to include this alt-text wherever you display the image!
 
 > The Gallantries, Galaxy Training Network & Galaxy Community are happy to announce: GTN Smorgasbord 3, gxy.io/smorgasbord3 a free galaxy training event, online, from may 22-26 2023. Topics covered include SARS-CoV-2, RNA-Seq, Single Cell, Proteomics, Machine Learning, Annotation, Climate, Ecology, Cancer, RO-Crates, and more! An EU flag in the corner indicates that this event is made possible with the support of the european union. A waterman butterfly projection map adorns the other corner suggesting a world wide event. Links are included to @gtn@mstdn.science @gallantries@mstdn.science, and two twitter urls @gxyTraining and @gallantries_eu
+
+And some possible announcement text:
+
+> We are happy to announce that the next edition of the GTN Smörgåsbord training event will take place on May 22-26, 2023! :tada:
+>
+> It will once again be free, online, self-paced, and choose-your-own-adventure style. It will feature all the content of previous editions, plus lots more!
+>
+> The preliminary program can be found on the course website.  (Several modules are still in development, so check back regularly for the updated program!)
+>
+> :date: May 22-26, 2023 \\
+> :arrow_right: Course webpage: https://gxy.io/smorgasbord3 \\
+> :writing_hand: Registration is now open! \\
+> :money_with_wings: Free
+>
+> Hope to see you all in May!
+>
+> Saskia & Helena
+>  *on behalf of the GTN community*
 
 ## Join The Smörganisational meetings!
 

@@ -58,3 +58,6 @@ icon-tag:
 webrick:
   headers:
     Access-Control-Allow-Origin: "*"
+
+plugins:
+  - jemoji
