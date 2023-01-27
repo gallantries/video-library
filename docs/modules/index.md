@@ -51,6 +51,11 @@ I'm interested in…
 {% include module_button.html link="dev" colour="pink" label="Developer Training" buttonsize="large" %}
 </div>
 
+
+# Other modules
+
+{% include module_button.html link="ro-crate" colour="yellow" label="RO-Crate" buttonsize="large" %}
+
 # I'm new to Bioinformatics and unsure what to choose!
 
 **No problem!** If you are unsure what you want to do, or just want to learn more about bioinformatics in general, we have defined a week's schedule for you, the **Bioinformatics Buffet!**
