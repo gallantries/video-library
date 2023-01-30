@@ -245,3 +245,8 @@ uba:
 ou:
   name: The Open University
   link: https://www.open.ac.uk/
+
+eosc_esg:
+  name: EOSC Euro Science Gateway
+  link: https://galaxyproject.org/projects/esg/
+  logo: eosc_esg.png
