@@ -65,10 +65,10 @@ And some possible announcement text:
 >
 > The preliminary program can be found on the [course website](https://gallantries.github.io/video-library/events/smorgasbord3/).  (Several modules are still in development, so check back regularly for the updated program!)
 >
-> :date: May 22-26, 2023 \\
-> :arrow_right: Course webpage: https://gxy.io/smorgasbord3 \\
-> :writing_hand: [Registration](https://docs.google.com/forms/d/e/1FAIpQLSclNKwmjclGeOZuZgc19cRjovB61PNLxUZAym2UX0vOKfRLeA/viewform) is now open! \\
-> :money_with_wings: Free
+> 📅 May 22-26, 2023 \\
+> ➡️ Course webpage: https://gxy.io/smorgasbord3 \\
+> ✍️ [Registration](https://docs.google.com/forms/d/e/1FAIpQLSclNKwmjclGeOZuZgc19cRjovB61PNLxUZAym2UX0vOKfRLeA/viewform) is now open! \\
+> 💸 Free
 >
 > Hope to see you all in May!
 >
