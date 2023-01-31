@@ -81,25 +81,25 @@ Possible announcement text (but feel free to use your own words!):
 
 ### E-mail template
 
-The Galaxy Training Network is happy to announce the 3rd annual edition of the GTN Smörgåsbord global training event!
+> The Galaxy Training Network is happy to announce the 3rd annual edition of the GTN Smörgåsbord global training event!
 
-This 5-day, 24/7 training event is completely free, and covers a wide range of topics, including foundations of data science, genomics, proteomics, machine learning, single-cell analysis, metagenomics, cancer analysis, SARS-CoV-2 analysis, ecology, climate science, RO-crates, and much much more!
-
-During the week, YOU decide your own schedule, pick and choose the topics that are interesting to you, and learn at your own pace, with support from the global community of over 100 Galaxy instructors available on Slack 24/7 to answer your questions!
-
-**When:** May 22-26, 2023\\
-**Where:** Online \\
-**Format:** Asynchronous, choose-your-own-adventure, video tutorials with online support \\
-**Price:** Free \\
-**Program & Registration:**  https://gxy.io/smorgasbord3
-
-Registration is now open! The program is still being updated, so check back regularly for the lastest additions to the program!
-
-Saskia & Helena
-*on behalf of the GTN*
-
-P.S. Feel free to join our Slack (invite: https://gxy.io/smorgasbord-slack) already, we will post the latest updates here, and of course we are happy to answer any questions you may have about the course!
-
+> This 5-day, 24/7 training event is completely free, and covers a wide range of topics, including foundations of data science, genomics, proteomics, machine learning, single-cell analysis, metagenomics, cancer analysis, SARS-CoV-2 analysis, ecology, climate science, RO-crates, and much much more!
+>
+> During the week, YOU decide your own schedule, pick and choose the topics that are interesting to you, and learn at your own pace, with support from the global community of over 100 Galaxy instructors available on Slack 24/7 to answer your questions!
+>
+> **When:** May 22-26, 2023\\
+> **Where:** Online \\
+> **Format:** Asynchronous, choose-your-own-adventure, video tutorials with online support \\
+> **Price:** Free \\
+> **Program & Registration:**  https://gxy.io/smorgasbord3
+>
+> Registration is now open! The program is still being updated, so check back regularly for the lastest additions to the program!
+>
+> Saskia & Helena
+> *on behalf of the GTN*
+>
+> P.S. Feel free to join our Slack (invite: https://gxy.io/smorgasbord-slack) already, we will post the latest updates here, and of course we are happy to answer any questions you may have about the course!
+>
 
 
 ## Join The Smörganisational meetings!
