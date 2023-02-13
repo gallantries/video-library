@@ -3,11 +3,28 @@
   "title": "Galaxy Development",
   "description": "The Galaxy for Developers module will teach you how Galaxy works internally\n(frontend and backend), how to add new features for Galaxy, how to build the\nbest tools and visualisations, and more!\n",
   "program": {
-    "intro": {
+    "galaxydev": {
+      "title": "Galaxy Development",
+      "description": "Ever wanted to contribute features to Galaxy? Here you’ll learn a bit\nabout how Galaxy works and how to debug issues in features in Galaxy.\n",
+      "trainings": [
+        {
+          "session": "dev/debugging/tutorial"
+        }
+      ]
+    },
+    "tooldev": {
+      "title": "Tool Development",
+      "description": "This module covers everything you need to start developing your own\nGalaxy Tools. This module will likely take you several days to\ncomplete.\n",
       "trainings": [
         {
           "video": "dev/tool-from-scratch/tutorial"
-        },
+        }
+      ]
+    },
+    "gtn": {
+      "title": "Galaxy Training Material Development",
+      "description": "Here you can learn about contributing to the GTN’s development, adding\nnew tutorials or slides, and correcting any typos you might spot in the\ntraining materials this week.\n",
+      "trainings": [
         {
           "video": "contributing/gitpod/tutorial"
         },

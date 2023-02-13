@@ -114,11 +114,12 @@ best tools and visualisations, and more!</p>
   
   
   
-  <h3 class="module-start">  </h3>
+  <h3 class="module-start"> Galaxy Development </h3>
   
-  <p class="module-description"> 
+  <p class="module-description"> <p>Ever wanted to contribute features to Galaxy? Here you’ll learn a bit
+about how Galaxy works and how to debug issues in features in Galaxy.</p>
  </p>
-  <div class="accordion" id="accordionintro">
+  <div class="accordion" id="accordiongalaxydev">
   
      
 
@@ -138,14 +139,1624 @@ best tools and visualisations, and more!</p>
 
 <div class="accordion-item">
   
-  <div class="accordion-header" id="headingintro0">
-   <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseintro0" aria-expanded="false" aria-controls="collapseintro0">
-        Tools from Scratch
+  <div class="accordion-header" id="headinggalaxydev0">
+   <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapsegalaxydev0" aria-expanded="false" aria-controls="collapsegalaxydev0">
+        Debugging Galaxy
         
    </button>
   </div>
 
-  <div id="collapseintro0" class="accordion-collapse collapse " aria-labelledby="headingintro0" data-bs-parent="#accordionintro">
+  <div id="collapsegalaxydev0" class="accordion-collapse collapse " aria-labelledby="headinggalaxydev0" data-bs-parent="#accordiongalaxydev">
+
+    <div class="accordion-body">
+
+      <!-- Video -->
+      
+        <p>This series of videos will guide (future) Galaxy contributors through the process of debugging Galaxy.</p>
+        
+          
+          
+          
+          
+          <!-- session: {"title"=>"Debugging Galaxy", "description"=>"This series of videos will guide (future) Galaxy contributors through the process of debugging Galaxy.", "videos"=>["dev/debugging/tutorial/intro", "dev/debugging/tutorial/unit-test-failure", "dev/debugging/tutorial/api-test-failure", "dev/debugging/tutorial/client-unit-test", "dev/debugging/tutorial/client-linter", "dev/debugging/tutorial/selenium", "dev/debugging/tutorial/runtime-error", "dev/debugging/tutorial/summary"]}<br><br> video: {"captions"=>["tnabtaf"], "date"=>"2021-02-15", "galaxy_version"=>"21.01", "length"=>"11M", "link"=>"FlFF3TPEfC8", "speakers"=>["assuntad23", "jdavcs"], "name"=>"Debugging Galaxy"} -->
+
+
+
+
+
+
+<!-- determine the next archived version of tutorial -->
+
+
+
+
+<div class="flex-row" style="margin-top:1em;">
+ <div class="col-md-8">
+  <h3 class="session-section">Introduction (Tutorial)  </h3>
+  <div style="position:relative;padding-top:56.25%;">
+   <iframe style="position:absolute;top:0;left:0;width:100%;height:100%;"
+    
+    data-src="https://www.youtube.com/embed/FlFF3TPEfC8"
+    
+     class="lazyload"
+     loading="lazy"
+     frameborder="0"
+     title="YouTube Embedded Video of the Tutorial"
+     aria-label="YouTube Embedded Video of the Tutorial"
+     allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+     allowfullscreen>
+   </iframe>
+  </div>
+  <div style="margin-top:1em;" class="video-metadata">
+      <table>
+          
+          <tr>
+              <td><strong>Description:</strong></td>
+              <td><p>This is the first video in the Debugging Galaxy series.</p>
+</td>
+          </tr>
+          
+          <tr>
+              <td><strong>Length:</strong></td>
+              <td>11 minutes</td>
+          </tr>
+   
+   
+          <tr>
+              <td><strong>Captions:</strong></td>
+              <td> <a href="/video-library/contributors/tnabtaf/">Dave Clements</a></td>
+          </tr>
+   
+          
+          <tr>
+              <td><strong>Created:</strong></td>
+              <td>15 February 2021</td>
+          </tr>
+          
+          
+          
+          <tr>
+              <td><strong>Materials:</strong></td>
+              <td>
+                <ul class="plain-text-list">
+                                
+                    <li>
+                        
+                            <img style="height: 1em" src="/video-library/assets/fa/tutorial.svg" alt="assets/fa/tutorial.svg" aria-hidden="true"/>
+                            
+                        
+
+
+                        
+                        
+                        Tutorial:
+
+                        <a href="https://training.galaxyproject.org/archive/2021-03-01/topics/dev/tutorials/debugging/tutorial.html?utm_source=schedule&utm_medium=click&utm_campaign=video-library">Version in Video</a>
+			<!-- We allow overriding specific materials to their archival versions, hiding the "current" link. -->
+			
+                        |
+                        <a href="https://training.galaxyproject.org/topics/dev/tutorials/debugging/tutorial.html?utm_source=schedule&utm_medium=click&utm_campaign=video-library">Latest Version</a>
+			
+
+                        
+                        <br>
+                        <img style="height: 1em" src="/video-library/assets/fa/circle-question-regular.svg" alt="assets/fa/circle-question-regular.svg" aria-hidden="true"/>
+                        
+                        <a href="https://training.galaxyproject.org/topics/dev/tutorials/debugging/faqs/?utm_source=schedule&utm_medium=click&utm_campaign=video-library">FAQs</a>
+                        
+                        
+                    </li>
+                
+                </ul>
+              </td>
+          </tr>
+          
+          <!-- this is for the embedded versions where they'll use their own1 support forum -->
+                    <tr>
+              <td><strong>Support:</strong></td>
+              <td>
+              <ul>
+                
+                
+                <li>Slack: <a href="https://gtnsmrgsbord.slack.com/archives/dev_debugging">#dev_debugging</a> <ul><li><a href="https://join.slack.com/t/gtnsmrgsbord/shared_invite/zt-x7vinbs1-BA~Kht6N86JBhDq0uTIVdQ">Slack Invite</a></li></ul></li>
+                <li><a href="https://gitter.im/Galaxy-Training-Network/Lobby">Gitter</a></li>
+                <li><a href="https://help.galaxyproject.org">Galaxy Help Forum</a></li>
+              </ul>
+              </td>
+          </tr>
+          
+          
+          <!--
+          
+          
+          <tr>
+              <td><strong>Finished this tutorial as part of GTN Tapas?</strong></td>
+              <td>
+              <ol>
+                
+                
+                <li><a href="https://training.galaxyproject.org/training-material/faqs/galaxy/histories_sharing.html?utm_source=schedule&utm_medium=click&utm_campaign=video-library">Share your history</a> (if applicable)</li>
+                <li>Copy the URL</li>
+                <li>Run the command <code>/completed</code> with the URL to your shared history, in <a href="https://gtnsmrgsbord.slack.com/archives/dev_debugging">#dev_debugging</a></li>
+              </ol>
+              </td>
+          </tr>
+          
+          -->
+      </table>
+
+  </div>
+  
+  Go to the <a href="/video-library/videos/dev/debugging/tutorial/intro">video page</a> to see all versions.
+  
+ </div>
+ <!-- speaker(s) -->
+ 
+ 
+
+ <div class="col-md-3">
+  <center><h3 class="session-section">Speakers</h3></center>
+  
+
+
+
+
+
+
+
+<div class="hall-of-fame">
+    
+    
+    
+		<div class="hall-of-fame-hero" id="assuntad23">
+			
+			<a href="/video-library/contributors/assuntad23/">
+			
+            
+			<img src="https://avatars.githubusercontent.com/assuntad23" alt="">
+            
+			<div class="name">
+				<b>Assunta DeSanto</b>
+			</div>
+			
+			</a>
+			
+			<div class="affil">
+				
+				<a href="https://www.psu.edu/">
+					Penn State University
+				</a>
+				
+			</div>
+		</div>
+	
+    
+    
+		<div class="hall-of-fame-hero" id="jdavcs">
+			
+			<a href="/video-library/contributors/jdavcs/">
+			
+            
+			<img src="https://avatars.githubusercontent.com/jdavcs" alt="">
+            
+			<div class="name">
+				<b>John Davis</b>
+			</div>
+			
+			</a>
+			
+			<div class="affil">
+				
+				<a href="https://www.jhu.edu/">
+					Johns Hopkins University
+				</a>
+				
+			</div>
+		</div>
+	
+    
+</div>
+
+ </div>
+
+
+</div><!-- end video session -->
+
+
+
+        
+          
+          
+          
+          
+          <!-- session: {"title"=>"Debugging Galaxy", "description"=>"This series of videos will guide (future) Galaxy contributors through the process of debugging Galaxy.", "videos"=>["dev/debugging/tutorial/intro", "dev/debugging/tutorial/unit-test-failure", "dev/debugging/tutorial/api-test-failure", "dev/debugging/tutorial/client-unit-test", "dev/debugging/tutorial/client-linter", "dev/debugging/tutorial/selenium", "dev/debugging/tutorial/runtime-error", "dev/debugging/tutorial/summary"]}<br><br> video: {"captions"=>["jdavcs"], "date"=>"2021-02-15", "galaxy_version"=>"21.01", "length"=>"14M", "link"=>"BiANBC78EXM", "speakers"=>["jdavcs"], "name"=>"Debugging Galaxy"} -->
+
+
+
+
+
+
+<!-- determine the next archived version of tutorial -->
+
+
+
+
+<div class="flex-row" style="margin-top:1em;">
+ <div class="col-md-8">
+  <h3 class="session-section">Unit Testing (Tutorial)  </h3>
+  <div style="position:relative;padding-top:56.25%;">
+   <iframe style="position:absolute;top:0;left:0;width:100%;height:100%;"
+    
+    data-src="https://www.youtube.com/embed/BiANBC78EXM"
+    
+     class="lazyload"
+     loading="lazy"
+     frameborder="0"
+     title="YouTube Embedded Video of the Tutorial"
+     aria-label="YouTube Embedded Video of the Tutorial"
+     allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+     allowfullscreen>
+   </iframe>
+  </div>
+  <div style="margin-top:1em;" class="video-metadata">
+      <table>
+          
+          <tr>
+              <td><strong>Description:</strong></td>
+              <td><p>What to do when a unit test fails.</p>
+</td>
+          </tr>
+          
+          <tr>
+              <td><strong>Length:</strong></td>
+              <td>14 minutes</td>
+          </tr>
+   
+   
+          <tr>
+              <td><strong>Captions:</strong></td>
+              <td> <a href="/video-library/contributors/jdavcs/">John Davis</a></td>
+          </tr>
+   
+          
+          <tr>
+              <td><strong>Created:</strong></td>
+              <td>15 February 2021</td>
+          </tr>
+          
+          
+          
+          <tr>
+              <td><strong>Materials:</strong></td>
+              <td>
+                <ul class="plain-text-list">
+                                
+                    <li>
+                        
+                            <img style="height: 1em" src="/video-library/assets/fa/tutorial.svg" alt="assets/fa/tutorial.svg" aria-hidden="true"/>
+                            
+                        
+
+
+                        
+                        
+                        Tutorial:
+
+                        <a href="https://training.galaxyproject.org/archive/2021-03-01/topics/dev/tutorials/debugging/tutorial.html?utm_source=schedule&utm_medium=click&utm_campaign=video-library">Version in Video</a>
+			<!-- We allow overriding specific materials to their archival versions, hiding the "current" link. -->
+			
+                        |
+                        <a href="https://training.galaxyproject.org/topics/dev/tutorials/debugging/tutorial.html?utm_source=schedule&utm_medium=click&utm_campaign=video-library">Latest Version</a>
+			
+
+                        
+                        <br>
+                        <img style="height: 1em" src="/video-library/assets/fa/circle-question-regular.svg" alt="assets/fa/circle-question-regular.svg" aria-hidden="true"/>
+                        
+                        <a href="https://training.galaxyproject.org/topics/dev/tutorials/debugging/faqs/?utm_source=schedule&utm_medium=click&utm_campaign=video-library">FAQs</a>
+                        
+                        
+                    </li>
+                
+                </ul>
+              </td>
+          </tr>
+          
+          <!-- this is for the embedded versions where they'll use their own1 support forum -->
+                    <tr>
+              <td><strong>Support:</strong></td>
+              <td>
+              <ul>
+                
+                
+                <li>Slack: <a href="https://gtnsmrgsbord.slack.com/archives/dev_debugging">#dev_debugging</a> <ul><li><a href="https://join.slack.com/t/gtnsmrgsbord/shared_invite/zt-x7vinbs1-BA~Kht6N86JBhDq0uTIVdQ">Slack Invite</a></li></ul></li>
+                <li><a href="https://gitter.im/Galaxy-Training-Network/Lobby">Gitter</a></li>
+                <li><a href="https://help.galaxyproject.org">Galaxy Help Forum</a></li>
+              </ul>
+              </td>
+          </tr>
+          
+          
+          <!--
+          
+          
+          <tr>
+              <td><strong>Finished this tutorial as part of GTN Tapas?</strong></td>
+              <td>
+              <ol>
+                
+                
+                <li><a href="https://training.galaxyproject.org/training-material/faqs/galaxy/histories_sharing.html?utm_source=schedule&utm_medium=click&utm_campaign=video-library">Share your history</a> (if applicable)</li>
+                <li>Copy the URL</li>
+                <li>Run the command <code>/completed</code> with the URL to your shared history, in <a href="https://gtnsmrgsbord.slack.com/archives/dev_debugging">#dev_debugging</a></li>
+              </ol>
+              </td>
+          </tr>
+          
+          -->
+      </table>
+
+  </div>
+  
+  Go to the <a href="/video-library/videos/dev/debugging/tutorial/unit-test-failure">video page</a> to see all versions.
+  
+ </div>
+ <!-- speaker(s) -->
+ 
+ 
+
+ <div class="col-md-3">
+  <center><h3 class="session-section">Speaker</h3></center>
+  
+
+
+
+
+
+
+
+<div class="hall-of-fame">
+    
+    
+    
+		<div class="hall-of-fame-hero" id="jdavcs">
+			
+			<a href="/video-library/contributors/jdavcs/">
+			
+            
+			<img src="https://avatars.githubusercontent.com/jdavcs" alt="">
+            
+			<div class="name">
+				<b>John Davis</b>
+			</div>
+			
+			</a>
+			
+			<div class="affil">
+				
+				<a href="https://www.jhu.edu/">
+					Johns Hopkins University
+				</a>
+				
+			</div>
+		</div>
+	
+    
+</div>
+
+ </div>
+
+
+</div><!-- end video session -->
+
+
+
+        
+          
+          
+          
+          
+          <!-- session: {"title"=>"Debugging Galaxy", "description"=>"This series of videos will guide (future) Galaxy contributors through the process of debugging Galaxy.", "videos"=>["dev/debugging/tutorial/intro", "dev/debugging/tutorial/unit-test-failure", "dev/debugging/tutorial/api-test-failure", "dev/debugging/tutorial/client-unit-test", "dev/debugging/tutorial/client-linter", "dev/debugging/tutorial/selenium", "dev/debugging/tutorial/runtime-error", "dev/debugging/tutorial/summary"]}<br><br> video: {"captions"=>["jdavcs"], "date"=>"2021-02-15", "galaxy_version"=>"21.01", "length"=>"23M", "link"=>"vYFiFcEuLI0", "speakers"=>["jdavcs"], "name"=>"Debugging Galaxy"} -->
+
+
+
+
+
+
+<!-- determine the next archived version of tutorial -->
+
+
+
+
+<div class="flex-row" style="margin-top:1em;">
+ <div class="col-md-8">
+  <h3 class="session-section">API tests (Tutorial)  </h3>
+  <div style="position:relative;padding-top:56.25%;">
+   <iframe style="position:absolute;top:0;left:0;width:100%;height:100%;"
+    
+    data-src="https://www.youtube.com/embed/vYFiFcEuLI0"
+    
+     class="lazyload"
+     loading="lazy"
+     frameborder="0"
+     title="YouTube Embedded Video of the Tutorial"
+     aria-label="YouTube Embedded Video of the Tutorial"
+     allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+     allowfullscreen>
+   </iframe>
+  </div>
+  <div style="margin-top:1em;" class="video-metadata">
+      <table>
+          
+          <tr>
+              <td><strong>Description:</strong></td>
+              <td><p>What to do when an API test fails.</p>
+</td>
+          </tr>
+          
+          <tr>
+              <td><strong>Length:</strong></td>
+              <td>23 minutes</td>
+          </tr>
+   
+   
+          <tr>
+              <td><strong>Captions:</strong></td>
+              <td> <a href="/video-library/contributors/jdavcs/">John Davis</a></td>
+          </tr>
+   
+          
+          <tr>
+              <td><strong>Created:</strong></td>
+              <td>15 February 2021</td>
+          </tr>
+          
+          
+          
+          <tr>
+              <td><strong>Materials:</strong></td>
+              <td>
+                <ul class="plain-text-list">
+                                
+                    <li>
+                        
+                            <img style="height: 1em" src="/video-library/assets/fa/tutorial.svg" alt="assets/fa/tutorial.svg" aria-hidden="true"/>
+                            
+                        
+
+
+                        
+                        
+                        Tutorial:
+
+                        <a href="https://training.galaxyproject.org/archive/2021-03-01/topics/dev/tutorials/debugging/tutorial.html?utm_source=schedule&utm_medium=click&utm_campaign=video-library">Version in Video</a>
+			<!-- We allow overriding specific materials to their archival versions, hiding the "current" link. -->
+			
+                        |
+                        <a href="https://training.galaxyproject.org/topics/dev/tutorials/debugging/tutorial.html?utm_source=schedule&utm_medium=click&utm_campaign=video-library">Latest Version</a>
+			
+
+                        
+                        <br>
+                        <img style="height: 1em" src="/video-library/assets/fa/circle-question-regular.svg" alt="assets/fa/circle-question-regular.svg" aria-hidden="true"/>
+                        
+                        <a href="https://training.galaxyproject.org/topics/dev/tutorials/debugging/faqs/?utm_source=schedule&utm_medium=click&utm_campaign=video-library">FAQs</a>
+                        
+                        
+                    </li>
+                
+                </ul>
+              </td>
+          </tr>
+          
+          <!-- this is for the embedded versions where they'll use their own1 support forum -->
+                    <tr>
+              <td><strong>Support:</strong></td>
+              <td>
+              <ul>
+                
+                
+                <li>Slack: <a href="https://gtnsmrgsbord.slack.com/archives/dev_debugging">#dev_debugging</a> <ul><li><a href="https://join.slack.com/t/gtnsmrgsbord/shared_invite/zt-x7vinbs1-BA~Kht6N86JBhDq0uTIVdQ">Slack Invite</a></li></ul></li>
+                <li><a href="https://gitter.im/Galaxy-Training-Network/Lobby">Gitter</a></li>
+                <li><a href="https://help.galaxyproject.org">Galaxy Help Forum</a></li>
+              </ul>
+              </td>
+          </tr>
+          
+          
+          <!--
+          
+          
+          <tr>
+              <td><strong>Finished this tutorial as part of GTN Tapas?</strong></td>
+              <td>
+              <ol>
+                
+                
+                <li><a href="https://training.galaxyproject.org/training-material/faqs/galaxy/histories_sharing.html?utm_source=schedule&utm_medium=click&utm_campaign=video-library">Share your history</a> (if applicable)</li>
+                <li>Copy the URL</li>
+                <li>Run the command <code>/completed</code> with the URL to your shared history, in <a href="https://gtnsmrgsbord.slack.com/archives/dev_debugging">#dev_debugging</a></li>
+              </ol>
+              </td>
+          </tr>
+          
+          -->
+      </table>
+
+  </div>
+  
+  Go to the <a href="/video-library/videos/dev/debugging/tutorial/api-test-failure">video page</a> to see all versions.
+  
+ </div>
+ <!-- speaker(s) -->
+ 
+ 
+
+ <div class="col-md-3">
+  <center><h3 class="session-section">Speaker</h3></center>
+  
+
+
+
+
+
+
+
+<div class="hall-of-fame">
+    
+    
+    
+		<div class="hall-of-fame-hero" id="jdavcs">
+			
+			<a href="/video-library/contributors/jdavcs/">
+			
+            
+			<img src="https://avatars.githubusercontent.com/jdavcs" alt="">
+            
+			<div class="name">
+				<b>John Davis</b>
+			</div>
+			
+			</a>
+			
+			<div class="affil">
+				
+				<a href="https://www.jhu.edu/">
+					Johns Hopkins University
+				</a>
+				
+			</div>
+		</div>
+	
+    
+</div>
+
+ </div>
+
+
+</div><!-- end video session -->
+
+
+
+        
+          
+          
+          
+          
+          <!-- session: {"title"=>"Debugging Galaxy", "description"=>"This series of videos will guide (future) Galaxy contributors through the process of debugging Galaxy.", "videos"=>["dev/debugging/tutorial/intro", "dev/debugging/tutorial/unit-test-failure", "dev/debugging/tutorial/api-test-failure", "dev/debugging/tutorial/client-unit-test", "dev/debugging/tutorial/client-linter", "dev/debugging/tutorial/selenium", "dev/debugging/tutorial/runtime-error", "dev/debugging/tutorial/summary"]}<br><br> video: {"captions"=>["beatrizserrano"], "date"=>"2021-02-15", "galaxy_version"=>"21.01", "length"=>"6M", "link"=>"A6LSTCb-rGg", "speakers"=>["assuntad23"], "name"=>"Debugging Galaxy"} -->
+
+
+
+
+
+
+<!-- determine the next archived version of tutorial -->
+
+
+
+
+<div class="flex-row" style="margin-top:1em;">
+ <div class="col-md-8">
+  <h3 class="session-section">Client Unit Tests (Tutorial)  </h3>
+  <div style="position:relative;padding-top:56.25%;">
+   <iframe style="position:absolute;top:0;left:0;width:100%;height:100%;"
+    
+    data-src="https://www.youtube.com/embed/A6LSTCb-rGg"
+    
+     class="lazyload"
+     loading="lazy"
+     frameborder="0"
+     title="YouTube Embedded Video of the Tutorial"
+     aria-label="YouTube Embedded Video of the Tutorial"
+     allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+     allowfullscreen>
+   </iframe>
+  </div>
+  <div style="margin-top:1em;" class="video-metadata">
+      <table>
+          
+          <tr>
+              <td><strong>Description:</strong></td>
+              <td><p>What to do when your client throws a unit test failure.</p>
+</td>
+          </tr>
+          
+          <tr>
+              <td><strong>Length:</strong></td>
+              <td>6 minutes</td>
+          </tr>
+   
+   
+          <tr>
+              <td><strong>Captions:</strong></td>
+              <td> <a href="/video-library/contributors/beatrizserrano/">Beatriz Serrano-Solano</a></td>
+          </tr>
+   
+          
+          <tr>
+              <td><strong>Created:</strong></td>
+              <td>15 February 2021</td>
+          </tr>
+          
+          
+          
+          <tr>
+              <td><strong>Materials:</strong></td>
+              <td>
+                <ul class="plain-text-list">
+                                
+                    <li>
+                        
+                            <img style="height: 1em" src="/video-library/assets/fa/tutorial.svg" alt="assets/fa/tutorial.svg" aria-hidden="true"/>
+                            
+                        
+
+
+                        
+                        
+                        Tutorial:
+
+                        <a href="https://training.galaxyproject.org/archive/2021-03-01/topics/dev/tutorials/debugging/tutorial.html?utm_source=schedule&utm_medium=click&utm_campaign=video-library">Version in Video</a>
+			<!-- We allow overriding specific materials to their archival versions, hiding the "current" link. -->
+			
+                        |
+                        <a href="https://training.galaxyproject.org/topics/dev/tutorials/debugging/tutorial.html?utm_source=schedule&utm_medium=click&utm_campaign=video-library">Latest Version</a>
+			
+
+                        
+                        <br>
+                        <img style="height: 1em" src="/video-library/assets/fa/circle-question-regular.svg" alt="assets/fa/circle-question-regular.svg" aria-hidden="true"/>
+                        
+                        <a href="https://training.galaxyproject.org/topics/dev/tutorials/debugging/faqs/?utm_source=schedule&utm_medium=click&utm_campaign=video-library">FAQs</a>
+                        
+                        
+                    </li>
+                
+                </ul>
+              </td>
+          </tr>
+          
+          <!-- this is for the embedded versions where they'll use their own1 support forum -->
+                    <tr>
+              <td><strong>Support:</strong></td>
+              <td>
+              <ul>
+                
+                
+                <li>Slack: <a href="https://gtnsmrgsbord.slack.com/archives/dev_debugging">#dev_debugging</a> <ul><li><a href="https://join.slack.com/t/gtnsmrgsbord/shared_invite/zt-x7vinbs1-BA~Kht6N86JBhDq0uTIVdQ">Slack Invite</a></li></ul></li>
+                <li><a href="https://gitter.im/Galaxy-Training-Network/Lobby">Gitter</a></li>
+                <li><a href="https://help.galaxyproject.org">Galaxy Help Forum</a></li>
+              </ul>
+              </td>
+          </tr>
+          
+          
+          <!--
+          
+          
+          <tr>
+              <td><strong>Finished this tutorial as part of GTN Tapas?</strong></td>
+              <td>
+              <ol>
+                
+                
+                <li><a href="https://training.galaxyproject.org/training-material/faqs/galaxy/histories_sharing.html?utm_source=schedule&utm_medium=click&utm_campaign=video-library">Share your history</a> (if applicable)</li>
+                <li>Copy the URL</li>
+                <li>Run the command <code>/completed</code> with the URL to your shared history, in <a href="https://gtnsmrgsbord.slack.com/archives/dev_debugging">#dev_debugging</a></li>
+              </ol>
+              </td>
+          </tr>
+          
+          -->
+      </table>
+
+  </div>
+  
+  Go to the <a href="/video-library/videos/dev/debugging/tutorial/client-unit-test">video page</a> to see all versions.
+  
+ </div>
+ <!-- speaker(s) -->
+ 
+ 
+
+ <div class="col-md-3">
+  <center><h3 class="session-section">Speaker</h3></center>
+  
+
+
+
+
+
+
+
+<div class="hall-of-fame">
+    
+    
+    
+		<div class="hall-of-fame-hero" id="assuntad23">
+			
+			<a href="/video-library/contributors/assuntad23/">
+			
+            
+			<img src="https://avatars.githubusercontent.com/assuntad23" alt="">
+            
+			<div class="name">
+				<b>Assunta DeSanto</b>
+			</div>
+			
+			</a>
+			
+			<div class="affil">
+				
+				<a href="https://www.psu.edu/">
+					Penn State University
+				</a>
+				
+			</div>
+		</div>
+	
+    
+</div>
+
+ </div>
+
+
+</div><!-- end video session -->
+
+
+
+        
+          
+          
+          
+          
+          <!-- session: {"title"=>"Debugging Galaxy", "description"=>"This series of videos will guide (future) Galaxy contributors through the process of debugging Galaxy.", "videos"=>["dev/debugging/tutorial/intro", "dev/debugging/tutorial/unit-test-failure", "dev/debugging/tutorial/api-test-failure", "dev/debugging/tutorial/client-unit-test", "dev/debugging/tutorial/client-linter", "dev/debugging/tutorial/selenium", "dev/debugging/tutorial/runtime-error", "dev/debugging/tutorial/summary"]}<br><br> video: {"captions"=>["beatrizserrano"], "date"=>"2021-02-15", "galaxy_version"=>"21.01", "length"=>"6M", "link"=>"YKyP5Y4Y4js", "speakers"=>["assuntad23"], "name"=>"Debugging Galaxy"} -->
+
+
+
+
+
+
+<!-- determine the next archived version of tutorial -->
+
+
+
+
+<div class="flex-row" style="margin-top:1em;">
+ <div class="col-md-8">
+  <h3 class="session-section">Client Linting (Tutorial)  </h3>
+  <div style="position:relative;padding-top:56.25%;">
+   <iframe style="position:absolute;top:0;left:0;width:100%;height:100%;"
+    
+    data-src="https://www.youtube.com/embed/YKyP5Y4Y4js"
+    
+     class="lazyload"
+     loading="lazy"
+     frameborder="0"
+     title="YouTube Embedded Video of the Tutorial"
+     aria-label="YouTube Embedded Video of the Tutorial"
+     allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+     allowfullscreen>
+   </iframe>
+  </div>
+  <div style="margin-top:1em;" class="video-metadata">
+      <table>
+          
+          <tr>
+              <td><strong>Description:</strong></td>
+              <td><p>This video covers working through the client linting error hit in the previous tutorial.</p>
+</td>
+          </tr>
+          
+          <tr>
+              <td><strong>Length:</strong></td>
+              <td>6 minutes</td>
+          </tr>
+   
+   
+          <tr>
+              <td><strong>Captions:</strong></td>
+              <td> <a href="/video-library/contributors/beatrizserrano/">Beatriz Serrano-Solano</a></td>
+          </tr>
+   
+          
+          <tr>
+              <td><strong>Created:</strong></td>
+              <td>15 February 2021</td>
+          </tr>
+          
+          
+          
+          <tr>
+              <td><strong>Materials:</strong></td>
+              <td>
+                <ul class="plain-text-list">
+                                
+                    <li>
+                        
+                            <img style="height: 1em" src="/video-library/assets/fa/tutorial.svg" alt="assets/fa/tutorial.svg" aria-hidden="true"/>
+                            
+                        
+
+
+                        
+                        
+                        Tutorial:
+
+                        <a href="https://training.galaxyproject.org/archive/2021-03-01/topics/dev/tutorials/debugging/tutorial.html?utm_source=schedule&utm_medium=click&utm_campaign=video-library">Version in Video</a>
+			<!-- We allow overriding specific materials to their archival versions, hiding the "current" link. -->
+			
+                        |
+                        <a href="https://training.galaxyproject.org/topics/dev/tutorials/debugging/tutorial.html?utm_source=schedule&utm_medium=click&utm_campaign=video-library">Latest Version</a>
+			
+
+                        
+                        <br>
+                        <img style="height: 1em" src="/video-library/assets/fa/circle-question-regular.svg" alt="assets/fa/circle-question-regular.svg" aria-hidden="true"/>
+                        
+                        <a href="https://training.galaxyproject.org/topics/dev/tutorials/debugging/faqs/?utm_source=schedule&utm_medium=click&utm_campaign=video-library">FAQs</a>
+                        
+                        
+                    </li>
+                
+                </ul>
+              </td>
+          </tr>
+          
+          <!-- this is for the embedded versions where they'll use their own1 support forum -->
+                    <tr>
+              <td><strong>Support:</strong></td>
+              <td>
+              <ul>
+                
+                
+                <li>Slack: <a href="https://gtnsmrgsbord.slack.com/archives/dev_debugging">#dev_debugging</a> <ul><li><a href="https://join.slack.com/t/gtnsmrgsbord/shared_invite/zt-x7vinbs1-BA~Kht6N86JBhDq0uTIVdQ">Slack Invite</a></li></ul></li>
+                <li><a href="https://gitter.im/Galaxy-Training-Network/Lobby">Gitter</a></li>
+                <li><a href="https://help.galaxyproject.org">Galaxy Help Forum</a></li>
+              </ul>
+              </td>
+          </tr>
+          
+          
+          <!--
+          
+          
+          <tr>
+              <td><strong>Finished this tutorial as part of GTN Tapas?</strong></td>
+              <td>
+              <ol>
+                
+                
+                <li><a href="https://training.galaxyproject.org/training-material/faqs/galaxy/histories_sharing.html?utm_source=schedule&utm_medium=click&utm_campaign=video-library">Share your history</a> (if applicable)</li>
+                <li>Copy the URL</li>
+                <li>Run the command <code>/completed</code> with the URL to your shared history, in <a href="https://gtnsmrgsbord.slack.com/archives/dev_debugging">#dev_debugging</a></li>
+              </ol>
+              </td>
+          </tr>
+          
+          -->
+      </table>
+
+  </div>
+  
+  Go to the <a href="/video-library/videos/dev/debugging/tutorial/client-linter">video page</a> to see all versions.
+  
+ </div>
+ <!-- speaker(s) -->
+ 
+ 
+
+ <div class="col-md-3">
+  <center><h3 class="session-section">Speaker</h3></center>
+  
+
+
+
+
+
+
+
+<div class="hall-of-fame">
+    
+    
+    
+		<div class="hall-of-fame-hero" id="assuntad23">
+			
+			<a href="/video-library/contributors/assuntad23/">
+			
+            
+			<img src="https://avatars.githubusercontent.com/assuntad23" alt="">
+            
+			<div class="name">
+				<b>Assunta DeSanto</b>
+			</div>
+			
+			</a>
+			
+			<div class="affil">
+				
+				<a href="https://www.psu.edu/">
+					Penn State University
+				</a>
+				
+			</div>
+		</div>
+	
+    
+</div>
+
+ </div>
+
+
+</div><!-- end video session -->
+
+
+
+        
+          
+          
+          
+          
+          <!-- session: {"title"=>"Debugging Galaxy", "description"=>"This series of videos will guide (future) Galaxy contributors through the process of debugging Galaxy.", "videos"=>["dev/debugging/tutorial/intro", "dev/debugging/tutorial/unit-test-failure", "dev/debugging/tutorial/api-test-failure", "dev/debugging/tutorial/client-unit-test", "dev/debugging/tutorial/client-linter", "dev/debugging/tutorial/selenium", "dev/debugging/tutorial/runtime-error", "dev/debugging/tutorial/summary"]}<br><br> video: {"captions"=>["assuntad23", "jdavcs", "tnabtaf", "beatrizserrano"], "date"=>"2021-02-15", "galaxy_version"=>"21.01", "length"=>"18M", "link"=>"5AAHjxEZb-Y", "speakers"=>["assuntad23"], "name"=>"Debugging Galaxy"} -->
+
+
+
+
+
+
+<!-- determine the next archived version of tutorial -->
+
+
+
+
+<div class="flex-row" style="margin-top:1em;">
+ <div class="col-md-8">
+  <h3 class="session-section">Selenium (Tutorial)  </h3>
+  <div style="position:relative;padding-top:56.25%;">
+   <iframe style="position:absolute;top:0;left:0;width:100%;height:100%;"
+    
+    data-src="https://www.youtube.com/embed/5AAHjxEZb-Y"
+    
+     class="lazyload"
+     loading="lazy"
+     frameborder="0"
+     title="YouTube Embedded Video of the Tutorial"
+     aria-label="YouTube Embedded Video of the Tutorial"
+     allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+     allowfullscreen>
+   </iframe>
+  </div>
+  <div style="margin-top:1em;" class="video-metadata">
+      <table>
+          
+          <tr>
+              <td><strong>Description:</strong></td>
+              <td><p>Selenium is used to test Galaxy development.  Learn more about test failure and how to address them.</p>
+</td>
+          </tr>
+          
+          <tr>
+              <td><strong>Length:</strong></td>
+              <td>18 minutes</td>
+          </tr>
+   
+   
+          <tr>
+              <td><strong>Captions:</strong></td>
+              <td> <a href="/video-library/contributors/assuntad23/">Assunta DeSanto</a>,  <a href="/video-library/contributors/jdavcs/">John Davis</a>,  <a href="/video-library/contributors/tnabtaf/">Dave Clements</a>,  <a href="/video-library/contributors/beatrizserrano/">Beatriz Serrano-Solano</a></td>
+          </tr>
+   
+          
+          <tr>
+              <td><strong>Created:</strong></td>
+              <td>15 February 2021</td>
+          </tr>
+          
+          
+          
+          <tr>
+              <td><strong>Materials:</strong></td>
+              <td>
+                <ul class="plain-text-list">
+                                
+                    <li>
+                        
+                            <img style="height: 1em" src="/video-library/assets/fa/tutorial.svg" alt="assets/fa/tutorial.svg" aria-hidden="true"/>
+                            
+                        
+
+
+                        
+                        
+                        Tutorial:
+
+                        <a href="https://training.galaxyproject.org/archive/2021-03-01/topics/dev/tutorials/debugging/tutorial.html?utm_source=schedule&utm_medium=click&utm_campaign=video-library">Version in Video</a>
+			<!-- We allow overriding specific materials to their archival versions, hiding the "current" link. -->
+			
+                        |
+                        <a href="https://training.galaxyproject.org/topics/dev/tutorials/debugging/tutorial.html?utm_source=schedule&utm_medium=click&utm_campaign=video-library">Latest Version</a>
+			
+
+                        
+                        <br>
+                        <img style="height: 1em" src="/video-library/assets/fa/circle-question-regular.svg" alt="assets/fa/circle-question-regular.svg" aria-hidden="true"/>
+                        
+                        <a href="https://training.galaxyproject.org/topics/dev/tutorials/debugging/faqs/?utm_source=schedule&utm_medium=click&utm_campaign=video-library">FAQs</a>
+                        
+                        
+                    </li>
+                
+                </ul>
+              </td>
+          </tr>
+          
+          <!-- this is for the embedded versions where they'll use their own1 support forum -->
+                    <tr>
+              <td><strong>Support:</strong></td>
+              <td>
+              <ul>
+                
+                
+                <li>Slack: <a href="https://gtnsmrgsbord.slack.com/archives/dev_debugging">#dev_debugging</a> <ul><li><a href="https://join.slack.com/t/gtnsmrgsbord/shared_invite/zt-x7vinbs1-BA~Kht6N86JBhDq0uTIVdQ">Slack Invite</a></li></ul></li>
+                <li><a href="https://gitter.im/Galaxy-Training-Network/Lobby">Gitter</a></li>
+                <li><a href="https://help.galaxyproject.org">Galaxy Help Forum</a></li>
+              </ul>
+              </td>
+          </tr>
+          
+          
+          <!--
+          
+          
+          <tr>
+              <td><strong>Finished this tutorial as part of GTN Tapas?</strong></td>
+              <td>
+              <ol>
+                
+                
+                <li><a href="https://training.galaxyproject.org/training-material/faqs/galaxy/histories_sharing.html?utm_source=schedule&utm_medium=click&utm_campaign=video-library">Share your history</a> (if applicable)</li>
+                <li>Copy the URL</li>
+                <li>Run the command <code>/completed</code> with the URL to your shared history, in <a href="https://gtnsmrgsbord.slack.com/archives/dev_debugging">#dev_debugging</a></li>
+              </ol>
+              </td>
+          </tr>
+          
+          -->
+      </table>
+
+  </div>
+  
+  Go to the <a href="/video-library/videos/dev/debugging/tutorial/selenium">video page</a> to see all versions.
+  
+ </div>
+ <!-- speaker(s) -->
+ 
+ 
+
+ <div class="col-md-3">
+  <center><h3 class="session-section">Speaker</h3></center>
+  
+
+
+
+
+
+
+
+<div class="hall-of-fame">
+    
+    
+    
+		<div class="hall-of-fame-hero" id="assuntad23">
+			
+			<a href="/video-library/contributors/assuntad23/">
+			
+            
+			<img src="https://avatars.githubusercontent.com/assuntad23" alt="">
+            
+			<div class="name">
+				<b>Assunta DeSanto</b>
+			</div>
+			
+			</a>
+			
+			<div class="affil">
+				
+				<a href="https://www.psu.edu/">
+					Penn State University
+				</a>
+				
+			</div>
+		</div>
+	
+    
+</div>
+
+ </div>
+
+
+</div><!-- end video session -->
+
+
+
+        
+          
+          
+          
+          
+          <!-- session: {"title"=>"Debugging Galaxy", "description"=>"This series of videos will guide (future) Galaxy contributors through the process of debugging Galaxy.", "videos"=>["dev/debugging/tutorial/intro", "dev/debugging/tutorial/unit-test-failure", "dev/debugging/tutorial/api-test-failure", "dev/debugging/tutorial/client-unit-test", "dev/debugging/tutorial/client-linter", "dev/debugging/tutorial/selenium", "dev/debugging/tutorial/runtime-error", "dev/debugging/tutorial/summary"]}<br><br> video: {"captions"=>["jdavcs"], "date"=>"2021-02-15", "galaxy_version"=>"21.01", "length"=>"40M", "link"=>"S7N1WvYGJik", "speakers"=>["jdavcs"], "name"=>"Debugging Galaxy"} -->
+
+
+
+
+
+
+<!-- determine the next archived version of tutorial -->
+
+
+
+
+<div class="flex-row" style="margin-top:1em;">
+ <div class="col-md-8">
+  <h3 class="session-section">Runtime Errors (Tutorial)  </h3>
+  <div style="position:relative;padding-top:56.25%;">
+   <iframe style="position:absolute;top:0;left:0;width:100%;height:100%;"
+    
+    data-src="https://www.youtube.com/embed/S7N1WvYGJik"
+    
+     class="lazyload"
+     loading="lazy"
+     frameborder="0"
+     title="YouTube Embedded Video of the Tutorial"
+     aria-label="YouTube Embedded Video of the Tutorial"
+     allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+     allowfullscreen>
+   </iframe>
+  </div>
+  <div style="margin-top:1em;" class="video-metadata">
+      <table>
+          
+          <tr>
+              <td><strong>Description:</strong></td>
+              <td><p>How to fix a runtime error</p>
+</td>
+          </tr>
+          
+          <tr>
+              <td><strong>Length:</strong></td>
+              <td>40 minutes</td>
+          </tr>
+   
+   
+          <tr>
+              <td><strong>Captions:</strong></td>
+              <td> <a href="/video-library/contributors/jdavcs/">John Davis</a></td>
+          </tr>
+   
+          
+          <tr>
+              <td><strong>Created:</strong></td>
+              <td>15 February 2021</td>
+          </tr>
+          
+          
+          
+          <tr>
+              <td><strong>Materials:</strong></td>
+              <td>
+                <ul class="plain-text-list">
+                                
+                    <li>
+                        
+                            <img style="height: 1em" src="/video-library/assets/fa/tutorial.svg" alt="assets/fa/tutorial.svg" aria-hidden="true"/>
+                            
+                        
+
+
+                        
+                        
+                        Tutorial:
+
+                        <a href="https://training.galaxyproject.org/archive/2021-03-01/topics/dev/tutorials/debugging/tutorial.html?utm_source=schedule&utm_medium=click&utm_campaign=video-library">Version in Video</a>
+			<!-- We allow overriding specific materials to their archival versions, hiding the "current" link. -->
+			
+                        |
+                        <a href="https://training.galaxyproject.org/topics/dev/tutorials/debugging/tutorial.html?utm_source=schedule&utm_medium=click&utm_campaign=video-library">Latest Version</a>
+			
+
+                        
+                        <br>
+                        <img style="height: 1em" src="/video-library/assets/fa/circle-question-regular.svg" alt="assets/fa/circle-question-regular.svg" aria-hidden="true"/>
+                        
+                        <a href="https://training.galaxyproject.org/topics/dev/tutorials/debugging/faqs/?utm_source=schedule&utm_medium=click&utm_campaign=video-library">FAQs</a>
+                        
+                        
+                    </li>
+                
+                </ul>
+              </td>
+          </tr>
+          
+          <!-- this is for the embedded versions where they'll use their own1 support forum -->
+                    <tr>
+              <td><strong>Support:</strong></td>
+              <td>
+              <ul>
+                
+                
+                <li>Slack: <a href="https://gtnsmrgsbord.slack.com/archives/dev_debugging">#dev_debugging</a> <ul><li><a href="https://join.slack.com/t/gtnsmrgsbord/shared_invite/zt-x7vinbs1-BA~Kht6N86JBhDq0uTIVdQ">Slack Invite</a></li></ul></li>
+                <li><a href="https://gitter.im/Galaxy-Training-Network/Lobby">Gitter</a></li>
+                <li><a href="https://help.galaxyproject.org">Galaxy Help Forum</a></li>
+              </ul>
+              </td>
+          </tr>
+          
+          
+          <!--
+          
+          
+          <tr>
+              <td><strong>Finished this tutorial as part of GTN Tapas?</strong></td>
+              <td>
+              <ol>
+                
+                
+                <li><a href="https://training.galaxyproject.org/training-material/faqs/galaxy/histories_sharing.html?utm_source=schedule&utm_medium=click&utm_campaign=video-library">Share your history</a> (if applicable)</li>
+                <li>Copy the URL</li>
+                <li>Run the command <code>/completed</code> with the URL to your shared history, in <a href="https://gtnsmrgsbord.slack.com/archives/dev_debugging">#dev_debugging</a></li>
+              </ol>
+              </td>
+          </tr>
+          
+          -->
+      </table>
+
+  </div>
+  
+  Go to the <a href="/video-library/videos/dev/debugging/tutorial/runtime-error">video page</a> to see all versions.
+  
+ </div>
+ <!-- speaker(s) -->
+ 
+ 
+
+ <div class="col-md-3">
+  <center><h3 class="session-section">Speaker</h3></center>
+  
+
+
+
+
+
+
+
+<div class="hall-of-fame">
+    
+    
+    
+		<div class="hall-of-fame-hero" id="jdavcs">
+			
+			<a href="/video-library/contributors/jdavcs/">
+			
+            
+			<img src="https://avatars.githubusercontent.com/jdavcs" alt="">
+            
+			<div class="name">
+				<b>John Davis</b>
+			</div>
+			
+			</a>
+			
+			<div class="affil">
+				
+				<a href="https://www.jhu.edu/">
+					Johns Hopkins University
+				</a>
+				
+			</div>
+		</div>
+	
+    
+</div>
+
+ </div>
+
+
+</div><!-- end video session -->
+
+
+
+        
+          
+          
+          
+          
+          <!-- session: {"title"=>"Debugging Galaxy", "description"=>"This series of videos will guide (future) Galaxy contributors through the process of debugging Galaxy.", "videos"=>["dev/debugging/tutorial/intro", "dev/debugging/tutorial/unit-test-failure", "dev/debugging/tutorial/api-test-failure", "dev/debugging/tutorial/client-unit-test", "dev/debugging/tutorial/client-linter", "dev/debugging/tutorial/selenium", "dev/debugging/tutorial/runtime-error", "dev/debugging/tutorial/summary"]}<br><br> video: {"captions"=>["tnabtaf"], "date"=>"2021-02-15", "galaxy_version"=>"21.01", "length"=>"3M", "link"=>"_sH1uTKf4ec", "speakers"=>["assuntad23", "jdavcs"], "name"=>"Debugging Galaxy"} -->
+
+
+
+
+
+
+<!-- determine the next archived version of tutorial -->
+
+
+
+
+<div class="flex-row" style="margin-top:1em;">
+ <div class="col-md-8">
+  <h3 class="session-section">Debugging Wisdom (Lecture)  </h3>
+  <div style="position:relative;padding-top:56.25%;">
+   <iframe style="position:absolute;top:0;left:0;width:100%;height:100%;"
+    
+    data-src="https://www.youtube.com/embed/_sH1uTKf4ec"
+    
+     class="lazyload"
+     loading="lazy"
+     frameborder="0"
+     title="YouTube Embedded Video of the Tutorial"
+     aria-label="YouTube Embedded Video of the Tutorial"
+     allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+     allowfullscreen>
+   </iframe>
+  </div>
+  <div style="margin-top:1em;" class="video-metadata">
+      <table>
+          
+          <tr>
+              <td><strong>Description:</strong></td>
+              <td><p>A summary of wisdom to debug Galaxy with.</p>
+</td>
+          </tr>
+          
+          <tr>
+              <td><strong>Length:</strong></td>
+              <td>3 minutes</td>
+          </tr>
+   
+   
+          <tr>
+              <td><strong>Captions:</strong></td>
+              <td> <a href="/video-library/contributors/tnabtaf/">Dave Clements</a></td>
+          </tr>
+   
+          
+          <tr>
+              <td><strong>Created:</strong></td>
+              <td>15 February 2021</td>
+          </tr>
+          
+          
+          
+          <tr>
+              <td><strong>Materials:</strong></td>
+              <td>
+                <ul class="plain-text-list">
+                                
+                    <li>
+                        
+                            <img style="height: 1em" src="/video-library/assets/fa/tutorial.svg" alt="assets/fa/tutorial.svg" aria-hidden="true"/>
+                            
+                        
+
+
+                        
+                        
+                        Tutorial:
+
+                        <a href="https://training.galaxyproject.org/archive/2021-03-01/topics/dev/tutorials/debugging/tutorial.html?utm_source=schedule&utm_medium=click&utm_campaign=video-library">Version in Video</a>
+			<!-- We allow overriding specific materials to their archival versions, hiding the "current" link. -->
+			
+                        |
+                        <a href="https://training.galaxyproject.org/topics/dev/tutorials/debugging/tutorial.html?utm_source=schedule&utm_medium=click&utm_campaign=video-library">Latest Version</a>
+			
+
+                        
+                        <br>
+                        <img style="height: 1em" src="/video-library/assets/fa/circle-question-regular.svg" alt="assets/fa/circle-question-regular.svg" aria-hidden="true"/>
+                        
+                        <a href="https://training.galaxyproject.org/topics/dev/tutorials/debugging/faqs/?utm_source=schedule&utm_medium=click&utm_campaign=video-library">FAQs</a>
+                        
+                        
+                    </li>
+                
+                </ul>
+              </td>
+          </tr>
+          
+          <!-- this is for the embedded versions where they'll use their own1 support forum -->
+                    <tr>
+              <td><strong>Support:</strong></td>
+              <td>
+              <ul>
+                
+                
+                <li>Slack: <a href="https://gtnsmrgsbord.slack.com/archives/dev_debugging">#dev_debugging</a> <ul><li><a href="https://join.slack.com/t/gtnsmrgsbord/shared_invite/zt-x7vinbs1-BA~Kht6N86JBhDq0uTIVdQ">Slack Invite</a></li></ul></li>
+                <li><a href="https://gitter.im/Galaxy-Training-Network/Lobby">Gitter</a></li>
+                <li><a href="https://help.galaxyproject.org">Galaxy Help Forum</a></li>
+              </ul>
+              </td>
+          </tr>
+          
+          
+          <!--
+          
+          
+          <tr>
+              <td><strong>Finished this tutorial as part of GTN Tapas?</strong></td>
+              <td>
+              <ol>
+                
+                
+                <li><a href="https://training.galaxyproject.org/training-material/faqs/galaxy/histories_sharing.html?utm_source=schedule&utm_medium=click&utm_campaign=video-library">Share your history</a> (if applicable)</li>
+                <li>Copy the URL</li>
+                <li>Run the command <code>/completed</code> with the URL to your shared history, in <a href="https://gtnsmrgsbord.slack.com/archives/dev_debugging">#dev_debugging</a></li>
+              </ol>
+              </td>
+          </tr>
+          
+          -->
+      </table>
+
+  </div>
+  
+  Go to the <a href="/video-library/videos/dev/debugging/tutorial/summary">video page</a> to see all versions.
+  
+ </div>
+ <!-- speaker(s) -->
+ 
+ 
+
+ <div class="col-md-3">
+  <center><h3 class="session-section">Speakers</h3></center>
+  
+
+
+
+
+
+
+
+<div class="hall-of-fame">
+    
+    
+    
+		<div class="hall-of-fame-hero" id="assuntad23">
+			
+			<a href="/video-library/contributors/assuntad23/">
+			
+            
+			<img src="https://avatars.githubusercontent.com/assuntad23" alt="">
+            
+			<div class="name">
+				<b>Assunta DeSanto</b>
+			</div>
+			
+			</a>
+			
+			<div class="affil">
+				
+				<a href="https://www.psu.edu/">
+					Penn State University
+				</a>
+				
+			</div>
+		</div>
+	
+    
+    
+		<div class="hall-of-fame-hero" id="jdavcs">
+			
+			<a href="/video-library/contributors/jdavcs/">
+			
+            
+			<img src="https://avatars.githubusercontent.com/jdavcs" alt="">
+            
+			<div class="name">
+				<b>John Davis</b>
+			</div>
+			
+			</a>
+			
+			<div class="affil">
+				
+				<a href="https://www.jhu.edu/">
+					Johns Hopkins University
+				</a>
+				
+			</div>
+		</div>
+	
+    
+</div>
+
+ </div>
+
+
+</div><!-- end video session -->
+
+
+
+        
+        Go to <a href="/video-library/sessions/dev/debugging/tutorial/">session page</a>.
+      
+
+
+      <!-- Instructors -->
+      
+
+      <!-- Supporting Servers -->
+
+      <!-- Resources -->
+
+    </div><!-- end accordion body -->
+  </div><!-- end collapse -->
+</div><!-- end accordion item (training session) -->
+
+
+
+
+     
+  
+  </div>
+
+  
+  
+  
+  <h3 class="module-start"> Tool Development </h3>
+  
+  <p class="module-description"> <p>This module covers everything you need to start developing your own
+Galaxy Tools. This module will likely take you several days to
+complete.</p>
+ </p>
+  <div class="accordion" id="accordiontooldev">
+  
+     
+
+     
+       
+       
+
+
+
+
+
+
+
+
+
+
+
+<div class="accordion-item">
+  
+  <div class="accordion-header" id="headingtooldev0">
+   <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapsetooldev0" aria-expanded="false" aria-controls="collapsetooldev0">
+        Galaxy Tool Development
+        
+   </button>
+  </div>
+
+  <div id="collapsetooldev0" class="accordion-collapse collapse " aria-labelledby="headingtooldev0" data-bs-parent="#accordiontooldev">
 
     <div class="accordion-body">
 
@@ -153,7 +1764,7 @@ best tools and visualisations, and more!</p>
       
         
            
-           <!-- session: {"description"=>"1. The first step to adding a tool to Galaxy, is to add it to (Bio)Conda.\n   This tutorial will show you how to do that.\n2. Planemo is the Galaxy tool development kit, and will make your tool\n   development process a lot easier! This tutorial will show you how to use\n   Planemo to start the tool wrapping process, and covers the general\n   structure of a Galaxy tool wrapper.\n3. You are now ready to start writing your tool wrapper! This video will\n   show you how.\n4. Each tool wrapper also needs a .shed.yml file, which contains some\n   metadata about the tool.\n5. Here you will learn how to test Galaxy tools using Planemo.\n6. Here you will learn how to publish tools in public tool repositories.\n", "materials"=>[{"link"=>"topics/dev/tutorials/tool-from-scratch/tutorial.html", "type"=>"Tutorial"}], "tags"=>["dev"], "title"=>"Tools from Scratch", "type"=>"Tutorial", "versions"=>[{"captions"=>["gallardoalba"], "date"=>"2022-03-11", "galaxy_version"=>"22.01", "length"=>"40M", "link"=>"33L4B9ir0aQ", "speakers"=>["gallardoalba"], "name"=>"Creating Galaxy tools from Conda Through Deployment"}, {"captions"=>["davebx", "astrovsky01", "bernt-matthias"], "date"=>"2021-02-15", "galaxy_version"=>"21.01", "length"=>"1H40M", "link"=>"videoseries?list=PLNFLKDpdM3B9GhA0FryVV2YX3YL35rENK", "speakers"=>["davebx", "astrovsky01", "bernt-matthias"], "name"=>"Creating Galaxy tools from Conda Through Deployment"}], "gtn_id"=>"dev/tool-from-scratch", "captioned"=>true, "name"=>"Creating Galaxy tools from Conda Through Deployment"}<br><br> video: {"captions"=>["gallardoalba"], "date"=>"2022-03-11", "galaxy_version"=>"22.01", "length"=>"40M", "link"=>"33L4B9ir0aQ", "speakers"=>["gallardoalba"], "name"=>"Creating Galaxy tools from Conda Through Deployment"} -->
+           <!-- session: {"description"=>"1. The first step to adding a tool to Galaxy, is to add it to (Bio)Conda.\n   This tutorial will show you how to do that.\n2. Planemo is the Galaxy tool development kit, and will make your tool\n   development process a lot easier! This tutorial will show you how to use\n   Planemo to start the tool wrapping process, and covers the general\n   structure of a Galaxy tool wrapper.\n3. You are now ready to start writing your tool wrapper! This video will\n   show you how.\n4. Each tool wrapper also needs a .shed.yml file, which contains some\n   metadata about the tool.\n5. Here you will learn how to test Galaxy tools using Planemo.\n6. Here you will learn how to publish tools in public tool repositories.\n", "materials"=>[{"link"=>"topics/dev/tutorials/tool-from-scratch/tutorial.html", "type"=>"Tutorial"}], "tags"=>["dev"], "title"=>"Galaxy Tool Development", "type"=>"Tutorial", "versions"=>[{"captions"=>["gallardoalba"], "date"=>"2022-03-11", "galaxy_version"=>"22.01", "length"=>"40M", "link"=>"33L4B9ir0aQ", "speakers"=>["gallardoalba"], "name"=>"Creating Galaxy tools from Conda Through Deployment"}, {"captions"=>["davebx", "astrovsky01", "bernt-matthias"], "date"=>"2021-02-15", "galaxy_version"=>"21.01", "length"=>"1H40M", "link"=>"videoseries?list=PLNFLKDpdM3B9GhA0FryVV2YX3YL35rENK", "speakers"=>["davebx", "astrovsky01", "bernt-matthias"], "name"=>"Creating Galaxy tools from Conda Through Deployment"}], "gtn_id"=>"dev/tool-from-scratch", "captioned"=>true, "name"=>"Creating Galaxy tools from Conda Through Deployment"}<br><br> video: {"captions"=>["gallardoalba"], "date"=>"2022-03-11", "galaxy_version"=>"22.01", "length"=>"40M", "link"=>"33L4B9ir0aQ", "speakers"=>["gallardoalba"], "name"=>"Creating Galaxy tools from Conda Through Deployment"} -->
 
 
 
@@ -388,6 +1999,19 @@ metadata about the tool.</li>
 
      
   
+  </div>
+
+  
+  
+  
+  <h3 class="module-start"> Galaxy Training Material Development </h3>
+  
+  <p class="module-description"> <p>Here you can learn about contributing to the GTN’s development, adding
+new tutorials or slides, and correcting any typos you might spot in the
+training materials this week.</p>
+ </p>
+  <div class="accordion" id="accordiongtn">
+  
      
 
      
@@ -406,14 +2030,14 @@ metadata about the tool.</li>
 
 <div class="accordion-item">
   
-  <div class="accordion-header" id="headingintro1">
-   <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseintro1" aria-expanded="false" aria-controls="collapseintro1">
+  <div class="accordion-header" id="headinggtn0">
+   <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapsegtn0" aria-expanded="false" aria-controls="collapsegtn0">
         Running the GTN website online using GitPod
         
    </button>
   </div>
 
-  <div id="collapseintro1" class="accordion-collapse collapse " aria-labelledby="headingintro1" data-bs-parent="#accordionintro">
+  <div id="collapsegtn0" class="accordion-collapse collapse " aria-labelledby="headinggtn0" data-bs-parent="#accordiongtn">
 
     <div class="accordion-body">
 
@@ -659,14 +2283,14 @@ metadata about the tool.</li>
 
 <div class="accordion-item">
   
-  <div class="accordion-header" id="headingintro2">
-   <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseintro2" aria-expanded="false" aria-controls="collapseintro2">
+  <div class="accordion-header" id="headinggtn1">
+   <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapsegtn1" aria-expanded="false" aria-controls="collapsegtn1">
         Creating a new tutorial
         
    </button>
   </div>
 
-  <div id="collapseintro2" class="accordion-collapse collapse " aria-labelledby="headingintro2" data-bs-parent="#accordionintro">
+  <div id="collapsegtn1" class="accordion-collapse collapse " aria-labelledby="headinggtn1" data-bs-parent="#accordiongtn">
 
     <div class="accordion-body">
 
@@ -935,14 +2559,14 @@ metadata about the tool.</li>
 
 <div class="accordion-item">
   
-  <div class="accordion-header" id="headingintro3">
-   <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseintro3" aria-expanded="false" aria-controls="collapseintro3">
+  <div class="accordion-header" id="headinggtn2">
+   <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapsegtn2" aria-expanded="false" aria-controls="collapsegtn2">
         Creating Slides
         
    </button>
   </div>
 
-  <div id="collapseintro3" class="accordion-collapse collapse " aria-labelledby="headingintro3" data-bs-parent="#accordionintro">
+  <div id="collapsegtn2" class="accordion-collapse collapse " aria-labelledby="headinggtn2" data-bs-parent="#accordiongtn">
 
     <div class="accordion-body">
 
