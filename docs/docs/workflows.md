@@ -32,7 +32,7 @@ Date        | Time Left | What's happening
 
    ```
    # In a virtualenv
-   pip install git+https://github.com/galaxyproject/planemo
+   pip install planemo
    ```
 
 8. Run the command to initialise a workflow test
