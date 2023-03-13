@@ -16,14 +16,14 @@ program:
   scrna-intro:
     title: Intro to scRNA-seq analysis
     trainings:
-      - video: transcriptomics/scrna-intro/slides
-      - video: transcriptomics/scrna-umis/tutorial
-      - video: transcriptomics/scrna-preprocessing-tenx/tutorial
+      - video: single-cell/scrna-intro/slides
+      - video: single-cell/scrna-umis/tutorial
+      - video: single-cell/scrna-preprocessing-tenx/tutorial
   downstream:
     title: Downstream scRNA-seq analysis
     trainings:
-      - video: transcriptomics/scrna-scanpy-pbmc3k/tutorial
-      - video: transcriptomics/scrna-plant/tutorial
+      - video: single-cell/scrna-scanpy-pbmc3k/tutorial
+      - video: single-cell/scrna-plant/tutorial
 
 ---
 
