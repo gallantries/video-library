@@ -1,0 +1,26 @@
+{
+  "url": "/video-library/api/tags/workflowhub.json",
+  "videos": {
+    "ro-crates/workflowhub/tutorial": {
+      "description": null,
+      "materials": [
+        {
+          "link": "https://dev.workflowhub.eu"
+        },
+        {
+          "link": "https://about.workflowhub.eu/docs/registering-a-workflow/"
+        }
+      ],
+      "tags": [
+        "ro-crate",
+        "workflowhub"
+      ],
+      "title": "Registering Galaxy workflows in WorkflowHub",
+      "type": "Tutorial",
+      "versions": [
+
+      ],
+      "gtn_id": "ro-crates/workflowhub"
+    }
+  }
+}

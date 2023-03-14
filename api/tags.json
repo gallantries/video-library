@@ -5763,5 +5763,212 @@
         "captioned": true
       }
     }
+  },
+  "ro-crate": {
+    "url": "/video-library/api/tags/ro-crate.json",
+    "videos": {
+      "ro-crates/intro/slides": {
+        "description": null,
+        "materials": [
+          {
+            "link": "https://doi.org/10.5281/zenodo.7559339"
+          }
+        ],
+        "tags": [
+          "ro-crate"
+        ],
+        "title": "Intro to RO-Crate",
+        "type": "Tutorial",
+        "versions": [
+
+        ],
+        "gtn_id": "ro-crates/intro"
+      },
+      "ro-crates/publishing/tutorial": {
+        "description": null,
+        "materials": [
+          {
+            "link": "https://github.com/ResearchObject/ro-tutorials"
+          },
+          {
+            "link": "https://www.researchobject.org/ro-crate/1.2-DRAFT/introduction.html"
+          },
+          {
+            "link": "https://slides.com/soilandreyes/2021-07-15-sharing-fair-research-objects#/18"
+          },
+          {
+            "link": "https://github.com/marketplace/actions/ro-crate-preview"
+          }
+        ],
+        "tags": [
+          "ro-crate"
+        ],
+        "title": "Publishing My First™ RO-Crate",
+        "type": "Tutorial",
+        "versions": [
+
+        ],
+        "gtn_id": "ro-crates/publishing"
+      },
+      "ro-crates/python/tutorial": {
+        "description": null,
+        "materials": [
+          {
+            "link": "https://github.com/ResearchObject/ro-crate-py#creating-an-ro-crate"
+          }
+        ],
+        "tags": [
+          "ro-crate",
+          "python"
+        ],
+        "title": "RO-Crate in Python",
+        "type": "Tutorial",
+        "versions": [
+
+        ],
+        "gtn_id": "ro-crates/python"
+      },
+      "ro-crates/workflow-run-crate/tutorial": {
+        "description": null,
+        "materials": [
+          {
+            "link": "https://www.researchobject.org/workflow-run-crate/profiles/"
+          },
+          {
+            "link": "https://by-covid.github.io/baseline-use-case-synthetic-crate/"
+          }
+        ],
+        "tags": [
+          "ro-crate"
+        ],
+        "title": "Workflow Run Crate profile intro",
+        "type": "Tutorial",
+        "versions": [
+
+        ],
+        "gtn_id": "ro-crates/workflow-run-crate"
+      },
+      "ro-crates/extending/tutorial": {
+        "description": null,
+        "materials": [
+          {
+            "link": "https://www.researchobject.org/ro-crate/1.2-DRAFT/profiles"
+          }
+        ],
+        "tags": [
+          "ro-crate"
+        ],
+        "title": "Extending RO-Crate & Making a Profile",
+        "type": "Tutorial",
+        "versions": [
+
+        ],
+        "gtn_id": "ro-crates/extending"
+      },
+      "ro-crates/workflowhub/tutorial": {
+        "description": null,
+        "materials": [
+          {
+            "link": "https://dev.workflowhub.eu"
+          },
+          {
+            "link": "https://about.workflowhub.eu/docs/registering-a-workflow/"
+          }
+        ],
+        "tags": [
+          "ro-crate",
+          "workflowhub"
+        ],
+        "title": "Registering Galaxy workflows in WorkflowHub",
+        "type": "Tutorial",
+        "versions": [
+
+        ],
+        "gtn_id": "ro-crates/workflowhub"
+      },
+      "ro-crates/bestpractices/tutorial": {
+        "description": null,
+        "materials": [
+          {
+            "link": "https://github.com/galaxyproject/iwc/blob/main/workflows/README.md#adding-workflows"
+          }
+        ],
+        "tags": [
+          "ro-crate"
+        ],
+        "title": "Best Practices for RO-Crates in Galaxy in GitHub Repositories",
+        "type": "Tutorial",
+        "versions": [
+
+        ],
+        "gtn_id": "ro-crates/bestpractices"
+      },
+      "ro-crates/lifemonitor/tutorial": {
+        "description": null,
+        "materials": [
+          {
+            "link": "https://crs4.github.io/life_monitor/lm_wft_best_practices_github_app"
+          }
+        ],
+        "tags": [
+          "ro-crate"
+        ],
+        "title": "Submitting workflows to LifeMonitor with the Workflow Testing RO-Crate profile",
+        "type": "Tutorial",
+        "versions": [
+
+        ],
+        "gtn_id": "ro-crates/lifemonitor"
+      }
+    }
+  },
+  "python": {
+    "url": "/video-library/api/tags/python.json",
+    "videos": {
+      "ro-crates/python/tutorial": {
+        "description": null,
+        "materials": [
+          {
+            "link": "https://github.com/ResearchObject/ro-crate-py#creating-an-ro-crate"
+          }
+        ],
+        "tags": [
+          "ro-crate",
+          "python"
+        ],
+        "title": "RO-Crate in Python",
+        "type": "Tutorial",
+        "versions": [
+
+        ],
+        "gtn_id": "ro-crates/python"
+      }
+    }
+  },
+  "workflowhub": {
+    "url": "/video-library/api/tags/workflowhub.json",
+    "videos": {
+      "ro-crates/workflowhub/tutorial": {
+        "description": null,
+        "materials": [
+          {
+            "link": "https://dev.workflowhub.eu"
+          },
+          {
+            "link": "https://about.workflowhub.eu/docs/registering-a-workflow/"
+          }
+        ],
+        "tags": [
+          "ro-crate",
+          "workflowhub"
+        ],
+        "title": "Registering Galaxy workflows in WorkflowHub",
+        "type": "Tutorial",
+        "versions": [
+
+        ],
+        "gtn_id": "ro-crates/workflowhub"
+      }
+    }
   }
 }
