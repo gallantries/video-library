@@ -3430,6 +3430,7 @@ ro-crates/intro/slides:
   title: Intro to RO-Crate
   type: Tutorial
   versions: []
+  support_channel: ro-crate
 ro-crates/publishing/tutorial:
   description:
   materials:
@@ -3441,6 +3442,7 @@ ro-crates/publishing/tutorial:
   title: Publishing My First™ RO-Crate
   type: Tutorial
   versions: []
+  support_channel: ro-crate
 ro-crates/python/tutorial:
   description:
   materials:
@@ -3449,6 +3451,7 @@ ro-crates/python/tutorial:
   title: RO-Crate in Python
   type: Tutorial
   versions: []
+  support_channel: ro-crate
 ro-crates/workflow-run-crate/tutorial:
   description:
   materials:
@@ -3458,6 +3461,7 @@ ro-crates/workflow-run-crate/tutorial:
   title: Workflow Run Crate profile intro
   type: Tutorial
   versions: []
+  support_channel: ro-crate
 ro-crates/extending/tutorial:
   description:
   materials:
@@ -3466,6 +3470,7 @@ ro-crates/extending/tutorial:
   title: Extending RO-Crate & Making a Profile
   type: Tutorial
   versions: []
+  support_channel: ro-crate
 ro-crates/workflowhub/tutorial:
   description:
   materials:
@@ -3475,6 +3480,7 @@ ro-crates/workflowhub/tutorial:
   title: Registering Galaxy workflows in WorkflowHub
   type: Tutorial
   versions: []
+  support_channel: ro-crate
 ro-crates/bestpractices/tutorial:
   description:
   materials:
@@ -3483,6 +3489,7 @@ ro-crates/bestpractices/tutorial:
   title: Best Practices for RO-Crates in Galaxy in GitHub Repositories
   type: Tutorial
   versions: []
+  support_channel: ro-crate
 ro-crates/lifemonitor/tutorial:
   description:
   materials:
@@ -3491,3 +3498,4 @@ ro-crates/lifemonitor/tutorial:
   title: Submitting workflows to LifeMonitor with the Workflow Testing RO-Crate profile
   type: Tutorial
   versions: []
+  support_channel: ro-crate
