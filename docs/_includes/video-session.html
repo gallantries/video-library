@@ -65,7 +65,7 @@
               <td><strong>Materials:</strong></td>
               <td>
                 <ul class="plain-text-list">
-                                {% for m in materials %}
+                    {% for m in materials %}
                     <li>
                         {% if m.type == "Tutorial" %}
                             {% icon tutorial %}
@@ -74,26 +74,25 @@
                             {% icon slides %}
                         {% endif %}
 
-
                         {% assign prefix = m.link | split:'/' | first %}
                         {% if prefix == "topics" %}
-                        {{ m.type }}:
+				{{ m.type }}:
 
-                        <a href="{{site.gtn}}/archive/{{archiveyear}}-{{archivemonth}}-01/{{m.link}}?utm_source=schedule&utm_medium=click&utm_campaign=video-library">Version in Video</a>
-			<!-- We allow overriding specific materials to their archival versions, hiding the "current" link. -->
-			{% unless force_archive_materials %}
-                        |
-                        <a href="{{site.gtn}}/{{m.link}}?utm_source=schedule&utm_medium=click&utm_campaign=video-library">Latest Version</a>
-			{% endunless %}
+				<a href="{{site.gtn}}/archive/{{archiveyear}}-{{archivemonth}}-01/{{m.link}}?utm_source=schedule&utm_medium=click&utm_campaign=video-library">Version in Video</a>
+				<!-- We allow overriding specific materials to their archival versions, hiding the "current" link. -->
+				{% unless force_archive_materials %}
+				|
+				<a href="{{site.gtn}}/{{m.link}}?utm_source=schedule&utm_medium=click&utm_campaign=video-library">Latest Version</a>
+				{% endunless %}
 
-                        {% if m.type == "Tutorial" %}
-                        <br>
-                        {% icon faq %}
-                        {% assign faqpage = m.link | remove: "tutorial.html" | append: "faqs/" %}
-                        <a href="{{site.gtn}}/{{faqpage}}?utm_source=schedule&utm_medium=click&utm_campaign=video-library">FAQs</a>
-                        {% endif %}
+				{% if m.type == "Tutorial" %}
+				<br>
+				{% icon faq %}
+				{% assign faqpage = m.link | remove: "tutorial.html" | append: "faqs/" %}
+				<a href="{{site.gtn}}/{{faqpage}}?utm_source=schedule&utm_medium=click&utm_campaign=video-library">FAQs</a>
+				{% endif %}
                         {% else %}
-                        <a href="{% unless m.link contains 'http' %}{{site.gtn}}/{% endunless %}{{m.link}}?utm_source=schedule&utm_medium=click&utm_campaign=video-library">{{m.title | default:m.type}}</a>
+				<a href="{% unless m.link contains 'http' %}{{site.gtn}}/{% endunless %}{{m.link}}?utm_source=schedule&utm_medium=click&utm_campaign=video-library">{{m.title | default:m.type | default:m.link}}</a>
                         {% endif %}
                     </li>
                 {% endfor %}
