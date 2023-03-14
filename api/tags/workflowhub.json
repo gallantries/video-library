@@ -20,6 +20,7 @@
       "versions": [
 
       ],
+      "support_channel": "ro-crate",
       "gtn_id": "ro-crates/workflowhub"
     }
   }

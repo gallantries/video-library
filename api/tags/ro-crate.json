@@ -16,6 +16,7 @@
       "versions": [
 
       ],
+      "support_channel": "ro-crate",
       "gtn_id": "ro-crates/intro"
     },
     "ro-crates/publishing/tutorial": {
@@ -42,6 +43,7 @@
       "versions": [
 
       ],
+      "support_channel": "ro-crate",
       "gtn_id": "ro-crates/publishing"
     },
     "ro-crates/python/tutorial": {
@@ -60,6 +62,7 @@
       "versions": [
 
       ],
+      "support_channel": "ro-crate",
       "gtn_id": "ro-crates/python"
     },
     "ro-crates/workflow-run-crate/tutorial": {
@@ -80,6 +83,7 @@
       "versions": [
 
       ],
+      "support_channel": "ro-crate",
       "gtn_id": "ro-crates/workflow-run-crate"
     },
     "ro-crates/extending/tutorial": {
@@ -97,6 +101,7 @@
       "versions": [
 
       ],
+      "support_channel": "ro-crate",
       "gtn_id": "ro-crates/extending"
     },
     "ro-crates/workflowhub/tutorial": {
@@ -118,6 +123,7 @@
       "versions": [
 
       ],
+      "support_channel": "ro-crate",
       "gtn_id": "ro-crates/workflowhub"
     },
     "ro-crates/bestpractices/tutorial": {
@@ -135,6 +141,7 @@
       "versions": [
 
       ],
+      "support_channel": "ro-crate",
       "gtn_id": "ro-crates/bestpractices"
     },
     "ro-crates/lifemonitor/tutorial": {
@@ -152,6 +159,7 @@
       "versions": [
 
       ],
+      "support_channel": "ro-crate",
       "gtn_id": "ro-crates/lifemonitor"
     }
   }
