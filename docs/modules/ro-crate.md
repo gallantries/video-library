@@ -5,6 +5,20 @@ title: FAIR data and provenance with RO-Crate and Galaxy
 program:
   intro:
     title: This module is currently under development, content will appear here as it is completed
+  building:
+    title: Building RO-Crates
+    trainings:
+      - video: ro-crates/intro/slides
+      - video: ro-crates/publishing/tutorial
+      - video: ro-crates/python/tutorial
+      - video: ro-crates/workflow-run-crate/tutorial
+      - video: ro-crates/extending/tutorial
+  extending:
+    title: Publishing Workflow RO-Crates with Galaxy
+    trainings:
+      - video: ro-crates/workflowhub/tutorial
+      - video: ro-crates/bestpractices/tutorial
+      - video: ro-crates/lifemonitor/tutorial
 ---
 
 [RO-Crate](https://w3id.org/ro/crate) is a community effort to practically achieve FAIR packaging of [research objects](https://doi.org/10.1016/j.websem.2015.01.003) (digital objects like data, methods, software) with structured metadata. RO-Crate uses well-established Web standards and FAIR principles.
