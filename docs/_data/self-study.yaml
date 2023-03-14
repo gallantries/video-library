@@ -9,7 +9,7 @@ visualisation/jbrowse/slides:
   - link: topics/visualisation/tutorials/jbrowse/slides.html
     title: JBrowse
     type: Slides
-  support_channel: '#visualisation_jbrowse'
+  support_channel: 'visualisation_jbrowse'
   support_link: https://gtnsmrgsbord.slack.com/archives/C01FP1QR49H
   tags:
   - visualisation
@@ -24,7 +24,7 @@ visualisation/jbrowse/tutorial:
   materials:
   - link: topics/visualisation/tutorials/jbrowse/tutorial.html
     type: Tutorial
-  support_channel: '#visualisation_jbrowse'
+  support_channel: 'visualisation_jbrowse'
   support_link: https://gtnsmrgsbord.slack.com/archives/C01FP1QR49H
   tags:
   - visualisation
@@ -43,7 +43,7 @@ computational-chemistry/cheminformatics/tutorial:
   - link: topics/computational-chemistry/tutorials/cheminformatics/tutorial.html
     title: Protein-ligand docking
     type: Tutorial
-  support_channel: '#cheminformatics'
+  support_channel: 'cheminformatics'
   support_link: https://gtnsmrgsbord.slack.com/archives/C01MC9SK344
   tags:
   - computational-chemistry
@@ -62,7 +62,7 @@ computational-chemistry/md-simulation-gromacs/tutorial:
   - link: topics/computational-chemistry/tutorials/md-simulation-gromacs/tutorial.html
     title: Running molecular dynamics simulations using GROMACS
     type: Tutorial
-  support_channel: '#cheminformatics'
+  support_channel: 'cheminformatics'
   support_link: https://gtnsmrgsbord.slack.com/archives/C01MC9SK344
   tags:
   - computational-chemistry
@@ -81,7 +81,7 @@ ecology/PAMPA-toolsuite-tutorial/tutorial:
   - link: topics/ecology/tutorials/PAMPA-toolsuite-tutorial/tutorial.html
     title: Compute and analyze biodiversity metrics with PAMPA toolsuite
     type: Tutorial
-  support_channel: '#ecology_pampa-toolsuite'
+  support_channel: 'ecology_pampa-toolsuite'
   support_link: https://gtnsmrgsbord.slack.com/archives/C01FG38RR7Y
   tags:
   - ecology
@@ -99,7 +99,7 @@ proteomics/biomarker_selection/tutorial:
   - link: topics/proteomics/tutorials/biomarker_selection/tutorial.html
     title: Biomarker candidate identification
     type: Tutorial
-  support_channel: '#proteomics_proteore-biomarkers-discovery'
+  support_channel: 'proteomics_proteore-biomarkers-discovery'
   support_link: https://gtnsmrgsbord.slack.com/archives/C01FP2AHUV9
   tags:
   - proteomics
