@@ -25,10 +25,10 @@ The knowledge of any additional sessions that would be a good fit is up to you a
 
 We're very excited to have people presenting content at Smörgåsbord!
 
-We **strongly** encourage you to follow the [Recording Guide]({% link docs/docs/recording.md %}) which provides key information as to how best to record videos for the Smörgåsbord event series.
+We **strongly** encourage you to follow the [Recording Guide]({% link docs/recording.md %}) which provides key information as to how best to record videos for the Smörgåsbord event series.
 
 As we are very keen to keep this event accessible to everyone, ensuring you have a good zoom level and mouse cursor is key.
 
 ## During-Week Technical Support
 
-Please see the much more detailed [Instructor Guide]({% link docs/instrucotrs.md %})
+Please see the much more detailed [Instructor Guide]({% link docs/instructors.md %})
