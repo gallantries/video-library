@@ -31,4 +31,4 @@ As we are very keen to keep this event accessible to everyone, ensuring you have
 
 ## During-Week Technical Support
 
-Please see the much more detailed [Instructor Guide]({% link docs/instructors.md %})
+Please see the much more detailed [Instructor Guide]({% link instructors.md %})
