@@ -4,8 +4,9 @@ title: "Smörgåsbord 2023: Smörgånising Roles"
 author: hexylena
 ---
 
-This document provides a brief overview of the various roles 
+# Smörgånising Roles
 
+This document provides a brief overview of the various roles needed before and during the event:
 
 ## Module Leads
 
