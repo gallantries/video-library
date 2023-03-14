@@ -679,5 +679,11 @@
     "affiliation": [
       "johnshopkins"
     ]
+  },
+  "stain": {
+    "name": "Stian Soiland-Reyes",
+    "affiliation": [
+      "by-covid"
+    ]
   }
 }

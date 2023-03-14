@@ -18,10 +18,21 @@
       "title": "Registering Galaxy workflows in WorkflowHub",
       "type": "Tutorial",
       "versions": [
-
+        {
+          "captions": [
+            "stain"
+          ],
+          "date": "2023-03-03",
+          "length": "20M",
+          "link": "dQw4w9WgXcQ",
+          "speakers": [
+            "stain"
+          ]
+        }
       ],
       "support_channel": "ro-crate",
-      "gtn_id": "ro-crates/workflowhub"
+      "gtn_id": "ro-crates/workflowhub",
+      "captioned": true
     }
   }
 }

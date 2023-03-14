@@ -5780,10 +5780,21 @@
         "title": "Intro to RO-Crate",
         "type": "Tutorial",
         "versions": [
-
+          {
+            "captions": [
+              "stain"
+            ],
+            "date": "2023-03-03",
+            "length": "20M",
+            "link": "dQw4w9WgXcQ",
+            "speakers": [
+              "stain"
+            ]
+          }
         ],
         "support_channel": "ro-crate",
-        "gtn_id": "ro-crates/intro"
+        "gtn_id": "ro-crates/intro",
+        "captioned": true
       },
       "ro-crates/publishing/tutorial": {
         "description": null,
@@ -5807,10 +5818,21 @@
         "title": "Publishing My First™ RO-Crate",
         "type": "Tutorial",
         "versions": [
-
+          {
+            "captions": [
+              "stain"
+            ],
+            "date": "2023-03-03",
+            "length": "20M",
+            "link": "dQw4w9WgXcQ",
+            "speakers": [
+              "stain"
+            ]
+          }
         ],
         "support_channel": "ro-crate",
-        "gtn_id": "ro-crates/publishing"
+        "gtn_id": "ro-crates/publishing",
+        "captioned": true
       },
       "ro-crates/python/tutorial": {
         "description": null,
@@ -5826,10 +5848,21 @@
         "title": "RO-Crate in Python",
         "type": "Tutorial",
         "versions": [
-
+          {
+            "captions": [
+              "stain"
+            ],
+            "date": "2023-03-03",
+            "length": "20M",
+            "link": "dQw4w9WgXcQ",
+            "speakers": [
+              "stain"
+            ]
+          }
         ],
         "support_channel": "ro-crate",
-        "gtn_id": "ro-crates/python"
+        "gtn_id": "ro-crates/python",
+        "captioned": true
       },
       "ro-crates/workflow-run-crate/tutorial": {
         "description": null,
@@ -5847,10 +5880,21 @@
         "title": "Workflow Run Crate profile intro",
         "type": "Tutorial",
         "versions": [
-
+          {
+            "captions": [
+              "stain"
+            ],
+            "date": "2023-03-03",
+            "length": "20M",
+            "link": "dQw4w9WgXcQ",
+            "speakers": [
+              "stain"
+            ]
+          }
         ],
         "support_channel": "ro-crate",
-        "gtn_id": "ro-crates/workflow-run-crate"
+        "gtn_id": "ro-crates/workflow-run-crate",
+        "captioned": true
       },
       "ro-crates/extending/tutorial": {
         "description": null,
@@ -5865,10 +5909,21 @@
         "title": "Extending RO-Crate & Making a Profile",
         "type": "Tutorial",
         "versions": [
-
+          {
+            "captions": [
+              "stain"
+            ],
+            "date": "2023-03-03",
+            "length": "20M",
+            "link": "dQw4w9WgXcQ",
+            "speakers": [
+              "stain"
+            ]
+          }
         ],
         "support_channel": "ro-crate",
-        "gtn_id": "ro-crates/extending"
+        "gtn_id": "ro-crates/extending",
+        "captioned": true
       },
       "ro-crates/workflowhub/tutorial": {
         "description": null,
@@ -5887,10 +5942,21 @@
         "title": "Registering Galaxy workflows in WorkflowHub",
         "type": "Tutorial",
         "versions": [
-
+          {
+            "captions": [
+              "stain"
+            ],
+            "date": "2023-03-03",
+            "length": "20M",
+            "link": "dQw4w9WgXcQ",
+            "speakers": [
+              "stain"
+            ]
+          }
         ],
         "support_channel": "ro-crate",
-        "gtn_id": "ro-crates/workflowhub"
+        "gtn_id": "ro-crates/workflowhub",
+        "captioned": true
       },
       "ro-crates/bestpractices/tutorial": {
         "description": null,
@@ -5905,10 +5971,21 @@
         "title": "Best Practices for RO-Crates in Galaxy in GitHub Repositories",
         "type": "Tutorial",
         "versions": [
-
+          {
+            "captions": [
+              "stain"
+            ],
+            "date": "2023-03-03",
+            "length": "20M",
+            "link": "dQw4w9WgXcQ",
+            "speakers": [
+              "stain"
+            ]
+          }
         ],
         "support_channel": "ro-crate",
-        "gtn_id": "ro-crates/bestpractices"
+        "gtn_id": "ro-crates/bestpractices",
+        "captioned": true
       },
       "ro-crates/lifemonitor/tutorial": {
         "description": null,
@@ -5923,10 +6000,21 @@
         "title": "Submitting workflows to LifeMonitor with the Workflow Testing RO-Crate profile",
         "type": "Tutorial",
         "versions": [
-
+          {
+            "captions": [
+              "stain"
+            ],
+            "date": "2023-03-03",
+            "length": "20M",
+            "link": "dQw4w9WgXcQ",
+            "speakers": [
+              "stain"
+            ]
+          }
         ],
         "support_channel": "ro-crate",
-        "gtn_id": "ro-crates/lifemonitor"
+        "gtn_id": "ro-crates/lifemonitor",
+        "captioned": true
       }
     }
   },
@@ -5947,10 +6035,21 @@
         "title": "RO-Crate in Python",
         "type": "Tutorial",
         "versions": [
-
+          {
+            "captions": [
+              "stain"
+            ],
+            "date": "2023-03-03",
+            "length": "20M",
+            "link": "dQw4w9WgXcQ",
+            "speakers": [
+              "stain"
+            ]
+          }
         ],
         "support_channel": "ro-crate",
-        "gtn_id": "ro-crates/python"
+        "gtn_id": "ro-crates/python",
+        "captioned": true
       }
     }
   },
@@ -5974,10 +6073,21 @@
         "title": "Registering Galaxy workflows in WorkflowHub",
         "type": "Tutorial",
         "versions": [
-
+          {
+            "captions": [
+              "stain"
+            ],
+            "date": "2023-03-03",
+            "length": "20M",
+            "link": "dQw4w9WgXcQ",
+            "speakers": [
+              "stain"
+            ]
+          }
         ],
         "support_channel": "ro-crate",
-        "gtn_id": "ro-crates/workflowhub"
+        "gtn_id": "ro-crates/workflowhub",
+        "captioned": true
       }
     }
   }
