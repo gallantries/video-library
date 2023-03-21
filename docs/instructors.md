@@ -49,7 +49,7 @@ program:
       - custom:
           title: Slack for Support
           description: |
-            1. Join the [GTN Training Slack](https://gtnsmrgsbord.slack.com/), using this [invite link](https://join.slack.com/t/gtnsmrgsbord/shared_invite/zt-x7vinbs1-BA~Kht6N86JBhDq0uTIVdQ")
+            1. Join the [GTN Training Slack](https://gtnsmrgsbord.slack.com/), using this [invite link](https://join.slack.com/t/gtnsmrgsbord/shared_invite/zt-x7vinbs1-BA~Kht6N86JBhDq0uTIVdQ)
             2. Ask to be added to the [#instructors](https://gtnsmrgsbord.slack.com/archives/C01ES97MZBN) channel.
             3. Browse channels and join the ones you would like to help with!
                - Slack channels for each session can be found under the videos on the event page.
