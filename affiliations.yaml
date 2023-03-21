@@ -222,6 +222,10 @@ uni-evry:
    name: Université d'Évry / Paris-Saclay
    link: "http://www.univ-evry.fr/"
    logo: uni-evry.png
+   
+univpittsburgh:
+   name: University of Pittsburgh
+   link: "https://www.pitt.edu/"
 
 pu:
   name: Pondicherry University
