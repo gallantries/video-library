@@ -72,6 +72,10 @@ mapping:
                         - visualisation
                         - webinar
                         - wetlab
+                        - ro-crate
+                        - python
+                        - workflowhub
+                        - r
             versions:
                 type: seq
                 sequence:
