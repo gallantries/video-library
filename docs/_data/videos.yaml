@@ -3555,22 +3555,6 @@ ro-crates/lifemonitor/tutorial:
     speakers:
     - stain
   support_channel: ro-crate
-bioconductor/intro/slides:
-  description:
-  materials:
-  - link: https://carpentries-incubator.github.io/bioc-intro/
-  tags: [bioconductor]
-  title: Introduction to data analysis with R and Bioconductor
-  type: Tutorial
-  versions:
-  - captions:
-    - stain
-    date: '2023-03-03'
-    length: 20M
-    link: dQw4w9WgXcQ
-    speakers:
-    - stain
-  support_channel: TBC
 bioconductor/bioc-intro/tutorial:
   description:
   materials:
@@ -3640,7 +3624,7 @@ bioconductor/isee/tutorial:
   materials:
   - link: https://isee.github.io/iSEEWorkshop2020/
   tags: [bioconductor]
-  title: iSEE: Interactive visualization of SummarizedExperiment objects
+  title: "iSEE: Interactive visualization of SummarizedExperiment objects"
   type: Tutorial
   versions:
   - captions:
@@ -3688,7 +3672,7 @@ bioconductor/fluentGenomics/tutorial:
   materials:
   - link: https://www.bioconductor.org/packages/release/workflows/vignettes/fluentGenomics/inst/doc/fluentGenomics.html
   tags: [bioconductor]
-  title: fluentGenomics: A plyranges and tximeta workflow
+  title: "fluentGenomics: A plyranges and tximeta workflow"
   type: Tutorial
   versions:
   - captions:
@@ -3704,7 +3688,7 @@ bioconductor/RNAseq123/tutorial:
   materials:
   - link: https://www.bioconductor.org/packages/release/workflows/vignettes/RNAseq123/inst/doc/limmaWorkflow.html
   tags: [bioconductor]
-  title: RNA-seq analysis is easy as 1-2-3 with limma, Glimma and edgeR
+  title: "RNA-seq analysis is easy as 1-2-3 with limma, Glimma and edgeR"
   type: Tutorial
   versions:
   - captions:
@@ -3720,7 +3704,7 @@ bioconductor/RnaSeqGeneEdgeRQL/tutorial:
   materials:
   - link: https://www.bioconductor.org/packages/release/workflows/vignettes/RnaSeqGeneEdgeRQL/inst/doc/edgeRQL.html
   tags: [bioconductor]
-  title: From reads to genes to pathways: differential expression analysis of RNA-Seq experiments using Rsubread and the edgeR quasi-likelihood pipeline
+  title: "From reads to genes to pathways: differential expression analysis of RNA-Seq experiments using Rsubread and the edgeR quasi-likelihood pipeline"
   type: Tutorial
   versions:
   - captions:
