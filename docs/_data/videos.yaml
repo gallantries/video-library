@@ -3559,7 +3559,7 @@ bioconductor/bioc-intro/tutorial:
   description:
   materials:
   - link: https://carpentries-incubator.github.io/bioc-intro/
-  tags: [bioconductor]
+  tags:
   title: Introduction to data analysis with R and Bioconductor
   type: Tutorial
   versions:
@@ -3570,12 +3570,12 @@ bioconductor/bioc-intro/tutorial:
     link: dQw4w9WgXcQ
     speakers:
     - stain
-  support_channel: TBC
+  support_channel: general
 bioconductor/bioc-rnaseq/tutorial:
   description:
   materials:
   - link: https://carpentries-incubator.github.io/bioc-rnaseq/
-  tags: [bioconductor]
+  tags:
   title: RNA-seq analysis with Bioconductor
   type: Tutorial
   versions:
@@ -3586,12 +3586,12 @@ bioconductor/bioc-rnaseq/tutorial:
     link: dQw4w9WgXcQ
     speakers:
     - stain
-  support_channel: TBC
+  support_channel: general
 bioconductor/bioc-project/tutorial:
   description:
   materials:
   - link: https://carpentries-incubator.github.io/bioc-project/
-  tags: [bioconductor]
+  tags:
   title: The Bioconductor project
   type: Tutorial
   versions:
@@ -3602,12 +3602,12 @@ bioconductor/bioc-project/tutorial:
     link: dQw4w9WgXcQ
     speakers:
     - stain
-  support_channel: TBC
+  support_channel: general
 bioconductor/rformassspectrometry/tutorial:
   description:
   materials:
   - link: https://rformassspectrometry.github.io/docs/
-  tags: [bioconductor]
+  tags:
   title: R for Mass Spectrometry
   type: Tutorial
   versions:
@@ -3618,12 +3618,12 @@ bioconductor/rformassspectrometry/tutorial:
     link: dQw4w9WgXcQ
     speakers:
     - stain
-  support_channel: TBC
+  support_channel: general
 bioconductor/isee/tutorial:
   description:
   materials:
   - link: https://isee.github.io/iSEEWorkshop2020/
-  tags: [bioconductor]
+  tags:
   title: "iSEE: Interactive visualization of SummarizedExperiment objects"
   type: Tutorial
   versions:
@@ -3634,12 +3634,12 @@ bioconductor/isee/tutorial:
     link: qmoJtL8b438
     speakers:
     - stain
-  support_channel: TBC
+  support_channel: general
 bioconductor/bioc2022_tidytranscriptomics/tutorial:
   description:
   materials:
   - link: https://tidytranscriptomics-workshops.github.io/bioc2022_tidytranscriptomics/articles/tidytranscriptomics_case_study.html
-  tags: [bioconductor]
+  tags:
   title: Tidy Transcriptomics For Single-Cell RNA Sequencing Analyses
   type: Tutorial
   versions:
@@ -3650,12 +3650,12 @@ bioconductor/bioc2022_tidytranscriptomics/tutorial:
     link: LKWcut6l--c
     speakers:
     - stain
-  support_channel: TBC
+  support_channel: general
 bioconductor/CompGenomicsBioc2022/tutorial:
   description:
   materials:
   - link: https://www.ahl27.com/CompGenomicsBioc2022/index.html
-  tags: [bioconductor]
+  tags:
   title: Comparative Genomics with DECIPHER and SynExtend
   type: Tutorial
   versions:
@@ -3666,12 +3666,12 @@ bioconductor/CompGenomicsBioc2022/tutorial:
     link: JgTc2jiMPF0
     speakers:
     - stain
-  support_channel: TBC
+  support_channel: general
 bioconductor/fluentGenomics/tutorial:
   description:
   materials:
   - link: https://www.bioconductor.org/packages/release/workflows/vignettes/fluentGenomics/inst/doc/fluentGenomics.html
-  tags: [bioconductor]
+  tags:
   title: "fluentGenomics: A plyranges and tximeta workflow"
   type: Tutorial
   versions:
@@ -3682,12 +3682,12 @@ bioconductor/fluentGenomics/tutorial:
     link: dQw4w9WgXcQ
     speakers:
     - stain
-  support_channel: TBC
+  support_channel: general
 bioconductor/RNAseq123/tutorial:
   description:
   materials:
   - link: https://www.bioconductor.org/packages/release/workflows/vignettes/RNAseq123/inst/doc/limmaWorkflow.html
-  tags: [bioconductor]
+  tags:
   title: "RNA-seq analysis is easy as 1-2-3 with limma, Glimma and edgeR"
   type: Tutorial
   versions:
@@ -3698,12 +3698,12 @@ bioconductor/RNAseq123/tutorial:
     link: dQw4w9WgXcQ
     speakers:
     - stain
-  support_channel: TBC
+  support_channel: general
 bioconductor/RnaSeqGeneEdgeRQL/tutorial:
   description:
   materials:
   - link: https://www.bioconductor.org/packages/release/workflows/vignettes/RnaSeqGeneEdgeRQL/inst/doc/edgeRQL.html
-  tags: [bioconductor]
+  tags:
   title: "From reads to genes to pathways: differential expression analysis of RNA-Seq experiments using Rsubread and the edgeR quasi-likelihood pipeline"
   type: Tutorial
   versions:
@@ -3714,12 +3714,12 @@ bioconductor/RnaSeqGeneEdgeRQL/tutorial:
     link: dQw4w9WgXcQ
     speakers:
     - stain
-  support_channel: TBC
+  support_channel: general
 bioconductor/SingscoreAMLMutations/tutorial:
   description:
   materials:
   - link: https://www.bioconductor.org/packages/release/workflows/vignettes/SingscoreAMLMutations/inst/doc/workflow_transcriptional_mut_sig.html
-  tags: [bioconductor]
+  tags:
   title: Using singscore to predict mutations in AML from transcriptomic signatures
   type: Tutorial
   versions:
@@ -3730,4 +3730,4 @@ bioconductor/SingscoreAMLMutations/tutorial:
     link: dQw4w9WgXcQ
     speakers:
     - stain
-  support_channel: TBC
+  support_channel: general
