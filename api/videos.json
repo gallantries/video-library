@@ -5452,5 +5452,335 @@
     "support_channel": "ro-crate",
     "gtn_id": "ro-crates/lifemonitor",
     "captioned": true
+  },
+  "bioconductor/bioc-intro/tutorial": {
+    "description": null,
+    "materials": [
+      {
+        "link": "https://carpentries-incubator.github.io/bioc-intro/"
+      }
+    ],
+    "tags": [
+      "bioconductor",
+      "r"
+    ],
+    "title": "Introduction to data analysis with R and Bioconductor",
+    "type": "Tutorial",
+    "versions": [
+      {
+        "captions": [
+          "stain"
+        ],
+        "date": "2023-03-03",
+        "length": "20M",
+        "link": "dQw4w9WgXcQ",
+        "speakers": [
+          "stain"
+        ]
+      }
+    ],
+    "support_channel": "general",
+    "gtn_id": "bioconductor/bioc-intro",
+    "captioned": true
+  },
+  "bioconductor/bioc-rnaseq/tutorial": {
+    "description": null,
+    "materials": [
+      {
+        "link": "https://carpentries-incubator.github.io/bioc-rnaseq/"
+      }
+    ],
+    "tags": [
+      "bioconductor",
+      "r"
+    ],
+    "title": "RNA-seq analysis with Bioconductor",
+    "type": "Tutorial",
+    "versions": [
+      {
+        "captions": [
+          "stain"
+        ],
+        "date": "2023-03-03",
+        "length": "20M",
+        "link": "dQw4w9WgXcQ",
+        "speakers": [
+          "stain"
+        ]
+      }
+    ],
+    "support_channel": "general",
+    "gtn_id": "bioconductor/bioc-rnaseq",
+    "captioned": true
+  },
+  "bioconductor/bioc-project/tutorial": {
+    "description": null,
+    "materials": [
+      {
+        "link": "https://carpentries-incubator.github.io/bioc-project/"
+      }
+    ],
+    "tags": [
+      "bioconductor",
+      "r"
+    ],
+    "title": "The Bioconductor project",
+    "type": "Tutorial",
+    "versions": [
+      {
+        "captions": [
+          "stain"
+        ],
+        "date": "2023-03-03",
+        "length": "20M",
+        "link": "dQw4w9WgXcQ",
+        "speakers": [
+          "stain"
+        ]
+      }
+    ],
+    "support_channel": "general",
+    "gtn_id": "bioconductor/bioc-project",
+    "captioned": true
+  },
+  "bioconductor/rformassspectrometry/tutorial": {
+    "description": null,
+    "materials": [
+      {
+        "link": "https://rformassspectrometry.github.io/docs/"
+      }
+    ],
+    "tags": [
+      "bioconductor",
+      "r"
+    ],
+    "title": "R for Mass Spectrometry",
+    "type": "Tutorial",
+    "versions": [
+      {
+        "captions": [
+          "stain"
+        ],
+        "date": "2023-03-03",
+        "length": "20M",
+        "link": "dQw4w9WgXcQ",
+        "speakers": [
+          "stain"
+        ]
+      }
+    ],
+    "support_channel": "general",
+    "gtn_id": "bioconductor/rformassspectrometry",
+    "captioned": true
+  },
+  "bioconductor/isee/tutorial": {
+    "description": null,
+    "materials": [
+      {
+        "link": "https://isee.github.io/iSEEWorkshop2020/"
+      }
+    ],
+    "tags": [
+      "bioconductor",
+      "r"
+    ],
+    "title": "iSEE: Interactive visualization of SummarizedExperiment objects",
+    "type": "Tutorial",
+    "versions": [
+      {
+        "captions": [
+          "stain"
+        ],
+        "date": "2020-07-28",
+        "length": "55M",
+        "link": "qmoJtL8b438",
+        "speakers": [
+          "stain"
+        ]
+      }
+    ],
+    "support_channel": "general",
+    "gtn_id": "bioconductor/isee",
+    "captioned": true
+  },
+  "bioconductor/bioc2022_tidytranscriptomics/tutorial": {
+    "description": null,
+    "materials": [
+      {
+        "link": "https://tidytranscriptomics-workshops.github.io/bioc2022_tidytranscriptomics/articles/tidytranscriptomics_case_study.html"
+      }
+    ],
+    "tags": [
+      "bioconductor",
+      "r"
+    ],
+    "title": "Tidy Transcriptomics For Single-Cell RNA Sequencing Analyses",
+    "type": "Tutorial",
+    "versions": [
+      {
+        "captions": [
+          "stain"
+        ],
+        "date": "2022-07-28",
+        "length": "1H27M",
+        "link": "LKWcut6l--c",
+        "speakers": [
+          "stain"
+        ]
+      }
+    ],
+    "support_channel": "general",
+    "gtn_id": "bioconductor/bioc2022_tidytranscriptomics",
+    "captioned": true
+  },
+  "bioconductor/CompGenomicsBioc2022/tutorial": {
+    "description": null,
+    "materials": [
+      {
+        "link": "https://www.ahl27.com/CompGenomicsBioc2022/index.html"
+      }
+    ],
+    "tags": [
+      "bioconductor",
+      "r"
+    ],
+    "title": "Comparative Genomics with DECIPHER and SynExtend",
+    "type": "Tutorial",
+    "versions": [
+      {
+        "captions": [
+          "stain"
+        ],
+        "date": "2022-07-29",
+        "length": "1H5M",
+        "link": "JgTc2jiMPF0",
+        "speakers": [
+          "stain"
+        ]
+      }
+    ],
+    "support_channel": "general",
+    "gtn_id": "bioconductor/CompGenomicsBioc2022",
+    "captioned": true
+  },
+  "bioconductor/fluentGenomics/tutorial": {
+    "description": null,
+    "materials": [
+      {
+        "link": "https://www.bioconductor.org/packages/release/workflows/vignettes/fluentGenomics/inst/doc/fluentGenomics.html"
+      }
+    ],
+    "tags": [
+      "bioconductor",
+      "r"
+    ],
+    "title": "fluentGenomics: A plyranges and tximeta workflow",
+    "type": "Tutorial",
+    "versions": [
+      {
+        "captions": [
+          "stain"
+        ],
+        "date": "2023-03-03",
+        "length": "20M",
+        "link": "dQw4w9WgXcQ",
+        "speakers": [
+          "stain"
+        ]
+      }
+    ],
+    "support_channel": "general",
+    "gtn_id": "bioconductor/fluentGenomics",
+    "captioned": true
+  },
+  "bioconductor/RNAseq123/tutorial": {
+    "description": null,
+    "materials": [
+      {
+        "link": "https://www.bioconductor.org/packages/release/workflows/vignettes/RNAseq123/inst/doc/limmaWorkflow.html"
+      }
+    ],
+    "tags": [
+      "bioconductor",
+      "r"
+    ],
+    "title": "RNA-seq analysis is easy as 1-2-3 with limma, Glimma and edgeR",
+    "type": "Tutorial",
+    "versions": [
+      {
+        "captions": [
+          "stain"
+        ],
+        "date": "2023-03-03",
+        "length": "20M",
+        "link": "dQw4w9WgXcQ",
+        "speakers": [
+          "stain"
+        ]
+      }
+    ],
+    "support_channel": "general",
+    "gtn_id": "bioconductor/RNAseq123",
+    "captioned": true
+  },
+  "bioconductor/RnaSeqGeneEdgeRQL/tutorial": {
+    "description": null,
+    "materials": [
+      {
+        "link": "https://www.bioconductor.org/packages/release/workflows/vignettes/RnaSeqGeneEdgeRQL/inst/doc/edgeRQL.html"
+      }
+    ],
+    "tags": [
+      "bioconductor",
+      "r"
+    ],
+    "title": "From reads to genes to pathways: differential expression analysis of RNA-Seq experiments using Rsubread and the edgeR quasi-likelihood pipeline",
+    "type": "Tutorial",
+    "versions": [
+      {
+        "captions": [
+          "stain"
+        ],
+        "date": "2023-03-03",
+        "length": "20M",
+        "link": "dQw4w9WgXcQ",
+        "speakers": [
+          "stain"
+        ]
+      }
+    ],
+    "support_channel": "general",
+    "gtn_id": "bioconductor/RnaSeqGeneEdgeRQL",
+    "captioned": true
+  },
+  "bioconductor/SingscoreAMLMutations/tutorial": {
+    "description": null,
+    "materials": [
+      {
+        "link": "https://www.bioconductor.org/packages/release/workflows/vignettes/SingscoreAMLMutations/inst/doc/workflow_transcriptional_mut_sig.html"
+      }
+    ],
+    "tags": [
+      "bioconductor",
+      "r"
+    ],
+    "title": "Using singscore to predict mutations in AML from transcriptomic signatures",
+    "type": "Tutorial",
+    "versions": [
+      {
+        "captions": [
+          "stain"
+        ],
+        "date": "2023-03-03",
+        "length": "20M",
+        "link": "dQw4w9WgXcQ",
+        "speakers": [
+          "stain"
+        ]
+      }
+    ],
+    "support_channel": "general",
+    "gtn_id": "bioconductor/SingscoreAMLMutations",
+    "captioned": true
   }
 }
