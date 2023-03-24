@@ -76,6 +76,7 @@ mapping:
                         - python
                         - workflowhub
                         - r
+                        - bioconductor
             versions:
                 type: seq
                 sequence:
