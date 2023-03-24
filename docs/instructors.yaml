@@ -131,6 +131,10 @@ colineroyaux:
 combesf:
     name: Florence Combes
     affiliation: [ifb]
+    
+csoneson:
+    name: Charlotte Soneson
+    affiliation: [fmi]
 
 cstritt:
     name: Christoph Stritt
@@ -478,3 +482,7 @@ jdavcs:
 stain:
     name: Stian Soiland-Reyes
     affiliation: [by-covid]
+    
+stemangiola:
+    name: Stefano Mangiola
+    affiliation: [wehi]

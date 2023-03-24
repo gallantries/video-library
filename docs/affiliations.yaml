@@ -254,3 +254,7 @@ eosc_esg:
   name: EOSC Euro Science Gateway
   link: https://galaxyproject.org/projects/esg/
   logo: eosc_esg.png
+
+wehi:
+    name: WEHI
+    link: https://www.wehi.edu.au/
