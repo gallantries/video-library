@@ -3555,6 +3555,7 @@ ro-crates/lifemonitor/tutorial:
     speakers:
     - stain
   support_channel: ro-crate
+
 bioconductor/bioc-intro/tutorial:
   description: |
     The Data science lesson is based on the Carpentries Ecology Curriculum. 
@@ -3573,7 +3574,7 @@ bioconductor/bioc-intro/tutorial:
     length:
     link:
     speakers:
-  support_channel: general
+  support_channel: bioconductor
 bioconductor/bioc-rnaseq/tutorial:
   description: |
     Analysis and interpretation of bulk RNA-Sequencing data using Bioconductor 
@@ -3590,7 +3591,7 @@ bioconductor/bioc-rnaseq/tutorial:
     length:
     link:
     speakers:
-  support_channel: general
+  support_channel: bioconductor
 bioconductor/bioc-project/tutorial:
   description: |
     The Bioconductor project lesson provides an introduction to the Bioconductor 
@@ -3610,7 +3611,7 @@ bioconductor/bioc-project/tutorial:
     length:
     link:
     speakers:
-  support_channel: general
+  support_channel: bioconductor
 bioconductor/rformassspectrometry/tutorial:
   description: |
     This material introduces participants to the analysis and exploration of mass 
@@ -3631,7 +3632,7 @@ bioconductor/rformassspectrometry/tutorial:
     length:
     link:
     speakers:
-  support_channel: general
+  support_channel: bioconductor
 bioconductor/isee/tutorial:
   description: |
     This workshop demonstrates the use of the iSEE package to create 
@@ -3665,7 +3666,7 @@ bioconductor/isee/tutorial:
     link: qmoJtL8b438
     speakers:
     - csoneson
-  support_channel: general
+  support_channel: bioconductor
 bioconductor/bioc2022_tidytranscriptomics/tutorial:
   description: |
     This tutorial will showcase analysis of single-cell RNA sequencing data 
@@ -3692,7 +3693,7 @@ bioconductor/bioc2022_tidytranscriptomics/tutorial:
     link: LKWcut6l--c
     speakers:
     - stemangiola
-  support_channel: general
+  support_channel: bioconductor
 bioconductor/CompGenomicsBioc2022/tutorial:
   description: |
     This workshop consists of a demonstration of using DECIPHER and SynExtend for 
@@ -3712,7 +3713,7 @@ bioconductor/CompGenomicsBioc2022/tutorial:
     link:
     speakers:
     - ahl27
-  support_channel: general
+  support_channel: bioconductor
 bioconductor/fluentGenomics/tutorial:
   description: |
     An extended workflow using the plyranges and tximeta packages for fluent 
@@ -3732,7 +3733,7 @@ bioconductor/fluentGenomics/tutorial:
     length:
     link:
     speakers:
-  support_channel: general
+  support_channel: bioconductor
 bioconductor/RNAseq123/tutorial:
   description: |
     The ability to easily and efficiently analyse RNA-sequencing data is a key 
@@ -3761,7 +3762,7 @@ bioconductor/RNAseq123/tutorial:
     length:
     link:
     speakers:
-  support_channel: general
+  support_channel: bioconductor
 bioconductor/RnaSeqGeneEdgeRQL/tutorial:
   description: |
     RNA sequencing (RNA-seq) has become a very widely used technology for 
@@ -3790,7 +3791,7 @@ bioconductor/RnaSeqGeneEdgeRQL/tutorial:
     length:
     link: 
     speakers:
-  support_channel: general
+  support_channel: bioconductor
 bioconductor/SingscoreAMLMutations/tutorial:
   description: |
     Advances in RNA sequencing (RNA-seq) technologies that measure the 
@@ -3820,4 +3821,4 @@ bioconductor/SingscoreAMLMutations/tutorial:
     length:
     link:
     speakers:
-  support_channel: general
+  support_channel: bioconductor
