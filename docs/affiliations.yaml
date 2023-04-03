@@ -8,6 +8,11 @@ barharbourinn:
   link: "https://harbourcottageinn.com/"
   logo: harbourcottage.jpg
 
+bioc:
+    name: Bioconductor
+    link: "http://bioconductor.org/"
+    logo: bioconductor.jpg
+
 bradforduni:
   name: University of Bradford
   link: "https://www.bradford.ac.uk/"

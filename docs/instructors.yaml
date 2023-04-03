@@ -14,7 +14,7 @@ aheikema:
     
 ahl27:
     name: Aidan Lakshman
-    affiliation: [univpittsburgh]
+    affiliation: [univpittsburgh, bioc]
     photo: AidanLakshman.jpeg
 
 ales-ibt:
@@ -134,7 +134,7 @@ combesf:
     
 csoneson:
     name: Charlotte Soneson
-    affiliation: [fmi]
+    affiliation: [fmi, bioc]
 
 cstritt:
     name: Christoph Stritt
@@ -485,4 +485,4 @@ stain:
     
 stemangiola:
     name: Stefano Mangiola
-    affiliation: [wehi]
+    affiliation: [wehi, bioc]
