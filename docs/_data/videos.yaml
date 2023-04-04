@@ -3568,12 +3568,7 @@ bioconductor/bioc-intro/tutorial:
   tags: [bioconductor, r]
   title: Introduction to data analysis with R and Bioconductor
   type: Tutorial
-  versions:
-  - captions:
-    date:
-    length:
-    link:
-    speakers:
+  versions: []
   support_channel: bioconductor
 bioconductor/bioc-rnaseq/tutorial:
   description: |
@@ -3585,12 +3580,7 @@ bioconductor/bioc-rnaseq/tutorial:
   tags: [bioconductor, r]
   title: RNA-seq analysis with Bioconductor
   type: Tutorial
-  versions:
-  - captions:
-    date:
-    length:
-    link:
-    speakers:
+  versions: []
   support_channel: bioconductor
 bioconductor/bioc-project/tutorial:
   description: |
@@ -3605,12 +3595,7 @@ bioconductor/bioc-project/tutorial:
   tags: [bioconductor, r]
   title: The Bioconductor project
   type: Tutorial
-  versions:
-  - captions:
-    date:
-    length:
-    link:
-    speakers:
+  versions: []
   support_channel: bioconductor
 bioconductor/rformassspectrometry/tutorial:
   description: |
@@ -3626,12 +3611,7 @@ bioconductor/rformassspectrometry/tutorial:
   tags: [bioconductor, r]
   title: R for Mass Spectrometry
   type: Tutorial
-  versions:
-  - captions:
-    date:
-    length:
-    link:
-    speakers:
+  versions: []
   support_channel: bioconductor
 bioconductor/isee/tutorial:
   description: |
@@ -3727,12 +3707,7 @@ bioconductor/fluentGenomics/tutorial:
   tags: [bioconductor, r]
   title: "fluentGenomics: A plyranges and tximeta workflow"
   type: Tutorial
-  versions:
-  - captions:
-    date:
-    length:
-    link:
-    speakers:
+  versions: []
   support_channel: bioconductor
 bioconductor/RNAseq123/tutorial:
   description: |
@@ -3756,12 +3731,7 @@ bioconductor/RNAseq123/tutorial:
   tags: [bioconductor, r]
   title: "RNA-seq analysis is easy as 1-2-3 with limma, Glimma and edgeR"
   type: Tutorial
-  versions:
-  - captions:
-    date:
-    length:
-    link:
-    speakers:
+  versions: []
   support_channel: bioconductor
 bioconductor/RnaSeqGeneEdgeRQL/tutorial:
   description: |
@@ -3785,12 +3755,7 @@ bioconductor/RnaSeqGeneEdgeRQL/tutorial:
   title: "From reads to genes to pathways: differential expression analysis of 
   RNA-Seq experiments using Rsubread and the edgeR quasi-likelihood pipeline"
   type: Tutorial
-  versions:
-  - captions:
-    date:
-    length:
-    link: 
-    speakers:
+  versions: []
   support_channel: bioconductor
 bioconductor/SingscoreAMLMutations/tutorial:
   description: |
@@ -3815,10 +3780,5 @@ bioconductor/SingscoreAMLMutations/tutorial:
   tags: [bioconductor, r]
   title: Using singscore to predict mutations in AML from transcriptomic signatures
   type: Tutorial
-  versions:
-  - captions:
-    date:
-    length:
-    link:
-    speakers:
+  versions: []
   support_channel: bioconductor
