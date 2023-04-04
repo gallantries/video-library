@@ -9,6 +9,11 @@
     "link": "https://harbourcottageinn.com/",
     "logo": "harbourcottage.jpg"
   },
+  "bioc": {
+    "name": "Bioconductor",
+    "link": "http://bioconductor.org/",
+    "logo": "bioconductor.jpg"
+  },
   "bradforduni": {
     "name": "University of Bradford",
     "link": "https://www.bradford.ac.uk/",
@@ -256,5 +261,9 @@
     "name": "EOSC Euro Science Gateway",
     "link": "https://galaxyproject.org/projects/esg/",
     "logo": "eosc_esg.png"
+  },
+  "wehi": {
+    "name": "WEHI",
+    "link": "https://www.wehi.edu.au/"
   }
 }

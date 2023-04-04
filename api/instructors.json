@@ -23,7 +23,8 @@
   "ahl27": {
     "name": "Aidan Lakshman",
     "affiliation": [
-      "univpittsburgh"
+      "univpittsburgh",
+      "bioc"
     ],
     "photo": "AidanLakshman.jpeg"
   },
@@ -193,6 +194,13 @@
     "name": "Florence Combes",
     "affiliation": [
       "ifb"
+    ]
+  },
+  "csoneson": {
+    "name": "Charlotte Soneson",
+    "affiliation": [
+      "fmi",
+      "bioc"
     ]
   },
   "cstritt": {
@@ -691,6 +699,13 @@
     "name": "Stian Soiland-Reyes",
     "affiliation": [
       "by-covid"
+    ]
+  },
+  "stemangiola": {
+    "name": "Stefano Mangiola",
+    "affiliation": [
+      "wehi",
+      "bioc"
     ]
   }
 }
