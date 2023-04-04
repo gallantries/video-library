@@ -14,7 +14,7 @@ aheikema:
     
 ahl27:
     name: Aidan Lakshman
-    affiliation: [univpittsburgh]
+    affiliation: [univpittsburgh, bioc]
     photo: AidanLakshman.jpeg
 
 ales-ibt:
@@ -131,6 +131,10 @@ colineroyaux:
 combesf:
     name: Florence Combes
     affiliation: [ifb]
+    
+csoneson:
+    name: Charlotte Soneson
+    affiliation: [fmi, bioc]
 
 cstritt:
     name: Christoph Stritt
@@ -478,3 +482,7 @@ jdavcs:
 stain:
     name: Stian Soiland-Reyes
     affiliation: [by-covid]
+    
+stemangiola:
+    name: Stefano Mangiola
+    affiliation: [wehi, bioc]
