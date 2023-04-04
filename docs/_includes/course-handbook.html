@@ -40,8 +40,7 @@
         {% include custom-session.html type="setup-gat" config=page.setup title="Get set up for the Course" %}
 
      {% elsif session.icebreaker %}
-        {% if session.icebreaker.size > 1 %}{% assign t = "Daily Icebreaker Questions" %}
-        {% else %}{% assign t = "Icebreaker Question" %}{% endif %}
+        {% if session.icebreaker.size > 1 %}{% assign t = "Daily Icebreaker Questions" %}{% else %}{% assign t = "Icebreaker Question" %}{% endif %}
         {% include custom-session.html type="icebreaker" config=session.icebreaker title=t %}
 
      {% elsif session.basics == "certificates" %}
