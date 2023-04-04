@@ -56,7 +56,7 @@ I'm interested in…
 
 {% include module_button.html link="ro-crate" colour="yellow" label="RO-Crate" buttonsize="large" %}
 
-# Bioconductor R modules
+# Bioconductor & R modules
 
 {% include module_button.html link="bioconductor" colour="red" label="Bioconductor" buttonsize="large" %}
 
