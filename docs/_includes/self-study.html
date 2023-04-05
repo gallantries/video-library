@@ -1,29 +1,35 @@
-{% assign description = include.vsession.description | default: include.session.description | default: include.video.description %}
+{% assign config = include.vsession | default: include.session | default: include.video %}
+
+
 <div class="flex-row">
 	<div class="col-md-8">
-		<h3 class="session-section">{% if include.title %}{{include.title}}{% else %}Self Study Tutorial{% endif %}</h3>
+		<h3 class="session-section">{% if config.title %}{{config.title}}{% else %}Self Study Tutorial{% endif %}</h3>
 		<div>
+            {% if config.cover %}
+            <img src="{{site.baseurl}}/{{site.image_dir}}/{{config.cover.link}}" alt="{{config.cover.alt}}"/>
+            {% else %}
 			<img src="{{site.baseurl}}/{{site.image_dir}}/selfstudy.png" alt="image indicating this is a self-study session."/>
+            {% endif %}
 			This is a self-study session. Please work through the materials on your own, and ask the instructors for help if you get stuck or have any questions!
 		</div>
 		<div style="margin-top:1em;" class="video-metadata">
 			<table>
 				<tr>
 					<td><strong>Tutorial:</strong></td>
-					<td>{{ include.config.self-study }}</td>
+					<td>{{ config.self-study }}</td>
 				</tr>
-				{% if include.config.description %}
+				{% if config.description %}
 				<tr>
 						<td><strong>Description:</strong></td>
-						<td>{{include.config.description}}</td>
+						<td>{{config.description}}</td>
 				</tr>
 				{% endif %}
-				{% if materials %}
+				{% if config.materials %}
 				<tr>
 					<td><strong>Materials:</strong></td>
 					<td>
 						<ul class="plain-text-list">
-						{% for m in materials %}
+						{% for m in config.materials %}
 							<li>
 								{% if m.type == "Tutorial" %}
 									{% icon tutorial %}
@@ -60,7 +66,7 @@
 				{% endif %}
 
 				<!-- this is for the embedded versions where they'll use their own1 support forum -->
-				{% unless include.hidesupport %}
+				{% unless config.hidesupport %}
 				<tr>
 					<td><strong>Support:</strong></td>
 					<td>
@@ -93,6 +99,16 @@
 		Go to the <a href="{{site.baseurl}}/videos/{{include.id}}">video page</a> to see all versions.
 		{% endunless %}
 	</div>
+
+    <!-- instructors(s) -->
+    {% assign s = config.instructors %}
+    {% assign numspeakers = config.instructors.size %}
+
+    <div class="col-md-3">
+      <center><h3 class="session-section">Instructor{%if numspeakers>1%}s{%endif%}</h3></center>
+      {% include speakers.html speakers=s border="yes"%}
+    </div>
+
 	<div class="col-md-4">
 	</div>
 </div><!-- end self-study session -->
