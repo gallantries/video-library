@@ -2,26 +2,31 @@
   "url": "/video-library/api/tags/bioconductor.json",
   "videos": {
     "bioconductor/bioc-intro/tutorial": {
-      "description": "The Data science lesson is based on the Carpentries Ecology Curriculum. \nThere are no pre-requisites for this module, and the materials assume no prior\nknowledge about R and Bioconductor. It introduces R, RStudio, teaches data \ncleaning, management, analysis, and visualisation and introduces some \nBioconductor concepts. \n",
+      "title": "Introduction to data analysis with R and Bioconductor",
+      "type": "Tutorial",
+      "instructors": [
+        "mblue9"
+      ],
+      "cover": {
+        "link": "bioconductor-session.jpg",
+        "alt": "Bioconductor logo"
+      },
+      "description": "The Data science lesson is based on the Carpentries Ecology Curriculum.\nThere are no pre-requisites for this module, and the materials assume no prior\nknowledge about R and Bioconductor. It introduces R, RStudio, teaches data\ncleaning, management, analysis, and visualisation and introduces some\nBioconductor concepts.\n",
       "materials": [
         {
-          "link": "https://carpentries-incubator.github.io/bioc-intro/"
+          "link": "https://carpentries-incubator.github.io/bioc-intro/",
+          "external": true
         }
       ],
       "tags": [
         "bioconductor",
         "r"
       ],
-      "title": "Introduction to data analysis with R and Bioconductor",
-      "type": "Tutorial",
-      "versions": [
-
-      ],
       "support_channel": "bioconductor",
       "gtn_id": "bioconductor/bioc-intro"
     },
     "bioconductor/bioc-rnaseq/tutorial": {
-      "description": "Analysis and interpretation of bulk RNA-Sequencing data using Bioconductor \nshows how to use Bioconductor packages to analyse RNA-Seq data. It expects \ngood familiarity with R and the Bioconductor project.\n",
+      "description": "Analysis and interpretation of bulk RNA-Sequencing data using Bioconductor\nshows how to use Bioconductor packages to analyse RNA-Seq data. It expects\ngood familiarity with R and the Bioconductor project.\n",
       "materials": [
         {
           "link": "https://carpentries-incubator.github.io/bioc-rnaseq/"
@@ -40,7 +45,7 @@
       "gtn_id": "bioconductor/bioc-rnaseq"
     },
     "bioconductor/bioc-project/tutorial": {
-      "description": "The Bioconductor project lesson provides an introduction to the Bioconductor \nproject such as the Bioconductor home page, packages, package landing pages, \nand package vignettes, where to find help, Bioconductor workflows, \nBioconductor release schedule and versions, some core infrastructure,.. \nIt is meant to be use in combination with other modules as part of a wider \nworkshop.\n",
+      "description": "The Bioconductor project lesson provides an introduction to the Bioconductor\nproject such as the Bioconductor home page, packages, package landing pages,\nand package vignettes, where to find help, Bioconductor workflows,\nBioconductor release schedule and versions, some core infrastructure,..\nIt is meant to be use in combination with other modules as part of a wider\nworkshop.\n",
       "materials": [
         {
           "link": "https://carpentries-incubator.github.io/bioc-project/"
@@ -59,7 +64,7 @@
       "gtn_id": "bioconductor/bioc-project"
     },
     "bioconductor/rformassspectrometry/tutorial": {
-      "description": "This material introduces participants to the analysis and exploration of mass \nspectrometry (MS) based proteomics data using R and Bioconductor. The course \nwill cover all levels of MS data, from raw data to identification and \nquantitation data, up to the statistical interpretation of a typical shotgun \nMS experiment and will focus on hands-on tutorials. At the end of this course, \nthe participants will be able to manipulate MS data in R and use existing \npackages for their exploratory and statistical proteomics data analysis.\n",
+      "description": "This material introduces participants to the analysis and exploration of mass\nspectrometry (MS) based proteomics data using R and Bioconductor. The course\nwill cover all levels of MS data, from raw data to identification and\nquantitation data, up to the statistical interpretation of a typical shotgun\nMS experiment and will focus on hands-on tutorials. At the end of this course,\nthe participants will be able to manipulate MS data in R and use existing\npackages for their exploratory and statistical proteomics data analysis.\n",
       "materials": [
         {
           "link": "https://rformassspectrometry.github.io/docs/"
@@ -78,7 +83,7 @@
       "gtn_id": "bioconductor/rformassspectrometry"
     },
     "bioconductor/isee/tutorial": {
-      "description": "This workshop demonstrates the use of the iSEE package to create \nand configure interactive applications for the exploration of various types of \ngenomics data sets (e.g., bulk and single-cell RNA-seq, CyTOF, gene expression \nmicroarray). This workshop is presented as a lab session that combines an \ninstructor-led live demo, followed by hands-on experimentation guided by \ncompletely worked examples and stand-alone notes that participants may \ncontinue to use after the workshop.\n\nThe instructor-led live demo comprises three parts:\n1. Brief lecture on the package concept and functionality\n2. Overview of the graphical user interface\n3. Instructions to preconfigure iSEE apps\n\nThe hands-on lab comprises three parts:\n1. Inspection of single-cell RNA-seq data at various steps of a typical \ncomputational workflow, including quality control and dimensionality reduction\n2. Addition of custom panels to the user interface for advanced visualization.\n3. Additional questions from the participants, including individual use cases \nand suggestions for future developments\n",
+      "description": "This workshop demonstrates the use of the iSEE package to create\nand configure interactive applications for the exploration of various types of\ngenomics data sets (e.g., bulk and single-cell RNA-seq, CyTOF, gene expression\nmicroarray). This workshop is presented as a lab session that combines an\ninstructor-led live demo, followed by hands-on experimentation guided by\ncompletely worked examples and stand-alone notes that participants may\ncontinue to use after the workshop.\n\nThe instructor-led live demo comprises three parts:\n1. Brief lecture on the package concept and functionality\n2. Overview of the graphical user interface\n3. Instructions to preconfigure iSEE apps\n\nThe hands-on lab comprises three parts:\n1. Inspection of single-cell RNA-seq data at various steps of a typical\ncomputational workflow, including quality control and dimensionality reduction\n2. Addition of custom panels to the user interface for advanced visualization.\n3. Additional questions from the participants, including individual use cases\nand suggestions for future developments\n",
       "materials": [
         {
           "link": "https://isee.github.io/iSEEWorkshop2020/"
@@ -106,7 +111,7 @@
       "captioned": false
     },
     "bioconductor/bioc2022_tidytranscriptomics/tutorial": {
-      "description": "This tutorial will showcase analysis of single-cell RNA sequencing data \nfollowing the tidy data paradigm. The tidy data paradigm provides a standard \nway to organise data values within a dataset, where each variable is a column, \neach observation is a row, and data is manipulated using an easy-to-understand \nvocabulary. Most importantly, the data structure remains consistent across \nmanipulation and analysis functions.\n\nThis can be achieved with the integration of packages present in the R CRAN \nand Bioconductor ecosystem, including tidySingleCellExperiment and tidyverse. \nThese packages are part of the tidytranscriptomics suite that introduces a \ntidy approach to RNA sequencing data representation and analysis. For more \ninformation see the tidy transcriptomics blog.\n",
+      "description": "This tutorial will showcase analysis of single-cell RNA sequencing data\nfollowing the tidy data paradigm. The tidy data paradigm provides a standard\nway to organise data values within a dataset, where each variable is a column,\neach observation is a row, and data is manipulated using an easy-to-understand\nvocabulary. Most importantly, the data structure remains consistent across\nmanipulation and analysis functions.\n\nThis can be achieved with the integration of packages present in the R CRAN\nand Bioconductor ecosystem, including tidySingleCellExperiment and tidyverse.\nThese packages are part of the tidytranscriptomics suite that introduces a\ntidy approach to RNA sequencing data representation and analysis. For more\ninformation see the tidy transcriptomics blog.\n",
       "materials": [
         {
           "link": "https://tidytranscriptomics-workshops.github.io/bioc2022_tidytranscriptomics/articles/tidytranscriptomics_case_study.html"
@@ -134,7 +139,7 @@
       "captioned": false
     },
     "bioconductor/CompGenomicsBioc2022/tutorial": {
-      "description": "This workshop consists of a demonstration of using DECIPHER and SynExtend for \ncommon analyses in comparative genomics. The immediate goal of this session \nis to use sequence data to uncover networks of functionally associated genes. \nThese networks consist of genetic regions under shared evolutionary pressure, \nwhich have previously been shown to imply some degree of conserved function.\n",
+      "description": "This workshop consists of a demonstration of using DECIPHER and SynExtend for\ncommon analyses in comparative genomics. The immediate goal of this session\nis to use sequence data to uncover networks of functionally associated genes.\nThese networks consist of genetic regions under shared evolutionary pressure,\nwhich have previously been shown to imply some degree of conserved function.\n",
       "materials": [
         {
           "link": "https://www.ahl27.com/CompGenomicsBioc2022/index.html"
@@ -162,7 +167,7 @@
       "captioned": false
     },
     "bioconductor/fluentGenomics/tutorial": {
-      "description": "An extended workflow using the plyranges and tximeta packages for fluent \ngenomic data analysis. Use tximeta to correctly import RNA-seq transcript \nquantifications and summarize them to gene counts for downstream analysis. \nUse plyranges for clearly expressing operations over genomic coordinates and \nto combine results from differential expression and differential accessibility \nanalyses.\n",
+      "description": "An extended workflow using the plyranges and tximeta packages for fluent\ngenomic data analysis. Use tximeta to correctly import RNA-seq transcript\nquantifications and summarize them to gene counts for downstream analysis.\nUse plyranges for clearly expressing operations over genomic coordinates and\nto combine results from differential expression and differential accessibility\nanalyses.\n",
       "materials": [
         {
           "link": "https://www.bioconductor.org/packages/release/workflows/vignettes/fluentGenomics/inst/doc/fluentGenomics.html"
@@ -181,7 +186,7 @@
       "gtn_id": "bioconductor/fluentGenomics"
     },
     "bioconductor/RNAseq123/tutorial": {
-      "description": "The ability to easily and efficiently analyse RNA-sequencing data is a key \nstrength of the Bioconductor project. Starting with counts summarised at the \ngene-level, a typical analysis involves pre-processing, exploratory data \nanalysis, differential expression testing and pathway analysis with the \nresults obtained informing future experiments and validation studies. In this \nworkflow article, we analyse RNA-sequencing data from the mouse mammary gland, \ndemonstrating use of the popular edgeR package to import, organise, filter \nand normalise the data, followed by the limma package with its voom method, \nlinear modelling and empirical Bayes moderation to assess differential \nexpression and perform gene set testing. This pipeline is further enhanced \nby the Glimma package which enables interactive exploration of the results \nso that individual samples and genes can be examined by the user. The complete \nanalysis offered by these three packages highlights the ease with which \nresearchers can turn the raw counts from an RNA-sequencing experiment into \nbiological insights using Bioconductor.\n",
+      "description": "The ability to easily and efficiently analyse RNA-sequencing data is a key\nstrength of the Bioconductor project. Starting with counts summarised at the\ngene-level, a typical analysis involves pre-processing, exploratory data\nanalysis, differential expression testing and pathway analysis with the\nresults obtained informing future experiments and validation studies. In this\nworkflow article, we analyse RNA-sequencing data from the mouse mammary gland,\ndemonstrating use of the popular edgeR package to import, organise, filter\nand normalise the data, followed by the limma package with its voom method,\nlinear modelling and empirical Bayes moderation to assess differential\nexpression and perform gene set testing. This pipeline is further enhanced\nby the Glimma package which enables interactive exploration of the results\nso that individual samples and genes can be examined by the user. The complete\nanalysis offered by these three packages highlights the ease with which\nresearchers can turn the raw counts from an RNA-sequencing experiment into\nbiological insights using Bioconductor.\n",
       "materials": [
         {
           "link": "https://www.bioconductor.org/packages/release/workflows/vignettes/RNAseq123/inst/doc/limmaWorkflow.html"
@@ -200,7 +205,7 @@
       "gtn_id": "bioconductor/RNAseq123"
     },
     "bioconductor/RnaSeqGeneEdgeRQL/tutorial": {
-      "description": "RNA sequencing (RNA-seq) has become a very widely used technology for \nprofiling gene expression. One of the most common aims of RNA-seq profiling \nis to identify genes or molecular pathways that are differentially expressed \n(DE) between two or more biological conditions. This article demonstrates a \ncomputational workflow for the detection of DE genes and pathways from RNA-seq\ndata by providing a complete analysis of an RNA-seq experiment profiling \nepithelial cell subsets in the mouse mammary gland. The workflow uses R \nsoftware packages from the open-source Bioconductor project and covers all \nsteps of the analysis pipeline, including alignment of read sequences, data \nexploration, differential expression analysis, visualization and pathway \nanalysis. Read alignment and count quantification is conducted using the \nRsubread package and the statistical analyses are performed using the edgeR \npackage. The differential expression analysis uses the quasi-likelihood \nfunctionality of edgeR.\n",
+      "description": "RNA sequencing (RNA-seq) has become a very widely used technology for\nprofiling gene expression. One of the most common aims of RNA-seq profiling\nis to identify genes or molecular pathways that are differentially expressed\n(DE) between two or more biological conditions. This article demonstrates a\ncomputational workflow for the detection of DE genes and pathways from RNA-seq\ndata by providing a complete analysis of an RNA-seq experiment profiling\nepithelial cell subsets in the mouse mammary gland. The workflow uses R\nsoftware packages from the open-source Bioconductor project and covers all\nsteps of the analysis pipeline, including alignment of read sequences, data\nexploration, differential expression analysis, visualization and pathway\nanalysis. Read alignment and count quantification is conducted using the\nRsubread package and the statistical analyses are performed using the edgeR\npackage. The differential expression analysis uses the quasi-likelihood\nfunctionality of edgeR.\n",
       "materials": [
         {
           "link": "https://www.bioconductor.org/packages/release/workflows/vignettes/RnaSeqGeneEdgeRQL/inst/doc/edgeRQL.html"
@@ -219,7 +224,7 @@
       "gtn_id": "bioconductor/RnaSeqGeneEdgeRQL"
     },
     "bioconductor/SingscoreAMLMutations/tutorial": {
-      "description": "Advances in RNA sequencing (RNA-seq) technologies that measure the \ntranscriptome of biological samples have revolutionised our ability to \nunderstand transcriptional regulatory programs that underpin diseases \nsuch as cancer. We recently published singscore - a single-sample, rank-based \ngene set scoring method which quantifies how concordant the transcriptional \nprofile of individual samples are relative to specific gene sets of interest. \nHere we demonstrate the application of singscore to investigate \ntranscriptional profiles associated with specific mutations or genetic lesions \nin acute myeloid leukemia. Using matched genomic and transcriptomic data \navailable through The Cancer Genome Atlas we show that scoring of appropriate \nsignatures can distinguish samples with corresponding mutations, reflecting \nthe ability of these mutations to drive aberrant transcriptional programs \ninvolved in leukemogenesis. We believe the singscore method is particularly \nuseful for studying heterogeneity within specific subsets of cancers, and as \ndemonstrated, singscore has the ability to identify samples where alternative \nmutations/genetic lesions appear to drive transcriptional programs.\n",
+      "description": "Advances in RNA sequencing (RNA-seq) technologies that measure the\ntranscriptome of biological samples have revolutionised our ability to\nunderstand transcriptional regulatory programs that underpin diseases\nsuch as cancer. We recently published singscore - a single-sample, rank-based\ngene set scoring method which quantifies how concordant the transcriptional\nprofile of individual samples are relative to specific gene sets of interest.\nHere we demonstrate the application of singscore to investigate\ntranscriptional profiles associated with specific mutations or genetic lesions\nin acute myeloid leukemia. Using matched genomic and transcriptomic data\navailable through The Cancer Genome Atlas we show that scoring of appropriate\nsignatures can distinguish samples with corresponding mutations, reflecting\nthe ability of these mutations to drive aberrant transcriptional programs\ninvolved in leukemogenesis. We believe the singscore method is particularly\nuseful for studying heterogeneity within specific subsets of cancers, and as\ndemonstrated, singscore has the ability to identify samples where alternative\nmutations/genetic lesions appear to drive transcriptional programs.\n",
       "materials": [
         {
           "link": "https://www.bioconductor.org/packages/release/workflows/vignettes/SingscoreAMLMutations/inst/doc/workflow_transcriptional_mut_sig.html"
