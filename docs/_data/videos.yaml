@@ -3429,14 +3429,7 @@ ro-crates/intro/slides:
   tags: [ro-crate]
   title: Intro to RO-Crate
   type: Tutorial
-  versions:
-  - captions:
-    - stain
-    date: '2023-03-03'
-    length: 20M
-    link: dQw4w9WgXcQ
-    speakers:
-    - stain
+  versions: []
   support_channel: ro-crate
 ro-crates/publishing/tutorial:
   description:
@@ -3448,14 +3441,7 @@ ro-crates/publishing/tutorial:
   tags: [ro-crate]
   title: Publishing My First™ RO-Crate
   type: Tutorial
-  versions:
-  - captions:
-    - stain
-    date: '2023-03-03'
-    length: 20M
-    link: dQw4w9WgXcQ
-    speakers:
-    - stain
+  versions: []
   support_channel: ro-crate
 ro-crates/python/tutorial:
   description:
@@ -3464,14 +3450,7 @@ ro-crates/python/tutorial:
   tags: [ro-crate, python]
   title: RO-Crate in Python
   type: Tutorial
-  versions:
-  - captions:
-    - stain
-    date: '2023-03-03'
-    length: 20M
-    link: dQw4w9WgXcQ
-    speakers:
-    - stain
+  versions: []
   support_channel: ro-crate
 ro-crates/workflow-run-crate/tutorial:
   description:
@@ -3481,14 +3460,7 @@ ro-crates/workflow-run-crate/tutorial:
   tags: [ro-crate]
   title: Workflow Run Crate profile intro
   type: Tutorial
-  versions:
-  - captions:
-    - stain
-    date: '2023-03-03'
-    length: 20M
-    link: dQw4w9WgXcQ
-    speakers:
-    - stain
+  versions: []
   support_channel: ro-crate
 ro-crates/extending/tutorial:
   description:
@@ -3497,14 +3469,7 @@ ro-crates/extending/tutorial:
   tags: [ro-crate]
   title: Extending RO-Crate & Making a Profile
   type: Tutorial
-  versions:
-  - captions:
-    - stain
-    date: '2023-03-03'
-    length: 20M
-    link: dQw4w9WgXcQ
-    speakers:
-    - stain
+  versions: []
   support_channel: ro-crate
 ro-crates/workflowhub/tutorial:
   description:
@@ -3514,14 +3479,7 @@ ro-crates/workflowhub/tutorial:
   tags: [ro-crate, workflowhub]
   title: Registering Galaxy workflows in WorkflowHub
   type: Tutorial
-  versions:
-  - captions:
-    - stain
-    date: '2023-03-03'
-    length: 20M
-    link: dQw4w9WgXcQ
-    speakers:
-    - stain
+  versions: []
   support_channel: ro-crate
 ro-crates/bestpractices/tutorial:
   description:
@@ -3530,14 +3488,7 @@ ro-crates/bestpractices/tutorial:
   tags: [ro-crate]
   title: Best Practices for RO-Crates in Galaxy in GitHub Repositories
   type: Tutorial
-  versions:
-  - captions:
-    - stain
-    date: '2023-03-03'
-    length: 20M
-    link: dQw4w9WgXcQ
-    speakers:
-    - stain
+  versions: []
   support_channel: ro-crate
 ro-crates/lifemonitor/tutorial:
   description:
@@ -3546,14 +3497,7 @@ ro-crates/lifemonitor/tutorial:
   tags: [ro-crate]
   title: Submitting workflows to LifeMonitor with the Workflow Testing RO-Crate profile
   type: Tutorial
-  versions:
-  - captions:
-    - stain
-    date: '2023-03-03'
-    length: 20M
-    link: dQw4w9WgXcQ
-    speakers:
-    - stain
+  versions: []
   support_channel: ro-crate
 
 bioconductor/bioc-intro/tutorial:
