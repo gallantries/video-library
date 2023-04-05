@@ -110,6 +110,10 @@ ifb:
   link: "https://www.france-bioinformatique.fr"
   logo: ifb.jpg
 
+imbei:
+  name: IMBEI
+  link: "https://www.unimedizin-mainz.de/imbei/"
+
 inab-certh:
   name: INAB|CERTH
   link: "https://www.inab.certh.gr/"
@@ -263,3 +267,16 @@ eosc_esg:
 wehi:
     name: WEHI
     link: https://www.wehi.edu.au/
+    
+uclouvain:
+    name: UCLouvain
+    link: https://uclouvain.be/en/index.html
+    
+ox:
+    name: University of Oxford
+    link: https://www.ox.ac.uk/
+    
+unc:
+    name: University of North Carolina & Chapel Hill
+    link: https://www.unc.edu/
+
