@@ -4426,6 +4426,7 @@
       }
     ],
     "tags": [
+      "single-cell",
       "transcriptomics"
     ],
     "type": "Demo",
@@ -4445,6 +4446,37 @@
     ],
     "gtn_id": "single-cell/scrna-case_alevin",
     "title": "Generating a single cell matrix using Alevin",
+    "captioned": true
+  },
+  "single-cell/scrna-case_alevin-combine-datasets/tutorial": {
+    "description": "",
+    "materials": [
+      {
+        "link": "topics/single-cell/tutorials/scrna-case_alevin-combine-datasets/tutorial.html",
+        "type": "Tutorial"
+      }
+    ],
+    "tags": [
+      "single-cell",
+      "transcriptomics"
+    ],
+    "type": "Demo",
+    "versions": [
+      {
+        "captions": [
+          "nomadscientist"
+        ],
+        "date": "2021-02-15",
+        "galaxy_version": "21.09",
+        "length": "11M",
+        "link": "U8pVa6csmUE",
+        "speakers": [
+          "nomadscientist"
+        ]
+      }
+    ],
+    "gtn_id": "single-cell/scrna-case_alevin-combine-datasets",
+    "title": "Combining datasets after pre-processing",
     "captioned": true
   },
   "transcriptomics/introduction/slides": {

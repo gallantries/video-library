@@ -4675,6 +4675,7 @@
           }
         ],
         "tags": [
+          "single-cell",
           "transcriptomics"
         ],
         "type": "Demo",
@@ -4694,6 +4695,37 @@
         ],
         "gtn_id": "single-cell/scrna-case_alevin",
         "title": "Generating a single cell matrix using Alevin",
+        "captioned": true
+      },
+      "single-cell/scrna-case_alevin-combine-datasets/tutorial": {
+        "description": "",
+        "materials": [
+          {
+            "link": "topics/single-cell/tutorials/scrna-case_alevin-combine-datasets/tutorial.html",
+            "type": "Tutorial"
+          }
+        ],
+        "tags": [
+          "single-cell",
+          "transcriptomics"
+        ],
+        "type": "Demo",
+        "versions": [
+          {
+            "captions": [
+              "nomadscientist"
+            ],
+            "date": "2021-02-15",
+            "galaxy_version": "21.09",
+            "length": "11M",
+            "link": "U8pVa6csmUE",
+            "speakers": [
+              "nomadscientist"
+            ]
+          }
+        ],
+        "gtn_id": "single-cell/scrna-case_alevin-combine-datasets",
+        "title": "Combining datasets after pre-processing",
         "captioned": true
       },
       "transcriptomics/introduction/slides": {
@@ -5180,6 +5212,68 @@
         ],
         "gtn_id": "single-cell/bulk-music",
         "title": "Bulk RNA Deconvolution with MuSiC",
+        "captioned": true
+      },
+      "single-cell/scrna-case_alevin/tutorial": {
+        "description": "This tutorial will take you from raw FASTQ files to a cell x gene data matrix in AnnData format. What’s a data matrix, and what’s AnnData format? Well you’ll find out! Importantly, this is the first step in processing single cell data in order to start analysing it.",
+        "materials": [
+          {
+            "link": "topics/single-cell/tutorials/scrna-case_alevin/tutorial.html",
+            "type": "Tutorial"
+          }
+        ],
+        "tags": [
+          "single-cell",
+          "transcriptomics"
+        ],
+        "type": "Demo",
+        "versions": [
+          {
+            "captions": [
+              "nomadscientist"
+            ],
+            "date": "2021-02-15",
+            "galaxy_version": "21.01",
+            "length": "30M",
+            "link": "3ytm2AU6QUc",
+            "speakers": [
+              "nomadscientist"
+            ]
+          }
+        ],
+        "gtn_id": "single-cell/scrna-case_alevin",
+        "title": "Generating a single cell matrix using Alevin",
+        "captioned": true
+      },
+      "single-cell/scrna-case_alevin-combine-datasets/tutorial": {
+        "description": "",
+        "materials": [
+          {
+            "link": "topics/single-cell/tutorials/scrna-case_alevin-combine-datasets/tutorial.html",
+            "type": "Tutorial"
+          }
+        ],
+        "tags": [
+          "single-cell",
+          "transcriptomics"
+        ],
+        "type": "Demo",
+        "versions": [
+          {
+            "captions": [
+              "nomadscientist"
+            ],
+            "date": "2021-02-15",
+            "galaxy_version": "21.09",
+            "length": "11M",
+            "link": "U8pVa6csmUE",
+            "speakers": [
+              "nomadscientist"
+            ]
+          }
+        ],
+        "gtn_id": "single-cell/scrna-case_alevin-combine-datasets",
+        "title": "Combining datasets after pre-processing",
         "captioned": true
       },
       "single-cell/scrna-case_JUPYTER-trajectories/tutorial": {

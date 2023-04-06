@@ -2109,6 +2109,20 @@
       ]
     }
   ],
+  "topics/single-cell/tutorials/scrna-case_alevin-combine-datasets/tutorial.html": [
+    {
+      "captions": [
+        "nomadscientist"
+      ],
+      "date": "2021-02-15",
+      "galaxy_version": "21.09",
+      "length": "11M",
+      "link": "U8pVa6csmUE",
+      "speakers": [
+        "nomadscientist"
+      ]
+    }
+  ],
   "topics/transcriptomics/slides/introduction.html": [
     {
       "captions": [
