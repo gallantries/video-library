@@ -3504,7 +3504,7 @@ bioconductor/bioc-intro/tutorial:
   title: Introduction to data analysis with R and Bioconductor
   type: Tutorial
   instructors:
-    - mblue9
+    - lgatto
   cover:
     link: bioconductor-session.jpg
     alt: Bioconductor logo
@@ -3521,6 +3521,13 @@ bioconductor/bioc-intro/tutorial:
   support_channel: bioconductor
 
 bioconductor/bioc-rnaseq/tutorial:
+  title: RNA-seq analysis with Bioconductor
+  type: Tutorial
+  instructors:
+    - csoneson
+  cover:
+    link: bioconductor-session.jpg
+    alt: Bioconductor logo
   description: |
     Analysis and interpretation of bulk RNA-Sequencing data using Bioconductor
     shows how to use Bioconductor packages to analyse RNA-Seq data. It expects
@@ -3528,11 +3535,16 @@ bioconductor/bioc-rnaseq/tutorial:
   materials:
   - link: https://carpentries-incubator.github.io/bioc-rnaseq/
   tags: [bioconductor, r]
-  title: RNA-seq analysis with Bioconductor
-  type: Tutorial
   versions: []
   support_channel: bioconductor
 bioconductor/bioc-project/tutorial:
+  title: The Bioconductor project
+  type: Tutorial
+  instructors:
+    - kevinrue
+  cover:
+    link: bioconductor-session.jpg
+    alt: Bioconductor logo
   description: |
     The Bioconductor project lesson provides an introduction to the Bioconductor
     project such as the Bioconductor home page, packages, package landing pages,
@@ -3543,11 +3555,16 @@ bioconductor/bioc-project/tutorial:
   materials:
   - link: https://carpentries-incubator.github.io/bioc-project/
   tags: [bioconductor, r]
-  title: The Bioconductor project
-  type: Tutorial
   versions: []
   support_channel: bioconductor
 bioconductor/rformassspectrometry/tutorial:
+  title: R for Mass Spectrometry
+  type: Tutorial
+  instructors:
+    - lgatto
+  cover:
+    link: bioconductor-session.jpg
+    alt: Bioconductor logo
   description: |
     This material introduces participants to the analysis and exploration of mass
     spectrometry (MS) based proteomics data using R and Bioconductor. The course
@@ -3559,8 +3576,6 @@ bioconductor/rformassspectrometry/tutorial:
   materials:
   - link: https://rformassspectrometry.github.io/docs/
   tags: [bioconductor, r]
-  title: R for Mass Spectrometry
-  type: Tutorial
   versions: []
   support_channel: bioconductor
 bioconductor/isee/tutorial:
@@ -3587,8 +3602,6 @@ bioconductor/isee/tutorial:
   materials:
   - link: https://isee.github.io/iSEEWorkshop2020/
   tags: [bioconductor, r]
-  title: "iSEE: Interactive visualization of SummarizedExperiment objects"
-  type: Tutorial
   versions:
   - captions:
     date: '2020-07-28'
@@ -3596,6 +3609,8 @@ bioconductor/isee/tutorial:
     link: qmoJtL8b438
     speakers:
     - csoneson
+    - kevinrue
+    - federicomarini
   support_channel: bioconductor
 bioconductor/bioc2022_tidytranscriptomics/tutorial:
   description: |
@@ -3645,6 +3660,13 @@ bioconductor/CompGenomicsBioc2022/tutorial:
     - ahl27
   support_channel: bioconductor
 bioconductor/fluentGenomics/tutorial:
+  title: "fluentGenomics: A plyranges and tximeta workflow"
+  type: Tutorial
+  instructors:
+    - mikelove
+  cover:
+    link: bioconductor-session.jpg
+    alt: Bioconductor logo
   description: |
     An extended workflow using the plyranges and tximeta packages for fluent
     genomic data analysis. Use tximeta to correctly import RNA-seq transcript
@@ -3655,11 +3677,16 @@ bioconductor/fluentGenomics/tutorial:
   materials:
   - link: https://www.bioconductor.org/packages/release/workflows/vignettes/fluentGenomics/inst/doc/fluentGenomics.html
   tags: [bioconductor, r]
-  title: "fluentGenomics: A plyranges and tximeta workflow"
-  type: Tutorial
   versions: []
   support_channel: bioconductor
 bioconductor/RNAseq123/tutorial:
+  title: "RNA-seq analysis is easy as 1-2-3 with limma, Glimma and edgeR"
+  type: Tutorial
+  instructors:
+    - mritchie
+  cover:
+    link: bioconductor-session.jpg
+    alt: Bioconductor logo
   description: |
     The ability to easily and efficiently analyse RNA-sequencing data is a key
     strength of the Bioconductor project. Starting with counts summarised at the
@@ -3679,11 +3706,17 @@ bioconductor/RNAseq123/tutorial:
   materials:
   - link: https://www.bioconductor.org/packages/release/workflows/vignettes/RNAseq123/inst/doc/limmaWorkflow.html
   tags: [bioconductor, r]
-  title: "RNA-seq analysis is easy as 1-2-3 with limma, Glimma and edgeR"
-  type: Tutorial
   versions: []
   support_channel: bioconductor
 bioconductor/RnaSeqGeneEdgeRQL/tutorial:
+  title: "From reads to genes to pathways: differential expression analysis of
+  RNA-Seq experiments using Rsubread and the edgeR quasi-likelihood pipeline"
+  type: Tutorial
+  instructors:
+    - yunshun
+  cover:
+    link: bioconductor-session.jpg
+    alt: Bioconductor logo
   description: |
     RNA sequencing (RNA-seq) has become a very widely used technology for
     profiling gene expression. One of the most common aims of RNA-seq profiling
@@ -3702,12 +3735,16 @@ bioconductor/RnaSeqGeneEdgeRQL/tutorial:
   materials:
   - link: https://www.bioconductor.org/packages/release/workflows/vignettes/RnaSeqGeneEdgeRQL/inst/doc/edgeRQL.html
   tags: [bioconductor, r]
-  title: "From reads to genes to pathways: differential expression analysis of
-  RNA-Seq experiments using Rsubread and the edgeR quasi-likelihood pipeline"
-  type: Tutorial
   versions: []
   support_channel: bioconductor
 bioconductor/SingscoreAMLMutations/tutorial:
+  title: Using singscore to predict mutations in AML from transcriptomic signatures
+  type: Tutorial
+  instructors:
+    - bhuvad
+  cover:
+    link: bioconductor-session.jpg
+    alt: Bioconductor logo
   description: |
     Advances in RNA sequencing (RNA-seq) technologies that measure the
     transcriptome of biological samples have revolutionised our ability to
@@ -3728,7 +3765,5 @@ bioconductor/SingscoreAMLMutations/tutorial:
   materials:
   - link: https://www.bioconductor.org/packages/release/workflows/vignettes/SingscoreAMLMutations/inst/doc/workflow_transcriptional_mut_sig.html
   tags: [bioconductor, r]
-  title: Using singscore to predict mutations in AML from transcriptomic signatures
-  type: Tutorial
   versions: []
   support_channel: bioconductor

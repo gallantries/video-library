@@ -95,6 +95,10 @@ bgruening:
     name: Björn Grüning
     affiliation: [freiburguni]
 
+bhuvad:
+    name: Dharmesh Bhuva
+    affiliation: [wehi, bioc]
+
 blankenberg:
     name: Daniel Blankenberg
     affiliation: [clevelandclinic]
@@ -191,6 +195,10 @@ federicodimarco:
     name: Federico DiMarco
     affiliation: [irccs]
     photo: Federico.jpg
+    
+federicomarini:
+    name: Federico Marini
+    affiliation: [imbei]
 
 FilipposZ:
    name: Filippos Zacharopoulos
@@ -256,6 +264,10 @@ jj-umn:
 kenza12:
     name: Kenza Bazi-Kabbaj
 
+kevinrue:
+    name: Kevin Rue-Albrecht
+    affiliation: [ox, bioc]
+
 khanteymoori:
     name: Alireza Khanteymoori
     affiliation: [freiburguni]
@@ -276,6 +288,10 @@ kpoterlowicz:
 ksuderman:
     name: Keith Suderman
     affiliation: [johnshopkins]
+    
+lgatto:
+    name: Laurent Gatto
+    affiliation: [uclouvain, bioc]
 
 liliana-rutaihwa:
     name: Liliana Rutaihwa
@@ -312,6 +328,14 @@ mblue9:
 miaomiaozhou88:
     name: Miaomiao Zhou
     affiliation: [avans]
+
+mikelove:
+    name: Mike Love
+    affiliation: [unc, bioc]
+
+mritchie:
+    name: Matt Ritchie
+    affiliation: [wehi, bioc]
 
 mtekman:
     name: Mehmet Tekman
@@ -485,4 +509,8 @@ stain:
     
 stemangiola:
     name: Stefano Mangiola
+    affiliation: [wehi, bioc]
+
+yunshun:
+    name: Yunshun Chen
     affiliation: [wehi, bioc]
