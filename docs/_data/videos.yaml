@@ -2906,6 +2906,7 @@ single-cell/scrna-case_alevin/tutorial:
   - link: topics/single-cell/tutorials/scrna-case_alevin/tutorial.html
     type: Tutorial
   tags:
+  - single-cell
   - transcriptomics
   type: Demo
   versions:
@@ -2915,6 +2916,25 @@ single-cell/scrna-case_alevin/tutorial:
     galaxy_version: '21.01'
     length: 30M
     link: 3ytm2AU6QUc
+    speakers:
+    - nomadscientist
+
+single-cell/scrna-case_alevin-combine-datasets/tutorial:
+  description: ''
+  materials:
+  - link: topics/single-cell/tutorials/scrna-case_alevin-combine-datasets/tutorial.html
+    type: Tutorial
+  tags:
+  - single-cell
+  - transcriptomics
+  type: Demo
+  versions:
+  - captions:
+    - nomadscientist
+    date: '2021-02-15'
+    galaxy_version: '21.09'
+    length: 11M
+    link: U8pVa6csmUE # TODO: Move to the GTN account
     speakers:
     - nomadscientist
 transcriptomics/introduction/slides:
