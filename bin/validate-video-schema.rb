@@ -12,6 +12,7 @@ CONTRIBUTORS = YAML.load_file('_data/instructors.yaml')
 # *for free*!
 TOPIC_SCHEMA['mapping']['=']['mapping']['versions']['sequence'][0]['mapping']['captions']['sequence'][0]['enum'] = CONTRIBUTORS.keys
 TOPIC_SCHEMA['mapping']['=']['mapping']['versions']['sequence'][0]['mapping']['speakers']['sequence'][0]['enum'] = CONTRIBUTORS.keys
+TOPIC_SCHEMA['mapping']['=']['mapping']['instructors']['sequence'][0]['enum'] = CONTRIBUTORS.keys
 
 # Build validators now that we've filled out the subtopic enum
 $topic_validator = Kwalify::Validator.new(TOPIC_SCHEMA)
