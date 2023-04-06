@@ -5,7 +5,7 @@
       "title": "Introduction to data analysis with R and Bioconductor",
       "type": "Tutorial",
       "instructors": [
-        "mblue9"
+        "lgatto"
       ],
       "cover": {
         "link": "bioconductor-session.jpg",
@@ -26,6 +26,15 @@
       "gtn_id": "bioconductor/bioc-intro"
     },
     "bioconductor/bioc-rnaseq/tutorial": {
+      "title": "RNA-seq analysis with Bioconductor",
+      "type": "Tutorial",
+      "instructors": [
+        "csoneson"
+      ],
+      "cover": {
+        "link": "bioconductor-session.jpg",
+        "alt": "Bioconductor logo"
+      },
       "description": "Analysis and interpretation of bulk RNA-Sequencing data using Bioconductor\nshows how to use Bioconductor packages to analyse RNA-Seq data. It expects\ngood familiarity with R and the Bioconductor project.\n",
       "materials": [
         {
@@ -36,8 +45,6 @@
         "bioconductor",
         "r"
       ],
-      "title": "RNA-seq analysis with Bioconductor",
-      "type": "Tutorial",
       "versions": [
 
       ],
@@ -45,6 +52,15 @@
       "gtn_id": "bioconductor/bioc-rnaseq"
     },
     "bioconductor/bioc-project/tutorial": {
+      "title": "The Bioconductor project",
+      "type": "Tutorial",
+      "instructors": [
+        "kevinrue"
+      ],
+      "cover": {
+        "link": "bioconductor-session.jpg",
+        "alt": "Bioconductor logo"
+      },
       "description": "The Bioconductor project lesson provides an introduction to the Bioconductor\nproject such as the Bioconductor home page, packages, package landing pages,\nand package vignettes, where to find help, Bioconductor workflows,\nBioconductor release schedule and versions, some core infrastructure,..\nIt is meant to be use in combination with other modules as part of a wider\nworkshop.\n",
       "materials": [
         {
@@ -55,8 +71,6 @@
         "bioconductor",
         "r"
       ],
-      "title": "The Bioconductor project",
-      "type": "Tutorial",
       "versions": [
 
       ],
@@ -64,6 +78,15 @@
       "gtn_id": "bioconductor/bioc-project"
     },
     "bioconductor/rformassspectrometry/tutorial": {
+      "title": "R for Mass Spectrometry",
+      "type": "Tutorial",
+      "instructors": [
+        "lgatto"
+      ],
+      "cover": {
+        "link": "bioconductor-session.jpg",
+        "alt": "Bioconductor logo"
+      },
       "description": "This material introduces participants to the analysis and exploration of mass\nspectrometry (MS) based proteomics data using R and Bioconductor. The course\nwill cover all levels of MS data, from raw data to identification and\nquantitation data, up to the statistical interpretation of a typical shotgun\nMS experiment and will focus on hands-on tutorials. At the end of this course,\nthe participants will be able to manipulate MS data in R and use existing\npackages for their exploratory and statistical proteomics data analysis.\n",
       "materials": [
         {
@@ -74,8 +97,6 @@
         "bioconductor",
         "r"
       ],
-      "title": "R for Mass Spectrometry",
-      "type": "Tutorial",
       "versions": [
 
       ],
@@ -93,8 +114,6 @@
         "bioconductor",
         "r"
       ],
-      "title": "iSEE: Interactive visualization of SummarizedExperiment objects",
-      "type": "Tutorial",
       "versions": [
         {
           "captions": null,
@@ -102,12 +121,15 @@
           "length": "55M",
           "link": "qmoJtL8b438",
           "speakers": [
-            "csoneson"
+            "csoneson",
+            "kevinrue",
+            "federicomarini"
           ]
         }
       ],
       "support_channel": "bioconductor",
       "gtn_id": "bioconductor/isee",
+      "title": "bioconductor/isee/tutorial",
       "captioned": false
     },
     "bioconductor/bioc2022_tidytranscriptomics/tutorial": {
@@ -167,6 +189,15 @@
       "captioned": false
     },
     "bioconductor/fluentGenomics/tutorial": {
+      "title": "fluentGenomics: A plyranges and tximeta workflow",
+      "type": "Tutorial",
+      "instructors": [
+        "mikelove"
+      ],
+      "cover": {
+        "link": "bioconductor-session.jpg",
+        "alt": "Bioconductor logo"
+      },
       "description": "An extended workflow using the plyranges and tximeta packages for fluent\ngenomic data analysis. Use tximeta to correctly import RNA-seq transcript\nquantifications and summarize them to gene counts for downstream analysis.\nUse plyranges for clearly expressing operations over genomic coordinates and\nto combine results from differential expression and differential accessibility\nanalyses.\n",
       "materials": [
         {
@@ -177,8 +208,6 @@
         "bioconductor",
         "r"
       ],
-      "title": "fluentGenomics: A plyranges and tximeta workflow",
-      "type": "Tutorial",
       "versions": [
 
       ],
@@ -186,6 +215,15 @@
       "gtn_id": "bioconductor/fluentGenomics"
     },
     "bioconductor/RNAseq123/tutorial": {
+      "title": "RNA-seq analysis is easy as 1-2-3 with limma, Glimma and edgeR",
+      "type": "Tutorial",
+      "instructors": [
+        "mritchie"
+      ],
+      "cover": {
+        "link": "bioconductor-session.jpg",
+        "alt": "Bioconductor logo"
+      },
       "description": "The ability to easily and efficiently analyse RNA-sequencing data is a key\nstrength of the Bioconductor project. Starting with counts summarised at the\ngene-level, a typical analysis involves pre-processing, exploratory data\nanalysis, differential expression testing and pathway analysis with the\nresults obtained informing future experiments and validation studies. In this\nworkflow article, we analyse RNA-sequencing data from the mouse mammary gland,\ndemonstrating use of the popular edgeR package to import, organise, filter\nand normalise the data, followed by the limma package with its voom method,\nlinear modelling and empirical Bayes moderation to assess differential\nexpression and perform gene set testing. This pipeline is further enhanced\nby the Glimma package which enables interactive exploration of the results\nso that individual samples and genes can be examined by the user. The complete\nanalysis offered by these three packages highlights the ease with which\nresearchers can turn the raw counts from an RNA-sequencing experiment into\nbiological insights using Bioconductor.\n",
       "materials": [
         {
@@ -196,8 +234,6 @@
         "bioconductor",
         "r"
       ],
-      "title": "RNA-seq analysis is easy as 1-2-3 with limma, Glimma and edgeR",
-      "type": "Tutorial",
       "versions": [
 
       ],
@@ -205,6 +241,15 @@
       "gtn_id": "bioconductor/RNAseq123"
     },
     "bioconductor/RnaSeqGeneEdgeRQL/tutorial": {
+      "title": "From reads to genes to pathways: differential expression analysis of RNA-Seq experiments using Rsubread and the edgeR quasi-likelihood pipeline",
+      "type": "Tutorial",
+      "instructors": [
+        "yunshun"
+      ],
+      "cover": {
+        "link": "bioconductor-session.jpg",
+        "alt": "Bioconductor logo"
+      },
       "description": "RNA sequencing (RNA-seq) has become a very widely used technology for\nprofiling gene expression. One of the most common aims of RNA-seq profiling\nis to identify genes or molecular pathways that are differentially expressed\n(DE) between two or more biological conditions. This article demonstrates a\ncomputational workflow for the detection of DE genes and pathways from RNA-seq\ndata by providing a complete analysis of an RNA-seq experiment profiling\nepithelial cell subsets in the mouse mammary gland. The workflow uses R\nsoftware packages from the open-source Bioconductor project and covers all\nsteps of the analysis pipeline, including alignment of read sequences, data\nexploration, differential expression analysis, visualization and pathway\nanalysis. Read alignment and count quantification is conducted using the\nRsubread package and the statistical analyses are performed using the edgeR\npackage. The differential expression analysis uses the quasi-likelihood\nfunctionality of edgeR.\n",
       "materials": [
         {
@@ -215,8 +260,6 @@
         "bioconductor",
         "r"
       ],
-      "title": "From reads to genes to pathways: differential expression analysis of RNA-Seq experiments using Rsubread and the edgeR quasi-likelihood pipeline",
-      "type": "Tutorial",
       "versions": [
 
       ],
@@ -224,6 +267,15 @@
       "gtn_id": "bioconductor/RnaSeqGeneEdgeRQL"
     },
     "bioconductor/SingscoreAMLMutations/tutorial": {
+      "title": "Using singscore to predict mutations in AML from transcriptomic signatures",
+      "type": "Tutorial",
+      "instructors": [
+        "bhuvad"
+      ],
+      "cover": {
+        "link": "bioconductor-session.jpg",
+        "alt": "Bioconductor logo"
+      },
       "description": "Advances in RNA sequencing (RNA-seq) technologies that measure the\ntranscriptome of biological samples have revolutionised our ability to\nunderstand transcriptional regulatory programs that underpin diseases\nsuch as cancer. We recently published singscore - a single-sample, rank-based\ngene set scoring method which quantifies how concordant the transcriptional\nprofile of individual samples are relative to specific gene sets of interest.\nHere we demonstrate the application of singscore to investigate\ntranscriptional profiles associated with specific mutations or genetic lesions\nin acute myeloid leukemia. Using matched genomic and transcriptomic data\navailable through The Cancer Genome Atlas we show that scoring of appropriate\nsignatures can distinguish samples with corresponding mutations, reflecting\nthe ability of these mutations to drive aberrant transcriptional programs\ninvolved in leukemogenesis. We believe the singscore method is particularly\nuseful for studying heterogeneity within specific subsets of cancers, and as\ndemonstrated, singscore has the ability to identify samples where alternative\nmutations/genetic lesions appear to drive transcriptional programs.\n",
       "materials": [
         {
@@ -234,8 +286,6 @@
         "bioconductor",
         "r"
       ],
-      "title": "Using singscore to predict mutations in AML from transcriptomic signatures",
-      "type": "Tutorial",
       "versions": [
 
       ],
