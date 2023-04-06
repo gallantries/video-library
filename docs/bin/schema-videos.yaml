@@ -36,6 +36,18 @@ mapping:
             type:
                 type: str
                 pattern: /^(Welcome|Webinar|Demo|Lecture|Lecture & Demo|Tutorial|Lecture & Tutorial|Lecture Series)$/
+            cover:
+                type: map
+                mapping:
+                  link:
+                    type: str
+                  alt:
+                    type: str
+            instructors:
+                type: seq
+                sequence:
+                    - type: str
+                      enum: CONTRIBUTORS
             tags:
                 type: seq
                 required: true
