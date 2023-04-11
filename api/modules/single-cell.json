@@ -19,6 +19,9 @@
         },
         {
           "video": "single-cell/bulk-music/tutorial"
+        },
+        {
+          "video": "single-cell/scrna-case_monocle3-trajectories"
         }
       ]
     }
