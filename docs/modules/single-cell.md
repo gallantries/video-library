@@ -11,5 +11,6 @@ program:
       - video: single-cell/scrna-case_alevin/tutorial
       - video: single-cell/scrna-case_basic-pipeline/tutorial
       - video: single-cell/bulk-music/tutorial
+      - video: single-cell/scrna-case_monocle3-trajectories
 
 ---
