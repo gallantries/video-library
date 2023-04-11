@@ -11,7 +11,7 @@ aheikema:
     name: Astrid Heikema
     affiliation: [erasmusmc]
     photo: astrid.jpeg
-    
+
 ahl27:
     name: Aidan Lakshman
     affiliation: [univpittsburgh, bioc]
@@ -135,7 +135,7 @@ colineroyaux:
 combesf:
     name: Florence Combes
     affiliation: [ifb]
-    
+
 csoneson:
     name: Charlotte Soneson
     affiliation: [fmi, bioc]
@@ -195,7 +195,7 @@ federicodimarco:
     name: Federico DiMarco
     affiliation: [irccs]
     photo: Federico.jpg
-    
+
 federicomarini:
     name: Federico Marini
     affiliation: [imbei]
@@ -288,7 +288,7 @@ kpoterlowicz:
 ksuderman:
     name: Keith Suderman
     affiliation: [johnshopkins]
-    
+
 lgatto:
     name: Laurent Gatto
     affiliation: [uclouvain, bioc]
@@ -426,6 +426,10 @@ tnabtaf:
     name: Dave Clements
     affiliation: [johnshopkins]
 
+wee-snufkin:
+    name: Julia Jakiela
+    affiliation: uni-edinburgh
+
 willemdek11:
     name: Willem de Koning
     affiliation: [erasmusmc]
@@ -506,7 +510,7 @@ jdavcs:
 stain:
     name: Stian Soiland-Reyes
     affiliation: [by-covid]
-    
+
 stemangiola:
     name: Stefano Mangiola
     affiliation: [wehi, bioc]

@@ -217,6 +217,11 @@ ufz:
   link: "https://www.ufz.de/"
   logo: ufz.png
 
+uni-edinburgh:
+  name: University of Edinburgh
+  link: "https://www.ed.ac.uk/"
+  logo: uni-edinburgh.png
+
 uni-san-raffaele:
   name: Università Vita-Salute San Raffaele
   link: "https://www.unisr.it/"
@@ -231,7 +236,7 @@ uni-evry:
    name: Université d'Évry / Paris-Saclay
    link: "http://www.univ-evry.fr/"
    logo: uni-evry.png
-   
+
 univpittsburgh:
    name: University of Pittsburgh
    link: "https://www.pitt.edu/"
@@ -267,15 +272,15 @@ eosc_esg:
 wehi:
     name: WEHI
     link: https://www.wehi.edu.au/
-    
+
 uclouvain:
     name: UCLouvain
     link: https://uclouvain.be/en/index.html
-    
+
 ox:
     name: University of Oxford
     link: https://www.ox.ac.uk/
-    
+
 unc:
     name: University of North Carolina & Chapel Hill
     link: https://www.unc.edu/

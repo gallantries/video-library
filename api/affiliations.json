@@ -220,6 +220,11 @@
     "link": "https://www.ufz.de/",
     "logo": "ufz.png"
   },
+  "uni-edinburgh": {
+    "name": "University of Edinburgh",
+    "link": "https://www.ed.ac.uk/",
+    "logo": "uni-edinburgh.png"
+  },
   "uni-san-raffaele": {
     "name": "Università Vita-Salute San Raffaele",
     "link": "https://www.unisr.it/",

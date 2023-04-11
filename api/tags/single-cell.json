@@ -33,6 +33,34 @@
       "title": "Bulk RNA Deconvolution with MuSiC",
       "captioned": true
     },
+    "single-cell/scrna-case_monocle3-trajectories": {
+      "description": null,
+      "materials": [
+        {
+          "link": "topics/single-cell/tutorials/scrna-case_monocle3-trajectories/tutorial.html",
+          "type": "Tutorial"
+        }
+      ],
+      "tags": [
+        "single-cell",
+        "transcriptomics"
+      ],
+      "type": "Tutorial",
+      "versions": [
+        {
+          "link": "Espl6qSbu3Y",
+          "date": "2023-04-11",
+          "length": "15M",
+          "speakers": [
+            "wee-snufkin"
+          ],
+          "captions": null
+        }
+      ],
+      "gtn_id": "single-cell/scrna-case_monocle3-trajectories",
+      "title": "Trajectory Analysis using Monocle3 ",
+      "captioned": false
+    },
     "single-cell/scrna-case_alevin/tutorial": {
       "description": "This tutorial will take you from raw FASTQ files to a cell x gene data matrix in AnnData format. What’s a data matrix, and what’s AnnData format? Well you’ll find out! Importantly, this is the first step in processing single cell data in order to start analysing it.",
       "materials": [

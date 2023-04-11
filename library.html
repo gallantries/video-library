@@ -31356,12 +31356,227 @@ cell type abundances from bulk RNA-seq.</p>
   
   <div class="accordion-header" id="headingtranscriptomics2">
    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapsetranscriptomics2" aria-expanded="false" aria-controls="collapsetranscriptomics2">
+        Trajectory Analysis using Monocle3 
+         (Tutorial) 
+   </button>
+  </div>
+
+  <div id="collapsetranscriptomics2" class="accordion-collapse collapse " aria-labelledby="headingtranscriptomics2" data-bs-parent="#accordiontranscriptomics">
+
+    <div class="accordion-body">
+
+      <!-- Video -->
+      
+        
+           
+           <!-- session: {"description"=>nil, "materials"=>[{"link"=>"topics/single-cell/tutorials/scrna-case_monocle3-trajectories/tutorial.html", "type"=>"Tutorial"}], "tags"=>["single-cell", "transcriptomics"], "type"=>"Tutorial", "versions"=>[{"link"=>"Espl6qSbu3Y", "date"=>"2023-04-11", "length"=>"15M", "speakers"=>["wee-snufkin"], "captions"=>nil, "name"=>"Trajectory Analysis using Monocle3 "}], "gtn_id"=>"single-cell/scrna-case_monocle3-trajectories", "title"=>"Trajectory Analysis using Monocle3 ", "captioned"=>false, "name"=>"Trajectory Analysis using Monocle3 "}<br><br> video: {"link"=>"Espl6qSbu3Y", "date"=>"2023-04-11", "length"=>"15M", "speakers"=>["wee-snufkin"], "captions"=>nil, "name"=>"Trajectory Analysis using Monocle3 "} -->
+
+
+
+
+
+
+<!-- determine the next archived version of tutorial -->
+
+
+
+
+<div class="flex-row">
+ <div class="col-md-8">
+  <h3 class="session-section">Tutorial Video   </h3>
+  <div style="position:relative;padding-top:56.25%;">
+   <iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" data-src="https://www.youtube.com/embed/Espl6qSbu3Y" class="lazyload" loading="lazy" frameborder="0" title="YouTube Embedded Video of the Tutorial" aria-label="YouTube Embedded Video of the Tutorial" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="">
+   </iframe>
+  </div>
+  <div style="margin-top:1em;" class="video-metadata">
+      <table>
+          
+          <tr>
+              <td><strong>Length:</strong></td>
+              <td>15 minutes</td>
+          </tr>
+   
+   
+          <tr>
+              <td><strong>Captions:</strong></td>
+              <td><strong>No captions available for this video.</strong> We aim to have captions for all our videos, however sometimes videos get added without captions. Please contact us to indicate your desire to have captions added and we will ask the speakers to provide captions.</td>
+          </tr>
+   
+          
+          <tr>
+              <td><strong>Created:</strong></td>
+              <td>11 April 2023</td>
+          </tr>
+          
+          
+          
+          <tr>
+              <td><strong>Materials:</strong></td>
+              <td>
+                <ul class="plain-text-list">
+                    
+                    <li>
+                        
+                            <img style="height: 1em" src="/video-library/assets/fa/tutorial.svg" alt="assets/fa/tutorial.svg" aria-hidden="true" />
+                            
+                        
+
+                        
+                        
+				Tutorial:
+
+				<a href="https://training.galaxyproject.org/archive/2023-05-01/topics/single-cell/tutorials/scrna-case_monocle3-trajectories/tutorial.html?utm_source=schedule&amp;utm_medium=click&amp;utm_campaign=video-library">Version in Video</a>
+				<!-- We allow overriding specific materials to their archival versions, hiding the "current" link. -->
+				
+				|
+				<a href="https://training.galaxyproject.org/topics/single-cell/tutorials/scrna-case_monocle3-trajectories/tutorial.html?utm_source=schedule&amp;utm_medium=click&amp;utm_campaign=video-library">Latest Version</a>
+				
+
+				
+				<br />
+				<img style="height: 1em" src="/video-library/assets/fa/circle-question-regular.svg" alt="assets/fa/circle-question-regular.svg" aria-hidden="true" />
+				
+				<a href="https://training.galaxyproject.org/topics/single-cell/tutorials/scrna-case_monocle3-trajectories/faqs/?utm_source=schedule&amp;utm_medium=click&amp;utm_campaign=video-library">FAQs</a>
+				
+                        
+                    </li>
+                
+                </ul>
+              </td>
+          </tr>
+          
+          <!-- this is for the embedded versions where they'll use their own1 support forum -->
+                    <tr>
+              <td><strong>Support:</strong></td>
+              <td>
+              <ul>
+                
+                
+                <li>Slack: <a href="https://gtnsmrgsbord.slack.com/archives/single-cell_scrna-case_monocle3-trajectories">#single-cell_scrna-case_monocle3-trajectories</a> <ul><li><a href="https://join.slack.com/t/gtnsmrgsbord/shared_invite/zt-x7vinbs1-BA~Kht6N86JBhDq0uTIVdQ">Slack Invite</a></li></ul></li>
+                <li><a href="https://gitter.im/Galaxy-Training-Network/Lobby">Gitter</a></li>
+                <li><a href="https://help.galaxyproject.org">Galaxy Help Forum</a></li>
+              </ul>
+              </td>
+          </tr>
+          
+          
+          <!--
+          
+          
+          <tr>
+              <td><strong>Finished this tutorial as part of GTN Tapas?</strong></td>
+              <td>
+              <ol>
+                
+                
+                <li><a href="https://training.galaxyproject.org/training-material/faqs/galaxy/histories_sharing.html?utm_source=schedule&utm_medium=click&utm_campaign=video-library">Share your history</a> (if applicable)</li>
+                <li>Copy the URL</li>
+                <li>Run the command <code>/completed</code> with the URL to your shared history, in <a href="https://gtnsmrgsbord.slack.com/archives/single-cell_scrna-case_monocle3-trajectories">#single-cell_scrna-case_monocle3-trajectories</a></li>
+              </ol>
+              </td>
+          </tr>
+          
+          -->
+      </table>
+
+  </div>
+  
+  Go to the <a href="/video-library/videos/single-cell/scrna-case_monocle3-trajectories">video page</a> to see all versions.
+  
+ </div>
+ <!-- speaker(s) -->
+ 
+ 
+
+ <div class="col-md-3">
+  <center><h3 class="session-section">Speaker</h3></center>
+  
+
+
+
+
+
+
+
+<div class="hall-of-fame">
+    
+    
+    
+		<div class="hall-of-fame-hero" id="wee-snufkin">
+			
+			<a href="/video-library/contributors/wee-snufkin/">
+			
+            
+			<img src="https://avatars.githubusercontent.com/wee-snufkin" alt="" />
+            
+			<div class="name">
+				<b>Julia Jakiela</b>
+			</div>
+			
+			</a>
+			
+			<div class="affil">
+				
+				<a href="https://www.ed.ac.uk/">
+					University of Edinburgh
+				</a>
+				
+			</div>
+		</div>
+	
+    
+</div>
+
+ </div>
+
+
+</div><!-- end video session -->
+
+
+
+        
+
+      
+
+
+      <!-- Instructors -->
+      
+
+      <!-- Supporting Servers -->
+
+      <!-- Resources -->
+
+    </div><!-- end accordion body -->
+  </div><!-- end collapse -->
+</div><!-- end accordion item (training session) -->
+
+
+
+	
+		
+		
+		
+
+
+
+
+
+
+
+
+
+
+
+<div class="accordion-item">
+  
+  <div class="accordion-header" id="headingtranscriptomics3">
+   <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapsetranscriptomics3" aria-expanded="false" aria-controls="collapsetranscriptomics3">
         Generating a single cell matrix using Alevin
          (Demo) 
    </button>
   </div>
 
-  <div id="collapsetranscriptomics2" class="accordion-collapse collapse " aria-labelledby="headingtranscriptomics2" data-bs-parent="#accordiontranscriptomics">
+  <div id="collapsetranscriptomics3" class="accordion-collapse collapse " aria-labelledby="headingtranscriptomics3" data-bs-parent="#accordiontranscriptomics">
 
     <div class="accordion-body">
 
@@ -31590,14 +31805,14 @@ cell type abundances from bulk RNA-seq.</p>
 
 <div class="accordion-item">
   
-  <div class="accordion-header" id="headingtranscriptomics3">
-   <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapsetranscriptomics3" aria-expanded="false" aria-controls="collapsetranscriptomics3">
+  <div class="accordion-header" id="headingtranscriptomics4">
+   <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapsetranscriptomics4" aria-expanded="false" aria-controls="collapsetranscriptomics4">
         Combining datasets after pre-processing
          (Demo) 
    </button>
   </div>
 
-  <div id="collapsetranscriptomics3" class="accordion-collapse collapse " aria-labelledby="headingtranscriptomics3" data-bs-parent="#accordiontranscriptomics">
+  <div id="collapsetranscriptomics4" class="accordion-collapse collapse " aria-labelledby="headingtranscriptomics4" data-bs-parent="#accordiontranscriptomics">
 
     <div class="accordion-body">
 
@@ -31818,14 +32033,14 @@ cell type abundances from bulk RNA-seq.</p>
 
 <div class="accordion-item">
   
-  <div class="accordion-header" id="headingtranscriptomics4">
-   <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapsetranscriptomics4" aria-expanded="false" aria-controls="collapsetranscriptomics4">
+  <div class="accordion-header" id="headingtranscriptomics5">
+   <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapsetranscriptomics5" aria-expanded="false" aria-controls="collapsetranscriptomics5">
         Introduction to Transcriptomics
          (Lecture) 
    </button>
   </div>
 
-  <div id="collapsetranscriptomics4" class="accordion-collapse collapse " aria-labelledby="headingtranscriptomics4" data-bs-parent="#accordiontranscriptomics">
+  <div id="collapsetranscriptomics5" class="accordion-collapse collapse " aria-labelledby="headingtranscriptomics5" data-bs-parent="#accordiontranscriptomics">
 
     <div class="accordion-body">
 
@@ -32029,14 +32244,14 @@ cell type abundances from bulk RNA-seq.</p>
 
 <div class="accordion-item">
   
-  <div class="accordion-header" id="headingtranscriptomics5">
-   <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapsetranscriptomics5" aria-expanded="false" aria-controls="collapsetranscriptomics5">
+  <div class="accordion-header" id="headingtranscriptomics6">
+   <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapsetranscriptomics6" aria-expanded="false" aria-controls="collapsetranscriptomics6">
         Whole transcriptome analysis of Arabidopsis thaliana
          (Lecture) 
    </button>
   </div>
 
-  <div id="collapsetranscriptomics5" class="accordion-collapse collapse " aria-labelledby="headingtranscriptomics5" data-bs-parent="#accordiontranscriptomics">
+  <div id="collapsetranscriptomics6" class="accordion-collapse collapse " aria-labelledby="headingtranscriptomics6" data-bs-parent="#accordiontranscriptomics">
 
     <div class="accordion-body">
 
@@ -32236,14 +32451,14 @@ cell type abundances from bulk RNA-seq.</p>
 
 <div class="accordion-item">
   
-  <div class="accordion-header" id="headingtranscriptomics6">
-   <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapsetranscriptomics6" aria-expanded="false" aria-controls="collapsetranscriptomics6">
+  <div class="accordion-header" id="headingtranscriptomics7">
+   <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapsetranscriptomics7" aria-expanded="false" aria-controls="collapsetranscriptomics7">
         Whole transcriptome analysis of Arabidopsis thaliana
          (Tutorial) 
    </button>
   </div>
 
-  <div id="collapsetranscriptomics6" class="accordion-collapse collapse " aria-labelledby="headingtranscriptomics6" data-bs-parent="#accordiontranscriptomics">
+  <div id="collapsetranscriptomics7" class="accordion-collapse collapse " aria-labelledby="headingtranscriptomics7" data-bs-parent="#accordiontranscriptomics">
 
     <div class="accordion-body">
 
@@ -32466,14 +32681,14 @@ cell type abundances from bulk RNA-seq.</p>
 
 <div class="accordion-item">
   
-  <div class="accordion-header" id="headingtranscriptomics7">
-   <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapsetranscriptomics7" aria-expanded="false" aria-controls="collapsetranscriptomics7">
+  <div class="accordion-header" id="headingtranscriptomics8">
+   <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapsetranscriptomics8" aria-expanded="false" aria-controls="collapsetranscriptomics8">
         Reference-based RNA-Seq data analysis
          (Tutorial) 
    </button>
   </div>
 
-  <div id="collapsetranscriptomics7" class="accordion-collapse collapse " aria-labelledby="headingtranscriptomics7" data-bs-parent="#accordiontranscriptomics">
+  <div id="collapsetranscriptomics8" class="accordion-collapse collapse " aria-labelledby="headingtranscriptomics8" data-bs-parent="#accordiontranscriptomics">
 
     <div class="accordion-body">
 
@@ -32722,14 +32937,14 @@ cell type abundances from bulk RNA-seq.</p>
 
 <div class="accordion-item">
   
-  <div class="accordion-header" id="headingtranscriptomics8">
-   <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapsetranscriptomics8" aria-expanded="false" aria-controls="collapsetranscriptomics8">
+  <div class="accordion-header" id="headingtranscriptomics9">
+   <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapsetranscriptomics9" aria-expanded="false" aria-controls="collapsetranscriptomics9">
         RNA Seq Counts to Viz in R
          (Tutorial) 
    </button>
   </div>
 
-  <div id="collapsetranscriptomics8" class="accordion-collapse collapse " aria-labelledby="headingtranscriptomics8" data-bs-parent="#accordiontranscriptomics">
+  <div id="collapsetranscriptomics9" class="accordion-collapse collapse " aria-labelledby="headingtranscriptomics9" data-bs-parent="#accordiontranscriptomics">
 
     <div class="accordion-body">
 
@@ -32956,14 +33171,14 @@ cell type abundances from bulk RNA-seq.</p>
 
 <div class="accordion-item">
   
-  <div class="accordion-header" id="headingtranscriptomics9">
-   <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapsetranscriptomics9" aria-expanded="false" aria-controls="collapsetranscriptomics9">
+  <div class="accordion-header" id="headingtranscriptomics10">
+   <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapsetranscriptomics10" aria-expanded="false" aria-controls="collapsetranscriptomics10">
         Visualization of RNA-Seq results with Volcano Plot in R
          (Tutorial) 
    </button>
   </div>
 
-  <div id="collapsetranscriptomics9" class="accordion-collapse collapse " aria-labelledby="headingtranscriptomics9" data-bs-parent="#accordiontranscriptomics">
+  <div id="collapsetranscriptomics10" class="accordion-collapse collapse " aria-labelledby="headingtranscriptomics10" data-bs-parent="#accordiontranscriptomics">
 
     <div class="accordion-body">
 
@@ -33188,14 +33403,14 @@ cell type abundances from bulk RNA-seq.</p>
 
 <div class="accordion-item">
   
-  <div class="accordion-header" id="headingtranscriptomics10">
-   <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapsetranscriptomics10" aria-expanded="false" aria-controls="collapsetranscriptomics10">
+  <div class="accordion-header" id="headingtranscriptomics11">
+   <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapsetranscriptomics11" aria-expanded="false" aria-controls="collapsetranscriptomics11">
         Visualization of RNA-Seq results with Volcano Plot
          (Tutorial) 
    </button>
   </div>
 
-  <div id="collapsetranscriptomics10" class="accordion-collapse collapse " aria-labelledby="headingtranscriptomics10" data-bs-parent="#accordiontranscriptomics">
+  <div id="collapsetranscriptomics11" class="accordion-collapse collapse " aria-labelledby="headingtranscriptomics11" data-bs-parent="#accordiontranscriptomics">
 
     <div class="accordion-body">
 
@@ -33420,14 +33635,14 @@ cell type abundances from bulk RNA-seq.</p>
 
 <div class="accordion-item">
   
-  <div class="accordion-header" id="headingtranscriptomics11">
-   <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapsetranscriptomics11" aria-expanded="false" aria-controls="collapsetranscriptomics11">
+  <div class="accordion-header" id="headingtranscriptomics12">
+   <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapsetranscriptomics12" aria-expanded="false" aria-controls="collapsetranscriptomics12">
         Inferring Trajectories using Python (Jupyter Notebook) in Galaxy
          (Demo) 
    </button>
   </div>
 
-  <div id="collapsetranscriptomics11" class="accordion-collapse collapse " aria-labelledby="headingtranscriptomics11" data-bs-parent="#accordiontranscriptomics">
+  <div id="collapsetranscriptomics12" class="accordion-collapse collapse " aria-labelledby="headingtranscriptomics12" data-bs-parent="#accordiontranscriptomics">
 
     <div class="accordion-body">
 
@@ -33654,14 +33869,14 @@ cell type abundances from bulk RNA-seq.</p>
 
 <div class="accordion-item">
   
-  <div class="accordion-header" id="headingtranscriptomics12">
-   <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapsetranscriptomics12" aria-expanded="false" aria-controls="collapsetranscriptomics12">
+  <div class="accordion-header" id="headingtranscriptomics13">
+   <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapsetranscriptomics13" aria-expanded="false" aria-controls="collapsetranscriptomics13">
         An introduction to scRNA-seq data analysis
          (Lecture) 
    </button>
   </div>
 
-  <div id="collapsetranscriptomics12" class="accordion-collapse collapse " aria-labelledby="headingtranscriptomics12" data-bs-parent="#accordiontranscriptomics">
+  <div id="collapsetranscriptomics13" class="accordion-collapse collapse " aria-labelledby="headingtranscriptomics13" data-bs-parent="#accordiontranscriptomics">
 
     <div class="accordion-body">
 
@@ -33869,14 +34084,14 @@ cell type abundances from bulk RNA-seq.</p>
 
 <div class="accordion-item">
   
-  <div class="accordion-header" id="headingtranscriptomics13">
-   <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapsetranscriptomics13" aria-expanded="false" aria-controls="collapsetranscriptomics13">
+  <div class="accordion-header" id="headingtranscriptomics14">
+   <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapsetranscriptomics14" aria-expanded="false" aria-controls="collapsetranscriptomics14">
         Analysis of plant scRNA-Seq Data with Scanpy
          (Tutorial) 
    </button>
   </div>
 
-  <div id="collapsetranscriptomics13" class="accordion-collapse collapse " aria-labelledby="headingtranscriptomics13" data-bs-parent="#accordiontranscriptomics">
+  <div id="collapsetranscriptomics14" class="accordion-collapse collapse " aria-labelledby="headingtranscriptomics14" data-bs-parent="#accordiontranscriptomics">
 
     <div class="accordion-body">
 
@@ -34105,14 +34320,14 @@ cell type abundances from bulk RNA-seq.</p>
 
 <div class="accordion-item">
   
-  <div class="accordion-header" id="headingtranscriptomics14">
-   <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapsetranscriptomics14" aria-expanded="false" aria-controls="collapsetranscriptomics14">
+  <div class="accordion-header" id="headingtranscriptomics15">
+   <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapsetranscriptomics15" aria-expanded="false" aria-controls="collapsetranscriptomics15">
         Pre-processing of 10X Single-Cell RNA Datasets
          (Demo) 
    </button>
   </div>
 
-  <div id="collapsetranscriptomics14" class="accordion-collapse collapse " aria-labelledby="headingtranscriptomics14" data-bs-parent="#accordiontranscriptomics">
+  <div id="collapsetranscriptomics15" class="accordion-collapse collapse " aria-labelledby="headingtranscriptomics15" data-bs-parent="#accordiontranscriptomics">
 
     <div class="accordion-body">
 
@@ -34341,14 +34556,14 @@ cell type abundances from bulk RNA-seq.</p>
 
 <div class="accordion-item">
   
-  <div class="accordion-header" id="headingtranscriptomics15">
-   <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapsetranscriptomics15" aria-expanded="false" aria-controls="collapsetranscriptomics15">
+  <div class="accordion-header" id="headingtranscriptomics16">
+   <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapsetranscriptomics16" aria-expanded="false" aria-controls="collapsetranscriptomics16">
         Clustering 3K PBMCs with Scanpy
          (Demo) 
    </button>
   </div>
 
-  <div id="collapsetranscriptomics15" class="accordion-collapse collapse " aria-labelledby="headingtranscriptomics15" data-bs-parent="#accordiontranscriptomics">
+  <div id="collapsetranscriptomics16" class="accordion-collapse collapse " aria-labelledby="headingtranscriptomics16" data-bs-parent="#accordiontranscriptomics">
 
     <div class="accordion-body">
 
@@ -34589,14 +34804,14 @@ cell type abundances from bulk RNA-seq.</p>
 
 <div class="accordion-item">
   
-  <div class="accordion-header" id="headingtranscriptomics16">
-   <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapsetranscriptomics16" aria-expanded="false" aria-controls="collapsetranscriptomics16">
+  <div class="accordion-header" id="headingtranscriptomics17">
+   <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapsetranscriptomics17" aria-expanded="false" aria-controls="collapsetranscriptomics17">
         Filter, Plot and Explore Single-cell RNA-seq Data
          (Demo) 
    </button>
   </div>
 
-  <div id="collapsetranscriptomics16" class="accordion-collapse collapse " aria-labelledby="headingtranscriptomics16" data-bs-parent="#accordiontranscriptomics">
+  <div id="collapsetranscriptomics17" class="accordion-collapse collapse " aria-labelledby="headingtranscriptomics17" data-bs-parent="#accordiontranscriptomics">
 
     <div class="accordion-body">
 
@@ -34829,14 +35044,14 @@ cell type abundances from bulk RNA-seq.</p>
 
 <div class="accordion-item">
   
-  <div class="accordion-header" id="headingtranscriptomics17">
-   <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapsetranscriptomics17" aria-expanded="false" aria-controls="collapsetranscriptomics17">
+  <div class="accordion-header" id="headingtranscriptomics18">
+   <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapsetranscriptomics18" aria-expanded="false" aria-controls="collapsetranscriptomics18">
         Understanding Barcodes
          (Demo) 
    </button>
   </div>
 
-  <div id="collapsetranscriptomics17" class="accordion-collapse collapse " aria-labelledby="headingtranscriptomics17" data-bs-parent="#accordiontranscriptomics">
+  <div id="collapsetranscriptomics18" class="accordion-collapse collapse " aria-labelledby="headingtranscriptomics18" data-bs-parent="#accordiontranscriptomics">
 
     <div class="accordion-body">
 
@@ -35313,12 +35528,227 @@ cell type abundances from bulk RNA-seq.</p>
   
   <div class="accordion-header" id="headingsingle-cell1">
    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapsesingle-cell1" aria-expanded="false" aria-controls="collapsesingle-cell1">
+        Trajectory Analysis using Monocle3 
+         (Tutorial) 
+   </button>
+  </div>
+
+  <div id="collapsesingle-cell1" class="accordion-collapse collapse " aria-labelledby="headingsingle-cell1" data-bs-parent="#accordionsingle-cell">
+
+    <div class="accordion-body">
+
+      <!-- Video -->
+      
+        
+           
+           <!-- session: {"description"=>nil, "materials"=>[{"link"=>"topics/single-cell/tutorials/scrna-case_monocle3-trajectories/tutorial.html", "type"=>"Tutorial"}], "tags"=>["single-cell", "transcriptomics"], "type"=>"Tutorial", "versions"=>[{"link"=>"Espl6qSbu3Y", "date"=>"2023-04-11", "length"=>"15M", "speakers"=>["wee-snufkin"], "captions"=>nil, "name"=>"Trajectory Analysis using Monocle3 "}], "gtn_id"=>"single-cell/scrna-case_monocle3-trajectories", "title"=>"Trajectory Analysis using Monocle3 ", "captioned"=>false, "name"=>"Trajectory Analysis using Monocle3 "}<br><br> video: {"link"=>"Espl6qSbu3Y", "date"=>"2023-04-11", "length"=>"15M", "speakers"=>["wee-snufkin"], "captions"=>nil, "name"=>"Trajectory Analysis using Monocle3 "} -->
+
+
+
+
+
+
+<!-- determine the next archived version of tutorial -->
+
+
+
+
+<div class="flex-row">
+ <div class="col-md-8">
+  <h3 class="session-section">Tutorial Video   </h3>
+  <div style="position:relative;padding-top:56.25%;">
+   <iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" data-src="https://www.youtube.com/embed/Espl6qSbu3Y" class="lazyload" loading="lazy" frameborder="0" title="YouTube Embedded Video of the Tutorial" aria-label="YouTube Embedded Video of the Tutorial" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="">
+   </iframe>
+  </div>
+  <div style="margin-top:1em;" class="video-metadata">
+      <table>
+          
+          <tr>
+              <td><strong>Length:</strong></td>
+              <td>15 minutes</td>
+          </tr>
+   
+   
+          <tr>
+              <td><strong>Captions:</strong></td>
+              <td><strong>No captions available for this video.</strong> We aim to have captions for all our videos, however sometimes videos get added without captions. Please contact us to indicate your desire to have captions added and we will ask the speakers to provide captions.</td>
+          </tr>
+   
+          
+          <tr>
+              <td><strong>Created:</strong></td>
+              <td>11 April 2023</td>
+          </tr>
+          
+          
+          
+          <tr>
+              <td><strong>Materials:</strong></td>
+              <td>
+                <ul class="plain-text-list">
+                    
+                    <li>
+                        
+                            <img style="height: 1em" src="/video-library/assets/fa/tutorial.svg" alt="assets/fa/tutorial.svg" aria-hidden="true" />
+                            
+                        
+
+                        
+                        
+				Tutorial:
+
+				<a href="https://training.galaxyproject.org/archive/2023-05-01/topics/single-cell/tutorials/scrna-case_monocle3-trajectories/tutorial.html?utm_source=schedule&amp;utm_medium=click&amp;utm_campaign=video-library">Version in Video</a>
+				<!-- We allow overriding specific materials to their archival versions, hiding the "current" link. -->
+				
+				|
+				<a href="https://training.galaxyproject.org/topics/single-cell/tutorials/scrna-case_monocle3-trajectories/tutorial.html?utm_source=schedule&amp;utm_medium=click&amp;utm_campaign=video-library">Latest Version</a>
+				
+
+				
+				<br />
+				<img style="height: 1em" src="/video-library/assets/fa/circle-question-regular.svg" alt="assets/fa/circle-question-regular.svg" aria-hidden="true" />
+				
+				<a href="https://training.galaxyproject.org/topics/single-cell/tutorials/scrna-case_monocle3-trajectories/faqs/?utm_source=schedule&amp;utm_medium=click&amp;utm_campaign=video-library">FAQs</a>
+				
+                        
+                    </li>
+                
+                </ul>
+              </td>
+          </tr>
+          
+          <!-- this is for the embedded versions where they'll use their own1 support forum -->
+                    <tr>
+              <td><strong>Support:</strong></td>
+              <td>
+              <ul>
+                
+                
+                <li>Slack: <a href="https://gtnsmrgsbord.slack.com/archives/single-cell_scrna-case_monocle3-trajectories">#single-cell_scrna-case_monocle3-trajectories</a> <ul><li><a href="https://join.slack.com/t/gtnsmrgsbord/shared_invite/zt-x7vinbs1-BA~Kht6N86JBhDq0uTIVdQ">Slack Invite</a></li></ul></li>
+                <li><a href="https://gitter.im/Galaxy-Training-Network/Lobby">Gitter</a></li>
+                <li><a href="https://help.galaxyproject.org">Galaxy Help Forum</a></li>
+              </ul>
+              </td>
+          </tr>
+          
+          
+          <!--
+          
+          
+          <tr>
+              <td><strong>Finished this tutorial as part of GTN Tapas?</strong></td>
+              <td>
+              <ol>
+                
+                
+                <li><a href="https://training.galaxyproject.org/training-material/faqs/galaxy/histories_sharing.html?utm_source=schedule&utm_medium=click&utm_campaign=video-library">Share your history</a> (if applicable)</li>
+                <li>Copy the URL</li>
+                <li>Run the command <code>/completed</code> with the URL to your shared history, in <a href="https://gtnsmrgsbord.slack.com/archives/single-cell_scrna-case_monocle3-trajectories">#single-cell_scrna-case_monocle3-trajectories</a></li>
+              </ol>
+              </td>
+          </tr>
+          
+          -->
+      </table>
+
+  </div>
+  
+  Go to the <a href="/video-library/videos/single-cell/scrna-case_monocle3-trajectories">video page</a> to see all versions.
+  
+ </div>
+ <!-- speaker(s) -->
+ 
+ 
+
+ <div class="col-md-3">
+  <center><h3 class="session-section">Speaker</h3></center>
+  
+
+
+
+
+
+
+
+<div class="hall-of-fame">
+    
+    
+    
+		<div class="hall-of-fame-hero" id="wee-snufkin">
+			
+			<a href="/video-library/contributors/wee-snufkin/">
+			
+            
+			<img src="https://avatars.githubusercontent.com/wee-snufkin" alt="" />
+            
+			<div class="name">
+				<b>Julia Jakiela</b>
+			</div>
+			
+			</a>
+			
+			<div class="affil">
+				
+				<a href="https://www.ed.ac.uk/">
+					University of Edinburgh
+				</a>
+				
+			</div>
+		</div>
+	
+    
+</div>
+
+ </div>
+
+
+</div><!-- end video session -->
+
+
+
+        
+
+      
+
+
+      <!-- Instructors -->
+      
+
+      <!-- Supporting Servers -->
+
+      <!-- Resources -->
+
+    </div><!-- end accordion body -->
+  </div><!-- end collapse -->
+</div><!-- end accordion item (training session) -->
+
+
+
+	
+		
+		
+		
+
+
+
+
+
+
+
+
+
+
+
+<div class="accordion-item">
+  
+  <div class="accordion-header" id="headingsingle-cell2">
+   <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapsesingle-cell2" aria-expanded="false" aria-controls="collapsesingle-cell2">
         Generating a single cell matrix using Alevin
          (Demo) 
    </button>
   </div>
 
-  <div id="collapsesingle-cell1" class="accordion-collapse collapse " aria-labelledby="headingsingle-cell1" data-bs-parent="#accordionsingle-cell">
+  <div id="collapsesingle-cell2" class="accordion-collapse collapse " aria-labelledby="headingsingle-cell2" data-bs-parent="#accordionsingle-cell">
 
     <div class="accordion-body">
 
@@ -35547,14 +35977,14 @@ cell type abundances from bulk RNA-seq.</p>
 
 <div class="accordion-item">
   
-  <div class="accordion-header" id="headingsingle-cell2">
-   <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapsesingle-cell2" aria-expanded="false" aria-controls="collapsesingle-cell2">
+  <div class="accordion-header" id="headingsingle-cell3">
+   <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapsesingle-cell3" aria-expanded="false" aria-controls="collapsesingle-cell3">
         Combining datasets after pre-processing
          (Demo) 
    </button>
   </div>
 
-  <div id="collapsesingle-cell2" class="accordion-collapse collapse " aria-labelledby="headingsingle-cell2" data-bs-parent="#accordionsingle-cell">
+  <div id="collapsesingle-cell3" class="accordion-collapse collapse " aria-labelledby="headingsingle-cell3" data-bs-parent="#accordionsingle-cell">
 
     <div class="accordion-body">
 
@@ -35775,14 +36205,14 @@ cell type abundances from bulk RNA-seq.</p>
 
 <div class="accordion-item">
   
-  <div class="accordion-header" id="headingsingle-cell3">
-   <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapsesingle-cell3" aria-expanded="false" aria-controls="collapsesingle-cell3">
+  <div class="accordion-header" id="headingsingle-cell4">
+   <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapsesingle-cell4" aria-expanded="false" aria-controls="collapsesingle-cell4">
         Inferring Trajectories using Python (Jupyter Notebook) in Galaxy
          (Demo) 
    </button>
   </div>
 
-  <div id="collapsesingle-cell3" class="accordion-collapse collapse " aria-labelledby="headingsingle-cell3" data-bs-parent="#accordionsingle-cell">
+  <div id="collapsesingle-cell4" class="accordion-collapse collapse " aria-labelledby="headingsingle-cell4" data-bs-parent="#accordionsingle-cell">
 
     <div class="accordion-body">
 
@@ -36009,14 +36439,14 @@ cell type abundances from bulk RNA-seq.</p>
 
 <div class="accordion-item">
   
-  <div class="accordion-header" id="headingsingle-cell4">
-   <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapsesingle-cell4" aria-expanded="false" aria-controls="collapsesingle-cell4">
+  <div class="accordion-header" id="headingsingle-cell5">
+   <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapsesingle-cell5" aria-expanded="false" aria-controls="collapsesingle-cell5">
         An introduction to scRNA-seq data analysis
          (Lecture) 
    </button>
   </div>
 
-  <div id="collapsesingle-cell4" class="accordion-collapse collapse " aria-labelledby="headingsingle-cell4" data-bs-parent="#accordionsingle-cell">
+  <div id="collapsesingle-cell5" class="accordion-collapse collapse " aria-labelledby="headingsingle-cell5" data-bs-parent="#accordionsingle-cell">
 
     <div class="accordion-body">
 
@@ -36224,14 +36654,14 @@ cell type abundances from bulk RNA-seq.</p>
 
 <div class="accordion-item">
   
-  <div class="accordion-header" id="headingsingle-cell5">
-   <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapsesingle-cell5" aria-expanded="false" aria-controls="collapsesingle-cell5">
+  <div class="accordion-header" id="headingsingle-cell6">
+   <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapsesingle-cell6" aria-expanded="false" aria-controls="collapsesingle-cell6">
         Analysis of plant scRNA-Seq Data with Scanpy
          (Tutorial) 
    </button>
   </div>
 
-  <div id="collapsesingle-cell5" class="accordion-collapse collapse " aria-labelledby="headingsingle-cell5" data-bs-parent="#accordionsingle-cell">
+  <div id="collapsesingle-cell6" class="accordion-collapse collapse " aria-labelledby="headingsingle-cell6" data-bs-parent="#accordionsingle-cell">
 
     <div class="accordion-body">
 
@@ -36460,14 +36890,14 @@ cell type abundances from bulk RNA-seq.</p>
 
 <div class="accordion-item">
   
-  <div class="accordion-header" id="headingsingle-cell6">
-   <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapsesingle-cell6" aria-expanded="false" aria-controls="collapsesingle-cell6">
+  <div class="accordion-header" id="headingsingle-cell7">
+   <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapsesingle-cell7" aria-expanded="false" aria-controls="collapsesingle-cell7">
         Pre-processing of 10X Single-Cell RNA Datasets
          (Demo) 
    </button>
   </div>
 
-  <div id="collapsesingle-cell6" class="accordion-collapse collapse " aria-labelledby="headingsingle-cell6" data-bs-parent="#accordionsingle-cell">
+  <div id="collapsesingle-cell7" class="accordion-collapse collapse " aria-labelledby="headingsingle-cell7" data-bs-parent="#accordionsingle-cell">
 
     <div class="accordion-body">
 
@@ -36696,14 +37126,14 @@ cell type abundances from bulk RNA-seq.</p>
 
 <div class="accordion-item">
   
-  <div class="accordion-header" id="headingsingle-cell7">
-   <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapsesingle-cell7" aria-expanded="false" aria-controls="collapsesingle-cell7">
+  <div class="accordion-header" id="headingsingle-cell8">
+   <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapsesingle-cell8" aria-expanded="false" aria-controls="collapsesingle-cell8">
         Clustering 3K PBMCs with Scanpy
          (Demo) 
    </button>
   </div>
 
-  <div id="collapsesingle-cell7" class="accordion-collapse collapse " aria-labelledby="headingsingle-cell7" data-bs-parent="#accordionsingle-cell">
+  <div id="collapsesingle-cell8" class="accordion-collapse collapse " aria-labelledby="headingsingle-cell8" data-bs-parent="#accordionsingle-cell">
 
     <div class="accordion-body">
 
@@ -36944,14 +37374,14 @@ cell type abundances from bulk RNA-seq.</p>
 
 <div class="accordion-item">
   
-  <div class="accordion-header" id="headingsingle-cell8">
-   <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapsesingle-cell8" aria-expanded="false" aria-controls="collapsesingle-cell8">
+  <div class="accordion-header" id="headingsingle-cell9">
+   <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapsesingle-cell9" aria-expanded="false" aria-controls="collapsesingle-cell9">
         Filter, Plot and Explore Single-cell RNA-seq Data
          (Demo) 
    </button>
   </div>
 
-  <div id="collapsesingle-cell8" class="accordion-collapse collapse " aria-labelledby="headingsingle-cell8" data-bs-parent="#accordionsingle-cell">
+  <div id="collapsesingle-cell9" class="accordion-collapse collapse " aria-labelledby="headingsingle-cell9" data-bs-parent="#accordionsingle-cell">
 
     <div class="accordion-body">
 
