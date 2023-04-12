@@ -2103,7 +2103,9 @@
       "speakers": [
         "wee-snufkin"
       ],
-      "captions": null
+      "captions": [
+        "wee-snufkin"
+      ]
     }
   ],
   "topics/single-cell/tutorials/scrna-case_alevin/tutorial.html": [
