@@ -3639,6 +3639,8 @@ bioconductor/isee/tutorial:
   materials:
   - link: https://isee.github.io/iSEEWorkshop2020/
   tags: [bioconductor, r]
+  title: Interactive visualization of SummarizedExperiment objects with iSEE
+  type: Tutorial
   versions:
   - captions:
     date: '2020-07-28'
