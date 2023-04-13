@@ -6251,6 +6251,8 @@
           "bioconductor",
           "r"
         ],
+        "title": "Interactive visualization of SummarizedExperiment objects with iSEE",
+        "type": "Tutorial",
         "versions": [
           {
             "captions": null,
@@ -6266,7 +6268,6 @@
         ],
         "support_channel": "bioconductor",
         "gtn_id": "bioconductor/isee",
-        "title": "bioconductor/isee/tutorial",
         "captioned": false
       },
       "bioconductor/bioc2022_tidytranscriptomics/tutorial": {
@@ -6547,6 +6548,8 @@
           "bioconductor",
           "r"
         ],
+        "title": "Interactive visualization of SummarizedExperiment objects with iSEE",
+        "type": "Tutorial",
         "versions": [
           {
             "captions": null,
@@ -6562,7 +6565,6 @@
         ],
         "support_channel": "bioconductor",
         "gtn_id": "bioconductor/isee",
-        "title": "bioconductor/isee/tutorial",
         "captioned": false
       },
       "bioconductor/bioc2022_tidytranscriptomics/tutorial": {
