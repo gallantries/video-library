@@ -3483,7 +3483,7 @@ ro-crates/publishing/tutorial:
 ro-crates/python/tutorial:
   description:
   materials:
-  - link: https://github.com/ResearchObject/ro-crate-py#creating-an-ro-crate
+  - link: https://by-covid.github.io/gtn/ro-crate-in-python/
   tags: [ro-crate, python]
   title: RO-Crate in Python
   type: Tutorial
