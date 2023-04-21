@@ -762,5 +762,11 @@
       "wehi",
       "bioc"
     ]
+  },
+  "simleo": {
+    "name": "Simone Leo",
+    "affiliation": [
+      "by-covid"
+    ]
   }
 }
