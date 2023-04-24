@@ -49,6 +49,10 @@
     "link": "https://www.cnrs.fr/",
     "logo": "cnrs.svg"
   },
+  "cuny": {
+    "name": "City University of New York",
+    "link": "https://sph.cuny.edu/"
+  },
   "ebi": {
     "name": "EMBL-EBI",
     "link": "https://www.ebi.ac.uk/",
