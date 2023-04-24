@@ -3723,7 +3723,7 @@ bioconductor/CompGenomicsBioc2022/tutorial:
   - captions:
     date: '2022-07-29'
     length: 1H5M
-    link:
+    link: JgTc2jiMPF0
     speakers:
     - ahl27
   support_channel: bioconductor
@@ -3743,7 +3743,7 @@ bioconductor/fluentGenomics/tutorial:
     to combine results from differential expression and differential accessibility
     analyses.
   materials:
-  - link: bit.ly/fluentGenomics
+  - link: https://bit.ly/fluentGenomics
   tags: [bioconductor, r]
   versions: []
   support_channel: bioconductor
@@ -3772,7 +3772,7 @@ bioconductor/RNAseq123/tutorial:
     researchers can turn the raw counts from an RNA-sequencing experiment into
     biological insights using Bioconductor.
   materials:
-  - link: bit.ly/RNAseq123
+  - link: https://bit.ly/RNAseq123
   tags: [bioconductor, r]
   versions: []
   support_channel: bioconductor
@@ -3801,7 +3801,7 @@ bioconductor/RnaSeqGeneEdgeRQL/tutorial:
     package. The differential expression analysis uses the quasi-likelihood
     functionality of edgeR.
   materials:
-  - link: bit.ly/RnaSeqGeneEdgeRQL
+  - link: https://bit.ly/RnaSeqGeneEdgeRQL
   tags: [bioconductor, r]
   versions: []
   support_channel: bioconductor
@@ -3831,7 +3831,7 @@ bioconductor/SingscoreAMLMutations/tutorial:
     demonstrated, singscore has the ability to identify samples where alternative
     mutations/genetic lesions appear to drive transcriptional programs.
   materials:
-  - link: bit.ly/SingscoreAMLMutations
+  - link: https://bit.ly/SingscoreAMLMutations
   tags: [bioconductor, r]
   versions: []
   support_channel: bioconductor
