@@ -3651,6 +3651,35 @@ bioconductor/isee/tutorial:
     - kevinrue
     - federicomarini
   support_channel: bioconductor
+bioconductor/epiforbioworkshop2022/tutorial:
+  description: |
+    Concepts of causal inference in epidemiology have important ramifications 
+    for studies across bioinformatics and other fields of health research. In 
+    this workshop, we introduce basic concepts of epidemiology, study design, 
+    and causal inference for bioinformaticians. Emphasis is placed on addressing 
+    bias and confounding as common threats to assessing a causal pathway in a 
+    variety of study design types and when using common forms of analyses such 
+    as GWAS and survival analysis. Workshop participants will have the 
+    opportunity to create their own structural causal models (DAGs) using 
+    dagitty and ggdag and then use this model to determine how to assess an 
+    estimated causal effect. Examples using DESeq2, edgeR, and limma will be 
+    used to show how multivariable models can be fitted depending on the 
+    hypothesized causal relationship. Presented successfully at BioC2021 to a 
+    large audience of more than 100, updates that material by revising current 
+    examples based on participant feedback as well as content updates.
+  materials:
+  - link: https://chloemirzayi.com/epiforbioworkshop2022/articles/EpiForBioWorkshop.html
+  tags: [bioconductor, r]
+  title: Epidemiology for Bioinformaticians
+  type: Tutorial
+  versions:
+  - captions:
+    date: '2022-07-27'
+    length: 83M
+    link: u2ahgX823Fg
+    speakers:
+    - cmirzayi
+  support_channel: bioconductor
 bioconductor/bioc2022_tidytranscriptomics/tutorial:
   description: |
     This tutorial will showcase analysis of single-cell RNA sequencing data
@@ -3714,7 +3743,7 @@ bioconductor/fluentGenomics/tutorial:
     to combine results from differential expression and differential accessibility
     analyses.
   materials:
-  - link: https://www.bioconductor.org/packages/release/workflows/vignettes/fluentGenomics/inst/doc/fluentGenomics.html
+  - link: bit.ly/fluentGenomics
   tags: [bioconductor, r]
   versions: []
   support_channel: bioconductor
@@ -3743,7 +3772,7 @@ bioconductor/RNAseq123/tutorial:
     researchers can turn the raw counts from an RNA-sequencing experiment into
     biological insights using Bioconductor.
   materials:
-  - link: https://www.bioconductor.org/packages/release/workflows/vignettes/RNAseq123/inst/doc/limmaWorkflow.html
+  - link: bit.ly/RNAseq123
   tags: [bioconductor, r]
   versions: []
   support_channel: bioconductor
@@ -3772,7 +3801,7 @@ bioconductor/RnaSeqGeneEdgeRQL/tutorial:
     package. The differential expression analysis uses the quasi-likelihood
     functionality of edgeR.
   materials:
-  - link: https://www.bioconductor.org/packages/release/workflows/vignettes/RnaSeqGeneEdgeRQL/inst/doc/edgeRQL.html
+  - link: bit.ly/RnaSeqGeneEdgeRQL
   tags: [bioconductor, r]
   versions: []
   support_channel: bioconductor
@@ -3802,7 +3831,7 @@ bioconductor/SingscoreAMLMutations/tutorial:
     demonstrated, singscore has the ability to identify samples where alternative
     mutations/genetic lesions appear to drive transcriptional programs.
   materials:
-  - link: https://www.bioconductor.org/packages/release/workflows/vignettes/SingscoreAMLMutations/inst/doc/workflow_transcriptional_mut_sig.html
+  - link: bit.ly/SingscoreAMLMutations
   tags: [bioconductor, r]
   versions: []
   support_channel: bioconductor
