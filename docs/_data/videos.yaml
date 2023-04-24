@@ -3743,7 +3743,7 @@ bioconductor/fluentGenomics/tutorial:
     to combine results from differential expression and differential accessibility
     analyses.
   materials:
-  - link: https://www.bioconductor.org/packages/release/workflows/vignettes/fluentGenomics/inst/doc/fluentGenomics.html
+  - link: bit.ly/fluentGenomics
   tags: [bioconductor, r]
   versions: []
   support_channel: bioconductor
@@ -3772,7 +3772,7 @@ bioconductor/RNAseq123/tutorial:
     researchers can turn the raw counts from an RNA-sequencing experiment into
     biological insights using Bioconductor.
   materials:
-  - link: https://www.bioconductor.org/packages/release/workflows/vignettes/RNAseq123/inst/doc/limmaWorkflow.html
+  - link: bit.ly/RNAseq123
   tags: [bioconductor, r]
   versions: []
   support_channel: bioconductor
@@ -3801,7 +3801,7 @@ bioconductor/RnaSeqGeneEdgeRQL/tutorial:
     package. The differential expression analysis uses the quasi-likelihood
     functionality of edgeR.
   materials:
-  - link: https://www.bioconductor.org/packages/release/workflows/vignettes/RnaSeqGeneEdgeRQL/inst/doc/edgeRQL.html
+  - link: bit.ly/RnaSeqGeneEdgeRQL
   tags: [bioconductor, r]
   versions: []
   support_channel: bioconductor
@@ -3831,7 +3831,7 @@ bioconductor/SingscoreAMLMutations/tutorial:
     demonstrated, singscore has the ability to identify samples where alternative
     mutations/genetic lesions appear to drive transcriptional programs.
   materials:
-  - link: https://www.bioconductor.org/packages/release/workflows/vignettes/SingscoreAMLMutations/inst/doc/workflow_transcriptional_mut_sig.html
+  - link: bit.ly/SingscoreAMLMutations
   tags: [bioconductor, r]
   versions: []
   support_channel: bioconductor
