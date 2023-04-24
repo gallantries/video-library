@@ -25,7 +25,9 @@ program:
       - video: bioconductor/rformassspectrometry/tutorial
 ---
 
-These are a collection of [Bioconductor](http://bioconductor.org/) tutorials, ranging from an introduction to R and Bioconductor, to showing how to perform more complex analyses of biological data using Bioconductor R packages. 
+These are a collection of [Bioconductor](http://bioconductor.org/) tutorials, ranging from an introduction to R and Bioconductor, to showing how to perform more complex analyses of biological data using Bioconductor R packages.  
+
 During [Smorgasbord week May 22-26 2023](https://gallantries.github.io/video-library/events/smorgasbord3/)  
  * you will be able to run these tutorials in a specially set up Galaxy RStudio  
- * the instructors below have kindly volunteered to answer questions in GTN Training Slack
+ * the instructors of these tutorials have kindly volunteered to answer questions in [GTN Training Slack](https://gtnsmrgsbord.slack.com/).  
+Organisers: [Maria Doyle](mailto:maria.doyle@ul.ie), Alex Mahmoud, [Bioconductor Teaching Committee](https://www.bioconductor.org/help/education-training/)
