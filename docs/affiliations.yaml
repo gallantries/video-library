@@ -46,6 +46,10 @@ cnrs:
   name: "Le Centre national de la recherche Scientifique (CNRS)"
   link: "https://www.cnrs.fr/"
   logo: cnrs.svg
+  
+cuny:
+  name: "City University of New York"
+  link: "https://sph.cuny.edu/"
 
 ebi:
   name: EMBL-EBI

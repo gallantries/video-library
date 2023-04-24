@@ -13,6 +13,7 @@ program:
     title: Bioconductor conference workshops
     trainings:
       - video: bioconductor/isee/tutorial
+      - video: bioconductor/epiforbioworkshop2022/tutorial
       - video: bioconductor/bioc2022_tidytranscriptomics/tutorial
       - video: bioconductor/CompGenomicsBioc2022/tutorial  
   extending:
