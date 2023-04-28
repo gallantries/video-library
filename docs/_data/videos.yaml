@@ -3471,9 +3471,7 @@ ro-crates/intro/slides:
 ro-crates/publishing/tutorial:
   description:
   materials:
-  - link: https://github.com/ResearchObject/ro-tutorials
   - link: https://www.researchobject.org/ro-crate/1.2-DRAFT/introduction.html
-  - link: https://slides.com/soilandreyes/2021-07-15-sharing-fair-research-objects#/18
   - link: https://github.com/marketplace/actions/ro-crate-preview
   tags: [ro-crate]
   title: Publishing My First™ RO-Crate
@@ -3516,11 +3514,18 @@ ro-crates/workflowhub/tutorial:
   tags: [ro-crate, workflowhub]
   title: Registering Galaxy workflows in WorkflowHub
   type: Tutorial
-  versions: []
+  versions:
+  - captions: []
+    date: '2023-03-21'
+    length: 35M
+    link: 2kGKxaPuQN8
+    speakers:
+    - supernord  
   support_channel: ro-crate
 ro-crates/bestpractices/tutorial:
   description:
   materials:
+  - link: https://by-covid.github.io/gtn/galaxy-best-practices/
   - link: https://github.com/galaxyproject/iwc/blob/main/workflows/README.md#adding-workflows
   tags: [ro-crate]
   title: Best Practices for RO-Crates in Galaxy in GitHub Repositories
