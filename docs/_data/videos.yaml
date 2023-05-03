@@ -2173,6 +2173,7 @@ metagenomics/metagenomics-assembly/tutorial:
     type: tutorial
   versions:
   - link: 1ZYGy85Im7w
+    date: '2023-05-02'
     speakers:
     - bebatut
     galaxy_version: '23.01'
