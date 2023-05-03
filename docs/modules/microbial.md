@@ -20,6 +20,7 @@ program:
   other:
     title: Other
     trainings:
+      - video: metagenomics/metagenomics-assembly/tutorial
       - session: variant-analysis/tb-variant-analysis
       - video: metagenomics/metatranscriptomics
       - video: proteomics/metaproteomics/tutorial
