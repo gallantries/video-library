@@ -7060,6 +7060,240 @@ add a button, include configuration options:
 
 
 	
+		
+		
+		
+
+
+
+
+
+
+
+
+
+
+
+<div class="accordion-item">
+  
+  <div class="accordion-header" id="headingassembly4">
+   <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseassembly4" aria-expanded="false" aria-controls="collapseassembly4">
+        Assembly of metagenomic sequencing data
+        
+   </button>
+  </div>
+
+  <div id="collapseassembly4" class="accordion-collapse collapse " aria-labelledby="headingassembly4" data-bs-parent="#accordionassembly">
+
+    <div class="accordion-body">
+
+      <!-- Video -->
+      
+        
+           
+           <!-- session: {"description"=>"In this tutorial, we will learn how to run metagenomic assembly tool and evaluate the quality of the generated assemblies.\nTo do that, we will use data from the study: Temporal shotgun metagenomic dissection of the coffee fermentation ecosystem.\nFor an in-depth analysis of the structure and functions of the coffee microbiome, a temporal shotgun metagenomic study\n(six time points) was performed. The six samples have been sequenced with Illumina MiSeq utilizing whole genome sequencing.\n", "tags"=>["metagenomics", "assembly"], "materials"=>[{"link"=>"topics/metagenomics/tutorials/metagenomics-assembly/tutorial.html", "type"=>"tutorial"}], "versions"=>[{"link"=>"1ZYGy85Im7w", "date"=>"2023-05-02", "speakers"=>["bebatut"], "galaxy_version"=>"23.01", "length"=>"1H", "captions"=>nil, "name"=>"Assembly of metagenomic sequencing data"}], "gtn_id"=>"metagenomics/metagenomics-assembly", "title"=>"Assembly of metagenomic sequencing data", "captioned"=>false, "name"=>"Assembly of metagenomic sequencing data"}<br><br> video: {"link"=>"1ZYGy85Im7w", "date"=>"2023-05-02", "speakers"=>["bebatut"], "galaxy_version"=>"23.01", "length"=>"1H", "captions"=>nil, "name"=>"Assembly of metagenomic sequencing data"} -->
+
+
+
+
+
+
+<!-- determine the next archived version of tutorial -->
+
+
+
+
+<div class="flex-row">
+ <div class="col-md-8">
+  <h3 class="session-section"> Video   </h3>
+  <div style="position:relative;padding-top:56.25%;">
+   <iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" data-src="https://www.youtube.com/embed/1ZYGy85Im7w" class="lazyload" loading="lazy" frameborder="0" title="YouTube Embedded Video of the Tutorial" aria-label="YouTube Embedded Video of the Tutorial" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="">
+   </iframe>
+  </div>
+  <div style="margin-top:1em;" class="video-metadata">
+      <table>
+          
+          <tr>
+              <td><strong>Description:</strong></td>
+              <td><p>In this tutorial, we will learn how to run metagenomic assembly tool and evaluate the quality of the generated assemblies.
+To do that, we will use data from the study: Temporal shotgun metagenomic dissection of the coffee fermentation ecosystem.
+For an in-depth analysis of the structure and functions of the coffee microbiome, a temporal shotgun metagenomic study
+(six time points) was performed. The six samples have been sequenced with Illumina MiSeq utilizing whole genome sequencing.</p>
+</td>
+          </tr>
+          
+          <tr>
+              <td><strong>Length:</strong></td>
+              <td>1 hour</td>
+          </tr>
+   
+   
+          <tr>
+              <td><strong>Captions:</strong></td>
+              <td><strong>No captions available for this video.</strong> We aim to have captions for all our videos, however sometimes videos get added without captions. Please contact us to indicate your desire to have captions added and we will ask the speakers to provide captions.</td>
+          </tr>
+   
+          
+          <tr>
+              <td><strong>Created:</strong></td>
+              <td>2 May 2023</td>
+          </tr>
+          
+          
+          
+          <tr>
+              <td><strong>Materials:</strong></td>
+              <td>
+                <ul class="plain-text-list">
+                    
+                    <li>
+                        
+
+                        
+                        
+				tutorial:
+
+				<a href="https://training.galaxyproject.org/archive/2023-05-01/topics/metagenomics/tutorials/metagenomics-assembly/tutorial.html?utm_source=schedule&amp;utm_medium=click&amp;utm_campaign=video-library">Version in Video</a>
+				<!-- We allow overriding specific materials to their archival versions, hiding the "current" link. -->
+				
+				|
+				<a href="https://training.galaxyproject.org/topics/metagenomics/tutorials/metagenomics-assembly/tutorial.html?utm_source=schedule&amp;utm_medium=click&amp;utm_campaign=video-library">Latest Version</a>
+				
+
+				
+                        
+                    </li>
+                
+                </ul>
+              </td>
+          </tr>
+          
+          <!-- this is for the embedded versions where they'll use their own1 support forum -->
+                    <tr>
+              <td><strong>Support:</strong></td>
+              <td>
+              <ul>
+                
+                
+                <li>Slack: <a href="https://gtnsmrgsbord.slack.com/archives/metagenomics_metagenomics-assembly">#metagenomics_metagenomics-assembly</a> <ul><li><a href="https://join.slack.com/t/gtnsmrgsbord/shared_invite/zt-x7vinbs1-BA~Kht6N86JBhDq0uTIVdQ">Slack Invite</a></li></ul></li>
+                <li><a href="https://gitter.im/Galaxy-Training-Network/Lobby">Gitter</a></li>
+                <li><a href="https://help.galaxyproject.org">Galaxy Help Forum</a></li>
+              </ul>
+              </td>
+          </tr>
+          
+          
+          <tr>
+              <td><strong>Learning Objectives:</strong></td>
+              <td>
+                  <ul>
+                      
+                      <li>Describe what an assembly is</li>
+                      
+                      <li>Describe what de-replication is</li>
+                      
+                      <li>Explain the difference between co-assembly and individual assembly</li>
+                      
+                      <li>Explain the difference between reads, contigs and scaffolds</li>
+                      
+                      <li>Explain how tools based on De Bruijn graph work</li>
+                      
+                      <li>Apply appropriate tools for analyzing the quality of metagenomic data</li>
+                      
+                      <li>Construct and apply simple assembly pipelines on short read data</li>
+                      
+                      <li>Apply appropriate tools for analyzing the quality of metagenomic assembly</li>
+                      
+                      <li>Evaluate the Quality of the Assembly with Quast, Bowtie2, and CoverM-Genome</li>
+                      
+                  </ul>
+              </td>
+          </tr>
+          
+          <!--
+          
+          
+          -->
+      </table>
+
+  </div>
+  
+  Go to the <a href="/video-library/videos/metagenomics/metagenomics-assembly/tutorial">video page</a> to see all versions.
+  
+ </div>
+ <!-- speaker(s) -->
+ 
+ 
+
+ <div class="col-md-3">
+  <center><h3 class="session-section">Speaker</h3></center>
+  
+
+
+
+
+
+
+
+<div class="hall-of-fame">
+    
+    
+    
+		<div class="hall-of-fame-hero" id="bebatut">
+			
+			<a href="/video-library/contributors/bebatut/">
+			
+            
+			<img src="https://avatars.githubusercontent.com/bebatut" alt="" />
+            
+			<div class="name">
+				<b>Bérénice Batut</b>
+			</div>
+			
+			</a>
+			
+			<div class="affil">
+				
+				<a href="https://uni-freiburg.de/">
+					Albert-Ludwigs-Universität Freiburg
+				</a> &amp; 
+				
+				<a href="https://gallantries.github.io">
+					The Gallantries Project
+				</a>
+				
+			</div>
+		</div>
+	
+    
+</div>
+
+ </div>
+
+
+</div><!-- end video session -->
+
+
+
+        
+
+      
+
+
+      <!-- Instructors -->
+      
+
+      <!-- Supporting Servers -->
+
+      <!-- Resources -->
+
+    </div><!-- end accordion body -->
+  </div><!-- end collapse -->
+</div><!-- end accordion item (training session) -->
+
+
+
+	
 
     
 	<h3 style="text-transform:capitalize;" id="climate">Climate</h3>
@@ -24781,6 +25015,240 @@ Nanopore, and 2) to compare different samples to trace the possible source of co
 
 
 	
+		
+		
+		
+
+
+
+
+
+
+
+
+
+
+
+<div class="accordion-item">
+  
+  <div class="accordion-header" id="headingmetagenomics6">
+   <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapsemetagenomics6" aria-expanded="false" aria-controls="collapsemetagenomics6">
+        Assembly of metagenomic sequencing data
+        
+   </button>
+  </div>
+
+  <div id="collapsemetagenomics6" class="accordion-collapse collapse " aria-labelledby="headingmetagenomics6" data-bs-parent="#accordionmetagenomics">
+
+    <div class="accordion-body">
+
+      <!-- Video -->
+      
+        
+           
+           <!-- session: {"description"=>"In this tutorial, we will learn how to run metagenomic assembly tool and evaluate the quality of the generated assemblies.\nTo do that, we will use data from the study: Temporal shotgun metagenomic dissection of the coffee fermentation ecosystem.\nFor an in-depth analysis of the structure and functions of the coffee microbiome, a temporal shotgun metagenomic study\n(six time points) was performed. The six samples have been sequenced with Illumina MiSeq utilizing whole genome sequencing.\n", "tags"=>["metagenomics", "assembly"], "materials"=>[{"link"=>"topics/metagenomics/tutorials/metagenomics-assembly/tutorial.html", "type"=>"tutorial"}], "versions"=>[{"link"=>"1ZYGy85Im7w", "date"=>"2023-05-02", "speakers"=>["bebatut"], "galaxy_version"=>"23.01", "length"=>"1H", "captions"=>nil, "name"=>"Assembly of metagenomic sequencing data"}], "gtn_id"=>"metagenomics/metagenomics-assembly", "title"=>"Assembly of metagenomic sequencing data", "captioned"=>false, "name"=>"Assembly of metagenomic sequencing data"}<br><br> video: {"link"=>"1ZYGy85Im7w", "date"=>"2023-05-02", "speakers"=>["bebatut"], "galaxy_version"=>"23.01", "length"=>"1H", "captions"=>nil, "name"=>"Assembly of metagenomic sequencing data"} -->
+
+
+
+
+
+
+<!-- determine the next archived version of tutorial -->
+
+
+
+
+<div class="flex-row">
+ <div class="col-md-8">
+  <h3 class="session-section"> Video   </h3>
+  <div style="position:relative;padding-top:56.25%;">
+   <iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" data-src="https://www.youtube.com/embed/1ZYGy85Im7w" class="lazyload" loading="lazy" frameborder="0" title="YouTube Embedded Video of the Tutorial" aria-label="YouTube Embedded Video of the Tutorial" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="">
+   </iframe>
+  </div>
+  <div style="margin-top:1em;" class="video-metadata">
+      <table>
+          
+          <tr>
+              <td><strong>Description:</strong></td>
+              <td><p>In this tutorial, we will learn how to run metagenomic assembly tool and evaluate the quality of the generated assemblies.
+To do that, we will use data from the study: Temporal shotgun metagenomic dissection of the coffee fermentation ecosystem.
+For an in-depth analysis of the structure and functions of the coffee microbiome, a temporal shotgun metagenomic study
+(six time points) was performed. The six samples have been sequenced with Illumina MiSeq utilizing whole genome sequencing.</p>
+</td>
+          </tr>
+          
+          <tr>
+              <td><strong>Length:</strong></td>
+              <td>1 hour</td>
+          </tr>
+   
+   
+          <tr>
+              <td><strong>Captions:</strong></td>
+              <td><strong>No captions available for this video.</strong> We aim to have captions for all our videos, however sometimes videos get added without captions. Please contact us to indicate your desire to have captions added and we will ask the speakers to provide captions.</td>
+          </tr>
+   
+          
+          <tr>
+              <td><strong>Created:</strong></td>
+              <td>2 May 2023</td>
+          </tr>
+          
+          
+          
+          <tr>
+              <td><strong>Materials:</strong></td>
+              <td>
+                <ul class="plain-text-list">
+                    
+                    <li>
+                        
+
+                        
+                        
+				tutorial:
+
+				<a href="https://training.galaxyproject.org/archive/2023-05-01/topics/metagenomics/tutorials/metagenomics-assembly/tutorial.html?utm_source=schedule&amp;utm_medium=click&amp;utm_campaign=video-library">Version in Video</a>
+				<!-- We allow overriding specific materials to their archival versions, hiding the "current" link. -->
+				
+				|
+				<a href="https://training.galaxyproject.org/topics/metagenomics/tutorials/metagenomics-assembly/tutorial.html?utm_source=schedule&amp;utm_medium=click&amp;utm_campaign=video-library">Latest Version</a>
+				
+
+				
+                        
+                    </li>
+                
+                </ul>
+              </td>
+          </tr>
+          
+          <!-- this is for the embedded versions where they'll use their own1 support forum -->
+                    <tr>
+              <td><strong>Support:</strong></td>
+              <td>
+              <ul>
+                
+                
+                <li>Slack: <a href="https://gtnsmrgsbord.slack.com/archives/metagenomics_metagenomics-assembly">#metagenomics_metagenomics-assembly</a> <ul><li><a href="https://join.slack.com/t/gtnsmrgsbord/shared_invite/zt-x7vinbs1-BA~Kht6N86JBhDq0uTIVdQ">Slack Invite</a></li></ul></li>
+                <li><a href="https://gitter.im/Galaxy-Training-Network/Lobby">Gitter</a></li>
+                <li><a href="https://help.galaxyproject.org">Galaxy Help Forum</a></li>
+              </ul>
+              </td>
+          </tr>
+          
+          
+          <tr>
+              <td><strong>Learning Objectives:</strong></td>
+              <td>
+                  <ul>
+                      
+                      <li>Describe what an assembly is</li>
+                      
+                      <li>Describe what de-replication is</li>
+                      
+                      <li>Explain the difference between co-assembly and individual assembly</li>
+                      
+                      <li>Explain the difference between reads, contigs and scaffolds</li>
+                      
+                      <li>Explain how tools based on De Bruijn graph work</li>
+                      
+                      <li>Apply appropriate tools for analyzing the quality of metagenomic data</li>
+                      
+                      <li>Construct and apply simple assembly pipelines on short read data</li>
+                      
+                      <li>Apply appropriate tools for analyzing the quality of metagenomic assembly</li>
+                      
+                      <li>Evaluate the Quality of the Assembly with Quast, Bowtie2, and CoverM-Genome</li>
+                      
+                  </ul>
+              </td>
+          </tr>
+          
+          <!--
+          
+          
+          -->
+      </table>
+
+  </div>
+  
+  Go to the <a href="/video-library/videos/metagenomics/metagenomics-assembly/tutorial">video page</a> to see all versions.
+  
+ </div>
+ <!-- speaker(s) -->
+ 
+ 
+
+ <div class="col-md-3">
+  <center><h3 class="session-section">Speaker</h3></center>
+  
+
+
+
+
+
+
+
+<div class="hall-of-fame">
+    
+    
+    
+		<div class="hall-of-fame-hero" id="bebatut">
+			
+			<a href="/video-library/contributors/bebatut/">
+			
+            
+			<img src="https://avatars.githubusercontent.com/bebatut" alt="" />
+            
+			<div class="name">
+				<b>Bérénice Batut</b>
+			</div>
+			
+			</a>
+			
+			<div class="affil">
+				
+				<a href="https://uni-freiburg.de/">
+					Albert-Ludwigs-Universität Freiburg
+				</a> &amp; 
+				
+				<a href="https://gallantries.github.io">
+					The Gallantries Project
+				</a>
+				
+			</div>
+		</div>
+	
+    
+</div>
+
+ </div>
+
+
+</div><!-- end video session -->
+
+
+
+        
+
+      
+
+
+      <!-- Instructors -->
+      
+
+      <!-- Supporting Servers -->
+
+      <!-- Resources -->
+
+    </div><!-- end accordion body -->
+  </div><!-- end collapse -->
+</div><!-- end accordion item (training session) -->
+
+
+
+	
 
     
 	<h3 style="text-transform:capitalize;" id="proteogenomics">Proteogenomics</h3>
@@ -32257,12 +32725,222 @@ cell type abundances from bulk RNA-seq.</p>
   
   <div class="accordion-header" id="headingtranscriptomics5">
    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapsetranscriptomics5" aria-expanded="false" aria-controls="collapsetranscriptomics5">
+        Removing the effects of the cell cycle
+        
+   </button>
+  </div>
+
+  <div id="collapsetranscriptomics5" class="accordion-collapse collapse " aria-labelledby="headingtranscriptomics5" data-bs-parent="#accordiontranscriptomics">
+
+    <div class="accordion-body">
+
+      <!-- Video -->
+      
+         <!-- Self-study tutorial -->
+            
+
+
+<div class="flex-row">
+	<div class="col-md-8">
+		<h3 class="session-section">Removing the effects of the cell cycle</h3>
+		<div>
+            
+			<img src="/video-library/assets/images/selfstudy.png" alt="image indicating this is a self-study session." />
+            
+			This is a self-study session. Please work through the materials on your own, and ask the instructors for help if you get stuck or have any questions!
+		</div>
+		<div style="margin-top:1em;" class="video-metadata">
+			<table>
+				<tr>
+					<td><strong>Tutorial:</strong></td>
+					<td>Removing the effects of the cell cycle</td>
+				</tr>
+				
+				<tr>
+						<td><strong>Description:</strong></td>
+						<td>Single-cell RNA sequencing can be sensitive to both biological and technical variation,   i
+which is why preparing your data carefully is an important part of the analysis. You want
+the results to reflect the interesting differences in expression between cells that relate
+to their type or state. Other sources of variation can conceal or confound this, making it
+harder for you to see what is going on.
+
+One common biological confounder is the cell cycle. Cells express
+different genes during different parts of the cell cycle, depending on whether they are in
+their growing phase (G1), duplicating their DNA (the S or Synthesis phase), or dividing in
+two (G2/M or Mitosis phase). If these cell cycle genes are having a big impact on your
+data, then you could end up with separate clusters that actually represent cells of the
+same type that are just at different stages of the cycle.
+
+In this tutorial, we will identify the genes whose expression is known to vary during the
+cell cycle so that we can use them to regress out (or remove) the effects of the cell cycle
+on the clustering.
+</td>
+				</tr>
+				
+				
+				<tr>
+					<td><strong>Materials:</strong></td>
+					<td>
+						<ul class="plain-text-list">
+						
+							<li>
+								
+									<img style="height: 1em" src="/video-library/assets/fa/tutorial.svg" alt="assets/fa/tutorial.svg" aria-hidden="true" />
+									
+								
+
+								
+								
+									Tutorial:
+
+									<a href="https://training.galaxyproject.org/archive/2021-02-01/topics/single-cell/tutorials/scrna-case_cell-cycle/tutorial.html?utm_source=schedule&amp;utm_medium=click&amp;utm_campaign=video-library">Version in Video</a>
+									<!-- We allow overriding specific materials to their archival versions, hiding the "current" link. -->
+									
+									|
+									<a href="https://training.galaxyproject.org/topics/single-cell/tutorials/scrna-case_cell-cycle/tutorial.html?utm_source=schedule&amp;utm_medium=click&amp;utm_campaign=video-library">Latest Version</a>
+									
+
+									
+									<br />
+									<img style="height: 1em" src="/video-library/assets/fa/circle-question-regular.svg" alt="assets/fa/circle-question-regular.svg" aria-hidden="true" />
+									
+									<a href="https://training.galaxyproject.org/topics/single-cell/tutorials/scrna-case_cell-cycle/faqs/?utm_source=schedule&amp;utm_medium=click&amp;utm_campaign=video-library">FAQs</a>
+									
+								
+							</li>
+						
+						</ul>
+					</td>
+				</tr>
+				
+
+				<!-- this is for the embedded versions where they'll use their own1 support forum -->
+				
+				<tr>
+					<td><strong>Support:</strong></td>
+					<td>
+						<ul>
+							
+							
+							<li>Slack: <a href="https://gtnsmrgsbord.slack.com/archives/single-cell_scrna-case_cell-cycle">#single-cell_scrna-case_cell-cycle</a> <ul><li><a href="https://join.slack.com/t/gtnsmrgsbord/shared_invite/zt-x7vinbs1-BA~Kht6N86JBhDq0uTIVdQ">Slack Invite</a></li></ul></li>
+							<li><a href="https://gitter.im/Galaxy-Training-Network/Lobby">Gitter</a></li>
+							<li><a href="https://help.galaxyproject.org">Galaxy Help Forum</a></li>
+						</ul>
+					</td>
+				</tr>
+				
+
+				
+				<tr>
+					<td><strong>Learning Objectives:</strong></td>
+					<td>
+						<ul>
+						
+							<li>Identify the cell cycle genes</li>
+						
+							<li>Use the cell cycle genes to regress out the effects of the cell cycle</li>
+						
+							<li>Create PCA plots to understand the impact of the regression</li>
+						
+						</ul>
+					</td>
+				</tr>
+				
+			</table>
+		</div>
+		
+		Go to the <a href="/video-library/videos/single-cell/scrna-case_cell-cycle/tutorial">video page</a> to see all versions.
+		
+	</div>
+
+    <!-- instructors(s) -->
+    
+    
+
+    <div class="col-md-3">
+      <center><h3 class="session-section">Instructor</h3></center>
+      
+
+
+
+
+
+
+
+<div class="hall-of-fame">
+    
+    
+    
+		<div class="hall-of-fame-hero" id="gtn">
+			
+			<a href="/video-library/contributors/gtn/">
+			
+            
+            <img src="/video-library/assets/images/instructors/gtn.png" alt="" />
+            
+			<div class="name">
+				<b>The Galaxy Training Network</b>
+			</div>
+			
+			</a>
+			
+			<div class="affil">
+				
+			</div>
+		</div>
+	
+    
+</div>
+
+    </div>
+
+	<div class="col-md-4">
+	</div>
+</div><!-- end self-study session -->
+
+        
+
+      
+
+
+      <!-- Instructors -->
+      
+
+      <!-- Supporting Servers -->
+
+      <!-- Resources -->
+
+    </div><!-- end accordion body -->
+  </div><!-- end collapse -->
+</div><!-- end accordion item (training session) -->
+
+
+
+	
+		
+		
+		
+
+
+
+
+
+
+
+
+
+
+
+<div class="accordion-item">
+  
+  <div class="accordion-header" id="headingtranscriptomics6">
+   <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapsetranscriptomics6" aria-expanded="false" aria-controls="collapsetranscriptomics6">
         Introduction to Transcriptomics
          (Lecture) 
    </button>
   </div>
 
-  <div id="collapsetranscriptomics5" class="accordion-collapse collapse " aria-labelledby="headingtranscriptomics5" data-bs-parent="#accordiontranscriptomics">
+  <div id="collapsetranscriptomics6" class="accordion-collapse collapse " aria-labelledby="headingtranscriptomics6" data-bs-parent="#accordiontranscriptomics">
 
     <div class="accordion-body">
 
@@ -32466,14 +33144,14 @@ cell type abundances from bulk RNA-seq.</p>
 
 <div class="accordion-item">
   
-  <div class="accordion-header" id="headingtranscriptomics6">
-   <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapsetranscriptomics6" aria-expanded="false" aria-controls="collapsetranscriptomics6">
+  <div class="accordion-header" id="headingtranscriptomics7">
+   <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapsetranscriptomics7" aria-expanded="false" aria-controls="collapsetranscriptomics7">
         Whole transcriptome analysis of Arabidopsis thaliana
          (Lecture) 
    </button>
   </div>
 
-  <div id="collapsetranscriptomics6" class="accordion-collapse collapse " aria-labelledby="headingtranscriptomics6" data-bs-parent="#accordiontranscriptomics">
+  <div id="collapsetranscriptomics7" class="accordion-collapse collapse " aria-labelledby="headingtranscriptomics7" data-bs-parent="#accordiontranscriptomics">
 
     <div class="accordion-body">
 
@@ -32673,14 +33351,14 @@ cell type abundances from bulk RNA-seq.</p>
 
 <div class="accordion-item">
   
-  <div class="accordion-header" id="headingtranscriptomics7">
-   <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapsetranscriptomics7" aria-expanded="false" aria-controls="collapsetranscriptomics7">
+  <div class="accordion-header" id="headingtranscriptomics8">
+   <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapsetranscriptomics8" aria-expanded="false" aria-controls="collapsetranscriptomics8">
         Whole transcriptome analysis of Arabidopsis thaliana
          (Tutorial) 
    </button>
   </div>
 
-  <div id="collapsetranscriptomics7" class="accordion-collapse collapse " aria-labelledby="headingtranscriptomics7" data-bs-parent="#accordiontranscriptomics">
+  <div id="collapsetranscriptomics8" class="accordion-collapse collapse " aria-labelledby="headingtranscriptomics8" data-bs-parent="#accordiontranscriptomics">
 
     <div class="accordion-body">
 
@@ -32903,14 +33581,14 @@ cell type abundances from bulk RNA-seq.</p>
 
 <div class="accordion-item">
   
-  <div class="accordion-header" id="headingtranscriptomics8">
-   <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapsetranscriptomics8" aria-expanded="false" aria-controls="collapsetranscriptomics8">
+  <div class="accordion-header" id="headingtranscriptomics9">
+   <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapsetranscriptomics9" aria-expanded="false" aria-controls="collapsetranscriptomics9">
         Reference-based RNA-Seq data analysis
          (Tutorial) 
    </button>
   </div>
 
-  <div id="collapsetranscriptomics8" class="accordion-collapse collapse " aria-labelledby="headingtranscriptomics8" data-bs-parent="#accordiontranscriptomics">
+  <div id="collapsetranscriptomics9" class="accordion-collapse collapse " aria-labelledby="headingtranscriptomics9" data-bs-parent="#accordiontranscriptomics">
 
     <div class="accordion-body">
 
@@ -33159,14 +33837,14 @@ cell type abundances from bulk RNA-seq.</p>
 
 <div class="accordion-item">
   
-  <div class="accordion-header" id="headingtranscriptomics9">
-   <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapsetranscriptomics9" aria-expanded="false" aria-controls="collapsetranscriptomics9">
+  <div class="accordion-header" id="headingtranscriptomics10">
+   <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapsetranscriptomics10" aria-expanded="false" aria-controls="collapsetranscriptomics10">
         RNA Seq Counts to Viz in R
          (Tutorial) 
    </button>
   </div>
 
-  <div id="collapsetranscriptomics9" class="accordion-collapse collapse " aria-labelledby="headingtranscriptomics9" data-bs-parent="#accordiontranscriptomics">
+  <div id="collapsetranscriptomics10" class="accordion-collapse collapse " aria-labelledby="headingtranscriptomics10" data-bs-parent="#accordiontranscriptomics">
 
     <div class="accordion-body">
 
@@ -33393,14 +34071,14 @@ cell type abundances from bulk RNA-seq.</p>
 
 <div class="accordion-item">
   
-  <div class="accordion-header" id="headingtranscriptomics10">
-   <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapsetranscriptomics10" aria-expanded="false" aria-controls="collapsetranscriptomics10">
+  <div class="accordion-header" id="headingtranscriptomics11">
+   <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapsetranscriptomics11" aria-expanded="false" aria-controls="collapsetranscriptomics11">
         Visualization of RNA-Seq results with Volcano Plot in R
          (Tutorial) 
    </button>
   </div>
 
-  <div id="collapsetranscriptomics10" class="accordion-collapse collapse " aria-labelledby="headingtranscriptomics10" data-bs-parent="#accordiontranscriptomics">
+  <div id="collapsetranscriptomics11" class="accordion-collapse collapse " aria-labelledby="headingtranscriptomics11" data-bs-parent="#accordiontranscriptomics">
 
     <div class="accordion-body">
 
@@ -33625,14 +34303,14 @@ cell type abundances from bulk RNA-seq.</p>
 
 <div class="accordion-item">
   
-  <div class="accordion-header" id="headingtranscriptomics11">
-   <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapsetranscriptomics11" aria-expanded="false" aria-controls="collapsetranscriptomics11">
+  <div class="accordion-header" id="headingtranscriptomics12">
+   <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapsetranscriptomics12" aria-expanded="false" aria-controls="collapsetranscriptomics12">
         Visualization of RNA-Seq results with Volcano Plot
          (Tutorial) 
    </button>
   </div>
 
-  <div id="collapsetranscriptomics11" class="accordion-collapse collapse " aria-labelledby="headingtranscriptomics11" data-bs-parent="#accordiontranscriptomics">
+  <div id="collapsetranscriptomics12" class="accordion-collapse collapse " aria-labelledby="headingtranscriptomics12" data-bs-parent="#accordiontranscriptomics">
 
     <div class="accordion-body">
 
@@ -33857,14 +34535,14 @@ cell type abundances from bulk RNA-seq.</p>
 
 <div class="accordion-item">
   
-  <div class="accordion-header" id="headingtranscriptomics12">
-   <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapsetranscriptomics12" aria-expanded="false" aria-controls="collapsetranscriptomics12">
+  <div class="accordion-header" id="headingtranscriptomics13">
+   <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapsetranscriptomics13" aria-expanded="false" aria-controls="collapsetranscriptomics13">
         Inferring Trajectories using Scanpy (Python)
          (Demo) 
    </button>
   </div>
 
-  <div id="collapsetranscriptomics12" class="accordion-collapse collapse " aria-labelledby="headingtranscriptomics12" data-bs-parent="#accordiontranscriptomics">
+  <div id="collapsetranscriptomics13" class="accordion-collapse collapse " aria-labelledby="headingtranscriptomics13" data-bs-parent="#accordiontranscriptomics">
 
     <div class="accordion-body">
 
@@ -34091,14 +34769,14 @@ cell type abundances from bulk RNA-seq.</p>
 
 <div class="accordion-item">
   
-  <div class="accordion-header" id="headingtranscriptomics13">
-   <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapsetranscriptomics13" aria-expanded="false" aria-controls="collapsetranscriptomics13">
+  <div class="accordion-header" id="headingtranscriptomics14">
+   <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapsetranscriptomics14" aria-expanded="false" aria-controls="collapsetranscriptomics14">
         An introduction to scRNA-seq data analysis
          (Lecture) 
    </button>
   </div>
 
-  <div id="collapsetranscriptomics13" class="accordion-collapse collapse " aria-labelledby="headingtranscriptomics13" data-bs-parent="#accordiontranscriptomics">
+  <div id="collapsetranscriptomics14" class="accordion-collapse collapse " aria-labelledby="headingtranscriptomics14" data-bs-parent="#accordiontranscriptomics">
 
     <div class="accordion-body">
 
@@ -34306,14 +34984,14 @@ cell type abundances from bulk RNA-seq.</p>
 
 <div class="accordion-item">
   
-  <div class="accordion-header" id="headingtranscriptomics14">
-   <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapsetranscriptomics14" aria-expanded="false" aria-controls="collapsetranscriptomics14">
+  <div class="accordion-header" id="headingtranscriptomics15">
+   <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapsetranscriptomics15" aria-expanded="false" aria-controls="collapsetranscriptomics15">
         Analysis of plant scRNA-Seq Data with Scanpy
          (Tutorial) 
    </button>
   </div>
 
-  <div id="collapsetranscriptomics14" class="accordion-collapse collapse " aria-labelledby="headingtranscriptomics14" data-bs-parent="#accordiontranscriptomics">
+  <div id="collapsetranscriptomics15" class="accordion-collapse collapse " aria-labelledby="headingtranscriptomics15" data-bs-parent="#accordiontranscriptomics">
 
     <div class="accordion-body">
 
@@ -34542,14 +35220,14 @@ cell type abundances from bulk RNA-seq.</p>
 
 <div class="accordion-item">
   
-  <div class="accordion-header" id="headingtranscriptomics15">
-   <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapsetranscriptomics15" aria-expanded="false" aria-controls="collapsetranscriptomics15">
+  <div class="accordion-header" id="headingtranscriptomics16">
+   <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapsetranscriptomics16" aria-expanded="false" aria-controls="collapsetranscriptomics16">
         Pre-processing of 10X Single-Cell RNA Datasets
          (Demo) 
    </button>
   </div>
 
-  <div id="collapsetranscriptomics15" class="accordion-collapse collapse " aria-labelledby="headingtranscriptomics15" data-bs-parent="#accordiontranscriptomics">
+  <div id="collapsetranscriptomics16" class="accordion-collapse collapse " aria-labelledby="headingtranscriptomics16" data-bs-parent="#accordiontranscriptomics">
 
     <div class="accordion-body">
 
@@ -34778,14 +35456,14 @@ cell type abundances from bulk RNA-seq.</p>
 
 <div class="accordion-item">
   
-  <div class="accordion-header" id="headingtranscriptomics16">
-   <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapsetranscriptomics16" aria-expanded="false" aria-controls="collapsetranscriptomics16">
+  <div class="accordion-header" id="headingtranscriptomics17">
+   <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapsetranscriptomics17" aria-expanded="false" aria-controls="collapsetranscriptomics17">
         Clustering 3K PBMCs with Scanpy
          (Demo) 
    </button>
   </div>
 
-  <div id="collapsetranscriptomics16" class="accordion-collapse collapse " aria-labelledby="headingtranscriptomics16" data-bs-parent="#accordiontranscriptomics">
+  <div id="collapsetranscriptomics17" class="accordion-collapse collapse " aria-labelledby="headingtranscriptomics17" data-bs-parent="#accordiontranscriptomics">
 
     <div class="accordion-body">
 
@@ -35026,14 +35704,14 @@ cell type abundances from bulk RNA-seq.</p>
 
 <div class="accordion-item">
   
-  <div class="accordion-header" id="headingtranscriptomics17">
-   <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapsetranscriptomics17" aria-expanded="false" aria-controls="collapsetranscriptomics17">
+  <div class="accordion-header" id="headingtranscriptomics18">
+   <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapsetranscriptomics18" aria-expanded="false" aria-controls="collapsetranscriptomics18">
         Filter, Plot and Explore Single-cell RNA-seq Data
          (Demo) 
    </button>
   </div>
 
-  <div id="collapsetranscriptomics17" class="accordion-collapse collapse " aria-labelledby="headingtranscriptomics17" data-bs-parent="#accordiontranscriptomics">
+  <div id="collapsetranscriptomics18" class="accordion-collapse collapse " aria-labelledby="headingtranscriptomics18" data-bs-parent="#accordiontranscriptomics">
 
     <div class="accordion-body">
 
@@ -35266,14 +35944,14 @@ cell type abundances from bulk RNA-seq.</p>
 
 <div class="accordion-item">
   
-  <div class="accordion-header" id="headingtranscriptomics18">
-   <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapsetranscriptomics18" aria-expanded="false" aria-controls="collapsetranscriptomics18">
+  <div class="accordion-header" id="headingtranscriptomics19">
+   <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapsetranscriptomics19" aria-expanded="false" aria-controls="collapsetranscriptomics19">
         Understanding Barcodes
          (Demo) 
    </button>
   </div>
 
-  <div id="collapsetranscriptomics18" class="accordion-collapse collapse " aria-labelledby="headingtranscriptomics18" data-bs-parent="#accordiontranscriptomics">
+  <div id="collapsetranscriptomics19" class="accordion-collapse collapse " aria-labelledby="headingtranscriptomics19" data-bs-parent="#accordiontranscriptomics">
 
     <div class="accordion-body">
 
@@ -36429,12 +37107,222 @@ cell type abundances from bulk RNA-seq.</p>
   
   <div class="accordion-header" id="headingsingle-cell4">
    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapsesingle-cell4" aria-expanded="false" aria-controls="collapsesingle-cell4">
+        Removing the effects of the cell cycle
+        
+   </button>
+  </div>
+
+  <div id="collapsesingle-cell4" class="accordion-collapse collapse " aria-labelledby="headingsingle-cell4" data-bs-parent="#accordionsingle-cell">
+
+    <div class="accordion-body">
+
+      <!-- Video -->
+      
+         <!-- Self-study tutorial -->
+            
+
+
+<div class="flex-row">
+	<div class="col-md-8">
+		<h3 class="session-section">Removing the effects of the cell cycle</h3>
+		<div>
+            
+			<img src="/video-library/assets/images/selfstudy.png" alt="image indicating this is a self-study session." />
+            
+			This is a self-study session. Please work through the materials on your own, and ask the instructors for help if you get stuck or have any questions!
+		</div>
+		<div style="margin-top:1em;" class="video-metadata">
+			<table>
+				<tr>
+					<td><strong>Tutorial:</strong></td>
+					<td>Removing the effects of the cell cycle</td>
+				</tr>
+				
+				<tr>
+						<td><strong>Description:</strong></td>
+						<td>Single-cell RNA sequencing can be sensitive to both biological and technical variation,   i
+which is why preparing your data carefully is an important part of the analysis. You want
+the results to reflect the interesting differences in expression between cells that relate
+to their type or state. Other sources of variation can conceal or confound this, making it
+harder for you to see what is going on.
+
+One common biological confounder is the cell cycle. Cells express
+different genes during different parts of the cell cycle, depending on whether they are in
+their growing phase (G1), duplicating their DNA (the S or Synthesis phase), or dividing in
+two (G2/M or Mitosis phase). If these cell cycle genes are having a big impact on your
+data, then you could end up with separate clusters that actually represent cells of the
+same type that are just at different stages of the cycle.
+
+In this tutorial, we will identify the genes whose expression is known to vary during the
+cell cycle so that we can use them to regress out (or remove) the effects of the cell cycle
+on the clustering.
+</td>
+				</tr>
+				
+				
+				<tr>
+					<td><strong>Materials:</strong></td>
+					<td>
+						<ul class="plain-text-list">
+						
+							<li>
+								
+									<img style="height: 1em" src="/video-library/assets/fa/tutorial.svg" alt="assets/fa/tutorial.svg" aria-hidden="true" />
+									
+								
+
+								
+								
+									Tutorial:
+
+									<a href="https://training.galaxyproject.org/archive/2021-02-01/topics/single-cell/tutorials/scrna-case_cell-cycle/tutorial.html?utm_source=schedule&amp;utm_medium=click&amp;utm_campaign=video-library">Version in Video</a>
+									<!-- We allow overriding specific materials to their archival versions, hiding the "current" link. -->
+									
+									|
+									<a href="https://training.galaxyproject.org/topics/single-cell/tutorials/scrna-case_cell-cycle/tutorial.html?utm_source=schedule&amp;utm_medium=click&amp;utm_campaign=video-library">Latest Version</a>
+									
+
+									
+									<br />
+									<img style="height: 1em" src="/video-library/assets/fa/circle-question-regular.svg" alt="assets/fa/circle-question-regular.svg" aria-hidden="true" />
+									
+									<a href="https://training.galaxyproject.org/topics/single-cell/tutorials/scrna-case_cell-cycle/faqs/?utm_source=schedule&amp;utm_medium=click&amp;utm_campaign=video-library">FAQs</a>
+									
+								
+							</li>
+						
+						</ul>
+					</td>
+				</tr>
+				
+
+				<!-- this is for the embedded versions where they'll use their own1 support forum -->
+				
+				<tr>
+					<td><strong>Support:</strong></td>
+					<td>
+						<ul>
+							
+							
+							<li>Slack: <a href="https://gtnsmrgsbord.slack.com/archives/single-cell_scrna-case_cell-cycle">#single-cell_scrna-case_cell-cycle</a> <ul><li><a href="https://join.slack.com/t/gtnsmrgsbord/shared_invite/zt-x7vinbs1-BA~Kht6N86JBhDq0uTIVdQ">Slack Invite</a></li></ul></li>
+							<li><a href="https://gitter.im/Galaxy-Training-Network/Lobby">Gitter</a></li>
+							<li><a href="https://help.galaxyproject.org">Galaxy Help Forum</a></li>
+						</ul>
+					</td>
+				</tr>
+				
+
+				
+				<tr>
+					<td><strong>Learning Objectives:</strong></td>
+					<td>
+						<ul>
+						
+							<li>Identify the cell cycle genes</li>
+						
+							<li>Use the cell cycle genes to regress out the effects of the cell cycle</li>
+						
+							<li>Create PCA plots to understand the impact of the regression</li>
+						
+						</ul>
+					</td>
+				</tr>
+				
+			</table>
+		</div>
+		
+		Go to the <a href="/video-library/videos/single-cell/scrna-case_cell-cycle/tutorial">video page</a> to see all versions.
+		
+	</div>
+
+    <!-- instructors(s) -->
+    
+    
+
+    <div class="col-md-3">
+      <center><h3 class="session-section">Instructor</h3></center>
+      
+
+
+
+
+
+
+
+<div class="hall-of-fame">
+    
+    
+    
+		<div class="hall-of-fame-hero" id="gtn">
+			
+			<a href="/video-library/contributors/gtn/">
+			
+            
+            <img src="/video-library/assets/images/instructors/gtn.png" alt="" />
+            
+			<div class="name">
+				<b>The Galaxy Training Network</b>
+			</div>
+			
+			</a>
+			
+			<div class="affil">
+				
+			</div>
+		</div>
+	
+    
+</div>
+
+    </div>
+
+	<div class="col-md-4">
+	</div>
+</div><!-- end self-study session -->
+
+        
+
+      
+
+
+      <!-- Instructors -->
+      
+
+      <!-- Supporting Servers -->
+
+      <!-- Resources -->
+
+    </div><!-- end accordion body -->
+  </div><!-- end collapse -->
+</div><!-- end accordion item (training session) -->
+
+
+
+	
+		
+		
+		
+
+
+
+
+
+
+
+
+
+
+
+<div class="accordion-item">
+  
+  <div class="accordion-header" id="headingsingle-cell5">
+   <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapsesingle-cell5" aria-expanded="false" aria-controls="collapsesingle-cell5">
         Inferring Trajectories using Scanpy (Python)
          (Demo) 
    </button>
   </div>
 
-  <div id="collapsesingle-cell4" class="accordion-collapse collapse " aria-labelledby="headingsingle-cell4" data-bs-parent="#accordionsingle-cell">
+  <div id="collapsesingle-cell5" class="accordion-collapse collapse " aria-labelledby="headingsingle-cell5" data-bs-parent="#accordionsingle-cell">
 
     <div class="accordion-body">
 
@@ -36661,14 +37549,14 @@ cell type abundances from bulk RNA-seq.</p>
 
 <div class="accordion-item">
   
-  <div class="accordion-header" id="headingsingle-cell5">
-   <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapsesingle-cell5" aria-expanded="false" aria-controls="collapsesingle-cell5">
+  <div class="accordion-header" id="headingsingle-cell6">
+   <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapsesingle-cell6" aria-expanded="false" aria-controls="collapsesingle-cell6">
         An introduction to scRNA-seq data analysis
          (Lecture) 
    </button>
   </div>
 
-  <div id="collapsesingle-cell5" class="accordion-collapse collapse " aria-labelledby="headingsingle-cell5" data-bs-parent="#accordionsingle-cell">
+  <div id="collapsesingle-cell6" class="accordion-collapse collapse " aria-labelledby="headingsingle-cell6" data-bs-parent="#accordionsingle-cell">
 
     <div class="accordion-body">
 
@@ -36876,14 +37764,14 @@ cell type abundances from bulk RNA-seq.</p>
 
 <div class="accordion-item">
   
-  <div class="accordion-header" id="headingsingle-cell6">
-   <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapsesingle-cell6" aria-expanded="false" aria-controls="collapsesingle-cell6">
+  <div class="accordion-header" id="headingsingle-cell7">
+   <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapsesingle-cell7" aria-expanded="false" aria-controls="collapsesingle-cell7">
         Analysis of plant scRNA-Seq Data with Scanpy
          (Tutorial) 
    </button>
   </div>
 
-  <div id="collapsesingle-cell6" class="accordion-collapse collapse " aria-labelledby="headingsingle-cell6" data-bs-parent="#accordionsingle-cell">
+  <div id="collapsesingle-cell7" class="accordion-collapse collapse " aria-labelledby="headingsingle-cell7" data-bs-parent="#accordionsingle-cell">
 
     <div class="accordion-body">
 
@@ -37112,14 +38000,14 @@ cell type abundances from bulk RNA-seq.</p>
 
 <div class="accordion-item">
   
-  <div class="accordion-header" id="headingsingle-cell7">
-   <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapsesingle-cell7" aria-expanded="false" aria-controls="collapsesingle-cell7">
+  <div class="accordion-header" id="headingsingle-cell8">
+   <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapsesingle-cell8" aria-expanded="false" aria-controls="collapsesingle-cell8">
         Pre-processing of 10X Single-Cell RNA Datasets
          (Demo) 
    </button>
   </div>
 
-  <div id="collapsesingle-cell7" class="accordion-collapse collapse " aria-labelledby="headingsingle-cell7" data-bs-parent="#accordionsingle-cell">
+  <div id="collapsesingle-cell8" class="accordion-collapse collapse " aria-labelledby="headingsingle-cell8" data-bs-parent="#accordionsingle-cell">
 
     <div class="accordion-body">
 
@@ -37348,14 +38236,14 @@ cell type abundances from bulk RNA-seq.</p>
 
 <div class="accordion-item">
   
-  <div class="accordion-header" id="headingsingle-cell8">
-   <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapsesingle-cell8" aria-expanded="false" aria-controls="collapsesingle-cell8">
+  <div class="accordion-header" id="headingsingle-cell9">
+   <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapsesingle-cell9" aria-expanded="false" aria-controls="collapsesingle-cell9">
         Clustering 3K PBMCs with Scanpy
          (Demo) 
    </button>
   </div>
 
-  <div id="collapsesingle-cell8" class="accordion-collapse collapse " aria-labelledby="headingsingle-cell8" data-bs-parent="#accordionsingle-cell">
+  <div id="collapsesingle-cell9" class="accordion-collapse collapse " aria-labelledby="headingsingle-cell9" data-bs-parent="#accordionsingle-cell">
 
     <div class="accordion-body">
 
@@ -37596,14 +38484,14 @@ cell type abundances from bulk RNA-seq.</p>
 
 <div class="accordion-item">
   
-  <div class="accordion-header" id="headingsingle-cell9">
-   <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapsesingle-cell9" aria-expanded="false" aria-controls="collapsesingle-cell9">
+  <div class="accordion-header" id="headingsingle-cell10">
+   <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapsesingle-cell10" aria-expanded="false" aria-controls="collapsesingle-cell10">
         Filter, Plot and Explore Single-cell RNA-seq Data
          (Demo) 
    </button>
   </div>
 
-  <div id="collapsesingle-cell9" class="accordion-collapse collapse " aria-labelledby="headingsingle-cell9" data-bs-parent="#accordionsingle-cell">
+  <div id="collapsesingle-cell10" class="accordion-collapse collapse " aria-labelledby="headingsingle-cell10" data-bs-parent="#accordionsingle-cell">
 
     <div class="accordion-body">
 

@@ -3378,6 +3378,10 @@
   },
   "metagenomics/metagenomics-assembly/tutorial": {
     "description": "In this tutorial, we will learn how to run metagenomic assembly tool and evaluate the quality of the generated assemblies.\nTo do that, we will use data from the study: Temporal shotgun metagenomic dissection of the coffee fermentation ecosystem.\nFor an in-depth analysis of the structure and functions of the coffee microbiome, a temporal shotgun metagenomic study\n(six time points) was performed. The six samples have been sequenced with Illumina MiSeq utilizing whole genome sequencing.\n",
+    "tags": [
+      "metagenomics",
+      "assembly"
+    ],
     "materials": [
       {
         "link": "topics/metagenomics/tutorials/metagenomics-assembly/tutorial.html",
@@ -3395,7 +3399,10 @@
         "length": "1H",
         "captions": null
       }
-    ]
+    ],
+    "gtn_id": "metagenomics/metagenomics-assembly",
+    "title": "Assembly of metagenomic sequencing data",
+    "captioned": false
   },
   "proteogenomics/introduction/slides": {
     "description": "In this opening presentation, the basic components of proteogenomics are described, including the main steps in the bioinformatics analysis workflow that make up this approach and will be detailed in the following tutorials. Some examples of research questions that benefit from a proteogenomics approach are also highlighted.",
@@ -4575,18 +4582,15 @@
         "type": "Tutorial"
       }
     ],
+    "tags": [
+      "single-cell",
+      "transcriptomics"
+    ],
     "versions": [
-      {
-        "link": null,
-        "date": "2042-4-2",
-        "galaxy_version": "23.01",
-        "length": "42H42M",
-        "speakers": [
-          "MarisaJL"
-        ],
-        "captions": null
-      }
-    ]
+
+    ],
+    "gtn_id": "single-cell/scrna-case_cell-cycle",
+    "title": "Removing the effects of the cell cycle"
   },
   "transcriptomics/introduction/slides": {
     "description": "RNA sequencing is used to assess the expression levels of genes. This video introduces the important concepts related to RNA-seq analysis.",

@@ -1032,6 +1032,34 @@
         ],
         "gtn_id": "assembly/vgp_genome_assembly-workflow",
         "captioned": false
+      },
+      "metagenomics/metagenomics-assembly/tutorial": {
+        "description": "In this tutorial, we will learn how to run metagenomic assembly tool and evaluate the quality of the generated assemblies.\nTo do that, we will use data from the study: Temporal shotgun metagenomic dissection of the coffee fermentation ecosystem.\nFor an in-depth analysis of the structure and functions of the coffee microbiome, a temporal shotgun metagenomic study\n(six time points) was performed. The six samples have been sequenced with Illumina MiSeq utilizing whole genome sequencing.\n",
+        "tags": [
+          "metagenomics",
+          "assembly"
+        ],
+        "materials": [
+          {
+            "link": "topics/metagenomics/tutorials/metagenomics-assembly/tutorial.html",
+            "type": "tutorial"
+          }
+        ],
+        "versions": [
+          {
+            "link": "1ZYGy85Im7w",
+            "date": "2023-05-02",
+            "speakers": [
+              "bebatut"
+            ],
+            "galaxy_version": "23.01",
+            "length": "1H",
+            "captions": null
+          }
+        ],
+        "gtn_id": "metagenomics/metagenomics-assembly",
+        "title": "Assembly of metagenomic sequencing data",
+        "captioned": false
       }
     }
   },
@@ -3731,6 +3759,34 @@
         "gtn_id": "metagenomics/pathogen-detection-from-nanopore-foodborne-data",
         "title": "Pathogen detection from (direct Nanopore) sequencing data using Galaxy - Foodborne Edition",
         "captioned": false
+      },
+      "metagenomics/metagenomics-assembly/tutorial": {
+        "description": "In this tutorial, we will learn how to run metagenomic assembly tool and evaluate the quality of the generated assemblies.\nTo do that, we will use data from the study: Temporal shotgun metagenomic dissection of the coffee fermentation ecosystem.\nFor an in-depth analysis of the structure and functions of the coffee microbiome, a temporal shotgun metagenomic study\n(six time points) was performed. The six samples have been sequenced with Illumina MiSeq utilizing whole genome sequencing.\n",
+        "tags": [
+          "metagenomics",
+          "assembly"
+        ],
+        "materials": [
+          {
+            "link": "topics/metagenomics/tutorials/metagenomics-assembly/tutorial.html",
+            "type": "tutorial"
+          }
+        ],
+        "versions": [
+          {
+            "link": "1ZYGy85Im7w",
+            "date": "2023-05-02",
+            "speakers": [
+              "bebatut"
+            ],
+            "galaxy_version": "23.01",
+            "length": "1H",
+            "captions": null
+          }
+        ],
+        "gtn_id": "metagenomics/metagenomics-assembly",
+        "title": "Assembly of metagenomic sequencing data",
+        "captioned": false
       }
     }
   },
@@ -4795,6 +4851,24 @@
         "title": "Combining datasets after pre-processing",
         "captioned": true
       },
+      "single-cell/scrna-case_cell-cycle/tutorial": {
+        "description": "Single-cell RNA sequencing can be sensitive to both biological and technical variation,   i\nwhich is why preparing your data carefully is an important part of the analysis. You want\nthe results to reflect the interesting differences in expression between cells that relate\nto their type or state. Other sources of variation can conceal or confound this, making it\nharder for you to see what is going on.\n\nOne common biological confounder is the cell cycle. Cells express\ndifferent genes during different parts of the cell cycle, depending on whether they are in\ntheir growing phase (G1), duplicating their DNA (the S or Synthesis phase), or dividing in\ntwo (G2/M or Mitosis phase). If these cell cycle genes are having a big impact on your\ndata, then you could end up with separate clusters that actually represent cells of the\nsame type that are just at different stages of the cycle.\n\nIn this tutorial, we will identify the genes whose expression is known to vary during the\ncell cycle so that we can use them to regress out (or remove) the effects of the cell cycle\non the clustering.\n",
+        "materials": [
+          {
+            "link": "topics/single-cell/tutorials/scrna-case_cell-cycle/tutorial.html",
+            "type": "Tutorial"
+          }
+        ],
+        "tags": [
+          "single-cell",
+          "transcriptomics"
+        ],
+        "versions": [
+
+        ],
+        "gtn_id": "single-cell/scrna-case_cell-cycle",
+        "title": "Removing the effects of the cell cycle"
+      },
       "transcriptomics/introduction/slides": {
         "description": "RNA sequencing is used to assess the expression levels of genes. This video introduces the important concepts related to RNA-seq analysis.",
         "materials": [
@@ -5372,6 +5446,24 @@
         "gtn_id": "single-cell/scrna-case_alevin-combine-datasets",
         "title": "Combining datasets after pre-processing",
         "captioned": true
+      },
+      "single-cell/scrna-case_cell-cycle/tutorial": {
+        "description": "Single-cell RNA sequencing can be sensitive to both biological and technical variation,   i\nwhich is why preparing your data carefully is an important part of the analysis. You want\nthe results to reflect the interesting differences in expression between cells that relate\nto their type or state. Other sources of variation can conceal or confound this, making it\nharder for you to see what is going on.\n\nOne common biological confounder is the cell cycle. Cells express\ndifferent genes during different parts of the cell cycle, depending on whether they are in\ntheir growing phase (G1), duplicating their DNA (the S or Synthesis phase), or dividing in\ntwo (G2/M or Mitosis phase). If these cell cycle genes are having a big impact on your\ndata, then you could end up with separate clusters that actually represent cells of the\nsame type that are just at different stages of the cycle.\n\nIn this tutorial, we will identify the genes whose expression is known to vary during the\ncell cycle so that we can use them to regress out (or remove) the effects of the cell cycle\non the clustering.\n",
+        "materials": [
+          {
+            "link": "topics/single-cell/tutorials/scrna-case_cell-cycle/tutorial.html",
+            "type": "Tutorial"
+          }
+        ],
+        "tags": [
+          "single-cell",
+          "transcriptomics"
+        ],
+        "versions": [
+
+        ],
+        "gtn_id": "single-cell/scrna-case_cell-cycle",
+        "title": "Removing the effects of the cell cycle"
       },
       "single-cell/scrna-case_JUPYTER-trajectories/tutorial": {
         "description": "You’ve done all the hard work of preparing a single cell matrix, processing it, plotting it, interpreting it, finding lots of lovely genes, all within the glorious Galaxy interface. Now you want to infer trajectories, or relationships between cells… and you’ve been threatened with learning Python to do so! Well, fear not. If you can have a run-through of a basic python coding introduction, then that will help you make more sense of this tutorial, however you’ll be able to make and interpret glorious plots even without understanding the Python coding language. This is the beauty of Galaxy - all the ‘set-up’ is identical across computers, because it’s browser based. So fear not!",
