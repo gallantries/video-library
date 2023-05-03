@@ -127,7 +127,7 @@ chrisbarnettster:
 christinecucinotta:
     name: Christine Cucinotta
     affiliation: [fredhutch]
-    
+
 cmirzayi:
     name: Chloe Mirzayi
     affiliation: [cuny]
@@ -321,6 +321,10 @@ MariaTsayo:
     name: Maria Tsagiopoulou
     affiliation: [inab-certh]
 
+MarisaJL:
+    name: Marisa Loach
+    affiliation: [ou]
+
 martenson:
     name: Martin Čech
     affiliation: [iocb]
@@ -363,7 +367,7 @@ nekrut:
 
 nomadscientist:
     name: Wendi Bacon
-    affiliation: [ebi]
+    affiliation: [ou]
     slack: U01FU9TKNHE
 
 nsoranzo:
