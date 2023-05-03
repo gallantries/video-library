@@ -356,7 +356,7 @@
       }
     ],
     "gtn_id": "admin/job-destinations",
-    "title": "Mapping Jobs to Destinations",
+    "title": "Mapping Jobs to Destinations using TPV",
     "captioned": true
   },
   "admin/job-metrics/tutorial": {
@@ -416,7 +416,7 @@
       }
     ],
     "gtn_id": "admin/maintenance",
-    "title": "Server Maintenance and Backups",
+    "title": "admin/maintenance/slides",
     "captioned": true
   },
   "admin/monitoring/slides": {
@@ -624,7 +624,7 @@
       }
     ],
     "gtn_id": "admin/singularity",
-    "title": "Use Singularity containers for running Galaxy jobs",
+    "title": "admin/singularity/tutorial",
     "captioned": true
   },
   "admin/tiaas/tutorial": {
@@ -1119,7 +1119,7 @@
     "captioned": true
   },
   "climate/pangeo/tutorial": {
-    "description": "In this tutorial, you will learn how to manipulate netCDF data files using Xarray Galaxy Tools. NetCDF stands for network Common Data Form and is one of the most popular file format in climate science. It is used for storing multidimensional scientific data variables such as temperature or humidity, and metadata can be added to facilitate sharing of netCDF data. netCDF is widely used outside the Climate Science community and each community has its own set of conventions, especially for metadata. The Climate and Forecast metadata convention, also called CF-convention is used by the Climate community and is designed to promote the processing and sharing of netCDF files.\n",
+    "description": "In this tutorial, you will learn how to manipulate netCDF data files using Xarray Galaxy Tools. NetCDF stands for network Common Data Form and is one of the most popular file format in climate science. It is used for storing multidimensional scientific data variables such as temperature or humidity, and metadata can be added to facilitate sharing of netCDF data. netCDF is widely used outside the Climate Science community and each community has its own set of conventions, especially for metadata. The Climate and Forecast metadata convention, also called CF-convention is used by the Climate community and is designed to promote the processing and sharing of netCDF files.",
     "materials": [
       {
         "link": "topics/climate/tutorials/pangeo/tutorial.html",
@@ -3089,6 +3089,16 @@
     "type": "Tutorial",
     "versions": [
       {
+        "captions": null,
+        "date": "2023-05-01",
+        "length": "20M",
+        "galaxy_version": "23.0",
+        "link": "64oS5uXVRV0",
+        "speakers": [
+          "astrovsky01"
+        ]
+      },
+      {
         "captions": [
           "tnabtaf"
         ],
@@ -3104,7 +3114,7 @@
     ],
     "gtn_id": "introduction/galaxy-intro-101-everyone",
     "title": "Galaxy 101 for everyone",
-    "captioned": true
+    "captioned": false
   },
   "introduction/galaxy-intro-101/tutorial": {
     "description": "This tutorial will introduce you to Galaxy. You will familiarize yourself with tools, workflows and histories. Those skills will be needed the next days",
@@ -3338,6 +3348,53 @@
     "gtn_id": "metagenomics/plasmid-metagenomics-nanopore",
     "title": "Antibiotic resistance detection",
     "captioned": true
+  },
+  "metagenomics/pathogen-detection-from-nanopore-foodborne-data/tutorial": {
+    "description": "In this tutorial, we will be presenting a series of Galaxy workflows whose main goals are\n1) to agnostically detect pathogens (What exactly is this pathogen and what virulence\nfactors does it carry?) from data extracted directly (without prior cultivation) from a\npotentially contaminated sample (e.g. food like chicken, beef, etc.) and sequenced using\nNanopore, and 2) to compare different samples to trace the possible source of contamination\n",
+    "materials": [
+      {
+        "link": "topics/metagenomics/tutorials/pathogen-detection-from-nanopore-foodborne-data/tutorial.thml",
+        "type": "Tutorial"
+      }
+    ],
+    "tags": [
+      "metagenomics"
+    ],
+    "versions": [
+      {
+        "link": "gQHb_jkj-Z0",
+        "date": "2023-05-01",
+        "galaxy_version": "23.01",
+        "length": "1H45M",
+        "speakers": [
+          "EngyNasr"
+        ],
+        "captions": null
+      }
+    ],
+    "gtn_id": "metagenomics/pathogen-detection-from-nanopore-foodborne-data",
+    "title": "Pathogen detection from (direct Nanopore) sequencing data using Galaxy - Foodborne Edition",
+    "captioned": false
+  },
+  "metagenomics/metagenomics-assembly/tutorial": {
+    "description": "In this tutorial, we will learn how to run metagenomic assembly tool and evaluate the quality of the generated assemblies.\nTo do that, we will use data from the study: Temporal shotgun metagenomic dissection of the coffee fermentation ecosystem.\nFor an in-depth analysis of the structure and functions of the coffee microbiome, a temporal shotgun metagenomic study\n(six time points) was performed. The six samples have been sequenced with Illumina MiSeq utilizing whole genome sequencing.\n",
+    "materials": [
+      {
+        "link": "topics/metagenomics/tutorials/metagenomics-assembly/tutorial.html",
+        "type": "tutorial"
+      }
+    ],
+    "versions": [
+      {
+        "link": "1ZYGy85Im7w",
+        "speakers": [
+          "bebatut"
+        ],
+        "galaxy_version": "23.01",
+        "length": "1H",
+        "captions": null
+      }
+    ]
   },
   "proteogenomics/introduction/slides": {
     "description": "In this opening presentation, the basic components of proteogenomics are described, including the main steps in the bioinformatics analysis workflow that make up this approach and will be detailed in the following tutorials. Some examples of research questions that benefit from a proteogenomics approach are also highlighted.",
@@ -4444,7 +4501,7 @@
       }
     ],
     "gtn_id": "single-cell/scrna-case_monocle3-trajectories",
-    "title": "Trajectory Analysis using Monocle3 ",
+    "title": "Trajectory Analysis using Monocle3",
     "captioned": true
   },
   "single-cell/scrna-case_alevin/tutorial": {
@@ -4769,7 +4826,7 @@
       }
     ],
     "gtn_id": "single-cell/scrna-case_JUPYTER-trajectories",
-    "title": "Inferring Trajectories using Python (Jupyter Notebook) in Galaxy",
+    "title": "Inferring Trajectories using Scanpy (Python)",
     "captioned": true
   },
   "single-cell/scrna-intro/slides": {
@@ -5560,7 +5617,7 @@
     "captioned": false
   },
   "bioconductor/epiforbioworkshop2022/tutorial": {
-    "description": "Concepts of causal inference in epidemiology have important ramifications \nfor studies across bioinformatics and other fields of health research. In \nthis workshop, we introduce basic concepts of epidemiology, study design, \nand causal inference for bioinformaticians. Emphasis is placed on addressing \nbias and confounding as common threats to assessing a causal pathway in a \nvariety of study design types and when using common forms of analyses such \nas GWAS and survival analysis. Workshop participants will have the \nopportunity to create their own structural causal models (DAGs) using \ndagitty and ggdag and then use this model to determine how to assess an \nestimated causal effect. Examples using DESeq2, edgeR, and limma will be \nused to show how multivariable models can be fitted depending on the \nhypothesized causal relationship. Presented successfully at BioC2021 to a \nlarge audience of more than 100, updates that material by revising current \nexamples based on participant feedback as well as content updates.\n",
+    "description": "Concepts of causal inference in epidemiology have important ramifications\nfor studies across bioinformatics and other fields of health research. In\nthis workshop, we introduce basic concepts of epidemiology, study design,\nand causal inference for bioinformaticians. Emphasis is placed on addressing\nbias and confounding as common threats to assessing a causal pathway in a\nvariety of study design types and when using common forms of analyses such\nas GWAS and survival analysis. Workshop participants will have the\nopportunity to create their own structural causal models (DAGs) using\ndagitty and ggdag and then use this model to determine how to assess an\nestimated causal effect. Examples using DESeq2, edgeR, and limma will be\nused to show how multivariable models can be fitted depending on the\nhypothesized causal relationship. Presented successfully at BioC2021 to a\nlarge audience of more than 100, updates that material by revising current\nexamples based on participant feedback as well as content updates.\n",
     "materials": [
       {
         "link": "https://chloemirzayi.com/epiforbioworkshop2022/articles/EpiForBioWorkshop.html"

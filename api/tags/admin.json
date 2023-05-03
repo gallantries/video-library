@@ -358,7 +358,7 @@
         }
       ],
       "gtn_id": "admin/job-destinations",
-      "title": "Mapping Jobs to Destinations",
+      "title": "Mapping Jobs to Destinations using TPV",
       "captioned": true
     },
     "admin/job-metrics/tutorial": {
@@ -418,7 +418,7 @@
         }
       ],
       "gtn_id": "admin/maintenance",
-      "title": "Server Maintenance and Backups",
+      "title": "admin/maintenance/slides",
       "captioned": true
     },
     "admin/monitoring/slides": {
@@ -626,7 +626,7 @@
         }
       ],
       "gtn_id": "admin/singularity",
-      "title": "Use Singularity containers for running Galaxy jobs",
+      "title": "admin/singularity/tutorial",
       "captioned": true
     },
     "admin/tiaas/tutorial": {
