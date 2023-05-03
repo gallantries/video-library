@@ -23,7 +23,7 @@ program:
     description:
     trainings:
       - video: admin/tus/tutorial
-      - video: admin/singularity/tutorial
+      - video: admin/apptainer/tutorial
       - session: admin/tool-management
       - video: admin/users-groups-quotas/slides
       - session: admin/cvmfs
