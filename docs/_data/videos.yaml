@@ -3004,6 +3004,37 @@ single-cell/scrna-case_alevin-combine-datasets/tutorial:
     link: U8pVa6csmUE # TODO: Move to the GTN account
     speakers:
     - nomadscientist
+
+single-cell/scrna-case_cell-cycle/tutorial:
+  description: |
+    Single-cell RNA sequencing can be sensitive to both biological and technical variation,   i
+    which is why preparing your data carefully is an important part of the analysis. You want
+    the results to reflect the interesting differences in expression between cells that relate
+    to their type or state. Other sources of variation can conceal or confound this, making it
+    harder for you to see what is going on.
+
+    One common biological confounder is the cell cycle. Cells express
+    different genes during different parts of the cell cycle, depending on whether they are in
+    their growing phase (G1), duplicating their DNA (the S or Synthesis phase), or dividing in
+    two (G2/M or Mitosis phase). If these cell cycle genes are having a big impact on your
+    data, then you could end up with separate clusters that actually represent cells of the
+    same type that are just at different stages of the cycle.
+
+    In this tutorial, we will identify the genes whose expression is known to vary during the
+    cell cycle so that we can use them to regress out (or remove) the effects of the cell cycle
+    on the clustering.
+  materials:
+  - link: topics/single-cell/tutorials/scrna-case_cell-cycle/tutorial.html
+    type: Tutorial
+  versions:
+  - link:
+    date: '2042-4-2'
+    galaxy_version: '23.01'
+    length: 42H42M
+    speakers:
+    - MarisaJL
+    captions:
+
 transcriptomics/introduction/slides:
   description: RNA sequencing is used to assess the expression levels of genes. This
     video introduces the important concepts related to RNA-seq analysis.
