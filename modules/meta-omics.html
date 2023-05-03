@@ -106,7 +106,7 @@
   
   
   
-  <h3 class="module-start"> Introduction </h3>
+  <h3 class="module-start"> 16S Taxonomic Profiling </h3>
   
   <p class="module-description"> 
  </p>
@@ -600,6 +600,265 @@
   
   
   
+  <h3 class="module-start"> Assembly </h3>
+  
+  <p class="module-description"> 
+ </p>
+  <div class="accordion" id="accordionassembly">
+  
+     
+
+     
+       
+       
+
+
+
+
+
+
+
+
+
+
+
+<div class="accordion-item">
+  
+  <div class="accordion-header" id="headingassembly0">
+   <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseassembly0" aria-expanded="false" aria-controls="collapseassembly0">
+        Assembly of metagenomic sequencing data
+        
+   </button>
+  </div>
+
+  <div id="collapseassembly0" class="accordion-collapse collapse " aria-labelledby="headingassembly0" data-bs-parent="#accordionassembly">
+
+    <div class="accordion-body">
+
+      <!-- Video -->
+      
+        
+           
+           <!-- session: {"description"=>"In this tutorial, we will learn how to run metagenomic assembly tool and evaluate the quality of the generated assemblies.\nTo do that, we will use data from the study: Temporal shotgun metagenomic dissection of the coffee fermentation ecosystem.\nFor an in-depth analysis of the structure and functions of the coffee microbiome, a temporal shotgun metagenomic study\n(six time points) was performed. The six samples have been sequenced with Illumina MiSeq utilizing whole genome sequencing.\n", "materials"=>[{"link"=>"topics/metagenomics/tutorials/metagenomics-assembly/tutorial.html", "type"=>"tutorial"}], "versions"=>[{"link"=>"1ZYGy85Im7w", "date"=>"2023-05-02", "speakers"=>["bebatut"], "galaxy_version"=>"23.01", "length"=>"1H", "captions"=>nil}], "name"=>"Assembly of metagenomic sequencing data"}<br><br> video: {"link"=>"1ZYGy85Im7w", "date"=>"2023-05-02", "speakers"=>["bebatut"], "galaxy_version"=>"23.01", "length"=>"1H", "captions"=>nil} -->
+
+
+
+
+
+
+<!-- determine the next archived version of tutorial -->
+
+
+
+
+<div class="flex-row">
+ <div class="col-md-8">
+  <h3 class="session-section"> Video   </h3>
+  <div style="position:relative;padding-top:56.25%;">
+   <iframe style="position:absolute;top:0;left:0;width:100%;height:100%;"
+    
+    data-src="https://www.youtube.com/embed/1ZYGy85Im7w"
+    
+     class="lazyload"
+     loading="lazy"
+     frameborder="0"
+     title="YouTube Embedded Video of the Tutorial"
+     aria-label="YouTube Embedded Video of the Tutorial"
+     allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+     allowfullscreen>
+   </iframe>
+  </div>
+  <div style="margin-top:1em;" class="video-metadata">
+      <table>
+          
+          <tr>
+              <td><strong>Description:</strong></td>
+              <td><p>In this tutorial, we will learn how to run metagenomic assembly tool and evaluate the quality of the generated assemblies.
+To do that, we will use data from the study: Temporal shotgun metagenomic dissection of the coffee fermentation ecosystem.
+For an in-depth analysis of the structure and functions of the coffee microbiome, a temporal shotgun metagenomic study
+(six time points) was performed. The six samples have been sequenced with Illumina MiSeq utilizing whole genome sequencing.</p>
+</td>
+          </tr>
+          
+          <tr>
+              <td><strong>Length:</strong></td>
+              <td>1 hour</td>
+          </tr>
+   
+   
+          <tr>
+              <td><strong>Captions:</strong></td>
+              <td><strong>No captions available for this video.</strong> We aim to have captions for all our videos, however sometimes videos get added without captions. Please contact us to indicate your desire to have captions added and we will ask the speakers to provide captions.</td>
+          </tr>
+   
+          
+          <tr>
+              <td><strong>Created:</strong></td>
+              <td>2 May 2023</td>
+          </tr>
+          
+          
+          
+          <tr>
+              <td><strong>Materials:</strong></td>
+              <td>
+                <ul class="plain-text-list">
+                    
+                    <li>
+                        
+
+                        
+                        
+				tutorial:
+
+				<a href="https://training.galaxyproject.org/archive/2023-05-01/topics/metagenomics/tutorials/metagenomics-assembly/tutorial.html?utm_source=schedule&utm_medium=click&utm_campaign=video-library">Version in Video</a>
+				<!-- We allow overriding specific materials to their archival versions, hiding the "current" link. -->
+				
+				|
+				<a href="https://training.galaxyproject.org/topics/metagenomics/tutorials/metagenomics-assembly/tutorial.html?utm_source=schedule&utm_medium=click&utm_campaign=video-library">Latest Version</a>
+				
+
+				
+                        
+                    </li>
+                
+                </ul>
+              </td>
+          </tr>
+          
+          <!-- this is for the embedded versions where they'll use their own1 support forum -->
+                    <tr>
+              <td><strong>Support:</strong></td>
+              <td>
+              <ul>
+                
+                
+                <li>Slack: <a href="https://gtnsmrgsbord.slack.com/archives/metagenomics_metagenomics-assembly">#metagenomics_metagenomics-assembly</a> <ul><li><a href="https://join.slack.com/t/gtnsmrgsbord/shared_invite/zt-x7vinbs1-BA~Kht6N86JBhDq0uTIVdQ">Slack Invite</a></li></ul></li>
+                <li><a href="https://gitter.im/Galaxy-Training-Network/Lobby">Gitter</a></li>
+                <li><a href="https://help.galaxyproject.org">Galaxy Help Forum</a></li>
+              </ul>
+              </td>
+          </tr>
+          
+          
+          <tr>
+              <td><strong>Learning Objectives:</strong></td>
+              <td>
+                  <ul>
+                      
+                      <li>Describe what an assembly is</li>
+                      
+                      <li>Describe what de-replication is</li>
+                      
+                      <li>Explain the difference between co-assembly and individual assembly</li>
+                      
+                      <li>Explain the difference between reads, contigs and scaffolds</li>
+                      
+                      <li>Explain how tools based on De Bruijn graph work</li>
+                      
+                      <li>Apply appropriate tools for analyzing the quality of metagenomic data</li>
+                      
+                      <li>Construct and apply simple assembly pipelines on short read data</li>
+                      
+                      <li>Apply appropriate tools for analyzing the quality of metagenomic assembly</li>
+                      
+                      <li>Evaluate the Quality of the Assembly with Quast, Bowtie2, and CoverM-Genome</li>
+                      
+                  </ul>
+              </td>
+          </tr>
+          
+          <!--
+          
+          
+          -->
+      </table>
+
+  </div>
+  
+  Go to the <a href="/video-library/videos/metagenomics/metagenomics-assembly/tutorial">video page</a> to see all versions.
+  
+ </div>
+ <!-- speaker(s) -->
+ 
+ 
+
+ <div class="col-md-3">
+  <center><h3 class="session-section">Speaker</h3></center>
+  
+
+
+
+
+
+
+
+<div class="hall-of-fame">
+    
+    
+    
+		<div class="hall-of-fame-hero" id="bebatut">
+			
+			<a href="/video-library/contributors/bebatut/">
+			
+            
+			<img src="https://avatars.githubusercontent.com/bebatut" alt="">
+            
+			<div class="name">
+				<b>Bérénice Batut</b>
+			</div>
+			
+			</a>
+			
+			<div class="affil">
+				
+				<a href="https://uni-freiburg.de/">
+					Albert-Ludwigs-Universität Freiburg
+				</a> & 
+				
+				<a href="https://gallantries.github.io">
+					The Gallantries Project
+				</a>
+				
+			</div>
+		</div>
+	
+    
+</div>
+
+ </div>
+
+
+</div><!-- end video session -->
+
+
+
+        
+
+      
+
+
+      <!-- Instructors -->
+      
+
+      <!-- Supporting Servers -->
+
+      <!-- Resources -->
+
+    </div><!-- end accordion body -->
+  </div><!-- end collapse -->
+</div><!-- end accordion item (training session) -->
+
+
+
+
+     
+  
+  </div>
+
+  
+  
+  
   <h3 class="module-start"> Long-read microbiome sequencing </h3>
   
   <p class="module-description"> 
@@ -626,12 +885,276 @@
   
   <div class="accordion-header" id="headingnanopore0">
    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapsenanopore0" aria-expanded="false" aria-controls="collapsenanopore0">
-        MinION Wetlab demo
+        Pathogen detection from (direct Nanopore) sequencing data using Galaxy - Foodborne Edition
         
    </button>
   </div>
 
   <div id="collapsenanopore0" class="accordion-collapse collapse " aria-labelledby="headingnanopore0" data-bs-parent="#accordionnanopore">
+
+    <div class="accordion-body">
+
+      <!-- Video -->
+      
+        
+           
+           <!-- session: {"description"=>"In this tutorial, we will be presenting a series of Galaxy workflows whose main goals are\n1) to agnostically detect pathogens (What exactly is this pathogen and what virulence\nfactors does it carry?) from data extracted directly (without prior cultivation) from a\npotentially contaminated sample (e.g. food like chicken, beef, etc.) and sequenced using\nNanopore, and 2) to compare different samples to trace the possible source of contamination\n", "materials"=>[{"link"=>"topics/metagenomics/tutorials/pathogen-detection-from-nanopore-foodborne-data/tutorial.thml", "type"=>"Tutorial"}], "tags"=>["metagenomics"], "versions"=>[{"link"=>"gQHb_jkj-Z0", "date"=>"2023-05-01", "galaxy_version"=>"23.01", "length"=>"1H45M", "speakers"=>["EngyNasr"], "captions"=>nil, "name"=>"Pathogen detection from (direct Nanopore) sequencing data using Galaxy - Foodborne Edition"}], "gtn_id"=>"metagenomics/pathogen-detection-from-nanopore-foodborne-data", "title"=>"Pathogen detection from (direct Nanopore) sequencing data using Galaxy - Foodborne Edition", "captioned"=>false, "name"=>"Pathogen detection from (direct Nanopore) sequencing data using Galaxy - Foodborne Edition"}<br><br> video: {"link"=>"gQHb_jkj-Z0", "date"=>"2023-05-01", "galaxy_version"=>"23.01", "length"=>"1H45M", "speakers"=>["EngyNasr"], "captions"=>nil, "name"=>"Pathogen detection from (direct Nanopore) sequencing data using Galaxy - Foodborne Edition"} -->
+
+
+
+
+
+
+<!-- determine the next archived version of tutorial -->
+
+
+
+
+<div class="flex-row">
+ <div class="col-md-8">
+  <h3 class="session-section"> Video   </h3>
+  <div style="position:relative;padding-top:56.25%;">
+   <iframe style="position:absolute;top:0;left:0;width:100%;height:100%;"
+    
+    data-src="https://www.youtube.com/embed/gQHb_jkj-Z0"
+    
+     class="lazyload"
+     loading="lazy"
+     frameborder="0"
+     title="YouTube Embedded Video of the Tutorial"
+     aria-label="YouTube Embedded Video of the Tutorial"
+     allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+     allowfullscreen>
+   </iframe>
+  </div>
+  <div style="margin-top:1em;" class="video-metadata">
+      <table>
+          
+          <tr>
+              <td><strong>Description:</strong></td>
+              <td><p>In this tutorial, we will be presenting a series of Galaxy workflows whose main goals are
+1) to agnostically detect pathogens (What exactly is this pathogen and what virulence
+factors does it carry?) from data extracted directly (without prior cultivation) from a
+potentially contaminated sample (e.g. food like chicken, beef, etc.) and sequenced using
+Nanopore, and 2) to compare different samples to trace the possible source of contamination</p>
+</td>
+          </tr>
+          
+          <tr>
+              <td><strong>Length:</strong></td>
+              <td>1 hour 45 minutes</td>
+          </tr>
+   
+   
+          <tr>
+              <td><strong>Captions:</strong></td>
+              <td><strong>No captions available for this video.</strong> We aim to have captions for all our videos, however sometimes videos get added without captions. Please contact us to indicate your desire to have captions added and we will ask the speakers to provide captions.</td>
+          </tr>
+   
+          
+          <tr>
+              <td><strong>Created:</strong></td>
+              <td>1 May 2023</td>
+          </tr>
+          
+          
+          
+          <tr>
+              <td><strong>Materials:</strong></td>
+              <td>
+                <ul class="plain-text-list">
+                    
+                    <li>
+                        
+                            <img style="height: 1em" src="/video-library/assets/fa/tutorial.svg" alt="assets/fa/tutorial.svg" aria-hidden="true"/>
+                            
+                        
+
+                        
+                        
+				Tutorial:
+
+				<a href="https://training.galaxyproject.org/archive/2023-05-01/topics/metagenomics/tutorials/pathogen-detection-from-nanopore-foodborne-data/tutorial.thml?utm_source=schedule&utm_medium=click&utm_campaign=video-library">Version in Video</a>
+				<!-- We allow overriding specific materials to their archival versions, hiding the "current" link. -->
+				
+				|
+				<a href="https://training.galaxyproject.org/topics/metagenomics/tutorials/pathogen-detection-from-nanopore-foodborne-data/tutorial.thml?utm_source=schedule&utm_medium=click&utm_campaign=video-library">Latest Version</a>
+				
+
+				
+				<br>
+				<img style="height: 1em" src="/video-library/assets/fa/circle-question-regular.svg" alt="assets/fa/circle-question-regular.svg" aria-hidden="true"/>
+				
+				<a href="https://training.galaxyproject.org/topics/metagenomics/tutorials/pathogen-detection-from-nanopore-foodborne-data/tutorial.thmlfaqs/?utm_source=schedule&utm_medium=click&utm_campaign=video-library">FAQs</a>
+				
+                        
+                    </li>
+                
+                </ul>
+              </td>
+          </tr>
+          
+          <!-- this is for the embedded versions where they'll use their own1 support forum -->
+                    <tr>
+              <td><strong>Support:</strong></td>
+              <td>
+              <ul>
+                
+                
+                <li>Slack: <a href="https://gtnsmrgsbord.slack.com/archives/metagenomics_pathogen-detection-from-nanopore-foodborne-data">#metagenomics_pathogen-detection-from-nanopore-foodborne-data</a> <ul><li><a href="https://join.slack.com/t/gtnsmrgsbord/shared_invite/zt-x7vinbs1-BA~Kht6N86JBhDq0uTIVdQ">Slack Invite</a></li></ul></li>
+                <li><a href="https://gitter.im/Galaxy-Training-Network/Lobby">Gitter</a></li>
+                <li><a href="https://help.galaxyproject.org">Galaxy Help Forum</a></li>
+              </ul>
+              </td>
+          </tr>
+          
+          
+          <tr>
+              <td><strong>Learning Objectives:</strong></td>
+              <td>
+                  <ul>
+                      
+                      <li>Check quality reports generated by FastQC and NanoPlot for metagenomics Nanopore data</li>
+                      
+                      <li>Preprocess the sequencing data to remove adapters, poor quality base content and host/contaminating reads</li>
+                      
+                      <li>Perform taxonomy profiling indicating and visualizing up to species level in the samples</li>
+                      
+                      <li>Identify pathogens based on the found virulence factor gene products via assembly, identify strains and indicate all antimicrobial resistance genes in samples</li>
+                      
+                      <li>Identify pathogens via SNP calling and build the consensus gemone of the samples</li>
+                      
+                      <li>Relate all samples' pathogenic genes for tracking pathogens via phylogenetic trees and heatmaps</li>
+                      
+                  </ul>
+              </td>
+          </tr>
+          
+          <!--
+          
+          
+          <tr>
+              <td><strong>Finished this tutorial as part of GTN Tapas?</strong></td>
+              <td>
+              <ol>
+                
+                
+                <li><a href="https://training.galaxyproject.org/training-material/faqs/galaxy/histories_sharing.html?utm_source=schedule&utm_medium=click&utm_campaign=video-library">Share your history</a> (if applicable)</li>
+                <li>Copy the URL</li>
+                <li>Run the command <code>/completed</code> with the URL to your shared history, in <a href="https://gtnsmrgsbord.slack.com/archives/metagenomics_pathogen-detection-from-nanopore-foodborne-data">#metagenomics_pathogen-detection-from-nanopore-foodborne-data</a></li>
+              </ol>
+              </td>
+          </tr>
+          
+          -->
+      </table>
+
+  </div>
+  
+  Go to the <a href="/video-library/videos/metagenomics/pathogen-detection-from-nanopore-foodborne-data/tutorial">video page</a> to see all versions.
+  
+ </div>
+ <!-- speaker(s) -->
+ 
+ 
+
+ <div class="col-md-3">
+  <center><h3 class="session-section">Speaker</h3></center>
+  
+
+
+
+
+
+
+
+<div class="hall-of-fame">
+    
+    
+    
+		<div class="hall-of-fame-hero" id="EngyNasr">
+			
+			<a href="/video-library/contributors/EngyNasr/">
+			
+            
+			<img src="https://avatars.githubusercontent.com/EngyNasr" alt="">
+            
+			<div class="name">
+				<b>Engy Nasr</b>
+			</div>
+			
+			</a>
+			
+			<div class="affil">
+				
+				<a href="https://uni-freiburg.de/">
+					Albert-Ludwigs-Universität Freiburg
+				</a> & 
+				
+				<a href="https://gallantries.github.io">
+					The Gallantries Project
+				</a>
+				
+			</div>
+		</div>
+	
+    
+</div>
+
+ </div>
+
+
+</div><!-- end video session -->
+
+
+
+        
+
+      
+
+
+      <!-- Instructors -->
+      
+
+      <!-- Supporting Servers -->
+
+      <!-- Resources -->
+
+    </div><!-- end accordion body -->
+  </div><!-- end collapse -->
+</div><!-- end accordion item (training session) -->
+
+
+
+
+     
+  
+     
+
+     
+       
+       
+
+
+
+
+
+
+
+
+
+
+
+<div class="accordion-item">
+  
+  <div class="accordion-header" id="headingnanopore1">
+   <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapsenanopore1" aria-expanded="false" aria-controls="collapsenanopore1">
+        MinION Wetlab demo
+        
+   </button>
+  </div>
+
+  <div id="collapsenanopore1" class="accordion-collapse collapse " aria-labelledby="headingnanopore1" data-bs-parent="#accordionnanopore">
 
     <div class="accordion-body">
 
@@ -811,14 +1334,14 @@
 
 <div class="accordion-item">
   
-  <div class="accordion-header" id="headingnanopore1">
-   <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapsenanopore1" aria-expanded="false" aria-controls="collapsenanopore1">
+  <div class="accordion-header" id="headingnanopore2">
+   <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapsenanopore2" aria-expanded="false" aria-controls="collapsenanopore2">
         Nanopore Whole Bacterial Genome Sequencing in a Clinical Setting
         
    </button>
   </div>
 
-  <div id="collapsenanopore1" class="accordion-collapse collapse " aria-labelledby="headingnanopore1" data-bs-parent="#accordionnanopore">
+  <div id="collapsenanopore2" class="accordion-collapse collapse " aria-labelledby="headingnanopore2" data-bs-parent="#accordionnanopore">
 
     <div class="accordion-body">
 
@@ -998,14 +1521,14 @@
 
 <div class="accordion-item">
   
-  <div class="accordion-header" id="headingnanopore2">
-   <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapsenanopore2" aria-expanded="false" aria-controls="collapsenanopore2">
+  <div class="accordion-header" id="headingnanopore3">
+   <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapsenanopore3" aria-expanded="false" aria-controls="collapsenanopore3">
         Antibiotic resistance detection
         
    </button>
   </div>
 
-  <div id="collapsenanopore2" class="accordion-collapse collapse " aria-labelledby="headingnanopore2" data-bs-parent="#accordionnanopore">
+  <div id="collapsenanopore3" class="accordion-collapse collapse " aria-labelledby="headingnanopore3" data-bs-parent="#accordionnanopore">
 
     <div class="accordion-body">
 
@@ -1214,6 +1737,601 @@
 				
 				<a href="https://erasmusmc.nl">
 					Erasmus Medical Center
+				</a>
+				
+			</div>
+		</div>
+	
+    
+</div>
+
+ </div>
+
+
+</div><!-- end video session -->
+
+
+
+        
+
+      
+
+
+      <!-- Instructors -->
+      
+
+      <!-- Supporting Servers -->
+
+      <!-- Resources -->
+
+    </div><!-- end accordion body -->
+  </div><!-- end collapse -->
+</div><!-- end accordion item (training session) -->
+
+
+
+
+     
+  
+  </div>
+
+  
+  
+  
+  <h3 class="module-start"> Transcriptomics & Proteomics </h3>
+  
+  <p class="module-description"> 
+ </p>
+  <div class="accordion" id="accordionother">
+  
+     
+
+     
+       
+       
+
+
+
+
+
+
+
+
+
+
+
+<div class="accordion-item">
+  
+  <div class="accordion-header" id="headingother0">
+   <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseother0" aria-expanded="false" aria-controls="collapseother0">
+        Metatranscriptomics analysis using microbiome RNA-seq data
+        
+   </button>
+  </div>
+
+  <div id="collapseother0" class="accordion-collapse collapse " aria-labelledby="headingother0" data-bs-parent="#accordionother">
+
+    <div class="accordion-body">
+
+      <!-- Video -->
+      
+        
+           
+           <!-- session: {"description"=>"Metatranscriptomics analysis examines how the microbiome responds to the environment by studying the taxonomic composition and functional analysis of genes expressed by the microbiome, using microbial community RNASeq data and subsequent metatranscriptomics workflows. This workshop will introduce researchers to the basic concepts and tools from the ASaiM-MT workflow. ASaiM-MT provides a curated collection of tools to explore and visualize taxonomic and functional information from metatranscriptomic sequences.", "materials"=>[{"external"=>true, "link"=>"https://drive.google.com/file/d/11TOrL7Kxgel71AT1rBc4DqjaUh3QB2G_/view?usp=sharing", "type"=>"Slides from video"}, {"link"=>"topics/metagenomics/tutorials/metatranscriptomics/slides.html", "title"=>"Introduction to Metatranscriptomics", "type"=>"Related Slides"}, {"link"=>"topics/metagenomics/tutorials/metatranscriptomics/tutorial.html", "type"=>"Tutorial"}], "tags"=>["metagenomics"], "type"=>"Tutorial", "versions"=>[{"captions"=>["EngyNasr", "shiltemann"], "date"=>"2021-02-15", "galaxy_version"=>"21.01", "length"=>"1H30M", "link"=>"EMaos5u1_a8", "speakers"=>["pratikdjagtap", "timothygriffin", "subinamehta", "shiltemann"], "name"=>"Metatranscriptomics analysis using microbiome RNA-seq data"}], "gtn_id"=>"metagenomics/metatranscriptomics", "title"=>"Metatranscriptomics analysis using microbiome RNA-seq data", "captioned"=>true, "name"=>"Metatranscriptomics analysis using microbiome RNA-seq data"}<br><br> video: {"captions"=>["EngyNasr", "shiltemann"], "date"=>"2021-02-15", "galaxy_version"=>"21.01", "length"=>"1H30M", "link"=>"EMaos5u1_a8", "speakers"=>["pratikdjagtap", "timothygriffin", "subinamehta", "shiltemann"], "name"=>"Metatranscriptomics analysis using microbiome RNA-seq data"} -->
+
+
+
+
+
+
+<!-- determine the next archived version of tutorial -->
+
+
+
+
+<div class="flex-row">
+ <div class="col-md-8">
+  <h3 class="session-section">Tutorial Video   </h3>
+  <div style="position:relative;padding-top:56.25%;">
+   <iframe style="position:absolute;top:0;left:0;width:100%;height:100%;"
+    
+    data-src="https://www.youtube.com/embed/EMaos5u1_a8"
+    
+     class="lazyload"
+     loading="lazy"
+     frameborder="0"
+     title="YouTube Embedded Video of the Tutorial"
+     aria-label="YouTube Embedded Video of the Tutorial"
+     allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+     allowfullscreen>
+   </iframe>
+  </div>
+  <div style="margin-top:1em;" class="video-metadata">
+      <table>
+          
+          <tr>
+              <td><strong>Description:</strong></td>
+              <td><p>Metatranscriptomics analysis examines how the microbiome responds to the environment by studying the taxonomic composition and functional analysis of genes expressed by the microbiome, using microbial community RNASeq data and subsequent metatranscriptomics workflows. This workshop will introduce researchers to the basic concepts and tools from the ASaiM-MT workflow. ASaiM-MT provides a curated collection of tools to explore and visualize taxonomic and functional information from metatranscriptomic sequences.</p>
+</td>
+          </tr>
+          
+          <tr>
+              <td><strong>Length:</strong></td>
+              <td>1 hour 30 minutes</td>
+          </tr>
+   
+   
+          <tr>
+              <td><strong>Captions:</strong></td>
+              <td> <a href="/video-library/contributors/EngyNasr/">Engy Nasr</a>,  <a href="/video-library/contributors/shiltemann/">Saskia Hiltemann</a></td>
+          </tr>
+   
+          
+          <tr>
+              <td><strong>Created:</strong></td>
+              <td>15 February 2021</td>
+          </tr>
+          
+          
+          
+          <tr>
+              <td><strong>Materials:</strong></td>
+              <td>
+                <ul class="plain-text-list">
+                    
+                    <li>
+                        
+
+                        
+                        
+				<a href="https://drive.google.com/file/d/11TOrL7Kxgel71AT1rBc4DqjaUh3QB2G_/view?usp=sharing?utm_source=schedule&utm_medium=click&utm_campaign=video-library">Slides from video</a>
+                        
+                    </li>
+                
+                    <li>
+                        
+
+                        
+                        
+				Related Slides:
+
+				<a href="https://training.galaxyproject.org/archive/2021-02-01/topics/metagenomics/tutorials/metatranscriptomics/slides.html?utm_source=schedule&utm_medium=click&utm_campaign=video-library">Version in Video</a>
+				<!-- We allow overriding specific materials to their archival versions, hiding the "current" link. -->
+				
+				|
+				<a href="https://training.galaxyproject.org/topics/metagenomics/tutorials/metatranscriptomics/slides.html?utm_source=schedule&utm_medium=click&utm_campaign=video-library">Latest Version</a>
+				
+
+				
+                        
+                    </li>
+                
+                    <li>
+                        
+                            <img style="height: 1em" src="/video-library/assets/fa/tutorial.svg" alt="assets/fa/tutorial.svg" aria-hidden="true"/>
+                            
+                        
+
+                        
+                        
+				Tutorial:
+
+				<a href="https://training.galaxyproject.org/archive/2021-02-01/topics/metagenomics/tutorials/metatranscriptomics/tutorial.html?utm_source=schedule&utm_medium=click&utm_campaign=video-library">Version in Video</a>
+				<!-- We allow overriding specific materials to their archival versions, hiding the "current" link. -->
+				
+				|
+				<a href="https://training.galaxyproject.org/topics/metagenomics/tutorials/metatranscriptomics/tutorial.html?utm_source=schedule&utm_medium=click&utm_campaign=video-library">Latest Version</a>
+				
+
+				
+				<br>
+				<img style="height: 1em" src="/video-library/assets/fa/circle-question-regular.svg" alt="assets/fa/circle-question-regular.svg" aria-hidden="true"/>
+				
+				<a href="https://training.galaxyproject.org/topics/metagenomics/tutorials/metatranscriptomics/faqs/?utm_source=schedule&utm_medium=click&utm_campaign=video-library">FAQs</a>
+				
+                        
+                    </li>
+                
+                </ul>
+              </td>
+          </tr>
+          
+          <!-- this is for the embedded versions where they'll use their own1 support forum -->
+                    <tr>
+              <td><strong>Support:</strong></td>
+              <td>
+              <ul>
+                
+                
+                <li>Slack: <a href="https://gtnsmrgsbord.slack.com/archives/metagenomics_metatranscriptomics">#metagenomics_metatranscriptomics</a> <ul><li><a href="https://join.slack.com/t/gtnsmrgsbord/shared_invite/zt-x7vinbs1-BA~Kht6N86JBhDq0uTIVdQ">Slack Invite</a></li></ul></li>
+                <li><a href="https://gitter.im/Galaxy-Training-Network/Lobby">Gitter</a></li>
+                <li><a href="https://help.galaxyproject.org">Galaxy Help Forum</a></li>
+              </ul>
+              </td>
+          </tr>
+          
+          
+          <!--
+          
+          
+          <tr>
+              <td><strong>Finished this tutorial as part of GTN Tapas?</strong></td>
+              <td>
+              <ol>
+                
+                
+                <li><a href="https://training.galaxyproject.org/training-material/faqs/galaxy/histories_sharing.html?utm_source=schedule&utm_medium=click&utm_campaign=video-library">Share your history</a> (if applicable)</li>
+                <li>Copy the URL</li>
+                <li>Run the command <code>/completed</code> with the URL to your shared history, in <a href="https://gtnsmrgsbord.slack.com/archives/metagenomics_metatranscriptomics">#metagenomics_metatranscriptomics</a></li>
+              </ol>
+              </td>
+          </tr>
+          
+          -->
+      </table>
+
+  </div>
+  
+  Go to the <a href="/video-library/videos/metagenomics/metatranscriptomics">video page</a> to see all versions.
+  
+ </div>
+ <!-- speaker(s) -->
+ 
+ 
+
+ <div class="col-md-3">
+  <center><h3 class="session-section">Speakers</h3></center>
+  
+
+
+
+
+
+
+
+<div class="hall-of-fame">
+    
+    
+    
+		<div class="hall-of-fame-hero" id="pratikdjagtap">
+			
+			<a href="/video-library/contributors/pratikdjagtap/">
+			
+            
+			<img src="https://avatars.githubusercontent.com/pratikdjagtap" alt="">
+            
+			<div class="name">
+				<b>Pratik Jagtap</b>
+			</div>
+			
+			</a>
+			
+			<div class="affil">
+				
+				<a href="https://twin-cities.umn.edu/">
+					University of Minnesota
+				</a>
+				
+			</div>
+		</div>
+	
+    
+    
+		<div class="hall-of-fame-hero" id="timothygriffin">
+			
+			<a href="/video-library/contributors/timothygriffin/">
+			
+            
+			<img src="https://avatars.githubusercontent.com/timothygriffin" alt="">
+            
+			<div class="name">
+				<b>Timothy J. Griffin</b>
+			</div>
+			
+			</a>
+			
+			<div class="affil">
+				
+				<a href="https://twin-cities.umn.edu/">
+					University of Minnesota
+				</a>
+				
+			</div>
+		</div>
+	
+    
+    
+		<div class="hall-of-fame-hero" id="subinamehta">
+			
+			<a href="/video-library/contributors/subinamehta/">
+			
+            
+			<img src="https://avatars.githubusercontent.com/subinamehta" alt="">
+            
+			<div class="name">
+				<b>Subina Mehta</b>
+			</div>
+			
+			</a>
+			
+			<div class="affil">
+				
+				<a href="https://twin-cities.umn.edu/">
+					University of Minnesota
+				</a>
+				
+			</div>
+		</div>
+	
+    
+    
+		<div class="hall-of-fame-hero" id="shiltemann">
+			
+			<a href="/video-library/contributors/shiltemann/">
+			
+            
+			<img src="https://avatars.githubusercontent.com/shiltemann" alt="">
+            
+			<div class="name">
+				<b>Saskia Hiltemann</b>
+			</div>
+			
+			</a>
+			
+			<div class="affil">
+				
+				<a href="https://erasmusmc.nl">
+					Erasmus Medical Center
+				</a> & 
+				
+				<a href="https://gallantries.github.io">
+					The Gallantries Project
+				</a>
+				
+			</div>
+		</div>
+	
+    
+</div>
+
+ </div>
+
+
+</div><!-- end video session -->
+
+
+
+        
+
+      
+
+
+      <!-- Instructors -->
+      
+
+      <!-- Supporting Servers -->
+
+      <!-- Resources -->
+
+    </div><!-- end accordion body -->
+  </div><!-- end collapse -->
+</div><!-- end accordion item (training session) -->
+
+
+
+
+     
+  
+     
+
+     
+       
+       
+
+
+
+
+
+
+
+
+
+
+
+<div class="accordion-item">
+  
+  <div class="accordion-header" id="headingother1">
+   <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseother1" aria-expanded="false" aria-controls="collapseother1">
+        Metaproteomics tutorial
+        
+   </button>
+  </div>
+
+  <div id="collapseother1" class="accordion-collapse collapse " aria-labelledby="headingother1" data-bs-parent="#accordionother">
+
+    <div class="accordion-body">
+
+      <!-- Video -->
+      
+        
+           
+           <!-- session: {"description"=>"In this tutorial, the basic workflow for metaproteomics is described, which includes database search, seeking taxonomy information and functional analysis. Related metaproteomics and functional microbiome tools and GTN tutorials are also mentioned in this tutorial.", "materials"=>[{"link"=>"topics/proteomics/tutorials/metaproteomics/tutorial.html", "type"=>"Tutorial"}], "tags"=>["proteomics"], "type"=>"Demo", "versions"=>[{"captions"=>["emmaleith"], "date"=>"2021-02-15", "galaxy_version"=>"21.01", "length"=>"1H", "link"=>"3_yaPp-RCFw", "speakers"=>["pratikdjagtap"], "name"=>"Metaproteomics tutorial"}], "gtn_id"=>"proteomics/metaproteomics", "title"=>"Metaproteomics tutorial", "captioned"=>true, "name"=>"Metaproteomics tutorial"}<br><br> video: {"captions"=>["emmaleith"], "date"=>"2021-02-15", "galaxy_version"=>"21.01", "length"=>"1H", "link"=>"3_yaPp-RCFw", "speakers"=>["pratikdjagtap"], "name"=>"Metaproteomics tutorial"} -->
+
+
+
+
+
+
+<!-- determine the next archived version of tutorial -->
+
+
+
+
+<div class="flex-row">
+ <div class="col-md-8">
+  <h3 class="session-section">Demo Video   </h3>
+  <div style="position:relative;padding-top:56.25%;">
+   <iframe style="position:absolute;top:0;left:0;width:100%;height:100%;"
+    
+    data-src="https://www.youtube.com/embed/3_yaPp-RCFw"
+    
+     class="lazyload"
+     loading="lazy"
+     frameborder="0"
+     title="YouTube Embedded Video of the Tutorial"
+     aria-label="YouTube Embedded Video of the Tutorial"
+     allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+     allowfullscreen>
+   </iframe>
+  </div>
+  <div style="margin-top:1em;" class="video-metadata">
+      <table>
+          
+          <tr>
+              <td><strong>Description:</strong></td>
+              <td><p>In this tutorial, the basic workflow for metaproteomics is described, which includes database search, seeking taxonomy information and functional analysis. Related metaproteomics and functional microbiome tools and GTN tutorials are also mentioned in this tutorial.</p>
+</td>
+          </tr>
+          
+          <tr>
+              <td><strong>Length:</strong></td>
+              <td>1 hour</td>
+          </tr>
+   
+   
+          <tr>
+              <td><strong>Captions:</strong></td>
+              <td> <a href="/video-library/contributors/emmaleith/">Emma Leith</a></td>
+          </tr>
+   
+          
+          <tr>
+              <td><strong>Created:</strong></td>
+              <td>15 February 2021</td>
+          </tr>
+          
+          
+          
+          <tr>
+              <td><strong>Materials:</strong></td>
+              <td>
+                <ul class="plain-text-list">
+                    
+                    <li>
+                        
+                            <img style="height: 1em" src="/video-library/assets/fa/tutorial.svg" alt="assets/fa/tutorial.svg" aria-hidden="true"/>
+                            
+                        
+
+                        
+                        
+				Tutorial:
+
+				<a href="https://training.galaxyproject.org/archive/2021-02-01/topics/proteomics/tutorials/metaproteomics/tutorial.html?utm_source=schedule&utm_medium=click&utm_campaign=video-library">Version in Video</a>
+				<!-- We allow overriding specific materials to their archival versions, hiding the "current" link. -->
+				
+				|
+				<a href="https://training.galaxyproject.org/topics/proteomics/tutorials/metaproteomics/tutorial.html?utm_source=schedule&utm_medium=click&utm_campaign=video-library">Latest Version</a>
+				
+
+				
+				<br>
+				<img style="height: 1em" src="/video-library/assets/fa/circle-question-regular.svg" alt="assets/fa/circle-question-regular.svg" aria-hidden="true"/>
+				
+				<a href="https://training.galaxyproject.org/topics/proteomics/tutorials/metaproteomics/faqs/?utm_source=schedule&utm_medium=click&utm_campaign=video-library">FAQs</a>
+				
+                        
+                    </li>
+                
+                </ul>
+              </td>
+          </tr>
+          
+          <!-- this is for the embedded versions where they'll use their own1 support forum -->
+                    <tr>
+              <td><strong>Support:</strong></td>
+              <td>
+              <ul>
+                
+                
+                <li>Slack: <a href="https://gtnsmrgsbord.slack.com/archives/proteomics_metaproteomics">#proteomics_metaproteomics</a> <ul><li><a href="https://join.slack.com/t/gtnsmrgsbord/shared_invite/zt-x7vinbs1-BA~Kht6N86JBhDq0uTIVdQ">Slack Invite</a></li></ul></li>
+                <li><a href="https://gitter.im/Galaxy-Training-Network/Lobby">Gitter</a></li>
+                <li><a href="https://help.galaxyproject.org">Galaxy Help Forum</a></li>
+              </ul>
+              </td>
+          </tr>
+          
+          
+          <tr>
+              <td><strong>Learning Objectives:</strong></td>
+              <td>
+                  <ul>
+                      
+                      <li>A taxonomy and functional analysis of metaproteomic mass spectrometry data.</li>
+                      
+                  </ul>
+              </td>
+          </tr>
+          
+          <!--
+          
+          
+          <tr>
+              <td><strong>Finished this tutorial as part of GTN Tapas?</strong></td>
+              <td>
+              <ol>
+                
+                
+                <li><a href="https://training.galaxyproject.org/training-material/faqs/galaxy/histories_sharing.html?utm_source=schedule&utm_medium=click&utm_campaign=video-library">Share your history</a> (if applicable)</li>
+                <li>Copy the URL</li>
+                <li>Run the command <code>/completed</code> with the URL to your shared history, in <a href="https://gtnsmrgsbord.slack.com/archives/proteomics_metaproteomics">#proteomics_metaproteomics</a></li>
+              </ol>
+              </td>
+          </tr>
+          
+          -->
+      </table>
+
+  </div>
+  
+  Go to the <a href="/video-library/videos/proteomics/metaproteomics/tutorial">video page</a> to see all versions.
+  
+ </div>
+ <!-- speaker(s) -->
+ 
+ 
+
+ <div class="col-md-3">
+  <center><h3 class="session-section">Speaker</h3></center>
+  
+
+
+
+
+
+
+
+<div class="hall-of-fame">
+    
+    
+    
+		<div class="hall-of-fame-hero" id="pratikdjagtap">
+			
+			<a href="/video-library/contributors/pratikdjagtap/">
+			
+            
+			<img src="https://avatars.githubusercontent.com/pratikdjagtap" alt="">
+            
+			<div class="name">
+				<b>Pratik Jagtap</b>
+			</div>
+			
+			</a>
+			
+			<div class="affil">
+				
+				<a href="https://twin-cities.umn.edu/">
+					University of Minnesota
 				</a>
 				
 			</div>
