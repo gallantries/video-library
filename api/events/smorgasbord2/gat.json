@@ -128,7 +128,7 @@
           "video": "admin/tus/tutorial"
         },
         {
-          "video": "admin/singularity/tutorial"
+          "video": "admin/apptainer/tutorial"
         },
         {
           "session": "admin/tool-management"

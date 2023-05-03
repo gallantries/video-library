@@ -4000,7 +4000,7 @@ add a button, include configuration options:
   
   <div class="accordion-header" id="headingadmin17">
    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseadmin17" aria-expanded="false" aria-controls="collapseadmin17">
-        admin/singularity/tutorial
+        Use Apptainer containers for running Galaxy jobs
          (Tutorial) 
    </button>
   </div>
@@ -4013,7 +4013,7 @@ add a button, include configuration options:
       
         
            
-           <!-- session: {"description"=>"Running jobs in Singularity", "materials"=>[{"link"=>"topics/admin/tutorials/singularity/tutorial.html", "type"=>"Tutorial"}], "tags"=>["admin"], "type"=>"Tutorial", "versions"=>[{"captions"=>["gallardoalba", "slugger70"], "date"=>"2021-06-28", "galaxy_version"=>"21.05", "length"=>"43M", "link"=>"q6Dt7j713tI", "speakers"=>["slugger70"], "name"=>"admin/singularity"}, {"captions"=>["hexylena", "cat-bro"], "date"=>"2021-02-15", "galaxy_version"=>"21.01", "length"=>"16M", "link"=>"airzg4-ETEs", "speakers"=>["hexylena"], "name"=>"admin/singularity"}], "gtn_id"=>"admin/singularity", "title"=>"admin/singularity/tutorial", "captioned"=>true, "name"=>"admin/singularity"}<br><br> video: {"captions"=>["gallardoalba", "slugger70"], "date"=>"2021-06-28", "galaxy_version"=>"21.05", "length"=>"43M", "link"=>"q6Dt7j713tI", "speakers"=>["slugger70"], "name"=>"admin/singularity"} -->
+           <!-- session: {"description"=>"Running jobs in Apptainer", "materials"=>[{"link"=>"topics/admin/tutorials/apptainer/tutorial.html", "type"=>"Tutorial"}], "tags"=>["admin"], "type"=>"Tutorial", "versions"=>[{"captions"=>["gallardoalba", "slugger70"], "date"=>"2021-06-28", "galaxy_version"=>"21.05", "length"=>"43M", "link"=>"q6Dt7j713tI", "speakers"=>["slugger70"], "name"=>"Use Apptainer containers for running Galaxy jobs"}, {"captions"=>["hexylena", "cat-bro"], "date"=>"2021-02-15", "galaxy_version"=>"21.01", "length"=>"16M", "link"=>"airzg4-ETEs", "speakers"=>["hexylena"], "name"=>"Use Apptainer containers for running Galaxy jobs"}], "gtn_id"=>"admin/apptainer", "title"=>"Use Apptainer containers for running Galaxy jobs", "captioned"=>true, "name"=>"Use Apptainer containers for running Galaxy jobs"}<br><br> video: {"captions"=>["gallardoalba", "slugger70"], "date"=>"2021-06-28", "galaxy_version"=>"21.05", "length"=>"43M", "link"=>"q6Dt7j713tI", "speakers"=>["slugger70"], "name"=>"Use Apptainer containers for running Galaxy jobs"} -->
 
 
 
@@ -4037,7 +4037,7 @@ add a button, include configuration options:
           
           <tr>
               <td><strong>Description:</strong></td>
-              <td><p>Running jobs in Singularity</p>
+              <td><p>Running jobs in Apptainer</p>
 </td>
           </tr>
           
@@ -4075,18 +4075,18 @@ add a button, include configuration options:
                         
 				Tutorial:
 
-				<a href="https://training.galaxyproject.org/archive/2021-06-01/topics/admin/tutorials/singularity/tutorial.html?utm_source=schedule&amp;utm_medium=click&amp;utm_campaign=video-library">Version in Video</a>
+				<a href="https://training.galaxyproject.org/archive/2021-06-01/topics/admin/tutorials/apptainer/tutorial.html?utm_source=schedule&amp;utm_medium=click&amp;utm_campaign=video-library">Version in Video</a>
 				<!-- We allow overriding specific materials to their archival versions, hiding the "current" link. -->
 				
 				|
-				<a href="https://training.galaxyproject.org/topics/admin/tutorials/singularity/tutorial.html?utm_source=schedule&amp;utm_medium=click&amp;utm_campaign=video-library">Latest Version</a>
+				<a href="https://training.galaxyproject.org/topics/admin/tutorials/apptainer/tutorial.html?utm_source=schedule&amp;utm_medium=click&amp;utm_campaign=video-library">Latest Version</a>
 				
 
 				
 				<br />
 				<img style="height: 1em" src="/video-library/assets/fa/circle-question-regular.svg" alt="assets/fa/circle-question-regular.svg" aria-hidden="true" />
 				
-				<a href="https://training.galaxyproject.org/topics/admin/tutorials/singularity/faqs/?utm_source=schedule&amp;utm_medium=click&amp;utm_campaign=video-library">FAQs</a>
+				<a href="https://training.galaxyproject.org/topics/admin/tutorials/apptainer/faqs/?utm_source=schedule&amp;utm_medium=click&amp;utm_campaign=video-library">FAQs</a>
 				
                         
                     </li>
@@ -4102,13 +4102,24 @@ add a button, include configuration options:
               <ul>
                 
                 
-                <li>Slack: <a href="https://gtnsmrgsbord.slack.com/archives/admin_singularity">#admin_singularity</a> <ul><li><a href="https://join.slack.com/t/gtnsmrgsbord/shared_invite/zt-x7vinbs1-BA~Kht6N86JBhDq0uTIVdQ">Slack Invite</a></li></ul></li>
+                <li>Slack: <a href="https://gtnsmrgsbord.slack.com/archives/admin_apptainer">#admin_apptainer</a> <ul><li><a href="https://join.slack.com/t/gtnsmrgsbord/shared_invite/zt-x7vinbs1-BA~Kht6N86JBhDq0uTIVdQ">Slack Invite</a></li></ul></li>
                 <li><a href="https://gitter.im/Galaxy-Training-Network/Lobby">Gitter</a></li>
                 <li><a href="https://help.galaxyproject.org">Galaxy Help Forum</a></li>
               </ul>
               </td>
           </tr>
           
+          
+          <tr>
+              <td><strong>Learning Objectives:</strong></td>
+              <td>
+                  <ul>
+                      
+                      <li>Configure your Galaxy to use Apptainer and BioContainers for running jobs</li>
+                      
+                  </ul>
+              </td>
+          </tr>
           
           <!--
           
@@ -4121,7 +4132,7 @@ add a button, include configuration options:
                 
                 <li><a href="https://training.galaxyproject.org/training-material/faqs/galaxy/histories_sharing.html?utm_source=schedule&utm_medium=click&utm_campaign=video-library">Share your history</a> (if applicable)</li>
                 <li>Copy the URL</li>
-                <li>Run the command <code>/completed</code> with the URL to your shared history, in <a href="https://gtnsmrgsbord.slack.com/archives/admin_singularity">#admin_singularity</a></li>
+                <li>Run the command <code>/completed</code> with the URL to your shared history, in <a href="https://gtnsmrgsbord.slack.com/archives/admin_apptainer">#admin_apptainer</a></li>
               </ol>
               </td>
           </tr>
@@ -4131,7 +4142,7 @@ add a button, include configuration options:
 
   </div>
   
-  Go to the <a href="/video-library/videos/admin/singularity/tutorial">video page</a> to see all versions.
+  Go to the <a href="/video-library/videos/admin/apptainer/tutorial">video page</a> to see all versions.
   
  </div>
  <!-- speaker(s) -->

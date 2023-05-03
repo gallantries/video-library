@@ -586,11 +586,11 @@
         "title": "Running Jobs on Remote Resources with Pulsar",
         "captioned": true
       },
-      "admin/singularity/tutorial": {
-        "description": "Running jobs in Singularity",
+      "admin/apptainer/tutorial": {
+        "description": "Running jobs in Apptainer",
         "materials": [
           {
-            "link": "topics/admin/tutorials/singularity/tutorial.html",
+            "link": "topics/admin/tutorials/apptainer/tutorial.html",
             "type": "Tutorial"
           }
         ],
@@ -626,8 +626,8 @@
             ]
           }
         ],
-        "gtn_id": "admin/singularity",
-        "title": "admin/singularity/tutorial",
+        "gtn_id": "admin/apptainer",
+        "title": "Use Apptainer containers for running Galaxy jobs",
         "captioned": true
       },
       "admin/tiaas/tutorial": {
