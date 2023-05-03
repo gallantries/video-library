@@ -35,6 +35,7 @@ I'm interested in…
 I'm interested in…
 
 <div markdown=0>
+{% include module_button.html link="public-health" colour="blue" label="Public Health Data analysis" buttonsize="large" %}
 {% include module_button.html link="covid-analysis" colour="orange" label="SARS-CoV-2 Data analysis" buttonsize="large" %}
 {% include module_button.html link="plants" colour="yellow" label="Plant Analysis" buttonsize="large" %}
 {% include module_button.html link="microbial" colour="green" label="Microbial Analysis" buttonsize="large" %}
