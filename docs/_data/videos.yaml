@@ -2168,6 +2168,9 @@ metagenomics/metagenomics-assembly/tutorial:
     To do that, we will use data from the study: Temporal shotgun metagenomic dissection of the coffee fermentation ecosystem.
     For an in-depth analysis of the structure and functions of the coffee microbiome, a temporal shotgun metagenomic study
     (six time points) was performed. The six samples have been sequenced with Illumina MiSeq utilizing whole genome sequencing.
+  tags:
+  - metagenomics
+  - assembly
   materials:
   - link: topics/metagenomics/tutorials/metagenomics-assembly/tutorial.html
     type: tutorial
@@ -3026,14 +3029,17 @@ single-cell/scrna-case_cell-cycle/tutorial:
   materials:
   - link: topics/single-cell/tutorials/scrna-case_cell-cycle/tutorial.html
     type: Tutorial
-  versions:
-  - link:
-    date: '2042-4-2'
-    galaxy_version: '23.01'
-    length: 42H42M
-    speakers:
-    - MarisaJL
-    captions:
+  tags:
+    - single-cell
+    - transcriptomics
+  versions: []
+    #- link:
+    #  date: '2042-4-2'
+    #  galaxy_version: '23.01'
+    #  length: 42H42M
+    #  speakers:
+    #  - MarisaJL
+    #  captions:
 
 transcriptomics/introduction/slides:
   description: RNA sequencing is used to assess the expression levels of genes. This
