@@ -2,7 +2,7 @@
 <html lang="en"><head>
   <meta charset="utf-8">
   
-  <title>GTN Video: Bulk RNA Deconvolution with MuSiC</title>
+  <title>GTN Video: Removing the effects of the cell cycle</title>
   
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -19,26 +19,40 @@
   <link rel="stylesheet" href="/video-library/assets/main.css">
 
   <!-- updates for previews on social media etc -->
-  <meta name="description" content="Bulk RNA-seq data contains a mixture of transcript signatures from
-several types of cells. We wish to deconvolve this mixture to obtain
-estimates of the proportions of cell types within the bulk sample. To
-do this, we can use single cell RNA-seq data as a reference for
-estimating the cell type proportions within the bulk data.
+  <meta name="description" content="Single-cell RNA sequencing can be sensitive to both biological and technical variation,   i
+which is why preparing your data carefully is an important part of the analysis. You want
+the results to reflect the interesting differences in expression between cells that relate
+to their type or state. Other sources of variation can conceal or confound this, making it
+harder for you to see what is going on.
 
-In this tutorial, we will use bulk and single-cell RNA-seq data, including
-matrices of similar tissues from different sources, to illustrate how to infer
-cell type abundances from bulk RNA-seq.
+One common biological confounder is the cell cycle. Cells express
+different genes during different parts of the cell cycle, depending on whether they are in
+their growing phase (G1), duplicating their DNA (the S or Synthesis phase), or dividing in
+two (G2/M or Mitosis phase). If these cell cycle genes are having a big impact on your
+data, then you could end up with separate clusters that actually represent cells of the
+same type that are just at different stages of the cycle.
+
+In this tutorial, we will identify the genes whose expression is known to vary during the
+cell cycle so that we can use them to regress out (or remove) the effects of the cell cycle
+on the clustering.
 " />
-  <meta property="og:title" content="GTN Video: Bulk RNA Deconvolution with MuSiC" />
-  <meta property="og:description" content="Bulk RNA-seq data contains a mixture of transcript signatures from
-several types of cells. We wish to deconvolve this mixture to obtain
-estimates of the proportions of cell types within the bulk sample. To
-do this, we can use single cell RNA-seq data as a reference for
-estimating the cell type proportions within the bulk data.
+  <meta property="og:title" content="GTN Video: Removing the effects of the cell cycle" />
+  <meta property="og:description" content="Single-cell RNA sequencing can be sensitive to both biological and technical variation,   i
+which is why preparing your data carefully is an important part of the analysis. You want
+the results to reflect the interesting differences in expression between cells that relate
+to their type or state. Other sources of variation can conceal or confound this, making it
+harder for you to see what is going on.
 
-In this tutorial, we will use bulk and single-cell RNA-seq data, including
-matrices of similar tissues from different sources, to illustrate how to infer
-cell type abundances from bulk RNA-seq.
+One common biological confounder is the cell cycle. Cells express
+different genes during different parts of the cell cycle, depending on whether they are in
+their growing phase (G1), duplicating their DNA (the S or Synthesis phase), or dividing in
+two (G2/M or Mitosis phase). If these cell cycle genes are having a big impact on your
+data, then you could end up with separate clusters that actually represent cells of the
+same type that are just at different stages of the cycle.
+
+In this tutorial, we will identify the genes whose expression is known to vary during the
+cell cycle so that we can use them to regress out (or remove) the effects of the cell cycle
+on the clustering.
 " />
   <meta property="og:image" content="/video-library/assets/images/video_cover.png" />
 
@@ -111,7 +125,7 @@ cell type abundances from bulk RNA-seq.
 	<img style="height: 1em" src="/video-library/assets/fa/exclamation-triangle.svg" alt="assets/fa/exclamation-triangle.svg" aria-hidden="true"/><strong>Warning: </strong> Please be aware that these videos are a snapshot, and as such <strong>may use an outdated version</strong> of the tutorial and/or Galaxy. Below the video you will find links to the tutorials as they appeared at the time of recording.
 </div>
 
-<h2> Bulk RNA Deconvolution with MuSiC </h2>
+<h2> Removing the effects of the cell cycle </h2>
 
 Below are video tutorials for this GTN material, created for various (past) events.
 
@@ -121,7 +135,7 @@ Below are video tutorials for this GTN material, created for various (past) even
 
 
 
-<!-- session: <br><br> video: {"captions"=>["mtekman", "nomadscientist"], "date"=>"2021-03-08", "galaxy_version"=>"21.09", "length"=>"20M", "link"=>"nfAUXP3W-jM", "speakers"=>["nomadscientist"], "name"=>"Bulk RNA Deconvolution with MuSiC"} -->
+<!-- session: <br><br> video: {"link"=>nil, "date"=>"2042-4-2", "galaxy_version"=>"23.01", "length"=>"42H42M", "speakers"=>["MarisaJL"], "captions"=>nil} -->
 
 
 
@@ -135,11 +149,11 @@ Below are video tutorials for this GTN material, created for various (past) even
 
 <div class="flex-row">
  <div class="col-md-8">
-  <h3 class="session-section">Tutorial Video   (March 2021)  </h3>
+  <h3 class="session-section"> Video   (April 2042)  </h3>
   <div style="position:relative;padding-top:56.25%;">
    <iframe style="position:absolute;top:0;left:0;width:100%;height:100%;"
     
-    data-src="https://www.youtube.com/embed/nfAUXP3W-jM"
+    data-src="https://www.youtube.com/embed/"
     
      class="lazyload"
      loading="lazy"
@@ -155,33 +169,40 @@ Below are video tutorials for this GTN material, created for various (past) even
           
           <tr>
               <td><strong>Description:</strong></td>
-              <td><p>Bulk RNA-seq data contains a mixture of transcript signatures from
-several types of cells. We wish to deconvolve this mixture to obtain
-estimates of the proportions of cell types within the bulk sample. To
-do this, we can use single cell RNA-seq data as a reference for
-estimating the cell type proportions within the bulk data.</p>
+              <td><p>Single-cell RNA sequencing can be sensitive to both biological and technical variation,   i
+which is why preparing your data carefully is an important part of the analysis. You want
+the results to reflect the interesting differences in expression between cells that relate
+to their type or state. Other sources of variation can conceal or confound this, making it
+harder for you to see what is going on.</p>
 
-<p>In this tutorial, we will use bulk and single-cell RNA-seq data, including
-matrices of similar tissues from different sources, to illustrate how to infer
-cell type abundances from bulk RNA-seq.</p>
+<p>One common biological confounder is the cell cycle. Cells express
+different genes during different parts of the cell cycle, depending on whether they are in
+their growing phase (G1), duplicating their DNA (the S or Synthesis phase), or dividing in
+two (G2/M or Mitosis phase). If these cell cycle genes are having a big impact on your
+data, then you could end up with separate clusters that actually represent cells of the
+same type that are just at different stages of the cycle.</p>
+
+<p>In this tutorial, we will identify the genes whose expression is known to vary during the
+cell cycle so that we can use them to regress out (or remove) the effects of the cell cycle
+on the clustering.</p>
 </td>
           </tr>
           
           <tr>
               <td><strong>Length:</strong></td>
-              <td>20 minutes</td>
+              <td>42 hours 42 minutes</td>
           </tr>
    
    
           <tr>
               <td><strong>Captions:</strong></td>
-              <td> <a href="/video-library/contributors/mtekman/">Mehmet Tekman</a>,  <a href="/video-library/contributors/nomadscientist/">Wendi Bacon</a></td>
+              <td><strong>No captions available for this video.</strong> We aim to have captions for all our videos, however sometimes videos get added without captions. Please contact us to indicate your desire to have captions added and we will ask the speakers to provide captions.</td>
           </tr>
    
           
           <tr>
               <td><strong>Created:</strong></td>
-              <td>8 March 2021</td>
+              <td>2 April 2042</td>
           </tr>
           
           
@@ -201,18 +222,18 @@ cell type abundances from bulk RNA-seq.</p>
                         
 				Tutorial:
 
-				<a href="https://training.galaxyproject.org/archive/2021-03-01/topics/single-cell/tutorials/bulk-music/tutorial.html?utm_source=schedule&utm_medium=click&utm_campaign=video-library">Version in Video</a>
+				<a href="https://training.galaxyproject.org/archive/2042-04-01/topics/single-cell/tutorials/scrna-case_cell-cycle/tutorial.html?utm_source=schedule&utm_medium=click&utm_campaign=video-library">Version in Video</a>
 				<!-- We allow overriding specific materials to their archival versions, hiding the "current" link. -->
 				
 				|
-				<a href="https://training.galaxyproject.org/topics/single-cell/tutorials/bulk-music/tutorial.html?utm_source=schedule&utm_medium=click&utm_campaign=video-library">Latest Version</a>
+				<a href="https://training.galaxyproject.org/topics/single-cell/tutorials/scrna-case_cell-cycle/tutorial.html?utm_source=schedule&utm_medium=click&utm_campaign=video-library">Latest Version</a>
 				
 
 				
 				<br>
 				<img style="height: 1em" src="/video-library/assets/fa/circle-question-regular.svg" alt="assets/fa/circle-question-regular.svg" aria-hidden="true"/>
 				
-				<a href="https://training.galaxyproject.org/topics/single-cell/tutorials/bulk-music/faqs/?utm_source=schedule&utm_medium=click&utm_campaign=video-library">FAQs</a>
+				<a href="https://training.galaxyproject.org/topics/single-cell/tutorials/scrna-case_cell-cycle/faqs/?utm_source=schedule&utm_medium=click&utm_campaign=video-library">FAQs</a>
 				
                         
                     </li>
@@ -228,7 +249,7 @@ cell type abundances from bulk RNA-seq.</p>
               <ul>
                 
                 
-                <li>Slack: <a href="https://gtnsmrgsbord.slack.com/archives/single-cell_bulk-music">#single-cell_bulk-music</a> <ul><li><a href="https://join.slack.com/t/gtnsmrgsbord/shared_invite/zt-x7vinbs1-BA~Kht6N86JBhDq0uTIVdQ">Slack Invite</a></li></ul></li>
+                <li>Slack: <a href="https://gtnsmrgsbord.slack.com/archives/single-cell_scrna-case_cell-cycle">#single-cell_scrna-case_cell-cycle</a> <ul><li><a href="https://join.slack.com/t/gtnsmrgsbord/shared_invite/zt-x7vinbs1-BA~Kht6N86JBhDq0uTIVdQ">Slack Invite</a></li></ul></li>
                 <li><a href="https://gitter.im/Galaxy-Training-Network/Lobby">Gitter</a></li>
                 <li><a href="https://help.galaxyproject.org">Galaxy Help Forum</a></li>
               </ul>
@@ -247,7 +268,7 @@ cell type abundances from bulk RNA-seq.</p>
                 
                 <li><a href="https://training.galaxyproject.org/training-material/faqs/galaxy/histories_sharing.html?utm_source=schedule&utm_medium=click&utm_campaign=video-library">Share your history</a> (if applicable)</li>
                 <li>Copy the URL</li>
-                <li>Run the command <code>/completed</code> with the URL to your shared history, in <a href="https://gtnsmrgsbord.slack.com/archives/single-cell_bulk-music">#single-cell_bulk-music</a></li>
+                <li>Run the command <code>/completed</code> with the URL to your shared history, in <a href="https://gtnsmrgsbord.slack.com/archives/single-cell_scrna-case_cell-cycle">#single-cell_scrna-case_cell-cycle</a></li>
               </ol>
               </td>
           </tr>
@@ -276,15 +297,15 @@ cell type abundances from bulk RNA-seq.</p>
     
     
     
-		<div class="hall-of-fame-hero" id="nomadscientist">
+		<div class="hall-of-fame-hero" id="MarisaJL">
 			
-			<a href="/video-library/contributors/nomadscientist/">
+			<a href="/video-library/contributors/MarisaJL/">
 			
             
-			<img src="https://avatars.githubusercontent.com/nomadscientist" alt="">
+			<img src="https://avatars.githubusercontent.com/MarisaJL" alt="">
             
 			<div class="name">
-				<b>Wendi Bacon</b>
+				<b>Marisa Loach</b>
 			</div>
 			
 			</a>
@@ -330,9 +351,9 @@ Embed this video in your class
       </div>
       <div class="modal-body">
 		  <p>If your content supports iframes, you can copy this code:</p>
-		  <pre>&lt;iframe src="https://gallantries.github.io/video-library/videos/single-cell/bulk-music/tutorial/embed.html" width="600" height="800" allow="encrypted-media *; fullscreen *; autoplay *;"></pre>
+		  <pre>&lt;iframe src="https://gallantries.github.io/video-library/videos/single-cell/scrna-case_cell-cycle/tutorial/embed.html" width="600" height="800" allow="encrypted-media *; fullscreen *; autoplay *;"></pre>
 		  <p>Or if you just want the URL to embed the content</p>
-		  <pre>https://gallantries.github.io/video-library/videos/single-cell/bulk-music/tutorial/embed.html</pre>
+		  <pre>https://gallantries.github.io/video-library/videos/single-cell/scrna-case_cell-cycle/tutorial/embed.html</pre>
 
       </div>
       <div class="modal-footer">

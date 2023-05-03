@@ -2170,6 +2170,18 @@
       ]
     }
   ],
+  "topics/single-cell/tutorials/scrna-case_cell-cycle/tutorial.html": [
+    {
+      "link": null,
+      "date": "2042-4-2",
+      "galaxy_version": "23.01",
+      "length": "42H42M",
+      "speakers": [
+        "MarisaJL"
+      ],
+      "captions": null
+    }
+  ],
   "topics/transcriptomics/slides/introduction.html": [
     {
       "captions": [

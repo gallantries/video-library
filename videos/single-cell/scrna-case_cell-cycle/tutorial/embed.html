@@ -2,7 +2,7 @@
 <html lang="en"><head>
   <meta charset="utf-8">
   
-  <title>GTN Video: Clustering 3K PBMCs with Scanpy</title>
+  <title>GTN Video: Removing the effects of the cell cycle</title>
   
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -19,9 +19,41 @@
   <link rel="stylesheet" href="/video-library/assets/main.css">
 
   <!-- updates for previews on social media etc -->
-  <meta name="description" content="In this tutorial, we will investigate clustering of single-cell data from 10x Genomics, including preprocessing, clustering and the identification of cell types via known marker genes, using Scanpy. It will be illustrated using a dataset of Peripheral Blood Mononuclear Cells (PBMC), containing 2,700 single cells. Please work through the full tutorial yourself to get all the details." />
-  <meta property="og:title" content="GTN Video: Clustering 3K PBMCs with Scanpy" />
-  <meta property="og:description" content="In this tutorial, we will investigate clustering of single-cell data from 10x Genomics, including preprocessing, clustering and the identification of cell types via known marker genes, using Scanpy. It will be illustrated using a dataset of Peripheral Blood Mononuclear Cells (PBMC), containing 2,700 single cells. Please work through the full tutorial yourself to get all the details." />
+  <meta name="description" content="Single-cell RNA sequencing can be sensitive to both biological and technical variation,   i
+which is why preparing your data carefully is an important part of the analysis. You want
+the results to reflect the interesting differences in expression between cells that relate
+to their type or state. Other sources of variation can conceal or confound this, making it
+harder for you to see what is going on.
+
+One common biological confounder is the cell cycle. Cells express
+different genes during different parts of the cell cycle, depending on whether they are in
+their growing phase (G1), duplicating their DNA (the S or Synthesis phase), or dividing in
+two (G2/M or Mitosis phase). If these cell cycle genes are having a big impact on your
+data, then you could end up with separate clusters that actually represent cells of the
+same type that are just at different stages of the cycle.
+
+In this tutorial, we will identify the genes whose expression is known to vary during the
+cell cycle so that we can use them to regress out (or remove) the effects of the cell cycle
+on the clustering.
+" />
+  <meta property="og:title" content="GTN Video: Removing the effects of the cell cycle" />
+  <meta property="og:description" content="Single-cell RNA sequencing can be sensitive to both biological and technical variation,   i
+which is why preparing your data carefully is an important part of the analysis. You want
+the results to reflect the interesting differences in expression between cells that relate
+to their type or state. Other sources of variation can conceal or confound this, making it
+harder for you to see what is going on.
+
+One common biological confounder is the cell cycle. Cells express
+different genes during different parts of the cell cycle, depending on whether they are in
+their growing phase (G1), duplicating their DNA (the S or Synthesis phase), or dividing in
+two (G2/M or Mitosis phase). If these cell cycle genes are having a big impact on your
+data, then you could end up with separate clusters that actually represent cells of the
+same type that are just at different stages of the cycle.
+
+In this tutorial, we will identify the genes whose expression is known to vary during the
+cell cycle so that we can use them to regress out (or remove) the effects of the cell cycle
+on the clustering.
+" />
   <meta property="og:image" content="/video-library/assets/images/video_cover.png" />
 
 </head>
@@ -32,12 +64,12 @@
 
 
 
-<h2> Clustering 3K PBMCs with Scanpy </h2>
+<h2> Removing the effects of the cell cycle </h2>
 
 
 
 
-<!-- session: <br><br> video: {"captions"=>["hrhotz"], "date"=>"2021-03-18", "length"=>"45M", "link"=>"nefB35Bi1l4", "speakers"=>["nomadscientist"], "name"=>"Clustering 3K PBMCs with Scanpy"} -->
+<!-- session: <br><br> video: {"link"=>nil, "date"=>"2042-4-2", "galaxy_version"=>"23.01", "length"=>"42H42M", "speakers"=>["MarisaJL"], "captions"=>nil} -->
 
 
 
@@ -51,11 +83,11 @@
 
 <div class="flex-row">
  <div class="col-md-8">
-  <h3 class="session-section">Demo Video   </h3>
+  <h3 class="session-section"> Video   </h3>
   <div style="position:relative;padding-top:56.25%;">
    <iframe style="position:absolute;top:0;left:0;width:100%;height:100%;"
     
-    data-src="https://www.youtube.com/embed/nefB35Bi1l4"
+    data-src="https://www.youtube.com/embed/"
     
      class="lazyload"
      loading="lazy"
@@ -71,25 +103,40 @@
           
           <tr>
               <td><strong>Description:</strong></td>
-              <td><p>In this tutorial, we will investigate clustering of single-cell data from 10x Genomics, including preprocessing, clustering and the identification of cell types via known marker genes, using Scanpy. It will be illustrated using a dataset of Peripheral Blood Mononuclear Cells (PBMC), containing 2,700 single cells. Please work through the full tutorial yourself to get all the details.</p>
+              <td><p>Single-cell RNA sequencing can be sensitive to both biological and technical variation,   i
+which is why preparing your data carefully is an important part of the analysis. You want
+the results to reflect the interesting differences in expression between cells that relate
+to their type or state. Other sources of variation can conceal or confound this, making it
+harder for you to see what is going on.</p>
+
+<p>One common biological confounder is the cell cycle. Cells express
+different genes during different parts of the cell cycle, depending on whether they are in
+their growing phase (G1), duplicating their DNA (the S or Synthesis phase), or dividing in
+two (G2/M or Mitosis phase). If these cell cycle genes are having a big impact on your
+data, then you could end up with separate clusters that actually represent cells of the
+same type that are just at different stages of the cycle.</p>
+
+<p>In this tutorial, we will identify the genes whose expression is known to vary during the
+cell cycle so that we can use them to regress out (or remove) the effects of the cell cycle
+on the clustering.</p>
 </td>
           </tr>
           
           <tr>
               <td><strong>Length:</strong></td>
-              <td>45 minutes</td>
+              <td>42 hours 42 minutes</td>
           </tr>
    
    
           <tr>
               <td><strong>Captions:</strong></td>
-              <td> <a href="/video-library/contributors/hrhotz/">Hans-Rudolf Hotz</a></td>
+              <td><strong>No captions available for this video.</strong> We aim to have captions for all our videos, however sometimes videos get added without captions. Please contact us to indicate your desire to have captions added and we will ask the speakers to provide captions.</td>
           </tr>
    
           
           <tr>
               <td><strong>Created:</strong></td>
-              <td>18 March 2021</td>
+              <td>2 April 2042</td>
           </tr>
           
           
@@ -109,18 +156,18 @@
                         
 				Tutorial:
 
-				<a href="https://training.galaxyproject.org/archive/2021-03-01/topics/single-cell/tutorials/scrna-scanpy-pbmc3k/tutorial.html?utm_source=schedule&utm_medium=click&utm_campaign=video-library">Version in Video</a>
+				<a href="https://training.galaxyproject.org/archive/2042-04-01/topics/single-cell/tutorials/scrna-case_cell-cycle/tutorial.html?utm_source=schedule&utm_medium=click&utm_campaign=video-library">Version in Video</a>
 				<!-- We allow overriding specific materials to their archival versions, hiding the "current" link. -->
 				
 				|
-				<a href="https://training.galaxyproject.org/topics/single-cell/tutorials/scrna-scanpy-pbmc3k/tutorial.html?utm_source=schedule&utm_medium=click&utm_campaign=video-library">Latest Version</a>
+				<a href="https://training.galaxyproject.org/topics/single-cell/tutorials/scrna-case_cell-cycle/tutorial.html?utm_source=schedule&utm_medium=click&utm_campaign=video-library">Latest Version</a>
 				
 
 				
 				<br>
 				<img style="height: 1em" src="/video-library/assets/fa/circle-question-regular.svg" alt="assets/fa/circle-question-regular.svg" aria-hidden="true"/>
 				
-				<a href="https://training.galaxyproject.org/topics/single-cell/tutorials/scrna-scanpy-pbmc3k/faqs/?utm_source=schedule&utm_medium=click&utm_campaign=video-library">FAQs</a>
+				<a href="https://training.galaxyproject.org/topics/single-cell/tutorials/scrna-case_cell-cycle/faqs/?utm_source=schedule&utm_medium=click&utm_campaign=video-library">FAQs</a>
 				
                         
                     </li>
@@ -137,23 +184,11 @@
               <td>
                   <ul>
                       
-                      <li>Describe an AnnData object to store single-cell data</li>
+                      <li>Identify the cell cycle genes</li>
                       
-                      <li>Explain the preprocessing steps for single-cell data</li>
+                      <li>Use the cell cycle genes to regress out the effects of the cell cycle</li>
                       
-                      <li>Evaluate quality of single-cell data and apply steps to select and filter cells and genes based on QC</li>
-                      
-                      <li>Execute data normalization and scaling</li>
-                      
-                      <li>Identify highly variable genes</li>
-                      
-                      <li>Construct and run a dimensionality reduction using Principal Component Analysis</li>
-                      
-                      <li>Perform a graph-based clustering for cells</li>
-                      
-                      <li>Identify marker genes for the clusters</li>
-                      
-                      <li>Construct and run a cell type annotation for the clusters</li>
+                      <li>Create PCA plots to understand the impact of the regression</li>
                       
                   </ul>
               </td>
@@ -166,7 +201,7 @@
 
   </div>
   
-  Go to the <a href="/video-library/videos/single-cell/scrna-scanpy-pbmc3k/tutorial">video page</a> to see all versions.
+  Go to the <a href="/video-library/videos/single-cell/scrna-case_cell-cycle/tutorial">video page</a> to see all versions.
   
  </div>
  <!-- speaker(s) -->
@@ -187,15 +222,15 @@
     
     
     
-		<div class="hall-of-fame-hero" id="nomadscientist">
+		<div class="hall-of-fame-hero" id="MarisaJL">
 			
-			<a href="/video-library/contributors/nomadscientist/">
+			<a href="/video-library/contributors/MarisaJL/">
 			
             
-			<img src="https://avatars.githubusercontent.com/nomadscientist" alt="">
+			<img src="https://avatars.githubusercontent.com/MarisaJL" alt="">
             
 			<div class="name">
-				<b>Wendi Bacon</b>
+				<b>Marisa Loach</b>
 			</div>
 			
 			</a>

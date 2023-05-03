@@ -470,6 +470,12 @@
       "inab-certh"
     ]
   },
+  "MarisaJL": {
+    "name": "Marisa Loach",
+    "affiliation": [
+      "ou"
+    ]
+  },
   "martenson": {
     "name": "Martin Čech",
     "affiliation": [
@@ -535,7 +541,7 @@
   "nomadscientist": {
     "name": "Wendi Bacon",
     "affiliation": [
-      "ebi"
+      "ou"
     ],
     "slack": "U01FU9TKNHE"
   },
