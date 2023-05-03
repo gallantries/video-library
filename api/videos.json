@@ -5361,6 +5361,10 @@
 
     ],
     "support_channel": "ro-crate",
+    "cover": {
+      "link": "rocrate.png",
+      "alt": "RO Crate logo"
+    },
     "gtn_id": "ro-crates/intro"
   },
   "ro-crates/publishing/tutorial": {
@@ -5388,6 +5392,10 @@
 
     ],
     "support_channel": "ro-crate",
+    "cover": {
+      "link": "rocrate.png",
+      "alt": "RO Crate logo"
+    },
     "gtn_id": "ro-crates/publishing"
   },
   "ro-crates/python/tutorial": {
@@ -5407,6 +5415,10 @@
 
     ],
     "support_channel": "ro-crate",
+    "cover": {
+      "link": "rocrate.png",
+      "alt": "RO Crate logo"
+    },
     "gtn_id": "ro-crates/python"
   },
   "ro-crates/workflow-run-crate/tutorial": {
@@ -5428,6 +5440,10 @@
 
     ],
     "support_channel": "ro-crate",
+    "cover": {
+      "link": "rocrate.png",
+      "alt": "RO Crate logo"
+    },
     "gtn_id": "ro-crates/workflow-run-crate"
   },
   "ro-crates/extending/tutorial": {
@@ -5446,6 +5462,10 @@
 
     ],
     "support_channel": "ro-crate",
+    "cover": {
+      "link": "rocrate.png",
+      "alt": "RO Crate logo"
+    },
     "gtn_id": "ro-crates/extending"
   },
   "ro-crates/workflowhub/tutorial": {
@@ -5468,6 +5488,10 @@
 
     ],
     "support_channel": "ro-crate",
+    "cover": {
+      "link": "rocrate.png",
+      "alt": "RO Crate logo"
+    },
     "gtn_id": "ro-crates/workflowhub"
   },
   "ro-crates/bestpractices/tutorial": {
@@ -5486,6 +5510,10 @@
 
     ],
     "support_channel": "ro-crate",
+    "cover": {
+      "link": "rocrate.png",
+      "alt": "RO Crate logo"
+    },
     "gtn_id": "ro-crates/bestpractices"
   },
   "ro-crates/lifemonitor/tutorial": {
@@ -5504,6 +5532,10 @@
 
     ],
     "support_channel": "ro-crate",
+    "cover": {
+      "link": "rocrate.png",
+      "alt": "RO Crate logo"
+    },
     "gtn_id": "ro-crates/lifemonitor"
   },
   "bioconductor/bioc-intro/tutorial": {

@@ -18,6 +18,10 @@
 
       ],
       "support_channel": "ro-crate",
+      "cover": {
+        "link": "rocrate.png",
+        "alt": "RO Crate logo"
+      },
       "gtn_id": "ro-crates/python"
     }
   }
