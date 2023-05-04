@@ -1,0 +1,72 @@
+{
+  "layout": "module",
+  "title": "One Health",
+  "program": {
+    "viral": {
+      "title": "Viral Pathogen Analysis",
+      "description": "TODO description (if useful)",
+      "trainings": [
+        {
+          "video": "virology/sequencing-spectrum-viral-genomes"
+        },
+        {
+          "video": "introduction/galaxy-intro-ngs-data-managment"
+        },
+        {
+          "video": "galaxy-interface/ncbi-sarf/tutorial"
+        },
+        {
+          "self-study": "variant-analysis/sars-cov-2"
+        },
+        {
+          "self-study": "variant-analysis/aiv-analysis"
+        },
+        {
+          "self-study": "variant-analysis/pox-tiled-amplicon"
+        }
+      ]
+    },
+    "tb": {
+      "title": "Tuberculosis Sequence Analysis",
+      "description": "TODO description",
+      "trainings": [
+        {
+          "session": "variant-analysis/tb-variant-analysis"
+        }
+      ]
+    },
+    "surveillance": {
+      "title": "Building a pathogen surveillance system",
+      "description": "TODO description",
+      "trainings": [
+        {
+          "video": "sars-cov2/using-galaxy"
+        },
+        {
+          "video": "variant-analysis/sars-cov-2-variant-discovery/tutorial"
+        },
+        {
+          "video": "galaxy-interface/workflow-automation"
+        },
+        {
+          "video": "sars-cov2/usegalaxy-star-bot"
+        }
+      ]
+    },
+    "archiving": {
+      "title": "Pathogen data sharing and archiving",
+      "description": "TODO description",
+      "trainings": [
+        {
+          "video": "assembly/assembly-with-preprocessing"
+        },
+        {
+          "video": "sars-cov2/upload-ena"
+        },
+        {
+          "video": "galaxy-interface/upload-to-ena"
+        }
+      ]
+    }
+  }
+}

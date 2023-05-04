@@ -3896,6 +3896,28 @@
     "gtn_id": "sars-cov2/viral-beacon",
     "captioned": true
   },
+  "virology/sequencing-spectrum-viral-genomes": {
+    "title": "Sequencing data analysis for a spectrum of viral genomes",
+    "description": null,
+    "type": "Lecture",
+    "tags": [
+      "variant analysis",
+      "virology"
+    ],
+    "versions": [
+      {
+        "link": "CAwldVPimkY",
+        "speakers": [
+          "wm75"
+        ],
+        "date": "2023-05-04",
+        "length": "12M",
+        "captions": null
+      }
+    ],
+    "gtn_id": "virology/sequencing-spectrum-viral-genomes",
+    "captioned": false
+  },
   "sequence-analysis/human-reads-removal/tutorial": {
     "description": null,
     "materials": [
