@@ -3626,9 +3626,9 @@ ro-crates/workflowhub/tutorial:
 ro-crates/bestpractices/tutorial:
   description:
   materials:
-  - link: https://github.com/galaxyproject/iwc/blob/main/workflows/README.md#adding-workflows
+  - link: https://by-covid.github.io/gtn/galaxy-best-practices/
   tags: [ro-crate]
-  title: Best Practices for RO-Crates in Galaxy in GitHub Repositories
+  title: Best practices for workflows in GitHub repositories
   type: Tutorial
   versions: []
   support_channel: ro-crate
