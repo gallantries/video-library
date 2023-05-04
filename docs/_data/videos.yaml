@@ -2522,6 +2522,25 @@ sars-cov2/viral-beacon/slides:
     link: R_4yUMPk7eY
     speakers:
     - babitasingh
+
+
+virology/sequencing-spectrum-viral-genomes:
+  title: Sequencing data analysis for a spectrum of viral genomes
+  description:
+  type: Lecture
+  tags:
+  - variant analysis
+  - virology
+  versions:
+  - link: CAwldVPimkY
+    speakers:
+    - wm75
+    date: '2023-05-04'
+    length: 12M
+    captions:
+
+
+
 sequence-analysis/human-reads-removal/tutorial:
   description: null
   materials:
