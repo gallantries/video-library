@@ -81,6 +81,7 @@ mapping:
                         - statistics
                         - transcriptomics
                         - variant-analysis
+                        - virology
                         - visualisation
                         - webinar
                         - wetlab
