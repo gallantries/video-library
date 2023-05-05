@@ -2529,7 +2529,7 @@ virology/sequencing-spectrum-viral-genomes:
   description:
   type: Lecture
   tags:
-  - variant analysis
+  - variant-analysis
   - virology
   versions:
   - link: CAwldVPimkY
@@ -3641,7 +3641,7 @@ ro-crates/workflowhub/tutorial:
     length: 35M
     link: 2kGKxaPuQN8
     speakers:
-    - supernord  
+    - supernord
   support_channel: ro-crate
   cover:
     link: rocrate.png
