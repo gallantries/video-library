@@ -336,10 +336,10 @@ admin/pulsar/tutorial:
     link: a7fKJT4Fs9k
     speakers:
     - slugger70
-admin/singularity/tutorial:
-  description: Running jobs in Singularity
+admin/apptainer/tutorial:
+  description: Running jobs in Apptainer
   materials:
-  - link: topics/admin/tutorials/singularity/tutorial.html
+  - link: topics/admin/tutorials/apptainer/tutorial.html
     type: Tutorial
   tags:
   - admin
@@ -685,9 +685,7 @@ climate/pangeo/tutorial:
     Climate Science community and each community has its own set of conventions, especially
     for metadata. The Climate and Forecast metadata convention, also called CF-convention
     is used by the Climate community and is designed to promote the processing and
-    sharing of netCDF files.
-
-    '
+    sharing of netCDF files.'
   materials:
   - link: topics/climate/tutorials/pangeo/tutorial.html
     title: Pangeo ecosystem 101 for everyone - Introduction to Xarray Galaxy Tools
@@ -1971,6 +1969,15 @@ introduction/galaxy-intro-101-everyone/tutorial:
   - galaxy
   type: Tutorial
   versions:
+
+  - captions:
+    date: '2023-05-01'
+    length: 20M
+    galaxy_version: '23.0'
+    link: 64oS5uXVRV0
+    speakers:
+      - astrovsky01
+
   - captions:
     - tnabtaf
     date: '2021-02-15'
@@ -1980,6 +1987,7 @@ introduction/galaxy-intro-101-everyone/tutorial:
     speakers:
     - annefou
     - rwinand
+
 introduction/galaxy-intro-101/tutorial:
   description: This tutorial will introduce you to Galaxy. You will familiarize yourself
     with tools, workflows and histories. Those skills will be needed the next days
@@ -2131,6 +2139,51 @@ metagenomics/plasmid-metagenomics-nanopore/tutorial:
     link: ECIl8ZU1Wko
     speakers:
     - willemdek11
+
+metagenomics/pathogen-detection-from-nanopore-foodborne-data/tutorial:
+  description: |
+    In this tutorial, we will be presenting a series of Galaxy workflows whose main goals are
+    1) to agnostically detect pathogens (What exactly is this pathogen and what virulence
+    factors does it carry?) from data extracted directly (without prior cultivation) from a
+    potentially contaminated sample (e.g. food like chicken, beef, etc.) and sequenced using
+    Nanopore, and 2) to compare different samples to trace the possible source of contamination
+
+  materials:
+  - link: topics/metagenomics/tutorials/pathogen-detection-from-nanopore-foodborne-data/tutorial.thml
+    type: Tutorial
+  tags:
+   - metagenomics
+  versions:
+  - link: gQHb_jkj-Z0
+    date: '2023-05-01'
+    galaxy_version: '23.01'
+    length: 1H45M
+    speakers:
+    - EngyNasr
+    captions:
+
+metagenomics/metagenomics-assembly/tutorial:
+  description: |
+    In this tutorial, we will learn how to run metagenomic assembly tool and evaluate the quality of the generated assemblies.
+    To do that, we will use data from the study: Temporal shotgun metagenomic dissection of the coffee fermentation ecosystem.
+    For an in-depth analysis of the structure and functions of the coffee microbiome, a temporal shotgun metagenomic study
+    (six time points) was performed. The six samples have been sequenced with Illumina MiSeq utilizing whole genome sequencing.
+  tags:
+  - metagenomics
+  - assembly
+  materials:
+  - link: topics/metagenomics/tutorials/metagenomics-assembly/tutorial.html
+    type: tutorial
+  versions:
+  - link: 1ZYGy85Im7w
+    date: '2023-05-02'
+    speakers:
+    - bebatut
+    galaxy_version: '23.01'
+    length: 1H
+    captions:
+
+
 proteogenomics/introduction/slides:
   description: In this opening presentation, the basic components of proteogenomics
     are described, including the main steps in the bioinformatics analysis workflow
@@ -2469,6 +2522,25 @@ sars-cov2/viral-beacon/slides:
     link: R_4yUMPk7eY
     speakers:
     - babitasingh
+
+
+virology/sequencing-spectrum-viral-genomes:
+  title: Sequencing data analysis for a spectrum of viral genomes
+  description:
+  type: Lecture
+  tags:
+  - variant analysis
+  - virology
+  versions:
+  - link: CAwldVPimkY
+    speakers:
+    - wm75
+    date: '2023-05-04'
+    length: 12M
+    captions:
+
+
+
 sequence-analysis/human-reads-removal/tutorial:
   description: null
   materials:
@@ -2954,6 +3026,40 @@ single-cell/scrna-case_alevin-combine-datasets/tutorial:
     link: U8pVa6csmUE # TODO: Move to the GTN account
     speakers:
     - nomadscientist
+
+single-cell/scrna-case_cell-cycle/tutorial:
+  description: |
+    Single-cell RNA sequencing can be sensitive to both biological and technical variation,   i
+    which is why preparing your data carefully is an important part of the analysis. You want
+    the results to reflect the interesting differences in expression between cells that relate
+    to their type or state. Other sources of variation can conceal or confound this, making it
+    harder for you to see what is going on.
+
+    One common biological confounder is the cell cycle. Cells express
+    different genes during different parts of the cell cycle, depending on whether they are in
+    their growing phase (G1), duplicating their DNA (the S or Synthesis phase), or dividing in
+    two (G2/M or Mitosis phase). If these cell cycle genes are having a big impact on your
+    data, then you could end up with separate clusters that actually represent cells of the
+    same type that are just at different stages of the cycle.
+
+    In this tutorial, we will identify the genes whose expression is known to vary during the
+    cell cycle so that we can use them to regress out (or remove) the effects of the cell cycle
+    on the clustering.
+  materials:
+  - link: topics/single-cell/tutorials/scrna-case_cell-cycle/tutorial.html
+    type: Tutorial
+  tags:
+    - single-cell
+    - transcriptomics
+  versions: []
+    #- link:
+    #  date: '2042-4-2'
+    #  galaxy_version: '23.01'
+    #  length: 42H42M
+    #  speakers:
+    #  - MarisaJL
+    #  captions:
+
 transcriptomics/introduction/slides:
   description: RNA sequencing is used to assess the expression levels of genes. This
     video introduces the important concepts related to RNA-seq analysis.
@@ -3468,6 +3574,9 @@ ro-crates/intro/slides:
   type: Tutorial
   versions: []
   support_channel: ro-crate
+  cover:
+    link: rocrate.png
+    alt: RO Crate logo
 ro-crates/publishing/tutorial:
   description:
   materials:
@@ -3478,6 +3587,9 @@ ro-crates/publishing/tutorial:
   type: Tutorial
   versions: []
   support_channel: ro-crate
+  cover:
+    link: rocrate.png
+    alt: RO Crate logo
 ro-crates/python/tutorial:
   description:
   materials:
@@ -3487,6 +3599,9 @@ ro-crates/python/tutorial:
   type: Tutorial
   versions: []
   support_channel: ro-crate
+  cover:
+    link: rocrate.png
+    alt: RO Crate logo
 ro-crates/workflow-run-crate/tutorial:
   description:
   materials:
@@ -3497,6 +3612,9 @@ ro-crates/workflow-run-crate/tutorial:
   type: Tutorial
   versions: []
   support_channel: ro-crate
+  cover:
+    link: rocrate.png
+    alt: RO Crate logo
 ro-crates/extending/tutorial:
   description:
   materials:
@@ -3506,6 +3624,9 @@ ro-crates/extending/tutorial:
   type: Tutorial
   versions: []
   support_channel: ro-crate
+  cover:
+    link: rocrate.png
+    alt: RO Crate logo
 ro-crates/workflowhub/tutorial:
   description:
   materials:
@@ -3522,16 +3643,22 @@ ro-crates/workflowhub/tutorial:
     speakers:
     - supernord  
   support_channel: ro-crate
+  cover:
+    link: rocrate.png
+    alt: RO Crate logo
 ro-crates/bestpractices/tutorial:
   description:
   materials:
   - link: https://by-covid.github.io/gtn/galaxy-best-practices/
   - link: https://github.com/galaxyproject/iwc/blob/main/workflows/README.md#adding-workflows
   tags: [ro-crate]
-  title: Best Practices for RO-Crates in Galaxy in GitHub Repositories
+  title: Best practices for workflows in GitHub repositories
   type: Tutorial
   versions: []
   support_channel: ro-crate
+  cover:
+    link: rocrate.png
+    alt: RO Crate logo
 ro-crates/lifemonitor/tutorial:
   description:
   materials:
@@ -3541,6 +3668,9 @@ ro-crates/lifemonitor/tutorial:
   type: Tutorial
   versions: []
   support_channel: ro-crate
+  cover:
+    link: rocrate.png
+    alt: RO Crate logo
 
 bioconductor/bioc-intro/tutorial:
   title: Introduction to data analysis with R and Bioconductor
@@ -3658,19 +3788,19 @@ bioconductor/isee/tutorial:
   support_channel: bioconductor
 bioconductor/epiforbioworkshop2022/tutorial:
   description: |
-    Concepts of causal inference in epidemiology have important ramifications 
-    for studies across bioinformatics and other fields of health research. In 
-    this workshop, we introduce basic concepts of epidemiology, study design, 
-    and causal inference for bioinformaticians. Emphasis is placed on addressing 
-    bias and confounding as common threats to assessing a causal pathway in a 
-    variety of study design types and when using common forms of analyses such 
-    as GWAS and survival analysis. Workshop participants will have the 
-    opportunity to create their own structural causal models (DAGs) using 
-    dagitty and ggdag and then use this model to determine how to assess an 
-    estimated causal effect. Examples using DESeq2, edgeR, and limma will be 
-    used to show how multivariable models can be fitted depending on the 
-    hypothesized causal relationship. Presented successfully at BioC2021 to a 
-    large audience of more than 100, updates that material by revising current 
+    Concepts of causal inference in epidemiology have important ramifications
+    for studies across bioinformatics and other fields of health research. In
+    this workshop, we introduce basic concepts of epidemiology, study design,
+    and causal inference for bioinformaticians. Emphasis is placed on addressing
+    bias and confounding as common threats to assessing a causal pathway in a
+    variety of study design types and when using common forms of analyses such
+    as GWAS and survival analysis. Workshop participants will have the
+    opportunity to create their own structural causal models (DAGs) using
+    dagitty and ggdag and then use this model to determine how to assess an
+    estimated causal effect. Examples using DESeq2, edgeR, and limma will be
+    used to show how multivariable models can be fitted depending on the
+    hypothesized causal relationship. Presented successfully at BioC2021 to a
+    large audience of more than 100, updates that material by revising current
     examples based on participant feedback as well as content updates.
   materials:
   - link: https://chloemirzayi.com/epiforbioworkshop2022/articles/EpiForBioWorkshop.html

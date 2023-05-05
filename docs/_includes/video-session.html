@@ -6,7 +6,7 @@
 {% assign force_archive_materials = include.session.force_archive_materials | default: include.vsession.force_archive_materials | default: include.video.force_archive_materials | default: false %}
 
 <!-- determine the next archived version of tutorial -->
-{% assign archivemonth = include.video.date | date: "%m" | plus: 1 | modulo: 12 | prepend: '00' | slice: -2, 2 %}
+{% assign archivemonth = include.video.date | date: "%m" | modulo: 12 | prepend: '00' | slice: -2, 2 %}
 {% assign archiveyear = include.video.date | date: "%Y" %}
 {% if archivemonth == '01' %}{% assign archiveyear = archiveyear | plus: 1 %}{% endif %}
 
