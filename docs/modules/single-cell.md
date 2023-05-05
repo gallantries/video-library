@@ -20,9 +20,9 @@ program:
     title: Case Study
     description:
     trainings:
+      - video: single-cell/scrna-case_alevin/tutorial
       - video: single-cell/scrna-case_alevin-combine-datasets/tutorial
       - video: single-cell/scrna-case_basic-pipeline/tutorial
-      - video: single-cell/scrna-case_alevin/tutorial
       - video: single-cell/scrna-case_monocle3-trajectories
       - video: single-cell/scrna-case_cell-cycle/tutorial
 
