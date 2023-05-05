@@ -4155,15 +4155,15 @@
       }
     }
   },
-  "variant analysis": {
-    "url": "/video-library/api/tags/variant analysis.json",
+  "variant-analysis": {
+    "url": "/video-library/api/tags/variant-analysis.json",
     "videos": {
       "virology/sequencing-spectrum-viral-genomes": {
         "title": "Sequencing data analysis for a spectrum of viral genomes",
         "description": null,
         "type": "Lecture",
         "tags": [
-          "variant analysis",
+          "variant-analysis",
           "virology"
         ],
         "versions": [
@@ -4179,6 +4179,97 @@
         ],
         "gtn_id": "virology/sequencing-spectrum-viral-genomes",
         "captioned": false
+      },
+      "variant-analysis/sars-cov-2-variant-discovery/tutorial": {
+        "materials": [
+          {
+            "link": "topics/variant-analysis/tutorials/sars-cov-2-variant-discovery/tutorial.html",
+            "type": "Tutorial"
+          }
+        ],
+        "tags": [
+          "variant-analysis"
+        ],
+        "type": "Tutorial",
+        "versions": [
+          {
+            "captions": [
+              "hexylena"
+            ],
+            "date": "2021-08-09",
+            "length": "1H30M",
+            "link": "vnFQ2fR_fzw",
+            "speakers": [
+              "wm75"
+            ]
+          }
+        ],
+        "gtn_id": "variant-analysis/sars-cov-2-variant-discovery",
+        "title": "Mutation calling, viral genome reconstruction and lineage/clade assignment from SARS-CoV-2 sequencing data",
+        "captioned": true
+      },
+      "variant-analysis/tb-variant-analysis/slides": {
+        "description": "Tuberculosis (TB) is an infectious disease caused by the bacterium Mycobacterium tuberculosis. According to the WHO, in 2018 there were 10.0 million new cases of TB worldwide and 1.4 million deaths due to the disease, making TB the world’s most deadly infectious disease.",
+        "materials": [
+          {
+            "external": true,
+            "link": "https://docs.google.com/presentation/d/16XTMh2fRrl73WVaezNAFWET0IIMXBv0MCI2engFtdQs/edit#slide=id.g6231f48ea2_0_34",
+            "type": "Slides"
+          }
+        ],
+        "tags": [
+          "variant-analysis"
+        ],
+        "type": "Lecture",
+        "versions": [
+          {
+            "captions": [
+              "shiltemann"
+            ],
+            "date": "2021-02-15",
+            "galaxy_version": "21.01",
+            "length": "20M",
+            "link": "yCC9EmLuyJg",
+            "speakers": [
+              "pvanheus"
+            ]
+          }
+        ],
+        "gtn_id": "variant-analysis/tb-variant-analysis",
+        "title": "M. tuberculosis Variant Analysis",
+        "captioned": true
+      },
+      "variant-analysis/tb-variant-analysis/tutorial": {
+        "description": "Variation in the genome of M. tuberculosis (Mtb) is associated with changes in phenotype, for example drug resistance and virulence. It is also useful for outbreak investigation as the single nucleotide polymorphisms (SNPs) in a sample can be used to build a phylogeny.",
+        "materials": [
+          {
+            "link": "topics/variant-analysis/tutorials/tb-variant-analysis/tutorial.html",
+            "type": "Tutorial"
+          }
+        ],
+        "tags": [
+          "variant-analysis"
+        ],
+        "type": "Tutorial",
+        "versions": [
+          {
+            "captions": [
+              "pvanheus",
+              "nagoue",
+              "hexylena"
+            ],
+            "date": "2021-02-15",
+            "galaxy_version": "21.01",
+            "length": "40M",
+            "link": "G1DmquX6Wh8",
+            "speakers": [
+              "pvanheus"
+            ]
+          }
+        ],
+        "gtn_id": "variant-analysis/tb-variant-analysis",
+        "title": "M. tuberculosis Variant Analysis",
+        "captioned": true
       }
     }
   },
@@ -4190,7 +4281,7 @@
         "description": null,
         "type": "Lecture",
         "tags": [
-          "variant analysis",
+          "variant-analysis",
           "virology"
         ],
         "versions": [
@@ -5847,102 +5938,6 @@
       }
     }
   },
-  "variant-analysis": {
-    "url": "/video-library/api/tags/variant-analysis.json",
-    "videos": {
-      "variant-analysis/sars-cov-2-variant-discovery/tutorial": {
-        "materials": [
-          {
-            "link": "topics/variant-analysis/tutorials/sars-cov-2-variant-discovery/tutorial.html",
-            "type": "Tutorial"
-          }
-        ],
-        "tags": [
-          "variant-analysis"
-        ],
-        "type": "Tutorial",
-        "versions": [
-          {
-            "captions": [
-              "hexylena"
-            ],
-            "date": "2021-08-09",
-            "length": "1H30M",
-            "link": "vnFQ2fR_fzw",
-            "speakers": [
-              "wm75"
-            ]
-          }
-        ],
-        "gtn_id": "variant-analysis/sars-cov-2-variant-discovery",
-        "title": "Mutation calling, viral genome reconstruction and lineage/clade assignment from SARS-CoV-2 sequencing data",
-        "captioned": true
-      },
-      "variant-analysis/tb-variant-analysis/slides": {
-        "description": "Tuberculosis (TB) is an infectious disease caused by the bacterium Mycobacterium tuberculosis. According to the WHO, in 2018 there were 10.0 million new cases of TB worldwide and 1.4 million deaths due to the disease, making TB the world’s most deadly infectious disease.",
-        "materials": [
-          {
-            "external": true,
-            "link": "https://docs.google.com/presentation/d/16XTMh2fRrl73WVaezNAFWET0IIMXBv0MCI2engFtdQs/edit#slide=id.g6231f48ea2_0_34",
-            "type": "Slides"
-          }
-        ],
-        "tags": [
-          "variant-analysis"
-        ],
-        "type": "Lecture",
-        "versions": [
-          {
-            "captions": [
-              "shiltemann"
-            ],
-            "date": "2021-02-15",
-            "galaxy_version": "21.01",
-            "length": "20M",
-            "link": "yCC9EmLuyJg",
-            "speakers": [
-              "pvanheus"
-            ]
-          }
-        ],
-        "gtn_id": "variant-analysis/tb-variant-analysis",
-        "title": "M. tuberculosis Variant Analysis",
-        "captioned": true
-      },
-      "variant-analysis/tb-variant-analysis/tutorial": {
-        "description": "Variation in the genome of M. tuberculosis (Mtb) is associated with changes in phenotype, for example drug resistance and virulence. It is also useful for outbreak investigation as the single nucleotide polymorphisms (SNPs) in a sample can be used to build a phylogeny.",
-        "materials": [
-          {
-            "link": "topics/variant-analysis/tutorials/tb-variant-analysis/tutorial.html",
-            "type": "Tutorial"
-          }
-        ],
-        "tags": [
-          "variant-analysis"
-        ],
-        "type": "Tutorial",
-        "versions": [
-          {
-            "captions": [
-              "pvanheus",
-              "nagoue",
-              "hexylena"
-            ],
-            "date": "2021-02-15",
-            "galaxy_version": "21.01",
-            "length": "40M",
-            "link": "G1DmquX6Wh8",
-            "speakers": [
-              "pvanheus"
-            ]
-          }
-        ],
-        "gtn_id": "variant-analysis/tb-variant-analysis",
-        "title": "M. tuberculosis Variant Analysis",
-        "captioned": true
-      }
-    }
-  },
   "webinar": {
     "url": "/video-library/api/tags/webinar.json",
     "videos": {
@@ -6130,13 +6125,7 @@
         "description": null,
         "materials": [
           {
-            "link": "https://github.com/ResearchObject/ro-tutorials"
-          },
-          {
             "link": "https://www.researchobject.org/ro-crate/1.2-DRAFT/introduction.html"
-          },
-          {
-            "link": "https://slides.com/soilandreyes/2021-07-15-sharing-fair-research-objects#/18"
           },
           {
             "link": "https://github.com/marketplace/actions/ro-crate-preview"
@@ -6244,20 +6233,34 @@
         "title": "Registering Galaxy workflows in WorkflowHub",
         "type": "Tutorial",
         "versions": [
-
+          {
+            "captions": [
+              "biocommons"
+            ],
+            "date": "2023-03-21",
+            "length": "35M",
+            "link": "2kGKxaPuQN8",
+            "speakers": [
+              "supernord"
+            ]
+          }
         ],
         "support_channel": "ro-crate",
         "cover": {
           "link": "rocrate.png",
           "alt": "RO Crate logo"
         },
-        "gtn_id": "ro-crates/workflowhub"
+        "gtn_id": "ro-crates/workflowhub",
+        "captioned": true
       },
       "ro-crates/bestpractices/tutorial": {
         "description": null,
         "materials": [
           {
             "link": "https://by-covid.github.io/gtn/galaxy-best-practices/"
+          },
+          {
+            "link": "https://github.com/galaxyproject/iwc/blob/main/workflows/README.md#adding-workflows"
           }
         ],
         "tags": [
@@ -6347,14 +6350,25 @@
         "title": "Registering Galaxy workflows in WorkflowHub",
         "type": "Tutorial",
         "versions": [
-
+          {
+            "captions": [
+              "biocommons"
+            ],
+            "date": "2023-03-21",
+            "length": "35M",
+            "link": "2kGKxaPuQN8",
+            "speakers": [
+              "supernord"
+            ]
+          }
         ],
         "support_channel": "ro-crate",
         "cover": {
           "link": "rocrate.png",
           "alt": "RO Crate logo"
         },
-        "gtn_id": "ro-crates/workflowhub"
+        "gtn_id": "ro-crates/workflowhub",
+        "captioned": true
       }
     }
   },
