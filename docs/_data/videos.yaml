@@ -3636,7 +3636,7 @@ ro-crates/workflowhub/tutorial:
   title: Registering Galaxy workflows in WorkflowHub
   type: Tutorial
   versions:
-  - captions: []
+  - captions: [biocommons]
     date: '2023-03-21'
     length: 35M
     link: 2kGKxaPuQN8
