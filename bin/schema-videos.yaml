@@ -99,7 +99,7 @@ mapping:
                               type: seq
                               sequence:
                                   - type: str
-                                    enum: CONTRIBUTORS
+                                    enum: CONTRIBUTORS_OR_AFFILIATION
                           speakers:
                               type: seq
                               sequence:
