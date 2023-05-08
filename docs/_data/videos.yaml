@@ -3661,9 +3661,9 @@ ro-crates/bestpractices/tutorial:
 ro-crates/lifemonitor/tutorial:
   description:
   materials:
-  - link: https://crs4.github.io/life_monitor/lm_wft_best_practices_github_app
+  - link: https://by-covid.github.io/gtn/submitting-life-monitor
   tags: [ro-crate]
-  title: Submitting workflows to LifeMonitor with the Workflow Testing RO-Crate profile
+  title: Submitting workflows to LifeMonitor
   type: Tutorial
   versions: []
   support_channel: ro-crate
