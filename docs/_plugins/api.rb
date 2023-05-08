@@ -94,6 +94,7 @@ module Jekyll
       durations['bytag'] = Hash.new { 0 }
       durations['byspeaker'] = Hash.new { 0 }
       durations['bycaptioner'] = Hash.new { 0 }
+      durations['_speakers_'] = []
 
       site.data['videos'].each{|k, v|
 
@@ -111,10 +112,12 @@ module Jekyll
               durations['_total_'] += findDuration(version['length']) / 3600.0
               durations['_total_count_'] += 1
               version['speakers'].each{|speaker|
+                durations['_speakers_'].push(speaker)
                 durations['byspeaker'][speaker] += findDuration(version['length']) / 3600.0 / version['speakers'].length
               }
               if version['captions']
                 version['captions'].each{|speaker|
+                  durations['_speakers_'].push(speaker)
                   durations['bycaptioner'][speaker] += findDuration(version['length']) / 3600.0 / version['captions'].length
                 }
               end
@@ -124,6 +127,7 @@ module Jekyll
       }
       site.data['stats'] = durations
 
+      durations['_speakers_count_'] = durations['_speakers_'].uniq.length - 2 # Galaxy Community, AWS Polly
       durations['bytag_a'] = durations['bytag'].map{|k, v| [k, v]}.sort_by{|a| -a[1]}
       durations['byspeaker_a'] = durations['byspeaker'].map{|k, v| [k, v]}.sort_by{|a| -a[1]}
       durations['bycaptioner_a'] = durations['bycaptioner'].map{|k, v| [k, v]}.sort_by{|a| -a[1]}

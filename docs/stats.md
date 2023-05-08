@@ -4,7 +4,7 @@ title: "Statistics!"
 ---
 <h1 id="video-data">Video Data</h1>
 <div class="row">
-	<div class="col-md-6">
+	<div class="col-md-4">
 	<div class="card bg-primary text-white">
 		<div class="card-body">
 			<h2 class="card-title" style="font-weight: 900; font-size: 300%">{{ site.data.stats._total_ | round:1 }}</h2>
@@ -13,12 +13,23 @@ title: "Statistics!"
 		</div>
 	</div>
 	</div>
-	<div class="col-md-6">
+
+	<div class="col-md-4">
 	<div class="card bg-primary text-white">
 		<div class="card-body">
 			<h2 class="card-title" style="font-weight: 900; font-size: 300%">{{ site.data.stats._total_count_ }}</h2>
 			<p class="card-subtitle mb-2">Videos</p>
 			<p class="card-text">from our amazing community</p>
+		</div>
+	</div>
+	</div>
+
+	<div class="col-md-4">
+	<div class="card bg-primary text-white">
+		<div class="card-body">
+			<h2 class="card-title" style="font-weight: 900; font-size: 300%">{{ site.data.stats._speakers_count_}}</h2>
+			<p class="card-subtitle mb-2">Contributors</p>
+			<p class="card-text">from around the world</p>
 		</div>
 	</div>
 	</div>
