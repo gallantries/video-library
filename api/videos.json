@@ -5445,16 +5445,13 @@
     "description": null,
     "materials": [
       {
-        "link": "https://www.researchobject.org/workflow-run-crate/profiles/"
-      },
-      {
-        "link": "https://by-covid.github.io/baseline-use-case-synthetic-crate/"
+        "link": "https://by-covid.github.io/gtn/workflow-run-ro-crate/"
       }
     ],
     "tags": [
       "ro-crate"
     ],
-    "title": "Workflow Run Crate profile intro",
+    "title": "Workflow Run RO-Crate Introduction",
     "type": "Tutorial",
     "versions": [
 
