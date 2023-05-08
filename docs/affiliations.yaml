@@ -226,6 +226,10 @@ uni-edinburgh:
   link: "https://www.ed.ac.uk/"
   logo: uni-edinburgh.png
 
+uni-illinois:
+  name: University of Illinois Urbana-Champaign
+  link: "https://illinois.edu/"
+
 uni-san-raffaele:
   name: Università Vita-Salute San Raffaele
   link: "https://www.unisr.it/"
