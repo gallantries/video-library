@@ -5597,7 +5597,8 @@
     "title": "RNA-seq analysis with Bioconductor",
     "type": "Tutorial",
     "instructors": [
-      "csoneson"
+      "csoneson",
+      "jdrnevich"
     ],
     "cover": {
       "link": "bioconductor-session.jpg",
