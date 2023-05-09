@@ -3582,11 +3582,18 @@ wetlab/miseq/demo:
 ro-crates/intro/slides:
   description:
   materials:
-  - link: https://doi.org/10.5281/zenodo.7559339
+  - link: https://doi.org/10.5281/zenodo.7828632
   tags: [ro-crate]
-  title: Intro to RO-Crate
+  title: An overview of the RO-Crate concept and its implementations
   type: Tutorial
-  versions: []
+  versions: 
+  - captions:
+      - stain
+    date: 2023-04-14
+    length: 17M
+    link: 5GYdN5B1tc8
+    speakers:
+      - stain
   support_channel: ro-crate
   cover:
     link: rocrate.png
@@ -3622,18 +3629,6 @@ ro-crates/workflow-run-crate/tutorial:
   - link: https://by-covid.github.io/gtn/workflow-run-ro-crate/
   tags: [ro-crate]
   title: Workflow Run RO-Crate Introduction
-  type: Tutorial
-  versions: []
-  support_channel: ro-crate
-  cover:
-    link: rocrate.png
-    alt: RO Crate logo
-ro-crates/extending/tutorial:
-  description:
-  materials:
-  - link: https://www.researchobject.org/ro-crate/1.2-DRAFT/profiles
-  tags: [ro-crate]
-  title: Extending RO-Crate & Making a Profile
   type: Tutorial
   versions: []
   support_channel: ro-crate
