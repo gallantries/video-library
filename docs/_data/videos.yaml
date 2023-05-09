@@ -2946,6 +2946,7 @@ single-cell/bulk-music/tutorial:
     link: nfAUXP3W-jM
     speakers:
     - nomadscientist
+
 transcriptomics/de-novo/tutorial:
   description: In this tutorial, we will use de novo transcript reconstruction to
     infer transcript structures from aligned reads. We will identify and quantify
@@ -3024,6 +3025,13 @@ single-cell/scrna-case_alevin-combine-datasets/tutorial:
   - transcriptomics
   type: Demo
   versions:
+  - link: 22t-4qvHnow
+    length: 11M
+    date: '2023-05-09'
+    speakers:
+    - hrukkudyr
+    captions:
+    - hrukkudyr
   - captions:
     - nomadscientist
     date: '2021-02-15'
