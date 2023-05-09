@@ -1559,6 +1559,12 @@ galaxy-interface/collections/tutorial:
   - galaxy-interface
   type: Tutorial
   versions:
+  - link: uN6nP3I7QLE
+    captions:
+    date: '2023-05-09'
+    length: 13M
+    speakers:
+    - delphine-l
   - captions:
     - annefou
     - mariipia10
