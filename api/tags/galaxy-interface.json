@@ -48,6 +48,15 @@
       "type": "Tutorial",
       "versions": [
         {
+          "link": "uN6nP3I7QLE",
+          "captions": null,
+          "date": "2023-05-09",
+          "length": "13M",
+          "speakers": [
+            "delphine-l"
+          ]
+        },
+        {
           "captions": [
             "annefou",
             "mariipia10"
@@ -62,7 +71,7 @@
       ],
       "gtn_id": "galaxy-interface/collections",
       "title": "Using dataset collections",
-      "captioned": true
+      "captioned": false
     },
     "galaxy-interface/ncbi-sarf/slides": {
       "description": "This lecture will introduce the SRA Aligned Read format available in the cloud from SRA, as well as some accompanying metadata that can help you search and filter the data. This sessions is aimed specifically at SARS-CoV-2 runs in SRA.",
