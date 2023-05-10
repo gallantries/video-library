@@ -12,7 +12,6 @@ program:
       - video: ro-crates/publishing/tutorial
       - video: ro-crates/python/tutorial
       - video: ro-crates/workflow-run-crate/tutorial
-      - video: ro-crates/extending/tutorial
   extending:
     title: Publishing Workflow RO-Crates with Galaxy
     trainings:
