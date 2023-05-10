@@ -20,6 +20,7 @@ program:
     title: Long-read microbiome sequencing
     trainings:
       - video: metagenomics/pathogen-detection-from-nanopore-foodborne-data/tutorial
+      - video: metagenomics/beer-data-analysis/tutorial
       - video: wetlab/miseq/demo
       - video: metagenomics/clinical-applications
       - video: metagenomics/plasmid-metagenomics-nanopore/tutorial
