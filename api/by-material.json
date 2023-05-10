@@ -1551,6 +1551,15 @@
   ],
   "topics/genome-annotation/tutorials/repeatmasker/tutorial.html": [
     {
+      "link": "7tYEDmAvHD4",
+      "speakers": [
+        "abretaud"
+      ],
+      "length": "18M",
+      "captions": null,
+      "galaxy_version": "23.01"
+    },
+    {
       "captions": [
         "abretaud"
       ],
@@ -1719,6 +1728,18 @@
       "captions": null
     }
   ],
+  "topics/metagenomics/tutorials/beer-data-analysis/tutorial.html": [
+    {
+      "link": "wJwdgvZVeIg",
+      "speakers": [
+        "bebatut"
+      ],
+      "captions": null,
+      "date": "2023-05-10",
+      "galaxy_version": "23.01",
+      "length": "1H5M"
+    }
+  ],
   "topics/metagenomics/tutorials/metagenomics-assembly/tutorial.html": [
     {
       "link": "1ZYGy85Im7w",
@@ -1728,7 +1749,10 @@
       ],
       "galaxy_version": "23.01",
       "length": "1H",
-      "captions": null
+      "captions": [
+        "bebatut",
+        "sophia120199"
+      ]
     }
   ],
   "topics/proteomics/tutorials/encyclopedia/tutorial.html": [

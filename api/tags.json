@@ -1054,12 +1054,15 @@
             ],
             "galaxy_version": "23.01",
             "length": "1H",
-            "captions": null
+            "captions": [
+              "bebatut",
+              "sophia120199"
+            ]
           }
         ],
         "gtn_id": "metagenomics/metagenomics-assembly",
         "title": "Assembly of metagenomic sequencing data",
-        "captioned": false
+        "captioned": true
       }
     }
   },
@@ -3388,6 +3391,15 @@
         "type": "Tutorial",
         "versions": [
           {
+            "link": "7tYEDmAvHD4",
+            "speakers": [
+              "abretaud"
+            ],
+            "length": "18M",
+            "captions": null,
+            "galaxy_version": "23.01"
+          },
+          {
             "captions": [
               "abretaud"
             ],
@@ -3402,7 +3414,7 @@
         ],
         "gtn_id": "genome-annotation/repeatmasker",
         "title": "Masking repeats with RepeatMasker",
-        "captioned": true
+        "captioned": false
       },
       "genome-annotation/tnseq-lecture": {
         "description": "This lecture talks about the basics of TnSeq analysis\n",
@@ -3769,6 +3781,34 @@
         "title": "Pathogen detection from (direct Nanopore) sequencing data using Galaxy - Foodborne Edition",
         "captioned": false
       },
+      "metagenomics/beer-data-analysis/tutorial": {
+        "description": null,
+        "tags": [
+          "metagenomics"
+        ],
+        "type": "Tutorial",
+        "materials": [
+          {
+            "link": "topics/metagenomics/tutorials/beer-data-analysis/tutorial.html",
+            "type": "Tutorial"
+          }
+        ],
+        "versions": [
+          {
+            "link": "wJwdgvZVeIg",
+            "speakers": [
+              "bebatut"
+            ],
+            "captions": null,
+            "date": "2023-05-10",
+            "galaxy_version": "23.01",
+            "length": "1H5M"
+          }
+        ],
+        "gtn_id": "metagenomics/beer-data-analysis",
+        "title": "Identification of the micro-organisms in a beer using Nanopore sequencing",
+        "captioned": false
+      },
       "metagenomics/metagenomics-assembly/tutorial": {
         "description": "In this tutorial, we will learn how to run metagenomic assembly tool and evaluate the quality of the generated assemblies.\nTo do that, we will use data from the study: Temporal shotgun metagenomic dissection of the coffee fermentation ecosystem.\nFor an in-depth analysis of the structure and functions of the coffee microbiome, a temporal shotgun metagenomic study\n(six time points) was performed. The six samples have been sequenced with Illumina MiSeq utilizing whole genome sequencing.\n",
         "tags": [
@@ -3790,12 +3830,15 @@
             ],
             "galaxy_version": "23.01",
             "length": "1H",
-            "captions": null
+            "captions": [
+              "bebatut",
+              "sophia120199"
+            ]
           }
         ],
         "gtn_id": "metagenomics/metagenomics-assembly",
         "title": "Assembly of metagenomic sequencing data",
-        "captioned": false
+        "captioned": true
       }
     }
   },

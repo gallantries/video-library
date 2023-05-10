@@ -27,6 +27,9 @@
         },
         {
           "video": "metagenomics/pathogen-detection-from-nanopore-foodborne-data/tutorial"
+        },
+        {
+          "video": "metagenomics/beer-data-analysis/tutorial"
         }
       ]
     },
