@@ -3638,7 +3638,7 @@ ro-crates/workflow-run-crate/tutorial:
 ro-crates/workflowhub/tutorial:
   description:
   materials:
-  - link: https://dev.workflowhub.eu
+  - link: https://doi.org/10.5281/zenodo.7787488
   - link: https://about.workflowhub.eu/docs/registering-a-workflow/
   tags: [ro-crate, workflowhub]
   title: Registering Galaxy workflows in WorkflowHub
