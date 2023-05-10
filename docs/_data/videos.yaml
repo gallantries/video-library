@@ -1935,6 +1935,13 @@ genome-annotation/repeatmasker/tutorial:
   - genome-annotation
   type: Tutorial
   versions:
+  - link: 7tYEDmAvHD4
+    speakers:
+    - abretaud
+    length: 18M
+    captions:
+    galaxy_version: '23.01'
+
   - captions:
     - abretaud
     date: '2022-03-03'
