@@ -16,6 +16,7 @@ program:
       - video: metagenomics/clinical-applications
       - video: metagenomics/plasmid-metagenomics-nanopore/tutorial
       - video: metagenomics/pathogen-detection-from-nanopore-foodborne-data/tutorial
+      - video: metagenomics/beer-data-analysis/tutorial
 
   other:
     title: Other

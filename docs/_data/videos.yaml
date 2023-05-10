@@ -2168,6 +2168,23 @@ metagenomics/pathogen-detection-from-nanopore-foodborne-data/tutorial:
     - EngyNasr
     captions:
 
+metagenomics/beer-data-analysis/tutorial:
+  description:
+  tags:
+  - metagenomics
+  type: Tutorial
+  materials:
+  - link: topics/metagenomics/tutorials/beer-data-analysis/tutorial.html
+    type: Tutorial
+  versions:
+  - link: wJwdgvZVeIg
+    speakers:
+    - bebatut
+    captions:
+    date: '2023-05-10'
+    galaxy_version: '23.01'
+    length: 1H5M
+
 metagenomics/metagenomics-assembly/tutorial:
   description: |
     In this tutorial, we will learn how to run metagenomic assembly tool and evaluate the quality of the generated assemblies.
@@ -3588,7 +3605,7 @@ ro-crates/intro/slides:
   tags: [ro-crate]
   title: An overview of the RO-Crate concept and its implementations
   type: Tutorial
-  versions: 
+  versions:
   - captions:
       - stain
     date: '2023-04-14'
