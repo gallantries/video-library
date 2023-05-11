@@ -1923,11 +1923,10 @@ genome-annotation/funannotate/tutorial:
     speakers:
     - abretaud
 genome-annotation/repeatmasker/tutorial:
-  description: 'The aim of repeat masking is to identify the location of all repeated
+  description: |
+    The aim of repeat masking is to identify the location of all repeated
     elements along a genome sequence. Other tools (like annotation pipelines) can
     then take this information into account when producing their results.
-
-    '
   materials:
   - link: topics/genome-annotation/tutorials/repeatmasker/tutorial.html
     type: Tutorial
@@ -1941,7 +1940,7 @@ genome-annotation/repeatmasker/tutorial:
     length: 18M
     captions:
     galaxy_version: '23.01'
-
+    date: '2023-05-10'
   - captions:
     - abretaud
     date: '2022-03-03'
