@@ -114,23 +114,24 @@ Below you will find all the tutorials for this course, everything you need to fo
 {% endif %}
 
 <hr style="margin-top: 6em; margin-bottom: 1em;" />
-<h3>Organisers</h3>
+<details>
+	<summary>Organiser Information</summary>
 
-<p>
-<a class="btn btn-secondary" style="color: white" href="https://gallantries.github.io/course-builder/?event={{ page.url | replace: '.html', '.json' }}">Remix this course in the course builder</a>
-</p>
+	<p>
+	<a class="btn btn-secondary" style="color: white" href="https://gallantries.github.io/course-builder/?event={{ page.url | replace: '.html', '.json' }}">Remix this course in the course builder</a>
+	</p>
 
-<p>
-Did you organise this? Request TIaaS on:
+	<p>
+	Did you organise this? Request TIaaS on:
 
-{% assign organiser = page.contacts[0] %}
-{%- capture urlparams -%}
-?name={{ site.data['instructors'][organiser].name | uri_escape}}&email={{ site.data['instructors'][organiser].email | uri_escape }}&title={{ page.title | uri_escape }}&description={{ page.description | uri_escape }}&start={{ page.date.start }}&end={{ page.date.end }}&website={{ site.url }}{{ site.baseurl }}{{ page.url }}&use_gtn=true&gtn_links={{ 'See course page' | uri_escape }}&training_identifier={{ page.id | uri_escape }}
-{%- endcapture -%}
-<ul>
-	<li><a href="https://usegalaxy.eu/tiaas/new/{{ urlparams }}">UseGalaxy.eu</a></li>
-	<li><a href="https://usegalaxy.org/tiaas/new/{{ urlparams }}">UseGalaxy.org</a></li>
-	<li><a href="https://usegalaxy.org.au/tiaas/new/{{ urlparams }}">UseGalaxy.org.au</a></li>
-</ul>
-Note, this feature may not work correctly yet, until all sites update their TIaaS instances.
-</p>
+	{% assign organiser = page.contacts[0] %}
+	{%- capture urlparams -%}
+	?name={{ site.data['instructors'][organiser].name | uri_escape}}&email={{ site.data['instructors'][organiser].email | uri_escape }}&title={{ page.title | uri_escape }}&description={{ page.description | uri_escape }}&start={{ page.date.start }}&end={{ page.date.end }}&website={{ site.url }}{{ site.baseurl }}{{ page.url }}&use_gtn=true&gtn_links={{ 'See course page' | uri_escape }}&training_identifier={{ page.id | uri_escape }}
+	{%- endcapture -%}
+	<ul>
+		<li><a href="https://usegalaxy.eu/tiaas/new/{{ urlparams }}">UseGalaxy.eu</a></li>
+		<li><a href="https://usegalaxy.org/tiaas/new/{{ urlparams }}">UseGalaxy.org</a></li>
+		<li><a href="https://usegalaxy.org.au/tiaas/new/{{ urlparams }}">UseGalaxy.org.au</a></li>
+	</ul>
+	</p>
+</details>
