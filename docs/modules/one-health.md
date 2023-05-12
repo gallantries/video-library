@@ -5,7 +5,7 @@ title: One Health
 program:
   viral:
     title: "Viral Pathogen Analysis"
-    description: TODO description (if useful)
+    #description: TODO description (if useful)
     trainings:
       - video: virology/sequencing-spectrum-viral-genomes
       - video: introduction/galaxy-intro-ngs-data-managment
@@ -16,14 +16,14 @@ program:
 
   tb:
     title: Tuberculosis Sequence Analysis
-    description: TODO description
+    #description: TODO description
     trainings:
       - session: variant-analysis/tb-variant-analysis
 
 
   surveillance:
     title: "Building a pathogen surveillance system"
-    description: TODO description
+    #description: TODO description
     trainings:
       - video: sars-cov2/using-galaxy
       - video: variant-analysis/sars-cov-2-variant-discovery/tutorial
@@ -32,13 +32,16 @@ program:
 
   archiving:
     title: Pathogen data sharing and archiving
-    description: TODO description
+    #description: TODO description
     trainings:
       - video: assembly/assembly-with-preprocessing
       - video: sars-cov2/upload-ena
       - video: galaxy-interface/upload-to-ena
 
-
+  other:
+    title: Other tutorials
+    trainings:
+      - video: variant-analysis/trio-analysis/tutorial
 ---
 
 'One Health' is an integrated, unifying approach to balance and optimize the health of people, animals and the environment. It is particularly important to prevent, predict, detect, and respond to global health threats such as the COVID-19 pandemic.

@@ -3465,6 +3465,23 @@ variant-analysis/tb-variant-analysis/tutorial:
     link: G1DmquX6Wh8
     speakers:
     - pvanheus
+
+variant-analysis/trio-analysis/tutorial:
+  description: |
+    To discover causal mutations of inherited diseases it’s common practice to do a trio
+    analysis. In a trio analysis DNA is sequenced of both the patient and parents. Using this
+    method, it’s possible to identify multiple inheritance patterns.
+  materials:
+  - link: topics/variant-analysis/tutorials/trio-analysis/tutorial.html
+    type: Tutorial
+  versions:
+  - link: 3OWXWOkJRqU
+    speakers:
+    - JasperO98
+    captions: []
+    date: '2023-05-12'
+    length: 40M
+
 visualisation/circos/slides:
   description: Circos is a popular tool for creating circular graphs to display genomic
     data. This video will introduce this tool and how to use it within Galaxy
