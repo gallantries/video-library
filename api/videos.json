@@ -5215,6 +5215,28 @@
     "title": "M. tuberculosis Variant Analysis",
     "captioned": true
   },
+  "variant-analysis/trio-analysis/tutorial": {
+    "description": "To discover causal mutations of inherited diseases it’s common practice to do a trio\nanalysis. In a trio analysis DNA is sequenced of both the patient and parents. Using this\nmethod, it’s possible to identify multiple inheritance patterns.\n",
+    "materials": [
+      {
+        "link": "topics/variant-analysis/tutorials/trio-analysis/tutorial.html",
+        "type": "Tutorial"
+      }
+    ],
+    "versions": [
+      {
+        "link": "3OWXWOkJRqU",
+        "speakers": [
+          "JasperO98"
+        ],
+        "captions": [
+
+        ],
+        "date": "2023-05-12",
+        "length": "40M"
+      }
+    ]
+  },
   "visualisation/circos/slides": {
     "description": "Circos is a popular tool for creating circular graphs to display genomic data. This video will introduce this tool and how to use it within Galaxy",
     "materials": [

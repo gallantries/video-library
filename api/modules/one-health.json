@@ -4,7 +4,6 @@
   "program": {
     "viral": {
       "title": "Viral Pathogen Analysis",
-      "description": "TODO description (if useful)",
       "trainings": [
         {
           "video": "virology/sequencing-spectrum-viral-genomes"
@@ -28,7 +27,6 @@
     },
     "tb": {
       "title": "Tuberculosis Sequence Analysis",
-      "description": "TODO description",
       "trainings": [
         {
           "session": "variant-analysis/tb-variant-analysis"
@@ -37,7 +35,6 @@
     },
     "surveillance": {
       "title": "Building a pathogen surveillance system",
-      "description": "TODO description",
       "trainings": [
         {
           "video": "sars-cov2/using-galaxy"
@@ -55,7 +52,6 @@
     },
     "archiving": {
       "title": "Pathogen data sharing and archiving",
-      "description": "TODO description",
       "trainings": [
         {
           "video": "assembly/assembly-with-preprocessing"
@@ -65,6 +61,14 @@
         },
         {
           "video": "galaxy-interface/upload-to-ena"
+        }
+      ]
+    },
+    "other": {
+      "title": "Other tutorials",
+      "trainings": [
+        {
+          "video": "variant-analysis/trio-analysis/tutorial"
         }
       ]
     }
