@@ -1537,6 +1537,18 @@
   ],
   "topics/genome-annotation/tutorials/funannotate/tutorial.html": [
     {
+      "link": "p0NBxZk5964",
+      "speakers": [
+        "abretaud"
+      ],
+      "date": "2023-05-12",
+      "galaxy_version": "23.01",
+      "length": "1H10M",
+      "captions": [
+
+      ]
+    },
+    {
       "captions": [
         "abretaud"
       ],
