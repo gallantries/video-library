@@ -2180,6 +2180,7 @@ metagenomics/pathogen-detection-from-nanopore-foodborne-data/tutorial:
     speakers:
     - EngyNasr
     captions:
+    - EngyNasr
 
 metagenomics/beer-data-analysis/tutorial:
   description:
