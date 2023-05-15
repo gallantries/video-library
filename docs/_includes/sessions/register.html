@@ -15,9 +15,9 @@
         <ul>
         {% for s in include.galaxies %}
          {% if s.custom %}
-           <li><a href="{{s.custom.url}}">🌍 {{s.custom.name}}</a></li>
+         <li><a href="{{s.custom.url}}">{{ s.custom.region | default:"🗺️" }} {{s.custom.name}}</a></li>
          {% else %}
-         <li><a href="{{site.data.servers[s.server].url}}">🌍 {{site.data.servers[s.server].name}}</a></li>
+         <li><a href="{{site.data.servers[s.server].url}}">{{site.data.servers[s.server].region | default:"🗺️"}} {{site.data.servers[s.server].name}}</a></li>
          {% endif %}
         {% endfor %}
         </ul>

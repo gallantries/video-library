@@ -1,23 +1,29 @@
 eu:
   name: Galaxy Europe
   url: "https://usegalaxy.eu"
+  region: 🌍
 
 au:
   name: Galaxy Australia
   url: "https://usegalaxy.org.au"
+  region: 🌏
 
 us:
   name: Galaxy US
   url: "https://usegalaxy.org"
+  region: 🌎
 
 be:
   name: Galaxy Belgium
   url: "https://usegalaxy.be"
+  region: 🌍
 
 fr:
   name: Galaxy France (French language support only)
   url: "https://usegalaxy.fr"
+  region: 🌍
 
 galaxy-p:
   name: Galaxy-P
   url: "https://proteomics.usegalaxy.eu"
+  region: 🌎
