@@ -7,7 +7,6 @@ program:
     title: Bioconductor Carpentries lessons
     trainings:
       - video: bioconductor/bioc-intro/tutorial
-      - video: bioconductor/bioc-rnaseq/tutorial
       - video: bioconductor/bioc-project/tutorial
   building:
     title: Bioconductor conference workshops
