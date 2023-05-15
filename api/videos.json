@@ -4806,6 +4806,19 @@
     "type": "Tutorial",
     "versions": [
       {
+        "link": "AeiW3IItO_c",
+        "speakers": [
+          "lldelisle"
+        ],
+        "captions": [
+
+        ],
+        "date": "2023-05-15",
+        "galaxy_version": "23.01",
+        "length": "2H50M",
+        "cyoa": true
+      },
+      {
         "captions": [
           "hexylena",
           "shiltemann"
@@ -4821,7 +4834,7 @@
     ],
     "gtn_id": "transcriptomics/ref-based",
     "title": "Reference-based RNA-Seq data analysis",
-    "captioned": true
+    "captioned": false
   },
   "transcriptomics/rna-seq-counts-to-viz-in-r/tutorial": {
     "description": "In this tutorial, we will visualize our RNA-seq analysis results using R.",
