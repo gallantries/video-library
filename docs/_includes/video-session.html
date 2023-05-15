@@ -41,6 +41,17 @@
               <td><strong>Length:</strong></td>
               <td>{{ include.video.length | duration_to_human }}</td>
           </tr>
+          {% if include.video.cyoa %}
+          <tr>
+              <td><strong>CYOA:</strong></td>
+              <td>
+              This is a <strong><i>Choose-Your-Own-Adventure</i></strong> (CYOA) tutorial!
+              This means you will be presented with a choice at the end of the video;
+              pick one of the paths and a new video will play. Happy Adventuring!
+              </td>
+          </tr>
+          {% endif %}
+
    {% assign captions = include.video.captions | size %}
    {% if captions == 0 %}
           <tr>
