@@ -9,9 +9,6 @@
           "video": "bioconductor/bioc-intro/tutorial"
         },
         {
-          "video": "bioconductor/bioc-rnaseq/tutorial"
-        },
-        {
           "video": "bioconductor/bioc-project/tutorial"
         }
       ]

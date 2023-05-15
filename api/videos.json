@@ -5679,33 +5679,6 @@
     "support_channel": "bioconductor",
     "gtn_id": "bioconductor/bioc-intro"
   },
-  "bioconductor/bioc-rnaseq/tutorial": {
-    "title": "RNA-seq analysis with Bioconductor",
-    "type": "Tutorial",
-    "instructors": [
-      "csoneson",
-      "jdrnevich"
-    ],
-    "cover": {
-      "link": "bioconductor-session.jpg",
-      "alt": "Bioconductor logo"
-    },
-    "description": "Analysis and interpretation of bulk RNA-Sequencing data using Bioconductor\nshows how to use Bioconductor packages to analyse RNA-Seq data. It expects\ngood familiarity with R and the Bioconductor project.\n",
-    "materials": [
-      {
-        "link": "https://carpentries-incubator.github.io/bioc-rnaseq/"
-      }
-    ],
-    "tags": [
-      "bioconductor",
-      "r"
-    ],
-    "versions": [
-
-    ],
-    "support_channel": "bioconductor",
-    "gtn_id": "bioconductor/bioc-rnaseq"
-  },
   "bioconductor/bioc-project/tutorial": {
     "title": "The Bioconductor project",
     "type": "Tutorial",
