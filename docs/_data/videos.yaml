@@ -930,6 +930,27 @@ course/welcome-smorg2022:
     speakers:
     - shiltemann
     - hexylena
+course/welcome-smorg2023:
+  description: Start here! We will go over all the important things you need to know
+    about this week!
+  materials:
+  - external: true
+    link: https://docs.google.com/presentation/d/e/2PACX-1vTbVLWzFsiBXaPbGeSdZs2PutWQMHJm2tnttFQPO2ZWujfipZKUDJUCGLMwRMZ5k8o7oST7R_vX2x91/pub?start=false&loop=false&delayms=3000
+    type: Slides
+  support_channel: general
+  tags:
+  - event
+  title: Start Here! Welcome & Course Logistics
+  type: Welcome
+  versions:
+  - captions:
+    - shiltemann
+    date: '2023-05-16'
+    length: 15M
+    link: _Gr-filBzp4
+    speakers:
+    - shiltemann
+    - hexylena
 data-science/r-advanced/tutorial:
   description: An advanced tutorial covering downstream analysis of RNA-seq data using
     R.
