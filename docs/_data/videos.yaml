@@ -1946,6 +1946,7 @@ genome-annotation/repeatmasker/tutorial:
     - abretaud
     length: 18M
     captions:
+    - abretaud
     galaxy_version: '23.01'
     date: '2023-05-10'
   - captions:
