@@ -3055,7 +3055,9 @@
           "abretaud"
         ],
         "length": "18M",
-        "captions": null,
+        "captions": [
+          "abretaud"
+        ],
         "galaxy_version": "23.01",
         "date": "2023-05-10"
       },
@@ -3074,7 +3076,7 @@
     ],
     "gtn_id": "genome-annotation/repeatmasker",
     "title": "Masking repeats with RepeatMasker",
-    "captioned": false
+    "captioned": true
   },
   "genome-annotation/tnseq-lecture": {
     "description": "This lecture talks about the basics of TnSeq analysis\n",
