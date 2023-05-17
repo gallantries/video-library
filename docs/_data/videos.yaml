@@ -3226,7 +3226,6 @@ transcriptomics/ref-based/tutorial:
     date: '2023-05-15'
     galaxy_version: '23.01'
     length: 2H50M
-    cyoa: true
   - captions:
     - hexylena
     - shiltemann
@@ -3530,6 +3529,9 @@ variant-analysis/trio-analysis/tutorial:
   materials:
   - link: topics/variant-analysis/tutorials/trio-analysis/tutorial.html
     type: Tutorial
+  tags:
+  - variant-analysis
+  type: Tutorial
   versions:
   - link: 3OWXWOkJRqU
     speakers:
