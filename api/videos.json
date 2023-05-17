@@ -3525,7 +3525,9 @@
         "speakers": [
           "bebatut"
         ],
-        "captions": null,
+        "captions": [
+          "sophia120199"
+        ],
         "date": "2023-05-10",
         "galaxy_version": "23.01",
         "length": "1H5M"
@@ -3533,7 +3535,7 @@
     ],
     "gtn_id": "metagenomics/beer-data-analysis",
     "title": "Identification of the micro-organisms in a beer using Nanopore sequencing",
-    "captioned": false
+    "captioned": true
   },
   "metagenomics/metagenomics-assembly/tutorial": {
     "description": "In this tutorial, we will learn how to run metagenomic assembly tool and evaluate the quality of the generated assemblies.\nTo do that, we will use data from the study: Temporal shotgun metagenomic dissection of the coffee fermentation ecosystem.\nFor an in-depth analysis of the structure and functions of the coffee microbiome, a temporal shotgun metagenomic study\n(six time points) was performed. The six samples have been sequenced with Illumina MiSeq utilizing whole genome sequencing.\n",
