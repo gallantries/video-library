@@ -14,6 +14,7 @@ program:
       - session: sequence-analysis/quality-control
       - session: sequence-analysis/mapping
       - session: assembly
+      - video: assembly/largegenome/tutorial
   advanced:
     title: Advanced Genomics Analyses
     description: |

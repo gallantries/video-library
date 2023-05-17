@@ -555,6 +555,24 @@ assembly/assembly-with-preprocessing:
     link: jNFLYhjgJPs
     speakers:
     - gallardoalba
+
+assembly/largegenome/tutorial:
+  description: In this tutorial, we will walk you through an assembly of a large genome, such as a plant or animal genome.
+  materials:
+  - link: topics/assembly/tutorials/largegenome/tutorial.html
+    title: Large genome assembly and polishing
+    type: Tutorial
+  tags: [assembly]
+  type: Tutorial
+  versions:
+  - link: BM70nvwWjOY
+    captions: [annasyme]
+    speakers:
+    - annasyme
+    length: 25M
+    date: '2023-05-16'
+    galaxy_version: '23.01'
+
 assembly/chloroplast-assembly/tutorial:
   description: In this tutorial, you will assemble a chloroplast genome using a combination
     of short and long read data.
@@ -596,7 +614,7 @@ assembly/general-introduction/slides:
     - slugger70
 assembly/vgp_genome_assembly-workflow:
   description: 'This demo walks you through running the VGP Genome Assembly workflows,
-    rather than the whole tutorial (as most GTN Tapas videos do)
+    rather than the whole tutorial (as most GTN videos do)
 
     '
   materials:
@@ -611,7 +629,7 @@ assembly/vgp_genome_assembly-workflow:
   title: Running the VGP Genome Assembly workflows
   type: Demo
   versions:
-  - captions: null
+  - captions: [delphine-l]
     date: '2022-03-13'
     galaxy_version: '21.09'
     length: 10M
