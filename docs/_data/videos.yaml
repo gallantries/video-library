@@ -2087,6 +2087,24 @@ introduction/galaxy-intro-ngs-data-managment:
     link: 9mIL0tIfZ_o
     speakers:
     - nekrut
+variant-analysis/sars-cov-2:
+  description: A demo of SARS-CoV-2 sequencing data analysis from sequenced reads in NCBI's SRA to called and annotated mutations for a batch of viral samples.
+  materials:
+  - link: topics/variant-analysis/tutorials/sars-cov-2/tutorial.html
+    title: 'From NCBI''s Sequence Read Archive (SRA) to Galaxy: SARS-CoV-2 variant analysis'
+    type: Tutorial
+  tags:
+  - variant-analysis
+  type: Demo
+  versions:
+  - captions:
+    - nekrut
+    date: '2021-02-15'
+    galaxy_version: '21.01'
+    length: 15M
+    link: 9mIL0tIfZ_o
+    speakers:
+    - nekrut
 metagenomics/clinical-applications:
   description: Nanopore Sequencing has many applications in a clinical setting. In
     this lecture, Astrid Heikema discusses how her group at the Erasmus Medical Center
@@ -3226,7 +3244,6 @@ transcriptomics/ref-based/tutorial:
     date: '2023-05-15'
     galaxy_version: '23.01'
     length: 2H50M
-    cyoa: true
   - captions:
     - hexylena
     - shiltemann
@@ -3530,6 +3547,9 @@ variant-analysis/trio-analysis/tutorial:
   materials:
   - link: topics/variant-analysis/tutorials/trio-analysis/tutorial.html
     type: Tutorial
+  tags:
+  - variant-analysis
+  type: Tutorial
   versions:
   - link: 3OWXWOkJRqU
     speakers:
