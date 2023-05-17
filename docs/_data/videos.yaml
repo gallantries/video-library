@@ -2073,7 +2073,7 @@ variant-analysis/sars-cov-2:
   description: A demo of SARS-CoV-2 sequencing data analysis from sequenced reads in NCBI's SRA to called and annotated mutations for a batch of viral samples.
   materials:
   - link: topics/variant-analysis/tutorials/sars-cov-2/tutorial.html
-    title: 'From NCBI's Sequence Read Archive (SRA) to Galaxy: SARS-CoV-2 variant analysis'
+    title: 'From NCBI''s Sequence Read Archive (SRA) to Galaxy: SARS-CoV-2 variant analysis'
     type: Tutorial
   tags:
   - variant-analysis
