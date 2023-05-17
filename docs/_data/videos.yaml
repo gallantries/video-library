@@ -2163,6 +2163,13 @@ metagenomics/metatranscriptomics:
   - metagenomics
   type: Tutorial
   versions:
+  - link: HNYop3vLpoM
+    date: '2023-05-17'
+    speakers:
+    - paulzierep
+    captions: []
+    length: 1H5M
+    galaxy_version: "23.01"
   - captions:
     - EngyNasr
     - shiltemann
