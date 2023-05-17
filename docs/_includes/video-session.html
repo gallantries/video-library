@@ -125,6 +125,34 @@
               </td>
           </tr>
           {% endunless %}
+          {% if site.data.supported[include.id] %}
+          <tr>
+              <td><strong>Supported Servers:</strong></td>
+      <td>
+                {% assign exact_length = site.data.supported[include.id]['exact'] | size %}
+                {% assign inexact_length = site.data.supported[include.id]['inexact'] | size %}
+
+                {% if exact_length > 0 %}
+                  Known Working
+                  <ul>
+                      {% for server in site.data.supported[include.id]['exact'] %}
+                      <li><a href="{{ server.url }}?utm_source=video&utm_medium=click&utm_campaign=video-library">{{ server.name }}</a> ✅{% if server.usegalaxy == "true" %}⭐️{% endif %}</li>
+                      {% endfor %}
+                  </ul>
+                  {% endif %}
+
+                {% if inexact_length > 0 %}
+                  Possibly Working
+                  <ul>
+                      {% for server in site.data.supported[include.id]['inexact'] %}
+                      <li><a href="{{ server.url }}?utm_source=video&utm_medium=click&utm_campaign=video-library">{{ server.name }}</a> {% if server.usegalaxy == "true" %}⭐️{% endif %}</li>
+
+                      {% endfor %}
+                  </ul>
+                  {% endif %}
+              </td>
+          </tr>
+          {% endif %}
           {% if site.data.objectives[include.id] %}
           <tr>
               <td><strong>Learning Objectives:</strong></td>
