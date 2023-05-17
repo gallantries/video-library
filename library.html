@@ -6428,12 +6428,250 @@ add a button, include configuration options:
   
   <div class="accordion-header" id="headingassembly1">
    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseassembly1" aria-expanded="false" aria-controls="collapseassembly1">
+        Large genome assembly and polishing
+         (Tutorial) 
+   </button>
+  </div>
+
+  <div id="collapseassembly1" class="accordion-collapse collapse " aria-labelledby="headingassembly1" data-bs-parent="#accordionassembly">
+
+    <div class="accordion-body">
+
+      <!-- Video -->
+      
+        
+           
+           <!-- session: {"description"=>"In this tutorial, we will walk you through an assembly of a large genome, such as a plant or animal genome.", "materials"=>[{"link"=>"topics/assembly/tutorials/largegenome/tutorial.html", "title"=>"Large genome assembly and polishing", "type"=>"Tutorial"}], "tags"=>["assembly"], "type"=>"Tutorial", "versions"=>[{"link"=>"BM70nvwWjOY", "captions"=>["annasyme"], "speakers"=>["annasyme"], "length"=>"25M", "date"=>"2023-05-16", "galaxy_version"=>"23.01", "name"=>"Large genome assembly and polishing"}], "gtn_id"=>"assembly/largegenome", "title"=>"Large genome assembly and polishing", "captioned"=>true, "name"=>"Large genome assembly and polishing"}<br><br> video: {"link"=>"BM70nvwWjOY", "captions"=>["annasyme"], "speakers"=>["annasyme"], "length"=>"25M", "date"=>"2023-05-16", "galaxy_version"=>"23.01", "name"=>"Large genome assembly and polishing"} -->
+
+
+
+
+
+
+<!-- determine the next archived version of tutorial -->
+
+
+
+
+<div class="flex-row">
+ <div class="col-md-8">
+  <h3 class="session-section">Tutorial Video   </h3>
+  <div style="position:relative;padding-top:56.25%;">
+   <iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" data-src="https://www.youtube.com/embed/BM70nvwWjOY" class="lazyload" loading="lazy" frameborder="0" title="YouTube Embedded Video of the Tutorial" aria-label="YouTube Embedded Video of the Tutorial" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="">
+   </iframe>
+  </div>
+  <div style="margin-top:1em;" class="video-metadata">
+      <table>
+          
+          <tr>
+              <td><strong>Description:</strong></td>
+              <td><p>In this tutorial, we will walk you through an assembly of a large genome, such as a plant or animal genome.</p>
+</td>
+          </tr>
+          
+          <tr>
+              <td><strong>Length:</strong></td>
+              <td>25 minutes</td>
+          </tr>
+          
+
+   
+   
+          <tr>
+              <td><strong>Captions:</strong></td>
+              <td> <a href="/video-library/contributors/annasyme/">Anna Syme</a></td>
+          </tr>
+   
+          
+          <tr>
+              <td><strong>Created:</strong></td>
+              <td>16 May 2023</td>
+          </tr>
+          
+          
+          
+          <tr>
+              <td><strong>Materials:</strong></td>
+              <td>
+                <ul class="plain-text-list">
+                    
+                    <li>
+                        
+                            <img style="height: 1em" src="/video-library/assets/fa/tutorial.svg" alt="assets/fa/tutorial.svg" aria-hidden="true" />
+                            
+                        
+
+                        
+                        
+				Tutorial:
+
+				<a href="https://training.galaxyproject.org/archive/2023-05-01/topics/assembly/tutorials/largegenome/tutorial.html?utm_source=schedule&amp;utm_medium=click&amp;utm_campaign=video-library">Version in Video</a>
+				<!-- We allow overriding specific materials to their archival versions, hiding the "current" link. -->
+				
+				|
+				<a href="https://training.galaxyproject.org/topics/assembly/tutorials/largegenome/tutorial.html?utm_source=schedule&amp;utm_medium=click&amp;utm_campaign=video-library">Latest Version</a>
+				
+
+				
+				<br />
+				<img style="height: 1em" src="/video-library/assets/fa/circle-question-regular.svg" alt="assets/fa/circle-question-regular.svg" aria-hidden="true" />
+				
+				<a href="https://training.galaxyproject.org/topics/assembly/tutorials/largegenome/faqs/?utm_source=schedule&amp;utm_medium=click&amp;utm_campaign=video-library">FAQs</a>
+				
+                        
+                    </li>
+                
+                </ul>
+              </td>
+          </tr>
+          
+          <!-- this is for the embedded versions where they'll use their own1 support forum -->
+                    <tr>
+              <td><strong>Support:</strong></td>
+              <td>
+              <ul>
+                
+                
+                <li>Slack: <a href="https://gtnsmrgsbord.slack.com/archives/assembly_largegenome">#assembly_largegenome</a> <ul><li><a href="http://gxy.io/gtn-slack">Slack Invite</a></li></ul></li>
+                <li><a href="https://gitter.im/Galaxy-Training-Network/Lobby">Gitter</a></li>
+                <li><a href="https://help.galaxyproject.org">Galaxy Help Forum</a></li>
+              </ul>
+              </td>
+          </tr>
+          
+          
+          <tr>
+              <td><strong>Learning Objectives:</strong></td>
+              <td>
+                  <ul>
+                      
+                      <li>Assemble a large genome from long reads</li>
+                      
+                      <li>Polish the assembly</li>
+                      
+                      <li>Assess the quality of the assembly</li>
+                      
+                  </ul>
+              </td>
+          </tr>
+          
+          <!--
+          
+          
+          <tr>
+              <td><strong>Finished this tutorial as part of GTN Tapas?</strong></td>
+              <td>
+              <ol>
+                
+                
+                <li><a href="https://training.galaxyproject.org/training-material/faqs/galaxy/histories_sharing.html?utm_source=schedule&utm_medium=click&utm_campaign=video-library">Share your history</a> (if applicable)</li>
+                <li>Copy the URL</li>
+                <li>Run the command <code>/completed</code> with the URL to your shared history, in <a href="https://gtnsmrgsbord.slack.com/archives/assembly_largegenome">#assembly_largegenome</a></li>
+              </ol>
+              </td>
+          </tr>
+          
+          -->
+      </table>
+
+  </div>
+  
+  Go to the <a href="/video-library/videos/assembly/largegenome/tutorial">video page</a> to see all versions.
+  
+ </div>
+ <!-- speaker(s) -->
+ 
+ 
+
+ <div class="col-md-3">
+  <center><h3 class="session-section">Speaker</h3></center>
+  
+
+
+
+
+
+
+
+<div class="hall-of-fame">
+    
+    
+    
+		<div class="hall-of-fame-hero" id="annasyme">
+			
+			<a href="/video-library/contributors/annasyme/">
+			
+            
+			<img src="https://avatars.githubusercontent.com/annasyme" alt="" />
+            
+			<div class="name">
+				<b>Anna Syme</b>
+			</div>
+			
+			</a>
+			
+			<div class="affil">
+				
+				<a href="https://www.unimelb.edu.au/">
+					University of Melbourne
+				</a>
+				
+			</div>
+		</div>
+	
+    
+</div>
+
+ </div>
+
+
+</div><!-- end video session -->
+
+
+
+        
+
+      
+
+
+      <!-- Instructors -->
+      
+
+      <!-- Supporting Servers -->
+
+      <!-- Resources -->
+
+    </div><!-- end accordion body -->
+  </div><!-- end collapse -->
+</div><!-- end accordion item (training session) -->
+
+
+
+	
+		
+		
+		
+
+
+
+
+
+
+
+
+
+
+
+<div class="accordion-item">
+  
+  <div class="accordion-header" id="headingassembly2">
+   <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseassembly2" aria-expanded="false" aria-controls="collapseassembly2">
         Chloroplast genome assembly
          (Lecture &amp; Tutorial) 
    </button>
   </div>
 
-  <div id="collapseassembly1" class="accordion-collapse collapse " aria-labelledby="headingassembly1" data-bs-parent="#accordionassembly">
+  <div id="collapseassembly2" class="accordion-collapse collapse " aria-labelledby="headingassembly2" data-bs-parent="#accordionassembly">
 
     <div class="accordion-body">
 
@@ -6666,14 +6904,14 @@ add a button, include configuration options:
 
 <div class="accordion-item">
   
-  <div class="accordion-header" id="headingassembly2">
-   <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseassembly2" aria-expanded="false" aria-controls="collapseassembly2">
+  <div class="accordion-header" id="headingassembly3">
+   <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseassembly3" aria-expanded="false" aria-controls="collapseassembly3">
         An Introduction to Genome Assembly
          (Lecture) 
    </button>
   </div>
 
-  <div id="collapseassembly2" class="accordion-collapse collapse " aria-labelledby="headingassembly2" data-bs-parent="#accordionassembly">
+  <div id="collapseassembly3" class="accordion-collapse collapse " aria-labelledby="headingassembly3" data-bs-parent="#accordionassembly">
 
     <div class="accordion-body">
 
@@ -6883,14 +7121,14 @@ add a button, include configuration options:
 
 <div class="accordion-item">
   
-  <div class="accordion-header" id="headingassembly3">
-   <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseassembly3" aria-expanded="false" aria-controls="collapseassembly3">
+  <div class="accordion-header" id="headingassembly4">
+   <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseassembly4" aria-expanded="false" aria-controls="collapseassembly4">
         Running the VGP Genome Assembly workflows
          (Demo) 
    </button>
   </div>
 
-  <div id="collapseassembly3" class="accordion-collapse collapse " aria-labelledby="headingassembly3" data-bs-parent="#accordionassembly">
+  <div id="collapseassembly4" class="accordion-collapse collapse " aria-labelledby="headingassembly4" data-bs-parent="#accordionassembly">
 
     <div class="accordion-body">
 
@@ -6898,7 +7136,7 @@ add a button, include configuration options:
       
         
            
-           <!-- session: {"description"=>"This demo walks you through running the VGP Genome Assembly workflows, rather than the whole tutorial (as most GTN Tapas videos do)\n", "materials"=>[{"link"=>"topics/assembly/tutorials/vgp_genome_assembly/tutorial.html", "title"=>"Full Tutorial (Step-by-step, not workflow-based like video)", "type"=>"Tutorial"}, {"external"=>true, "link"=>"https://www.dropbox.com/sh/ayix345v11n69es/AABJerasUhiD4JfSgS3g0kS7a?dl=0&preview=VGP-Gtapas-2022.pdf", "type"=>"Non-GTN Lecture"}], "tags"=>["assembly"], "title"=>"Running the VGP Genome Assembly workflows", "type"=>"Demo", "versions"=>[{"captions"=>nil, "date"=>"2022-03-13", "galaxy_version"=>"21.09", "length"=>"10M", "link"=>"0EoBDiyd-84", "speakers"=>["delphine-l"], "name"=>"assembly/vgp_genome_assembly-workflow"}], "gtn_id"=>"assembly/vgp_genome_assembly-workflow", "captioned"=>false, "name"=>"assembly/vgp_genome_assembly-workflow"}<br><br> video: {"captions"=>nil, "date"=>"2022-03-13", "galaxy_version"=>"21.09", "length"=>"10M", "link"=>"0EoBDiyd-84", "speakers"=>["delphine-l"], "name"=>"assembly/vgp_genome_assembly-workflow"} -->
+           <!-- session: {"description"=>"This demo walks you through running the VGP Genome Assembly workflows, rather than the whole tutorial (as most GTN videos do)\n", "materials"=>[{"link"=>"topics/assembly/tutorials/vgp_genome_assembly/tutorial.html", "title"=>"Full Tutorial (Step-by-step, not workflow-based like video)", "type"=>"Tutorial"}, {"external"=>true, "link"=>"https://www.dropbox.com/sh/ayix345v11n69es/AABJerasUhiD4JfSgS3g0kS7a?dl=0&preview=VGP-Gtapas-2022.pdf", "type"=>"Non-GTN Lecture"}], "tags"=>["assembly"], "title"=>"Running the VGP Genome Assembly workflows", "type"=>"Demo", "versions"=>[{"captions"=>["delphine-l"], "date"=>"2022-03-13", "galaxy_version"=>"21.09", "length"=>"10M", "link"=>"0EoBDiyd-84", "speakers"=>["delphine-l"], "name"=>"assembly/vgp_genome_assembly-workflow"}], "gtn_id"=>"assembly/vgp_genome_assembly-workflow", "captioned"=>true, "name"=>"assembly/vgp_genome_assembly-workflow"}<br><br> video: {"captions"=>["delphine-l"], "date"=>"2022-03-13", "galaxy_version"=>"21.09", "length"=>"10M", "link"=>"0EoBDiyd-84", "speakers"=>["delphine-l"], "name"=>"assembly/vgp_genome_assembly-workflow"} -->
 
 
 
@@ -6922,7 +7160,7 @@ add a button, include configuration options:
           
           <tr>
               <td><strong>Description:</strong></td>
-              <td><p>This demo walks you through running the VGP Genome Assembly workflows, rather than the whole tutorial (as most GTN Tapas videos do)</p>
+              <td><p>This demo walks you through running the VGP Genome Assembly workflows, rather than the whole tutorial (as most GTN videos do)</p>
 </td>
           </tr>
           
@@ -6936,7 +7174,7 @@ add a button, include configuration options:
    
           <tr>
               <td><strong>Captions:</strong></td>
-              <td><strong>No captions available for this video.</strong> We aim to have captions for all our videos, however sometimes videos get added without captions. Please contact us to indicate your desire to have captions added and we will ask the speakers to provide captions.</td>
+              <td> <a href="/video-library/contributors/delphine-l/">Delphine Lariviere</a></td>
           </tr>
    
           
@@ -7115,14 +7353,14 @@ add a button, include configuration options:
 
 <div class="accordion-item">
   
-  <div class="accordion-header" id="headingassembly4">
-   <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseassembly4" aria-expanded="false" aria-controls="collapseassembly4">
+  <div class="accordion-header" id="headingassembly5">
+   <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseassembly5" aria-expanded="false" aria-controls="collapseassembly5">
         Assembly of metagenomic sequencing data
         
    </button>
   </div>
 
-  <div id="collapseassembly4" class="accordion-collapse collapse " aria-labelledby="headingassembly4" data-bs-parent="#accordionassembly">
+  <div id="collapseassembly5" class="accordion-collapse collapse " aria-labelledby="headingassembly5" data-bs-parent="#accordionassembly">
 
     <div class="accordion-body">
 

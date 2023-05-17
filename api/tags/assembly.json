@@ -35,6 +35,37 @@
       "title": "Unicycler assembly of SARS-CoV-2 genome with preprocessing to remove human genome reads",
       "captioned": true
     },
+    "assembly/largegenome/tutorial": {
+      "description": "In this tutorial, we will walk you through an assembly of a large genome, such as a plant or animal genome.",
+      "materials": [
+        {
+          "link": "topics/assembly/tutorials/largegenome/tutorial.html",
+          "title": "Large genome assembly and polishing",
+          "type": "Tutorial"
+        }
+      ],
+      "tags": [
+        "assembly"
+      ],
+      "type": "Tutorial",
+      "versions": [
+        {
+          "link": "BM70nvwWjOY",
+          "captions": [
+            "annasyme"
+          ],
+          "speakers": [
+            "annasyme"
+          ],
+          "length": "25M",
+          "date": "2023-05-16",
+          "galaxy_version": "23.01"
+        }
+      ],
+      "gtn_id": "assembly/largegenome",
+      "title": "Large genome assembly and polishing",
+      "captioned": true
+    },
     "assembly/chloroplast-assembly/tutorial": {
       "description": "In this tutorial, you will assemble a chloroplast genome using a combination of short and long read data.",
       "materials": [
@@ -99,7 +130,7 @@
       "captioned": true
     },
     "assembly/vgp_genome_assembly-workflow": {
-      "description": "This demo walks you through running the VGP Genome Assembly workflows, rather than the whole tutorial (as most GTN Tapas videos do)\n",
+      "description": "This demo walks you through running the VGP Genome Assembly workflows, rather than the whole tutorial (as most GTN videos do)\n",
       "materials": [
         {
           "link": "topics/assembly/tutorials/vgp_genome_assembly/tutorial.html",
@@ -119,7 +150,9 @@
       "type": "Demo",
       "versions": [
         {
-          "captions": null,
+          "captions": [
+            "delphine-l"
+          ],
           "date": "2022-03-13",
           "galaxy_version": "21.09",
           "length": "10M",
@@ -130,7 +163,7 @@
         }
       ],
       "gtn_id": "assembly/vgp_genome_assembly-workflow",
-      "captioned": false
+      "captioned": true
     },
     "metagenomics/metagenomics-assembly/tutorial": {
       "description": "In this tutorial, we will learn how to run metagenomic assembly tool and evaluate the quality of the generated assemblies.\nTo do that, we will use data from the study: Temporal shotgun metagenomic dissection of the coffee fermentation ecosystem.\nFor an in-depth analysis of the structure and functions of the coffee microbiome, a temporal shotgun metagenomic study\n(six time points) was performed. The six samples have been sequenced with Illumina MiSeq utilizing whole genome sequencing.\n",

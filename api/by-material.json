@@ -654,6 +654,20 @@
       ]
     }
   ],
+  "topics/assembly/tutorials/largegenome/tutorial.html": [
+    {
+      "link": "BM70nvwWjOY",
+      "captions": [
+        "annasyme"
+      ],
+      "speakers": [
+        "annasyme"
+      ],
+      "length": "25M",
+      "date": "2023-05-16",
+      "galaxy_version": "23.01"
+    }
+  ],
   "topics/assembly/tutorials/chloroplast-assembly/tutorial.html": [
     {
       "captions": [
@@ -685,7 +699,9 @@
   ],
   "topics/assembly/tutorials/vgp_genome_assembly/tutorial.html": [
     {
-      "captions": null,
+      "captions": [
+        "delphine-l"
+      ],
       "date": "2022-03-13",
       "galaxy_version": "21.09",
       "length": "10M",
