@@ -33,6 +33,10 @@
       "trainings": [
         {
           "video": "galaxy-interface/interactive-tools"
+        },
+        {
+          "self-study": "introduction/data-manipulation-olympics",
+          "description": "Scientific analyses often consist of a number of tools that\nrun one after the other, in order to go from the raw data to\nscientific insight. Between these specialized tools, simple\ndata manipulation steps are often needed as a kind of “glue”\nbetween tools.\n\nGalaxy has a large collection of tools to perform such basic\ndata manipulation tasks, and becoming familiar with these\noperations will allow to perform your analysis more easily in\nGalaxy.\n"
         }
       ]
     }
