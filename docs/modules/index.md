@@ -26,6 +26,7 @@ I'm interested in…
 {% include module_button.html link="single-cell" colour="blue" label="Single-Cell Analysis" buttonsize="large" %}
 {% include module_button.html link="meta-omics" colour="purple" label="Meta -omics" buttonsize="large" %}
 {% include module_button.html link="genome-annotation" colour="pink" label="Genome Annotation" buttonsize="large" %}
+{% include module_button.html link="assembly" colour="yellow" label="Genome Assembly" buttonsize="large" %}
 {% include module_button.html link="machine-learning" colour="red" label="Machine Learning" buttonsize="large" %}
 </div>
 
