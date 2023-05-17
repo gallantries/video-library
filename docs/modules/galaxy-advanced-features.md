@@ -23,4 +23,16 @@ program:
     title: Analysis
     trainings:
       - video: galaxy-interface/interactive-tools
+      - self-study: introduction/data-manipulation-olympics
+        description: |
+          Scientific analyses often consist of a number of tools that
+          run one after the other, in order to go from the raw data to
+          scientific insight. Between these specialized tools, simple
+          data manipulation steps are often needed as a kind of “glue”
+          between tools.
+
+          Galaxy has a large collection of tools to perform such basic
+          data manipulation tasks, and becoming familiar with these
+          operations will allow to perform your analysis more easily in
+          Galaxy.
 ---
