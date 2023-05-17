@@ -1959,7 +1959,7 @@ genome-annotation/funannotate/tutorial:
     date: '2023-05-12'
     galaxy_version: '23.01'
     length: 1H10M
-    captions: []
+    captions: [abretaud]
   - captions:
     - abretaud
     date: '2022-03-03'
