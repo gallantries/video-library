@@ -3279,6 +3279,37 @@
     "title": "NGS data logistics",
     "captioned": true
   },
+  "variant-analysis/sars-cov-2": {
+    "description": "A demo of SARS-CoV-2 sequencing data analysis from sequenced reads in NCBI's SRA to called and annotated mutations for a batch of viral samples.",
+    "materials": [
+      {
+        "link": "topics/variant-analysis/tutorials/sars-cov-2/tutorial.html",
+        "title": "From NCBI's Sequence Read Archive (SRA) to Galaxy: SARS-CoV-2 variant analysis",
+        "type": "Tutorial"
+      }
+    ],
+    "tags": [
+      "variant-analysis"
+    ],
+    "type": "Demo",
+    "versions": [
+      {
+        "captions": [
+          "nekrut"
+        ],
+        "date": "2021-02-15",
+        "galaxy_version": "21.01",
+        "length": "15M",
+        "link": "9mIL0tIfZ_o",
+        "speakers": [
+          "nekrut"
+        ]
+      }
+    ],
+    "gtn_id": "variant-analysis/sars-cov-2",
+    "title": "From NCBI's Sequence Read Archive (SRA) to Galaxy: SARS-CoV-2 variant analysis",
+    "captioned": true
+  },
   "metagenomics/clinical-applications": {
     "description": "Nanopore Sequencing has many applications in a clinical setting. In this lecture, Astrid Heikema discusses how her group at the Erasmus Medical Center uses Nanopore for sequencing of bacterial Genomes.",
     "materials": [
@@ -4882,8 +4913,7 @@
         ],
         "date": "2023-05-15",
         "galaxy_version": "23.01",
-        "length": "2H50M",
-        "cyoa": true
+        "length": "2H50M"
       },
       {
         "captions": [
@@ -5317,6 +5347,10 @@
         "type": "Tutorial"
       }
     ],
+    "tags": [
+      "variant-analysis"
+    ],
+    "type": "Tutorial",
     "versions": [
       {
         "link": "3OWXWOkJRqU",
@@ -5329,7 +5363,10 @@
         "date": "2023-05-12",
         "length": "40M"
       }
-    ]
+    ],
+    "gtn_id": "variant-analysis/trio-analysis",
+    "title": "Trio Analysis using Synthetic Datasets from RD-Connect GPAP",
+    "captioned": true
   },
   "visualisation/circos/slides": {
     "description": "Circos is a popular tool for creating circular graphs to display genomic data. This video will introduce this tool and how to use it within Galaxy",
