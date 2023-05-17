@@ -2252,7 +2252,7 @@ metagenomics/beer-data-analysis/tutorial:
   - link: PJeS06yiJUM
     speakers:
     - bebatut
-    captions:
+    captions: [sophia120199]
     date: '2023-05-10'
     galaxy_version: '23.01'
     length: 1H5M
