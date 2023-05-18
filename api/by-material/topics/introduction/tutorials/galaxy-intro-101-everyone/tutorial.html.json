@@ -1,6 +1,8 @@
 [
   {
-    "captions": null,
+    "captions": [
+      "astrovsky01"
+    ],
     "date": "2023-05-01",
     "length": "20M",
     "galaxy_version": "23.0",

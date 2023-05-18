@@ -3199,7 +3199,9 @@
     "type": "Tutorial",
     "versions": [
       {
-        "captions": null,
+        "captions": [
+          "astrovsky01"
+        ],
         "date": "2023-05-01",
         "length": "20M",
         "galaxy_version": "23.0",
@@ -3224,7 +3226,7 @@
     ],
     "gtn_id": "introduction/galaxy-intro-101-everyone",
     "title": "Galaxy 101 for everyone",
-    "captioned": false
+    "captioned": true
   },
   "introduction/galaxy-intro-101/tutorial": {
     "description": "This tutorial will introduce you to Galaxy. You will familiarize yourself with tools, workflows and histories. Those skills will be needed the next days",
