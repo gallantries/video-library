@@ -3844,6 +3844,8 @@ bioconductor/bioc-intro/tutorial:
     external: true
   tags: [bioconductor, r]
   support_channel: bioconductor
+  video_support_channels:
+    - https://support.bioconductor.org
 bioconductor/bioc-project/tutorial:
   title: The Bioconductor project
   type: Tutorial
@@ -3864,6 +3866,8 @@ bioconductor/bioc-project/tutorial:
   tags: [bioconductor, r]
   versions: []
   support_channel: bioconductor
+  video_support_channels:
+    - https://support.bioconductor.org
 bioconductor/rformassspectrometry/tutorial:
   title: R for Mass Spectrometry
   type: Tutorial
@@ -3885,6 +3889,8 @@ bioconductor/rformassspectrometry/tutorial:
   tags: [bioconductor, r]
   versions: []
   support_channel: bioconductor
+  video_support_channels:
+    - https://support.bioconductor.org
 bioconductor/isee/tutorial:
   description: |
     This workshop demonstrates the use of the iSEE package to create
@@ -3921,6 +3927,8 @@ bioconductor/isee/tutorial:
     - kevinrue
     - federicomarini
   support_channel: bioconductor
+  video_support_channels:
+    - https://support.bioconductor.org
 bioconductor/epiforbioworkshop2022/tutorial:
   description: |
     Concepts of causal inference in epidemiology have important ramifications
@@ -3950,6 +3958,8 @@ bioconductor/epiforbioworkshop2022/tutorial:
     speakers:
     - cmirzayi
   support_channel: bioconductor
+  video_support_channels:
+    - https://support.bioconductor.org
 bioconductor/bioc2022_tidytranscriptomics/tutorial:
   description: |
     This tutorial will showcase analysis of single-cell RNA sequencing data
@@ -3977,6 +3987,8 @@ bioconductor/bioc2022_tidytranscriptomics/tutorial:
     speakers:
     - stemangiola
   support_channel: bioconductor
+  video_support_channels:
+    - https://support.bioconductor.org
 bioconductor/CompGenomicsBioc2022/tutorial:
   description: |
     This workshop consists of a demonstration of using DECIPHER and SynExtend for
@@ -3997,6 +4009,8 @@ bioconductor/CompGenomicsBioc2022/tutorial:
     speakers:
     - ahl27
   support_channel: bioconductor
+  video_support_channels:
+    - https://support.bioconductor.org
 bioconductor/fluentGenomics/tutorial:
   title: "fluentGenomics: A plyranges and tximeta workflow"
   type: Tutorial
@@ -4017,6 +4031,8 @@ bioconductor/fluentGenomics/tutorial:
   tags: [bioconductor, r]
   versions: []
   support_channel: bioconductor
+  video_support_channels:
+    - https://support.bioconductor.org
 bioconductor/RNAseq123/tutorial:
   title: "RNA-seq analysis is easy as 1-2-3 with limma, Glimma and edgeR"
   type: Tutorial
@@ -4046,6 +4062,8 @@ bioconductor/RNAseq123/tutorial:
   tags: [bioconductor, r]
   versions: []
   support_channel: bioconductor
+  video_support_channels:
+    - https://support.bioconductor.org
 bioconductor/RnaSeqGeneEdgeRQL/tutorial:
   title: "From reads to genes to pathways: differential expression analysis of
   RNA-Seq experiments using Rsubread and the edgeR quasi-likelihood pipeline"
@@ -4075,6 +4093,8 @@ bioconductor/RnaSeqGeneEdgeRQL/tutorial:
   tags: [bioconductor, r]
   versions: []
   support_channel: bioconductor
+  video_support_channels:
+    - https://support.bioconductor.org
 bioconductor/SingscoreAMLMutations/tutorial:
   title: Using singscore to predict mutations in AML from transcriptomic signatures
   type: Tutorial
@@ -4105,3 +4125,5 @@ bioconductor/SingscoreAMLMutations/tutorial:
   tags: [bioconductor, r]
   versions: []
   support_channel: bioconductor
+  video_support_channels:
+    - https://support.bioconductor.org

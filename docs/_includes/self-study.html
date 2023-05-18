@@ -1,5 +1,6 @@
 {% assign config = include.vsession | default: include.session | default: include.video | default: include.config  %}
 {% assign title = site.data.gtn[config.self-study] | default: config.title "%}
+{% assign video_support_channels = include.vsession.video_support_channels | default: include.session.video_support_channels | default: include.video.video_support_channels %}
 
 <div class="flex-row">
 	<div class="col-md-8">
@@ -87,8 +88,14 @@
 							{% capture predicted_channel_name %}{{ include.id | slack_channel_name }}{% endcapture %}
 							{% capture channel %}{% if page.setup.slack.event_channel.useforall %}{{page.setup.slack.event_channel.name }}{% else %}{{ include.session.support_channel | default: predicted_channel_name | default: site.support.general_channel}}{% endif %}{% endcapture %}
 							<li>Slack: <a href="https://gtnsmrgsbord.slack.com/archives/{{ channel }}">#{{ channel }}</a> <ul><li><a href="{{site.support.join_link}}">Slack Invite</a></li></ul></li>
+							{% if video_support_channels %}
+							{% for link in video_support_channels %}
+							<li><a href="{{ link }}">{{ link }}</a></li>
+							{% endfor %}
+							{% else %}
 							<li><a href="{{site.gitter}}">Gitter</a></li>
 							<li><a href="https://help.galaxyproject.org">Galaxy Help Forum</a></li>
+							{% endif %}
 						</ul>
 					</td>
 				</tr>
