@@ -30,9 +30,11 @@ jobs:
             cd slack
             python cron.py announce "${SLACK_API_ANNOUNCEMENTS}"
             python cron.py event-gat "${SLACK_API_EVENT_GAT}"
+            python cron.py instructors "${SLACK_API_INSTRUCTORS}"
         env:
           SLACK_API_ANNOUNCEMENTS: ${{ secrets.SLACK_API_ANNOUNCEMENTS }}
           SLACK_API_EVENT_GAT: ${{ secrets.SLACK_API_EVENT_GAT }}
+          SLACK_API_INSTRUCTORS: ${{ secrets.SLACK_API_INSTRUCTORS }}
 
       - name: Commit changed files back
         run: |
