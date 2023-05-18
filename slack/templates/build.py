@@ -28,8 +28,9 @@ replacements = {
     },
     'gtn': {
         'SOCIAL_CHANNEL': '#social',
-        'EVENT': 'GTN Tapas',
-        'COURSE_WEBSITE': 'https://gallantries.github.io/video-library/events/smorgasbord2/tapas.html',
+        'EVENT': 'GTN Smörgåsbord 3',
+        'COURSE_WEBSITE': 'https://gallantries.github.io/video-library/events/smorgasbord3/',
+        'GCC_CTA': 'https://galaxyproject.org/events/gcc2023/'
     }
 }
 

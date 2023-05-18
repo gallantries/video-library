@@ -1,6 +1,6 @@
-# Welcome <REGION> to GTN Tapas!
+# Welcome <REGION> to <EVENT>!
 
-[Course Webpage](https://gallantries.github.io/video-library/events/gcc2022/training-day.html)
+[Course Webpage](<COURSE_WEBSITE>)
 
 Everyone is expected to abide by the [Code of Conduct (CoC)](https://galaxyproject.org/community/coc/) during this event. We want this to be a welcoming and friendly environment for everyone! Please see the CoC for more information and the point of contact for any issues.
 

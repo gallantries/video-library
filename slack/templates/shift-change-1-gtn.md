@@ -14,7 +14,7 @@ Head over to <SOCIAL_CHANNEL> and let us know the answer to this important quest
 
 **Useful Links**
 
-- [Course Webpage](https://gallantries.github.io/video-library/events/smorgasbord2/tapas.html)
+- [Course Webpage](<COURSE_WEBSITE>)
 - [Using the Certificate Bot](https://gallantries.github.io/video-library/certbot)
 - [Troubleshooting Galaxy problems](https://training.galaxyproject.org/training-material/faqs/galaxy/analysis_troubleshooting.html)
 

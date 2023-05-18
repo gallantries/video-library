@@ -17,10 +17,10 @@ def buttonify(links):
 
 SERVERS = [
     ("https://usegalaxy.eu/", "Galaxy Europe :earth_africa:"),
-    # ("https://usegalaxy.be/", "Galaxy Belgium :flag-be:"),
-    # ("https://usegalaxy.fr/", "Galaxy France :flag-fr:"),
     ("https://usegalaxy.org/", "Galaxy US :earth_americas:"),
     ("https://usegalaxy.org.au/", "Galaxy Australia :earth_asia:"),
+    # ("https://usegalaxy.be/", "Galaxy Belgium :flag-be:"),
+    # ("https://usegalaxy.fr/", "Galaxy France :flag-fr:"),
 ]
 
 TIAAS = [

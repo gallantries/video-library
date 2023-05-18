@@ -50,6 +50,7 @@ Enjoying Galaxy? Want to become part of the community? Check out [the community 
 11. GTN Gitter: [Join the training discussion here!](https://gitter.im/Galaxy-Training-Network/Lobby?utm_source=smorgasbord&utm_medium=website&utm_campaign=smorgasbord2022)
 12. PaperCuts: [Monthly Collaboration Fest](https://galaxyproject.org/events/2021-02-papercuts/?utm_source=smorgasbord&utm_medium=website&utm_campaign=smorgasbord2022)
 13. GTN CoFest: [Everybody Welcome!](https://github.com/galaxyproject/training-material/issues/1712?utm_source=smorgasbord&utm_medium=website&utm_campaign=smorgasbord2022)
+14. Fediverse/Mastodon: follow [@galaxyproject@mstdn.science](https://mstdn.science/@galaxyproject), [@gtn@mstdn.science](https://mstdn.science/@gtn)
 14. Twitter: follow [@galaxyproject](https://twitter.com/galaxyproject), [@gxytraining](https://twitter.com/gxytraining)
 15. Video: [Watch it on YouTube](https://youtu.be//-1MPdxmRs8U)
-16. [Ask an instructor](https://shiltemann.github.io/global-galaxy-course/workshop) - Have question about the training? Did you run into a problem? Just wanna chat? Ask away on Slack!
+16. Have question about the training? Did you run into a problem? Just wanna chat? Ask away on Slack!
