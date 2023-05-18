@@ -2038,12 +2038,13 @@ introduction/galaxy-intro-101-everyone/tutorial:
   versions:
 
   - captions:
+    - astrovsky01
     date: '2023-05-01'
     length: 20M
     galaxy_version: '23.0'
     link: 64oS5uXVRV0
     speakers:
-      - astrovsky01
+    - astrovsky01
 
   - captions:
     - tnabtaf
