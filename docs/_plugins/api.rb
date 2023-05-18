@@ -103,6 +103,11 @@ module Jekyll
 
         if ! v.nil?
           v.fetch('tags', []).each{|tag|
+            first = v.fetch('versions', []).first
+            if ! first.empty? and ! first['length'].nil?
+              durations['_total_latest_'] += findDuration(version['length']) / 3600.0
+              durations['_total_latest_count_'] += 1
+            end
             v.fetch('versions', []).each{|version|
 
               k2 = k.split('/')[0,2].join('/')

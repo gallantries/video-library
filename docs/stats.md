@@ -4,17 +4,27 @@ title: "Statistics!"
 ---
 <h1 id="video-data">Video Data</h1>
 <div class="row">
-	<div class="col-md-4">
+	<div class="col-md-3">
 	<div class="card bg-primary text-white">
 		<div class="card-body">
 			<h2 class="card-title" style="font-weight: 900; font-size: 300%">{{ site.data.stats._total_ | round:1 }}</h2>
-			<p class="card-subtitle mb-2">hours</p>
+			<p class="card-subtitle mb-2">hours (all time)</p>
 			<p class="card-text">Of content in the GTN & Gallantries' Video Library</p>
 		</div>
 	</div>
 	</div>
 
-	<div class="col-md-4">
+	<div class="col-md-3">
+	<div class="card bg-primary text-white">
+		<div class="card-body">
+			<h2 class="card-title" style="font-weight: 900; font-size: 300%">{{ site.data.stats._total_latest_ | round:1 }}</h2>
+			<p class="card-subtitle mb-2">hours (newest)</p>
+			<p class="card-text">This does not include videos replaced by newer recordings.</p>
+		</div>
+	</div>
+	</div>
+
+	<div class="col-md-3">
 	<div class="card bg-primary text-white">
 		<div class="card-body">
 			<h2 class="card-title" style="font-weight: 900; font-size: 300%">{{ site.data.stats._total_count_ }}</h2>
@@ -24,7 +34,7 @@ title: "Statistics!"
 	</div>
 	</div>
 
-	<div class="col-md-4">
+	<div class="col-md-3">
 	<div class="card bg-primary text-white">
 		<div class="card-body">
 			<h2 class="card-title" style="font-weight: 900; font-size: 300%">{{ site.data.stats._speakers_count_}}</h2>
