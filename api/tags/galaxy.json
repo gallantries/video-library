@@ -69,12 +69,12 @@
         {
           "link": "topics/introduction/tutorials/galaxy-intro-strands/tutorial.html",
           "title": "Introduction to Genomics and Galaxy",
-          "type": "Tutorial"
+          "type": "Intro to Genomics and Galaxy Tutorial"
         },
         {
           "link": "topics/galaxy-interface/tutorials/history-to-workflow/tutorial.html",
           "title": "Extracting Workflows from Histories",
-          "type": "Tutorial"
+          "type": "Workflows from Histories Tutorial"
         }
       ],
       "tags": [
@@ -84,6 +84,18 @@
       "title": "Your First Galaxy Analysis",
       "type": "Tutorial",
       "versions": [
+        {
+          "link": "P1mEWZ_tAgQ",
+          "speakers": [
+            "nakucher"
+          ],
+          "captions": [
+            "nakucher"
+          ],
+          "date": "2023-05-18",
+          "length": "1H30M",
+          "galaxy_version": "23.01"
+        },
         {
           "captions": [
             "tnabtaf"

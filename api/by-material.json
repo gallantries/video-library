@@ -1453,6 +1453,18 @@
   ],
   "topics/introduction/tutorials/galaxy-intro-strands/tutorial.html": [
     {
+      "link": "P1mEWZ_tAgQ",
+      "speakers": [
+        "nakucher"
+      ],
+      "captions": [
+        "nakucher"
+      ],
+      "date": "2023-05-18",
+      "length": "1H30M",
+      "galaxy_version": "23.01"
+    },
+    {
       "captions": [
         "tnabtaf"
       ],
@@ -1466,6 +1478,18 @@
     }
   ],
   "topics/galaxy-interface/tutorials/history-to-workflow/tutorial.html": [
+    {
+      "link": "P1mEWZ_tAgQ",
+      "speakers": [
+        "nakucher"
+      ],
+      "captions": [
+        "nakucher"
+      ],
+      "date": "2023-05-18",
+      "length": "1H30M",
+      "galaxy_version": "23.01"
+    },
     {
       "captions": [
         "tnabtaf"
