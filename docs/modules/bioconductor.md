@@ -12,16 +12,16 @@ program:
     title: Bioconductor conference workshops
     trainings:
       - video: bioconductor/isee/tutorial
-      - video: bioconductor/epiforbioworkshop2022/tutorial
       - video: bioconductor/bioc2022_tidytranscriptomics/tutorial
-      - video: bioconductor/CompGenomicsBioc2022/tutorial  
+      - video: bioconductor/CompGenomicsBioc2022/tutorial 
+      - video: bioconductor/epiforbioworkshop2022/tutorial
   extending:
     title: Bioconductor workflows
     trainings:
-      - video: bioconductor/fluentGenomics/tutorial
       - video: bioconductor/RNAseq123/tutorial
       - video: bioconductor/RnaSeqGeneEdgeRQL/tutorial
       - video: bioconductor/SingscoreAMLMutations/tutorial
+      - video: bioconductor/fluentGenomics/tutorial
       - video: bioconductor/rformassspectrometry/tutorial
 ---
 
