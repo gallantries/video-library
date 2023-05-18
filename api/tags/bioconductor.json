@@ -23,6 +23,9 @@
         "r"
       ],
       "support_channel": "bioconductor",
+      "video_support_channels": [
+        "https://support.bioconductor.org"
+      ],
       "gtn_id": "bioconductor/bioc-intro"
     },
     "bioconductor/bioc-project/tutorial": {
@@ -49,6 +52,9 @@
 
       ],
       "support_channel": "bioconductor",
+      "video_support_channels": [
+        "https://support.bioconductor.org"
+      ],
       "gtn_id": "bioconductor/bioc-project"
     },
     "bioconductor/rformassspectrometry/tutorial": {
@@ -75,6 +81,9 @@
 
       ],
       "support_channel": "bioconductor",
+      "video_support_channels": [
+        "https://support.bioconductor.org"
+      ],
       "gtn_id": "bioconductor/rformassspectrometry"
     },
     "bioconductor/isee/tutorial": {
@@ -104,6 +113,9 @@
         }
       ],
       "support_channel": "bioconductor",
+      "video_support_channels": [
+        "https://support.bioconductor.org"
+      ],
       "gtn_id": "bioconductor/isee",
       "captioned": false
     },
@@ -132,6 +144,9 @@
         }
       ],
       "support_channel": "bioconductor",
+      "video_support_channels": [
+        "https://support.bioconductor.org"
+      ],
       "gtn_id": "bioconductor/epiforbioworkshop2022",
       "captioned": false
     },
@@ -160,6 +175,9 @@
         }
       ],
       "support_channel": "bioconductor",
+      "video_support_channels": [
+        "https://support.bioconductor.org"
+      ],
       "gtn_id": "bioconductor/bioc2022_tidytranscriptomics",
       "captioned": false
     },
@@ -188,6 +206,9 @@
         }
       ],
       "support_channel": "bioconductor",
+      "video_support_channels": [
+        "https://support.bioconductor.org"
+      ],
       "gtn_id": "bioconductor/CompGenomicsBioc2022",
       "captioned": false
     },
@@ -215,6 +236,9 @@
 
       ],
       "support_channel": "bioconductor",
+      "video_support_channels": [
+        "https://support.bioconductor.org"
+      ],
       "gtn_id": "bioconductor/fluentGenomics"
     },
     "bioconductor/RNAseq123/tutorial": {
@@ -241,6 +265,9 @@
 
       ],
       "support_channel": "bioconductor",
+      "video_support_channels": [
+        "https://support.bioconductor.org"
+      ],
       "gtn_id": "bioconductor/RNAseq123"
     },
     "bioconductor/RnaSeqGeneEdgeRQL/tutorial": {
@@ -267,6 +294,9 @@
 
       ],
       "support_channel": "bioconductor",
+      "video_support_channels": [
+        "https://support.bioconductor.org"
+      ],
       "gtn_id": "bioconductor/RnaSeqGeneEdgeRQL"
     },
     "bioconductor/SingscoreAMLMutations/tutorial": {
@@ -293,6 +323,9 @@
 
       ],
       "support_channel": "bioconductor",
+      "video_support_channels": [
+        "https://support.bioconductor.org"
+      ],
       "gtn_id": "bioconductor/SingscoreAMLMutations"
     }
   }

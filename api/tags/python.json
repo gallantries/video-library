@@ -5,7 +5,8 @@
       "description": null,
       "materials": [
         {
-          "link": "https://by-covid.github.io/gtn/ro-crate-in-python/"
+          "link": "topics/fair/tutorials/ro-crate-in-python/tutorial.html",
+          "type": "Tutorial"
         }
       ],
       "tags": [

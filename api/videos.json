@@ -5685,7 +5685,8 @@
     "description": null,
     "materials": [
       {
-        "link": "https://by-covid.github.io/gtn/ro-crate-in-python/"
+        "link": "topics/fair/tutorials/ro-crate-in-python/tutorial.html",
+        "type": "Tutorial"
       }
     ],
     "tags": [
@@ -5708,7 +5709,8 @@
     "description": null,
     "materials": [
       {
-        "link": "https://by-covid.github.io/gtn/workflow-run-ro-crate/"
+        "link": "topics/fair/tutorials/ro-crate-workflow-run-ro-crate/tutorial.html",
+        "type": "Tutorial"
       }
     ],
     "tags": [
@@ -5767,7 +5769,8 @@
     "description": null,
     "materials": [
       {
-        "link": "https://by-covid.github.io/gtn/galaxy-best-practices/"
+        "link": "topics/fair/tutorials/ro-crate-galaxy-best-practices/tutorial.html",
+        "type": "Tutorial"
       },
       {
         "link": "https://github.com/galaxyproject/iwc/blob/main/workflows/README.md#adding-workflows"
@@ -5792,7 +5795,8 @@
     "description": null,
     "materials": [
       {
-        "link": "https://by-covid.github.io/gtn/submitting-life-monitor"
+        "link": "topics/fair/tutorials/ro-crate-submitting-life-monitor/tutorial.html",
+        "type": "Tutorial"
       }
     ],
     "tags": [
@@ -5832,6 +5836,9 @@
       "r"
     ],
     "support_channel": "bioconductor",
+    "video_support_channels": [
+      "https://support.bioconductor.org"
+    ],
     "gtn_id": "bioconductor/bioc-intro"
   },
   "bioconductor/bioc-project/tutorial": {
@@ -5858,6 +5865,9 @@
 
     ],
     "support_channel": "bioconductor",
+    "video_support_channels": [
+      "https://support.bioconductor.org"
+    ],
     "gtn_id": "bioconductor/bioc-project"
   },
   "bioconductor/rformassspectrometry/tutorial": {
@@ -5884,6 +5894,9 @@
 
     ],
     "support_channel": "bioconductor",
+    "video_support_channels": [
+      "https://support.bioconductor.org"
+    ],
     "gtn_id": "bioconductor/rformassspectrometry"
   },
   "bioconductor/isee/tutorial": {
@@ -5913,6 +5926,9 @@
       }
     ],
     "support_channel": "bioconductor",
+    "video_support_channels": [
+      "https://support.bioconductor.org"
+    ],
     "gtn_id": "bioconductor/isee",
     "captioned": false
   },
@@ -5941,6 +5957,9 @@
       }
     ],
     "support_channel": "bioconductor",
+    "video_support_channels": [
+      "https://support.bioconductor.org"
+    ],
     "gtn_id": "bioconductor/epiforbioworkshop2022",
     "captioned": false
   },
@@ -5969,6 +5988,9 @@
       }
     ],
     "support_channel": "bioconductor",
+    "video_support_channels": [
+      "https://support.bioconductor.org"
+    ],
     "gtn_id": "bioconductor/bioc2022_tidytranscriptomics",
     "captioned": false
   },
@@ -5997,6 +6019,9 @@
       }
     ],
     "support_channel": "bioconductor",
+    "video_support_channels": [
+      "https://support.bioconductor.org"
+    ],
     "gtn_id": "bioconductor/CompGenomicsBioc2022",
     "captioned": false
   },
@@ -6024,6 +6049,9 @@
 
     ],
     "support_channel": "bioconductor",
+    "video_support_channels": [
+      "https://support.bioconductor.org"
+    ],
     "gtn_id": "bioconductor/fluentGenomics"
   },
   "bioconductor/RNAseq123/tutorial": {
@@ -6050,6 +6078,9 @@
 
     ],
     "support_channel": "bioconductor",
+    "video_support_channels": [
+      "https://support.bioconductor.org"
+    ],
     "gtn_id": "bioconductor/RNAseq123"
   },
   "bioconductor/RnaSeqGeneEdgeRQL/tutorial": {
@@ -6076,6 +6107,9 @@
 
     ],
     "support_channel": "bioconductor",
+    "video_support_channels": [
+      "https://support.bioconductor.org"
+    ],
     "gtn_id": "bioconductor/RnaSeqGeneEdgeRQL"
   },
   "bioconductor/SingscoreAMLMutations/tutorial": {
@@ -6102,6 +6136,9 @@
 
     ],
     "support_channel": "bioconductor",
+    "video_support_channels": [
+      "https://support.bioconductor.org"
+    ],
     "gtn_id": "bioconductor/SingscoreAMLMutations"
   }
 }
