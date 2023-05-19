@@ -25,32 +25,7 @@ program:
             documents on the use of NGS for TB
           length: 1h
       - session: variant-analysis/tb-variant-analysis
-      - external:
-          title: "Webinar: Drug resistance prediction"
-          author: GaloGS
-          description: Principles of drug resistance detection from genomic data
-          length: 20m
-          video: Ddwt-_gQR2M
-      - external:
-          title: 'Webinar: "Phylogenetic" mutations'
-          author: GaloGS
-          description: |
-           This video will introduce one special type of mutations to take into account when studying
-           drug resistance patterns
-          length: 15m
-          video: 1ps_o5rpnmw
-      - external:
-          title: "Webinar: The concept of clustering"
-          author: GaloGS
-          description: Main aspects of clustering analysis to infer transmission in MTBC
-          length: 15m
-          video: l4cPUECJ7VU
-      - external:
-          title: "Webinar: Genetic distance thresholds"
-          author: GaloGS
-          description: Clustering as an approximation to infer transmission
-          length: 15m
-          video: kKNgmpy1N94
+      - session: tb-webinars
       - self-study: evolution/mtb_transmission
         description: Learning how to do clustering analysis and interpret drug resistance patterns
         prefix: "Hands-on: "

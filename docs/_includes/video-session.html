@@ -54,7 +54,13 @@
           {% endif %}
 
    {% assign captions = include.video.captions | size %}
-   {% if captions == 0 %}
+   {% if include.video.external %}
+      <tr>
+              <td><strong>Captions:</strong></td>
+              <td>This is a non-GTN video, we cannot guarantee captions</td>
+          </tr>
+
+   {% elsif captions == 0 %}
           <tr>
               <td><strong>Captions:</strong></td>
               <td><strong>No captions available for this video.</strong> We aim to have captions for all our videos, and are working to add captions to this video as soon as possible.</td>
@@ -65,7 +71,7 @@
               <td>{% for name in include.video.captions %}{% unless forloop.first %}, {% endunless %} <a href="{{ site.baseurl }}/contributors/{{ name }}/">{{ site.data.instructors[name].name | default: site.data.affiliations[name].name}}</a>{% endfor %}</td>
           </tr>
    {% endif %}
-          {% if include.video.date %}
+   {% if include.video.date %}
           <tr>
               <td><strong>Created:</strong></td>
               <td>{{include.video.date | date: "%-d %B %Y" }}</td>
