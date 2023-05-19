@@ -6254,5 +6254,81 @@
       "https://support.bioconductor.org"
     ],
     "gtn_id": "bioconductor/SingscoreAMLMutations"
+  },
+  "webinar/tb-drug-resistance": {
+    "title": "Webinar: Drug resistance prediction",
+    "description": "Principles of drug resistance detection from genomic data",
+    "type": "Webinar",
+    "support_channel": "general",
+    "versions": [
+      {
+        "link": "Ddwt-_gQR2M",
+        "length": "20M",
+        "external": true,
+        "speakers": [
+          "GaloGS"
+        ],
+        "captions": [
+
+        ],
+        "date": "2023-01-01"
+      }
+    ]
+  },
+  "webinar/tb-clustering": {
+    "title": "Webinar: The Concept of Clustering",
+    "description": "Main aspects of clustering analysis to infer transmission in MTBC",
+    "type": "Webinar",
+    "support_channel": "general",
+    "versions": [
+      {
+        "link": "l4cPUECJ7VU",
+        "length": "15M",
+        "external": true,
+        "speakers": [
+          "GaloGS"
+        ],
+        "captions": [
+
+        ],
+        "date": "2023-01-01"
+      }
+    ]
+  },
+  "webinar/tb-phylogenetic-mutations": {
+    "title": "Webinar: Phylogenetic mutations",
+    "description": "This video will introduce one special type of mutations to take into account when studying drug resistance patterns",
+    "type": "Webinar",
+    "versions": [
+      {
+        "link": "1ps_o5rpnmw",
+        "length": "15M",
+        "speakers": [
+          "GaloGS"
+        ],
+        "external": true,
+        "captions": null,
+        "date": "2023-01-01"
+      }
+    ]
+  },
+  "webinar/tb-genetic-distance": {
+    "title": "Webinar: genetic distance thresholds",
+    "description": "Clustering as an approximation to infer transmission",
+    "type": "Webinar",
+    "versions": [
+      {
+        "link": "kKNgmpy1N94",
+        "length": "15M",
+        "speakers": [
+          "GaloGS"
+        ],
+        "captions": [
+
+        ],
+        "external": true,
+        "date": "2023-01-01"
+      }
+    ]
   }
 }
