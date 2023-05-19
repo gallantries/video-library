@@ -74,7 +74,7 @@ program:
       - video: variant-analysis/sars-cov-2-variant-discovery/tutorial
       - video: galaxy-interface/workflow-automation
       - video: sars-cov2/usegalaxy-star-bot
-      - self-study: sequence-analysis/tutorials/human-reads-removal
+      - self-study: sequence-analysis/human-reads-removal
       - video: sars-cov2/upload-ena
 ---
 
