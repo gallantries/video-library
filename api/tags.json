@@ -4603,6 +4603,7 @@
     "url": "/video-library/api/tags/one-health.json",
     "videos": {
       "one-health/galaxy-pathogen-surveillance": {
+        "title": "An automated SARS-CoV-2 genome surveillance system built around Galaxy",
         "description": null,
         "type": "Lecture",
         "materials": [
@@ -4628,7 +4629,6 @@
           }
         ],
         "gtn_id": "one-health/galaxy-pathogen-surveillance",
-        "title": "one-health/galaxy-pathogen-surveillance",
         "captioned": false
       }
     }
