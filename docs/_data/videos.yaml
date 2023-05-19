@@ -2683,8 +2683,23 @@ virology/sequencing-spectrum-viral-genomes:
     date: '2023-05-04'
     length: 12M
     captions:
-
-
+one-health/galaxy-pathogen-surveillance:
+  description:
+  type: Lecture
+  materials:
+  - external: true
+    link: https://www.infectious-diseases-toolkit.org/showcase/covid19-galaxy
+    title: 'IDTk Showcase: An automated SARS-CoV-2 genome surveillance system built around Galaxy'
+    type: Additional Info
+  tags:
+  - one-health
+  versions:
+  - link:
+    speakers:
+    - wm75
+    date: '2023-05-19'
+    length: 10M
+    captions:
 
 sequence-analysis/human-reads-removal/tutorial:
   description: null
