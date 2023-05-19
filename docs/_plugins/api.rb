@@ -104,7 +104,7 @@ module Jekyll
         if ! v.nil?
           v.fetch('tags', []).each{|tag|
             first = v.fetch('versions', []).first
-            if ! first.empty? and ! first['length'].nil?
+            if ! first.nil? and ! first.empty? and ! first['length'].nil?
               durations['_total_latest_'] += findDuration(first['length']) / 3600.0
               durations['_total_latest_count_'] += 1
             end
