@@ -19,4 +19,10 @@ program:
     trainings:
       - video: galaxy/intro
       - video: introduction/galaxy-intro-101-everyone/tutorial
+
+  history:
+    title: The New Galaxy History
+    description: The Galaxy History has recently been updated, this means your Galaxy may look different than what you see in the tutorial videos. This short video walks you through the basics of the new Galaxy history system.
+    trainings:
+      - video: galaxy-interface/history/tutorial
 ---
