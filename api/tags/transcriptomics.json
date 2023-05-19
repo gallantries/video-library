@@ -552,6 +552,18 @@
       "type": "Demo",
       "versions": [
         {
+          "link": "IIiOcgiXviE",
+          "speakers": [
+            "pavanvidem"
+          ],
+          "captions": [
+
+          ],
+          "date": "2023-05-19",
+          "length": "19M",
+          "galaxy_version": "23.01"
+        },
+        {
           "captions": [
             "khanteymoori"
           ],
@@ -565,7 +577,7 @@
         }
       ],
       "gtn_id": "single-cell/scrna-preprocessing-tenx",
-      "captioned": true
+      "captioned": false
     },
     "single-cell/scrna-scanpy-pbmc3k/tutorial": {
       "description": "In this tutorial, we will investigate clustering of single-cell data from 10x Genomics, including preprocessing, clustering and the identification of cell types via known marker genes, using Scanpy. It will be illustrated using a dataset of Peripheral Blood Mononuclear Cells (PBMC), containing 2,700 single cells. Please work through the full tutorial yourself to get all the details.",
