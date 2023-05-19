@@ -3434,6 +3434,13 @@ single-cell/scrna-preprocessing-tenx/tutorial:
   title: Pre-processing of 10X Single-Cell RNA Datasets
   type: Demo
   versions:
+  - link: IIiOcgiXviE
+    speakers:
+    - pavanvidem
+    captions: []
+    date: '2023-05-19'
+    length: 19M
+    galaxy_version: '23.01'
   - captions:
     - khanteymoori
     date: '2021-03-18'

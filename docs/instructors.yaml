@@ -389,6 +389,11 @@ nsoranzo:
 paulzierep:
     name: Paul Zierep
     affiliation: [freiburguni]
+
+pavanvidem:
+    name: Pavankumar Videm
+    affiliation: [freiburguni]
+
 pclo:
     name: Patricia Carvajal López
     affiliation: [ebi]
@@ -560,8 +565,8 @@ ilveroluca:
 
 kikkomep:
     name: Marco Enrico Piras
-    
+
 nakucher:
     name: Natalie Kucher
     affiliation: [johnshopkins]
-    
+
