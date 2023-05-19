@@ -2785,6 +2785,13 @@ sequence-analysis/quality-control/tutorial:
   - sequence-analysis
   type: Tutorial
   versions:
+  - link: coaMGvZazoc
+    length: 50M
+    speakers:
+    - LonsBio
+    captions:
+    - LonsBio
+    date: "2023-05-19"
   - captions:
     - bebatut
     - nagoue
