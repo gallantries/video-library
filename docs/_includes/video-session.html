@@ -89,8 +89,12 @@
                         {% assign prefix = m.link | split:'/' | first %}
                         {% if prefix == "topics" %}
 				{{ m.type }}:
+                {% if archiveyear == '2023' and archivemonth == '05'  %}
+                	<a href="{{site.gtn}}/archive/smorgasbord3/{{m.link}}?utm_source=schedule&utm_medium=click&utm_campaign=video-library">Version in Video</a>
 
+                {% else %}
 				<a href="{{site.gtn}}/archive/{{archiveyear}}-{{archivemonth}}-01/{{m.link}}?utm_source=schedule&utm_medium=click&utm_campaign=video-library">Version in Video</a>
+                {% endif %}
 				<!-- We allow overriding specific materials to their archival versions, hiding the "current" link. -->
 				{% unless force_archive_materials %}
 				|
