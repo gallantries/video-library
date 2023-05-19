@@ -2540,7 +2540,9 @@
     "versions": [
       {
         "link": "uN6nP3I7QLE",
-        "captions": null,
+        "captions": [
+          "delphine-l"
+        ],
         "date": "2023-05-09",
         "length": "13M",
         "speakers": [
@@ -2562,7 +2564,7 @@
     ],
     "gtn_id": "galaxy-interface/collections",
     "title": "Using dataset collections",
-    "captioned": false
+    "captioned": true
   },
   "galaxy-interface/interactive-tools": {
     "description": "This demo videos shows you how you can run Interactive tools such as RStudio and Jupyter notebooks within Galaxy.",

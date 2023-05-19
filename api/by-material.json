@@ -1309,7 +1309,9 @@
   "topics/galaxy-interface/tutorials/collections/tutorial.html": [
     {
       "link": "uN6nP3I7QLE",
-      "captions": null,
+      "captions": [
+        "delphine-l"
+      ],
       "date": "2023-05-09",
       "length": "13M",
       "speakers": [
