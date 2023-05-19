@@ -5711,6 +5711,9 @@
     ],
     "title": "Publishing My First™ RO-Crate",
     "type": "Tutorial",
+    "instructors": [
+      "ro-crates"
+    ],
     "versions": [
 
     ],
@@ -5735,6 +5738,9 @@
     ],
     "title": "RO-Crate in Python",
     "type": "Tutorial",
+    "instructors": [
+      "ro-crates"
+    ],
     "versions": [
 
     ],
@@ -5758,6 +5764,9 @@
     ],
     "title": "Workflow Run RO-Crate Introduction",
     "type": "Tutorial",
+    "instructors": [
+      "ro-crates"
+    ],
     "versions": [
 
     ],
@@ -5821,6 +5830,9 @@
     ],
     "title": "Best practices for workflows in GitHub repositories",
     "type": "Tutorial",
+    "instructors": [
+      "ro-crates"
+    ],
     "versions": [
 
     ],
@@ -5844,6 +5856,9 @@
     ],
     "title": "Submitting workflows to LifeMonitor",
     "type": "Tutorial",
+    "instructors": [
+      "ro-crates"
+    ],
     "versions": [
 
     ],

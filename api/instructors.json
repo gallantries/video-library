@@ -608,6 +608,10 @@
       "sanbi"
     ]
   },
+  "ro-crates": {
+    "name": "The RO-crates team",
+    "photo": "ro-crates.png"
+  },
   "rwinand": {
     "name": "Raf Winand",
     "affiliation": [
