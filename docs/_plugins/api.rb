@@ -15,7 +15,7 @@ module Jekyll
     end
 
     def generate(site)
-      puts "[VideoLibrary/API] Videos & Sessisons"
+      puts "[VideoLibrary/API] Videos & Sessions"
       write_api_json(site, "gtn.json", site.data['gtn'])
       write_api_json(site, "studyload.json", site.data['studyload'])
       write_api_json(site, "instructors.json", site.data['instructors'])
