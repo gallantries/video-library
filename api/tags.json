@@ -4599,6 +4599,40 @@
       }
     }
   },
+  "one-health": {
+    "url": "/video-library/api/tags/one-health.json",
+    "videos": {
+      "one-health/galaxy-pathogen-surveillance": {
+        "description": null,
+        "type": "Lecture",
+        "materials": [
+          {
+            "external": true,
+            "link": "https://www.infectious-diseases-toolkit.org/showcase/covid19-galaxy",
+            "title": "IDTk Showcase: An automated SARS-CoV-2 genome surveillance system built around Galaxy",
+            "type": "Additional Info"
+          }
+        ],
+        "tags": [
+          "one-health"
+        ],
+        "versions": [
+          {
+            "link": null,
+            "speakers": [
+              "wm75"
+            ],
+            "date": "2023-05-19",
+            "length": "10M",
+            "captions": null
+          }
+        ],
+        "gtn_id": "one-health/galaxy-pathogen-surveillance",
+        "title": "one-health/galaxy-pathogen-surveillance",
+        "captioned": false
+      }
+    }
+  },
   "sequence-analysis": {
     "url": "/video-library/api/tags/sequence-analysis.json",
     "videos": {

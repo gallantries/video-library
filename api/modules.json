@@ -1323,10 +1323,11 @@
         ]
       },
       "surveillance": {
-        "title": "Building a pathogen surveillance system",
+        "title": "Building a pathogen surveillance system with Galaxy",
+        "description": "Learn how to integrate Galaxy-based pathogen sequence data analysis into\nmolecular surveillance programs\n",
         "trainings": [
           {
-            "video": "sars-cov2/using-galaxy"
+            "video": "one-health/galaxy-pathogen-surveillance"
           },
           {
             "video": "variant-analysis/sars-cov-2-variant-discovery/tutorial"
@@ -1336,20 +1337,12 @@
           },
           {
             "video": "sars-cov2/usegalaxy-star-bot"
-          }
-        ]
-      },
-      "archiving": {
-        "title": "Pathogen data sharing and archiving",
-        "trainings": [
+          },
           {
-            "video": "assembly/assembly-with-preprocessing"
+            "self-study": "sequence-analysis/tutorials/human-reads-removal"
           },
           {
             "video": "sars-cov2/upload-ena"
-          },
-          {
-            "video": "galaxy-interface/upload-to-ena"
           }
         ]
       }
