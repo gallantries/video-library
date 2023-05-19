@@ -5,10 +5,11 @@ description: This module will cover meta-omics analysis in Galaxy
 
 program:
   amplicon:
-    title: 16S Taxonomic Profiling
+    title: Taxonomic Profiling
     trainings:
       - video: metagenomics/introduction/slides
       - video: metagenomics/mothur-miseq-sop-short/tutorial
+      - video: metagenomics/taxonomic-profiling/tutorial
 
   assembly:
     title: Assembly

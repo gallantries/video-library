@@ -4,10 +4,11 @@ title: Microbial Analysis
 
 program:
   intro:
-    title: 16S Taxonomic Profiling
+    title: Taxonomic Profiling
     trainings:
       - video: metagenomics/introduction/slides
       - video: metagenomics/mothur-miseq-sop-short/tutorial
+      - video: metagenomics/taxonomic-profiling/tutorial
 
   nanopore:
     title: Microbiome Analysis using Nanopore Sequencing
