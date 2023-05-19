@@ -3773,6 +3773,8 @@ ro-crates/publishing/tutorial:
   tags: [ro-crate]
   title: Publishing My First™ RO-Crate
   type: Tutorial
+  instructors:
+    - ro-crates
   versions: []
   support_channel: ro-crate
   cover:
@@ -3786,6 +3788,8 @@ ro-crates/python/tutorial:
   tags: [ro-crate, python]
   title: RO-Crate in Python
   type: Tutorial
+  instructors:
+    - ro-crates
   versions: []
   support_channel: ro-crate
   cover:
@@ -3799,6 +3803,8 @@ ro-crates/workflow-run-crate/tutorial:
   tags: [ro-crate]
   title: Workflow Run RO-Crate Introduction
   type: Tutorial
+  instructors:
+    - ro-crates
   versions: []
   support_channel: ro-crate
   cover:
@@ -3832,6 +3838,8 @@ ro-crates/bestpractices/tutorial:
   tags: [ro-crate]
   title: Best practices for workflows in GitHub repositories
   type: Tutorial
+  instructors:
+    - ro-crates
   versions: []
   support_channel: ro-crate
   cover:
@@ -3845,6 +3853,8 @@ ro-crates/lifemonitor/tutorial:
   tags: [ro-crate]
   title: Submitting workflows to LifeMonitor
   type: Tutorial
+  instructors:
+    - ro-crates
   versions: []
   support_channel: ro-crate
   cover:
