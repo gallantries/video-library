@@ -2525,7 +2525,14 @@
     "captioned": true
   },
   "galaxy-interface/history/tutorial": {
-    "type": "Tutorial",
+    "type": "Demo",
+    "title": "Demo: Understanding the Galaxy History System",
+    "materials": [
+      {
+        "link": "topics/galaxy-interface/tutorials/history/tutorial.html",
+        "type": "Tutorial"
+      }
+    ],
     "versions": [
       {
         "link": "C3_HSgbbDWc",
