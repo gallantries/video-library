@@ -1781,6 +1781,19 @@
       ]
     }
   ],
+  "topics/metagenomics/tutorials/taxonomic-profiling/tutorial.html": [
+    {
+      "link": "jszMnBKm6ig",
+      "speakers": [
+        "bebatut"
+      ],
+      "captions": [
+
+      ],
+      "length": "1H15M",
+      "galaxy_version": "23.01"
+    }
+  ],
   "topics/metagenomics/tutorials/mothur-miseq-sop-short/tutorial.html": [
     {
       "link": "CGSBeCW3rpA",

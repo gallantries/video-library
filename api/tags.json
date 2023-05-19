@@ -4009,6 +4009,34 @@
         "title": "Metatranscriptomics analysis using microbiome RNA-seq data",
         "captioned": false
       },
+      "metagenomics/taxonomic-profiling/tutorial": {
+        "description": null,
+        "materials": [
+          {
+            "link": "topics/metagenomics/tutorials/taxonomic-profiling/tutorial.html",
+            "type": "Tutorial"
+          }
+        ],
+        "tags": [
+          "metagenomics"
+        ],
+        "versions": [
+          {
+            "link": "jszMnBKm6ig",
+            "speakers": [
+              "bebatut"
+            ],
+            "captions": [
+
+            ],
+            "length": "1H15M",
+            "galaxy_version": "23.01"
+          }
+        ],
+        "gtn_id": "metagenomics/taxonomic-profiling",
+        "title": "Taxonomic Profiling and Visualization of Metagenomic Data",
+        "captioned": false
+      },
       "metagenomics/mothur-miseq-sop-short/tutorial": {
         "description": "This lecture briefly introduces 16S sequencing, a popular technique used for taxonomic profiling of microbial communities.",
         "materials": [
