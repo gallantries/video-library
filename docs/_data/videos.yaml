@@ -2700,6 +2700,7 @@ virology/sequencing-spectrum-viral-genomes:
     date: '2023-05-04'
     length: 12M
     captions:
+    - wm75
 one-health/galaxy-pathogen-surveillance:
   title: An automated SARS-CoV-2 genome surveillance system built around Galaxy
   description:
@@ -2718,7 +2719,7 @@ one-health/galaxy-pathogen-surveillance:
     date: '2023-05-19'
     length: 10M
     captions:
-
+    - wm75
 sequence-analysis/human-reads-removal/tutorial:
   description: null
   materials:
@@ -3499,7 +3500,7 @@ single-cell/scrna-preprocessing-tenx/tutorial:
   - link: IIiOcgiXviE
     speakers:
     - pavanvidem
-    captions: []
+    captions: [pavanvidem]
     date: '2023-05-19'
     length: 19M
     galaxy_version: '23.01'
