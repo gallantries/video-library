@@ -4182,11 +4182,13 @@
         ],
         "date": "2023-05-04",
         "length": "12M",
-        "captions": null
+        "captions": [
+          "wm75"
+        ]
       }
     ],
     "gtn_id": "virology/sequencing-spectrum-viral-genomes",
-    "captioned": false
+    "captioned": true
   },
   "one-health/galaxy-pathogen-surveillance": {
     "title": "An automated SARS-CoV-2 genome surveillance system built around Galaxy",
@@ -4211,11 +4213,13 @@
         ],
         "date": "2023-05-19",
         "length": "10M",
-        "captions": null
+        "captions": [
+          "wm75"
+        ]
       }
     ],
     "gtn_id": "one-health/galaxy-pathogen-surveillance",
-    "captioned": false
+    "captioned": true
   },
   "sequence-analysis/human-reads-removal/tutorial": {
     "description": null,
@@ -5296,7 +5300,7 @@
           "pavanvidem"
         ],
         "captions": [
-
+          "pavanvidem"
         ],
         "date": "2023-05-19",
         "length": "19M",
@@ -5316,7 +5320,7 @@
       }
     ],
     "gtn_id": "single-cell/scrna-preprocessing-tenx",
-    "captioned": false
+    "captioned": true
   },
   "single-cell/scrna-scanpy-pbmc3k/tutorial": {
     "description": "In this tutorial, we will investigate clustering of single-cell data from 10x Genomics, including preprocessing, clustering and the identification of cell types via known marker genes, using Scanpy. It will be illustrated using a dataset of Peripheral Blood Mononuclear Cells (PBMC), containing 2,700 single cells. Please work through the full tutorial yourself to get all the details.",

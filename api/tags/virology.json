@@ -17,11 +17,13 @@
           ],
           "date": "2023-05-04",
           "length": "12M",
-          "captions": null
+          "captions": [
+            "wm75"
+          ]
         }
       ],
       "gtn_id": "virology/sequencing-spectrum-viral-genomes",
-      "captioned": false
+      "captioned": true
     }
   }
 }

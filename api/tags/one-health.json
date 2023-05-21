@@ -24,11 +24,13 @@
           ],
           "date": "2023-05-19",
           "length": "10M",
-          "captions": null
+          "captions": [
+            "wm75"
+          ]
         }
       ],
       "gtn_id": "one-health/galaxy-pathogen-surveillance",
-      "captioned": false
+      "captioned": true
     }
   }
 }
