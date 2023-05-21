@@ -9,12 +9,13 @@ program:
       - video: bioconductor/bioc-intro/tutorial
       - video: bioconductor/bioc-project/tutorial
   building:
-    title: Bioconductor conference workshops
+    title: Bioconductor workshops
     trainings:
       - video: bioconductor/isee/tutorial
       - video: bioconductor/bioc2022_tidytranscriptomics/tutorial
       - video: bioconductor/CompGenomicsBioc2022/tutorial 
       - video: bioconductor/epiforbioworkshop2022/tutorial
+      - video: bioconductor/SOOBiocWorkshop/tutorial
   extending:
     title: Bioconductor workflows
     trainings:

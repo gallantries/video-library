@@ -322,6 +322,10 @@ LonsBio:
     name: Andrew Lonsdale
     affiliation: [petermac]
 
+maddygriz:
+    name: Maddy Griswold
+    affiliation: [nanostring]
+
 malloryfreeberg:
     name: Mallory Freeberg
     affiliation: [ebi]
@@ -348,6 +352,10 @@ martenson:
 mblue9:
     name: Maria Doyle
     affiliation: [petermac]
+
+mgrout81:
+    name: Megan Vandenberg
+    affiliation: [nanostring]
 
 miaomiaozhou88:
     name: Miaomiao Zhou
