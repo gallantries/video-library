@@ -3932,6 +3932,7 @@ bioconductor/bioc-intro/tutorial:
     Bioconductor concepts.
   materials:
   - link: https://carpentries-incubator.github.io/bioc-intro/
+    title: Introduction to data analysis with R and Bioconductor
     external: true
   tags: [bioconductor, r]
   support_channel: bioconductor
@@ -3954,6 +3955,7 @@ bioconductor/bioc-project/tutorial:
     workshop.
   materials:
   - link: https://carpentries-incubator.github.io/bioc-project/
+    title: The Bioconductor project
   tags: [bioconductor, r]
   versions: []
   support_channel: bioconductor
@@ -3977,6 +3979,7 @@ bioconductor/rformassspectrometry/tutorial:
     packages for their exploratory and statistical proteomics data analysis.
   materials:
   - link: https://rformassspectrometry.github.io/docs/
+    title: R for Mass Spectrometry
   tags: [bioconductor, r]
   versions: []
   support_channel: bioconductor
@@ -4005,6 +4008,7 @@ bioconductor/isee/tutorial:
     and suggestions for future developments
   materials:
   - link: https://isee.github.io/iSEEWorkshop2020/
+    title: Interactive visualization of SummarizedExperiment objects with iSEE
   tags: [bioconductor, r]
   title: Interactive visualization of SummarizedExperiment objects with iSEE
   type: Tutorial
@@ -4038,6 +4042,7 @@ bioconductor/epiforbioworkshop2022/tutorial:
     examples based on participant feedback as well as content updates.
   materials:
   - link: https://chloemirzayi.com/epiforbioworkshop2022/articles/EpiForBioWorkshop.html
+    title: Epidemiology for Bioinformaticians
   tags: [bioconductor, r]
   title: Epidemiology for Bioinformaticians
   type: Tutorial
@@ -4067,6 +4072,7 @@ bioconductor/bioc2022_tidytranscriptomics/tutorial:
     information see the tidy transcriptomics blog.
   materials:
   - link: https://tidytranscriptomics-workshops.github.io/bioc2022_tidytranscriptomics/articles/tidytranscriptomics_case_study.html
+    title: Tidy Transcriptomics For Single-Cell RNA Sequencing Analyses
   tags: [bioconductor, r]
   title: Tidy Transcriptomics For Single-Cell RNA Sequencing Analyses
   type: Tutorial
@@ -4089,6 +4095,7 @@ bioconductor/CompGenomicsBioc2022/tutorial:
     which have previously been shown to imply some degree of conserved function.
   materials:
   - link: https://www.ahl27.com/CompGenomicsBioc2022/index.html
+    title: Comparative Genomics with DECIPHER and SynExtend
   tags: [bioconductor, r]
   title: Comparative Genomics with DECIPHER and SynExtend
   type: Tutorial
@@ -4165,6 +4172,7 @@ bioconductor/fluentGenomics/tutorial:
     analyses.
   materials:
   - link: https://bit.ly/fluentGenomics
+    title: "fluentGenomics: A plyranges and tximeta workflow"
   tags: [bioconductor, r]
   versions: []
   support_channel: bioconductor
@@ -4196,6 +4204,7 @@ bioconductor/RNAseq123/tutorial:
     biological insights using Bioconductor.
   materials:
   - link: https://bit.ly/RNAseq123
+    title: "RNA-seq analysis is easy as 1-2-3 with limma, Glimma and edgeR"
   tags: [bioconductor, r]
   versions: []
   support_channel: bioconductor
@@ -4227,6 +4236,7 @@ bioconductor/RnaSeqGeneEdgeRQL/tutorial:
     functionality of edgeR.
   materials:
   - link: https://bit.ly/RnaSeqGeneEdgeRQL
+    title: "From reads to genes to pathways: RNA-Seq using Rsubread and edgeR"
   tags: [bioconductor, r]
   versions: []
   support_channel: bioconductor
@@ -4259,6 +4269,7 @@ bioconductor/SingscoreAMLMutations/tutorial:
     mutations/genetic lesions appear to drive transcriptional programs.
   materials:
   - link: https://bit.ly/SingscoreAMLMutations
+    title: Using singscore to predict mutations in AML from transcriptomic signatures
   tags: [bioconductor, r]
   versions: []
   support_channel: bioconductor
