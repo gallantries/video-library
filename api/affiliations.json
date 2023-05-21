@@ -165,6 +165,10 @@
     "link": "https://www.mnhn.fr/en",
     "logo": "mnhn.jpg"
   },
+  "nanostring": {
+    "name": "NanoString Technologies, Inc",
+    "link": "https://nanostring.com/"
+  },
   "ncbi": {
     "name": "National Center for Biotechnology Information",
     "link": "https://www.ncbi.nlm.nih.gov/",

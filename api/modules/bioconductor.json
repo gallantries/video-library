@@ -14,7 +14,7 @@
       ]
     },
     "building": {
-      "title": "Bioconductor conference workshops",
+      "title": "Bioconductor workshops",
       "trainings": [
         {
           "video": "bioconductor/isee/tutorial"
@@ -27,6 +27,9 @@
         },
         {
           "video": "bioconductor/epiforbioworkshop2022/tutorial"
+        },
+        {
+          "video": "bioconductor/SOOBiocWorkshop/tutorial"
         }
       ]
     },
