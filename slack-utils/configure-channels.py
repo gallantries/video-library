@@ -84,12 +84,16 @@ for k, v in data.items():
         time.sleep(5)
 
         # Invite all of the gallantries users by default
-        contributors = [
-            nonesafe(y.get("captions", [])) + nonesafe(y.get("speakers", []))
-            for y in v["versions"]
-        ]
-        contributors = [item for sublist in contributors for item in sublist]
-        contributors = list(set(contributors))
+        if 'versions' in v:
+            contributors = [
+                nonesafe(y.get("captions", [])) + nonesafe(y.get("speakers", []))
+                for y in v["versions"]
+            ]
+            contributors = [item for sublist in contributors for item in sublist]
+            contributors = list(set(contributors))
+        else:
+            contributors = []
+
         contributors_slack = [INSTRUCTORS_WITH_SLACK.get(x) for x in contributors]
         contributors_slack = [x for x in contributors_slack if x is not None]
 
