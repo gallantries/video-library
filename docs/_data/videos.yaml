@@ -3720,7 +3720,7 @@ webinar/admins:
   title: Galaxy Resources for.. Admins
   type: Webinar
   versions:
-  - captions: null
+  - captions: [galaxycommunity] # Unknown
     date: '2021-05-12'
     length: 1H5M
     link: MdQyltMAocg
