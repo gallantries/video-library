@@ -48,6 +48,10 @@ mapping:
                 sequence:
                     - type: str
                       enum: CONTRIBUTORS
+            video_support_channels:
+                type: seq
+                sequence:
+                  - type: str
             tags:
                 type: seq
                 required: true
@@ -56,10 +60,12 @@ mapping:
                     enum:
                         - admin
                         - assembly
+                        - bioconductor
                         - climate
                         - community
                         - computational-chemistry
                         - contributing
+                        - crispr
                         - data-science
                         - dev
                         - ecology
@@ -71,25 +77,25 @@ mapping:
                         - genome-annotation
                         - introduction
                         - metagenomics
-                        - proteomics
-                        - crispr
-                        - single-cell
-                        - synthetic-biology
+                        - one-health
                         - proteogenomics
+                        - proteomics
+                        - python
+                        - r
+                        - ro-crate
                         - sars-cov2
                         - sequence-analysis
+                        - single-cell
                         - statistics
+                        - synthetic-biology
                         - transcriptomics
+                        - tuberculosis
                         - variant-analysis
                         - virology
                         - visualisation
                         - webinar
                         - wetlab
-                        - ro-crate
-                        - python
                         - workflowhub
-                        - r
-                        - bioconductor
             versions:
                 type: seq
                 sequence:
@@ -120,3 +126,5 @@ mapping:
                           link:
                               type: str
                               pattern: /[A-Za-z0-9_-]{9,13}/
+                          external:
+                              type: bool

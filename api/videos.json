@@ -2527,6 +2527,9 @@
   "galaxy-interface/history/tutorial": {
     "type": "Demo",
     "title": "Demo: Understanding the Galaxy History System",
+    "tags": [
+      "galaxy-interface"
+    ],
     "materials": [
       {
         "link": "topics/galaxy-interface/tutorials/history/tutorial.html",
@@ -2546,7 +2549,9 @@
         "date": "2023-05-19",
         "galaxy_version": "23.01"
       }
-    ]
+    ],
+    "gtn_id": "galaxy-interface/history",
+    "captioned": true
   },
   "galaxy-interface/collections/tutorial": {
     "description": null,
@@ -3498,6 +3503,7 @@
         "captions": [
 
         ],
+        "date": "2023-05-16",
         "length": "1H15M",
         "galaxy_version": "23.01"
       }
@@ -5492,7 +5498,8 @@
       }
     ],
     "tags": [
-      "variant-analysis"
+      "variant-analysis",
+      "tuberculosis"
     ],
     "type": "Tutorial",
     "versions": [
@@ -6339,6 +6346,9 @@
     "description": "Principles of drug resistance detection from genomic data",
     "type": "Webinar",
     "support_channel": "general",
+    "tags": [
+      "tuberculosis"
+    ],
     "versions": [
       {
         "link": "Ddwt-_gQR2M",
@@ -6352,12 +6362,17 @@
         ],
         "date": "2023-01-01"
       }
-    ]
+    ],
+    "gtn_id": "webinar/tb-drug-resistance",
+    "captioned": false
   },
   "webinar/tb-clustering": {
     "title": "Webinar: The Concept of Clustering",
     "description": "Main aspects of clustering analysis to infer transmission in MTBC",
     "type": "Webinar",
+    "tags": [
+      "tuberculosis"
+    ],
     "support_channel": "general",
     "versions": [
       {
@@ -6372,12 +6387,17 @@
         ],
         "date": "2023-01-01"
       }
-    ]
+    ],
+    "gtn_id": "webinar/tb-clustering",
+    "captioned": false
   },
   "webinar/tb-phylogenetic-mutations": {
     "title": "Webinar: Phylogenetic mutations",
     "description": "This video will introduce one special type of mutations to take into account when studying drug resistance patterns",
     "type": "Webinar",
+    "tags": [
+      "tuberculosis"
+    ],
     "versions": [
       {
         "link": "1ps_o5rpnmw",
@@ -6389,12 +6409,17 @@
         "captions": null,
         "date": "2023-01-01"
       }
-    ]
+    ],
+    "gtn_id": "webinar/tb-phylogenetic-mutations",
+    "captioned": false
   },
   "webinar/tb-genetic-distance": {
     "title": "Webinar: genetic distance thresholds",
     "description": "Clustering as an approximation to infer transmission",
     "type": "Webinar",
+    "tags": [
+      "tuberculosis"
+    ],
     "versions": [
       {
         "link": "kKNgmpy1N94",
@@ -6408,6 +6433,8 @@
         "external": true,
         "date": "2023-01-01"
       }
-    ]
+    ],
+    "gtn_id": "webinar/tb-genetic-distance",
+    "captioned": false
   }
 }

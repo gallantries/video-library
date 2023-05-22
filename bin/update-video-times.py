@@ -30,9 +30,9 @@ for k, v in data.items():
     if len(v.get('versions', [])):
         for video in v['versions']:
             print(k, video)
-            if True: # video['length'] is None or len(video['length'].strip()) == 0:
+            if video['length'] is None or len(video['length'].strip()) == 0:
                 print(video['link'])
-                out = subprocess.check_output(['youtube-dl', '-j', '--', video['link']]).decode('utf-8')
+                out = subprocess.check_output(['yt-dlp', '-j', '--', video['link']]).decode('utf-8')
                 out = json.loads(out)
                 duration = int(out['duration'])
                 video['length'] = convertTime(duration)
