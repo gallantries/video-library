@@ -23,6 +23,25 @@ with open("instructors.yaml", "r") as handle:
 with open("video-library.yaml", "r") as handle:
     data = yaml.safe_load(handle)
 
+import glob
+# Also need to merge in the modules
+for module in glob.glob("docs/modules/*.md"):
+    with open(module, "r") as handle:
+        d3 = next(yaml.safe_load_all(handle))
+        for m in d3.get('program', []):
+            for t in d3['program'][m].get('trainings', []):
+                if 'self-study' in t.keys():
+                    sskey = t['self-study']
+                    data[sskey] = t
+
+# {'self-study': 'admin/jenkins', 'support_channel': 'event-gat'}
+# {'self-study': 'admin/ftp'}
+# {'self-study': 'admin/advanced-galaxy-customisation'}
+# {'self-study': 'admin/troubleshooting'}
+
+
+#exit(0)
+
 
 conversations = lib.list_channels()
 
@@ -53,6 +72,7 @@ for k, v in data.items():
     new_name = lib.convert_name(k).lower()
 
     name = override.lstrip("#") if override is not None else new_name.lstrip("#")
+    print(k, v, override, new_name)
 
     if "event-" in new_name:
         continue
