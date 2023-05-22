@@ -3783,7 +3783,7 @@ webinar/tooldevs:
   title: Galaxy Resources for.. Tool Developers
   type: Webinar
   versions:
-  - captions: null
+  - captions: [hexylena]
     date: '2021-05-26'
     length: 59M
     link: vx2icgaU_h0
