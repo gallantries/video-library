@@ -6585,6 +6585,11 @@
         "materials": [
           {
             "external": true,
+            "link": "https://docs.google.com/presentation/d/1dgKt1KJEazVPLmUXoXDUKgQl4hu1-Mute_AhSt183lQ/edit?usp=sharing",
+            "title": "Slides from this webinar"
+          },
+          {
+            "external": true,
             "link": "https://galaxyproject.org/events/webinars/",
             "title": "View past & upcoming webinars",
             "type": "Galaxy Webinar Page"
