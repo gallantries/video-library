@@ -4328,7 +4328,7 @@ webinar/tb-phylogenetic-mutations:
     speakers:
     - GaloGS
     external: true
-    captions: null
+    captions: null # Captions sent to them, we will copy the video if they do not respond soon
     date: "2023-01-01"
 
 webinar/tb-genetic-distance:
