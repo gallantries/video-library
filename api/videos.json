@@ -2875,7 +2875,7 @@
     "gtn_id": "galaxy/intro",
     "captioned": true
   },
-  "galaxy/intro2": {
+  "introduction/galaxy-intro-strands": {
     "description": "In this tutorial, we will walk you through your first (toy) analysis in Galaxy. This tutorial is aimed at familiarizing you with the Galaxy platform, and some basic NGS concepts.",
     "materials": [
       {
@@ -2927,7 +2927,7 @@
         ]
       }
     ],
-    "gtn_id": "galaxy/intro2",
+    "gtn_id": "introduction/galaxy-intro-strands",
     "captioned": true
   },
   "genome-annotation/annotation-with-prokka/slides": {

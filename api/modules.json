@@ -110,7 +110,7 @@
             "video": "galaxy/intro"
           },
           {
-            "video": "galaxy/intro2"
+            "video": "introduction/galaxy-intro-strands"
           },
           {
             "session": "sequence-analysis/quality-control"
@@ -492,7 +492,7 @@
             "video": "galaxy/intro"
           },
           {
-            "video": "galaxy/intro2"
+            "video": "introduction/galaxy-intro-strands"
           }
         ]
       },
