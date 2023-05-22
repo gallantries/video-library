@@ -1601,6 +1601,8 @@ epigenetics/atac-seq/tutorial:
 galaxy-interface/history/tutorial:
   type: Demo
   title: "Demo: Understanding the Galaxy History System"
+  tags:
+    - galaxy-interface
   materials:
   - link: topics/galaxy-interface/tutorials/history/tutorial.html
     type: Tutorial
@@ -2230,6 +2232,7 @@ metagenomics/taxonomic-profiling/tutorial:
     speakers:
     - bebatut
     captions: []
+    date: '2023-05-16'
     length: 1H15M
     galaxy_version: '23.01'
 metagenomics/mothur-miseq-sop-short/tutorial:
@@ -3630,6 +3633,7 @@ variant-analysis/tb-variant-analysis/tutorial:
     type: Tutorial
   tags:
   - variant-analysis
+  - tuberculosis
   type: Tutorial
   versions:
   - captions:
@@ -4281,6 +4285,8 @@ webinar/tb-drug-resistance:
   description: Principles of drug resistance detection from genomic data
   type: Webinar
   support_channel: general
+  tags:
+    - tuberculosis
   versions:
   - link: Ddwt-_gQR2M
     length: 20M
@@ -4294,6 +4300,8 @@ webinar/tb-clustering:
   title: "Webinar: The Concept of Clustering"
   description:  Main aspects of clustering analysis to infer transmission in MTBC
   type: Webinar
+  tags:
+    - tuberculosis
   support_channel: general
   versions:
   - link: l4cPUECJ7VU
@@ -4308,6 +4316,8 @@ webinar/tb-phylogenetic-mutations:
   title: "Webinar: Phylogenetic mutations"
   description: This video will introduce one special type of mutations to take into account when studying drug resistance patterns
   type: Webinar
+  tags:
+    - tuberculosis
   versions:
   - link: 1ps_o5rpnmw
     length: 15M
@@ -4321,6 +4331,8 @@ webinar/tb-genetic-distance:
   title: "Webinar: genetic distance thresholds"
   description: Clustering as an approximation to infer transmission
   type: Webinar
+  tags:
+    - tuberculosis
   versions:
   - link: kKNgmpy1N94
     length: 15M
