@@ -1,7 +1,13 @@
 build: api/swagger.json
-	find _plugins | entr -r JEKYLL_ENV=production bundle exec jekyll build -d _site/video-library --strict_front_matter --trace
+	JEKYLL_ENV=production bundle exec jekyll build -d _site/video-library --strict_front_matter --trace
 
 serve:
+	jekyll serve -d _site/video-library --trace --strict_front_matter -H 0.0.0.0 --livereload
+
+buildr: api/swagger.json
+	find _plugins | entr -r JEKYLL_ENV=production bundle exec jekyll build -d _site/video-library --strict_front_matter --trace
+
+server:
 	find _plugins | entr -r jekyll serve -d _site/video-library --trace --strict_front_matter -H 0.0.0.0 --livereload
 
 api/swagger.json: api/swagger.yaml
