@@ -133,7 +133,7 @@
             "bebatut"
           ],
           "captions": [
-
+            "sophia120199"
           ],
           "date": "2023-05-16",
           "length": "1H15M",
@@ -142,7 +142,7 @@
       ],
       "gtn_id": "metagenomics/taxonomic-profiling",
       "title": "Taxonomic Profiling and Visualization of Metagenomic Data",
-      "captioned": false
+      "captioned": true
     },
     "metagenomics/mothur-miseq-sop-short/tutorial": {
       "description": "This lecture briefly introduces 16S sequencing, a popular technique used for taxonomic profiling of microbial communities.",
