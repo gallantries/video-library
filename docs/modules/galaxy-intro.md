@@ -18,7 +18,7 @@ program:
     description: Start here if you just want to get started learning Galaxy!
     trainings:
       - video: galaxy/intro
-      - video: galaxy/intro2
+      - video: introduction/galaxy-intro-strands
 
   history:
     title: The New Galaxy History

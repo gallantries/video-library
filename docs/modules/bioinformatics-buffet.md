@@ -8,7 +8,7 @@ program:
     title: "Monday: Introduction to Galaxy and Genomics"
     trainings:
       - video: galaxy/intro
-      - video: galaxy/intro2
+      - video: introduction/galaxy-intro-strands
       - session: sequence-analysis/quality-control
 
   day2:

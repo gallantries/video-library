@@ -23,7 +23,7 @@ program:
     title: Analysis
     trainings:
       - video: galaxy-interface/interactive-tools
-      - self-study: galaxy-interface/data-manipulation-olympics
+      - self-study: introduction/data-manipulation-olympics
         description: |
           Scientific analyses often consist of a number of tools that
           run one after the other, in order to go from the raw data to
