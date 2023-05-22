@@ -88,7 +88,9 @@
       "type": "Webinar",
       "versions": [
         {
-          "captions": null,
+          "captions": [
+            "shiltemann"
+          ],
           "date": "2021-04-21",
           "length": "1H10M",
           "link": "cFN_WPGz9qk",
@@ -98,7 +100,7 @@
         }
       ],
       "gtn_id": "webinar/researchers",
-      "captioned": false
+      "captioned": true
     },
     "webinar/tooldevs": {
       "materials": [
