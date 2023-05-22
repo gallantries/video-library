@@ -20,8 +20,13 @@ def convert_name(path):
     if path_parts[0] == "sequence-analysis":
         path_parts[0] = "ngs"
 
+    if 'olympic' in path:
+        return "_".join(path_parts[0:2])
+
     if "galaxy/intro" in path or path_parts[0] == "introduction":
         return "galaxy-intro"
+    elif path_parts[0] == 'galaxy-interface':
+        return "_".join(path_parts[0:2])
     elif path_parts[0] in ("galaxy", "community", "webinar"):
         return "general"
     elif path_parts[0] == "course":

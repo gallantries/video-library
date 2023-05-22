@@ -16,8 +16,14 @@ module Jekyll
         path_parts[0] = 'ngs'
       end
 
+      if path =~ /olympic/
+        return path_parts[0..1].join("_")
+      end
+
       if path.include?('galaxy/intro') or path_parts[0] == 'introduction'
         return 'galaxy-intro'
+      elsif path_parts[0] == 'galaxy-interface'
+        return path_parts[0..1].join("_")
       elsif ['galaxy', 'community', 'webinar'].include? path_parts[0]
         return 'general'
       elsif path_parts[0] == 'course'
