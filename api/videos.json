@@ -5636,7 +5636,9 @@
     "type": "Webinar",
     "versions": [
       {
-        "captions": null,
+        "captions": [
+          "galaxycommunity"
+        ],
         "date": "2021-05-12",
         "length": "1H5M",
         "link": "MdQyltMAocg",
@@ -5647,7 +5649,7 @@
       }
     ],
     "gtn_id": "webinar/admins",
-    "captioned": false
+    "captioned": true
   },
   "webinar/educators": {
     "materials": [
