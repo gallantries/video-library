@@ -23,6 +23,7 @@ program:
       - video: bioconductor/RnaSeqGeneEdgeRQL/tutorial
       - video: bioconductor/SingscoreAMLMutations/tutorial
       - video: bioconductor/fluentGenomics/tutorial
+      - video: bioconductor/MungeSumstats/tutorial
       - video: bioconductor/rformassspectrometry/tutorial
 ---
 
@@ -34,4 +35,4 @@ During [Smorgasbord week May 22-26 2023](https://gallantries.github.io/video-lib
 
 Organisers: [Maria Doyle](mailto:maria.doyle@ul.ie), Alex Mahmoud, [Bioconductor Teaching Committee](https://www.bioconductor.org/help/education-training/)
 
-Register: [See registration  information here](https://gallantries.github.io/video-library/events/smorgasbord3/) 
+Register: [See registration information here](https://gallantries.github.io/video-library/events/smorgasbord3/) 
