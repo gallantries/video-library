@@ -91,6 +91,9 @@
             "video": "bioconductor/fluentGenomics/tutorial"
           },
           {
+            "video": "bioconductor/MungeSumstats/tutorial"
+          },
+          {
             "video": "bioconductor/rformassspectrometry/tutorial"
           }
         ]
