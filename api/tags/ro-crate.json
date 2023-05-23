@@ -38,7 +38,8 @@
       "description": null,
       "materials": [
         {
-          "link": "https://www.researchobject.org/ro-crate/1.2-DRAFT/introduction.html"
+          "link": "topics/fair/tutorials/ro-crate-intro/tutorial.html",
+          "type": "Tutorial"
         },
         {
           "link": "https://github.com/marketplace/actions/ro-crate-preview"
