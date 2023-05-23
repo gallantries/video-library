@@ -4186,6 +4186,34 @@ bioconductor/fluentGenomics/tutorial:
   support_channel: bioconductor
   video_support_channels:
     - https://support.bioconductor.org
+bioconductor/MungeSumstats/tutorial:
+  title: "MungeSumstats: Standardise the format of GWAS summary statistics"
+  type: Tutorial
+  instructors:
+    - Al-Murphy
+  cover:
+    link: bioconductor-session.jpg
+    alt: Bioconductor logo
+  description: |
+    The package is designed to handle the lack of standardisation of output 
+    files by the GWAS community. The MRC IEU Open GWAS team have provided full 
+    summary statistics for >10k GWAS, which are API-accessible via the ieugwasr 
+    and gwasvcf packages. But these GWAS are only standardised in the sense that 
+    they are VCF format, and can be fully standardised with MungeSumstats.
+    
+    MungeSumstats provides a framework to standardise the format for any GWAS 
+    summary statistics, including those in VCF format, enabling downstream 
+    integration and analysis. It addresses the most common discrepancies across 
+    summary statistic files, and offers a range of adjustable Quality Control 
+    (QC) steps.
+  materials:
+  - link: https://neurogenomics.github.io/MungeSumstats/articles/MungeSumstats.html
+    title: "MungeSumstats: Standardise the format of GWAS summary statistics"
+  tags: [bioconductor, r]
+  versions: []
+  support_channel: bioconductor
+  video_support_channels:
+    - https://support.bioconductor.org
 bioconductor/RNAseq123/tutorial:
   title: "RNA-seq analysis is easy as 1-2-3 with limma, Glimma and edgeR"
   type: Tutorial
