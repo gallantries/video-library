@@ -1449,9 +1449,6 @@
     "layout": "module",
     "title": "FAIR data and provenance with RO-Crate and Galaxy",
     "program": {
-      "intro": {
-        "title": "This module is currently under development, content will appear here as it is completed"
-      },
       "building": {
         "title": "Building RO-Crates",
         "trainings": [
