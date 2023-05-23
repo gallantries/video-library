@@ -288,7 +288,7 @@
         "link": "bioconductor-session.jpg",
         "alt": "Bioconductor logo"
       },
-      "description": "The package is designed to handle the lack of standardisation of output \nfiles by the GWAS community. The MRC IEU Open GWAS team have provided full \nsummary statistics for >10k GWAS, which are API-accessible via the ieugwasr \nand gwasvcf packages. But these GWAS are only standardised in the sense that \nthey are VCF format, and can be fully standardised with MungeSumstats.\n\nMungeSumstats provides a framework to standardise the format for any GWAS \nsummary statistics, including those in VCF format, enabling downstream \nintegration and analysis. It addresses the most common discrepancies across \nsummary statistic files, and offers a range of adjustable Quality Control \n(QC) steps.\n",
+      "description": "The package is designed to handle the lack of standardisation of output\nfiles by the GWAS community. The MRC IEU Open GWAS team have provided full\nsummary statistics for >10k GWAS, which are API-accessible via the ieugwasr\nand gwasvcf packages. But these GWAS are only standardised in the sense that\nthey are VCF format, and can be fully standardised with MungeSumstats.\n\nMungeSumstats provides a framework to standardise the format for any GWAS\nsummary statistics, including those in VCF format, enabling downstream\nintegration and analysis. It addresses the most common discrepancies across\nsummary statistic files, and offers a range of adjustable Quality Control\n(QC) steps.\n",
       "materials": [
         {
           "link": "https://neurogenomics.github.io/MungeSumstats/articles/MungeSumstats.html",
