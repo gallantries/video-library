@@ -3931,6 +3931,7 @@ bioconductor/setup:
   title: Getting set up for the Bioconductor Smörgåsbord tutorials
   description: This video will help you get setup on the BioConductor Galaxy to run the tutorials in this module.
   type: Demo
+  support_channel: bioconductor
   cover:
     link: bioconductor-session.jpg
     alt: Bioconductor logo
