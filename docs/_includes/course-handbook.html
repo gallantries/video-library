@@ -6,9 +6,9 @@
   {% assign module = m[1] %}
   {% assign module_id = m[0] %}
   {% if module.subday %}
-  <h4 class="module-start"> {{module.title}} </h4>
+  <h4 class="module-start" id="{{ module.title | slugify }}"> {{module.title}} </h4>
   {% else %}
-  <h3 class="module-start"> {{module.title}} </h3>
+  <h3 class="module-start" id="{{ module.title | slugify }}"> {{module.title}} </h3>
   {% endif %}
   <p class="module-description"> {{module.description | markdownify }} </p>
   <div class="accordion" id="accordion{{m[0]}}">
