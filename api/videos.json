@@ -5997,7 +5997,7 @@
     },
     "materials": [
       {
-        "link": "https://workshop.bioconductor.org/",
+        "link": "https://htmlpreview.github.io/?https://github.com/Bioconductor/workshop-contributions/blob/main/welcome.html",
         "title": "Go to the Bioconductor Galaxy"
       }
     ],
@@ -6006,7 +6006,7 @@
         "link": "2ErhMCctZaY",
         "length": "5M",
         "speakers": [
-          "bioc"
+          "almahmoud"
         ],
         "captions": [
           "bioc"
