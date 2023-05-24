@@ -3936,16 +3936,15 @@ bioconductor/setup:
     link: bioconductor-session.jpg
     alt: Bioconductor logo
   materials:
-  - link: https://workshop.bioconductor.org/
+  - link: https://htmlpreview.github.io/?https://github.com/Bioconductor/workshop-contributions/blob/main/welcome.html
     title: Go to the Bioconductor Galaxy
   versions:
   - link: 2ErhMCctZaY
     length: 5M
     speakers:
-    - bioc
+    - almahmoud
     captions:
     - bioc
-
 
 bioconductor/bioc-intro/tutorial:
   title: Introduction to data analysis with R and Bioconductor
