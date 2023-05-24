@@ -3927,6 +3927,25 @@ ro-crates/lifemonitor/tutorial:
     link: rocrate.png
     alt: RO Crate logo
 
+bioconductor/setup:
+  title: Getting set up for the Bioconductor Smörgåsbord tutorials
+  description: This video will help you get setup on the BioConductor Galaxy to run the tutorials in this module.
+  type: Demo
+  cover:
+    link: bioconductor-session.jpg
+    alt: Bioconductor logo
+  materials:
+  - link: https://workshop.bioconductor.org/
+    title: Go to the Bioconductor Galaxy
+  versions:
+  - link: 2ErhMCctZaY
+    length: 5M
+    speakers:
+    - bioc
+    captions:
+    - bioc
+
+
 bioconductor/bioc-intro/tutorial:
   title: Introduction to data analysis with R and Bioconductor
   type: Tutorial
