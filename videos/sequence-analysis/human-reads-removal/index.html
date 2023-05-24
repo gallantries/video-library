@@ -26,13 +26,79 @@
 
 </head>
 <body>
-    <main class="page-content" aria-label="Content">
+	<a class="visually-hidden visually-hidden-focusable" href="#content">Skip to main content</a><nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <div class="container-fluid" style="width: calc(1000px - (30px * 2)); padding-left:30px">
+    <a class="navbar-brand"
+        
+             href="/video-library/">GTN Video Library
+        
+    </a>
+
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <!--
+        <li class="nav-item">
+			<a class="nav-link" href="/video-library/">Home</a>
+        </li>
+        -->
+        <li class="nav-item">
+			<a class="nav-link" href="/video-library/events">Events</a>
+        </li>
+         <li class="nav-item">
+			<a class="nav-link" href="/video-library/modules">Training Modules</a>
+        </li>
+        <li class="nav-item">
+			<a class="nav-link" href="/video-library/library">Videos</a>
+        </li>
+        <!--
+        <li class="nav-item">
+			<a class="nav-link" href="/video-library/session-library">Sessions</a>
+        </li>
+        -->
+        <li class="nav-item">
+			<a class="nav-link" href="/video-library/course-builder">Course Builder</a>
+        </li>
+        <li class="nav-item">
+			<a class="nav-link" href="/video-library/instructors">Instructor Guide</a>
+        </li>
+
+        <li class="nav-item">
+			<a class="nav-link" href="https://github.com/gallantries/video-library" title="Github Repository"><img style="height: 1em" src="/video-library/assets/fa/github.svg" alt="assets/fa/github.svg" aria-hidden="true"/></a>
+        </li>
+
+	    <!-- Want to add more pages to the top menu bar? add them here.
+        <li class="nav-item">
+           <a class="nav-link " href="for-instructors.html">Instructors</a>
+        </li>
+        -->
+        <!--
+        <li class="nav-item">
+          <a class="nav-link " href="recording.html">recording</a>
+        </li>
+      -->
+      </ul>
+    </div>
+  </div>
+</nav>
+<main class="page-content" aria-label="Content" id="content">
       <div class="wrapper" >
         
 
 
 
+<div class="alert alert-warning" role="alert">
+	<img style="height: 1em" src="/video-library/assets/fa/exclamation-triangle.svg" alt="assets/fa/exclamation-triangle.svg" aria-hidden="true"/><strong>Warning: </strong> Please be aware that these videos are a snapshot, and as such <strong>may use an outdated version</strong> of the tutorial and/or Galaxy. Below the video you will find links to the tutorials as they appeared at the time of recording.
+</div>
+
 <h2> Removal of human reads from SARS-CoV-2 sequencing data </h2>
+
+Below are video tutorials for this GTN material, created for various (past) events.
+
+<br><br>
+
 
 
 
@@ -52,7 +118,7 @@
 
 <div class="flex-row">
  <div class="col-md-8">
-  <h3 class="session-section">Tutorial Video   </h3>
+  <h3 class="session-section">Tutorial Video   ()  </h3>
   <div style="position:relative;padding-top:56.25%;">
    <iframe style="position:absolute;top:0;left:0;width:100%;height:100%;"
     
@@ -132,6 +198,20 @@
           </tr>
           
           <!-- this is for the embedded versions where they'll use their own1 support forum -->
+                    <tr>
+              <td><strong>Support:</strong></td>
+              <td>
+              <ul>
+                
+                
+                <li>Slack: <a href="https://gtnsmrgsbord.slack.com/archives/ngs_human-reads-removal">#ngs_human-reads-removal</a> <ul><li><a href="http://gxy.io/gtn-slack">Slack Invite</a></li></ul></li>
+		
+                <li><a href="https://gitter.im/Galaxy-Training-Network/Lobby">Gitter</a></li>
+                <li><a href="https://help.galaxyproject.org">Galaxy Help Forum</a></li>
+		
+              </ul>
+              </td>
+          </tr>
           
           
           <tr>
@@ -190,31 +270,26 @@
           </tr>
           
           
+          <!--
+          
+          
           <tr>
-              <td><strong>Learning Objectives:</strong></td>
+              <td><strong>Finished this tutorial as part of GTN Tapas?</strong></td>
               <td>
-                  <ul>
-                      
-                      <li>Obtain viral (SARS-CoV-2) sequencing data with contaminating human reads from public sources</li>
-                      
-                      <li>Organize the data into a collection</li>
-                      
-                      <li>Preprocess and map the data against the human reference genome</li>
-                      
-                      <li>Eliminate reads/read pairs that map to the human genome from the original data</li>
-                      
-                  </ul>
+              <ol>
+                
+                
+                <li><a href="https://training.galaxyproject.org/training-material/faqs/galaxy/histories_sharing.html?utm_source=schedule&utm_medium=click&utm_campaign=video-library">Share your history</a> (if applicable)</li>
+                <li>Copy the URL</li>
+                <li>Run the command <code>/completed</code> with the URL to your shared history, in <a href="https://gtnsmrgsbord.slack.com/archives/ngs_human-reads-removal">#ngs_human-reads-removal</a></li>
+              </ol>
               </td>
           </tr>
-          
-          <!--
           
           -->
       </table>
 
   </div>
-  
-  Go to the <a href="/video-library/videos/sequence-analysis/human-reads-removal/tutorial">video page</a> to see all versions.
   
  </div>
  <!-- speaker(s) -->
@@ -243,6 +318,40 @@
 
 
 
+
+
+
+
+<!-- list older versions of the video tutorial -->
+
+
+<!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+Embed this video in your class
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">How to Embed this</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+		  <p>If your content supports iframes, you can copy this code:</p>
+		  <pre>&lt;iframe src="https://gallantries.github.io/video-library/videos/sequence-analysis/human-reads-removal/embed.html" width="600" height="800" allow="encrypted-media *; fullscreen *; autoplay *;"></pre>
+		  <p>Or if you just want the URL to embed the content</p>
+		  <pre>https://gallantries.github.io/video-library/videos/sequence-analysis/human-reads-removal/embed.html</pre>
+
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
 
       </div>
     </main><footer class="site-footer h-card">

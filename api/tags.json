@@ -4675,7 +4675,7 @@
   "sequence-analysis": {
     "url": "/video-library/api/tags/sequence-analysis.json",
     "videos": {
-      "sequence-analysis/human-reads-removal/tutorial": {
+      "sequence-analysis/human-reads-removal": {
         "description": null,
         "materials": [
           {

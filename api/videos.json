@@ -4227,7 +4227,7 @@
     "gtn_id": "one-health/galaxy-pathogen-surveillance",
     "captioned": true
   },
-  "sequence-analysis/human-reads-removal/tutorial": {
+  "sequence-analysis/human-reads-removal": {
     "description": null,
     "materials": [
       {
