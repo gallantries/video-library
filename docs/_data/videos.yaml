@@ -2723,7 +2723,8 @@ one-health/galaxy-pathogen-surveillance:
     length: 10M
     captions:
     - wm75
-sequence-analysis/human-reads-removal/tutorial:
+
+sequence-analysis/human-reads-removal:
   description: null
   materials:
   - link: topics/sequence-analysis/tutorials/human-reads-removal/tutorial.html
@@ -2736,6 +2737,7 @@ sequence-analysis/human-reads-removal/tutorial:
   tags:
   - sequence-analysis
   type: Tutorial
+
 sequence-analysis/mapping/slides:
   description: This lecture covers the basic concepts involved in mapping sequencing
     reads to a reference genome.
