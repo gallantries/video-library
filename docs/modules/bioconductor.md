@@ -36,6 +36,7 @@ These are a collection of [Bioconductor](http://bioconductor.org/) tutorials, ra
 During [Smorgasbord week May 22-26 2023](https://gallantries.github.io/video-library/events/smorgasbord3/)
  * you will be able to run these tutorials in a personal RStudio instance launched in Galaxy, that has all necessary packages pre-installed. Go to [workshop.bioconductor.org](https://workshop.bioconductor.org)
  * the instructors of these tutorials have kindly volunteered to answer questions in [GTN Training Slack](https://gtnsmrgsbord.slack.com/)
+ * you can submit your Rhistory for a tutorial for your Smorgabord certificate [in this form](https://docs.google.com/forms/d/e/1FAIpQLSdNK1qxg-iMROzJqMAj6HkDX2DM4bQg_gV_fFEsZ943bb1rNQ/viewform).  
 
 Organisers: [Maria Doyle](mailto:maria.doyle@ul.ie), Alex Mahmoud, [Bioconductor Teaching Committee](https://www.bioconductor.org/help/education-training/)
 
