@@ -2,6 +2,14 @@
   "layout": "module",
   "title": "Bioconductor R analyses",
   "program": {
+    "setup": {
+      "title": "Setup",
+      "trainings": [
+        {
+          "video": "bioconductor/setup"
+        }
+      ]
+    },
     "intro": {
       "title": "Bioconductor Carpentries lessons",
       "trainings": [
