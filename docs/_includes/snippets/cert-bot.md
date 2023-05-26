@@ -26,7 +26,7 @@
     - Enter your name as you would like it to appear on the Certificate
         - example: `/request-certificate Saskia Hiltemann`
   - In **any channel**, or a message to [@GTN Certificate Bot](https://gtnsmrgsbord.slack.com/app_redirect?channel=U02EWBWKWKT)
-  {%- if include.config.deadline -%}- Deadline: {{include.config.deadline | date_to_long_string }}{% endif %}
+  {%- if include.config.deadline -%}- Deadline: {{include.config.deadline | date_to_rfc822 }}{% endif %}
   - We will review your Galaxy histories, and send you your personalised certificate
     - We aim to do this within 2 weeks of the certificate deadline
 
