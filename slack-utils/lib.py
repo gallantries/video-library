@@ -141,6 +141,11 @@ def persist_to_file(file_name, age=None):
 
 app = App(token=os.environ.get("SLACK_BOT_TOKEN"))
 
+# This handler does retries when HTTP status 429 is returned
+from slack_sdk.http_retry.builtin_handlers import RateLimitErrorRetryHandler
+rate_limit_handler = RateLimitErrorRetryHandler(max_retry_count=1)
+app.client.retry_handlers.append(rate_limit_handler)
+
 
 @persist_to_file("users.json")
 def list_users():
@@ -148,7 +153,7 @@ def list_users():
     cid = None
     while True:
         try:
-            r = app.client.users_list(limit=500, cursor=cid)
+            r = app.client.users_list(limit=200, cursor=cid)
             print(len(r.data["members"]))
             members += r.data["members"]
             cid = r.data["response_metadata"]["next_cursor"]
@@ -166,7 +171,7 @@ def list_channels():
     cid = None
     while True:
         try:
-            r = app.client.conversations_list(limit=500, cursor=cid)
+            r = app.client.conversations_list(limit=200, cursor=cid)
             print(len(r.data["channels"]))
             channels += r.data["channels"]
             cid = r.data["response_metadata"]["next_cursor"]
