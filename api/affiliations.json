@@ -53,6 +53,10 @@
     "name": "City University of New York",
     "link": "https://sph.cuny.edu/"
   },
+  "dataplant": {
+    "name": "DataPLANT",
+    "logo": "data-plant.png"
+  },
   "ebi": {
     "name": "EMBL-EBI",
     "link": "https://www.ebi.ac.uk/",
