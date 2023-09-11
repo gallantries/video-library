@@ -3932,6 +3932,7 @@ bioconductor/setup:
   description: This video will help you get setup on the BioConductor Galaxy to run the tutorials in this module.
   type: Demo
   support_channel: bioconductor
+  tags: bioconductor
   cover:
     link: bioconductor-session.jpg
     alt: Bioconductor logo
@@ -3941,6 +3942,7 @@ bioconductor/setup:
   versions:
   - link: 2ErhMCctZaY
     length: 5M
+    date: 2023-05-05
     speakers:
     - almahmoud
     captions:
