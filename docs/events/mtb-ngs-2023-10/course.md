@@ -18,7 +18,7 @@ format: |
   Asynchronous; all training sessions are pre-recorded and
   provided in advance.
 
-support: "**Live support in Slack** ([invite link](https://join.slack.com/t/gtnsmrgsbord/shared_invite/zt-x7vinbs1-BA~Kht6N86JBhDq0uTIVdQ), channel: [#event-mtb-ngs](https://gtnsmrgsbord.slack.com/channels/event-mtb-ngs)), in which experts will answer questions on a peer-to-peer basis. **Real-Time Q&A sessions**  See the schedule below to know when you can join us live! [Zoom Link](
+support: "**Live support in Slack** ([invite link](https://join.slack.com/t/gtnsmrgsbord/shared_invite/zt-1vuywk2t2-5FFAfFU1JImaulNGz4DMcw), channel: [#event-mtb-ngs](https://gtnsmrgsbord.slack.com/channels/event-mtb-ngs)), in which experts will answer questions on a peer-to-peer basis. **Real-Time Q&A sessions**  See the schedule below to know when you can join us live! [Zoom Link](
 https://swisstph.zoom.us/j/88614333103?pwd=OVVjeG04a2lVMXB0THUxMXoxNUNkdz09)"
 
 
