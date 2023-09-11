@@ -1,0 +1,932 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  
+  <title>[October 2023 Edition] Mycobacterium tuberculosis complex NGS made easy: data analysis step-by-step</title>
+  
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <head profile="http://www.w3.org/2005/10/profile">
+  <link href="/video-library/assets/bootstrap-5.0.0-beta1.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+  <link rel="icon" type="image/png" href="/video-library/assets/images/favicon.png" />
+  <script src="/video-library/assets/js/bootstrap-5.0.0-beta1.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+  <script async defer data-domain="gallantries.github.io" src="https://plausible.galaxyproject.eu/js/plausible.js"></script>
+  <script src="/video-library/assets/js/lazysizes-5.2.2.min.js" async></script>
+  <!--
+	  we've replaced with the individual icons because we don't need that many icons.
+  <script src="https://kit.fontawesome.com/67b3f98409.js" crossorigin="anonymous"></script>
+  -->
+  <link rel="stylesheet" href="/video-library/assets/main.css">
+
+  <!-- updates for previews on social media etc -->
+  <meta name="description" content="![banner](images/TBCAPT_NGS_Training_banner.jpg)
+" />
+  <meta property="og:title" content="[October 2023 Edition] Mycobacterium tuberculosis complex NGS made easy: data analysis step-by-step" />
+  <meta property="og:description" content="![banner](images/TBCAPT_NGS_Training_banner.jpg)
+" />
+  <meta property="og:image" content="/video-library/assets/images/video_cover.png" />
+
+</head>
+<body>
+	<a class="visually-hidden visually-hidden-focusable" href="#content">Skip to main content</a><nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <div class="container-fluid" style="width: calc(1000px - (30px * 2)); padding-left:30px">
+    <a class="navbar-brand"
+        
+             href="/video-library/">GTN Video Library
+        
+    </a>
+
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <!--
+        <li class="nav-item">
+			<a class="nav-link" href="/video-library/">Home</a>
+        </li>
+        -->
+        <li class="nav-item">
+			<a class="nav-link" href="/video-library/events">Events</a>
+        </li>
+         <li class="nav-item">
+			<a class="nav-link" href="/video-library/modules">Training Modules</a>
+        </li>
+        <li class="nav-item">
+			<a class="nav-link" href="/video-library/library">Videos</a>
+        </li>
+        <!--
+        <li class="nav-item">
+			<a class="nav-link" href="/video-library/session-library">Sessions</a>
+        </li>
+        -->
+        <li class="nav-item">
+			<a class="nav-link" href="/video-library/course-builder">Course Builder</a>
+        </li>
+        <li class="nav-item">
+			<a class="nav-link" href="/video-library/instructors">Instructor Guide</a>
+        </li>
+
+        <li class="nav-item">
+			<a class="nav-link" href="https://github.com/gallantries/video-library" title="Github Repository"><img style="height: 1em" src="/video-library/assets/fa/github.svg" alt="assets/fa/github.svg" aria-hidden="true"/></a>
+        </li>
+
+	    <!-- Want to add more pages to the top menu bar? add them here.
+        <li class="nav-item">
+           <a class="nav-link " href="for-instructors.html">Instructors</a>
+        </li>
+        -->
+        <!--
+        <li class="nav-item">
+          <a class="nav-link " href="recording.html">recording</a>
+        </li>
+      -->
+      </ul>
+    </div>
+  </div>
+</nav>
+<main class="page-content" aria-label="Content" id="content">
+      <div class="wrapper" >
+        
+
+
+
+
+<h1> [October 2023 Edition] Mycobacterium tuberculosis complex NGS made easy: data analysis step-by-step </h1>
+
+<p><img src="images/TBCAPT_NGS_Training_banner.jpg" alt="banner" /></p>
+
+
+
+<h2 class="section-header"> Practical Information </h2>
+
+<dl>
+	<dt>Dates</dt>
+	<dd><!-- returns a nicely format range of dates, given a start and end date -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+  2-6 October 2023
+
+
+</dd>
+
+    
+	<dt>Location:</dt>
+	<dd>Online</dd>
+	
+
+    
+	<dt>Who:</dt>
+	<dd>Open for all, but target audience is clinicians and researchers
+using MTBC sequencing data.
+</dd>
+	
+
+    
+	<dt>Cost:</dt>
+	<dd>Free</dd>
+	
+
+    
+	<dt>Format:</dt>
+	<dd>Asynchronous; all training sessions are pre-recorded and
+provided in advance.
+</dd>
+	
+
+	
+	<dt>Support:</dt>
+	<dd><p><strong>Live support in Slack</strong> (<a href="https://join.slack.com/t/gtnsmrgsbord/shared_invite/zt-x7vinbs1-BA~Kht6N86JBhDq0uTIVdQ">invite link</a>, channel: <a href="https://gtnsmrgsbord.slack.com/channels/event-mtb-ngs">#event-mtb-ngs</a>), in which experts will answer questions on a peer-to-peer basis. <strong>Real-Time Q&amp;A sessions</strong>  See the schedule below to know when you can join us live! <a href="https://swisstph.zoom.us/j/88614333103?pwd=OVVjeG04a2lVMXB0THUxMXoxNUNkdz09">Zoom Link</a></p>
+</dd>
+	
+
+ 	
+	<dt>Infastructure:</dt>
+	<dd><p><a href="https://usegalaxy.eu">European Galaxy server</a> and the <a href="https://training.galaxyproject.org">Galaxy Training Material</a>. Both will stay accessible and open after the training.</p>
+</dd>
+	
+
+    
+    <dt>Organizer(s):</dt>
+    <dd><a href="mailto:d.brites@swisstph.ch">Daniela Brites</a></dd>
+    
+
+    
+    <dt>Supporting Institutions:</dt>
+    <dd><a href="https://www.swisstph.ch/en/">Swiss Tropical and Public Health Institute</a>, <a href="https://www.hsr.it/">IRCCS Ospedale San Raffaele</a>, <a href="https://linq-management.com/">LINQ</a>, <a href="https://www.finddx.org/">FIND</a>, <a href="https://www.unisr.it/">Università Vita-Salute San Raffaele</a></dd>
+    
+
+	<dt>Contact:</dt>
+	<dd><a href="mailto:d.brites@swisstph.ch">Daniela Brites</a></dd>
+
+	
+
+</dl>
+
+
+
+
+
+
+<a href="https://calendar.google.com/calendar/render?
+action=TEMPLATE&
+dates=20231002%2F20231006
+&details=https://gallantries.github.io/video-library/events/mtb-ngs-2023-10/course.html%2F%3F
+utm_source%3Dcalendar-link%26
+utm_medium%3Dcalendar%26
+utm_campaign%3Dgallantries&
+location=Online&
+text=[October 2023 Edition] Mycobacterium tuberculosis complex NGS made easy: data analysis step-by-step"
+class="btn btn-info btn-sm calendar-add" alt="Add to Google Calendar">Add to Google Calendar</a>
+
+<a href="https://outlook.live.com/calendar/0/deeplink/compose?
+body=https://gallantries.github.io/video-library/events/mtb-ngs-2023-10/course.html%2F%3F
+utm_source%3Dcalendar-link%26
+utm_medium%3Dcalendar%26
+utm_campaign%3Dgallantries&
+enddt=2023-10-06&
+location=Online&
+path=%2Fcalendar%2Faction%2Fcompose&
+rru=addevent&
+startdt=2023-10-02&
+subject=[October 2023 Edition] Mycobacterium tuberculosis complex NGS made easy: data analysis step-by-step"
+class="btn btn-info btn-sm calendar-add">Add to Outlook</a>
+
+<a href="https://outlook.office.com/calendar/0/deeplink/compose/?
+body=https://gallantries.github.io/video-library/events/mtb-ngs-2023-10/course.html
+utm_source%3dcalendar-link%26
+utm_medium%3dcalendar%26
+utm_campaign%3dgallantries&
+enddt=2023-10-06&
+allday=true&
+location=Online&
+path=%2fcalendar%2faction%2fcompose&
+rru=addevent&
+startdt=2023-10-02&
+subject=[October 2023 Edition] Mycobacterium tuberculosis complex NGS made easy: data analysis step-by-step"
+class="btn btn-info btn-sm calendar-add">Add to Office 365</a>
+
+<br><br>
+
+
+
+
+
+  <h2 id="course-description">Course Description</h2>
+
+<p>These series of webinars and tutorials aim at improving basic and applied knowledge associated with next-generation sequencing (NGS) technologies and their applications in the field of Tuberculosis (TB).</p>
+
+<p>The trainings will introduce scalable and reproducible data analysis with Galaxy of <em>Mycobacterium tuberculosis</em> complex (MTBC) genomes.</p>
+
+<p>A series of pre-recorded sessions and hands-on tutorials will show:</p>
+<ul>
+  <li>How to differentiate sequencing technologies and which ones are most commonly applied in TB and how <strong>(Day 1)</strong></li>
+  <li>How NGS can be implement into TB laboratories <strong>(Day 1)</strong></li>
+  <li>How to do mapping and variant calling <strong>(Day 2)</strong></li>
+  <li>How to detect drug resistance conferring mutations, build phylogenetic trees and infer tuberculosis transmission <strong>(Day 3)</strong></li>
+  <li>How to use different web tools dedicated to targeted analysis and what it takes to do bioinformatics <strong>(Day 4)</strong>.</li>
+</ul>
+
+<p>After the trainings all participants are expected to:</p>
+<ul>
+  <li>Describe how NGS is being used in TB research and clinical pratice</li>
+  <li>Extract MTBC genomic variants from short sequencing reads</li>
+  <li>Identify drug resistant mutations</li>
+  <li>Identify genetic relationships and interpret a phylogenetic trees</li>
+  <li>Use web applications designed for M. tuberculosis</li>
+</ul>
+
+<p><br /></p>
+
+<h2 id="program">Program</h2>
+
+<p>This workshop is virtual and asynchronous. Training sessions are pre-recorded and the material provided in advance in the program below. Whenever you’re ready to get started, you can access the material by clicking in the respective days of the program. Everyday there are specific slots where you can meet the experts (check the schedule each day), ask questions and discuss ideas.</p>
+
+<p><br /></p>
+
+<h2 id="lets-get-started">LET’S GET STARTED!</h2>
+
+<!--
+add a button, include configuration options:
+
+ link: "https://example.com"
+ label: this text goes on button
+ size: small/medium/large/extralarge
+ colour:  blue/purple/green/red/yellow/lightblue/white/black
+-->
+
+<p><a href="/video-library/events/mtb-ngs-2023/program.html" style="display: inline-flex; align-items: center; background-color: var(--bs-yellow); color: black" class="btn btn-square-large"><span style="width: 100%">Start the Course!</span></a></p>
+
+<p><br /></p>
+
+<h3 id="day-1---welcome-and-practical-information">Day 1 - <strong>WELCOME! And Practical Information</strong></h3>
+<p><em>9 January 2023</em></p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Topic</th>
+      <th>Speaker</th>
+      <th>Time/Duration</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Welcome and course information</td>
+      <td>All instructors</td>
+      <td>10:30-11:00am CET</td>
+    </tr>
+    <tr>
+      <td>Get ready for the course</td>
+      <td>-</td>
+      <td>5-10m</td>
+    </tr>
+  </tbody>
+</table>
+
+<p><br /></p>
+
+<h3 id="day-1----overview-of-ngs-technologies--tb-specific-ngs-solutions">Day 1  - <strong>Overview of NGS technologies &amp; TB specific NGS solutions</strong></h3>
+<p><em>9 January 2023</em></p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Topic</th>
+      <th>Speaker</th>
+      <th>Description</th>
+      <th>Duration</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Overview of NGS technologies &amp; TB specific NGS solutions</td>
+      <td>Andrea Cabibbe</td>
+      <td><strong>Webinar:</strong> This webinar will introduce different sequencing technologies and what applies best to what kind of problem.</td>
+      <td>1h10m</td>
+    </tr>
+    <tr>
+      <td>Implementation of NGS for TB- WHO documents and other  considerations</td>
+      <td>Andrea Cabibbe</td>
+      <td><strong>Webinar:</strong> This webinar will summarize the recommendations and considerations available from the WHO documents on the use of NGS for TB</td>
+      <td>1h</td>
+    </tr>
+    <tr>
+      <td>Live Discussion (<strong>14:00 -16:00 CET</strong>)</td>
+      <td>Andrea Cabibbe &amp; Liliana Rutaihwa</td>
+      <td><strong>Q&amp;A session:</strong>  How do I choose the right sequencing technology for my samples? What is needed for NGS? Why is NGS better for drug resistance and outbreak analysis?</td>
+      <td>2h</td>
+    </tr>
+  </tbody>
+</table>
+
+<p><br /></p>
+
+<h3 id="day-2---mapping-and-variant-calling">Day 2 - <strong>Mapping and variant calling</strong></h3>
+<p><em>10 January 2023</em></p>
+
+<table class="table table-striped">
+  <thead>
+    <tr>
+      <th>Topic</th>
+      <th>Speaker</th>
+      <th>Description</th>
+      <th>Duration</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>A very short introduction to Galaxy</td>
+      <td>Anton Nekrutenko</td>
+      <td><strong>Webinar:</strong> This video will introduce the Galaxy data analysis platform, and give a short demo on how to use it</td>
+      <td>10m</td>
+    </tr>
+    <tr>
+      <td>Galaxy 101</td>
+      <td>Anton Nekrutenko</td>
+      <td><strong>Hands-on:</strong> This tutorial will introduce you to Galaxy. You will familiarize yourself with tools, workflows and histories. Those skills will be needed the next days</td>
+      <td>1h15m</td>
+    </tr>
+    <tr>
+      <td>Mapping and Variant calling</td>
+      <td>Daniela Brites</td>
+      <td><strong>Video:</strong> llumina sequencing principles.  <strong>Webinar:</strong> Main bioinformatics steps involved in mapping and variant calling from Illumina short reads applied to MTBC</td>
+      <td>45m</td>
+    </tr>
+    <tr>
+      <td>Live discussion (<strong>11:30-12:30 CET</strong>)</td>
+      <td>Daniela Brites &amp; Galo Goig</td>
+      <td><strong>Q&amp;A session</strong></td>
+      <td>1h</td>
+    </tr>
+    <tr>
+      <td>Mapping &amp; Variant Calling</td>
+      <td>Peter van Heusden</td>
+      <td><strong>Hands-on:</strong> Learn how to manipulate and process short reads obtained from MTBC isolates. Get familiar with quality control, mapping and NGS filetypes</td>
+      <td>2h</td>
+    </tr>
+    <tr>
+      <td>Live discussion (<strong>16:30-17:30 CET</strong>)</td>
+      <td>Daniela Brites &amp; Galo Goig</td>
+      <td><strong>Q&amp;A Live session</strong></td>
+      <td>1h</td>
+    </tr>
+  </tbody>
+</table>
+
+<p><br /></p>
+
+<h3 id="day-3---evolutionary-epidemiology-using-phylogenetics-to-understand-dr-emergence-and-mtb-transmission">Day 3 - <strong>Evolutionary epidemiology: using phylogenetics to understand DR emergence and Mtb transmission</strong></h3>
+<p><em>11 January 2023</em></p>
+
+<table class="table table-striped">
+  <thead>
+    <tr>
+      <th>Topic</th>
+      <th>Speaker</th>
+      <th>Description</th>
+      <th>Duration</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Drug resistance prediction</td>
+      <td>Galo A. Goig</td>
+      <td><strong>Webinar:</strong> This video will introduce principles of drug resistance detection from genomic data</td>
+      <td>20m</td>
+    </tr>
+    <tr>
+      <td>“Phylogenetic” mutations</td>
+      <td>Galo A. Goig</td>
+      <td><strong>Webinar:</strong> This video will introduce one particular type of mutations to take into account when studying drug resistance patterns</td>
+      <td>15m</td>
+    </tr>
+    <tr>
+      <td>The concept of clustering</td>
+      <td>Galo A. Goig</td>
+      <td><strong>Webinar:</strong> Main aspects of clustering analysis to infer transmission in MTBC</td>
+      <td>15m</td>
+    </tr>
+    <tr>
+      <td>Genetic distance thresholds</td>
+      <td>Galo A. Goig</td>
+      <td><strong>Webinar:</strong> Clustering as an approximation to infer transmission</td>
+      <td>15m</td>
+    </tr>
+    <tr>
+      <td>Performing clustering analysis &amp; drug resistance prediction</td>
+      <td>Galo A. Goig</td>
+      <td><strong>Hands-on:</strong> Learning how to do clustering analysis and interpret drug resistance patterns</td>
+      <td>2h</td>
+    </tr>
+    <tr>
+      <td>Live discussion (<strong>11:30-12:30 CET</strong>)</td>
+      <td>Galo A. Goig &amp; Christop Stritt</td>
+      <td><strong>Q&amp;A Live session</strong></td>
+      <td>1h</td>
+    </tr>
+    <tr>
+      <td>Introduction to phylogenetics</td>
+      <td>EMBL-EBI</td>
+      <td>Recommended <strong>on-line introduction course from EMBL-EBI</strong></td>
+      <td>1h</td>
+    </tr>
+    <tr>
+      <td>Inference of phylogenetic trees</td>
+      <td>Christoph Stritt</td>
+      <td><strong>Hands-on:</strong> Main principles of phylogenetic inference, tree interpretation</td>
+      <td>1h</td>
+    </tr>
+    <tr>
+      <td>Live discussion (<strong>16:30-17:30 CET</strong>)</td>
+      <td>Christop Stritt &amp; Galo A. Goig</td>
+      <td><strong>Q&amp;A Live session</strong></td>
+      <td>1h</td>
+    </tr>
+  </tbody>
+</table>
+
+<p><br /></p>
+
+<h3 id="day-4---webtools-dedicated-to-mtbc-bioinformatics--be-a-bioinformatician-in-the-jungle-optional">Day 4 - <strong>Webtools dedicated to MTBC bioinformatics &amp; Be a bioinformatician in the jungle (optional)</strong></h3>
+<p><em>12 January 2023</em></p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Topic</th>
+      <th>Speaker</th>
+      <th>Description</th>
+      <th>Duration</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Web tools for analysis of MTBC sequenced data</td>
+      <td>Arash Ghodousi</td>
+      <td><strong>Webinar:</strong> This video will introduce web tools designed for analysis of MTBC sequenced data</td>
+      <td>50m</td>
+    </tr>
+    <tr>
+      <td>Introduction to the MTBseq pipeline</td>
+      <td>Arash Ghodousi</td>
+      <td><strong>Webinar:</strong> Introduction the MTBseq pipeline, an automated pipeline for mapping, variant calling and detection of resistance mediating and phylogenetic variants in MTBC</td>
+      <td>30m</td>
+    </tr>
+    <tr>
+      <td>Live discussion  (<strong>11:30-12:30 CET</strong>)</td>
+      <td>Andrea Spitaleri</td>
+      <td><strong>Q&amp;A Live session</strong></td>
+      <td>1h</td>
+    </tr>
+    <tr>
+      <td>Introduction to linux</td>
+      <td>Andrea Spitaleri</td>
+      <td><strong>Webinar:</strong> Introduction to Linux OS: installation and usage</td>
+      <td>30m</td>
+    </tr>
+    <tr>
+      <td>How to run programs (Python, Docker, Nextflow)</td>
+      <td>Andrea Spitaleri</td>
+      <td><strong>Webinar:</strong> Learning how to install and use programs to analyze data</td>
+      <td>30m</td>
+    </tr>
+    <tr>
+      <td>Demo video on how to use the shell commands</td>
+      <td>Andrea Spitaleri</td>
+      <td><strong>Webinar:</strong>  Demo video on how to use the shell commands</td>
+      <td>20m</td>
+    </tr>
+    <tr>
+      <td>The Unix Shell (optional)</td>
+      <td>Software carpentries</td>
+      <td>Recommended <strong>hands-on</strong> tutorial from software carpentries</td>
+      <td>4h</td>
+    </tr>
+    <tr>
+      <td>Live discussion (<strong>16:30-17:30 CET</strong>)</td>
+      <td>Andrea Spitaleri &amp; Arash Ghodousi</td>
+      <td><strong>Q&amp;A Live session</strong></td>
+      <td>1h</td>
+    </tr>
+  </tbody>
+</table>
+
+<p class="table table-striped"><br /></p>
+
+<h3 id="day-5---live-discussion-optional">Day 5 - Live Discussion (optional)</h3>
+<p><em>13 January 2023</em></p>
+
+<p>All instructors available live from <strong>10:00h-12:30 am CET</strong></p>
+
+<p><br /></p>
+
+<h2 id="wrapping-up">Wrapping up</h2>
+
+<p>Please feel free to hang around in Slack and talk to us and the rest of the Galaxy community! Thanks for joining!!</p>
+
+<ul>
+  <li><a href="https://forms.gle/6Xn8WudBvr3NMC3W7">Feedback Survey</a></li>
+  <li><a href="https://forms.gle/X2qgMQeobygH4orB8">Certificate Request From</a></li>
+</ul>
+
+<h2 id="after-the-course">After the Course</h2>
+<p>All these materials will remain online, so you can continue working on them for as long as you want. The only difference will be that you should ask your questions on the <a href="https://gitter.im/Galaxy-Training-Network/Lobby">GTN Gitter channel</a>, instead of Slack.</p>
+
+<h2 id="acknowledgements">Acknowledgements</h2>
+
+<p>This course was made possible thanks to the efforts of…</p>
+
+<p><img src="images/tb_capt.svg" alt="TB-CAPT" width="24%" />
+<img src="images/PanaceaLogo.jpg" alt="PanACEA" width="24%" />
+<img src="images/FIND Seq&amp;Treat logo FINAL-positive.png" alt="Seq&amp;Treat" width="24%" />
+<img src="images/FIND_Logo_V10-tagline%20color-no%20bg_05.png" alt="FIND" width="24%" />
+<img src="images/Swiss%20TPH%20Logo-Web_RGB-color-5.svg" alt="Swiss Tropical and Public Health institute" width="24%" />
+<img src="images/San_Raffaele_cmyk.jpg" alt="Ospedale San Raffaele" width="24%" />
+<img src="images/LINQ_Logo_85mm_RGB.jpg" alt="LINQ" width="24%" /></p>
+
+<p><em>TB-CAPT and PanACEA are part of the EDCTP2 programme supported by the European Union.</em>
+<img src="images/EDCTP logo preferred.jpg" alt="EDCTP" width="24%" />
+<img src="images/EU emblem low resolution.jpg" alt="EU" width="24%" /></p>
+
+
+
+
+<br><br>
+<h3> Acknowledgements </h3>
+
+
+<a href="https://www.swisstph.ch/en/"><img src="/video-library/assets/images/logos/swiss-tph.png" alt="logo" style="width: 15%; margin: 1em;"/></a>
+
+
+
+<a href="https://www.hsr.it/"><img src="/video-library/assets/images/logos/irccs.jpg" alt="logo" style="width: 15%; margin: 1em;"/></a>
+
+
+
+<a href="https://linq-management.com/"><img src="/video-library/assets/images/logos/linq.jpg" alt="logo" style="width: 15%; margin: 1em;"/></a>
+
+
+
+<a href="https://www.finddx.org/"><img src="/video-library/assets/images/logos/find.png" alt="logo" style="width: 15%; margin: 1em;"/></a>
+
+
+
+<a href="https://www.unisr.it/"><img src="/video-library/assets/images/logos/uni_san_raffaele.svg" alt="logo" style="width: 15%; margin: 1em;"/></a>
+
+
+
+
+
+<br><br>
+<h2 class="section-header">This event was brought to you by..</h2>
+
+
+ 
+
+
+
+
+
+
+
+<div class="hall-of-fame">
+    
+    
+    
+		<div class="hall-of-fame-hero" id="dbrites">
+			
+			<a href="/video-library/contributors/dbrites/">
+			
+            
+            <img src="/video-library/assets/images/instructors/daniela_brites.jpeg" alt="">
+            
+			<div class="name">
+				<b>Daniela Brites</b>
+			</div>
+			
+			</a>
+			
+			<div class="affil">
+				
+				<a href="https://www.swisstph.ch/en/">
+					Swiss Tropical and Public Health Institute
+				</a>
+				
+			</div>
+		</div>
+	
+    
+    
+		<div class="hall-of-fame-hero" id="cstritt">
+			
+			<a href="/video-library/contributors/cstritt/">
+			
+            
+			<img src="https://avatars.githubusercontent.com/cstritt" alt="">
+            
+			<div class="name">
+				<b>Christoph Stritt</b>
+			</div>
+			
+			</a>
+			
+			<div class="affil">
+				
+				<a href="https://www.swisstph.ch/en/">
+					Swiss Tropical and Public Health Institute
+				</a>
+				
+			</div>
+		</div>
+	
+    
+    
+		<div class="hall-of-fame-hero" id="andreacabibbe">
+			
+			<a href="/video-library/contributors/andreacabibbe/">
+			
+            
+            <img src="/video-library/assets/images/instructors/Andrea_Cabibbe.jpg" alt="">
+            
+			<div class="name">
+				<b>Andrea Cabibbe</b>
+			</div>
+			
+			</a>
+			
+			<div class="affil">
+				
+				<a href="https://www.hsr.it/">
+					IRCCS Ospedale San Raffaele
+				</a>
+				
+			</div>
+		</div>
+	
+    
+    
+		<div class="hall-of-fame-hero" id="annalenaguske">
+			
+			<a href="/video-library/contributors/annalenaguske/">
+			
+            
+            <img src="/video-library/assets/images/instructors/AnnaLena.jfif" alt="">
+            
+			<div class="name">
+				<b>Anna-Lena Guske</b>
+			</div>
+			
+			</a>
+			
+			<div class="affil">
+				
+				<a href="https://linq-management.com/">
+					LINQ
+				</a>
+				
+			</div>
+		</div>
+	
+    
+    
+		<div class="hall-of-fame-hero" id="andreaspitaleri">
+			
+			<a href="/video-library/contributors/andreaspitaleri/">
+			
+            
+            <img src="/video-library/assets/images/instructors/spitaleri_andrea.jpg" alt="">
+            
+			<div class="name">
+				<b>Andrea Spitaleri</b>
+			</div>
+			
+			</a>
+			
+			<div class="affil">
+				
+				<a href="https://www.hsr.it/">
+					IRCCS Ospedale San Raffaele
+				</a> & 
+				
+				<a href="https://www.unisr.it/">
+					Università Vita-Salute San Raffaele
+				</a>
+				
+			</div>
+		</div>
+	
+    
+    
+		<div class="hall-of-fame-hero" id="GaloGS">
+			
+			<a href="/video-library/contributors/GaloGS/">
+			
+            
+			<img src="https://avatars.githubusercontent.com/GaloGS" alt="">
+            
+			<div class="name">
+				<b>Galo Adrián Goig</b>
+			</div>
+			
+			</a>
+			
+			<div class="affil">
+				
+				<a href="https://www.swisstph.ch/en/">
+					Swiss Tropical and Public Health Institute
+				</a>
+				
+			</div>
+		</div>
+	
+    
+    
+		<div class="hall-of-fame-hero" id="arashghodousi">
+			
+			<a href="/video-library/contributors/arashghodousi/">
+			
+            
+            <img src="/video-library/assets/images/instructors/arash.jpeg" alt="">
+            
+			<div class="name">
+				<b>Arash Ghodousi</b>
+			</div>
+			
+			</a>
+			
+			<div class="affil">
+				
+				<a href="https://www.hsr.it/">
+					IRCCS Ospedale San Raffaele
+				</a> & 
+				
+				<a href="https://www.unisr.it/">
+					Università Vita-Salute San Raffaele
+				</a>
+				
+			</div>
+		</div>
+	
+    
+    
+		<div class="hall-of-fame-hero" id="liliana-rutaihwa">
+			
+			<a href="/video-library/contributors/liliana-rutaihwa/">
+			
+            
+            <img src="/video-library/assets/images/instructors/liliana_r.jpeg" alt="">
+            
+			<div class="name">
+				<b>Liliana Rutaihwa</b>
+			</div>
+			
+			</a>
+			
+			<div class="affil">
+				
+				<a href="https://www.finddx.org/">
+					FIND
+				</a>
+				
+			</div>
+		</div>
+	
+    
+    
+		<div class="hall-of-fame-hero" id="pvanheus">
+			
+			<a href="/video-library/contributors/pvanheus/">
+			
+            
+			<img src="https://avatars.githubusercontent.com/pvanheus" alt="">
+            
+			<div class="name">
+				<b>Peter van Heusden</b>
+			</div>
+			
+			</a>
+			
+			<div class="affil">
+				
+				<a href="https://www.sanbi.org/">
+					SANBI/UWC
+				</a>
+				
+			</div>
+		</div>
+	
+    
+    
+		<div class="hall-of-fame-hero" id="federicodimarco">
+			
+			<a href="/video-library/contributors/federicodimarco/">
+			
+            
+            <img src="/video-library/assets/images/instructors/Federico.jpg" alt="">
+            
+			<div class="name">
+				<b>Federico DiMarco</b>
+			</div>
+			
+			</a>
+			
+			<div class="affil">
+				
+				<a href="https://www.hsr.it/">
+					IRCCS Ospedale San Raffaele
+				</a>
+				
+			</div>
+		</div>
+	
+    
+    
+		<div class="hall-of-fame-hero" id="carolinestohr">
+			
+			<a href="/video-library/contributors/carolinestohr/">
+			
+            
+            <img src="/video-library/assets/images/instructors/Caroline.jpg" alt="">
+            
+			<div class="name">
+				<b>Caroline Stöhr</b>
+			</div>
+			
+			</a>
+			
+			<div class="affil">
+				
+				<a href="https://linq-management.com/">
+					LINQ
+				</a>
+				
+			</div>
+		</div>
+	
+    
+</div>
+
+
+
+
+
+<hr style="margin-top: 6em; margin-bottom: 1em;" />
+<details>
+	<summary>Organiser Information</summary>
+
+	<p>
+	<a class="btn btn-secondary" style="color: white" href="https://gallantries.github.io/course-builder/?event=/events/mtb-ngs-2023-10/course.json">Remix this course in the course builder</a>
+	</p>
+
+	<p>
+	Did you organise this? Request TIaaS on:
+
+	<ul>
+		<li><a href="https://usegalaxy.eu/tiaas/new/?name=Daniela%20Brites&email=d.brites@swisstph.ch&title=[October%202023%20Edition]%20Mycobacterium%20tuberculosis%20complex%20NGS%20made%20easy:%20data%20analysis%20step-by-step&description=![banner](images/TBCAPT_NGS_Training_banner.jpg)%0A&start=2023-10-02&end=2023-10-06&website=https://gallantries.github.io/video-library/events/mtb-ngs-2023-10/course.html&use_gtn=true&gtn_links=See%20course%20page&training_identifier=mtb-ngs">UseGalaxy.eu</a></li>
+		<li><a href="https://usegalaxy.org/tiaas/new/?name=Daniela%20Brites&email=d.brites@swisstph.ch&title=[October%202023%20Edition]%20Mycobacterium%20tuberculosis%20complex%20NGS%20made%20easy:%20data%20analysis%20step-by-step&description=![banner](images/TBCAPT_NGS_Training_banner.jpg)%0A&start=2023-10-02&end=2023-10-06&website=https://gallantries.github.io/video-library/events/mtb-ngs-2023-10/course.html&use_gtn=true&gtn_links=See%20course%20page&training_identifier=mtb-ngs">UseGalaxy.org</a></li>
+		<li><a href="https://usegalaxy.org.au/tiaas/new/?name=Daniela%20Brites&email=d.brites@swisstph.ch&title=[October%202023%20Edition]%20Mycobacterium%20tuberculosis%20complex%20NGS%20made%20easy:%20data%20analysis%20step-by-step&description=![banner](images/TBCAPT_NGS_Training_banner.jpg)%0A&start=2023-10-02&end=2023-10-06&website=https://gallantries.github.io/video-library/events/mtb-ngs-2023-10/course.html&use_gtn=true&gtn_links=See%20course%20page&training_identifier=mtb-ngs">UseGalaxy.org.au</a></li>
+	</ul>
+	</p>
+</details>
+
+      </div>
+    </main><footer class="site-footer h-card">
+  <data class="u-url" href="/video-library/"></data>
+
+  <div class="wrapper">
+
+    <div class="row">
+        <div class="col-md-4">
+            <h2 class="footer-heading">
+             <img src="/video-library/assets/images/logos/gallantries.png" alt="Logo for the Gallantries project"  width="30em"/>
+             GTN Video Library
+            </h2>
+        </div>
+        <div class="col-md-4">
+          <p>Everyone participating is expected to abide by the <a href="https://galaxyproject.org/community/coc/">Code of Conduct</a></p>
+        </div>
+        <div class="col-md-4">
+            <img src="/video-library/assets/images/logos/erasmusplus.jpg" alt="european flag with text: With the support of the Erasmus+ Programme of the European Union."/>
+                    </div>
+    </div>
+	This project (<a href="https://ec.europa.eu/programmes/erasmus-plus/projects/eplus-project-details/#project/2020-1-NL01-KA203-064717">2020-1-NL01-KA203-064717</a>) is funded with the support of the Erasmus+ programme of the European Union.
+
+  </div>
+
+</footer>
+</body>
+
+
+</html>
