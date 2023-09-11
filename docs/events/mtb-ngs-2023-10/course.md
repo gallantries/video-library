@@ -94,7 +94,7 @@ This workshop is virtual and asynchronous. Training sessions are pre-recorded an
 
 
 ### Day 1 - **WELCOME! And Practical Information**
-*{{"2023-01-09" | date: "%-d %B %Y" }}*
+*{{"2023-10-02" | date: "%-d %B %Y" }}*
 
 Topic | Speaker | Time/Duration
 --- | ---  | ---
@@ -104,7 +104,7 @@ Get ready for the course | - | 5-10m
 <br>
 
 ### Day 1  - **Overview of NGS technologies & TB specific NGS solutions**
-*{{"2023-01-09" | date: "%-d %B %Y" }}*
+*{{"2023-10-02" | date: "%-d %B %Y" }}*
 
 Topic | Speaker  | Description | Duration
 --- | --- | --- | ---
@@ -115,7 +115,7 @@ Live Discussion (**14:00 -16:00 CET**) | Andrea Cabibbe & Liliana Rutaihwa |__Q&
 <br>
 
 ### Day 2 - **Mapping and variant calling**
-*{{"2023-01-10" | date: "%-d %B %Y" }}*
+*{{"2023-10-03" | date: "%-d %B %Y" }}*
 
 Topic | Speaker  | Description | Duration
 --- | --- | --- | ---
@@ -130,7 +130,7 @@ Live discussion (**16:30-17:30 CET**) | Daniela Brites & Galo Goig  | **Q&A Live
 <br>
 
 ### Day 3 - **Evolutionary epidemiology: using phylogenetics to understand DR emergence and Mtb transmission**
-*{{"2023-01-11" | date: "%-d %B %Y" }}*
+*{{"2023-10-04" | date: "%-d %B %Y" }}*
 
 
 Topic | Speaker | Description | Duration
@@ -149,7 +149,7 @@ Live discussion (**16:30-17:30 CET**) |  Christop Stritt & Galo A. Goig  |  **Q&
 <br>
 
 ### Day 4 - **Webtools dedicated to MTBC bioinformatics & Be a bioinformatician in the jungle (optional)**
-*{{"2023-01-12" | date: "%-d %B %Y" }}*
+*{{"2023-10-05" | date: "%-d %B %Y" }}*
 
 Topic | Speaker  | Description | Duration
 --- | --- | --- | ---
@@ -167,7 +167,7 @@ Live discussion (**16:30-17:30 CET**)| Andrea Spitaleri & Arash Ghodousi |  **Q&
 <br>
 
 ### Day 5 - Live Discussion (optional)
-*{{"2023-01-13" | date: "%-d %B %Y" }}*
+*{{"2023-10-06" | date: "%-d %B %Y" }}*
 
 All instructors available live from **10:00h-12:30 am CET**
 
