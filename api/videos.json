@@ -5991,6 +5991,9 @@
     "description": "This video will help you get setup on the BioConductor Galaxy to run the tutorials in this module.",
     "type": "Demo",
     "support_channel": "bioconductor",
+    "tags": [
+      "bioconductor"
+    ],
     "cover": {
       "link": "bioconductor-session.jpg",
       "alt": "Bioconductor logo"
@@ -6005,6 +6008,7 @@
       {
         "link": "2ErhMCctZaY",
         "length": "5M",
+        "date": "2023-05-05",
         "speakers": [
           "almahmoud"
         ],
@@ -6012,7 +6016,9 @@
           "bioc"
         ]
       }
-    ]
+    ],
+    "gtn_id": "bioconductor/setup",
+    "captioned": true
   },
   "bioconductor/bioc-intro/tutorial": {
     "title": "Introduction to data analysis with R and Bioconductor",
