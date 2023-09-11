@@ -2046,7 +2046,7 @@ genome-annotation/tnseq-lecture:
   title: Essential genes detection with Transposon insertion sequencing (Lecture)
   type: Lecture
   versions:
-  - captions: null
+  - captions: [delphine-l]
     date: '2022-03-10'
     galaxy_version: '21.09'
     length: 10M

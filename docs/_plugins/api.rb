@@ -95,6 +95,7 @@ module Jekyll
       durations['byspeaker'] = Hash.new { 0 }
       durations['bycaptioner'] = Hash.new { 0 }
       durations['_speakers_'] = []
+      durations['_captioned_'] = 0
 
       site.data['videos'].each{|k, v|
 
@@ -120,6 +121,13 @@ module Jekyll
                 durations['_speakers_'].push(speaker)
                 durations['byspeaker'][speaker] += findDuration(version['length']) / 3600.0 / version['speakers'].length
               }
+
+              if version['captions'] && ! version['captions'].empty?
+                durations['_captioned_'] += findDuration(version['length']) / 3600.0
+               else
+                 puts "#{v['name']} - #{version}"
+              end
+
               if version['captions']
                 version['captions'].each{|speaker|
                   durations['_speakers_'].push(speaker)
@@ -136,6 +144,7 @@ module Jekyll
       durations['bytag_a'] = durations['bytag'].map{|k, v| [k, v]}.sort_by{|a| -a[1]}
       durations['byspeaker_a'] = durations['byspeaker'].map{|k, v| [k, v]}.sort_by{|a| -a[1]}
       durations['bycaptioner_a'] = durations['bycaptioner'].map{|k, v| [k, v]}.sort_by{|a| -a[1]}
+      durations['_captioned_'] = durations['_captioned_'] / durations['_total_'] * 100
 
       # Propagate video tags to sessions
       site.data['sessions_bytag'] = Hash.new { Array.new }

@@ -50,7 +50,9 @@ module Jekyll
 
       # If it doesn't match, pass through unedited so we don't cause unexpected issues.
       if match.nil? then
-        puts "Could not parse time: #{duration}"
+        if not duration.nil?
+          puts "Could not parse time: #{duration}"
+        end
         return duration
       end
 

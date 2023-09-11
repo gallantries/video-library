@@ -43,6 +43,18 @@ title: "Statistics!"
 		</div>
 	</div>
 	</div>
+
+	<!--
+	<div class="col-md-3">
+	<div class="card bg-primary text-white">
+		<div class="card-body">
+			<h2 class="card-title" style="font-weight: 900; font-size: 300%">{{ site.data.stats._captioned_ | round: 1}}</h2>
+			<p class="card-subtitle mb-2">% captioned</p>
+			<p class="card-text">Calculated as a percentage of total runtime.</p>
+		</div>
+	</div>
+	</div>
+	-->
 </div>
 
 <div class="row">
