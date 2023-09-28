@@ -34,7 +34,7 @@
   {% if include.config.notes.snippet %}
     {% include {{include.config.notes.snippet}} %}
   {% else %}
-    {{ include.config.notes }}
+    {{ include.config.notes | markdownify }}
   {% endif %}
 {% endif %}
 
