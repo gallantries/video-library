@@ -36,7 +36,12 @@ setup:
 certificates:
   request_form: "https://forms.gle/X2qgMQeobygH4orB8"
   certbot: false
-  deadline: 2023-02-01
+  deadline: 2023-10-13
+  notes: |
+    Requirements for obtaining a certificate of attendance:
+      1. Have a valid registration for the course
+      2. Answer the assessments of days 1, 2 and 3
+      3. Share your Galaxy history with us
 
 feedback:
   form: "https://forms.gle/6Xn8WudBvr3NMC3W7"
@@ -47,6 +52,7 @@ program:
     trainings:
       - basics: setup
       - basics: code-of-conduct
+      - basics: certificates
       - external:
           title: Live Welcome session (optional)
           description: We would like to welcome you to this trainning, to present ourselves and to clarify any organizational question you might have.
@@ -55,7 +61,6 @@ program:
               value: 10:30am-11:00am
             - label: Zoom
               link: https://swisstph.zoom.us/j/88614333103?pwd=OVVjeG04a2lVMXB0THUxMXoxNUNkdz09
-      - code-of-conduct
 
   day1:
     title: "Day 1"
