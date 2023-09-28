@@ -43,7 +43,7 @@ certificates:
        2. Join us on Slack!
        3. Answer the assessments of days 1, 2 and 3
        4. Fill the [Feedback Survey](https://forms.gle/6Xn8WudBvr3NMC3W7)
-       5. As you finish the hands-on tutorials, share your Galaxy histories with us. [See how to do this here](https://training.galaxyproject.org/training-material/faqs/galaxy/histories_sharing.html) and submit the links in [this table](https://docs.google.com/document/d/1K2k_yzk14VIHjsedfHaUFJnLgq6JTweG2tqxmIKUM2M/edit?usp=sharing)/
+       5. As you finish the hands-on tutorials, share your Galaxy histories with us. [See how to do this here](https://training.galaxyproject.org/training-material/faqs/galaxy/histories_sharing.html) and submit the links in [this table](https://docs.google.com/document/d/1K2k_yzk14VIHjsedfHaUFJnLgq6JTweG2tqxmIKUM2M/edit?usp=sharing).
 feedback:
   form: "https://forms.gle/6Xn8WudBvr3NMC3W7"
 
