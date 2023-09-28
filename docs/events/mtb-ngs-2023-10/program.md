@@ -36,7 +36,7 @@ setup:
 certificates:
   request_form: "https://forms.gle/X2qgMQeobygH4orB8"
   certbot: false
-  deadline: 2023-10-13
+  deadline: 2023-10-31
   notes: |
     Requirements for obtaining a certificate of attendance:
       1. Have a valid registration for the course
