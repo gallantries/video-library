@@ -39,10 +39,11 @@ certificates:
   deadline: 2023-10-31
   notes: |
     Requirements for obtaining a certificate of attendance:
-      1. Have a valid registration for the course
-      2. Answer the assessments of days 1, 2 and 3
-      3. Share your Galaxy history with us
-
+       1. Being registered in the training
+       2. Join us on Slack!
+       3. Answer the assessments of days 1, 2 and 3
+       4. Fill the [Feedback Survey](https://forms.gle/6Xn8WudBvr3NMC3W7)
+       5. As you finish the hands-on tutorials, share your Galaxy histories with us. [See how to do this here](https://training.galaxyproject.org/training-material/faqs/galaxy/histories_sharing.html) and submit the links in the certificate request form.
 feedback:
   form: "https://forms.gle/6Xn8WudBvr3NMC3W7"
 
@@ -244,7 +245,7 @@ program:
           author: GaloGS
           description: Principles of drug resistance detection from genomic data
           length: 20m
-          video: Ddwt-_gQR2M
+          video: dL06GTNFRgc
           other:
             - label: Assessment
               value: "Finished watching the webinar as part of the Mtb NGS training event? Share your thoughts with us [here](https://docs.google.com/document/d/1WnvgYtTUOJGxTUEQCL0-HOlHNkqo293LaqaGB9EKojM/edit#heading=h.bs9dcv9mioqd)"
@@ -258,7 +259,7 @@ program:
             This video will introduce one special type of mutations to take into account when studying
             drug resistance patterns
           length: 15m
-          video: 1ps_o5rpnmw
+          video: i-JK-UdMscI
           other:
             - label: Assessment
               value: "Finished watching as part of the Mtb NGS training event? Share your thoughts with us [here](https://docs.google.com/document/d/1I341zrHJdAn5BEtrtc1KmJZ_x_lez_EWA75iTFBq-R4/edit#)"
