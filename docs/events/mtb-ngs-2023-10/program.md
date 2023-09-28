@@ -19,7 +19,7 @@ instructors: [dbrites, cstritt, andreacabibbe, federicodimarco, andreaspitaleri,
 setup:
   servers:
     - server: eu
-      tiaas: mtbngs
+      tiaas: mtb-ngs-october2023
 
   slack:
     event_channel:
