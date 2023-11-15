@@ -3216,7 +3216,9 @@
     "type": "Lecture",
     "versions": [
       {
-        "captions": null,
+        "captions": [
+          "delphine-l"
+        ],
         "date": "2022-03-10",
         "galaxy_version": "21.09",
         "length": "10M",
@@ -3227,7 +3229,7 @@
       }
     ],
     "gtn_id": "genome-annotation/tnseq-lecture",
-    "captioned": false
+    "captioned": true
   },
   "introduction/galaxy-intro-101-everyone/tutorial": {
     "description": "This video tutorial will provide a non-genomics based first look at the Galaxy platform, how to use it, and discusses how you can get support for your data analysis.",

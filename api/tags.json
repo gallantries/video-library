@@ -3583,7 +3583,9 @@
         "type": "Lecture",
         "versions": [
           {
-            "captions": null,
+            "captions": [
+              "delphine-l"
+            ],
             "date": "2022-03-10",
             "galaxy_version": "21.09",
             "length": "10M",
@@ -3594,7 +3596,7 @@
           }
         ],
         "gtn_id": "genome-annotation/tnseq-lecture",
-        "captioned": false
+        "captioned": true
       }
     }
   },
