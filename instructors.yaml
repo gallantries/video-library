@@ -313,6 +313,10 @@ ksuderman:
     name: Keith Suderman
     affiliation: [johnshopkins]
 
+leandro-liborio:
+    name: Leandro Liborio
+    affiliation: [stfc]
+
 lgatto:
     name: Laurent Gatto
     affiliation: [uclouvain, bioc]

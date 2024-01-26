@@ -213,6 +213,11 @@
     "link": "https://www.slu.se",
     "logo": "slu.png"
   },
+  "stfc": {
+    "name": "Science and Technology Facilities Counci (STFC)",
+    "link": "https://www.ukri.org/councils/stfc/",
+    "logo": "stfc-logo.png"
+  },
   "swiss-tph": {
     "name": "Swiss Tropical and Public Health Institute",
     "link": "https://www.swisstph.ch/en/",

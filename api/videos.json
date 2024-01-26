@@ -3371,6 +3371,35 @@
     "title": "From NCBI's Sequence Read Archive (SRA) to Galaxy: SARS-CoV-2 variant analysis",
     "captioned": true
   },
+  "materials-science/muon-stopping-sites-muairss-uep": {
+    "description": null,
+    "materials": [
+      {
+        "link": "topics/materials-science/tutorials/muon-stopping-sites-muairss-uep/tutorial.html",
+        "title": "Finding the muon stopping site with pymuon-suite in Galaxy",
+        "type": "Tutorial"
+      }
+    ],
+    "tags": [
+      "materials-science"
+    ],
+    "versions": [
+      {
+        "link": "rFPtDmq7uO8",
+        "date": "2024-01-26",
+        "length": "22M",
+        "speakers": [
+          "leandro-liborio"
+        ],
+        "captions": [
+          "leandro-liborio"
+        ]
+      }
+    ],
+    "gtn_id": "materials-science/muon-stopping-sites-muairss-uep",
+    "title": "Finding the muon stopping site with pymuon-suite in Galaxy",
+    "captioned": true
+  },
   "metagenomics/clinical-applications": {
     "description": "Nanopore Sequencing has many applications in a clinical setting. In this lecture, Astrid Heikema discusses how her group at the Erasmus Medical Center uses Nanopore for sequencing of bacterial Genomes.",
     "materials": [
@@ -3426,7 +3455,7 @@
       }
     ],
     "gtn_id": "metagenomics/introduction",
-    "title": "Introduction to metagenomics",
+    "title": "metagenomics/introduction/slides",
     "captioned": true
   },
   "metagenomics/metatranscriptomics": {
@@ -3482,7 +3511,7 @@
       }
     ],
     "gtn_id": "metagenomics/metatranscriptomics",
-    "title": "Metatranscriptomics analysis using microbiome RNA-seq data",
+    "title": "metagenomics/metatranscriptomics",
     "captioned": true
   },
   "metagenomics/taxonomic-profiling/tutorial": {
@@ -3511,7 +3540,7 @@
       }
     ],
     "gtn_id": "metagenomics/taxonomic-profiling",
-    "title": "Taxonomic Profiling and Visualization of Metagenomic Data",
+    "title": "metagenomics/taxonomic-profiling/tutorial",
     "captioned": true
   },
   "metagenomics/mothur-miseq-sop-short/tutorial": {
@@ -3553,7 +3582,7 @@
       }
     ],
     "gtn_id": "metagenomics/mothur-miseq-sop-short",
-    "title": "16S Microbial Analysis with mothur (short)",
+    "title": "metagenomics/mothur-miseq-sop-short/tutorial",
     "captioned": true
   },
   "metagenomics/plasmid-metagenomics-nanopore/tutorial": {
@@ -3589,7 +3618,7 @@
       }
     ],
     "gtn_id": "metagenomics/plasmid-metagenomics-nanopore",
-    "title": "Antibiotic resistance detection",
+    "title": "metagenomics/plasmid-metagenomics-nanopore/tutorial",
     "captioned": true
   },
   "metagenomics/pathogen-detection-from-nanopore-foodborne-data/tutorial": {
@@ -3618,7 +3647,7 @@
       }
     ],
     "gtn_id": "metagenomics/pathogen-detection-from-nanopore-foodborne-data",
-    "title": "Pathogen detection from (direct Nanopore) sequencing data using Galaxy - Foodborne Edition",
+    "title": "metagenomics/pathogen-detection-from-nanopore-foodborne-data/tutorial",
     "captioned": true
   },
   "metagenomics/beer-data-analysis/tutorial": {
@@ -3648,7 +3677,7 @@
       }
     ],
     "gtn_id": "metagenomics/beer-data-analysis",
-    "title": "Identification of the micro-organisms in a beer using Nanopore sequencing",
+    "title": "metagenomics/beer-data-analysis/tutorial",
     "captioned": true
   },
   "metagenomics/metagenomics-assembly/tutorial": {
@@ -3679,7 +3708,7 @@
       }
     ],
     "gtn_id": "metagenomics/metagenomics-assembly",
-    "title": "Assembly of metagenomic sequencing data",
+    "title": "metagenomics/metagenomics-assembly/tutorial",
     "captioned": true
   },
   "proteogenomics/introduction/slides": {
@@ -4853,7 +4882,7 @@
       }
     ],
     "gtn_id": "single-cell/scrna-case_monocle3-trajectories",
-    "title": "Inferring trajectories using Monocle3",
+    "title": "Inferring single cell trajectories (Monocle3)",
     "captioned": true
   },
   "single-cell/scrna-case_alevin/tutorial": {
@@ -4926,7 +4955,7 @@
       }
     ],
     "gtn_id": "single-cell/scrna-case_alevin-combine-datasets",
-    "title": "Combining datasets after pre-processing",
+    "title": "Combining single cell datasets after pre-processing",
     "captioned": true
   },
   "single-cell/scrna-case_cell-cycle/tutorial": {
@@ -5220,7 +5249,7 @@
       }
     ],
     "gtn_id": "single-cell/scrna-case_JUPYTER-trajectories",
-    "title": "Inferring Trajectories using Scanpy (Python)",
+    "title": "Inferring single cell trajectories (Scanpy, Python)",
     "captioned": true
   },
   "single-cell/scrna-intro/slides": {
@@ -5388,7 +5417,7 @@
       }
     ],
     "gtn_id": "single-cell/scrna-case_basic-pipeline",
-    "title": "Filter, Plot and Explore Single-cell RNA-seq Data",
+    "title": "Filter, plot and explore single-cell RNA-seq data (Scanpy)",
     "captioned": true
   },
   "single-cell/scrna-umis/tutorial": {

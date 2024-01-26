@@ -193,7 +193,7 @@
         }
       ],
       "gtn_id": "metagenomics/metagenomics-assembly",
-      "title": "Assembly of metagenomic sequencing data",
+      "title": "metagenomics/metagenomics-assembly/tutorial",
       "captioned": true
     }
   }

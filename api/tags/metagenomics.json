@@ -56,7 +56,7 @@
         }
       ],
       "gtn_id": "metagenomics/introduction",
-      "title": "Introduction to metagenomics",
+      "title": "metagenomics/introduction/slides",
       "captioned": true
     },
     "metagenomics/metatranscriptomics": {
@@ -112,7 +112,7 @@
         }
       ],
       "gtn_id": "metagenomics/metatranscriptomics",
-      "title": "Metatranscriptomics analysis using microbiome RNA-seq data",
+      "title": "metagenomics/metatranscriptomics",
       "captioned": true
     },
     "metagenomics/taxonomic-profiling/tutorial": {
@@ -141,7 +141,7 @@
         }
       ],
       "gtn_id": "metagenomics/taxonomic-profiling",
-      "title": "Taxonomic Profiling and Visualization of Metagenomic Data",
+      "title": "metagenomics/taxonomic-profiling/tutorial",
       "captioned": true
     },
     "metagenomics/mothur-miseq-sop-short/tutorial": {
@@ -183,7 +183,7 @@
         }
       ],
       "gtn_id": "metagenomics/mothur-miseq-sop-short",
-      "title": "16S Microbial Analysis with mothur (short)",
+      "title": "metagenomics/mothur-miseq-sop-short/tutorial",
       "captioned": true
     },
     "metagenomics/plasmid-metagenomics-nanopore/tutorial": {
@@ -219,7 +219,7 @@
         }
       ],
       "gtn_id": "metagenomics/plasmid-metagenomics-nanopore",
-      "title": "Antibiotic resistance detection",
+      "title": "metagenomics/plasmid-metagenomics-nanopore/tutorial",
       "captioned": true
     },
     "metagenomics/pathogen-detection-from-nanopore-foodborne-data/tutorial": {
@@ -248,7 +248,7 @@
         }
       ],
       "gtn_id": "metagenomics/pathogen-detection-from-nanopore-foodborne-data",
-      "title": "Pathogen detection from (direct Nanopore) sequencing data using Galaxy - Foodborne Edition",
+      "title": "metagenomics/pathogen-detection-from-nanopore-foodborne-data/tutorial",
       "captioned": true
     },
     "metagenomics/beer-data-analysis/tutorial": {
@@ -278,7 +278,7 @@
         }
       ],
       "gtn_id": "metagenomics/beer-data-analysis",
-      "title": "Identification of the micro-organisms in a beer using Nanopore sequencing",
+      "title": "metagenomics/beer-data-analysis/tutorial",
       "captioned": true
     },
     "metagenomics/metagenomics-assembly/tutorial": {
@@ -309,7 +309,7 @@
         }
       ],
       "gtn_id": "metagenomics/metagenomics-assembly",
-      "title": "Assembly of metagenomic sequencing data",
+      "title": "metagenomics/metagenomics-assembly/tutorial",
       "captioned": true
     }
   }
