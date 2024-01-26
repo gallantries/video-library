@@ -2143,6 +2143,23 @@ variant-analysis/sars-cov-2:
     link: 9mIL0tIfZ_o
     speakers:
     - nekrut
+
+materials-science/muon-stopping-sites-muairss-uep:
+  description:
+  materials:
+  - link: topics/materials-science/tutorials/muon-stopping-sites-muairss-uep/tutorial.html
+    title: Finding the muon stopping site with pymuon-suite in Galaxy
+    type: Tutorial
+  tags:
+  - materials-science
+  versions:
+  - link: rFPtDmq7uO8
+    date: 2024-01-26
+    length: 22M
+    speakers:
+    - leandro-liborio
+    captions:
+    - leandro-liborio
 metagenomics/clinical-applications:
   description: Nanopore Sequencing has many applications in a clinical setting. In
     this lecture, Astrid Heikema discusses how her group at the Erasmus Medical Center

@@ -287,15 +287,22 @@
   "admin/wireguard/tutorial": [
     "Setup a wireguard mesh across a few nodes"
   ],
+  "ai4life/contribute-materials/slides": [
+    "Get to know how to contribute with models to the BioImage.IO"
+  ],
   "ai4life/getting-started/slides": [
     "Share what BioImage Model Zoo is.",
     "Provide a general view of what can be done with BioImage Model Zoo.",
-    "Explain who can and should participate into the BioImage Model Zoo."
+    "Explain who can and should contribute to the BioImage Model Zoo."
   ],
   "ai4life/welcome-bioimageio/slides": [
-    "Overview of the BioImage Model Zoo",
-    "Content of the BioImage Model Zoo",
-    "Models of the BioImage Model Zoo"
+    "Overview",
+    "Content",
+    "Models"
+  ],
+  "assembly/ERGA-post-assembly-QC/tutorial": [
+    "apply the post-assembly-QC-workflow using the necessary tools",
+    "analyse and evaluate the results of the workflow"
   ],
   "assembly/algorithms-introduction/slides": [],
   "assembly/assembly-quality-control/slides": [
@@ -367,13 +374,12 @@
     "Evaluate the Quality of the Assembly with Quast, Bowtie2, and CoverM-Genome"
   ],
   "assembly/mrsa-illumina/tutorial": [
-    "Assess your data on quality and quantity",
-    "Assemble a genome",
-    "Assess your assembly quality",
-    "Assess presence of antimicrobial resistance genes",
-    "Perform a species identification and MLST typing",
-    "Search for resistance genes on the assembly",
-    "Find a gene on your genome using Prokka + JBrowse"
+    "Run tools to evaluate sequencing data on quality and quantity",
+    "Process the output of quality control tools",
+    "Improve the quality of sequencing data",
+    "Run a tool to assemble a bacterial genome using short reads",
+    "Run tools to assess the quality of an assembly",
+    "Understand the outputs of tools to assess the quality of an assembly"
   ],
   "assembly/mrsa-nanopore/tutorial": [
     "Assess your data on quality and quantity",
@@ -434,6 +440,14 @@
     "Composing, executing and publishing CML-FATES workflow."
   ],
   "climate/introduction/slides": [],
+  "climate/ocean-data-view/tutorial": [
+    "Deal with netcdf files in ODV",
+    "Visualise ocean variables from Argo glider's data"
+  ],
+  "climate/ocean-variables/tutorial": [
+    "Deals with ODV collection with data orginating from Emodnet chemistry",
+    "Visualise ocean variables in order to study climate changes"
+  ],
   "climate/pangeo-notebook/slides": [
     "Learn to get metadata information using Xarray Galaxy Tools",
     "Learn to select data",
@@ -496,6 +510,12 @@
   "computational-chemistry/md-simulation-namd/tutorial": [
     "Learn about the NAMD engine provided in BRIDGE"
   ],
+  "computational-chemistry/med-chem-data/tutorial": [
+    "Learn some terminology from the field of medicinal chemistry",
+    "Understand the idea of data-driven medicinal chemistry",
+    "Explore the databases used for drug discovery and development",
+    "Use Galaxy tools for data management, format conversion and simple analyses"
+  ],
   "computational-chemistry/setting-up-molecular-systems/tutorial": [
     "learn about the Protein Data Bank",
     "learn how to set up up a model protein and ligand system (with CHARMM-GUI)",
@@ -548,6 +568,10 @@
     "Describe the role of learning outcomes in selecting relevant content",
     "Distinguish different types of assessment & their role in supporting learner progression towards learning outcomes",
     "Summarise the benefits of course evaluation"
+  ],
+  "contributing/fair-gtn/tutorial": [
+    "Learn about metadata and findability",
+    "Learn how to support system and content curation"
   ],
   "contributing/generating-pdf/tutorial": [
     "Generating PDFs"
@@ -652,12 +676,54 @@
     "Create files in that hierarchy using an editor or by copying and renaming existing files.",
     "Delete, copy and move specified files and/or directories."
   ],
+  "data-science/data-manipulation-olympics-jq/tutorial": [
+    "Familiarize yourself with data manipulation filters in JQ",
+    "Perform basic data manipulation tasks in JQ",
+    "Become comfortable converting JSON-based files in a variety of ways.",
+    "Reason about the expected outcome of tools"
+  ],
+  "data-science/data-manipulation-olympics-sql/tutorial": [
+    "Familiarize yourself with data manipulation in SQL",
+    "Perform basic SQL query tasks in Galaxy",
+    "Reason about the expected outcome of tools"
+  ],
+  "data-science/data-manipulation-olympics-viz-r/tutorial": [
+    "Produce scatter plots, boxplots, and time series plots using ggplot.",
+    "Set universal plot settings.",
+    "Describe what faceting is and apply faceting in ggplot.",
+    "Modify the aesthetics of an existing ggplot plot (including axis labels and color).",
+    "Build complex and customized plots from data in a data frame."
+  ],
   "data-science/git-cli/tutorial": [
     "Create a repository",
     "Commit a file",
     "Make some changes",
     "Use the log to view the diff",
     "Undo a bad change"
+  ],
+  "data-science/gnmx-lecture1/slides": [
+    "Have a basic understanding of history of biology from Darwin to today."
+  ],
+  "data-science/gnmx-lecture1/tutorial": [
+    "Have a basic understanding of history of biology from Darwin to today."
+  ],
+  "data-science/gnmx-lecture2/tutorial": [
+    "Have a basic understanding of the history of sequencing",
+    "Understand Python basics"
+  ],
+  "data-science/gnmx-lecture3/tutorial": [
+    "Understand manipulation of FASTQ data in Python",
+    "Understand quality metrics"
+  ],
+  "data-science/online-resources-gene/slides": [
+    "Starting from a text search, navigate multiple web resources to examine multiple types of information about a gene, conveyed through multiple file formats."
+  ],
+  "data-science/online-resources-gene/tutorial": [
+    "Starting from a text search, navigate multiple web resources to examine multiple types of information about a gene, conveyed through multiple file formats."
+  ],
+  "data-science/online-resources-protein/tutorial": [
+    "By exploring protein entries in UniProtKB, interpret protein function, taxonomy, structure, interactions, variants, and more.",
+    "Use unique identifiers to connect databases, download gene and protein data, visualize and compare sequence features."
   ],
   "data-science/python-advanced-np-pd/tutorial": [
     "Use the scientific libraries pandas and numpy to explore tabular datasets",
@@ -886,7 +952,7 @@
     "Further develop your ToolFactory Skills"
   ],
   "dev/tool-generators/slides": [
-    "Learn why you might want to use the ToolFactory Appliance",
+    "Learn why you might want to use the ToolFactory development server",
     "Watch a video demonstration and explore the generated code - Hello Galaxy Training Network!",
     "Run it locally in Docker.",
     "Install and explore the simple examples provided.",
@@ -894,7 +960,7 @@
     "Generate new simple Galaxy tools using your own scripts"
   ],
   "dev/tool-generators/tutorial": [
-    "Learn why you might want to use the ToolFactory Appliance",
+    "Learn why you might want to use the ToolFactory development server",
     "Watch a video demonstration and explore the generated code - Hello Galaxy Training Network!",
     "Run it locally in Docker.",
     "Install and explore the simple examples provided.",
@@ -949,6 +1015,13 @@
     "Learn to write API tests",
     "Learn to write unit tests"
   ],
+  "ecology/Metashrimps_tutorial/tutorial": [
+    "Learn how to use the interactive tool Metashrimps",
+    "Understand the challenges MetaShRIMPS is trying to respond to",
+    "Learn how to create a FAIR Quality assessment report from a metadata using EML standard",
+    "Understand the concept of Data Paper and learn how to produce it",
+    "Explain the necessity of using such tools when producing ecological metadata"
+  ],
   "ecology/Obitools-metabarcoding/tutorial": [
     "Deal with paired-end data to create consensus sequences",
     "Clean, filter and anlayse data to obtain strong results"
@@ -959,6 +1032,10 @@
     "Learning how to use an ecological analysis workflow from raw data to graphical representations",
     "Learning how to construct a Generalized Linear (Mixed) Model from a usual ecological question",
     "Learning how to interpret a Generalized Linear (Mixed) Model"
+  ],
+  "ecology/QGIS_Web_Feature_Services/tutorial": [
+    "Deal with QGIS execution management",
+    "Access, filter, and import GIS data using WFS webservice"
   ],
   "ecology/biodiversity-data-exploration/tutorial": [
     "Explore Biodiversity data with taxonomic, temporal and geographical informations",
@@ -983,6 +1060,12 @@
     "SNP calling from RAD sequencing data",
     "Find and correct haplotypes",
     "Create input files for genetic map building software"
+  ],
+  "ecology/ndvi_openeo/tutorial": [
+    "Use OpenEo technologies and learn how to download data with them",
+    "Learn to use Holoviz environment to process csv data",
+    "Create timeseries and visualisation of the NDVI",
+    "Handle going form one interactive tool to another"
   ],
   "ecology/obisindicators/tutorial": [
     "Calculating and vizualizing marine biodiversity indicators"
@@ -1016,7 +1099,7 @@
   "ecology/species-distribution-modeling/tutorial": [
     "Find and download occurrences data from GBIF",
     "Find and download environmental data",
-    "Process both occurrences and environmental",
+    "Process both occurrences and environmental data",
     "Partition occurrence data",
     "Model a theoretical ecological niche and predict species distribution in a future climate scenario by using SDM"
   ],
@@ -1093,6 +1176,37 @@
     "Identify transmission clusters based on SNP distances",
     "Study the emergence and spread of drug resistance based on transmission analysis."
   ],
+  "fair/bioimage-REMBI/tutorial": [
+    "Organise bioimage metadata",
+    "Find out what REMBI is and why it is useful",
+    "Categorise what metadata belongs to each of the submodules of REMBI",
+    "Gather the metadata for an example bioimage dataset"
+  ],
+  "fair/bioimage-metadata/tutorial": [
+    "Locate bioimage data repositories",
+    "Compare repositories to find which are suitable for your data",
+    "Find out what the requirements are for submitting"
+  ],
+  "fair/data-management/tutorial": [
+    "Learn best practices in data management",
+    "Learn how to introduce computational reproducibility in your research"
+  ],
+  "fair/fair-clinical/tutorial": [
+    "Learn how to make clinical datasets FAIR",
+    "Recognise why FAIR datasets are important"
+  ],
+  "fair/fair-ena/tutorial": [
+    "To populate ENA metadata objects through the Webin portal",
+    "To submit raw reads to ENA using FTP"
+  ],
+  "fair/fair-gtn/tutorial": [
+    "Learn about metadata and findability",
+    "Learn how to support system and content curation"
+  ],
+  "fair/fair-intro/tutorial": [
+    "Learn the FAIR principles",
+    "Recognise the relationship between FAIR and Open data"
+  ],
   "fair/ro-crate-galaxy-best-practices/tutorial": [
     "Generate a workflow test using Planemo",
     "Understand how testing can be automated with GitHub Actions"
@@ -1103,6 +1217,12 @@
   "fair/ro-crate-in-python/tutorial": [
     "Create a custom, annotated RO-Crate",
     "Use ORCIDs and other linked data to annotate datasets contained within the crate"
+  ],
+  "fair/ro-crate-intro/tutorial": [
+    "Construct an RO-Crate by hand using JSON",
+    "Describe each part of the Research Object",
+    "Learn basic JSON-LD to create FAIR metadata",
+    "Connect different parts of the Research Object using identifiers"
   ],
   "fair/ro-crate-submitting-life-monitor/tutorial": [
     "Setup Life Monitor"
@@ -1198,6 +1318,12 @@
   "galaxy-interface/workflow-reports/tutorial": [
     "Understanding, viewing and creating workflow reports"
   ],
+  "genome-annotation/amr-gene-detection/tutorial": [
+    "Assess presence of antimicrobial resistance genes",
+    "Perform a species identification and MLST typing",
+    "Search for resistance genes on the assembly",
+    "Find a gene on your genome using Prokka + JBrowse"
+  ],
   "genome-annotation/annotation-with-maker-short/tutorial": [
     "Load genome into Galaxy",
     "Annotate genome with Maker",
@@ -1283,6 +1409,9 @@
     "Classify lncRNAs according to their location",
     "Update genome annotation with lncRNAs"
   ],
+  "genome-annotation/official-gene-set/tutorial": [
+    "Validate your genes and create an official gene set from them."
+  ],
   "genome-annotation/repeatmasker/tutorial": [
     "Use Red and RepeatMasker to soft-mask a newly assembled genome"
   ],
@@ -1295,6 +1424,17 @@
     "Understand the read structure of TnSeq analyses",
     "Predict Essential genes with Transit",
     "Compare gene essentiality in control sample and an different experimental condition"
+  ],
+  "imaging/bioimage-REMBI/tutorial": [
+    "Organise bioimage metadata",
+    "Find out what REMBI is and why it is useful",
+    "Categorise what metadata belongs to each of the submodules of REMBI",
+    "Gather the metadata for an example bioimage dataset"
+  ],
+  "imaging/bioimage-metadata/tutorial": [
+    "Locate bioimage data repositories",
+    "Compare repositories to find which are suitable for your data",
+    "Find out what the requirements are for submitting"
   ],
   "imaging/hela-screen-analysis/tutorial": [
     "How to segment cell nuclei in Galaxy.",
@@ -1395,6 +1535,11 @@
   "introduction/igv-introduction/tutorial": null,
   "introduction/introduction/slides": [],
   "introduction/options-for-using-galaxy/slides": null,
+  "materials-science/muon-stopping-sites-muairss-uep/tutorial": [
+    "Understand why finding stopping sites is useful",
+    "Use pymuon-suite in Galaxy to find stopping sites",
+    "Understand the limitations of these tools and techniques"
+  ],
   "metabolomics/gc_ms_with_xcms/tutorial": [
     "To learn about the key steps in the preprocessing and analysis of untargeted GC-MS metabolomics data.",
     "To explore what open-source alternative tools can be used in the analysis of GC-MS data, learn about their possible parametrisations.",
@@ -1437,19 +1582,19 @@
     "Preprocessing raw MSI data.",
     "Performing supervised and unsupervised statistical analysis."
   ],
-  "metagenomics/beer-data-analysis/tutorial": [
+  "microbiome/beer-data-analysis/tutorial": [
     "Inspect metagenomics data",
     "Run metagenomics tools",
     "Identify yeast species contained in a sequenced beer sample using DNA",
     "Visualize the microbiome community of a beer sample"
   ],
-  "metagenomics/general-tutorial/tutorial": [
+  "microbiome/general-tutorial/tutorial": [
     "Choosing the best approach to analyze metagenomics data",
     "Selection of tools to analyze amplicon data or shotgun data",
     "Visualisation of a community structure"
   ],
-  "metagenomics/introduction/slides": [],
-  "metagenomics/metagenomics-assembly/tutorial": [
+  "microbiome/introduction/slides": [],
+  "microbiome/metagenomics-assembly/tutorial": [
     "Describe what an assembly is",
     "Describe what de-replication is",
     "Explain the difference between co-assembly and individual assembly",
@@ -1460,40 +1605,47 @@
     "Apply appropriate tools for analyzing the quality of metagenomic assembly",
     "Evaluate the Quality of the Assembly with Quast, Bowtie2, and CoverM-Genome"
   ],
-  "metagenomics/metatranscriptomics-short/tutorial": [
+  "microbiome/metagenomics-binning/tutorial": [
+    "Describe what metagenomics binning is",
+    "Describe common problems in metagenomics binning",
+    "What software tools are available for metagenomics binning",
+    "Binning of contigs into metagenome-assembled genomes (MAGs) using MetaBAT 2 software",
+    "Evaluation of MAG quality and completeness using CheckM software"
+  ],
+  "microbiome/metatranscriptomics-short/tutorial": [
     "Choose the best approach to analyze metatranscriptomics data",
     "Understand the functional microbiome characterization using metatranscriptomic results",
     "Understand where metatranscriptomics fits in 'multi-omic' analysis of microbiomes",
     "Visualise a community structure"
   ],
-  "metagenomics/metatranscriptomics/slides": [
+  "microbiome/metatranscriptomics/slides": [
     "Choose the best approach to analyze metatranscriptomics data",
     "Understand the functional microbiome characterization using metatranscriptomic results",
     "Understand where metatranscriptomics fits in 'multi-omic' analysis of microbiomes",
     "Visualise a community structure"
   ],
-  "metagenomics/metatranscriptomics/tutorial": [
+  "microbiome/metatranscriptomics/tutorial": [
     "Choose the best approach to analyze metatranscriptomics data",
     "Understand the functional microbiome characterization using metatranscriptomic results",
     "Understand where metatranscriptomics fits in 'multi-omic' analysis of microbiomes",
     "Visualise a community structure"
   ],
-  "metagenomics/mothur-miseq-sop-short/tutorial": [
+  "microbiome/mothur-miseq-sop-short/tutorial": [
     "Analyze of 16S rRNA sequencing data using the mothur toolsuite in Galaxy",
     "Using a mock community to assess the error rate of your sequencing experiment",
     "Visualize sample diversity using Krona and Phinch"
   ],
-  "metagenomics/mothur-miseq-sop/tutorial": [
+  "microbiome/mothur-miseq-sop/tutorial": [
     "Analyze of 16S rRNA sequencing data using the mothur toolsuite in Galaxy",
     "Using a mock community to assess the error rate of your sequencing experiment",
     "Visualize sample diversity using Krona and Phinch"
   ],
-  "metagenomics/nanopore-16S-metagenomics/tutorial": [
+  "microbiome/nanopore-16S-metagenomics/tutorial": [
     "Use Nanopore data for studying soil metagenomics",
     "Analyze and preprocess Nanopore reads",
     "Use Kraken2 to assign a taxonomic labels"
   ],
-  "metagenomics/pathogen-detection-from-nanopore-foodborne-data/tutorial": [
+  "microbiome/pathogen-detection-from-nanopore-foodborne-data/tutorial": [
     "Check quality reports generated by FastQC and NanoPlot for metagenomics Nanopore data",
     "Preprocess the sequencing data to remove adapters, poor quality base content and host/contaminating reads",
     "Perform taxonomy profiling indicating and visualizing up to species level in the samples",
@@ -1501,13 +1653,13 @@
     "Identify pathogens via SNP calling and build the consensus gemone of the samples",
     "Relate all samples' pathogenic genes for tracking pathogens via phylogenetic trees and heatmaps"
   ],
-  "metagenomics/plasmid-metagenomics-nanopore/tutorial": [
+  "microbiome/plasmid-metagenomics-nanopore/tutorial": [
     "Perform Quality control on your reads",
     "Assemble a genome with Minimap2/Miniasm/Racon",
     "Determine the structure of the genome(s)",
     "Scan for antimicrobial resistance genes with Staramr"
   ],
-  "metagenomics/taxonomic-profiling/tutorial": [
+  "microbiome/taxonomic-profiling/tutorial": [
     "Explain what taxonomic assignment is",
     "Explain how taxonomic assignment works",
     "Apply Kraken and MetaPhlAn to assign taxonomic labels",
@@ -1611,6 +1763,10 @@
     "Predict proteins in the cellular secretome by using WolfPSORT.",
     "Combine the results of both predictions."
   ],
+  "sequence-analysis/Manage_AB1_Sanger/tutorial": [
+    "Learn how to manage sequencing files (AB1, FASTQ, FASTA)",
+    "Learn how to clean your Sanger sequences in an automated and reproducible way"
+  ],
   "sequence-analysis/human-reads-removal/tutorial": [
     "Obtain viral (SARS-CoV-2) sequencing data with contaminating human reads from public sources",
     "Organize the data into a collection",
@@ -1643,6 +1799,22 @@
     "Summarise quality metrics MultiQC",
     "Process single-end and paired-end data"
   ],
+  "sequence-analysis/sars-with-galaxy-on-anvil/tutorial": [
+    "Gather and evaluate experimental evidence, including qualitative and quantitative data",
+    "Generate and interpret graphs displaying experimental results",
+    "Critique large data sets and use bioinformatics to assess genetics data",
+    "Tap into the interdisciplinary nature of science"
+  ],
+  "single-cell/EBI-retrieval/tutorial": [
+    "You will retrieve raw data from the EBI Single Cell Expression Atlas.",
+    "You will manipulate the metadata and matrix files.",
+    "You will combine the metadata and matrix files into an AnnData or Seurat object for downstream analysis."
+  ],
+  "single-cell/alevin-commandline/tutorial": [
+    "Generate a cellxgene matrix for droplet-based single cell sequencing data",
+    "Interpret quality control (QC) plots to make informed decisions on cell thresholds",
+    "Find relevant information in GTF files for the particulars of their study, and include this in data matrix metadata"
+  ],
   "single-cell/bulk-music-2-preparescref/tutorial": [
     "You will retrieve raw data from the EMBL-EBI Single cell expression atlas.",
     "You will manipulate the metadata and matrix files.",
@@ -1664,10 +1836,36 @@
     "Inspect these objects for various properties",
     "Measure the abundance of certain cell type cluster markers compared to others"
   ],
+  "single-cell/scanpy_parameter_iterator/tutorial": [
+    "Execute the Scanpy Parameter Iterator",
+    "Recognise what tools you can use Parameter Iterator with",
+    "Operate tools working on dataset collections",
+    "Compare plots resulting from different parameters values"
+  ],
   "single-cell/scatac-preprocessing-tenx/tutorial": [
     "Demultiplex single-cell FASTQ data from 10X Genomics",
     "Learn about transparent matrix formats",
     "Create a high-quality count matrix starting from scATAC-seq FASTQ files"
+  ],
+  "single-cell/scrna-case-cell-annotation/slides": [
+    "Learn the different methods underlying automated cell annotation",
+    "Understand the data needed to annotate cells",
+    "Be able to choose the most appropriate method for your data",
+    "Recognise the common issues and be able to resolve them"
+  ],
+  "single-cell/scrna-case-jupyter_basic-pipeline/tutorial": [
+    "Interpret quality control plots to direct parameter decisions",
+    "Repeat analysis from matrix to clustering",
+    "Identify decision-making points",
+    "Appraise data outputs and decisions",
+    "Explain why single cell analysis is an iterative (i.e. the first plots you generate are not final, but rather you go back and re-analyse your data repeatedly) process"
+  ],
+  "single-cell/scrna-case_FilterPlotandExploreRStudio/tutorial": [
+    "Interpret quality control plots to direct parameter decisions",
+    "Repeat analysis from matrix to clustering to labelling clusters",
+    "Identify decision-making points",
+    "Appraise data outputs and decisions",
+    "Explain why single cell analysis is an iterative process (i.e. the first plots you generate are not final, but rather you go back and re-analyse your data repeatedly)"
   ],
   "single-cell/scrna-case_JUPYTER-trajectories/tutorial": [
     "Execute multiple plotting methods designed to maintain lineage relationships between cells",
@@ -1702,23 +1900,26 @@
     "Compare the outputs from Scanpy, Monocle in Galaxy and Monocle in R",
     "Describe differential expression analysis methods"
   ],
-  "single-cell/scrna-case_monocle3-trajectories/slides": [
-    "Identify which operations to perform on an AnnData object to obtain the files needed for Monocle",
-    "Follow the Monocle3 workflow and choose the right parameter values",
-    "Compare the outputs from Scanpy and Monocle",
-    "Interpet trajectory analysis results"
-  ],
   "single-cell/scrna-case_monocle3-trajectories/tutorial": [
     "Identify which operations to perform on an AnnData object to obtain the files needed for Monocle",
     "Follow the Monocle3 workflow and choose the right parameter values",
     "Compare the outputs from Scanpy and Monocle",
     "Interpet trajectory analysis results"
   ],
+  "single-cell/scrna-case_trajectories/tutorial": [
+    "Execute multiple plotting methods designed to identify lineage relationships between cells",
+    "Interpret these plots"
+  ],
   "single-cell/scrna-intro/slides": [
     "To understand the pitfalls in scRNA-seq sequencing and amplification, and how they are overcome.",
     "Know the types of variation in an analysis and how to control for them.",
     "Grasp what dimension reduction is, and how it might be performed.",
     "Be familiarised with the main types of clustering techniques and when to use them."
+  ],
+  "single-cell/scrna-ncbi-anndata/tutorial": [
+    "Analyse gene data from NCBI.",
+    "Convert raw gene expression data into the AnnData format.",
+    "Add metadata to the AnnData object to prepare it for analysis."
   ],
   "single-cell/scrna-plant/tutorial": [
     "Perform filtering, dimensionality reduction, and clustering",
@@ -1780,6 +1981,12 @@
     "Examine scRNA-seq data for low-quality cells",
     "Visualise data with various types of plots",
     "Filtering low-quality cells with the appropriate approach"
+  ],
+  "single-cell/scrna-trajectories/slides": [
+    "Become familiar with the methods of trajectory inference",
+    "Learn how the algorithms produce outputs",
+    "Be able to choose the method appropriate for your specific data",
+    "Gain insight into methods currently available in Galaxy"
   ],
   "single-cell/scrna-umis/tutorial": [
     "Demultiplex FASTQ data via UMI-tools",
@@ -1938,6 +2145,13 @@
     "Interact with the UseGalaxy.eu admins to arrange for infrastructure",
     "Run a great training!"
   ],
+  "teaching/gallantries-async/tutorial": [
+    "Describe asynchronous training",
+    "Organize an asynchronous training event using Galaxy"
+  ],
+  "teaching/gallantries-coursebuilder/tutorial": [
+    "Identify if it is appropriate"
+  ],
   "teaching/gtn-for-instructors/slides": [],
   "teaching/hybrid-training/tutorial": [
     "Describe hybrid training",
@@ -1971,6 +2185,11 @@
     "List different ways to teach online",
     "Use Galaxy to teach online"
   ],
+  "teaching/workshop-final-exercise/tutorial": [
+    "Create a 5 minute training",
+    "Deliver a 5 minute training",
+    "Deliver and receive feedback"
+  ],
   "teaching/workshop-intro/slides": [],
   "transcriptomics/clipseq/tutorial": [
     "Remove Adapters, Barcodes and Unique Molecular Identifiers (UMIs) from the reads",
@@ -1985,6 +2204,10 @@
     "Analysis of RNA sequencing data using a reference genome",
     "Reconstruction of transcripts without reference transcriptome (de novo)",
     "Analysis of differentially expressed genes"
+  ],
+  "transcriptomics/differential-isoform-expression/slides": [
+    "Perform genome-wide isoform analysis in order to evaluate differences in expression profiles between cancer and healthy tissues",
+    "Evaluate the differential alternative splicing in specific genes"
   ],
   "transcriptomics/differential-isoform-expression/tutorial": [
     "Perform genome-wide isoform analysis in order to evaluate differences in expression profiles between cancer and healthy tissues",
@@ -2155,8 +2378,10 @@
     "Combine information from different analysis steps to be able to draw appropriate conclusions about individual samples and batches of viral data"
   ],
   "variant-analysis/sars-cov-2/tutorial": [
-    "Understand how Galaxy and the Sequence Read Archive interact.",
-    "Be able to go from Galaxy to the Short Reach Archive, query SRA, use the SRA Run Selector to send selected metadata to Galaxy, and then import sequence data from SRA into Galaxy."
+    "Understand how Galaxy and the Sequence Read Archive interact",
+    "Be able to go from Galaxy to the Short Reach Archive, query SRA, use the SRA Run Selector to send selected metadata to Galaxy, and then import sequence data from SRA into Galaxy",
+    "Understand how collections enable processing of sequencing data in batches",
+    "Understand the analysis steps required to identify and annotate genomic mutations from sequencing data of SARS-CoV-2 samples"
   ],
   "variant-analysis/somatic-variant-discovery/tutorial": [
     "Use Control-Freec for hCNV Identefication in tumor tissue.",
@@ -2176,6 +2401,11 @@
     "Requesting DAC access and importing data from the EGA.",
     "Pre-process VCFs using regular expressions.",
     "Use annotations and phenotype information to find the causative variant(s)."
+  ],
+  "visualisation/bad-graphs/slides": [],
+  "visualisation/circos-microbial/tutorial": [
+    "Plot an *E. coli* genome in Galaxy",
+    "With tracks for the annotations, sequencing data, and variants."
   ],
   "visualisation/circos/slides": [
     "Create a number of Circos plots using the Galaxy tool",
