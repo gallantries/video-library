@@ -2166,7 +2166,6 @@ microbiome/clinical-applications:
     uses Nanopore for sequencing of bacterial Genomes.
   materials: []
   tags:
-  - metagenomics
   - microbiome
   title: Nanopore Whole Bacterial Genome Sequencing in a Clinical Setting
   type: Lecture
@@ -2187,7 +2186,6 @@ microbiome/introduction/slides:
     title: Introduction to Metagenomics Analyses
     type: Slides
   tags:
-  - metagenomics
   - microbiome
   type: Lecture
   versions:
@@ -2217,7 +2215,6 @@ microbiome/metatranscriptomics:
   - link: topics/microbiome/tutorials/metatranscriptomics/tutorial.html
     type: Tutorial
   tags:
-  - metagenomics
   - microbiome
   type: Tutorial
   versions:
@@ -2246,7 +2243,6 @@ microbiome/taxonomic-profiling/tutorial:
   - link: topics/microbiome/tutorials/taxonomic-profiling/tutorial.html
     type: Tutorial
   tags:
-  - metagenomics
   - microbiome
   versions:
   - link: jszMnBKm6ig
@@ -2263,7 +2259,6 @@ microbiome/mothur-miseq-sop-short/tutorial:
   - link: topics/microbiome/tutorials/mothur-miseq-sop-short/tutorial.html
     type: Tutorial
   tags:
-  - metagenomics
   - microbiome
   type: Tutorial
   versions:
@@ -2295,7 +2290,6 @@ microbiome/plasmid-metagenomics-nanopore/tutorial:
     title: 16S Microbial analysis with Nanopore data
     type: Related Tutorial
   tags:
-  - metagenomics
   - microbiome
   type: Tutorial
   versions:
@@ -2320,7 +2314,6 @@ microbiome/pathogen-detection-from-nanopore-foodborne-data/tutorial:
   - link: topics/microbiome/tutorials/pathogen-detection-from-nanopore-foodborne-data/tutorial.thml
     type: Tutorial
   tags:
-   - metagenomics
    - microbiome
   versions:
   - link: gQHb_jkj-Z0
@@ -2335,7 +2328,6 @@ microbiome/pathogen-detection-from-nanopore-foodborne-data/tutorial:
 microbiome/beer-data-analysis/tutorial:
   description:
   tags:
-  - metagenomics
   - microbiome
   type: Tutorial
   materials:
@@ -2357,7 +2349,6 @@ microbiome/metagenomics-assembly/tutorial:
     For an in-depth analysis of the structure and functions of the coffee microbiome, a temporal shotgun metagenomic study
     (six time points) was performed. The six samples have been sequenced with Illumina MiSeq utilizing whole genome sequencing.
   tags:
-  - metagenomics
   - assembly
   - microbiome
   materials:
