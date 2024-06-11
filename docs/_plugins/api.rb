@@ -150,7 +150,10 @@ module Jekyll
       site.data['sessions_bytag'] = Hash.new { Array.new }
       site.data['sessions'].each{|k, v|
         # For each session we have some videos:
-        tags = v['videos'].map{|video| site.data['videos'][video]['tags'] }.flatten.uniq
+        tags = v['videos'].map{|video| 
+          p ">> #{video}"
+          p ">>> #{site.data['videos'][video]}"
+          site.data['videos'][video]['tags'] }.flatten.uniq
         tags.each{|tag|
           if ! site.data['sessions_bytag'].has_key? tag
             site.data['sessions_bytag'][tag] = {}
