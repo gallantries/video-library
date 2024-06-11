@@ -120,6 +120,18 @@
           "speakers": [
             "pvanheus"
           ]
+        },
+        {
+          "captions": [
+            "pvanheus"
+          ],
+          "date": "2024-06-11",
+          "galaxy_version": "24.0",
+          "length": "1H17M",
+          "link": "-nJPngFk36c",
+          "speakers": [
+            "pvanheus"
+          ]
         }
       ],
       "gtn_id": "variant-analysis/tb-variant-analysis",

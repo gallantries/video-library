@@ -1736,7 +1736,7 @@
       ]
     }
   ],
-  "topics/metagenomics/slides/introduction.html": [
+  "topics/microbiome/slides/introduction.html": [
     {
       "captions": [
         "shiltemann"
@@ -1750,7 +1750,7 @@
       ]
     }
   ],
-  "topics/metagenomics/tutorials/metatranscriptomics/slides.html": [
+  "topics/microbiome/tutorials/metatranscriptomics/slides.html": [
     {
       "link": "HNYop3vLpoM",
       "date": "2023-05-17",
@@ -1780,7 +1780,7 @@
       ]
     }
   ],
-  "topics/metagenomics/tutorials/metatranscriptomics/tutorial.html": [
+  "topics/microbiome/tutorials/metatranscriptomics/tutorial.html": [
     {
       "link": "HNYop3vLpoM",
       "date": "2023-05-17",
@@ -1810,7 +1810,7 @@
       ]
     }
   ],
-  "topics/metagenomics/tutorials/taxonomic-profiling/tutorial.html": [
+  "topics/microbiome/tutorials/taxonomic-profiling/tutorial.html": [
     {
       "link": "jszMnBKm6ig",
       "speakers": [
@@ -1824,7 +1824,7 @@
       "galaxy_version": "23.01"
     }
   ],
-  "topics/metagenomics/tutorials/mothur-miseq-sop-short/tutorial.html": [
+  "topics/microbiome/tutorials/mothur-miseq-sop-short/tutorial.html": [
     {
       "link": "CGSBeCW3rpA",
       "speakers": [
@@ -1850,7 +1850,7 @@
       ]
     }
   ],
-  "topics/metagenomics/tutorials/plasmid-metagenomics-nanopore/tutorial.html": [
+  "topics/microbiome/tutorials/plasmid-metagenomics-nanopore/tutorial.html": [
     {
       "captions": [
         "bebatut"
@@ -1864,7 +1864,7 @@
       ]
     }
   ],
-  "topics/metagenomics/tutorials/nanopore-16S-metagenomics/tutorial.html": [
+  "topics/microbiome/tutorials/nanopore-16S-metagenomics/tutorial.html": [
     {
       "captions": [
         "bebatut"
@@ -1878,7 +1878,7 @@
       ]
     }
   ],
-  "topics/metagenomics/tutorials/pathogen-detection-from-nanopore-foodborne-data/tutorial.thml": [
+  "topics/microbiome/tutorials/pathogen-detection-from-nanopore-foodborne-data/tutorial.thml": [
     {
       "link": "gQHb_jkj-Z0",
       "date": "2023-05-01",
@@ -1892,7 +1892,7 @@
       ]
     }
   ],
-  "topics/metagenomics/tutorials/beer-data-analysis/tutorial.html": [
+  "topics/microbiome/tutorials/beer-data-analysis/tutorial.html": [
     {
       "link": "PJeS06yiJUM",
       "speakers": [
@@ -1906,7 +1906,7 @@
       "length": "1H5M"
     }
   ],
-  "topics/metagenomics/tutorials/metagenomics-assembly/tutorial.html": [
+  "topics/microbiome/tutorials/metagenomics-assembly/tutorial.html": [
     {
       "link": "1ZYGy85Im7w",
       "date": "2023-05-02",

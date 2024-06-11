@@ -1,13 +1,14 @@
 {
   "url": "/video-library/api/tags/metagenomics.json",
   "videos": {
-    "metagenomics/clinical-applications": {
+    "microbiome/clinical-applications": {
       "description": "Nanopore Sequencing has many applications in a clinical setting. In this lecture, Astrid Heikema discusses how her group at the Erasmus Medical Center uses Nanopore for sequencing of bacterial Genomes.",
       "materials": [
 
       ],
       "tags": [
-        "metagenomics"
+        "metagenomics",
+        "microbiome"
       ],
       "title": "Nanopore Whole Bacterial Genome Sequencing in a Clinical Setting",
       "type": "Lecture",
@@ -25,20 +26,21 @@
           ]
         }
       ],
-      "gtn_id": "metagenomics/clinical-applications",
+      "gtn_id": "microbiome/clinical-applications",
       "captioned": true
     },
-    "metagenomics/introduction/slides": {
+    "microbiome/introduction/slides": {
       "description": "This lecture briefly introduces 16S sequencing, a popular technique used for taxonomic profiling of microbial communities.",
       "materials": [
         {
-          "link": "topics/metagenomics/slides/introduction.html",
+          "link": "topics/microbiome/slides/introduction.html",
           "title": "Introduction to Metagenomics Analyses",
           "type": "Slides"
         }
       ],
       "tags": [
-        "metagenomics"
+        "metagenomics",
+        "microbiome"
       ],
       "type": "Lecture",
       "versions": [
@@ -55,11 +57,11 @@
           ]
         }
       ],
-      "gtn_id": "metagenomics/introduction",
-      "title": "metagenomics/introduction/slides",
+      "gtn_id": "microbiome/introduction",
+      "title": "Introduction to Microbiome Analysis",
       "captioned": true
     },
-    "metagenomics/metatranscriptomics": {
+    "microbiome/metatranscriptomics": {
       "description": "Metatranscriptomics analysis examines how the microbiome responds to the environment by studying the taxonomic composition and functional analysis of genes expressed by the microbiome, using microbial community RNASeq data and subsequent metatranscriptomics workflows. This workshop will introduce researchers to the basic concepts and tools from the ASaiM-MT workflow. ASaiM-MT provides a curated collection of tools to explore and visualize taxonomic and functional information from metatranscriptomic sequences.",
       "materials": [
         {
@@ -68,17 +70,18 @@
           "type": "Slides from video"
         },
         {
-          "link": "topics/metagenomics/tutorials/metatranscriptomics/slides.html",
+          "link": "topics/microbiome/tutorials/metatranscriptomics/slides.html",
           "title": "Introduction to Metatranscriptomics",
           "type": "Related Slides"
         },
         {
-          "link": "topics/metagenomics/tutorials/metatranscriptomics/tutorial.html",
+          "link": "topics/microbiome/tutorials/metatranscriptomics/tutorial.html",
           "type": "Tutorial"
         }
       ],
       "tags": [
-        "metagenomics"
+        "metagenomics",
+        "microbiome"
       ],
       "type": "Tutorial",
       "versions": [
@@ -111,20 +114,21 @@
           ]
         }
       ],
-      "gtn_id": "metagenomics/metatranscriptomics",
-      "title": "metagenomics/metatranscriptomics",
+      "gtn_id": "microbiome/metatranscriptomics",
+      "title": "Metatranscriptomics analysis using microbiome RNA-seq data",
       "captioned": true
     },
-    "metagenomics/taxonomic-profiling/tutorial": {
+    "microbiome/taxonomic-profiling/tutorial": {
       "description": null,
       "materials": [
         {
-          "link": "topics/metagenomics/tutorials/taxonomic-profiling/tutorial.html",
+          "link": "topics/microbiome/tutorials/taxonomic-profiling/tutorial.html",
           "type": "Tutorial"
         }
       ],
       "tags": [
-        "metagenomics"
+        "metagenomics",
+        "microbiome"
       ],
       "versions": [
         {
@@ -140,20 +144,21 @@
           "galaxy_version": "23.01"
         }
       ],
-      "gtn_id": "metagenomics/taxonomic-profiling",
-      "title": "metagenomics/taxonomic-profiling/tutorial",
+      "gtn_id": "microbiome/taxonomic-profiling",
+      "title": "Taxonomic Profiling and Visualization of Metagenomic Data",
       "captioned": true
     },
-    "metagenomics/mothur-miseq-sop-short/tutorial": {
+    "microbiome/mothur-miseq-sop-short/tutorial": {
       "description": "This lecture briefly introduces 16S sequencing, a popular technique used for taxonomic profiling of microbial communities.",
       "materials": [
         {
-          "link": "topics/metagenomics/tutorials/mothur-miseq-sop-short/tutorial.html",
+          "link": "topics/microbiome/tutorials/mothur-miseq-sop-short/tutorial.html",
           "type": "Tutorial"
         }
       ],
       "tags": [
-        "metagenomics"
+        "metagenomics",
+        "microbiome"
       ],
       "type": "Tutorial",
       "versions": [
@@ -182,26 +187,27 @@
           ]
         }
       ],
-      "gtn_id": "metagenomics/mothur-miseq-sop-short",
-      "title": "metagenomics/mothur-miseq-sop-short/tutorial",
+      "gtn_id": "microbiome/mothur-miseq-sop-short",
+      "title": "16S Microbial Analysis with mothur (short)",
       "captioned": true
     },
-    "metagenomics/plasmid-metagenomics-nanopore/tutorial": {
+    "microbiome/plasmid-metagenomics-nanopore/tutorial": {
       "description": "This tutorial will guide you through the process of assembling your Nanopore-sequenced bacterial samples and determining the presence of antibiotic resistance genes.",
       "materials": [
         {
-          "link": "topics/metagenomics/tutorials/plasmid-metagenomics-nanopore/tutorial.html",
+          "link": "topics/microbiome/tutorials/plasmid-metagenomics-nanopore/tutorial.html",
           "title": "Antibiotic resistance detection of plasmid data",
           "type": "Tutorial"
         },
         {
-          "link": "topics/metagenomics/tutorials/nanopore-16S-metagenomics/tutorial.html",
+          "link": "topics/microbiome/tutorials/nanopore-16S-metagenomics/tutorial.html",
           "title": "16S Microbial analysis with Nanopore data",
           "type": "Related Tutorial"
         }
       ],
       "tags": [
-        "metagenomics"
+        "metagenomics",
+        "microbiome"
       ],
       "type": "Tutorial",
       "versions": [
@@ -218,20 +224,21 @@
           ]
         }
       ],
-      "gtn_id": "metagenomics/plasmid-metagenomics-nanopore",
-      "title": "metagenomics/plasmid-metagenomics-nanopore/tutorial",
+      "gtn_id": "microbiome/plasmid-metagenomics-nanopore",
+      "title": "Antibiotic resistance detection",
       "captioned": true
     },
-    "metagenomics/pathogen-detection-from-nanopore-foodborne-data/tutorial": {
+    "microbiome/pathogen-detection-from-nanopore-foodborne-data/tutorial": {
       "description": "In this tutorial, we will be presenting a series of Galaxy workflows whose main goals are\n1) to agnostically detect pathogens (What exactly is this pathogen and what virulence\nfactors does it carry?) from data extracted directly (without prior cultivation) from a\npotentially contaminated sample (e.g. food like chicken, beef, etc.) and sequenced using\nNanopore, and 2) to compare different samples to trace the possible source of contamination\n",
       "materials": [
         {
-          "link": "topics/metagenomics/tutorials/pathogen-detection-from-nanopore-foodborne-data/tutorial.thml",
+          "link": "topics/microbiome/tutorials/pathogen-detection-from-nanopore-foodborne-data/tutorial.thml",
           "type": "Tutorial"
         }
       ],
       "tags": [
-        "metagenomics"
+        "metagenomics",
+        "microbiome"
       ],
       "versions": [
         {
@@ -247,19 +254,20 @@
           ]
         }
       ],
-      "gtn_id": "metagenomics/pathogen-detection-from-nanopore-foodborne-data",
-      "title": "metagenomics/pathogen-detection-from-nanopore-foodborne-data/tutorial",
+      "gtn_id": "microbiome/pathogen-detection-from-nanopore-foodborne-data",
+      "title": "Pathogen detection from (direct Nanopore) sequencing data using Galaxy - Foodborne Edition",
       "captioned": true
     },
-    "metagenomics/beer-data-analysis/tutorial": {
+    "microbiome/beer-data-analysis/tutorial": {
       "description": null,
       "tags": [
-        "metagenomics"
+        "metagenomics",
+        "microbiome"
       ],
       "type": "Tutorial",
       "materials": [
         {
-          "link": "topics/metagenomics/tutorials/beer-data-analysis/tutorial.html",
+          "link": "topics/microbiome/tutorials/beer-data-analysis/tutorial.html",
           "type": "Tutorial"
         }
       ],
@@ -277,19 +285,20 @@
           "length": "1H5M"
         }
       ],
-      "gtn_id": "metagenomics/beer-data-analysis",
-      "title": "metagenomics/beer-data-analysis/tutorial",
+      "gtn_id": "microbiome/beer-data-analysis",
+      "title": "Identification of the micro-organisms in a beer using Nanopore sequencing",
       "captioned": true
     },
-    "metagenomics/metagenomics-assembly/tutorial": {
+    "microbiome/metagenomics-assembly/tutorial": {
       "description": "In this tutorial, we will learn how to run metagenomic assembly tool and evaluate the quality of the generated assemblies.\nTo do that, we will use data from the study: Temporal shotgun metagenomic dissection of the coffee fermentation ecosystem.\nFor an in-depth analysis of the structure and functions of the coffee microbiome, a temporal shotgun metagenomic study\n(six time points) was performed. The six samples have been sequenced with Illumina MiSeq utilizing whole genome sequencing.\n",
       "tags": [
         "metagenomics",
-        "assembly"
+        "assembly",
+        "microbiome"
       ],
       "materials": [
         {
-          "link": "topics/metagenomics/tutorials/metagenomics-assembly/tutorial.html",
+          "link": "topics/microbiome/tutorials/metagenomics-assembly/tutorial.html",
           "type": "tutorial"
         }
       ],
@@ -308,8 +317,8 @@
           ]
         }
       ],
-      "gtn_id": "metagenomics/metagenomics-assembly",
-      "title": "metagenomics/metagenomics-assembly/tutorial",
+      "gtn_id": "microbiome/metagenomics-assembly",
+      "title": "Assembly of metagenomic sequencing data",
       "captioned": true
     }
   }
