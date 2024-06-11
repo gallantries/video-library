@@ -66,10 +66,10 @@
       "title": "Friday: Microbiome",
       "trainings": [
         {
-          "session": "metagenomics/mothur-miseq-sop-short"
+          "session": "microbiome/mothur-miseq-sop-short"
         },
         {
-          "session": "metagenomics/nanopore"
+          "session": "microbiome/nanopore"
         }
       ]
     }

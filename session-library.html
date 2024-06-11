@@ -8839,6 +8839,2728 @@ transcriptomics to aid in the discovery and identification of peptides
   
 
   
+  <h3 style="text-transform:capitalize;" id="metagenomics">Metagenomics</h3>
+  
+  
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+<div class="accordion-item">
+  
+  <div class="accordion-header" id="headingmetagenomics0">
+   <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapsemetagenomics0" aria-expanded="false" aria-controls="collapsemetagenomics0">
+        16S taxonomic profiling
+        
+   </button>
+  </div>
+
+  <div id="collapsemetagenomics0" class="accordion-collapse collapse " aria-labelledby="headingmetagenomics0" data-bs-parent="#accordionmetagenomics">
+
+    <div class="accordion-body">
+
+      <!-- Video -->
+      
+        <p>To determine the composition of a microbiome sample, sequencing of the 16S rRNA gene
+is often used. This allows us to identify the bacterial species present in our sample.
+This lecture and practical session introduces you to 16S analysis in Galaxy using the
+mothur tool suite.
+</p>
+        
+          
+          
+          
+          
+          <!-- session: {"title"=>"16S taxonomic profiling", "description"=>"To determine the composition of a microbiome sample, sequencing of the 16S rRNA gene\nis often used. This allows us to identify the bacterial species present in our sample.\nThis lecture and practical session introduces you to 16S analysis in Galaxy using the\nmothur tool suite.\n", "videos"=>["microbiome/introduction/slides", "microbiome/mothur-miseq-sop-short/tutorial"]}<br><br> video: {"captions"=>["shiltemann"], "date"=>"2021-02-15", "galaxy_version"=>"21.01", "length"=>"15M", "link"=>"9OY1mklWuK0", "speakers"=>["shiltemann"], "name"=>"Introduction to Microbiome Analysis"} -->
+
+
+
+
+
+
+
+<!-- determine the next archived version of tutorial -->
+
+
+
+
+<div class="flex-row">
+ <div class="col-md-8">
+  <h3 class="session-section">Introduction to Microbiome Analysis (Lecture)  </h3>
+  <div style="position:relative;padding-top:56.25%;">
+   <iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" data-src="https://www.youtube.com/embed/9OY1mklWuK0" class="lazyload" loading="lazy" frameborder="0" title="YouTube Embedded Video of the Tutorial" aria-label="YouTube Embedded Video of the Tutorial" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="">
+   </iframe>
+  </div>
+  <div style="margin-top:1em;" class="video-metadata">
+      <table>
+          
+          <tr>
+              <td><strong>Description:</strong></td>
+              <td><p>This lecture briefly introduces 16S sequencing, a popular technique used for taxonomic profiling of microbial communities.</p>
+</td>
+          </tr>
+          
+          <tr>
+              <td><strong>Length:</strong></td>
+              <td>15 minutes</td>
+          </tr>
+          
+
+   
+   
+          <tr>
+              <td><strong>Captions:</strong></td>
+              <td> <a href="/video-library/contributors/shiltemann/">Saskia Hiltemann</a></td>
+          </tr>
+   
+   
+          <tr>
+              <td><strong>Created:</strong></td>
+              <td>15 February 2021</td>
+          </tr>
+          
+          
+          
+          <tr>
+              <td><strong>Materials:</strong></td>
+              <td>
+                <ul class="plain-text-list">
+                    
+                    <li>
+                        
+                            <img style="height: 1em" src="/video-library/assets/fa/slides.svg" alt="assets/fa/slides.svg" aria-hidden="true" />
+                        
+
+                        
+                        
+				Slides:
+                
+				<a href="https://training.galaxyproject.org/archive/2021-02-01/topics/microbiome/slides/introduction.html?utm_source=schedule&amp;utm_medium=click&amp;utm_campaign=video-library">Version in Video</a>
+                
+				<!-- We allow overriding specific materials to their archival versions, hiding the "current" link. -->
+				
+				|
+				<a href="https://training.galaxyproject.org/topics/microbiome/slides/introduction.html?utm_source=schedule&amp;utm_medium=click&amp;utm_campaign=video-library">Latest Version</a>
+				
+
+				
+                        
+                    </li>
+                
+                </ul>
+              </td>
+          </tr>
+          
+          <!-- this is for the embedded versions where they'll use their own1 support forum -->
+                    <tr>
+              <td><strong>Support:</strong></td>
+              <td>
+              <ul>
+                
+                
+                <li>Slack: <a href="https://gtnsmrgsbord.slack.com/archives/microbiome_introduction">#microbiome_introduction</a> <ul><li><a href="http://gxy.io/gtn-slack">Slack Invite</a></li></ul></li>
+		
+                <li><a href="https://gitter.im/Galaxy-Training-Network/Lobby">Gitter</a></li>
+                <li><a href="https://help.galaxyproject.org">Galaxy Help Forum</a></li>
+		
+              </ul>
+              </td>
+          </tr>
+          
+          
+          
+          <tr>
+              <td><strong>Learning Objectives:</strong></td>
+              <td>
+                  <ul>
+                      
+                  </ul>
+              </td>
+          </tr>
+          
+          <!--
+          
+          
+          -->
+      </table>
+
+  </div>
+  
+  Go to the <a href="/video-library/videos/microbiome/introduction/slides">video page</a> to see all versions.
+  
+ </div>
+ <!-- speaker(s) -->
+ 
+ 
+
+ <div class="col-md-3">
+  <center><h3 class="session-section">Speaker</h3></center>
+  
+
+
+
+
+
+
+
+<div class="hall-of-fame">
+    
+    
+    
+		<div class="hall-of-fame-hero" id="shiltemann">
+			
+			<a href="/video-library/contributors/shiltemann/">
+			
+            
+			<img src="https://avatars.githubusercontent.com/shiltemann" alt="" />
+            
+			<div class="name">
+				<b>Saskia Hiltemann</b>
+			</div>
+			
+			</a>
+			
+			<div class="affil">
+				
+				<a href="https://erasmusmc.nl">
+					Erasmus Medical Center
+				</a> &amp; 
+				
+				<a href="https://gallantries.github.io">
+					The Gallantries Project
+				</a>
+				
+			</div>
+		</div>
+	
+    
+</div>
+
+ </div>
+
+
+</div><!-- end video session -->
+
+
+
+        
+          
+          
+          
+          
+          <!-- session: {"title"=>"16S taxonomic profiling", "description"=>"To determine the composition of a microbiome sample, sequencing of the 16S rRNA gene\nis often used. This allows us to identify the bacterial species present in our sample.\nThis lecture and practical session introduces you to 16S analysis in Galaxy using the\nmothur tool suite.\n", "videos"=>["microbiome/introduction/slides", "microbiome/mothur-miseq-sop-short/tutorial"]}<br><br> video: {"link"=>"CGSBeCW3rpA", "speakers"=>["shiltemann"], "captions"=>["shiltemann"], "date"=>"2023-05-19", "length"=>"1H37M", "galaxy_version"=>"23.01", "name"=>"16S Microbial Analysis with mothur (short)"} -->
+
+
+
+
+
+
+
+<!-- determine the next archived version of tutorial -->
+
+
+
+
+<div class="flex-row">
+ <div class="col-md-8">
+  <h3 class="session-section">16S Microbial Analysis with mothur (short) (Tutorial)  </h3>
+  <div style="position:relative;padding-top:56.25%;">
+   <iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" data-src="https://www.youtube.com/embed/CGSBeCW3rpA" class="lazyload" loading="lazy" frameborder="0" title="YouTube Embedded Video of the Tutorial" aria-label="YouTube Embedded Video of the Tutorial" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="">
+   </iframe>
+  </div>
+  <div style="margin-top:1em;" class="video-metadata">
+      <table>
+          
+          <tr>
+              <td><strong>Description:</strong></td>
+              <td><p>This lecture briefly introduces 16S sequencing, a popular technique used for taxonomic profiling of microbial communities.</p>
+</td>
+          </tr>
+          
+          <tr>
+              <td><strong>Length:</strong></td>
+              <td>1 hour 37 minutes</td>
+          </tr>
+          
+
+   
+   
+          <tr>
+              <td><strong>Captions:</strong></td>
+              <td> <a href="/video-library/contributors/shiltemann/">Saskia Hiltemann</a></td>
+          </tr>
+   
+   
+          <tr>
+              <td><strong>Created:</strong></td>
+              <td>19 May 2023</td>
+          </tr>
+          
+          
+          
+          <tr>
+              <td><strong>Materials:</strong></td>
+              <td>
+                <ul class="plain-text-list">
+                    
+                    <li>
+                        
+                            <img style="height: 1em" src="/video-library/assets/fa/tutorial.svg" alt="assets/fa/tutorial.svg" aria-hidden="true" />
+                            
+                        
+
+                        
+                        
+				Tutorial:
+                
+                	<a href="https://training.galaxyproject.org/archive/smorgasbord2023/topics/microbiome/tutorials/mothur-miseq-sop-short/tutorial.html?utm_source=schedule&amp;utm_medium=click&amp;utm_campaign=video-library">Version in Video</a>
+
+                
+				<!-- We allow overriding specific materials to their archival versions, hiding the "current" link. -->
+				
+				|
+				<a href="https://training.galaxyproject.org/topics/microbiome/tutorials/mothur-miseq-sop-short/tutorial.html?utm_source=schedule&amp;utm_medium=click&amp;utm_campaign=video-library">Latest Version</a>
+				
+
+				
+				<br />
+				<img style="height: 1em" src="/video-library/assets/fa/circle-question-regular.svg" alt="assets/fa/circle-question-regular.svg" aria-hidden="true" />
+				
+				<a href="https://training.galaxyproject.org/topics/microbiome/tutorials/mothur-miseq-sop-short/faqs/?utm_source=schedule&amp;utm_medium=click&amp;utm_campaign=video-library">FAQs</a>
+				
+                        
+                    </li>
+                
+                </ul>
+              </td>
+          </tr>
+          
+          <!-- this is for the embedded versions where they'll use their own1 support forum -->
+                    <tr>
+              <td><strong>Support:</strong></td>
+              <td>
+              <ul>
+                
+                
+                <li>Slack: <a href="https://gtnsmrgsbord.slack.com/archives/microbiome_mothur-miseq-sop-short">#microbiome_mothur-miseq-sop-short</a> <ul><li><a href="http://gxy.io/gtn-slack">Slack Invite</a></li></ul></li>
+		
+                <li><a href="https://gitter.im/Galaxy-Training-Network/Lobby">Gitter</a></li>
+                <li><a href="https://help.galaxyproject.org">Galaxy Help Forum</a></li>
+		
+              </ul>
+              </td>
+          </tr>
+          
+          
+          <tr>
+              <td><strong>Supported Servers:</strong></td>
+      <td>
+                
+                
+
+                
+                  Known Working
+                  <ul>
+                      
+                      <li><a href="https://usegalaxy.eu?utm_source=video&amp;utm_medium=click&amp;utm_campaign=video-library">UseGalaxy.eu</a>
+	⭐️
+	
+	
+		      </li>
+                      
+                      <li><a href="https://usegalaxy.no/?utm_source=video&amp;utm_medium=click&amp;utm_campaign=video-library">UseGalaxy.no</a>
+	
+	
+	
+		      </li>
+                      
+                      <li><a href="https://usegalaxy.org?utm_source=video&amp;utm_medium=click&amp;utm_campaign=video-library">UseGalaxy.org (Main)</a>
+	
+	⭐️
+	
+		      </li>
+                      
+                      <li><a href="https://usegalaxy.org.au?utm_source=video&amp;utm_medium=click&amp;utm_campaign=video-library">UseGalaxy.org.au</a>
+	
+	
+	⭐️
+		      </li>
+                      
+                  </ul>
+                  
+
+                
+                  Possibly Working
+                  <ul>
+                      
+                      <li><a href="https://usegalaxy.be/?utm_source=video&amp;utm_medium=click&amp;utm_campaign=video-library">UseGalaxy.be</a> </li>
+
+                      
+                      <li><a href="https://usegalaxy.fr/?utm_source=video&amp;utm_medium=click&amp;utm_campaign=video-library">UseGalaxy.fr</a> </li>
+
+                      
+                  </ul>
+                  
+              </td>
+          </tr>
+          
+          
+          <tr>
+              <td><strong>Learning Objectives:</strong></td>
+              <td>
+                  <ul>
+                      
+                      <li>Analyze of 16S rRNA sequencing data using the mothur toolsuite in Galaxy</li>
+                      
+                      <li>Using a mock community to assess the error rate of your sequencing experiment</li>
+                      
+                      <li>Visualize sample diversity using Krona and Phinch</li>
+                      
+                  </ul>
+              </td>
+          </tr>
+          
+          <!--
+          
+          
+          <tr>
+              <td><strong>Finished this tutorial as part of GTN Tapas?</strong></td>
+              <td>
+              <ol>
+                
+                
+                <li><a href="https://training.galaxyproject.org/training-material/faqs/galaxy/histories_sharing.html?utm_source=schedule&utm_medium=click&utm_campaign=video-library">Share your history</a> (if applicable)</li>
+                <li>Copy the URL</li>
+                <li>Run the command <code>/completed</code> with the URL to your shared history, in <a href="https://gtnsmrgsbord.slack.com/archives/microbiome_mothur-miseq-sop-short">#microbiome_mothur-miseq-sop-short</a></li>
+              </ol>
+              </td>
+          </tr>
+          
+          -->
+      </table>
+
+  </div>
+  
+  Go to the <a href="/video-library/videos/microbiome/mothur-miseq-sop-short/tutorial">video page</a> to see all versions.
+  
+ </div>
+ <!-- speaker(s) -->
+ 
+ 
+
+ <div class="col-md-3">
+  <center><h3 class="session-section">Speaker</h3></center>
+  
+
+
+
+
+
+
+
+<div class="hall-of-fame">
+    
+    
+    
+		<div class="hall-of-fame-hero" id="shiltemann">
+			
+			<a href="/video-library/contributors/shiltemann/">
+			
+            
+			<img src="https://avatars.githubusercontent.com/shiltemann" alt="" />
+            
+			<div class="name">
+				<b>Saskia Hiltemann</b>
+			</div>
+			
+			</a>
+			
+			<div class="affil">
+				
+				<a href="https://erasmusmc.nl">
+					Erasmus Medical Center
+				</a> &amp; 
+				
+				<a href="https://gallantries.github.io">
+					The Gallantries Project
+				</a>
+				
+			</div>
+		</div>
+	
+    
+</div>
+
+ </div>
+
+
+</div><!-- end video session -->
+
+
+
+        
+        Go to <a href="/video-library/sessions/microbiome/mothur-miseq-sop-short/">session page</a>.
+      
+
+
+      <!-- Instructors -->
+      
+
+      <!-- Supporting Servers -->
+
+      <!-- Resources -->
+
+    </div><!-- end accordion body -->
+  </div><!-- end collapse -->
+</div><!-- end accordion item (training session) -->
+
+
+
+  
+  
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+<div class="accordion-item">
+  
+  <div class="accordion-header" id="headingmetagenomics1">
+   <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapsemetagenomics1" aria-expanded="false" aria-controls="collapsemetagenomics1">
+        Microbiome Analysis using Nanopore Sequencing
+        
+   </button>
+  </div>
+
+  <div id="collapsemetagenomics1" class="accordion-collapse collapse " aria-labelledby="headingmetagenomics1" data-bs-parent="#accordionmetagenomics">
+
+    <div class="accordion-body">
+
+      <!-- Video -->
+      
+        <p>In this 3-part module, you will learn about Nanopore long-read sequencing for the
+detection of antimicrobial resistance (AMR). There is a short video showing you the
+wetlab steps involved in using the MinION sequencer. A talk about the clinical applications,
+and finally a practical tutorial walking you through an AMR analysis in Galaxy.
+</p>
+        
+          
+          
+          
+          
+          <!-- session: {"title"=>"Microbiome Analysis using Nanopore Sequencing", "description"=>"In this 3-part module, you will learn about Nanopore long-read sequencing for the\ndetection of antimicrobial resistance (AMR). There is a short video showing you the\nwetlab steps involved in using the MinION sequencer. A talk about the clinical applications,\nand finally a practical tutorial walking you through an AMR analysis in Galaxy.\n", "videos"=>["wetlab/miseq/demo", "microbiome/clinical-applications", "microbiome/plasmid-metagenomics-nanopore/tutorial"]}<br><br> video: {"captions"=>["shiltemann"], "date"=>"2021-02-15", "length"=>"20M", "link"=>"bZfEyd87xCE", "speakers"=>["miaomiaozhou88"], "name"=>"wetlab/miseq"} -->
+
+
+
+
+
+
+
+<!-- determine the next archived version of tutorial -->
+
+
+
+
+<div class="flex-row">
+ <div class="col-md-8">
+  <h3 class="session-section">MinION Wetlab demo (Demo)  </h3>
+  <div style="position:relative;padding-top:56.25%;">
+   <iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" data-src="https://www.youtube.com/embed/bZfEyd87xCE" class="lazyload" loading="lazy" frameborder="0" title="YouTube Embedded Video of the Tutorial" aria-label="YouTube Embedded Video of the Tutorial" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="">
+   </iframe>
+  </div>
+  <div style="margin-top:1em;" class="video-metadata">
+      <table>
+          
+          <tr>
+              <td><strong>Description:</strong></td>
+              <td><p>This video will show you the full process of sequencing a bacterial genome using the Oxford Nanopore MinION sequencer.</p>
+</td>
+          </tr>
+          
+          <tr>
+              <td><strong>Length:</strong></td>
+              <td>20 minutes</td>
+          </tr>
+          
+
+   
+   
+          <tr>
+              <td><strong>Captions:</strong></td>
+              <td> <a href="/video-library/contributors/shiltemann/">Saskia Hiltemann</a></td>
+          </tr>
+   
+   
+          <tr>
+              <td><strong>Created:</strong></td>
+              <td>15 February 2021</td>
+          </tr>
+          
+          
+          
+          <!-- this is for the embedded versions where they'll use their own1 support forum -->
+                    <tr>
+              <td><strong>Support:</strong></td>
+              <td>
+              <ul>
+                
+                
+                <li>Slack: <a href="https://gtnsmrgsbord.slack.com/archives/wetlab_miseq">#wetlab_miseq</a> <ul><li><a href="http://gxy.io/gtn-slack">Slack Invite</a></li></ul></li>
+		
+                <li><a href="https://gitter.im/Galaxy-Training-Network/Lobby">Gitter</a></li>
+                <li><a href="https://help.galaxyproject.org">Galaxy Help Forum</a></li>
+		
+              </ul>
+              </td>
+          </tr>
+          
+          
+          
+          <!--
+          
+          
+          -->
+      </table>
+
+  </div>
+  
+  Go to the <a href="/video-library/videos/wetlab/miseq/demo">video page</a> to see all versions.
+  
+ </div>
+ <!-- speaker(s) -->
+ 
+ 
+
+ <div class="col-md-3">
+  <center><h3 class="session-section">Speaker</h3></center>
+  
+
+
+
+
+
+
+
+<div class="hall-of-fame">
+    
+    
+    
+		<div class="hall-of-fame-hero" id="miaomiaozhou88">
+			
+			<a href="/video-library/contributors/miaomiaozhou88/">
+			
+            
+			<img src="https://avatars.githubusercontent.com/miaomiaozhou88" alt="" />
+            
+			<div class="name">
+				<b>Miaomiao Zhou</b>
+			</div>
+			
+			</a>
+			
+			<div class="affil">
+				
+				<a href="https://avans.nl">
+					Avans Hogeschool
+				</a>
+				
+			</div>
+		</div>
+	
+    
+</div>
+
+ </div>
+
+
+</div><!-- end video session -->
+
+
+
+        
+          
+          
+          
+          
+          <!-- session: {"title"=>"Microbiome Analysis using Nanopore Sequencing", "description"=>"In this 3-part module, you will learn about Nanopore long-read sequencing for the\ndetection of antimicrobial resistance (AMR). There is a short video showing you the\nwetlab steps involved in using the MinION sequencer. A talk about the clinical applications,\nand finally a practical tutorial walking you through an AMR analysis in Galaxy.\n", "videos"=>["wetlab/miseq/demo", "microbiome/clinical-applications", "microbiome/plasmid-metagenomics-nanopore/tutorial"]}<br><br> video: {"captions"=>["hexylena"], "date"=>"2021-02-15", "galaxy_version"=>"21.01", "length"=>"30M", "link"=>"icXMqMut6PY", "speakers"=>["aheikema"], "name"=>"microbiome/clinical-applications"} -->
+
+
+
+
+
+
+
+<!-- determine the next archived version of tutorial -->
+
+
+
+
+<div class="flex-row">
+ <div class="col-md-8">
+  <h3 class="session-section">Nanopore Whole Bacterial Genome Sequencing in a Clinical Setting (Lecture)  </h3>
+  <div style="position:relative;padding-top:56.25%;">
+   <iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" data-src="https://www.youtube.com/embed/icXMqMut6PY" class="lazyload" loading="lazy" frameborder="0" title="YouTube Embedded Video of the Tutorial" aria-label="YouTube Embedded Video of the Tutorial" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="">
+   </iframe>
+  </div>
+  <div style="margin-top:1em;" class="video-metadata">
+      <table>
+          
+          <tr>
+              <td><strong>Description:</strong></td>
+              <td><p>Nanopore Sequencing has many applications in a clinical setting. In this lecture, Astrid Heikema discusses how her group at the Erasmus Medical Center uses Nanopore for sequencing of bacterial Genomes.</p>
+</td>
+          </tr>
+          
+          <tr>
+              <td><strong>Length:</strong></td>
+              <td>30 minutes</td>
+          </tr>
+          
+
+   
+   
+          <tr>
+              <td><strong>Captions:</strong></td>
+              <td> <a href="/video-library/contributors/hexylena/">Helena Rasche</a></td>
+          </tr>
+   
+   
+          <tr>
+              <td><strong>Created:</strong></td>
+              <td>15 February 2021</td>
+          </tr>
+          
+          
+          
+          <!-- this is for the embedded versions where they'll use their own1 support forum -->
+                    <tr>
+              <td><strong>Support:</strong></td>
+              <td>
+              <ul>
+                
+                
+                <li>Slack: <a href="https://gtnsmrgsbord.slack.com/archives/microbiome_clinical-applications">#microbiome_clinical-applications</a> <ul><li><a href="http://gxy.io/gtn-slack">Slack Invite</a></li></ul></li>
+		
+                <li><a href="https://gitter.im/Galaxy-Training-Network/Lobby">Gitter</a></li>
+                <li><a href="https://help.galaxyproject.org">Galaxy Help Forum</a></li>
+		
+              </ul>
+              </td>
+          </tr>
+          
+          
+          
+          <!--
+          
+          
+          -->
+      </table>
+
+  </div>
+  
+  Go to the <a href="/video-library/videos/microbiome/clinical-applications">video page</a> to see all versions.
+  
+ </div>
+ <!-- speaker(s) -->
+ 
+ 
+
+ <div class="col-md-3">
+  <center><h3 class="session-section">Speaker</h3></center>
+  
+
+
+
+
+
+
+
+<div class="hall-of-fame">
+    
+    
+    
+		<div class="hall-of-fame-hero" id="aheikema">
+			
+			<a href="/video-library/contributors/aheikema/">
+			
+            
+            <img src="/video-library/assets/images/instructors/astrid.jpeg" alt="" />
+            
+			<div class="name">
+				<b>Astrid Heikema</b>
+			</div>
+			
+			</a>
+			
+			<div class="affil">
+				
+				<a href="https://erasmusmc.nl">
+					Erasmus Medical Center
+				</a>
+				
+			</div>
+		</div>
+	
+    
+</div>
+
+ </div>
+
+
+</div><!-- end video session -->
+
+
+
+        
+          
+          
+          
+          
+          <!-- session: {"title"=>"Microbiome Analysis using Nanopore Sequencing", "description"=>"In this 3-part module, you will learn about Nanopore long-read sequencing for the\ndetection of antimicrobial resistance (AMR). There is a short video showing you the\nwetlab steps involved in using the MinION sequencer. A talk about the clinical applications,\nand finally a practical tutorial walking you through an AMR analysis in Galaxy.\n", "videos"=>["wetlab/miseq/demo", "microbiome/clinical-applications", "microbiome/plasmid-metagenomics-nanopore/tutorial"]}<br><br> video: {"captions"=>["bebatut"], "date"=>"2021-02-15", "galaxy_version"=>"21.01", "length"=>"45M", "link"=>"ECIl8ZU1Wko", "speakers"=>["willemdek11"], "name"=>"Antibiotic resistance detection"} -->
+
+
+
+
+
+
+
+<!-- determine the next archived version of tutorial -->
+
+
+
+
+<div class="flex-row">
+ <div class="col-md-8">
+  <h3 class="session-section">Antibiotic resistance detection (Tutorial)  </h3>
+  <div style="position:relative;padding-top:56.25%;">
+   <iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" data-src="https://www.youtube.com/embed/ECIl8ZU1Wko" class="lazyload" loading="lazy" frameborder="0" title="YouTube Embedded Video of the Tutorial" aria-label="YouTube Embedded Video of the Tutorial" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="">
+   </iframe>
+  </div>
+  <div style="margin-top:1em;" class="video-metadata">
+      <table>
+          
+          <tr>
+              <td><strong>Description:</strong></td>
+              <td><p>This tutorial will guide you through the process of assembling your Nanopore-sequenced bacterial samples and determining the presence of antibiotic resistance genes.</p>
+</td>
+          </tr>
+          
+          <tr>
+              <td><strong>Length:</strong></td>
+              <td>45 minutes</td>
+          </tr>
+          
+
+   
+   
+          <tr>
+              <td><strong>Captions:</strong></td>
+              <td> <a href="/video-library/contributors/bebatut/">Bérénice Batut</a></td>
+          </tr>
+   
+   
+          <tr>
+              <td><strong>Created:</strong></td>
+              <td>15 February 2021</td>
+          </tr>
+          
+          
+          
+          <tr>
+              <td><strong>Materials:</strong></td>
+              <td>
+                <ul class="plain-text-list">
+                    
+                    <li>
+                        
+                            <img style="height: 1em" src="/video-library/assets/fa/tutorial.svg" alt="assets/fa/tutorial.svg" aria-hidden="true" />
+                            
+                        
+
+                        
+                        
+				Tutorial:
+                
+				<a href="https://training.galaxyproject.org/archive/2021-02-01/topics/microbiome/tutorials/plasmid-metagenomics-nanopore/tutorial.html?utm_source=schedule&amp;utm_medium=click&amp;utm_campaign=video-library">Version in Video</a>
+                
+				<!-- We allow overriding specific materials to their archival versions, hiding the "current" link. -->
+				
+				|
+				<a href="https://training.galaxyproject.org/topics/microbiome/tutorials/plasmid-metagenomics-nanopore/tutorial.html?utm_source=schedule&amp;utm_medium=click&amp;utm_campaign=video-library">Latest Version</a>
+				
+
+				
+				<br />
+				<img style="height: 1em" src="/video-library/assets/fa/circle-question-regular.svg" alt="assets/fa/circle-question-regular.svg" aria-hidden="true" />
+				
+				<a href="https://training.galaxyproject.org/topics/microbiome/tutorials/plasmid-metagenomics-nanopore/faqs/?utm_source=schedule&amp;utm_medium=click&amp;utm_campaign=video-library">FAQs</a>
+				
+                        
+                    </li>
+                
+                    <li>
+                        
+
+                        
+                        
+				Related Tutorial:
+                
+				<a href="https://training.galaxyproject.org/archive/2021-02-01/topics/microbiome/tutorials/nanopore-16S-metagenomics/tutorial.html?utm_source=schedule&amp;utm_medium=click&amp;utm_campaign=video-library">Version in Video</a>
+                
+				<!-- We allow overriding specific materials to their archival versions, hiding the "current" link. -->
+				
+				|
+				<a href="https://training.galaxyproject.org/topics/microbiome/tutorials/nanopore-16S-metagenomics/tutorial.html?utm_source=schedule&amp;utm_medium=click&amp;utm_campaign=video-library">Latest Version</a>
+				
+
+				
+                        
+                    </li>
+                
+                </ul>
+              </td>
+          </tr>
+          
+          <!-- this is for the embedded versions where they'll use their own1 support forum -->
+                    <tr>
+              <td><strong>Support:</strong></td>
+              <td>
+              <ul>
+                
+                
+                <li>Slack: <a href="https://gtnsmrgsbord.slack.com/archives/microbiome_plasmid-metagenomics-nanopore">#microbiome_plasmid-metagenomics-nanopore</a> <ul><li><a href="http://gxy.io/gtn-slack">Slack Invite</a></li></ul></li>
+		
+                <li><a href="https://gitter.im/Galaxy-Training-Network/Lobby">Gitter</a></li>
+                <li><a href="https://help.galaxyproject.org">Galaxy Help Forum</a></li>
+		
+              </ul>
+              </td>
+          </tr>
+          
+          
+          <tr>
+              <td><strong>Supported Servers:</strong></td>
+      <td>
+                
+                
+
+                
+                  Known Working
+                  <ul>
+                      
+                      <li><a href="https://usegalaxy.eu?utm_source=video&amp;utm_medium=click&amp;utm_campaign=video-library">UseGalaxy.eu</a>
+	⭐️
+	
+	
+		      </li>
+                      
+                  </ul>
+                  
+
+                
+                  Possibly Working
+                  <ul>
+                      
+                      <li><a href="https://usegalaxy.be/?utm_source=video&amp;utm_medium=click&amp;utm_campaign=video-library">UseGalaxy.be</a> </li>
+
+                      
+                      <li><a href="https://usegalaxy.no/?utm_source=video&amp;utm_medium=click&amp;utm_campaign=video-library">UseGalaxy.no</a> </li>
+
+                      
+                      <li><a href="https://usegalaxy.org?utm_source=video&amp;utm_medium=click&amp;utm_campaign=video-library">UseGalaxy.org (Main)</a> </li>
+
+                      
+                      <li><a href="https://usegalaxy.org.au?utm_source=video&amp;utm_medium=click&amp;utm_campaign=video-library">UseGalaxy.org.au</a> </li>
+
+                      
+                  </ul>
+                  
+              </td>
+          </tr>
+          
+          
+          <tr>
+              <td><strong>Learning Objectives:</strong></td>
+              <td>
+                  <ul>
+                      
+                      <li>Perform Quality control on your reads</li>
+                      
+                      <li>Assemble a genome with Minimap2/Miniasm/Racon</li>
+                      
+                      <li>Determine the structure of the genome(s)</li>
+                      
+                      <li>Scan for antimicrobial resistance genes with Staramr</li>
+                      
+                  </ul>
+              </td>
+          </tr>
+          
+          <!--
+          
+          
+          <tr>
+              <td><strong>Finished this tutorial as part of GTN Tapas?</strong></td>
+              <td>
+              <ol>
+                
+                
+                <li><a href="https://training.galaxyproject.org/training-material/faqs/galaxy/histories_sharing.html?utm_source=schedule&utm_medium=click&utm_campaign=video-library">Share your history</a> (if applicable)</li>
+                <li>Copy the URL</li>
+                <li>Run the command <code>/completed</code> with the URL to your shared history, in <a href="https://gtnsmrgsbord.slack.com/archives/microbiome_plasmid-metagenomics-nanopore">#microbiome_plasmid-metagenomics-nanopore</a></li>
+              </ol>
+              </td>
+          </tr>
+          
+          -->
+      </table>
+
+  </div>
+  
+  Go to the <a href="/video-library/videos/microbiome/plasmid-metagenomics-nanopore/tutorial">video page</a> to see all versions.
+  
+ </div>
+ <!-- speaker(s) -->
+ 
+ 
+
+ <div class="col-md-3">
+  <center><h3 class="session-section">Speaker</h3></center>
+  
+
+
+
+
+
+
+
+<div class="hall-of-fame">
+    
+    
+    
+		<div class="hall-of-fame-hero" id="willemdek11">
+			
+			<a href="/video-library/contributors/willemdek11/">
+			
+            
+			<img src="https://avatars.githubusercontent.com/willemdek11" alt="" />
+            
+			<div class="name">
+				<b>Willem de Koning</b>
+			</div>
+			
+			</a>
+			
+			<div class="affil">
+				
+				<a href="https://erasmusmc.nl">
+					Erasmus Medical Center
+				</a>
+				
+			</div>
+		</div>
+	
+    
+</div>
+
+ </div>
+
+
+</div><!-- end video session -->
+
+
+
+        
+        Go to <a href="/video-library/sessions/microbiome/nanopore/">session page</a>.
+      
+
+
+      <!-- Instructors -->
+      
+
+      <!-- Supporting Servers -->
+
+      <!-- Resources -->
+
+    </div><!-- end accordion body -->
+  </div><!-- end collapse -->
+</div><!-- end accordion item (training session) -->
+
+
+
+  
+
+  
+  <h3 style="text-transform:capitalize;" id="microbiome">Microbiome</h3>
+  
+  
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+<div class="accordion-item">
+  
+  <div class="accordion-header" id="headingmicrobiome0">
+   <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapsemicrobiome0" aria-expanded="false" aria-controls="collapsemicrobiome0">
+        16S taxonomic profiling
+        
+   </button>
+  </div>
+
+  <div id="collapsemicrobiome0" class="accordion-collapse collapse " aria-labelledby="headingmicrobiome0" data-bs-parent="#accordionmicrobiome">
+
+    <div class="accordion-body">
+
+      <!-- Video -->
+      
+        <p>To determine the composition of a microbiome sample, sequencing of the 16S rRNA gene
+is often used. This allows us to identify the bacterial species present in our sample.
+This lecture and practical session introduces you to 16S analysis in Galaxy using the
+mothur tool suite.
+</p>
+        
+          
+          
+          
+          
+          <!-- session: {"title"=>"16S taxonomic profiling", "description"=>"To determine the composition of a microbiome sample, sequencing of the 16S rRNA gene\nis often used. This allows us to identify the bacterial species present in our sample.\nThis lecture and practical session introduces you to 16S analysis in Galaxy using the\nmothur tool suite.\n", "videos"=>["microbiome/introduction/slides", "microbiome/mothur-miseq-sop-short/tutorial"]}<br><br> video: {"captions"=>["shiltemann"], "date"=>"2021-02-15", "galaxy_version"=>"21.01", "length"=>"15M", "link"=>"9OY1mklWuK0", "speakers"=>["shiltemann"], "name"=>"Introduction to Microbiome Analysis"} -->
+
+
+
+
+
+
+
+<!-- determine the next archived version of tutorial -->
+
+
+
+
+<div class="flex-row">
+ <div class="col-md-8">
+  <h3 class="session-section">Introduction to Microbiome Analysis (Lecture)  </h3>
+  <div style="position:relative;padding-top:56.25%;">
+   <iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" data-src="https://www.youtube.com/embed/9OY1mklWuK0" class="lazyload" loading="lazy" frameborder="0" title="YouTube Embedded Video of the Tutorial" aria-label="YouTube Embedded Video of the Tutorial" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="">
+   </iframe>
+  </div>
+  <div style="margin-top:1em;" class="video-metadata">
+      <table>
+          
+          <tr>
+              <td><strong>Description:</strong></td>
+              <td><p>This lecture briefly introduces 16S sequencing, a popular technique used for taxonomic profiling of microbial communities.</p>
+</td>
+          </tr>
+          
+          <tr>
+              <td><strong>Length:</strong></td>
+              <td>15 minutes</td>
+          </tr>
+          
+
+   
+   
+          <tr>
+              <td><strong>Captions:</strong></td>
+              <td> <a href="/video-library/contributors/shiltemann/">Saskia Hiltemann</a></td>
+          </tr>
+   
+   
+          <tr>
+              <td><strong>Created:</strong></td>
+              <td>15 February 2021</td>
+          </tr>
+          
+          
+          
+          <tr>
+              <td><strong>Materials:</strong></td>
+              <td>
+                <ul class="plain-text-list">
+                    
+                    <li>
+                        
+                            <img style="height: 1em" src="/video-library/assets/fa/slides.svg" alt="assets/fa/slides.svg" aria-hidden="true" />
+                        
+
+                        
+                        
+				Slides:
+                
+				<a href="https://training.galaxyproject.org/archive/2021-02-01/topics/microbiome/slides/introduction.html?utm_source=schedule&amp;utm_medium=click&amp;utm_campaign=video-library">Version in Video</a>
+                
+				<!-- We allow overriding specific materials to their archival versions, hiding the "current" link. -->
+				
+				|
+				<a href="https://training.galaxyproject.org/topics/microbiome/slides/introduction.html?utm_source=schedule&amp;utm_medium=click&amp;utm_campaign=video-library">Latest Version</a>
+				
+
+				
+                        
+                    </li>
+                
+                </ul>
+              </td>
+          </tr>
+          
+          <!-- this is for the embedded versions where they'll use their own1 support forum -->
+                    <tr>
+              <td><strong>Support:</strong></td>
+              <td>
+              <ul>
+                
+                
+                <li>Slack: <a href="https://gtnsmrgsbord.slack.com/archives/microbiome_introduction">#microbiome_introduction</a> <ul><li><a href="http://gxy.io/gtn-slack">Slack Invite</a></li></ul></li>
+		
+                <li><a href="https://gitter.im/Galaxy-Training-Network/Lobby">Gitter</a></li>
+                <li><a href="https://help.galaxyproject.org">Galaxy Help Forum</a></li>
+		
+              </ul>
+              </td>
+          </tr>
+          
+          
+          
+          <tr>
+              <td><strong>Learning Objectives:</strong></td>
+              <td>
+                  <ul>
+                      
+                  </ul>
+              </td>
+          </tr>
+          
+          <!--
+          
+          
+          -->
+      </table>
+
+  </div>
+  
+  Go to the <a href="/video-library/videos/microbiome/introduction/slides">video page</a> to see all versions.
+  
+ </div>
+ <!-- speaker(s) -->
+ 
+ 
+
+ <div class="col-md-3">
+  <center><h3 class="session-section">Speaker</h3></center>
+  
+
+
+
+
+
+
+
+<div class="hall-of-fame">
+    
+    
+    
+		<div class="hall-of-fame-hero" id="shiltemann">
+			
+			<a href="/video-library/contributors/shiltemann/">
+			
+            
+			<img src="https://avatars.githubusercontent.com/shiltemann" alt="" />
+            
+			<div class="name">
+				<b>Saskia Hiltemann</b>
+			</div>
+			
+			</a>
+			
+			<div class="affil">
+				
+				<a href="https://erasmusmc.nl">
+					Erasmus Medical Center
+				</a> &amp; 
+				
+				<a href="https://gallantries.github.io">
+					The Gallantries Project
+				</a>
+				
+			</div>
+		</div>
+	
+    
+</div>
+
+ </div>
+
+
+</div><!-- end video session -->
+
+
+
+        
+          
+          
+          
+          
+          <!-- session: {"title"=>"16S taxonomic profiling", "description"=>"To determine the composition of a microbiome sample, sequencing of the 16S rRNA gene\nis often used. This allows us to identify the bacterial species present in our sample.\nThis lecture and practical session introduces you to 16S analysis in Galaxy using the\nmothur tool suite.\n", "videos"=>["microbiome/introduction/slides", "microbiome/mothur-miseq-sop-short/tutorial"]}<br><br> video: {"link"=>"CGSBeCW3rpA", "speakers"=>["shiltemann"], "captions"=>["shiltemann"], "date"=>"2023-05-19", "length"=>"1H37M", "galaxy_version"=>"23.01", "name"=>"16S Microbial Analysis with mothur (short)"} -->
+
+
+
+
+
+
+
+<!-- determine the next archived version of tutorial -->
+
+
+
+
+<div class="flex-row">
+ <div class="col-md-8">
+  <h3 class="session-section">16S Microbial Analysis with mothur (short) (Tutorial)  </h3>
+  <div style="position:relative;padding-top:56.25%;">
+   <iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" data-src="https://www.youtube.com/embed/CGSBeCW3rpA" class="lazyload" loading="lazy" frameborder="0" title="YouTube Embedded Video of the Tutorial" aria-label="YouTube Embedded Video of the Tutorial" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="">
+   </iframe>
+  </div>
+  <div style="margin-top:1em;" class="video-metadata">
+      <table>
+          
+          <tr>
+              <td><strong>Description:</strong></td>
+              <td><p>This lecture briefly introduces 16S sequencing, a popular technique used for taxonomic profiling of microbial communities.</p>
+</td>
+          </tr>
+          
+          <tr>
+              <td><strong>Length:</strong></td>
+              <td>1 hour 37 minutes</td>
+          </tr>
+          
+
+   
+   
+          <tr>
+              <td><strong>Captions:</strong></td>
+              <td> <a href="/video-library/contributors/shiltemann/">Saskia Hiltemann</a></td>
+          </tr>
+   
+   
+          <tr>
+              <td><strong>Created:</strong></td>
+              <td>19 May 2023</td>
+          </tr>
+          
+          
+          
+          <tr>
+              <td><strong>Materials:</strong></td>
+              <td>
+                <ul class="plain-text-list">
+                    
+                    <li>
+                        
+                            <img style="height: 1em" src="/video-library/assets/fa/tutorial.svg" alt="assets/fa/tutorial.svg" aria-hidden="true" />
+                            
+                        
+
+                        
+                        
+				Tutorial:
+                
+                	<a href="https://training.galaxyproject.org/archive/smorgasbord2023/topics/microbiome/tutorials/mothur-miseq-sop-short/tutorial.html?utm_source=schedule&amp;utm_medium=click&amp;utm_campaign=video-library">Version in Video</a>
+
+                
+				<!-- We allow overriding specific materials to their archival versions, hiding the "current" link. -->
+				
+				|
+				<a href="https://training.galaxyproject.org/topics/microbiome/tutorials/mothur-miseq-sop-short/tutorial.html?utm_source=schedule&amp;utm_medium=click&amp;utm_campaign=video-library">Latest Version</a>
+				
+
+				
+				<br />
+				<img style="height: 1em" src="/video-library/assets/fa/circle-question-regular.svg" alt="assets/fa/circle-question-regular.svg" aria-hidden="true" />
+				
+				<a href="https://training.galaxyproject.org/topics/microbiome/tutorials/mothur-miseq-sop-short/faqs/?utm_source=schedule&amp;utm_medium=click&amp;utm_campaign=video-library">FAQs</a>
+				
+                        
+                    </li>
+                
+                </ul>
+              </td>
+          </tr>
+          
+          <!-- this is for the embedded versions where they'll use their own1 support forum -->
+                    <tr>
+              <td><strong>Support:</strong></td>
+              <td>
+              <ul>
+                
+                
+                <li>Slack: <a href="https://gtnsmrgsbord.slack.com/archives/microbiome_mothur-miseq-sop-short">#microbiome_mothur-miseq-sop-short</a> <ul><li><a href="http://gxy.io/gtn-slack">Slack Invite</a></li></ul></li>
+		
+                <li><a href="https://gitter.im/Galaxy-Training-Network/Lobby">Gitter</a></li>
+                <li><a href="https://help.galaxyproject.org">Galaxy Help Forum</a></li>
+		
+              </ul>
+              </td>
+          </tr>
+          
+          
+          <tr>
+              <td><strong>Supported Servers:</strong></td>
+      <td>
+                
+                
+
+                
+                  Known Working
+                  <ul>
+                      
+                      <li><a href="https://usegalaxy.eu?utm_source=video&amp;utm_medium=click&amp;utm_campaign=video-library">UseGalaxy.eu</a>
+	⭐️
+	
+	
+		      </li>
+                      
+                      <li><a href="https://usegalaxy.no/?utm_source=video&amp;utm_medium=click&amp;utm_campaign=video-library">UseGalaxy.no</a>
+	
+	
+	
+		      </li>
+                      
+                      <li><a href="https://usegalaxy.org?utm_source=video&amp;utm_medium=click&amp;utm_campaign=video-library">UseGalaxy.org (Main)</a>
+	
+	⭐️
+	
+		      </li>
+                      
+                      <li><a href="https://usegalaxy.org.au?utm_source=video&amp;utm_medium=click&amp;utm_campaign=video-library">UseGalaxy.org.au</a>
+	
+	
+	⭐️
+		      </li>
+                      
+                  </ul>
+                  
+
+                
+                  Possibly Working
+                  <ul>
+                      
+                      <li><a href="https://usegalaxy.be/?utm_source=video&amp;utm_medium=click&amp;utm_campaign=video-library">UseGalaxy.be</a> </li>
+
+                      
+                      <li><a href="https://usegalaxy.fr/?utm_source=video&amp;utm_medium=click&amp;utm_campaign=video-library">UseGalaxy.fr</a> </li>
+
+                      
+                  </ul>
+                  
+              </td>
+          </tr>
+          
+          
+          <tr>
+              <td><strong>Learning Objectives:</strong></td>
+              <td>
+                  <ul>
+                      
+                      <li>Analyze of 16S rRNA sequencing data using the mothur toolsuite in Galaxy</li>
+                      
+                      <li>Using a mock community to assess the error rate of your sequencing experiment</li>
+                      
+                      <li>Visualize sample diversity using Krona and Phinch</li>
+                      
+                  </ul>
+              </td>
+          </tr>
+          
+          <!--
+          
+          
+          <tr>
+              <td><strong>Finished this tutorial as part of GTN Tapas?</strong></td>
+              <td>
+              <ol>
+                
+                
+                <li><a href="https://training.galaxyproject.org/training-material/faqs/galaxy/histories_sharing.html?utm_source=schedule&utm_medium=click&utm_campaign=video-library">Share your history</a> (if applicable)</li>
+                <li>Copy the URL</li>
+                <li>Run the command <code>/completed</code> with the URL to your shared history, in <a href="https://gtnsmrgsbord.slack.com/archives/microbiome_mothur-miseq-sop-short">#microbiome_mothur-miseq-sop-short</a></li>
+              </ol>
+              </td>
+          </tr>
+          
+          -->
+      </table>
+
+  </div>
+  
+  Go to the <a href="/video-library/videos/microbiome/mothur-miseq-sop-short/tutorial">video page</a> to see all versions.
+  
+ </div>
+ <!-- speaker(s) -->
+ 
+ 
+
+ <div class="col-md-3">
+  <center><h3 class="session-section">Speaker</h3></center>
+  
+
+
+
+
+
+
+
+<div class="hall-of-fame">
+    
+    
+    
+		<div class="hall-of-fame-hero" id="shiltemann">
+			
+			<a href="/video-library/contributors/shiltemann/">
+			
+            
+			<img src="https://avatars.githubusercontent.com/shiltemann" alt="" />
+            
+			<div class="name">
+				<b>Saskia Hiltemann</b>
+			</div>
+			
+			</a>
+			
+			<div class="affil">
+				
+				<a href="https://erasmusmc.nl">
+					Erasmus Medical Center
+				</a> &amp; 
+				
+				<a href="https://gallantries.github.io">
+					The Gallantries Project
+				</a>
+				
+			</div>
+		</div>
+	
+    
+</div>
+
+ </div>
+
+
+</div><!-- end video session -->
+
+
+
+        
+        Go to <a href="/video-library/sessions/microbiome/mothur-miseq-sop-short/">session page</a>.
+      
+
+
+      <!-- Instructors -->
+      
+
+      <!-- Supporting Servers -->
+
+      <!-- Resources -->
+
+    </div><!-- end accordion body -->
+  </div><!-- end collapse -->
+</div><!-- end accordion item (training session) -->
+
+
+
+  
+  
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+<div class="accordion-item">
+  
+  <div class="accordion-header" id="headingmicrobiome1">
+   <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapsemicrobiome1" aria-expanded="false" aria-controls="collapsemicrobiome1">
+        Microbiome Analysis using Nanopore Sequencing
+        
+   </button>
+  </div>
+
+  <div id="collapsemicrobiome1" class="accordion-collapse collapse " aria-labelledby="headingmicrobiome1" data-bs-parent="#accordionmicrobiome">
+
+    <div class="accordion-body">
+
+      <!-- Video -->
+      
+        <p>In this 3-part module, you will learn about Nanopore long-read sequencing for the
+detection of antimicrobial resistance (AMR). There is a short video showing you the
+wetlab steps involved in using the MinION sequencer. A talk about the clinical applications,
+and finally a practical tutorial walking you through an AMR analysis in Galaxy.
+</p>
+        
+          
+          
+          
+          
+          <!-- session: {"title"=>"Microbiome Analysis using Nanopore Sequencing", "description"=>"In this 3-part module, you will learn about Nanopore long-read sequencing for the\ndetection of antimicrobial resistance (AMR). There is a short video showing you the\nwetlab steps involved in using the MinION sequencer. A talk about the clinical applications,\nand finally a practical tutorial walking you through an AMR analysis in Galaxy.\n", "videos"=>["wetlab/miseq/demo", "microbiome/clinical-applications", "microbiome/plasmid-metagenomics-nanopore/tutorial"]}<br><br> video: {"captions"=>["shiltemann"], "date"=>"2021-02-15", "length"=>"20M", "link"=>"bZfEyd87xCE", "speakers"=>["miaomiaozhou88"], "name"=>"wetlab/miseq"} -->
+
+
+
+
+
+
+
+<!-- determine the next archived version of tutorial -->
+
+
+
+
+<div class="flex-row">
+ <div class="col-md-8">
+  <h3 class="session-section">MinION Wetlab demo (Demo)  </h3>
+  <div style="position:relative;padding-top:56.25%;">
+   <iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" data-src="https://www.youtube.com/embed/bZfEyd87xCE" class="lazyload" loading="lazy" frameborder="0" title="YouTube Embedded Video of the Tutorial" aria-label="YouTube Embedded Video of the Tutorial" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="">
+   </iframe>
+  </div>
+  <div style="margin-top:1em;" class="video-metadata">
+      <table>
+          
+          <tr>
+              <td><strong>Description:</strong></td>
+              <td><p>This video will show you the full process of sequencing a bacterial genome using the Oxford Nanopore MinION sequencer.</p>
+</td>
+          </tr>
+          
+          <tr>
+              <td><strong>Length:</strong></td>
+              <td>20 minutes</td>
+          </tr>
+          
+
+   
+   
+          <tr>
+              <td><strong>Captions:</strong></td>
+              <td> <a href="/video-library/contributors/shiltemann/">Saskia Hiltemann</a></td>
+          </tr>
+   
+   
+          <tr>
+              <td><strong>Created:</strong></td>
+              <td>15 February 2021</td>
+          </tr>
+          
+          
+          
+          <!-- this is for the embedded versions where they'll use their own1 support forum -->
+                    <tr>
+              <td><strong>Support:</strong></td>
+              <td>
+              <ul>
+                
+                
+                <li>Slack: <a href="https://gtnsmrgsbord.slack.com/archives/wetlab_miseq">#wetlab_miseq</a> <ul><li><a href="http://gxy.io/gtn-slack">Slack Invite</a></li></ul></li>
+		
+                <li><a href="https://gitter.im/Galaxy-Training-Network/Lobby">Gitter</a></li>
+                <li><a href="https://help.galaxyproject.org">Galaxy Help Forum</a></li>
+		
+              </ul>
+              </td>
+          </tr>
+          
+          
+          
+          <!--
+          
+          
+          -->
+      </table>
+
+  </div>
+  
+  Go to the <a href="/video-library/videos/wetlab/miseq/demo">video page</a> to see all versions.
+  
+ </div>
+ <!-- speaker(s) -->
+ 
+ 
+
+ <div class="col-md-3">
+  <center><h3 class="session-section">Speaker</h3></center>
+  
+
+
+
+
+
+
+
+<div class="hall-of-fame">
+    
+    
+    
+		<div class="hall-of-fame-hero" id="miaomiaozhou88">
+			
+			<a href="/video-library/contributors/miaomiaozhou88/">
+			
+            
+			<img src="https://avatars.githubusercontent.com/miaomiaozhou88" alt="" />
+            
+			<div class="name">
+				<b>Miaomiao Zhou</b>
+			</div>
+			
+			</a>
+			
+			<div class="affil">
+				
+				<a href="https://avans.nl">
+					Avans Hogeschool
+				</a>
+				
+			</div>
+		</div>
+	
+    
+</div>
+
+ </div>
+
+
+</div><!-- end video session -->
+
+
+
+        
+          
+          
+          
+          
+          <!-- session: {"title"=>"Microbiome Analysis using Nanopore Sequencing", "description"=>"In this 3-part module, you will learn about Nanopore long-read sequencing for the\ndetection of antimicrobial resistance (AMR). There is a short video showing you the\nwetlab steps involved in using the MinION sequencer. A talk about the clinical applications,\nand finally a practical tutorial walking you through an AMR analysis in Galaxy.\n", "videos"=>["wetlab/miseq/demo", "microbiome/clinical-applications", "microbiome/plasmid-metagenomics-nanopore/tutorial"]}<br><br> video: {"captions"=>["hexylena"], "date"=>"2021-02-15", "galaxy_version"=>"21.01", "length"=>"30M", "link"=>"icXMqMut6PY", "speakers"=>["aheikema"], "name"=>"microbiome/clinical-applications"} -->
+
+
+
+
+
+
+
+<!-- determine the next archived version of tutorial -->
+
+
+
+
+<div class="flex-row">
+ <div class="col-md-8">
+  <h3 class="session-section">Nanopore Whole Bacterial Genome Sequencing in a Clinical Setting (Lecture)  </h3>
+  <div style="position:relative;padding-top:56.25%;">
+   <iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" data-src="https://www.youtube.com/embed/icXMqMut6PY" class="lazyload" loading="lazy" frameborder="0" title="YouTube Embedded Video of the Tutorial" aria-label="YouTube Embedded Video of the Tutorial" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="">
+   </iframe>
+  </div>
+  <div style="margin-top:1em;" class="video-metadata">
+      <table>
+          
+          <tr>
+              <td><strong>Description:</strong></td>
+              <td><p>Nanopore Sequencing has many applications in a clinical setting. In this lecture, Astrid Heikema discusses how her group at the Erasmus Medical Center uses Nanopore for sequencing of bacterial Genomes.</p>
+</td>
+          </tr>
+          
+          <tr>
+              <td><strong>Length:</strong></td>
+              <td>30 minutes</td>
+          </tr>
+          
+
+   
+   
+          <tr>
+              <td><strong>Captions:</strong></td>
+              <td> <a href="/video-library/contributors/hexylena/">Helena Rasche</a></td>
+          </tr>
+   
+   
+          <tr>
+              <td><strong>Created:</strong></td>
+              <td>15 February 2021</td>
+          </tr>
+          
+          
+          
+          <!-- this is for the embedded versions where they'll use their own1 support forum -->
+                    <tr>
+              <td><strong>Support:</strong></td>
+              <td>
+              <ul>
+                
+                
+                <li>Slack: <a href="https://gtnsmrgsbord.slack.com/archives/microbiome_clinical-applications">#microbiome_clinical-applications</a> <ul><li><a href="http://gxy.io/gtn-slack">Slack Invite</a></li></ul></li>
+		
+                <li><a href="https://gitter.im/Galaxy-Training-Network/Lobby">Gitter</a></li>
+                <li><a href="https://help.galaxyproject.org">Galaxy Help Forum</a></li>
+		
+              </ul>
+              </td>
+          </tr>
+          
+          
+          
+          <!--
+          
+          
+          -->
+      </table>
+
+  </div>
+  
+  Go to the <a href="/video-library/videos/microbiome/clinical-applications">video page</a> to see all versions.
+  
+ </div>
+ <!-- speaker(s) -->
+ 
+ 
+
+ <div class="col-md-3">
+  <center><h3 class="session-section">Speaker</h3></center>
+  
+
+
+
+
+
+
+
+<div class="hall-of-fame">
+    
+    
+    
+		<div class="hall-of-fame-hero" id="aheikema">
+			
+			<a href="/video-library/contributors/aheikema/">
+			
+            
+            <img src="/video-library/assets/images/instructors/astrid.jpeg" alt="" />
+            
+			<div class="name">
+				<b>Astrid Heikema</b>
+			</div>
+			
+			</a>
+			
+			<div class="affil">
+				
+				<a href="https://erasmusmc.nl">
+					Erasmus Medical Center
+				</a>
+				
+			</div>
+		</div>
+	
+    
+</div>
+
+ </div>
+
+
+</div><!-- end video session -->
+
+
+
+        
+          
+          
+          
+          
+          <!-- session: {"title"=>"Microbiome Analysis using Nanopore Sequencing", "description"=>"In this 3-part module, you will learn about Nanopore long-read sequencing for the\ndetection of antimicrobial resistance (AMR). There is a short video showing you the\nwetlab steps involved in using the MinION sequencer. A talk about the clinical applications,\nand finally a practical tutorial walking you through an AMR analysis in Galaxy.\n", "videos"=>["wetlab/miseq/demo", "microbiome/clinical-applications", "microbiome/plasmid-metagenomics-nanopore/tutorial"]}<br><br> video: {"captions"=>["bebatut"], "date"=>"2021-02-15", "galaxy_version"=>"21.01", "length"=>"45M", "link"=>"ECIl8ZU1Wko", "speakers"=>["willemdek11"], "name"=>"Antibiotic resistance detection"} -->
+
+
+
+
+
+
+
+<!-- determine the next archived version of tutorial -->
+
+
+
+
+<div class="flex-row">
+ <div class="col-md-8">
+  <h3 class="session-section">Antibiotic resistance detection (Tutorial)  </h3>
+  <div style="position:relative;padding-top:56.25%;">
+   <iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" data-src="https://www.youtube.com/embed/ECIl8ZU1Wko" class="lazyload" loading="lazy" frameborder="0" title="YouTube Embedded Video of the Tutorial" aria-label="YouTube Embedded Video of the Tutorial" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="">
+   </iframe>
+  </div>
+  <div style="margin-top:1em;" class="video-metadata">
+      <table>
+          
+          <tr>
+              <td><strong>Description:</strong></td>
+              <td><p>This tutorial will guide you through the process of assembling your Nanopore-sequenced bacterial samples and determining the presence of antibiotic resistance genes.</p>
+</td>
+          </tr>
+          
+          <tr>
+              <td><strong>Length:</strong></td>
+              <td>45 minutes</td>
+          </tr>
+          
+
+   
+   
+          <tr>
+              <td><strong>Captions:</strong></td>
+              <td> <a href="/video-library/contributors/bebatut/">Bérénice Batut</a></td>
+          </tr>
+   
+   
+          <tr>
+              <td><strong>Created:</strong></td>
+              <td>15 February 2021</td>
+          </tr>
+          
+          
+          
+          <tr>
+              <td><strong>Materials:</strong></td>
+              <td>
+                <ul class="plain-text-list">
+                    
+                    <li>
+                        
+                            <img style="height: 1em" src="/video-library/assets/fa/tutorial.svg" alt="assets/fa/tutorial.svg" aria-hidden="true" />
+                            
+                        
+
+                        
+                        
+				Tutorial:
+                
+				<a href="https://training.galaxyproject.org/archive/2021-02-01/topics/microbiome/tutorials/plasmid-metagenomics-nanopore/tutorial.html?utm_source=schedule&amp;utm_medium=click&amp;utm_campaign=video-library">Version in Video</a>
+                
+				<!-- We allow overriding specific materials to their archival versions, hiding the "current" link. -->
+				
+				|
+				<a href="https://training.galaxyproject.org/topics/microbiome/tutorials/plasmid-metagenomics-nanopore/tutorial.html?utm_source=schedule&amp;utm_medium=click&amp;utm_campaign=video-library">Latest Version</a>
+				
+
+				
+				<br />
+				<img style="height: 1em" src="/video-library/assets/fa/circle-question-regular.svg" alt="assets/fa/circle-question-regular.svg" aria-hidden="true" />
+				
+				<a href="https://training.galaxyproject.org/topics/microbiome/tutorials/plasmid-metagenomics-nanopore/faqs/?utm_source=schedule&amp;utm_medium=click&amp;utm_campaign=video-library">FAQs</a>
+				
+                        
+                    </li>
+                
+                    <li>
+                        
+
+                        
+                        
+				Related Tutorial:
+                
+				<a href="https://training.galaxyproject.org/archive/2021-02-01/topics/microbiome/tutorials/nanopore-16S-metagenomics/tutorial.html?utm_source=schedule&amp;utm_medium=click&amp;utm_campaign=video-library">Version in Video</a>
+                
+				<!-- We allow overriding specific materials to their archival versions, hiding the "current" link. -->
+				
+				|
+				<a href="https://training.galaxyproject.org/topics/microbiome/tutorials/nanopore-16S-metagenomics/tutorial.html?utm_source=schedule&amp;utm_medium=click&amp;utm_campaign=video-library">Latest Version</a>
+				
+
+				
+                        
+                    </li>
+                
+                </ul>
+              </td>
+          </tr>
+          
+          <!-- this is for the embedded versions where they'll use their own1 support forum -->
+                    <tr>
+              <td><strong>Support:</strong></td>
+              <td>
+              <ul>
+                
+                
+                <li>Slack: <a href="https://gtnsmrgsbord.slack.com/archives/microbiome_plasmid-metagenomics-nanopore">#microbiome_plasmid-metagenomics-nanopore</a> <ul><li><a href="http://gxy.io/gtn-slack">Slack Invite</a></li></ul></li>
+		
+                <li><a href="https://gitter.im/Galaxy-Training-Network/Lobby">Gitter</a></li>
+                <li><a href="https://help.galaxyproject.org">Galaxy Help Forum</a></li>
+		
+              </ul>
+              </td>
+          </tr>
+          
+          
+          <tr>
+              <td><strong>Supported Servers:</strong></td>
+      <td>
+                
+                
+
+                
+                  Known Working
+                  <ul>
+                      
+                      <li><a href="https://usegalaxy.eu?utm_source=video&amp;utm_medium=click&amp;utm_campaign=video-library">UseGalaxy.eu</a>
+	⭐️
+	
+	
+		      </li>
+                      
+                  </ul>
+                  
+
+                
+                  Possibly Working
+                  <ul>
+                      
+                      <li><a href="https://usegalaxy.be/?utm_source=video&amp;utm_medium=click&amp;utm_campaign=video-library">UseGalaxy.be</a> </li>
+
+                      
+                      <li><a href="https://usegalaxy.no/?utm_source=video&amp;utm_medium=click&amp;utm_campaign=video-library">UseGalaxy.no</a> </li>
+
+                      
+                      <li><a href="https://usegalaxy.org?utm_source=video&amp;utm_medium=click&amp;utm_campaign=video-library">UseGalaxy.org (Main)</a> </li>
+
+                      
+                      <li><a href="https://usegalaxy.org.au?utm_source=video&amp;utm_medium=click&amp;utm_campaign=video-library">UseGalaxy.org.au</a> </li>
+
+                      
+                  </ul>
+                  
+              </td>
+          </tr>
+          
+          
+          <tr>
+              <td><strong>Learning Objectives:</strong></td>
+              <td>
+                  <ul>
+                      
+                      <li>Perform Quality control on your reads</li>
+                      
+                      <li>Assemble a genome with Minimap2/Miniasm/Racon</li>
+                      
+                      <li>Determine the structure of the genome(s)</li>
+                      
+                      <li>Scan for antimicrobial resistance genes with Staramr</li>
+                      
+                  </ul>
+              </td>
+          </tr>
+          
+          <!--
+          
+          
+          <tr>
+              <td><strong>Finished this tutorial as part of GTN Tapas?</strong></td>
+              <td>
+              <ol>
+                
+                
+                <li><a href="https://training.galaxyproject.org/training-material/faqs/galaxy/histories_sharing.html?utm_source=schedule&utm_medium=click&utm_campaign=video-library">Share your history</a> (if applicable)</li>
+                <li>Copy the URL</li>
+                <li>Run the command <code>/completed</code> with the URL to your shared history, in <a href="https://gtnsmrgsbord.slack.com/archives/microbiome_plasmid-metagenomics-nanopore">#microbiome_plasmid-metagenomics-nanopore</a></li>
+              </ol>
+              </td>
+          </tr>
+          
+          -->
+      </table>
+
+  </div>
+  
+  Go to the <a href="/video-library/videos/microbiome/plasmid-metagenomics-nanopore/tutorial">video page</a> to see all versions.
+  
+ </div>
+ <!-- speaker(s) -->
+ 
+ 
+
+ <div class="col-md-3">
+  <center><h3 class="session-section">Speaker</h3></center>
+  
+
+
+
+
+
+
+
+<div class="hall-of-fame">
+    
+    
+    
+		<div class="hall-of-fame-hero" id="willemdek11">
+			
+			<a href="/video-library/contributors/willemdek11/">
+			
+            
+			<img src="https://avatars.githubusercontent.com/willemdek11" alt="" />
+            
+			<div class="name">
+				<b>Willem de Koning</b>
+			</div>
+			
+			</a>
+			
+			<div class="affil">
+				
+				<a href="https://erasmusmc.nl">
+					Erasmus Medical Center
+				</a>
+				
+			</div>
+		</div>
+	
+    
+</div>
+
+ </div>
+
+
+</div><!-- end video session -->
+
+
+
+        
+        Go to <a href="/video-library/sessions/microbiome/nanopore/">session page</a>.
+      
+
+
+      <!-- Instructors -->
+      
+
+      <!-- Supporting Servers -->
+
+      <!-- Resources -->
+
+    </div><!-- end accordion body -->
+  </div><!-- end collapse -->
+</div><!-- end accordion item (training session) -->
+
+
+
+  
+
+  
+  <h3 style="text-transform:capitalize;" id="wetlab">Wetlab</h3>
+  
+  
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+<div class="accordion-item">
+  
+  <div class="accordion-header" id="headingwetlab0">
+   <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapsewetlab0" aria-expanded="false" aria-controls="collapsewetlab0">
+        Microbiome Analysis using Nanopore Sequencing
+        
+   </button>
+  </div>
+
+  <div id="collapsewetlab0" class="accordion-collapse collapse " aria-labelledby="headingwetlab0" data-bs-parent="#accordionwetlab">
+
+    <div class="accordion-body">
+
+      <!-- Video -->
+      
+        <p>In this 3-part module, you will learn about Nanopore long-read sequencing for the
+detection of antimicrobial resistance (AMR). There is a short video showing you the
+wetlab steps involved in using the MinION sequencer. A talk about the clinical applications,
+and finally a practical tutorial walking you through an AMR analysis in Galaxy.
+</p>
+        
+          
+          
+          
+          
+          <!-- session: {"title"=>"Microbiome Analysis using Nanopore Sequencing", "description"=>"In this 3-part module, you will learn about Nanopore long-read sequencing for the\ndetection of antimicrobial resistance (AMR). There is a short video showing you the\nwetlab steps involved in using the MinION sequencer. A talk about the clinical applications,\nand finally a practical tutorial walking you through an AMR analysis in Galaxy.\n", "videos"=>["wetlab/miseq/demo", "microbiome/clinical-applications", "microbiome/plasmid-metagenomics-nanopore/tutorial"]}<br><br> video: {"captions"=>["shiltemann"], "date"=>"2021-02-15", "length"=>"20M", "link"=>"bZfEyd87xCE", "speakers"=>["miaomiaozhou88"], "name"=>"wetlab/miseq"} -->
+
+
+
+
+
+
+
+<!-- determine the next archived version of tutorial -->
+
+
+
+
+<div class="flex-row">
+ <div class="col-md-8">
+  <h3 class="session-section">MinION Wetlab demo (Demo)  </h3>
+  <div style="position:relative;padding-top:56.25%;">
+   <iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" data-src="https://www.youtube.com/embed/bZfEyd87xCE" class="lazyload" loading="lazy" frameborder="0" title="YouTube Embedded Video of the Tutorial" aria-label="YouTube Embedded Video of the Tutorial" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="">
+   </iframe>
+  </div>
+  <div style="margin-top:1em;" class="video-metadata">
+      <table>
+          
+          <tr>
+              <td><strong>Description:</strong></td>
+              <td><p>This video will show you the full process of sequencing a bacterial genome using the Oxford Nanopore MinION sequencer.</p>
+</td>
+          </tr>
+          
+          <tr>
+              <td><strong>Length:</strong></td>
+              <td>20 minutes</td>
+          </tr>
+          
+
+   
+   
+          <tr>
+              <td><strong>Captions:</strong></td>
+              <td> <a href="/video-library/contributors/shiltemann/">Saskia Hiltemann</a></td>
+          </tr>
+   
+   
+          <tr>
+              <td><strong>Created:</strong></td>
+              <td>15 February 2021</td>
+          </tr>
+          
+          
+          
+          <!-- this is for the embedded versions where they'll use their own1 support forum -->
+                    <tr>
+              <td><strong>Support:</strong></td>
+              <td>
+              <ul>
+                
+                
+                <li>Slack: <a href="https://gtnsmrgsbord.slack.com/archives/wetlab_miseq">#wetlab_miseq</a> <ul><li><a href="http://gxy.io/gtn-slack">Slack Invite</a></li></ul></li>
+		
+                <li><a href="https://gitter.im/Galaxy-Training-Network/Lobby">Gitter</a></li>
+                <li><a href="https://help.galaxyproject.org">Galaxy Help Forum</a></li>
+		
+              </ul>
+              </td>
+          </tr>
+          
+          
+          
+          <!--
+          
+          
+          -->
+      </table>
+
+  </div>
+  
+  Go to the <a href="/video-library/videos/wetlab/miseq/demo">video page</a> to see all versions.
+  
+ </div>
+ <!-- speaker(s) -->
+ 
+ 
+
+ <div class="col-md-3">
+  <center><h3 class="session-section">Speaker</h3></center>
+  
+
+
+
+
+
+
+
+<div class="hall-of-fame">
+    
+    
+    
+		<div class="hall-of-fame-hero" id="miaomiaozhou88">
+			
+			<a href="/video-library/contributors/miaomiaozhou88/">
+			
+            
+			<img src="https://avatars.githubusercontent.com/miaomiaozhou88" alt="" />
+            
+			<div class="name">
+				<b>Miaomiao Zhou</b>
+			</div>
+			
+			</a>
+			
+			<div class="affil">
+				
+				<a href="https://avans.nl">
+					Avans Hogeschool
+				</a>
+				
+			</div>
+		</div>
+	
+    
+</div>
+
+ </div>
+
+
+</div><!-- end video session -->
+
+
+
+        
+          
+          
+          
+          
+          <!-- session: {"title"=>"Microbiome Analysis using Nanopore Sequencing", "description"=>"In this 3-part module, you will learn about Nanopore long-read sequencing for the\ndetection of antimicrobial resistance (AMR). There is a short video showing you the\nwetlab steps involved in using the MinION sequencer. A talk about the clinical applications,\nand finally a practical tutorial walking you through an AMR analysis in Galaxy.\n", "videos"=>["wetlab/miseq/demo", "microbiome/clinical-applications", "microbiome/plasmid-metagenomics-nanopore/tutorial"]}<br><br> video: {"captions"=>["hexylena"], "date"=>"2021-02-15", "galaxy_version"=>"21.01", "length"=>"30M", "link"=>"icXMqMut6PY", "speakers"=>["aheikema"], "name"=>"microbiome/clinical-applications"} -->
+
+
+
+
+
+
+
+<!-- determine the next archived version of tutorial -->
+
+
+
+
+<div class="flex-row">
+ <div class="col-md-8">
+  <h3 class="session-section">Nanopore Whole Bacterial Genome Sequencing in a Clinical Setting (Lecture)  </h3>
+  <div style="position:relative;padding-top:56.25%;">
+   <iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" data-src="https://www.youtube.com/embed/icXMqMut6PY" class="lazyload" loading="lazy" frameborder="0" title="YouTube Embedded Video of the Tutorial" aria-label="YouTube Embedded Video of the Tutorial" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="">
+   </iframe>
+  </div>
+  <div style="margin-top:1em;" class="video-metadata">
+      <table>
+          
+          <tr>
+              <td><strong>Description:</strong></td>
+              <td><p>Nanopore Sequencing has many applications in a clinical setting. In this lecture, Astrid Heikema discusses how her group at the Erasmus Medical Center uses Nanopore for sequencing of bacterial Genomes.</p>
+</td>
+          </tr>
+          
+          <tr>
+              <td><strong>Length:</strong></td>
+              <td>30 minutes</td>
+          </tr>
+          
+
+   
+   
+          <tr>
+              <td><strong>Captions:</strong></td>
+              <td> <a href="/video-library/contributors/hexylena/">Helena Rasche</a></td>
+          </tr>
+   
+   
+          <tr>
+              <td><strong>Created:</strong></td>
+              <td>15 February 2021</td>
+          </tr>
+          
+          
+          
+          <!-- this is for the embedded versions where they'll use their own1 support forum -->
+                    <tr>
+              <td><strong>Support:</strong></td>
+              <td>
+              <ul>
+                
+                
+                <li>Slack: <a href="https://gtnsmrgsbord.slack.com/archives/microbiome_clinical-applications">#microbiome_clinical-applications</a> <ul><li><a href="http://gxy.io/gtn-slack">Slack Invite</a></li></ul></li>
+		
+                <li><a href="https://gitter.im/Galaxy-Training-Network/Lobby">Gitter</a></li>
+                <li><a href="https://help.galaxyproject.org">Galaxy Help Forum</a></li>
+		
+              </ul>
+              </td>
+          </tr>
+          
+          
+          
+          <!--
+          
+          
+          -->
+      </table>
+
+  </div>
+  
+  Go to the <a href="/video-library/videos/microbiome/clinical-applications">video page</a> to see all versions.
+  
+ </div>
+ <!-- speaker(s) -->
+ 
+ 
+
+ <div class="col-md-3">
+  <center><h3 class="session-section">Speaker</h3></center>
+  
+
+
+
+
+
+
+
+<div class="hall-of-fame">
+    
+    
+    
+		<div class="hall-of-fame-hero" id="aheikema">
+			
+			<a href="/video-library/contributors/aheikema/">
+			
+            
+            <img src="/video-library/assets/images/instructors/astrid.jpeg" alt="" />
+            
+			<div class="name">
+				<b>Astrid Heikema</b>
+			</div>
+			
+			</a>
+			
+			<div class="affil">
+				
+				<a href="https://erasmusmc.nl">
+					Erasmus Medical Center
+				</a>
+				
+			</div>
+		</div>
+	
+    
+</div>
+
+ </div>
+
+
+</div><!-- end video session -->
+
+
+
+        
+          
+          
+          
+          
+          <!-- session: {"title"=>"Microbiome Analysis using Nanopore Sequencing", "description"=>"In this 3-part module, you will learn about Nanopore long-read sequencing for the\ndetection of antimicrobial resistance (AMR). There is a short video showing you the\nwetlab steps involved in using the MinION sequencer. A talk about the clinical applications,\nand finally a practical tutorial walking you through an AMR analysis in Galaxy.\n", "videos"=>["wetlab/miseq/demo", "microbiome/clinical-applications", "microbiome/plasmid-metagenomics-nanopore/tutorial"]}<br><br> video: {"captions"=>["bebatut"], "date"=>"2021-02-15", "galaxy_version"=>"21.01", "length"=>"45M", "link"=>"ECIl8ZU1Wko", "speakers"=>["willemdek11"], "name"=>"Antibiotic resistance detection"} -->
+
+
+
+
+
+
+
+<!-- determine the next archived version of tutorial -->
+
+
+
+
+<div class="flex-row">
+ <div class="col-md-8">
+  <h3 class="session-section">Antibiotic resistance detection (Tutorial)  </h3>
+  <div style="position:relative;padding-top:56.25%;">
+   <iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" data-src="https://www.youtube.com/embed/ECIl8ZU1Wko" class="lazyload" loading="lazy" frameborder="0" title="YouTube Embedded Video of the Tutorial" aria-label="YouTube Embedded Video of the Tutorial" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="">
+   </iframe>
+  </div>
+  <div style="margin-top:1em;" class="video-metadata">
+      <table>
+          
+          <tr>
+              <td><strong>Description:</strong></td>
+              <td><p>This tutorial will guide you through the process of assembling your Nanopore-sequenced bacterial samples and determining the presence of antibiotic resistance genes.</p>
+</td>
+          </tr>
+          
+          <tr>
+              <td><strong>Length:</strong></td>
+              <td>45 minutes</td>
+          </tr>
+          
+
+   
+   
+          <tr>
+              <td><strong>Captions:</strong></td>
+              <td> <a href="/video-library/contributors/bebatut/">Bérénice Batut</a></td>
+          </tr>
+   
+   
+          <tr>
+              <td><strong>Created:</strong></td>
+              <td>15 February 2021</td>
+          </tr>
+          
+          
+          
+          <tr>
+              <td><strong>Materials:</strong></td>
+              <td>
+                <ul class="plain-text-list">
+                    
+                    <li>
+                        
+                            <img style="height: 1em" src="/video-library/assets/fa/tutorial.svg" alt="assets/fa/tutorial.svg" aria-hidden="true" />
+                            
+                        
+
+                        
+                        
+				Tutorial:
+                
+				<a href="https://training.galaxyproject.org/archive/2021-02-01/topics/microbiome/tutorials/plasmid-metagenomics-nanopore/tutorial.html?utm_source=schedule&amp;utm_medium=click&amp;utm_campaign=video-library">Version in Video</a>
+                
+				<!-- We allow overriding specific materials to their archival versions, hiding the "current" link. -->
+				
+				|
+				<a href="https://training.galaxyproject.org/topics/microbiome/tutorials/plasmid-metagenomics-nanopore/tutorial.html?utm_source=schedule&amp;utm_medium=click&amp;utm_campaign=video-library">Latest Version</a>
+				
+
+				
+				<br />
+				<img style="height: 1em" src="/video-library/assets/fa/circle-question-regular.svg" alt="assets/fa/circle-question-regular.svg" aria-hidden="true" />
+				
+				<a href="https://training.galaxyproject.org/topics/microbiome/tutorials/plasmid-metagenomics-nanopore/faqs/?utm_source=schedule&amp;utm_medium=click&amp;utm_campaign=video-library">FAQs</a>
+				
+                        
+                    </li>
+                
+                    <li>
+                        
+
+                        
+                        
+				Related Tutorial:
+                
+				<a href="https://training.galaxyproject.org/archive/2021-02-01/topics/microbiome/tutorials/nanopore-16S-metagenomics/tutorial.html?utm_source=schedule&amp;utm_medium=click&amp;utm_campaign=video-library">Version in Video</a>
+                
+				<!-- We allow overriding specific materials to their archival versions, hiding the "current" link. -->
+				
+				|
+				<a href="https://training.galaxyproject.org/topics/microbiome/tutorials/nanopore-16S-metagenomics/tutorial.html?utm_source=schedule&amp;utm_medium=click&amp;utm_campaign=video-library">Latest Version</a>
+				
+
+				
+                        
+                    </li>
+                
+                </ul>
+              </td>
+          </tr>
+          
+          <!-- this is for the embedded versions where they'll use their own1 support forum -->
+                    <tr>
+              <td><strong>Support:</strong></td>
+              <td>
+              <ul>
+                
+                
+                <li>Slack: <a href="https://gtnsmrgsbord.slack.com/archives/microbiome_plasmid-metagenomics-nanopore">#microbiome_plasmid-metagenomics-nanopore</a> <ul><li><a href="http://gxy.io/gtn-slack">Slack Invite</a></li></ul></li>
+		
+                <li><a href="https://gitter.im/Galaxy-Training-Network/Lobby">Gitter</a></li>
+                <li><a href="https://help.galaxyproject.org">Galaxy Help Forum</a></li>
+		
+              </ul>
+              </td>
+          </tr>
+          
+          
+          <tr>
+              <td><strong>Supported Servers:</strong></td>
+      <td>
+                
+                
+
+                
+                  Known Working
+                  <ul>
+                      
+                      <li><a href="https://usegalaxy.eu?utm_source=video&amp;utm_medium=click&amp;utm_campaign=video-library">UseGalaxy.eu</a>
+	⭐️
+	
+	
+		      </li>
+                      
+                  </ul>
+                  
+
+                
+                  Possibly Working
+                  <ul>
+                      
+                      <li><a href="https://usegalaxy.be/?utm_source=video&amp;utm_medium=click&amp;utm_campaign=video-library">UseGalaxy.be</a> </li>
+
+                      
+                      <li><a href="https://usegalaxy.no/?utm_source=video&amp;utm_medium=click&amp;utm_campaign=video-library">UseGalaxy.no</a> </li>
+
+                      
+                      <li><a href="https://usegalaxy.org?utm_source=video&amp;utm_medium=click&amp;utm_campaign=video-library">UseGalaxy.org (Main)</a> </li>
+
+                      
+                      <li><a href="https://usegalaxy.org.au?utm_source=video&amp;utm_medium=click&amp;utm_campaign=video-library">UseGalaxy.org.au</a> </li>
+
+                      
+                  </ul>
+                  
+              </td>
+          </tr>
+          
+          
+          <tr>
+              <td><strong>Learning Objectives:</strong></td>
+              <td>
+                  <ul>
+                      
+                      <li>Perform Quality control on your reads</li>
+                      
+                      <li>Assemble a genome with Minimap2/Miniasm/Racon</li>
+                      
+                      <li>Determine the structure of the genome(s)</li>
+                      
+                      <li>Scan for antimicrobial resistance genes with Staramr</li>
+                      
+                  </ul>
+              </td>
+          </tr>
+          
+          <!--
+          
+          
+          <tr>
+              <td><strong>Finished this tutorial as part of GTN Tapas?</strong></td>
+              <td>
+              <ol>
+                
+                
+                <li><a href="https://training.galaxyproject.org/training-material/faqs/galaxy/histories_sharing.html?utm_source=schedule&utm_medium=click&utm_campaign=video-library">Share your history</a> (if applicable)</li>
+                <li>Copy the URL</li>
+                <li>Run the command <code>/completed</code> with the URL to your shared history, in <a href="https://gtnsmrgsbord.slack.com/archives/microbiome_plasmid-metagenomics-nanopore">#microbiome_plasmid-metagenomics-nanopore</a></li>
+              </ol>
+              </td>
+          </tr>
+          
+          -->
+      </table>
+
+  </div>
+  
+  Go to the <a href="/video-library/videos/microbiome/plasmid-metagenomics-nanopore/tutorial">video page</a> to see all versions.
+  
+ </div>
+ <!-- speaker(s) -->
+ 
+ 
+
+ <div class="col-md-3">
+  <center><h3 class="session-section">Speaker</h3></center>
+  
+
+
+
+
+
+
+
+<div class="hall-of-fame">
+    
+    
+    
+		<div class="hall-of-fame-hero" id="willemdek11">
+			
+			<a href="/video-library/contributors/willemdek11/">
+			
+            
+			<img src="https://avatars.githubusercontent.com/willemdek11" alt="" />
+            
+			<div class="name">
+				<b>Willem de Koning</b>
+			</div>
+			
+			</a>
+			
+			<div class="affil">
+				
+				<a href="https://erasmusmc.nl">
+					Erasmus Medical Center
+				</a>
+				
+			</div>
+		</div>
+	
+    
+</div>
+
+ </div>
+
+
+</div><!-- end video session -->
+
+
+
+        
+        Go to <a href="/video-library/sessions/microbiome/nanopore/">session page</a>.
+      
+
+
+      <!-- Instructors -->
+      
+
+      <!-- Supporting Servers -->
+
+      <!-- Resources -->
+
+    </div><!-- end accordion body -->
+  </div><!-- end collapse -->
+</div><!-- end accordion item (training session) -->
+
+
+
+  
+
+  
   <h3 style="text-transform:capitalize;" id="statistics">Statistics</h3>
   
   
