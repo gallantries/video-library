@@ -96,6 +96,7 @@ mapping:
                         - webinar
                         - wetlab
                         - workflowhub
+                        - materials-science
             versions:
                 type: seq
                 sequence:
