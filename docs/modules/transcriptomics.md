@@ -29,5 +29,5 @@ program:
   other:
     title: Other trancriptomics tutorials
     trainings:
-      - video: metagenomics/metatranscriptomics
+      - video: microbiome/metatranscriptomics
 ---

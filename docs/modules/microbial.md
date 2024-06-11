@@ -6,25 +6,25 @@ program:
   intro:
     title: Taxonomic Profiling
     trainings:
-      - video: metagenomics/introduction/slides
-      - video: metagenomics/mothur-miseq-sop-short/tutorial
-      - video: metagenomics/taxonomic-profiling/tutorial
+      - video: microbiome/introduction/slides
+      - video: microbiome/mothur-miseq-sop-short/tutorial
+      - video: microbiome/taxonomic-profiling/tutorial
 
   nanopore:
     title: Microbiome Analysis using Nanopore Sequencing
     trainings:
       - video: wetlab/miseq/demo
-      - video: metagenomics/clinical-applications
-      - video: metagenomics/plasmid-metagenomics-nanopore/tutorial
-      - video: metagenomics/pathogen-detection-from-nanopore-foodborne-data/tutorial
-      - video: metagenomics/beer-data-analysis/tutorial
+      - video: microbiome/clinical-applications
+      - video: microbiome/plasmid-metagenomics-nanopore/tutorial
+      - video: microbiome/pathogen-detection-from-nanopore-foodborne-data/tutorial
+      - video: microbiome/beer-data-analysis/tutorial
 
   other:
     title: Other
     trainings:
-      - video: metagenomics/metagenomics-assembly/tutorial
+      - video: microbiome/metagenomics-assembly/tutorial
       - session: variant-analysis/tb-variant-analysis
-      - video: metagenomics/metatranscriptomics
+      - video: microbiome/metatranscriptomics
       - video: proteomics/metaproteomics/tutorial
 
 

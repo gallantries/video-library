@@ -7,29 +7,29 @@ program:
   amplicon:
     title: Taxonomic Profiling
     trainings:
-      - video: metagenomics/introduction/slides
-      - video: metagenomics/mothur-miseq-sop-short/tutorial
-      - video: metagenomics/taxonomic-profiling/tutorial
+      - video: microbiome/introduction/slides
+      - video: microbiome/mothur-miseq-sop-short/tutorial
+      - video: microbiome/taxonomic-profiling/tutorial
 
   assembly:
     title: Assembly
     trainings:
-      - video: metagenomics/metagenomics-assembly/tutorial
+      - video: microbiome/metagenomics-assembly/tutorial
 
 
   nanopore:
     title: Long-read microbiome sequencing
     trainings:
-      - video: metagenomics/pathogen-detection-from-nanopore-foodborne-data/tutorial
-      - video: metagenomics/beer-data-analysis/tutorial
+      - video: microbiome/pathogen-detection-from-nanopore-foodborne-data/tutorial
+      - video: microbiome/beer-data-analysis/tutorial
       - video: wetlab/miseq/demo
-      - video: metagenomics/clinical-applications
-      - video: metagenomics/plasmid-metagenomics-nanopore/tutorial
+      - video: microbiome/clinical-applications
+      - video: microbiome/plasmid-metagenomics-nanopore/tutorial
 
   other:
     title: Transcriptomics & Proteomics
     trainings:
-      - video: metagenomics/metatranscriptomics
+      - video: microbiome/metatranscriptomics
       - video: proteomics/metaproteomics/tutorial
 
 ---

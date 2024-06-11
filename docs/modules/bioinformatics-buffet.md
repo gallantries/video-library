@@ -36,8 +36,8 @@ program:
   day5:
     title: "Friday: Microbiome"
     trainings:
-      - session: metagenomics/mothur-miseq-sop-short
-      - session: metagenomics/nanopore
+      - session: microbiome/mothur-miseq-sop-short
+      - session: microbiome/nanopore
 
 
 

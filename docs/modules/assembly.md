@@ -14,7 +14,7 @@ program:
     title: Advanced Genome assembly
     trainings:
       - video: assembly/largegenome/tutorial
-      - video: metagenomics/metagenomics-assembly/tutorial
+      - video: microbiome/metagenomics-assembly/tutorial
 
   applied:
     title: Applied Genome assembly
