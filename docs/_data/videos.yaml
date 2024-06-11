@@ -3651,14 +3651,6 @@ variant-analysis/tb-variant-analysis/slides:
     link: yCC9EmLuyJg
     speakers:
     - pvanheus
-  - captions:
-    - pvanheus
-    date: '2024-06-11'
-    galaxy_version: '24.0'
-    length: 1H17M
-    link: "-nJPngFk36c"
-    speakers:
-    - pvanheus
 variant-analysis/tb-variant-analysis/tutorial:
   description: Variation in the genome of M. tuberculosis (Mtb) is associated with
     changes in phenotype, for example drug resistance and virulence. It is also useful
@@ -3680,6 +3672,14 @@ variant-analysis/tb-variant-analysis/tutorial:
     galaxy_version: '21.01'
     length: 40M
     link: G1DmquX6Wh8
+    speakers:
+    - pvanheus
+  - captions:
+    - pvanheus
+    date: '2024-06-11'
+    galaxy_version: '24.0'
+    length: 1H17M
+    link: "-nJPngFk36c"
     speakers:
     - pvanheus
 
