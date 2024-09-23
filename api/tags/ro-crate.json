@@ -120,10 +120,12 @@
       "description": null,
       "materials": [
         {
-          "link": "https://doi.org/10.5281/zenodo.7787488"
+          "link": "https://doi.org/10.5281/zenodo.7787488",
+          "title": "Slides from video"
         },
         {
-          "link": "https://about.workflowhub.eu/docs/registering-a-workflow/"
+          "link": "https://about.workflowhub.eu/docs/registering_workflows/registering-a-workflow/",
+          "title": "WorkflowHub documentation on registering a workflow"
         }
       ],
       "tags": [
